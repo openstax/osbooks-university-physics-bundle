@@ -1,0 +1,316 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Radioactive Decay</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58609</md:content-id>
+  <md:title>Radioactive Decay</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the decay of a radioactive substance in terms of its decay constant and half-life</item>
+<item>Use the radioactive decay law to estimate the age of a substance</item>
+<item>Explain the natural processes that allow the dating of living tissue using <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math></item>
+</list></md:abstract>
+  <md:uuid>01a68e92-6dff-4825-8959-1f2d46686e1a</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902917751">In 1896, Antoine <term class="no-emphasis">Becquerel</term> discovered that a uranium-rich rock emits invisible rays that can darken a photographic plate in an enclosed container. Scientists offer three arguments for the nuclear origin of these rays. First, the effects of the radiation do not vary with chemical state; that is, whether the emitting material is in the form of an element or compound. Second, the radiation does not vary with changes in temperature or pressure—both factors that in sufficient degree can affect electrons in an atom. Third, the very large energy of the invisible rays (up to hundreds of eV) is not consistent with atomic electron transitions (only a few eV). Today, this radiation is explained by the conversion of mass into energy deep within the nucleus of an atom. The spontaneous emission of radiation from nuclei is called nuclear <term>radioactivity</term> (<link target-id="CNX_UPhysics_43_03_Sign"/>).</para>
+<figure id="CNX_UPhysics_43_03_Sign">
+<media id="fs-id1170901581645" alt="A yellow triangle with a black outline, enclosing a fan shaped structure is shown. The “fan” is black and has three blades.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_43_03_Sign.jpg"/>
+</media>
+<caption>The international ionizing radiation symbol is universally recognized as the warning symbol for nuclear radiation.</caption>
+</figure>
+<section id="fs-id1170902795121">
+<title>Radioactive Decay Law</title>
+<para id="fs-id1170902845478">When an individual nucleus transforms into another with the emission of radiation, the nucleus is said to <term>decay</term>. Radioactive decay occurs for all nuclei with <m:math><m:mrow><m:mi>Z</m:mi><m:mo>&gt;</m:mo><m:mn>82</m:mn><m:mo>,</m:mo></m:mrow></m:math> and also for some unstable isotopes with <m:math><m:mrow><m:mi>Z</m:mi><m:mo>&lt;</m:mo><m:mn>83</m:mn><m:mo>.</m:mo></m:mrow></m:math> The decay rate is proportional to the number of original (undecayed) nuclei <emphasis effect="italics">N</emphasis> in a substance. The number of nuclei lost to decay, <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>d</m:mi><m:mi>N</m:mi></m:mrow></m:math> in time interval <emphasis effect="italics">dt</emphasis>, is written</para>
+<note id="fs-id1170903049863" class="equation-callout">
+<equation id="fs-id1170903038596"><label/><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>N</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>λ</m:mi><m:mi>N</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170901589182">where <m:math><m:mi>λ</m:mi></m:math> is called the <term>decay constant</term>. (The minus sign indicates the number of original nuclei decreases over time.) In other words, the more nuclei available to decay, the more that do decay (in time <emphasis effect="italics">dt</emphasis>). This equation can be rewritten as</para>
+<equation id="fs-id1170903045977"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>N</m:mi></m:mrow><m:mi>N</m:mi></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901581622">Integrating both sides of the equation, and defining <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> to be the number of nuclei at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, we obtain</para>
+<equation id="fs-id1170901578140"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>N</m:mi></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msup><m:mi>N</m:mi><m:mo>′</m:mo></m:msup></m:mrow><m:mi>N</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mi>λ</m:mi><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901641947">This gives us</para>
+<equation id="fs-id1170902793812"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mi>N</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902941793">Taking the left and right sides of the equation as a power of <emphasis effect="italics">e</emphasis>, we have the <term>radioactive decay law</term>.</para>
+<note id="fs-id1170902960891">
+<title>Radioactive Decay Law</title>
+<para id="fs-id1170902957184">The total number <emphasis effect="italics">N</emphasis> of radioactive nuclei remaining after time <emphasis effect="italics">t</emphasis> is</para>
+<equation id="fs-id1170902773953"><m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1170901650724">where <m:math><m:mi>λ</m:mi></m:math> is the decay constant for the particular nucleus.</para>
+</note>
+<para id="fs-id1170902956638">The total number of nuclei drops very rapidly at first, and then more slowly (<link target-id="CNX_UPhysics_43_03_DecayLaw"/>).</para>
+<figure id="CNX_UPhysics_43_03_DecayLaw">
+<media id="fs-id1170903038718" alt="A graph of N versus t is shown. It is labeled N equal to N subscript 0 e to the power minus lambda t. The value of N is maximum, N subscript 0, at t =0 and it reduces with time till it reaches 0. At t = T subscript half, N = N subscript 0 by 2 and at t = 2T subscript half, N = N subscript 0 by 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_43_03_DecayLaw.jpg"/>
+</media>
+<caption>A plot of the radioactive decay law demonstrates that the number of nuclei remaining in a decay sample drops dramatically during the first moments of decay.</caption>
+</figure>
+<para id="fs-id1170901602867">The <term>half-life</term> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> of a radioactive substance is defined as the time for half of the original nuclei to decay (or the time at which half of the original nuclei remain). The half-lives of unstable isotopes are shown in the chart of nuclides in <link target-id="CNX_UPhysics_43_01_Nuclides" document="m58607"/>. The number of radioactive nuclei remaining after an integer (<emphasis effect="italics">n</emphasis>) number of half-lives is therefore</para>
+<equation id="fs-id1170901576371"><m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1170901529384">If the decay constant (<m:math><m:mi>λ</m:mi></m:math>) is large, the half-life is small, and vice versa. To determine the relationship between these quantities, note that when <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:math>, then <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>. Thus, <link target-id="fs-id1170902793812"/> can be rewritten as</para>
+<equation id="fs-id1170902956478"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903015580">Dividing both sides by <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> and taking the natural logarithm yields</para>
+<equation id="fs-id1170903022259"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1170903088528">which reduces to</para>
+<note id="fs-id1170902776980" class="equation-callout">
+<equation id="fs-id1170903035526"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.693</m:mn></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170903071759">Thus, if we know the half-life <emphasis effect="italics">T</emphasis><sub>1/2</sub> of a radioactive substance, we can find its decay constant. The <term>lifetime</term> <m:math><m:mover accent="true"><m:mi>T</m:mi><m:mo>–</m:mo></m:mover></m:math> of a radioactive substance is defined as the average amount of time that a nucleus exists before decaying. The lifetime of a substance is just the reciprocal of the decay constant, written as</para>
+<note id="fs-id1170902740817" class="equation-callout">
+<equation id="fs-id1170901581381"><label/><m:math><m:mrow><m:mover accent="true"><m:mi>T</m:mi><m:mo stretchy="true">–</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>λ</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902737624">The <term>activity</term> <emphasis effect="italics">A</emphasis> is defined as the magnitude of the decay rate, or</para>
+<equation id="fs-id1170903132970"><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>N</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>λ</m:mi><m:mi>N</m:mi><m:mo>=</m:mo><m:mi>λ</m:mi><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902866926">The infinitesimal change <emphasis effect="italics">dN</emphasis> in the time interval <emphasis effect="italics">dt</emphasis> is negative because the number of parent (undecayed) particles is decreasing, so the activity (<emphasis effect="italics">A</emphasis>) is positive. Defining the initial activity as <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>λ</m:mi><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, we have</para>
+<note id="fs-id1170902621652" class="equation-callout">
+<equation id="fs-id1170902654438"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170903054279">Thus, the activity <emphasis effect="italics">A</emphasis> of a radioactive substance decreases exponentially with time (<link target-id="CNX_UPhysics_43_03_DecTime"/>).</para>
+<figure id="CNX_UPhysics_43_03_DecTime">
+<media id="fs-id1170902746018" alt="Figure a shows a graph of A versus t. It starts at point A subscript 0 and reduces with time. The rate of reduction decreases slowly till A is very close to 0, making a curved plot on the graph. The plot is labeled A = A subscript 0 e to the power minus lambda t. Figure b shows a graph of ln A versus t. It starts at ln A subscript 0 and slopes downwards in a straight line. The slope of the line is labeled minus lambda t.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_43_03_DecTime.jpg"/>
+</media>
+<caption>(a) A plot of the activity as a function of time (b) If we measure the activity at different times, we can plot ln <emphasis effect="italics">A</emphasis> versus <emphasis effect="italics">t</emphasis>, and obtain a straight line.</caption>
+</figure>
+<example id="fs-id1170902900509">
+<para id="fs-id1170901532505"><title>Decay Constant and Activity of Strontium-90</title>
+The half-life of strontium-90, <m:math><m:mrow><m:msubsup><m:mrow/><m:mrow><m:mn>38</m:mn></m:mrow><m:mrow><m:mn>90</m:mn></m:mrow></m:msubsup><m:mtext>Sr</m:mtext></m:mrow></m:math>, is 28.8 y. Find (a) its decay constant and (b) the initial activity of 1.00 g of the material.</para>
+<para id="fs-id1170902759305"><title>Strategy</title>
+We can find the decay constant directly from <link target-id="fs-id1170903035526"/>. To determine the activity, we first need to find the number of nuclei present.</para>
+<para id="fs-id1170902916917"><title>Solution</title></para>
+<list id="fs-id1170903086920" list-type="enumerated" number-style="lower-alpha">
+<item>The decay constant is found to be
+<equation id="fs-id1170902659449" class="unnumbered"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.693</m:mn></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>0.693</m:mn></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>yr</m:mtext></m:mrow><m:mrow><m:mn>3.16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7.61</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The atomic mass of <m:math><m:mrow><m:msubsup><m:mrow/><m:mrow><m:mn>38</m:mn></m:mrow><m:mn>90</m:mn></m:msubsup><m:mtext>S</m:mtext><m:mtext>r</m:mtext></m:mrow></m:math> is 89.91 g. Using Avogadro’s number <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mn>6.022</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>23</m:mn></m:mrow></m:msup></m:mrow></m:math> atoms/mol, we find the initial number of nuclei in 1.00 g of the material:
+<equation id="fs-id1170902864317" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow><m:mrow><m:mn>89.91</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6.70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>nuclei</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+From this, we find that the activity <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> for 1.00 g of strontium-90 is 
+<equation id="fs-id1170902738386" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>λ</m:mi><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7.61</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6.70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>21</m:mn></m:mrow></m:msup><m:mtext>nuclei</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>5.10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>decays/s</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+</example>
+<para id="fs-id1170902655896">Expressing <m:math><m:mi>λ</m:mi></m:math> in terms of the half-life of the substance, we get</para>
+<equation id="fs-id1170902778548"><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0.693</m:mn><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:msup><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−0.693</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902778204">Therefore, the activity is halved after one half-life. We can determine the decay constant <m:math><m:mi>λ</m:mi></m:math> by measuring the activity as a function of time. Taking the natural logarithm of the left and right sides of <link target-id="fs-id1170903132970"/>, we get</para>
+<note id="fs-id1170902704619" class="equation-callout">
+<equation id="fs-id1170901509547"><label/><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902766265">This equation follows the linear form <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math>. If we plot ln <emphasis effect="italics">A</emphasis> versus <emphasis effect="italics">t</emphasis>, we expect a straight line with slope <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>λ</m:mi></m:mrow></m:math> and <emphasis effect="italics">y</emphasis>-intercept <m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (<link target-id="CNX_UPhysics_43_03_DecTime"/>(b)). Activity <emphasis effect="italics">A</emphasis> is expressed in units of <term>becquerels</term> (Bq), where one <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Bq</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>decay per second</m:mtext></m:mrow></m:math>. This quantity can also be expressed in decays per minute or decays per year. One of the most common units for activity is the <term>curie (Ci)</term>, defined to be the activity of 1 g of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>226</m:mn></m:mrow></m:msup><m:mtext>Ra</m:mtext></m:mrow></m:math>. The relationship between the Bq and Ci is</para>
+<equation id="fs-id1170902752365" class="unnumbered"><label/><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Ci</m:mtext><m:mo>=</m:mo><m:mn>3.70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mtext>Bq</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<example id="fs-id1170902741033">
+<para id="fs-id1170902724074"><title>What is <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mn>14</m:mn></m:mstyle></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> Activity in Living Tissue?</title>
+Approximately <m:math><m:mrow><m:mn>20</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of the human body by mass is carbon. Calculate the activity due to <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> in 1.00 kg of carbon found in a living organism. Express the activity in units of Bq and Ci.</para>
+<para id="fs-id1170902660197"><title>Strategy</title>
+The activity of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> is determined using the equation <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>λ</m:mi><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, where <emphasis effect="italics">λ</emphasis> is the decay constant and <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the number of radioactive nuclei. The number of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> nuclei in a 1.00-kg sample is determined in two steps. First, we determine the number of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> nuclei using the concept of a mole. Second, we multiply this value by <m:math><m:mrow><m:mn>1.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup></m:mrow></m:math> (the known abundance of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> in a carbon sample from a living organism) to determine the number of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> nuclei in a living organism. The decay constant is determined from the known half-life of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> (available from <link target-id="CNX_UPhysics_43_01_Nuclides" document="m58607"/>).</para>
+<para id="fs-id1170903046114"><title>Solution</title>
+One mole of carbon has a mass of 12.0 g, since it is nearly pure <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math>. Thus, the number of carbon nuclei in a kilogram is</para>
+<equation id="fs-id1170903030601" class="unnumbered"><label/><m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mol</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1000</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903033833">The number of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> nuclei in 1 kg of carbon is therefore</para>
+<equation id="fs-id1170903050538" class="unnumbered"><label/><m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>25</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6.52</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>13</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903051470">Now we can find the activity <emphasis effect="italics">A</emphasis> by using the equation <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.693</m:mn><m:mspace width="0.2em"/><m:mi>N</m:mi></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Entering known values gives us</para>
+<equation id="fs-id1170902676818" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.693</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.52</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>5730</m:mn><m:mspace width="0.2em"/><m:mtext>y</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7.89</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>y</m:mtext></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1170903014025">or <m:math><m:mrow><m:mn>7.89</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>9</m:mn></m:msup></m:mrow></m:math> decays per year. To convert this to the unit Bq, we simply convert years to seconds. Thus,</para>
+<equation id="fs-id1170902746284" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7.89</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>y</m:mtext></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>1</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>y</m:mtext></m:mrow><m:mrow><m:mn>3.16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>250</m:mn><m:mspace width="0.2em"/><m:mtext>Bq</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903016094">or 250 decays per second. To express <emphasis effect="italics">A</emphasis> in curies, we use the definition of a curie,</para>
+<equation id="fs-id1170902763252" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>250</m:mn><m:mspace width="0.2em"/><m:mtext>Bq</m:mtext></m:mrow><m:mrow><m:mn>3.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Bq/Ci</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>6.76</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ci</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902779904">Thus,</para>
+<equation id="fs-id1170903010156" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>6.76</m:mn><m:mspace width="0.2em"/><m:mtext>nCi</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903049716"><title>Significance</title>
+Approximately <m:math><m:mrow><m:mn>20</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of the human body by weight is carbon. Hundreds of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> decays take place in the human body every second. Carbon-14 and other naturally occurring radioactive substances in the body compose a person’s background exposure to nuclear radiation. As we will see later in this chapter, this activity level is well below the maximum recommended dosages.</para>
+</example>
+</section>
+<section id="fs-id1170902758171">
+<title>Radioactive Dating</title>
+<para id="fs-id1170902913762"><emphasis effect="bold">Radioactive dating</emphasis> is a technique that uses naturally occurring radioactivity to determine the age of a material, such as a rock or an ancient artifact. The basic approach is to estimate the original number of nuclei in a material and the present number of nuclei in the material (after decay), and then use the known value of the decay constant <m:math><m:mi>λ</m:mi></m:math> and <link target-id="fs-id1170902793812"/> to calculate the total time of the decay, <emphasis effect="italics">t</emphasis>.</para>
+<para id="fs-id1170902915404">An important method of <term class="no-emphasis">radioactive dating</term> is <term>carbon-14 dating</term>. Carbon-14 nuclei are produced when high-energy solar radiation strikes <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext></m:mrow></m:math> nuclei in the upper atmosphere and subsequently decay with a half-life of 5730 years. Radioactive carbon has the same chemistry as stable carbon, so it combines with the ecosphere and eventually becomes part of every living organism. Carbon-14 has an abundance of 1.3 parts per trillion of normal carbon. Therefore, if you know the number of carbon nuclei in an object, you multiply that number by <m:math><m:mrow><m:mn>1.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup></m:mrow></m:math> to find the number of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> nuclei in that object. When an organism dies, carbon exchange with the environment ceases, and <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> is not replenished as it decays.</para>
+<para id="fs-id1170902872434">By comparing the abundance of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> in an artifact, such as mummy wrappings, with the normal abundance in living tissue, it is possible to determine the mummy’s age (or the time since the person’s death). Carbon-14 dating can be used for biological tissues as old as 50,000 years, but is generally most accurate for younger samples, since the abundance of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> nuclei in them is greater. Very old biological materials contain no <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> at all. The validity of carbon dating can be checked by other means, such as by historical knowledge or by tree-ring counting.</para>
+<example id="fs-id1170902885862">
+<para id="fs-id1170902792266"><title>An Ancient Burial Cave</title>
+In an ancient burial cave, your team of archaeologists discovers ancient wood furniture. Only <m:math><m:mrow><m:mn>80</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of the original <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> remains in the wood. How old is the furniture?</para>
+<para id="fs-id1170903035789"><title>Strategy</title>
+The problem statement implies that <m:math><m:mrow><m:mi>N</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.80</m:mn><m:mo>.</m:mo></m:mrow></m:math> Therefore, the equation <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> can be used to find the product, <m:math><m:mrow><m:mi>λ</m:mi><m:mi>t</m:mi></m:mrow></m:math>. We know the half-life of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> is 5730 y, so we also know the decay constant, and therefore the total decay time <emphasis effect="italics">t</emphasis>.</para>
+<para id="fs-id1170903044290"><title>Solution</title>
+Solving the equation <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> for <m:math><m:mrow><m:mi>N</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> gives us</para>
+<equation id="fs-id1170902848207" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>N</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901530381">Thus,</para>
+<equation id="fs-id1170901640155" class="unnumbered"><label/><m:math><m:mrow><m:mn>0.80</m:mn><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903048313">Taking the natural logarithm of both sides of the equation yields</para>
+<equation id="fs-id1170901582439" class="unnumbered"><label/><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mn>0.80</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>λ</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903008695">so that</para>
+<equation id="fs-id1170901571644" class="unnumbered"><label/><m:math><m:mrow><m:mn>−0.223</m:mn><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901642037">Rearranging the equation to isolate <emphasis effect="italics">t</emphasis> gives us</para>
+<equation id="fs-id1170901568827" class="unnumbered"><label/><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.223</m:mn></m:mrow><m:mi>λ</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903092907">where</para>
+<equation id="fs-id1170903084111" class="unnumbered"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.693</m:mn></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.693</m:mn></m:mrow><m:mrow><m:mn>5730</m:mn><m:mspace width="0.2em"/><m:mtext>y</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901510355">Combining this information yields</para>
+<equation id="fs-id1170903065011" class="unnumbered"><label/><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.223</m:mn></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>0.693</m:mn></m:mrow><m:mrow><m:mn>5730</m:mn><m:mspace width="0.2em"/><m:mtext>y</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1844</m:mn><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902908562"><title>Significance</title>
+The furniture is almost 2000 years old—an impressive discovery. The typical uncertainty on carbon-14 dating is about <m:math><m:mrow><m:mn>5</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>, so the furniture is anywhere between 1750 and 1950 years old. This date range must be confirmed by other evidence, such as historical records.</para>
+</example>
+<note id="fs-id1170903045673" class="check-understanding">
+<exercise id="fs-id1170903048895">
+<problem id="fs-id1170903048897">
+<para id="fs-id1170901606381"><emphasis effect="bold">Check Your Understanding</emphasis> A radioactive nuclide has a high decay rate. What does this mean for its half-life and activity?</para>
+</problem>
+<solution id="fs-id1170902779680">
+<para id="fs-id1170903021617">Half-life is inversely related to decay rate, so the half-life is short. Activity depends on both the number of decaying particles and the decay rate, so the activity can be great or small.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1170902907509" class="media-2">
+<para id="fs-id1170902660625">Visit the <link url="https://openstax.org/l/21raddatgame">Radioactive Dating Game</link> to learn about the types of radiometric dating and try your hand at dating some ancient objects.</para>
+</note>
+</section>
+<section id="fs-id1170903071731" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170903028564" list-type="bulleted" bullet-style="bullet">
+<item>In the decay of a radioactive substance, if the decay constant (<m:math><m:mi>λ</m:mi></m:math>) is large, the half-life is small, and vice versa.</item>
+<item>The radioactive decay law, <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>λ</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> uses the properties of radioactive substances to estimate the age of a substance.</item>
+<item>Radioactive carbon has the same chemistry as stable carbon, so it mixes into the ecosphere and eventually becomes part of every living organism. By comparing the abundance of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> in an artifact with the normal abundance in living tissue, it is possible to determine the artifact’s age.</item>
+</list>
+</section>
+<section id="fs-id1170903051580" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170902957110">
+<problem id="fs-id1170902957112">
+<para id="fs-id1170901529180">How is the initial activity rate of a radioactive substance related to its half-life?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901534170">
+<problem id="fs-id1170901559616">
+<para id="fs-id1170901559618">For the carbon dating described in this chapter, what important assumption is made about the time variation in the intensity of cosmic rays?</para>
+</problem>
+<solution id="fs-id1170901569275">
+<para id="fs-id1170901569278">That it is constant.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170901588633" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170903069675">
+<problem id="fs-id1170902921041">
+<para id="fs-id1170902921043">A sample of radioactive material is obtained from a very old rock. A plot ln<emphasis effect="italics">A</emphasis> verses <emphasis effect="italics">t</emphasis> yields a slope value of <m:math><m:mrow><m:mtext>−</m:mtext><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math> (see <link target-id="CNX_UPhysics_43_03_DecTime"/>(b)). What is the half-life of this material?</para>
+</problem>
+<solution id="fs-id1170902660969">
+<para id="fs-id1170903047591">The decay constant is equal to the negative value of the slope or <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> The half-life of the nuclei, and thus the material, is <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>693</m:mn><m:mspace width="0.2em"/><m:mtext>million years</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901568670">
+<problem id="fs-id1170903089676">
+<para id="fs-id1170903089678">Show that: <m:math><m:mrow><m:mover accent="true"><m:mi>T</m:mi><m:mo stretchy="true">–</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>λ</m:mtext></m:mfrac></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901514534">
+<problem id="fs-id1170901514537">
+<para id="fs-id1170901514539">The half-life of strontium-91, <m:math><m:mrow><m:msubsup><m:mrow/><m:mrow><m:mn>38</m:mn></m:mrow><m:mrow><m:mn>91</m:mn></m:mrow></m:msubsup><m:mtext>S</m:mtext><m:mtext>r</m:mtext></m:mrow></m:math> is 9.70 h. Find (a) its decay constant and (b) for an initial 1.00-g sample, the activity after 15 hours.</para>
+</problem>
+<solution id="fs-id1170903083411">
+<para id="fs-id1170903083413">a. The decay constant is <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>1.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>. b. Since strontium-91 has an atomic mass of 90.90 g, the number of nuclei in a 1.00-g sample is initially<newline/>
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>6.63</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>nuclei</m:mtext><m:mo>.</m:mo></m:mrow></m:math><newline/>
+The initial activity for strontium-91 is<newline/>
+<m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>λ</m:mi><m:msub><m:mi>N</m:mi><m:mn>0</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1.32</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>17</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>decays/s</m:mtext></m:mtd></m:mtr></m:mtable></m:math><newline/>
+The activity at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>15.0</m:mn><m:mspace width="0.2em"/><m:mtext>h</m:mtext><m:mo>=</m:mo><m:mn>5.40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> is<newline/>
+<m:math><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>4.51</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>decays/s</m:mtext><m:mo>.</m:mo></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901533766">
+<problem id="fs-id1170901533768">
+<para id="fs-id1170901533770">A sample of pure carbon-14 <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msub><m:msub><m:mrow/></m:msub><m:mo>=</m:mo><m:mn>5730</m:mn><m:mspace width="0.2em"/><m:mtext>y</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> has an activity of <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mspace width="0.2em"/><m:mtext>Ci</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the mass of the sample?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901642410">
+<problem id="fs-id1170901642412">
+<para id="fs-id1170901642414">A radioactive sample initially contains <m:math><m:mrow><m:mn>2.40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math> mol of a radioactive material whose half-life is 6.00 h. How many moles of the radioactive material remain after 6.00 h? After 12.0 h? After 36.0 h?</para>
+</problem>
+<solution id="fs-id1170901571304">
+<para id="fs-id1170901571306"><m:math><m:mrow><m:mn>1.20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>mol</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mn>6.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>mol</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mn>3.75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>4</m:mn></m:mrow></m:msup><m:mtext>mol</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903064269">
+<problem id="fs-id1170903064271">
+<para id="fs-id1170901513805">An old campfire is uncovered during an archaeological dig. Its charcoal is found to contain less than 1/1000 the normal amount of <m:math><m:mrow><m:msup><m:mrow/><m:mn>14</m:mn></m:msup><m:mtext>C</m:mtext></m:mrow></m:math>. Estimate the minimum age of the charcoal, noting that <m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>1024</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903070330">
+<problem id="fs-id1170903070332">
+<para id="fs-id1170903070334">Calculate the activity <m:math><m:mi>R</m:mi></m:math>, in curies of 1.00 g of <m:math><m:mrow><m:msup><m:mrow/><m:mn>226</m:mn></m:msup><m:mtext>R</m:mtext><m:mtext>a</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (b) Explain why your answer is not exactly 1.00 Ci, given that the curie was originally supposed to be exactly the activity of a gram of radium.</para>
+</problem>
+<solution id="fs-id1170903064994">
+<para id="fs-id1170903064996">a. 0.988 Ci; b. The half-life of <m:math><m:mrow><m:msup><m:mrow/><m:mn>226</m:mn></m:msup><m:mtext>R</m:mtext><m:mtext>a</m:mtext></m:mrow></m:math> is more precisely known than it was when the Ci unit was established.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901513982">
+<problem id="fs-id1170902907291">
+<para id="fs-id1170902907293">Natural uranium consists of <m:math><m:mrow><m:msup><m:mrow/><m:mn>235</m:mn></m:msup><m:mtext>U</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>percent abundance</m:mtext><m:mo>=</m:mo><m:mn>0.7200</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>3.12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−17</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msup><m:mrow/><m:mn>238</m:mn></m:msup><m:mtext>U</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>percent abundance</m:mtext><m:mo>=</m:mo><m:mn>99.27</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>4.92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−18</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> What were the values for percent abundance of <m:math><m:mrow><m:msup><m:mrow/><m:mn>235</m:mn></m:msup><m:mtext>U</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msup><m:mrow/><m:mn>238</m:mn></m:msup><m:mtext>U</m:mtext></m:mrow></m:math> when Earth formed <m:math><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup></m:mrow></m:math> years ago?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901509018">
+<problem id="fs-id1170901509020">
+<para id="fs-id1170903083846">World War II aircraft had instruments with glowing radium-painted dials. The activity of one such instrument was <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:math> Bq when new. (a) What mass of <m:math><m:mrow><m:msup><m:mrow/><m:mn>226</m:mn></m:msup><m:mtext>R</m:mtext><m:mtext>a</m:mtext></m:mrow></m:math> was present? (b) After some years, the phosphors on the dials deteriorated chemically, but the radium did not escape. What is the activity of this instrument 57.0 years after it was made?</para>
+</problem>
+<solution id="fs-id1170901596556">
+<para id="fs-id1170901596558">a. <m:math><m:mrow><m:mn>2.73</m:mn><m:mi>μ</m:mi><m:mtext>g</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>9.76</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Bq</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903064985">
+<problem id="fs-id1170901541515">
+<para id="fs-id1170901541517">The <m:math><m:mrow><m:msup><m:mrow/><m:mn>210</m:mn></m:msup><m:mtext>P</m:mtext><m:mtext>o</m:mtext></m:mrow></m:math> source used in a physics laboratory is labeled as having an activity of <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>μCi</m:mtext></m:mrow></m:math> on the date it was prepared. A student measures the radioactivity of this source with a Geiger counter and observes 1500 counts per minute. She notices that the source was prepared 120 days before her lab. What fraction of the decays is she observing with her apparatus?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901529460">
+<problem id="fs-id1170901529462">
+<para id="fs-id1170901529464">Armor-piercing shells with depleted uranium cores are fired by aircraft at tanks. (The high density of the uranium makes them effective.) The uranium is called depleted because it has had its <m:math><m:mrow><m:msup><m:mrow/><m:mn>235</m:mn></m:msup><m:mtext>U</m:mtext></m:mrow></m:math> removed for reactor use and is nearly pure <m:math><m:mrow><m:msup><m:mrow/><m:mn>238</m:mn></m:msup><m:mtext>U</m:mtext></m:mrow></m:math>. Depleted uranium has been erroneously called nonradioactive. To demonstrate that this is wrong: (a) Calculate the activity of 60.0 g of pure <m:math><m:mrow><m:msup><m:mrow/><m:mn>238</m:mn></m:msup><m:mtext>U</m:mtext></m:mrow></m:math>. (b) Calculate the activity of 60.0 g of natural uranium, neglecting the <m:math><m:mrow><m:msup><m:mrow/><m:mn>234</m:mn></m:msup><m:mtext>U</m:mtext></m:mrow></m:math> and all daughter nuclides.</para>
+</problem>
+<solution id="fs-id1170903098479">
+<para id="fs-id1170903098481">a. <m:math><m:mrow><m:mn>7.46</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Bq</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>7.75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Bq</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170901607045">
+<term>activity</term>
+<meaning id="fs-id1170901607051">magnitude of the decay rate for radioactive nuclides</meaning>
+</definition>
+<definition id="fs-id1170901607032">
+<term>becquerel (Bq)</term>
+<meaning id="fs-id1170901607038">SI unit for the decay rate of a radioactive material, equal to 1 decay/second</meaning>
+</definition>
+<definition id="fs-id1170902941230">
+<term>carbon-14 dating</term>
+<meaning id="fs-id1170902941235">method to determine the age of formerly living tissue using the ratio <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>C/</m:mtext><m:msup><m:mrow/><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170901510147">
+<term>curie (Ci)</term>
+<meaning id="fs-id1170901508909">unit of decay rate, or the activity of 1 g of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>226</m:mn></m:mrow></m:msup><m:mtext>Ra</m:mtext></m:mrow></m:math>, equal to <m:math><m:mrow><m:mn>3.70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Bq</m:mtext></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170901529353">
+<term>decay</term>
+<meaning id="fs-id1170901499142">process by which an individual atomic nucleus of an unstable atom loses mass and energy by emitting ionizing particles</meaning>
+</definition>
+<definition id="fs-id1170901499148">
+<term>decay constant</term>
+<meaning id="fs-id1170901529329">quantity that is inversely proportional to the half-life and that is used in equation for number of nuclei as a function of time</meaning>
+</definition>
+<definition id="fs-id1170901529334">
+<term>half-life</term>
+<meaning id="fs-id1170901571606">time for half of the original nuclei to decay (or half of the original nuclei remain)</meaning>
+</definition>
+<definition id="fs-id1170901571610">
+<term>lifetime</term>
+<meaning id="fs-id1170901571616">average time that a nucleus exists before decaying</meaning>
+</definition>
+<definition id="fs-id1170903132008">
+<term>radioactive dating</term>
+<meaning id="fs-id1170903132013">application of radioactive decay in which the age of a material is determined by the amount of radioactivity of a particular type that occurs</meaning>
+</definition>
+<definition id="fs-id1170901514233">
+<term>radioactive decay law</term>
+<meaning id="fs-id1170901514238">describes the exponential decrease of parent nuclei in a radioactive sample</meaning>
+</definition>
+<definition id="fs-id1170901514242">
+<term>radioactivity</term>
+<meaning id="fs-id1170903002346">spontaneous emission of radiation from nuclei</meaning>
+</definition>
+</glossary>
+</document>

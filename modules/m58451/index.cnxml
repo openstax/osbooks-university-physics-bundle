@@ -1,0 +1,145 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Capacitor with a Dielectric</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58451</md:content-id>
+  <md:title>Capacitor with a Dielectric</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the effects a dielectric in a capacitor has on capacitance and other properties</item>
+<item>Calculate the capacitance of a capacitor containing a dielectric</item>
+</list></md:abstract>
+  <md:uuid>6680e3a1-08b1-4f99-9df8-8fec6e406e29</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131412327">As we discussed earlier, an insulating material placed between the plates of a capacitor is called a dielectric. Inserting a dielectric between the plates of a capacitor affects its capacitance. To see why, let’s consider an experiment described in <link target-id="CNX_UPhysics_25_04_Experiment"/>. Initially, a capacitor with capacitance <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> when there is air between its plates is charged by a battery to voltage <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. When the capacitor is fully charged, the battery is disconnected. A charge <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> then resides on the plates, and the potential difference between the plates is measured to be <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Now, suppose we insert a dielectric that <emphasis effect="italics">totally</emphasis> fills the gap between the plates. If we monitor the voltage, we find that the voltmeter reading has dropped to a <emphasis effect="italics">smaller</emphasis> value <emphasis effect="italics">V</emphasis>. We write this new voltage value as a fraction of the original voltage <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, with a positive number <m:math><m:mi>κ</m:mi></m:math>, <m:math><m:mrow><m:mi>κ</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>:</para>
+<equation id="fs-id1167131588838" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167130003636">The constant <m:math><m:mi>κ</m:mi></m:math> in this equation is called the <term>dielectric constant</term> of the material between the plates, and its value is characteristic for the material. A detailed explanation for why the dielectric reduces the voltage is given in the next section. Different materials have different dielectric constants (a table of values for typical materials is provided in the next section). Once the battery becomes disconnected, there is no path for a charge to flow to the battery from the capacitor plates. Hence, the insertion of the dielectric has no effect on the charge on the plate, which remains at a value of <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Therefore, we find that the capacitance of the capacitor with a dielectric is</para>
+<note id="fs-id1167131272327" class="equation-callout">
+<equation id="fs-id1167131579636"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mi>κ</m:mi></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>κ</m:mi><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131216776">This equation tells us that the <emphasis effect="italics">capacitance</emphasis> <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> <emphasis effect="italics">of an empty (vacuum) capacitor can be increased by a factor of</emphasis> <m:math><m:mi>κ</m:mi></m:math> <emphasis effect="italics">when we insert a dielectric material to completely fill the space between its plates</emphasis>. Note that <link target-id="fs-id1167131579636"/> can also be used for an empty capacitor by setting <m:math><m:mrow><m:mi>κ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>. In other words, we can say that the dielectric constant of the vacuum is 1, which is a reference value.</para>
+<figure id="CNX_UPhysics_25_04_Experiment">
+<media id="fs-id1167131420485" alt="Figure a shows a capacitor connected in series with a switch and a battery. The switched is closed and there is a voltmeter across the capacitor, showing the reading V0. The plates of the capacitor have charge +Q0 and –Q0. Figure b shows the same circuit, with the switch open. This is labeled Step 1. The space between the plates of the capacitor is grey colored, indicating the presence of a dielectric. This is labeled Step 2. The positively charged plate has negative signs on the inside, labeled –Qi. The negatively charged plate has positive signs on the inside, labeled plus Qi. The voltmeter shows the reading V, which is less than V0.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_04_experiment.jpg"/>
+</media>
+<caption>(a) When fully charged, a vacuum capacitor has a voltage <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> and charge <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (the charges remain on plate’s inner surfaces; the schematic indicates the sign of charge on each plate). (b) In step 1, the battery is disconnected. Then, in step 2, a dielectric (that is electrically neutral) is inserted into the charged capacitor. When the voltage across the capacitor is now measured, it is found that the voltage value has decreased to <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mi>κ</m:mi></m:mrow></m:mrow></m:math>. The schematic indicates the sign of the induced charge that is now present on the surfaces of the dielectric material between the plates.</caption>
+</figure>
+<para id="fs-id1167131332445">The principle expressed by <link target-id="fs-id1167131579636"/> is widely used in the construction industry (<link target-id="CNX_UPhysics_25_04_Studfinder"/>). Metal plates in an electronic stud finder act effectively as a capacitor. You place a stud finder with its flat side on the wall and move it continually in the horizontal direction. When the finder moves over a wooden stud, the capacitance of its plates changes, because wood has a different dielectric constant than a gypsum wall. This change triggers a signal in a circuit, and thus the stud is detected.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_25_04_Studfinder"><media id="fs-id1167134712173" alt="Figure a is a photograph of a person’s hand holding an electronic stud finder against a wall. Figure b shows the cross section of a wall with a wooden stud behind it. The electronic stud finder is being slid across the wall on the other side. It has capacitor plates that touch the wall.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_04_studfinder.jpg"/>
+</media>
+
+<caption>An electronic stud finder is used to detect wooden studs behind drywall. (credit top: modification of work by Jane Whitney)</caption></figure><para id="fs-id1167131346833">The electrical energy stored by a capacitor is also affected by the presence of a dielectric. When the energy stored in an empty capacitor is <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, the energy <emphasis effect="italics">U</emphasis> stored in a capacitor with a dielectric is smaller by a factor of <m:math><m:mi>κ</m:mi></m:math>,</para>
+<note id="fs-id1167131260932" class="equation-callout">
+<equation id="fs-id1167131528448"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>Q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>Q</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134639006">As a dielectric material sample is brought near an empty charged capacitor, the sample reacts to the electrical field of the charges on the capacitor plates. Just as we learned in <link document="m58410">Electric Charges and Fields</link> on electrostatics, there will be the induced charges on the surface of the sample; however, they are not free charges like in a conductor, because a perfect insulator does not have freely moving charges. These induced charges on the dielectric surface are of an opposite sign to the free charges on the plates of the capacitor, and so they are attracted by the free charges on the plates. Consequently, the dielectric is “pulled” into the gap, and the work to polarize the dielectric material between the plates is done at the expense of the stored electrical energy, which is reduced, in accordance with <link target-id="fs-id1167131528448"/>.</para>
+<example id="fs-id1167134456373">
+<para id="fs-id1167134950958"><title>Inserting a Dielectric into an Isolated Capacitor</title>
+An empty 20.0-pF capacitor is charged to a potential difference of 40.0 V. The charging battery is then disconnected, and a piece of Teflon™ with a dielectric constant of 2.1 is inserted to completely fill the space between the capacitor plates (see <link target-id="CNX_UPhysics_25_04_Experiment"/>). What are the values of (a) the capacitance, (b) the charge of the plate, (c) the potential difference between the plates, and (d) the energy stored in the capacitor with and without dielectric?</para>
+<para id="fs-id1167131129153"><title>Strategy</title>
+We identify the original capacitance <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math> and the original potential difference <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>40.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> between the plates. We combine <link target-id="fs-id1167131579636"/> with other relations involving capacitance and substitute.</para>
+<para id="fs-id1167131496488"><title>Solution</title></para>
+<list id="fs-id1167134834515" list-type="enumerated" number-style="lower-alpha">
+<item>The capacitance increases to
+<equation id="fs-id1167134645852" class="unnumbered"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.1</m:mn><m:mo stretchy="false">(</m:mo><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>42.0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</item>
+<item>Without dielectric, the charge on the plates is
+<equation id="fs-id1167131521987" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>40.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.8</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Since the battery is disconnected before the dielectric is inserted, the plate charge is unaffected by the dielectric and remains at 0.8 nC.</item>
+<item>With the dielectric, the potential difference becomes
+<equation id="fs-id1167131375508" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2.1</m:mn></m:mrow></m:mfrac><m:mn>40.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>=</m:mo><m:mn>19.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</item>
+<item>The stored energy without the dielectric is
+<equation id="fs-id1167131201606" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>40.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16.0</m:mn><m:mspace width="0.2em"/><m:mtext>nJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+With the dielectric inserted, we use <link target-id="fs-id1167131528448"/> to find that the stored energy decreases to
+<equation id="fs-id1167585966916" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2.1</m:mn></m:mrow></m:mfrac><m:mn>16.0</m:mn><m:mspace width="0.2em"/><m:mtext>nJ</m:mtext><m:mo>=</m:mo><m:mn>7.6</m:mn><m:mspace width="0.2em"/><m:mtext>nJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167134668416"><title>Significance</title>
+Notice that the effect of a dielectric on the capacitance of a capacitor is a drastic increase of its capacitance. This effect is far more profound than a mere change in the geometry of a capacitor.</para>
+</example>
+<note id="fs-id1167134960434" class="check-understanding">
+<exercise id="fs-id1167134921522">
+<problem id="fs-id1167134565485">
+<para id="fs-id1167134486865"><emphasis effect="bold">Check Your Understanding</emphasis> When a dielectric is inserted into an isolated and charged capacitor, the stored energy decreases to 33% of its original value. (a) What is the dielectric constant? (b) How does the capacitance change?</para>
+</problem>
+<solution id="fs-id1167131162879">
+<para id="fs-id1167134536488">a. 3.0; b. <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131461918" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167134511374" list-type="bulleted" bullet-style="bullet">
+<item>The capacitance of an empty capacitor is increased by a factor of <m:math><m:mi>κ</m:mi></m:math> when the space between its plates is completely filled by a dielectric with dielectric constant <m:math><m:mi>κ</m:mi></m:math>.</item>
+<item>Each dielectric material has its specific dielectric constant.</item>
+<item>The energy stored in an empty isolated capacitor is decreased by a factor of <m:math><m:mi>κ</m:mi></m:math> when the space between its plates is completely filled with a dielectric with dielectric constant <m:math><m:mi>κ</m:mi></m:math> while disconnecting the battery and keeping the charge on the capacitor constant.</item>
+</list>
+</section>
+<section id="fs-id1167134536309" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167131430692">
+<problem id="fs-id1167134581268">
+<para id="fs-id1167134536171">Discuss what would happen if a conducting slab rather than a dielectric were inserted into the gap between the capacitor plates.</para>
+</problem>
+<solution id="fs-id1167131122225">
+<para id="fs-id1167134668871">answers may vary</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134635338">
+<problem id="fs-id1167134668905">
+<para id="fs-id1167131205584">Discuss how the energy stored in an empty but charged capacitor changes when a dielectric is inserted if (a) the capacitor is isolated so that its charge does not change; (b) the capacitor remains connected to a battery so that the potential difference between its plates does not change.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167134626999" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167134534543">
+<problem id="fs-id1167131182047">
+<para id="fs-id1167131103744">Show that for a given dielectric material, the maximum energy a parallel-plate capacitor can store is directly proportional to the volume of dielectric.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131151945">
+<problem id="fs-id1167131569032">
+<para id="fs-id1167134481807">An air-filled capacitor is made from two flat parallel plates 1.0 mm apart. The inside area of each plate is <m:math><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. (a) What is the capacitance of this set of plates? (b) If the region between the plates is filled with a material whose dielectric constant is 6.0, what is the new capacitance?</para>
+</problem>
+<solution id="fs-id1167131145443">
+<para id="fs-id1167131090198">a. 7.1 pF; b. 42 pF</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134511265">
+<problem id="fs-id1167134567963">
+<para id="fs-id1167131529869">A capacitor is made from two concentric spheres, one with radius 5.00 cm, the other with radius 8.00 cm. (a) What is the capacitance of this set of conductors? (b) If the region between the conductors is filled with a material whose dielectric constant is 6.00, what is the capacitance of the system?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131109738">
+<problem id="fs-id1167134657397">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167131406450">A parallel-plate capacitor has charge of magnitude <m:math><m:mrow><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> on each plate and capacitance <m:math><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> when there is air between the plates. The plates are separated by 2.00 mm. With the charge on the plates kept constant, a dielectric with <m:math><m:mrow><m:mi>κ</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> is inserted between the plates, completely filling the volume between the plates. (a) What is the potential difference between the plates of the capacitor, before and after the dielectric has been inserted? (b) What is the electrical field at the point midway between the plates before and after the dielectric is inserted?</para></problem>
+<solution id="fs-id1167134658357">
+<para id="fs-id1167134567874">a. before 3.00 V; after 0.600 V; b. before 1500 V/m; after 300 V/m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131453267">
+<problem id="fs-id1167134604058">
+<para id="fs-id1167134442240">Some cell walls in the human body have a layer of negative charge on the inside surface. Suppose that the surface charge densities are <m:math><m:mrow><m:mo>±</m:mo><m:mn>0.5</m:mn><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mrow><m:mtext>C</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>, the cell wall is <m:math><m:mrow><m:mn>5.</m:mn><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> thick, and the cell wall material has a dielectric constant of <m:math><m:mrow><m:mi>κ</m:mi><m:mo>=</m:mo><m:mn>5.4</m:mn></m:mrow></m:math>. (a) Find the magnitude of the electric field in the wall between two charge layers. (b) Find the potential difference between the inside and the outside of the cell. Which is at higher potential? (c) A typical cell in the human body has volume <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−16</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Estimate the total electrical field energy stored in the wall of a cell of this size when assuming that the cell is spherical. (<emphasis effect="italics">Hint</emphasis>: Calculate the volume of the cell wall.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134966600">
+<problem id="fs-id1167131474865">
+<para id="fs-id1167134712838">A parallel-plate capacitor with only air between its plates is charged by connecting the capacitor to a battery. The capacitor is then disconnected from the battery, without any of the charge leaving the plates. (a) A voltmeter reads 45.0 V when placed across the capacitor. When a dielectric is inserted between the plates, completely filling the space, the voltmeter reads 11.5 V. What is the dielectric constant of the material? (b) What will the voltmeter read if the dielectric is now pulled away out so it fills only one-third of the space between the plates?</para>
+</problem>
+<solution id="fs-id1167134812727">
+<para id="fs-id1167131498626">a. 3.91; b. 22.8 V</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134870204">
+<term>dielectric constant</term>
+<meaning id="fs-id1167131169785">factor by which capacitance increases when a dielectric is inserted between the plates of a capacitor</meaning>
+</definition>
+</glossary>
+</document>

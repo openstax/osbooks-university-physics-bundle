@@ -1,0 +1,210 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Fluid Dynamics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58357</md:content-id>
+  <md:title>Fluid Dynamics</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the characteristics of flow</item>
+<item>Calculate flow rate</item>
+<item>Describe the relationship between flow rate and velocity</item>
+<item>Explain the consequences of the equation of continuity to the conservation of mass</item>
+</list></md:abstract>
+  <md:uuid>01ce8cac-51a5-4a8d-ba95-7f7e386f191c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170959732663">The first part of this chapter dealt with fluid statics, the study of fluids at rest. The rest of this chapter deals with fluid dynamics, the study of fluids in motion. Even the most basic forms of fluid motion can be quite complex. For this reason, we limit our investigation to <term>ideal fluid</term><emphasis effect="bold">s</emphasis> in many of the examples. An ideal fluid is a fluid with negligible <term>viscosity</term>. Viscosity is a measure of the internal friction in a fluid; we examine it in more detail in <link document="m58359">Viscosity and Turbulence</link>. In a few examples, we examine an incompressible fluid—one for which an extremely large force is required to change the volume—since the density in an incompressible fluid is constant throughout.</para>
+<section id="fs-id1170957418035">
+<title>Characteristics of Flow</title>
+<para id="fs-id1170960194762">Velocity vectors are often used to illustrate fluid motion in applications like meteorology. For example, wind—the fluid motion of air in the atmosphere—can be represented by vectors indicating the speed and direction of the wind at any given point on a map. <link target-id="CNX_UPhysics_Figure_14_05_WindVecAut"/> shows velocity vectors describing the winds during Hurricane Arthur in 2014.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_Figure_14_05_WindVecAut"><media id="fs-id1170959938953" alt="Figure is a pressure map of Hurricane Arthur traveling up the East Coast. The low pressure center is indicated as the blue dot. Wind speed is highest near the low pressure center with the winds moving in a counterclockwise direction around it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_05_WindVecAut.jpg"/>
+</media>
+
+<caption>The velocity vectors show the flow of wind in Hurricane Arthur. Notice the circulation of the wind around the eye of the hurricane. Wind speeds are highest near the eye. The colors represent the relative vorticity, a measure of turning or spinning of the air. (credit: modification of work by Joseph Trout, Stockton University)</caption></figure><para id="fs-id1170959787823">Another method for representing fluid motion is a <emphasis effect="italics">streamline</emphasis>. A streamline represents the path of a small volume of fluid as it flows. The velocity is always tangential to the streamline. The diagrams in <link target-id="CNX_UPhysics_Figure_14_05_TurLamFlow"/> use streamlines to illustrate two examples of fluids moving through a pipe. The first fluid exhibits a <term>laminar flow</term> (sometimes described as a steady flow), represented by smooth, parallel streamlines. Note that in the example shown in part (a), the velocity of the fluid is greatest in the center and decreases near the walls of the pipe due to the viscosity of the fluid and friction between the pipe walls and the fluid. This is a special case of laminar flow, where the friction between the pipe and the fluid is high, known as no slip boundary conditions. The second diagram represents <term>turbulent flow</term>, in which streamlines are irregular and change over time. In turbulent flow, the paths of the fluid flow are irregular as different parts of the fluid mix together or form small circular regions that resemble whirlpools. This can occur when the speed of the fluid reaches a certain critical speed.</para>
+<figure id="CNX_UPhysics_Figure_14_05_TurLamFlow">
+<media id="fs-id1170960044682" alt="Figure A is the schematic of the laminar flow shown as layers of fluid moving in parallel lines. Figure B is the schematics of the turbulent flow shown as layers of fluid moving in irregular, colliding paths.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_05_TurLamFlow.jpg"/>
+</media>
+<caption>(a) Laminar flow can be thought of as layers of fluid moving in parallel, regular paths. (b) In turbulent flow, regions of fluid move in irregular, colliding paths, resulting in mixing and swirling.</caption>
+</figure>
+</section>
+<section id="fs-id1170957555027">
+<title>Flow Rate and its Relation to Velocity</title>
+<para id="fs-id1170959782778">The volume of fluid passing by a given location through an area during a period of time is called <term>flow rate</term> <emphasis effect="italics">Q</emphasis>, or more precisely, volume flow rate. In symbols, this is written as</para>
+<note id="fs-id1170959667116" class="equation-callout">
+<equation id="fs-id1170959719559"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170957579883">where <emphasis effect="italics">V</emphasis> is the volume and <emphasis effect="italics">t</emphasis> is the elapsed time. In <link target-id="CNX_UPhysics_Figure_14_05_FlowRateDi"/>, the volume of the cylinder is <emphasis effect="italics">Ax</emphasis>, so the flow rate is</para>
+<equation id="fs-id1170959785752" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_Figure_14_05_FlowRateDi">
+<media id="fs-id1170959817958" alt="Figure is a schematic of a uniform pipeline with the cross-section area A. Fluid flows through the pipeline. Volume of fluid V passes a point P in time t.">
+<image mime-type="image/jpeg" src="CNX_UPhysics_Figure_14_05_FlowRateDi.jpg"/>
+</media>
+<caption>Flow rate is the volume of fluid flowing past a point through the area <emphasis effect="italics">A</emphasis> per unit time. Here, the shaded cylinder of fluid flows past point <emphasis effect="italics">P</emphasis> in a uniform pipe in time <emphasis effect="italics">t</emphasis>.</caption>
+</figure>
+<para id="fs-id1170957416892">The SI unit for flow rate is <m:math><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mtext>/s,</m:mtext></m:mrow></m:math> but several other units for <emphasis effect="italics">Q</emphasis> are in common use, such as liters per minute (L/min). Note that a liter (L) is 1/1000 of a cubic meter or 1000 cubic centimeters <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1170957415857">Flow rate and velocity are related, but quite different, physical quantities. To make the distinction clear, consider the flow rate of a river. The greater the velocity of the water, the greater the flow rate of the river. But flow rate also depends on the size and shape of the river. A rapid mountain stream carries far less water than the Amazon River in Brazil, for example. <link target-id="CNX_UPhysics_Figure_14_05_FlowRateDi"/> illustrates the volume flow rate. The volume flow rate is <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mi>A</m:mi></m:math> is the cross-sectional area of the pipe and <emphasis effect="italics">v</emphasis> is the magnitude of the velocity.</para>
+<para id="fs-id1170959863720">The precise relationship between flow rate <emphasis effect="italics">Q</emphasis> and average speed <emphasis effect="italics">v</emphasis> is</para>
+<equation id="fs-id1170960184112" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959745302">where <emphasis effect="italics">A</emphasis> is the cross-sectional area and <m:math><m:mi>v</m:mi></m:math> is the average speed. The relationship tells us that flow rate is directly proportional to both the average speed of the fluid and the cross-sectional area of a river, pipe, or other conduit. The larger the conduit, the greater its cross-sectional area. <link target-id="CNX_UPhysics_Figure_14_05_FlowRateDi"/> illustrates how this relationship is obtained. The shaded cylinder has a volume <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>d</m:mi></m:mrow></m:math>, which flows past the point <emphasis effect="italics">P</emphasis> in a time <emphasis effect="italics">t</emphasis>. Dividing both sides of this relationship by <emphasis effect="italics">t</emphasis> gives</para>
+<equation id="fs-id1170957412837" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>V</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>A</m:mi><m:mi>d</m:mi></m:mrow><m:mi>t</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959797575">We note that <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>t</m:mi></m:mrow></m:math> and the average speed is <m:math><m:mrow><m:mi>v</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mi>d</m:mi><m:mo>/</m:mo><m:mi>t</m:mi></m:mrow></m:math>. Thus the equation becomes <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>v</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1170959779200"><link target-id="CNX_UPhysics_Figure_14_05_TubeNarrow"/> shows an incompressible fluid flowing along a pipe of decreasing radius. Because the fluid is incompressible, the same amount of fluid must flow past any point in the tube in a given time to ensure continuity of flow. The flow is continuous because they are no sources or sinks that add or remove mass, so the mass flowing into the pipe must be equal the mass flowing out of the pipe. In this case, because the cross-sectional area of the pipe decreases, the velocity must necessarily increase. This logic can be extended to say that the flow rate must be the same at all points along the pipe. In particular, for arbitrary points 1 and 2,</para>
+<note id="fs-id1170959649366" class="equation-callout">
+<equation id="fs-id1170959788783"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+</note>
+<para id="fs-id1170959718938">This is called the <term class="no-emphasis"><emphasis effect="italics">equation of continuity</emphasis></term> and is valid for any incompressible fluid (with constant density). The consequences of the equation of continuity can be observed when water flows from a hose into a narrow spray nozzle: It emerges with a large speed—that is the purpose of the nozzle. Conversely, when a river empties into one end of a reservoir, the water slows considerably, perhaps picking up speed again when it leaves the other end of the reservoir. In other words, speed increases when cross-sectional area decreases, and speed decreases when cross-sectional area increases.</para>
+<figure id="CNX_UPhysics_Figure_14_05_TubeNarrow">
+<media id="fs-id1170959723040" alt="Figure is the schematic of a pipeline that narrows from the cross section area A1 to the cross section area A2. Fluid flows through the pipeline. Volume of fluid V1 passes a point 1, located at the wide cross-section part, in time t. Volume of fluid V2 passes a point 2, located in the narrow cross-section part, in time t.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_05_TubeNarrow.jpg"/>
+</media>
+<caption>When a tube narrows, the same volume occupies a greater length. For the same volume to pass points 1 and 2 in a given time, the speed must be greater at point 2. The process is exactly reversible. If the fluid flows in the opposite direction, its speed decreases when the tube widens. (Note that the relative volumes of the two cylinders and the corresponding velocity vector arrows are not drawn to scale.)</caption>
+</figure>
+<para id="fs-id1170959695445">Since liquids are essentially incompressible, the equation of continuity is valid for all liquids. However, gases are compressible, so the equation must be applied with caution to gases if they are subjected to compression or expansion.</para>
+<example id="fs-id1170959644656">
+<para id="fs-id1170959645158"><title>Calculating Fluid Speed through a Nozzle</title>
+A nozzle with a diameter of 0.500 cm is attached to a garden hose with a radius of 0.900 cm. The flow rate through hose and nozzle is 0.500 L/s. Calculate the speed of the water (a) in the hose and (b) in the nozzle.</para>
+<para id="fs-id1170957416619"><title>Strategy</title>
+We can use the relationship between flow rate and speed to find both speeds. We use the subscript 1 for the hose and 2 for the nozzle.</para>
+<para id="fs-id1170957589103"><title>Solution</title></para>
+<list id="fs-id1170959652069" list-type="enumerated" number-style="lower-alpha">
+<item>We solve the flow rate equation for speed and use <m:math><m:mrow><m:mi>π</m:mi><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:mrow></m:math> for the cross-sectional area of the hose, obtaining
+<equation id="fs-id1170959658630" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Substituting values and using appropriate unit conversions yields
+<equation id="fs-id1170959697597" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.500</m:mn><m:mspace width="0.2em"/><m:mtext>L/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/L</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3.14</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.96</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</item>
+<item>We could repeat this calculation to find the speed in the nozzle <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, but we use the equation of continuity to give a somewhat different insight. The equation states
+<equation id="fs-id1170960187399" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+Solving for <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> and substituting <m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> for the cross-sectional area yields
+<equation id="fs-id1170959724654" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+Substituting known values, 
+<equation id="fs-id1170959758957" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mtext>(0.900 cm)</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mtext>(0.250 cm)</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mn>1.96</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>=</m:mo><m:mn>25.5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</item>
+</list>
+<para id="fs-id1170959735131"><title>Significance</title>
+A speed of 1.96 m/s is about right for water emerging from a hose with no nozzle. The nozzle produces a considerably faster stream merely by constricting the flow to a narrower tube.</para>
+<para id="fs-id1170959820866">The solution to the last part of the example shows that speed is inversely proportional to the square of the radius of the tube, making for large effects when radius varies. We can blow out a candle at quite a distance, for example, by pursing our lips, whereas blowing on a candle with our mouth wide open is quite ineffective.</para>
+</example>
+</section>
+<section id="fs-id1170957514468">
+<title>Mass Conservation</title>
+<para id="fs-id1170959693693">The rate of flow of a fluid can also be described by the <term class="no-emphasis"><emphasis effect="italics">mass flow rate</emphasis></term> or mass rate of flow. This is the rate at which a mass of the fluid moves past a point. Refer once again to <link target-id="CNX_UPhysics_Figure_14_05_FlowRateDi"/>, but this time consider the mass in the shaded volume. The mass can be determined from the density and the volume:</para>
+<equation id="fs-id1170959819384" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959869262">The mass flow rate is then</para>
+<equation id="fs-id1170957409681" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959698285">where <m:math><m:mi>ρ</m:mi></m:math> is the density, <emphasis effect="italics">A</emphasis> is the cross-sectional area, and <emphasis effect="italics">v</emphasis> is the magnitude of the velocity. The mass flow rate is an important quantity in fluid dynamics and can be used to solve many problems. Consider <link target-id="CNX_UPhysics_Figure_14_05_MassFlowTb"/>. The pipe in the figure starts at the inlet with a cross sectional area of <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and constricts to an outlet with a smaller cross sectional area of <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. The mass of fluid entering the pipe has to be equal to the mass of fluid leaving the pipe. For this reason the velocity at the outlet <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is greater than the velocity of the inlet <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Using the fact that the mass of fluid entering the pipe must be equal to the mass of fluid exiting the pipe, we can find a relationship between the velocity and the cross-sectional area by taking the rate of change of the mass in and the mass out:</para>
+<note id="fs-id1170959641429" class="equation-callout">
+<equation id="fs-id1170959718383"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+</note>
+<para id="fs-id1170959702716"><link target-id="fs-id1170959718383"/> is also known as the continuity equation in general form. If the density of the fluid remains constant through the constriction—that is, the fluid is incompressible—then the density cancels from the continuity equation,</para>
+<equation id="fs-id1170959645768" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170957575300">The equation reduces to show that the volume flow rate into the pipe equals the volume flow rate out of the pipe.</para>
+<figure id="CNX_UPhysics_Figure_14_05_MassFlowTb">
+<media id="fs-id1170959670383" alt="Figure is a schematic of fluid flowing in a uniform pipeline with the cross-section area A. Volume of fluid V delta t passes the pipeline during the time delta t.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_05_MassFlowTb.jpg"/>
+</media>
+<caption>Geometry for deriving the equation of continuity. The amount of liquid entering the cross-sectional (shaded) area must equal the amount of liquid leaving the cross-sectional area if the liquid is incompressible.</caption>
+</figure>
+</section>
+<section id="fs-id1170959806435" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170959698777" list-type="bulleted" bullet-style="bullet">
+<item>Flow rate <emphasis effect="italics">Q</emphasis> is defined as the volume <emphasis effect="italics">V</emphasis> flowing past a point in time <emphasis effect="italics">t</emphasis>, or <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> where <emphasis effect="italics">V</emphasis> is volume and <emphasis effect="italics">t</emphasis> is time. The SI unit of flow rate is <m:math><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mtext>/s,</m:mtext></m:mrow></m:math> but other rates can be used, such as L/min.</item>
+<item>Flow rate and velocity are related by <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>v</m:mi></m:mrow></m:math> where <emphasis effect="italics">A</emphasis> is the cross-sectional area of the flow and <emphasis effect="italics">v</emphasis> is its average velocity.</item>
+<item>The equation of continuity states that for an incompressible fluid, the mass flowing into a pipe must equal the mass flowing out of the pipe.</item>
+</list>
+</section>
+<section id="fs-id1170959764155" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170957506632">
+<problem id="fs-id1170959824969">
+<para id="fs-id1170959939296">Many figures in the text show streamlines. Explain why fluid velocity is greatest where streamlines are closest together. (<emphasis effect="italics">Hint:</emphasis> Consider the relationship between fluid velocity and the cross-sectional area through which the fluid flows.)</para>
+</problem>
+<solution id="fs-id1170959940734">
+<para id="fs-id1170959818992">Consider two different pipes connected to a single pipe of a smaller diameter, with fluid flowing from the two pipes into the smaller pipe. Since the fluid is forced through a smaller cross-sectional area, it must move faster as the flow lines become closer together. Likewise, if a pipe with a large radius feeds into a pipe with a small radius, the stream lines will become closer together and the fluid will move faster.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170960169471" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170960044494">
+<problem id="fs-id1170959690323">
+<para id="fs-id1170959753250">What is the average flow rate in <m:math><m:mrow><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math> of gasoline to the engine of a car traveling at 100 km/h if it averages 10.0 km/L?</para>
+</problem>
+<solution id="fs-id1170957599093">
+<para id="fs-id1170959820939">2.77 <m:math><m:mrow><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170960061712">
+<problem id="fs-id1170959795783">
+<para id="fs-id1170959971460">The heart of a resting adult pumps blood at a rate of 5.00 L/min. (a) Convert this to <m:math><m:mrow><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>. (b) What is this rate in <m:math><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959796628">
+<problem id="fs-id1170959802788">
+<para id="fs-id1170959869312">The Huka Falls on the Waikato River is one of New Zealand’s most visited natural tourist attractions. On average, the river has a flow rate of about 300,000 L/s. At the gorge, the river narrows to 20-m wide and averages 20-m deep. (a) What is the average speed of the river in the gorge? (b) What is the average speed of the water in the river downstream of the falls when it widens to 60 m and its depth increases to an average of 40 m?</para>
+</problem>
+<solution id="fs-id1170960142461">
+<para id="fs-id1170959977488">a. 0.75 m/s; b. 0.13 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959708314">
+<problem id="fs-id1170959753194">
+<para id="fs-id1170959707712">(a) Estimate the time it would take to fill a private swimming pool with a capacity of 80,000 L using a garden hose delivering 60 L/min. (b) How long would it take if you could divert a moderate size river, flowing at <m:math><m:mrow><m:msup><m:mrow><m:mn>5000</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math> into the pool?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957422368">
+<problem id="fs-id1170959680121">
+<para id="fs-id1170957407178">What is the fluid speed in a fire hose with a 9.00-cm diameter carrying 80.0 L of water per second? (b) What is the flow rate in cubic meters per second? (c) Would your answers be different if salt water replaced the fresh water in the fire hose?</para>
+</problem>
+<solution id="fs-id1170960089546">
+<para id="fs-id1170959791171">a. 12.6 m/s; b. <m:math><m:mrow><m:mn>0.0800</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>; c. No, the flow rate and the velocity are independent of the density of the fluid.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170960183803">
+<problem id="fs-id1170957416303">
+<para id="fs-id1170960142378">Water is moving at a velocity of 2.00 m/s through a hose with an internal diameter of 1.60 cm. (a) What is the flow rate in liters per second? (b) The fluid velocity in this hose’s nozzle is 15.0 m/s. What is the nozzle’s inside diameter?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959787786">
+<problem id="fs-id1170959731337">
+<para id="fs-id1170959789079">Prove that the speed of an incompressible fluid through a constriction, such as in a Venturi tube, increases by a factor equal to the square of the factor by which the diameter decreases. (The converse applies for flow out of a constriction into a larger-diameter region.)</para>
+</problem>
+<solution id="fs-id1170959803647">
+<para id="fs-id1170959941792">If the fluid is incompressible, the flow rate through both sides will be equal:</para>
+<para id="fs-id1170957441786"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> or <m:math><m:mrow><m:mi>π</m:mi><m:mfrac><m:mrow><m:msubsup><m:mi>d</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mn>4</m:mn></m:mfrac><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>π</m:mi><m:mfrac><m:mrow><m:msubsup><m:mi>d</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mn>4</m:mn></m:mfrac><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>2</m:mn></m:msub><m:mo stretchy="false">⇒</m:mo><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>d</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mtext>/</m:mtext><m:msubsup><m:mi>d</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>1</m:mn></m:msub><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>d</m:mi><m:mn>1</m:mn></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>d</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957512340">
+<problem id="fs-id1170957603693">
+<para id="fs-id1170959783481">Water emerges straight down from a faucet with a 1.80-cm diameter at a speed of 0.500 m/s. (Because of the construction of the faucet, there is no variation in speed across the stream.) (a) What is the flow rate in <m:math><m:mrow><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>? (b) What is the diameter of the stream 0.200 m below the faucet? Neglect any effects due to surface tension.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170959957010">
+<term>flow rate</term>
+<meaning id="fs-id1170959826329">abbreviated <emphasis effect="italics">Q</emphasis>, it is the volume <emphasis effect="italics">V</emphasis> that flows past a particular point during a time <emphasis effect="italics">t</emphasis>, or <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170959804757">
+<term>ideal fluid</term>
+<meaning id="fs-id1170959828866">fluid with negligible viscosity</meaning>
+</definition>
+<definition id="fs-id1170959641798">
+<term>laminar flow</term>
+<meaning id="fs-id1170959977787">type of fluid flow in which layers do not mix</meaning>
+</definition>
+<definition id="fs-id1170957600347">
+<term>turbulent flow</term>
+<meaning id="fs-id1170957422020">type of fluid flow in which layers mix together via eddies and swirls</meaning>
+</definition>
+<definition id="fs-id1170960187837">
+<term>viscosity</term>
+<meaning id="fs-id1170959873521">measure of the internal friction in a fluid</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,200 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Thermodynamic Processes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58399</md:content-id>
+  <md:title>Thermodynamic Processes</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Define a thermodynamic process</item>
+<item>Distinguish between quasi-static and non-quasi-static processes</item>
+<item>Calculate physical quantities, such as the heat transferred, work done, and internal energy change for isothermal, adiabatic, and cyclical thermodynamic processes</item>
+</list></md:abstract>
+  <md:uuid>14a81439-92d6-4c18-b517-51bdc37d65dc</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101688475">In solving mechanics problems, we isolate the body under consideration, analyze the external forces acting on it, and then use Newton’s laws to predict its behavior. In thermodynamics, we take a similar approach. We start by identifying the part of the universe we wish to study; it is also known as our system. (We defined a system at the beginning of this chapter as anything whose properties are of interest to us; it can be a single atom or the entire Earth.) Once our system is selected, we determine how the environment, or surroundings, interact with the system. Finally, with the interaction understood, we study the thermal behavior of the system with the help of the laws of thermodynamics.</para>
+<para id="fs-id1172099598613">The thermal behavior of a system is described in terms of <term class="no-emphasis"><emphasis effect="italics">thermodynamic variables</emphasis></term>. For an ideal gas, these variables are pressure, volume, temperature, and the number of molecules or moles of the gas. Different types of systems are generally characterized by different sets of variables. For example, the thermodynamic variables for a stretched rubber band are tension, length, temperature, and mass.</para>
+<para id="fs-id1172099664609">The state of a system can change as a result of its interaction with the environment. The change in a system can be fast or slow and large or small. The manner in which a state of a system can change from an initial state to a final state is called a <term>thermodynamic process</term>. For analytical purposes in thermodynamics, it is helpful to divide up processes as either <emphasis effect="italics">quasi-static</emphasis> or <emphasis effect="italics">non-quasi-static</emphasis>, as we now explain.</para>
+<section id="fs-id1172099615162">
+<title>Quasi-static and Non-quasi-static Processes</title>
+<para id="fs-id1172101769640">A <term class="no-emphasis">quasi-static process</term> refers to an idealized or imagined process where the change in state is made infinitesimally slowly so that at each instant, the system can be assumed to be at a thermodynamic equilibrium with itself and with the environment. For instance, imagine heating 1 kg of water from a temperature <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>21</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> at a constant pressure of 1 atmosphere. To heat the water very slowly, we may imagine placing the container with water in a large bath that can be slowly heated such that the temperature of the bath can rise infinitesimally slowly from <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>21</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. If we put 1 kg of water at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> directly into a bath at <m:math><m:mrow><m:mn>21</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, the temperature of the water will rise rapidly to <m:math><m:mrow><m:mn>21</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> in a non-quasi-static way.</para>
+<para id="fs-id1172099887618">Quasi-static processes are done slowly enough that the system remains at thermodynamic equilibrium at each instant, despite the fact that the system changes over time. The thermodynamic equilibrium of the system is necessary for the system to have well-defined values of macroscopic properties such as the temperature and the pressure of the system at each instant of the process. Therefore, quasi-static processes can be shown as well-defined paths in state space of the system.</para>
+<para id="fs-id1172101895022">Since quasi-static processes cannot be completely realized for any finite change of the system, all processes in nature are non-quasi-static. Examples of quasi-static and <term class="no-emphasis">non-quasi-static processes</term> are shown in <link target-id="CNX_UPhysics_20_04_Quasi"/>. Despite the fact that all finite changes must occur essentially non-quasi-statically at some stage of the change, we can imagine performing infinitely many quasi-static process corresponding to every quasi-static process. Since quasi-static processes can be analyzed analytically, we mostly study quasi-static processes in this book. We have already seen that in a quasi-static process the work by a gas is given by <emphasis effect="italics">pdV</emphasis>.</para>
+<figure id="CNX_UPhysics_20_04_Quasi">
+<media id="fs-id1172101882360" alt="The figure is a plot of pressure, p, on the vertical axis as a function of volume, V, on the horizontal axis. Two pressures, p f greater than p i, are marked on the vertical axis. Two volumes, V f greater than V i are marked on the horizontal axis. Two points, A at V i, p i, and B at the final V f, p i, are shown and are connected by a straight horizontal line with a rightward arrow from A to B. The line is labeled Quasi-static process. A dashed line goes up from A, curves to reach a maximum, and curves back down to B. This dashed line is labeled nonquasi-static process.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_04_Quasi.jpg"/>
+</media>
+<caption>Quasi-static and non-quasi-static processes between states <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> of a gas. In a quasi-static process, the path of the process between <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> can be drawn in a state diagram since all the states that the system goes through are known. In a non-quasi-static process, the states between <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are not known, and hence no path can be drawn. It may follow the dashed line as shown in the figure or take a very different path.</caption>
+</figure>
+</section>
+<section id="fs-id1172102061754">
+<title>Isothermal Processes</title>
+<para id="fs-id1172099483703">An <term>isothermal process</term> is a change in the state of the system at a constant temperature. This process is accomplished by keeping the system in thermal equilibrium with a large heat bath during the process. Recall that a heat bath is an idealized “infinitely” large system whose temperature does not change. In practice, the temperature of a finite bath is controlled by either adding or removing a finite amount of energy as the case may be.</para>
+<para id="fs-id1172101798310">As an illustration of an isothermal process, consider a cylinder of gas with a movable piston immersed in a large water tank whose temperature is maintained constant. Since the piston is freely movable, the pressure inside <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:math> is balanced by the pressure outside <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow></m:math> by some weights on the piston, as in <link target-id="CNX_UPhysics_20_04_Piston"/>.</para>
+<figure id="CNX_UPhysics_20_04_Piston">
+<media id="fs-id1172099887808" alt="The figure illustrates a large insulated container filled with fluid. This fluid is labeled as the constant T heat bath. Inside the heat bath is a smaller container filled with gas. The smaller gas container is capped by a piston that has weights on top of it. The inside of the smaller container is the system. A double headed arrow across the smaller container’s walls labeled “heat” indicates that heat can flow between the bath and the system. An upward arrow inside the system points up at the bottom of the piston and is labeled p in. A downward arrow outside the system points down at the top of the piston and is labeled p out. A second downward arrow points at the top of the piston where the weights are stacked.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_04_Piston.jpg"/>
+</media>
+<caption>Expanding a system at a constant temperature. Removing weights on the piston leads to an imbalance of forces on the piston, which causes the piston to move up. As the piston moves up, the temperature is lowered momentarily, which causes heat to flow from the heat bath to the system. The energy to move the piston eventually comes from the heat bath.</caption>
+</figure>
+<para id="fs-id1172099694219">As weights on the piston are removed, an imbalance of forces on the piston develops. The net nonzero force on the piston would cause the piston to accelerate, resulting in an increase in volume. The expansion of the gas cools the gas to a lower temperature, which makes it possible for the heat to enter from the heat bath into the system until the temperature of the gas is reset to the temperature of the heat bath. If weights are removed in infinitesimal steps, the pressure in the system decreases infinitesimally slowly. This way, an isothermal process can be conducted quasi-statically. An isothermal line on a (<emphasis effect="italics">p</emphasis>, <emphasis effect="italics">V</emphasis>) diagram is represented by a curved line from starting point <emphasis effect="italics">A</emphasis> to finishing point <emphasis effect="italics">B</emphasis>, as seen in <link target-id="CNX_UPhysics_20_04_Isotherm"/>. For an ideal gas, an isothermal process is hyperbolic, since for an ideal gas at constant temperature, <m:math><m:mrow><m:mi>p</m:mi><m:mo>∝</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>V</m:mi></m:mfrac></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_20_04_Isotherm">
+<media id="fs-id1172099601591" alt="The figure is a plot of pressure, p, on the vertical axis as a function of volume, V, on the horizontal axis. Two pressures, p f greater than p i, are marked on the vertical axis. Two volumes, V f greater than V i are marked on the horizontal axis. Two points, A at V i, p f, and B at the final V f, p i, are shown and are connected by a curve that is monotonically decreasing and concave up. An arrow indicates the direction on the curve is from A toward B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_04_Isotherm.jpg"/>
+</media>
+<caption>An isothermal expansion from a state labeled <emphasis effect="italics">A</emphasis> to another state labeled <emphasis effect="italics">B</emphasis> on a <emphasis effect="italics">pV</emphasis> diagram. The curve represents the relation between pressure and volume in an ideal gas at constant temperature.</caption>
+</figure>
+<para id="fs-id1172099598286">An isothermal process studied in this chapter is quasi-statically performed, since to be isothermal throughout the change of volume, you must be able to state the temperature of the system at each step, which is possible only if the system is in thermal equilibrium continuously. The system must go out of equilibrium for the state to change, but for quasi-static processes, we imagine that the process is conducted in infinitesimal steps such that these departures from equilibrium can be made as brief and as small as we like.</para>
+<para id="fs-id1172099650097">Other quasi-static processes of interest for gases are isobaric and isochoric processes. An <term>isobaric process</term> is a process where the pressure of the system does not change, whereas an <term>isochoric process</term> is a process where the volume of the system does not change.</para>
+</section>
+<section id="fs-id1172099496924">
+<title>Adiabatic Processes</title>
+<para id="fs-id1172097347677">In an <term>adiabatic process</term>, the system is insulated from its environment so that although the state of the system changes, no heat is allowed to enter or leave the system, as seen in <link target-id="CNX_UPhysics_20_04_Adiabat"/>. An adiabatic process can be conducted either quasi-statically or non-quasi-statically. When a system expands adiabatically, it must do work against the outside world, and therefore its energy goes down, which is reflected in the lowering of the temperature of the system. An adiabatic expansion leads to a lowering of temperature, and an adiabatic compression leads to an increase of temperature. We discuss adiabatic expansion again in <link document="m58401">Adiabatic Processes for an ideal Gas</link>.</para>
+<figure id="CNX_UPhysics_20_04_Adiabat">
+<media id="fs-id1172101698942" alt="The figure is an illustration of a container closed by a piston. The container has double walls and bottom, with the gap filled with insulation. The region inside the container, below the piston, is labeled as the system. An upward arrow indicates that the piston moves up.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_04_Adiabat.jpg"/>
+</media>
+<caption>An insulated piston with a hot, compressed gas is released. The piston moves up, the volume expands, and the pressure and temperature decrease. The internal energy goes into work. If the expansion occurs within a time frame in which negligible heat can enter the system, then the process is called adiabatic. Ideally, during an adiabatic process no heat enters or exits the system.</caption>
+</figure>
+</section>
+<section id="fs-id1172102137372">
+<title>Cyclic Processes</title>
+<para id="fs-id1172099569212">We say that a system goes through a <term>cyclic process</term> if the state of the system at the end is same as the state at the beginning. Therefore, state properties such as temperature, pressure, volume, and internal energy of the system do not change over a complete cycle:</para>
+<equation id="fs-id1172102061803" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101876582">When the first law of thermodynamics is applied to a cyclic process, we obtain a simple relation between heat into the system and the work done by the system over the cycle:</para>
+<equation id="fs-id1172099533639" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>W</m:mi><m:mspace width="0.2em"/><m:mo>(</m:mo><m:mtext>cyclic process</m:mtext><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172097392239">Thermodynamic processes are also distinguished by whether or not they are reversible. A <term>reversible process</term> is one that can be made to retrace its path by differential changes in the environment. Such a process must therefore also be quasi-static. Note, however, that a quasi-static process is not necessarily reversible, since there may be dissipative forces involved. For example, if friction occurred between the piston and the walls of the cylinder containing the gas, the energy lost to friction would prevent us from reproducing the original states of the system.</para>
+<para id="fs-id1172101896385">We considered several thermodynamic processes:</para>
+<list id="fs-id1172099396540" list-type="enumerated" number-style="arabic">
+<item>An isothermal process, during which the system’s temperature remains constant</item>
+<item>An adiabatic process, during which no heat is transferred to or from the system</item>
+<item>An isobaric process, during which the system’s pressure does not change</item>
+<item>An isochoric process, during which the system’s volume does not change</item>
+</list>
+<para id="fs-id1172099479520">Many other processes also occur that do not fit into any of these four categories.</para>
+<note id="fs-id1172097225572" class="media-2">
+<para id="fs-id1172101808794">View this <link url="https://openstax.org/l/21idegaspvdiag">site</link> to set up your own process in a <emphasis effect="italics">pV</emphasis> diagram. See if you can calculate the values predicted by the simulation for heat, work, and change in internal energy.</para>
+</note>
+</section>
+<section id="fs-id1172099718508" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172102115995" list-type="bulleted" bullet-style="bullet">
+<item>The thermal behavior of a system is described in terms of thermodynamic variables. For an ideal gas, these variables are pressure, volume, temperature, and number of molecules or moles of the gas.</item>
+<item>For systems in thermodynamic equilibrium, the thermodynamic variables are related by an equation of state.</item>
+<item>A heat reservoir is so large that when it exchanges heat with other systems, its temperature does not change.</item>
+<item>A quasi-static process takes place so slowly that the system involved is always in thermodynamic equilibrium.</item>
+<item>A reversible process is one that can be made to retrace its path and both the temperature and pressure are uniform throughout the system.</item>
+<item>There are several types of thermodynamic processes, including (a) isothermal, where the system’s temperature is constant; (b) adiabatic, where no heat is exchanged by the system; (c) isobaric, where the system’s pressure is constant; and (d) isochoric, where the system’s volume is constant.</item>
+<item>As a consequence of the first law of thermodymanics, here is a summary of the thermodymaic processes: (a) isothermal: <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>W</m:mi><m:mo>;</m:mo></m:mrow></m:math> (b) adiabatic: <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>W</m:mi><m:mo>;</m:mo></m:mrow></m:math> (c) isobaric: <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>;</m:mo></m:mrow></m:math> and (d) isochoric: <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1172101716400" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172099707101">
+<problem id="fs-id1172099756218">
+<para id="fs-id1172101923249">When a gas expands isothermally, it does work. What is the source of energy needed to do this work?</para>
+</problem>
+<solution id="fs-id1172099474738">
+<para id="fs-id1172101802625">The system must be in contact with a heat source that allows heat to flow into the system.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099542035">
+<problem id="fs-id1172099389185">
+<para id="fs-id1172101778928">If the pressure and volume of a system are given, is the temperature always uniquely determined?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101674655">
+<problem id="fs-id1172099753197">
+<para id="fs-id1172099571809">It is unlikely that a process can be isothermal unless it is a very slow process. Explain why. Is the same true for isobaric and isochoric processes? Explain your answer.</para>
+</problem>
+<solution id="fs-id1167583584518">
+<para id="fs-id1167583597992">Isothermal processes must be slow to make sure that as heat is transferred, the temperature does not change. Even for isobaric and isochoric processes, the system must be in thermal equilibrium with slow changes of thermodynamic variables.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172101692250" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172101788963">
+<problem id="fs-id1172101755733">
+<para id="fs-id1172101900800">Two moles of a monatomic ideal gas at (5 MPa, 5 L) is expanded isothermally until the volume is doubled (step 1). Then it is cooled isochorically until the pressure is 1 MPa (step 2). The temperature drops in this process. The gas is now compressed isothermally until its volume is back to 5 L, but its pressure is now 2 MPa (step 3). Finally, the gas is heated isochorically to return to the initial state (step 4). (a) Draw the four processes in the pV plane. (b) Find the total work done by the gas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101791820">
+<problem id="fs-id1172101841976">
+<para id="fs-id1172099722952">Consider a transformation from point <emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis> in a two-step process. First, the pressure is lowered from 3 MPa at point <emphasis effect="italics">A</emphasis> to a pressure of 1 MPa, while keeping the volume at 2 L by cooling the system. The state reached is labeled <emphasis effect="italics">C</emphasis>. Then the system is heated at a constant pressure to reach a volume of 6 L in the state <emphasis effect="italics">B</emphasis>. (a) Find the amount of work done on the <emphasis effect="italics">ACB</emphasis> path. (b) Find the amount of heat exchanged by the system when it goes from <emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis> on the <emphasis effect="italics">ACB</emphasis> path. (c) Compare the change in the internal energy when the <emphasis effect="italics">AB</emphasis> process occurs adiabatically with the <emphasis effect="italics">AB</emphasis> change through the two-step process on the <emphasis effect="italics">ACB</emphasis> path.</para>
+</problem>
+<solution id="fs-id1172099484356">
+<para id="fs-id1172102107806">a. 1660 J; b. −2730 J; c. It does not depend on the process.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099377793">
+<problem id="fs-id1172099702171">
+<para id="fs-id1172101737904">Consider a cylinder with a movable piston containing n moles of an ideal gas. The entire apparatus is immersed in a constant temperature bath of temperature T kelvin. The piston is then pushed slowly so that the pressure of the gas changes quasi-statically from <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> to <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> at constant temperature T. Find the work done by the gas in terms of n, R, T, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1172097257370">
+<problem id="fs-id1172101662157">
+<para id="fs-id1172101969337">An ideal gas expands isothermally along AB and does 700 J of work (see below). (a) How much heat does the gas exchange along AB? (b) The gas then expands adiabatically along BC and does 400 J of work. When the gas returns to A along CA, it exhausts 100 J of heat to its surroundings. How much work is done on the gas along this path?</para>
+<media id="fs-id1172102073295" alt="The figure is a plot of pressure, p, on the vertical axis as a function of volume, V, on the horizontal axis. Three Points, A, B, C, and D are labeled. Point A is at the smallest volume and highest pressure. Point C is at the largest volume and lowest pressure. Point B is at an intermediate pressure and volume, but above the A C line. A path from A to B, to C, and back to A is shown. The path leaves A, goes down but with decreasing slope to reach B. It leaves B and descends steeply to C. It then curves back up to A. All the curves are concave up.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_SMP2020_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101802503">
+<para id="fs-id1172101986390">a. 700 J; b. 500 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099525084">
+<problem id="fs-id1172099587677">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172099375082">Consider the processes shown below for a monatomic gas. (a) Find the work done in each of the processes AB, BC, AD, and DC. (b) Find the internal energy change in processes AB and BC. (c) Find the internal energy difference between states C and A. (d) Find the total heat added in the ADC process. (e) From the information given, can you find the heat added in process AD? Why or why not?</para><media id="fs-id1172099897697" alt="The figure is a plot of pressure, p, in atmospheres on the vertical axis as a function of volume, V, in Liters on the horizontal axis. The horizontal volume scale runs from 0 to 7 Liters, and the vertical pressure scale runs from 0 to 5 atmospheres. Four Points, A, B, C, and D are labeled. A path goes from A up to B and across to C. Another path goes from A across to D and then up to C.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_Sami1819_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172097209541">
+<problem id="fs-id1172101905724">
+<para id="fs-id1172097161264">Two moles of helium gas are placed in a cylindrical container with a piston. The gas is at room temperature <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and under a pressure of <m:math><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> When the pressure from the outside is decreased while keeping the temperature the same as the room temperature, the volume of the gas doubles. (a) Find the work the external agent does on the gas in the process. (b) Find the heat exchanged by the gas and indicate whether the gas takes in or gives up heat. Assume ideal gas behavior.</para>
+</problem>
+<solution id="fs-id1172099382254">
+<para id="fs-id1172099619834">a. −3 400 J; b. 3400 J enters the gas</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099574826">
+<problem id="fs-id1172101786706">
+<para id="fs-id1172099397220">An amount of n moles of a monatomic ideal gas in a conducting container with a movable piston is placed in a large thermal heat bath at temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and the gas is allowed to come to equilibrium. After the equilibrium is reached, the pressure on the piston is lowered so that the gas expands at constant temperature. The process is continued quasi-statically until the final pressure is 4/3 of the initial pressure <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> (a) Find the change in the internal energy of the gas. (b) Find the work done by the gas. (c) Find the heat exchanged by the gas, and indicate, whether the gas takes in or gives up heat.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172101948865">
+<term>adiabatic process</term>
+<meaning id="fs-id1172099800074">process during which no heat is transferred to or from the system</meaning>
+</definition>
+<definition id="fs-id1172097444574">
+<term>cyclic process</term>
+<meaning id="fs-id1172097543587">process in which the state of the system at the end is same as the state at the beginning</meaning>
+</definition>
+<definition id="fs-id1172099702822">
+<term>isobaric process</term>
+<meaning id="fs-id1172099516755">process during which the system’s pressure does not change</meaning>
+</definition>
+<definition id="fs-id1172102107677">
+<term>isochoric process</term>
+<meaning id="fs-id1172097143858">process during which the system’s volume does not change</meaning>
+</definition>
+<definition id="fs-id1172101777950">
+<term>isothermal process</term>
+<meaning id="fs-id1172101714880">process during which the system’s temperature remains constant</meaning>
+</definition>
+<definition id="fs-id1172099512959">
+<term>reversible process</term>
+<meaning id="fs-id1172101778994">process that can be reverted to restore both the system and its environment back to their original states together</meaning>
+</definition>
+<definition id="fs-id1172101920335">
+<term>thermodynamic process</term>
+<meaning id="fs-id1172099513415">manner in which a state of a system can change from initial state to final state</meaning>
+</definition>
+</glossary>
+</document>

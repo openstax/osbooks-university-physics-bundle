@@ -1,0 +1,207 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Band Theory of Solids</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58599</md:content-id>
+  <md:title>Band Theory of Solids</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe two main approaches to determining the energy levels of an electron in a crystal</item>
+<item>Explain the presence of energy bands and gaps in the energy structure of a crystal</item>
+<item>Explain why some materials are good conductors and others are good insulators</item>
+<item>Differentiate between an insulator and a semiconductor</item></list></md:abstract>
+  <md:uuid>eb478b62-7103-4c87-a878-9f4535e88e05</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101900682">The free electron model explains many important properties of conductors but is weak in at least two areas. First, it assumes a constant potential energy within the solid. (Recall that a constant potential energy is associated with no forces.) <link target-id="CNX_UPhysics_42_05_Coulomb"/> compares the assumption of a constant potential energy (dotted line) with the periodic Coulomb potential, which drops as <m:math><m:mrow><m:mn>−1</m:mn><m:mtext>/</m:mtext><m:mi>r</m:mi></m:mrow></m:math> at each lattice point, where <emphasis effect="italics">r</emphasis> is the distance from the ion core (solid line). Second, the free electron model assumes an impenetrable barrier at the surface. This assumption is not valid, because under certain conditions, electrons can escape the surface—such as in the photoelectric effect. In addition to these assumptions, the free electron model does not explain the dramatic differences in electronic properties of conductors, semiconductors, and insulators. Therefore, a more complete model is needed.</para>
+<figure id="CNX_UPhysics_42_05_Coulomb">
+<media id="fs-id1172097351540" alt="Figure shows three inverted U shaped structures in a row and two incomplete ones on either side of the row. There are red dots at the bottom between two consecutive figures, with plus signs below them. The distance between two consecutive dots is a. The shapes are labeled minus 1 by r. There is a dotted just above the shapes. This is labeled approximate constant potential energy.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_05_Coulomb.jpg"/>
+</media>
+<caption>The periodic potential used to model electrons in a conductor. Each ion in the solid is the source of a Coulomb potential. Notice that the free electron model is productive because the average of this field is approximately constant.</caption>
+</figure>
+<para id="fs-id1172101758889">We can produce an improved model by solving Schrödinger’s equation for the periodic potential shown in <link target-id="CNX_UPhysics_42_05_Coulomb"/>. However, the solution requires technical mathematics far beyond our scope. We again seek a qualitative argument based on quantum mechanics to find a way forward.</para>
+<para id="fs-id1172099660684">We first review the argument used to explain the energy structure of a covalent bond. Consider two identical hydrogen atoms so far apart that there is no interaction whatsoever between them. Further suppose that the electron in each atom is in the same ground state: a 1<emphasis effect="italics">s</emphasis> electron with an energy of <m:math><m:mrow><m:mn>−13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math> (ignore spin). When the hydrogen atoms are brought closer together, the individual wave functions of the electrons overlap and, by the exclusion principle, can no longer be in the same quantum state, which splits the original equivalent energy levels into two different energy levels. The energies of these levels depend on the interatomic distance, <m:math><m:mi>α</m:mi></m:math> (<link target-id="CNX_UPhysics_42_05_EnLevSplit"/>).</para>
+<para id="fs-id1172099627892">If four hydrogen atoms are brought together, four levels are formed from the four possible symmetries—a single sine wave “hump” in each well, alternating up and down, and so on. In the limit of a very large number <emphasis effect="italics">N</emphasis> of atoms, we expect a spread of nearly continuous bands of electronic energy levels in a solid (see <link target-id="CNX_UPhysics_42_05_EnLevSplit"/>(c)). Each of these bands is known as an <term>energy band</term>. (The allowed states of energy and wave number are still technically quantized, but for large numbers of atoms, these states are so close together that they are consider to be continuous or “in the continuum.”)</para>
+<para id="fs-id1172102031756">Energy bands differ in the number of electrons they hold. In the 1<emphasis effect="italics">s</emphasis> and 2<emphasis effect="italics">s</emphasis> energy bands, each energy level holds up to two electrons (spin up and spin down), so this band has a maximum occupancy of 2<emphasis effect="italics">N</emphasis> electrons. In the 2<emphasis effect="italics">p</emphasis> energy band, each energy level holds up to six electrons, so this band has a maximum occupancy of 6<emphasis effect="italics">N</emphasis> electrons (<link target-id="CNX_UPhysics_42_05_EnBands"/>).</para>
+<figure id="CNX_UPhysics_42_05_EnLevSplit">
+<media id="fs-id1172101717280" alt="Three graphs of E versus R are shown. Figure a has a curve formed by two almost vertical lines which come down, turn to the right and become almost horizontal. They converge to form a single line. Figure b has a similar curve, but there are two additional lines between the lines present in figure a. Figure c is similar to figure a with the area between the lines shaded.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_05_EnLevSplit.jpg"/>
+</media>
+<caption>The dependence of energy-level splitting on the average distance between (a) two atoms, (b) four atoms, and (c) a large number of atoms. For a large number of electrons, a continuous band of energies is produced.</caption>
+</figure>
+<figure id="CNX_UPhysics_42_05_EnBands">
+<media id="fs-id1172097148508" alt="Figure shows three shaded rectangles, one on top of the other, separated by gaps. The lowest one is labeled 1s, the middle one is 2s and the top one is 2p. 1s and 2s are the same height, 2p is taller. All have the same width. To the left of the rectangles is an arrow labeled energy pointing up.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_05_EnBands.jpg"/>
+</media>
+<caption>A simple representation of the energy structure of a solid. Electrons belong to energy bands separated by energy gaps.</caption>
+</figure>
+<para id="fs-id1172102040645">Each energy band is separated from the other by an <term>energy gap</term>. The electrical properties of conductors and insulators can be understood in terms of energy bands and gaps. The highest energy band that is filled is known as a <term>valence band</term>. The next available band in the energy structure is known as a <term>conduction band</term>. In a conductor, the highest energy band that contains electrons is partially filled, whereas in an insulator, the highest energy band containing electrons is completely filled. The difference between a conductor and insulator is illustrated in <link target-id="CNX_UPhysics_42_05_HighEnBand"/>.</para>
+<para id="fs-id1172099683005">A conductor differs from an insulator in how its electrons respond to an applied electric field. If a significant number of electrons are set into motion by the field, the material is a conductor. In terms of the band model, electrons in the partially filled conduction band gain kinetic energy from the electric field by filling higher energy states in the conduction band. By contrast, in an insulator, electrons belong to completely filled bands. When the field is applied, the electrons cannot make such transitions (acquire kinetic energy from the electric field) due to the exclusion principle. As a result, the material does not conduct electricity.</para>
+<figure id="CNX_UPhysics_42_05_HighEnBand">
+<media id="fs-id1172097137801" alt="Two figure have a rectangle at the bottom labeled valence band, a space in the middle labeled energy gap and a rectangle at the top labeled conduction band. In figure a, which is labeled conductor: valance band filled, conduction band unfilled, the bottom rectangle is shaded and the top one is shaded only in the lower half. In figure b, which is labeled insulator: valance band filled, conduction band filled, both rectangles are fully shaded.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_05_HighEnBand.jpg"/>
+</media>
+<caption>Comparison of a conductor and insulator. The highest energy band is partially filled in a conductor but completely filled in an insulator.</caption>
+</figure>
+<note id="fs-id1172099417553" class="media-2">
+<para id="fs-id1172101673014">Visit this <link url="https://openstax.org/l/21bandstructure">simulation</link> to learn about the origin of energy bands in crystals of atoms and how the structure of bands determines how a material conducts electricity. Explore how band structure creates a lattice of many wells.</para>
+</note>
+<para id="fs-id1172099473560">A <term>semiconductor</term> has a similar energy structure to an insulator except it has a relatively small energy gap between the lowest completely filled band and the next available unfilled band. This type of material forms the basis of modern electronics. At <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>, the semiconductor and insulator both have completely filled bands. The only difference is in the size of the energy gap (or <emphasis effect="italics">band gap</emphasis>) <emphasis effect="italics">E<sub>g</sub></emphasis> between the highest energy band that is filled (the valence band) and the next-higher empty band (the conduction band). In a semiconductor, this gap is small enough that a substantial number of electrons from the valence band are thermally excited into the conduction band at room temperature. These electrons are then in a nearly empty band and can respond to an applied field. As a general rule of thumb, the band gap of a semiconductor is about 1 eV. (See <link target-id="fs-id1172099415754"/> for silicon.) A band gap of greater than approximately 1 eV is considered an insulator. For comparison, the energy gap of diamond (an insulator) is several electron-volts.</para>
+<table id="fs-id1172099415754" summary="This table has two columns, 9 rows and a header row. The header row labels each column material and energy gap E subscript g in eV. The first column has the following entries: Si, Ge, GaAs, GaP, GaSb, InAs, InP, InSb and C or diamond. The second column has the following values: 1.12, 0.67, 1.43, 2.26, 0.69, 0.35, 1.35, 0.16, 5.48.">
+<title>Energy Gap for Various Materials at 300 K</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Material</entry>
+<entry valign="top" align="center">Energy Gap <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>g</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Si</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1.14</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Ge</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.67</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>GaAs</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1.43</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>GaP</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2.26</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>GaSb</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.69</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>InAs</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.35</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>InP</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1.35</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>InSb</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.16</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>C</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>diamond</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>5.48</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+<caption>Note: Except for diamond, the materials listed are all semiconductors.</caption>
+</table>
+<section id="fs-id1172099418350" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172101747624" list-type="bulleted" bullet-style="bullet">
+<item>The energy levels of an electron in a crystal can be determined by solving Schrödinger’s equation for a periodic potential and by studying changes to the electron energy structure as atoms are pushed together from a distance.</item>
+<item>The energy structure of a crystal is characterized by continuous energy bands and energy gaps.</item>
+<item>The ability of a solid to conduct electricity relies on the energy structure of the solid.</item>
+</list>
+</section>
+<section id="fs-id1172102130565" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172101912160">
+<problem id="fs-id1172101707247">
+<para id="fs-id1172101774278">What are the two main approaches used to determine the energy levels of electrons in a crystal?</para>
+</problem>
+<solution id="fs-id1172099489816">
+<para id="fs-id1172099702494">(1) Solve Schrödinger’s equation for the allowed states and energies. (2) Determine energy levels for the case of a very large lattice spacing and then determine the energy levels as this spacing is reduced.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099666597">
+<problem id="fs-id1172102103725">
+<para id="fs-id1172102004664">Describe two features of energy levels for an electron in a crystal.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172097272472">
+<problem id="fs-id1172101839027">
+<para id="fs-id1172099605789">How does the number of energy levels in a band correspond to the number, <emphasis effect="italics">N</emphasis>, of atoms.</para>
+</problem>
+<solution id="fs-id1172102051247">
+<para id="fs-id1172099624833">For <emphasis effect="italics">N</emphasis> atoms spaced far apart, there are <emphasis effect="italics">N</emphasis> different wave functions, all with the same energy (similar to the case of an electron in the double well of <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> As the atoms are pushed together, the energies of these <emphasis effect="italics">N</emphasis> different wave functions are split. By the exclusion principle, each electron must each have a unique set of quantum numbers, so the <emphasis effect="italics">N</emphasis> atoms bringing <emphasis effect="italics">N</emphasis> electrons together must have at least <emphasis effect="italics">N</emphasis> states.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101674098">
+<problem id="fs-id1172099418263">
+<para id="fs-id1172102144513">Why are some materials very good conductors and others very poor conductors?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099526006">
+<problem id="fs-id1172099381763">
+<para id="fs-id1172101915387">Why are some materials semiconductors?</para>
+</problem>
+<solution id="fs-id1172101789459">
+<para id="fs-id1172102124983">For a semiconductor, there is a relatively large energy gap between the lowest completely filled band and the next available unfilled band. Typically, a number of electrons traverse the gap and therefore the electrical conductivity is small. The properties of a semiconductor are sensitivity to temperature: As the temperature is increased, thermal excitations promote charge carriers from the valence band across the gap and into the conduction band.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099385057">
+<problem id="fs-id1172101759306">
+<para id="fs-id1172099665169">Why does the resistance of a semiconductor decrease as the temperature increases?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172102117581" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172101675317">
+<problem id="fs-id1172101802221">
+<para id="fs-id1172101899674">For a one-dimensional crystal, write the lattice spacing (<emphasis effect="italics">a</emphasis>) in terms of the electron wavelength.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101772757">
+<problem id="fs-id1172101672070">
+<para id="fs-id1172099766709">What is the main difference between an insulator and a semiconductor?</para>
+</problem>
+<solution id="fs-id1172102078852">
+<para id="fs-id1172101699328">For an insulator, the energy gap between the valence band and the conduction band is larger than for a semiconductor.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099409413">
+<problem id="fs-id1172101735823">
+<para id="fs-id1172099495103">What is the longest wavelength for a photon that can excite a valence electron into the conduction band across an energy gap of 0.80 eV?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099625761">
+<problem id="fs-id1172099724458">
+<para id="fs-id1172102138990">A valence electron in a crystal absorbs a photon of wavelength, <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>0.300</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math>. This is just enough energy to allow the electron to jump from the valence band to the conduction band. What is the size of the energy gap?</para>
+</problem>
+<solution id="fs-id1172099601773">
+<para id="fs-id1172101922998">4.13 keV</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172099478632">
+<term>conduction band</term>
+<meaning id="fs-id1172101807559">above the valence band, the next available band in the energy structure of a crystal</meaning>
+</definition>
+<definition id="fs-id1172099375794">
+<term>energy band</term>
+<meaning id="fs-id1172101926324">nearly continuous band of electronic energy levels in a solid</meaning>
+</definition>
+<definition id="fs-id1172102132430">
+<term>energy gap</term>
+<meaning id="fs-id1172099626608">gap between energy bands in a solid</meaning>
+</definition>
+<definition id="fs-id1172099897659">
+<term>semiconductor</term>
+<meaning id="fs-id1172102095353">solid with a relatively small energy gap between the lowest completely filled band and the next available unfilled band</meaning>
+</definition>
+<definition id="fs-id1172099756371">
+<term>valence band</term>
+<meaning id="fs-id1172101928595">highest energy band that is filled in the energy structure of a crystal</meaning>
+</definition>
+</glossary>
+
+</document>

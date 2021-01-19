@@ -1,0 +1,327 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Entropy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58407</md:content-id>
+  <md:title>Entropy</md:title>
+  <md:abstract>By the end of this section you will be able to:
+<list>
+<item>Describe the meaning of entropy</item>
+<item>Calculate the change of entropy for some simple processes</item></list></md:abstract>
+  <md:uuid>24cd6be5-92e5-4ad8-bc8c-a02118d435e2</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167583679577">The second law of thermodynamics is best expressed in terms of a <emphasis effect="italics">change</emphasis> in the thermodynamic variable known as <term>entropy</term>, which is represented by the symbol <emphasis effect="italics">S</emphasis>. Entropy, like internal energy, is a state function. This means that when a system makes a transition from one state into another, the change in entropy <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi></m:mrow></m:math> is independent of path and depends only on the thermodynamic variables of the two states.</para>
+<para id="fs-id1167583719967">We first consider <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi></m:mrow></m:math> for a system undergoing a reversible process at a constant temperature. In this case, the change in entropy of the system is given by</para>
+<note id="fs-id1167583729132" class="equation-callout">
+<equation id="fs-id1167584952313"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>T</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167585013023">where <emphasis effect="italics">Q</emphasis> is the heat exchanged by the system kept at a temperature <emphasis effect="italics">T</emphasis> (in kelvin). If the system absorbs heat—that is, with <m:math><m:mrow><m:mi>Q</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>—the entropy of the system increases. As an example, suppose a gas is kept at a constant temperature of 300 K while it absorbs 10 J of heat in a reversible process. Then from <link target-id="fs-id1167584952313"/>, the entropy change of the gas is</para>
+<equation id="fs-id1167584857753" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.033</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167583696392">Similarly, if the gas loses 5.0 J of heat; that is, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>−5.0</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>, at temperature <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>, we have the entropy change of the system given by</para>
+<equation id="fs-id1167584759772" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−5.0</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−0.025</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<example id="fs-id1167585136722">
+<para id="fs-id1167584632913"><title>Entropy Change of Melting Ice</title>
+Heat is slowly added to a 50-g chunk of ice at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> until it completely melts into water at the same temperature. What is the entropy change of the ice?</para>
+<para id="fs-id1167583655128"><title>Strategy</title>
+Because the process is slow, we can approximate it as a reversible process. The temperature is a constant, and we can therefore use <link target-id="fs-id1167584952313"/> in the calculation.</para>
+<para id="fs-id1167584878280"><title>Solution</title>
+The ice is melted by the addition of heat:</para>
+<equation id="fs-id1167583839224" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>335</m:mn><m:mspace width="0.2em"/><m:mtext>J/g</m:mtext><m:mo>=</m:mo><m:mn>16.8</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584706515">In this reversible process, the temperature of the ice-water mixture is fixed at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> or 273 K. Now from <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>T</m:mi></m:mrow></m:math>, the entropy change of the ice is</para>
+<equation id="fs-id1167583632613" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>16.8</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext></m:mrow><m:mrow><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>61.5</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167584655498">when it melts to water at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167583697282"><title>Significance</title>
+During a phase change, the temperature is constant, allowing us to use <link target-id="fs-id1167584952313"/> to solve this problem. The same equation could also be used if we changed from a liquid to a gas phase, since the temperature does not change during that process either.</para>
+</example>
+<para id="fs-id1167585036244">The change in entropy of a system for an arbitrary, reversible transition for which the temperature is not necessarily constant is defined by modifying <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>T</m:mi></m:mrow></m:math>. Imagine a system making a transition from state <emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis> in small, discrete steps. The temperatures associated with these states are <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>B</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectively. During each step of the transition, the system exchanges heat <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> reversibly at a temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>i</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> This can be accomplished experimentally by placing the system in thermal contact with a large number of heat reservoirs of varying temperatures <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math>, as illustrated in <link target-id="CNX_UPhysics_21_06_Isobaric"/>. The change in entropy for each step is <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mi>i</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> The net change in entropy of the system for the transition is </para><equation id="eip-545"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:msub><m:mi>S</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>S</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mspace width="0.2em"/><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mspace width="0.2em"/><m:mrow><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1167583572294">We now take the limit as <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and the number of steps approaches infinity. Then, replacing the summation by an integral, we obtain</para>
+<note id="fs-id1167584986538" class="equation-callout">
+<equation id="fs-id1167583610032"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:msub><m:mi>S</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>S</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mrow><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167585036429">where the integral is taken between the initial state <emphasis effect="italics">A</emphasis> and the final state <emphasis effect="italics">B</emphasis>. This equation is valid only if the transition from <emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis> is reversible.</para>
+<figure id="CNX_UPhysics_21_06_Isobaric">
+<media id="fs-id1167585001831" alt="The figure shows four heat reservoirs. The first reservoir at temperature T has gas with volume V, the second reservoir at T plus delta T has gas V plus delta V, the third reservoir at T plus 2 delta T has gas V plus 2 delta V and the final reservoir at T plus n delta T has gas at V plus n delta V.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_06_Isobaric.jpg"/>
+</media>
+<caption>The gas expands at constant pressure as its temperature is increased in small steps through the use of a series of heat reservoirs.</caption>
+</figure>
+<para id="fs-id1167583656050">As an example, let us determine the net entropy change of a reversible engine while it undergoes a single Carnot cycle. In the adiabatic steps 2 and 4 of the cycle shown in <link target-id="CNX_UPhysics_21_05_Carnot" document="m58406"/>, no heat exchange takes place, so <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mspace width="0.2em"/><m:mi>d</m:mi></m:mrow></m:mstyle><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> In step 1, the engine absorbs heat <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> at a temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> so its entropy change is <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Similarly, in step 3, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> The net entropy change of the engine in one cycle of operation is then</para>
+<equation id="fs-id1167585158255" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mi>E</m:mi></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584887168">However, we know that for a Carnot engine,</para>
+<equation id="fs-id1167584989588" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585006166">so</para>
+<equation id="fs-id1167583612964" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mi>E</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584722095">There is no net change in the entropy of the Carnot engine over a complete cycle. Although this result was obtained for a particular case, its validity can be shown to be far more general: There is no net change in the entropy of a system undergoing any complete reversible cyclic process. Mathematically, we write this statement as</para>
+<note id="fs-id1167583647945" class="equation-callout">
+<equation id="fs-id1167584743917"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>d</m:mi><m:mi>S</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167584988009">where <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo></m:mrow></m:mstyle></m:mrow></m:math> represents the integral over a <emphasis effect="italics">closed reversible path</emphasis>.</para>
+<para id="fs-id1167585021110">We can use <link target-id="fs-id1167584743917"/> to show that the entropy change of a system undergoing a reversible process between two given states is path independent. An arbitrary, closed path for a reversible cycle that passes through the states <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> is shown in <link target-id="CNX_UPhysics_21_06_Loop"/>. From <link target-id="fs-id1167584743917"/>, <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>d</m:mi><m:mi>S</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> for this closed path. We may split this integral into two segments, one along I, which leads from <emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis>, the other along II, which leads from <emphasis effect="italics">B</emphasis> to <emphasis effect="italics">A</emphasis>. Then</para>
+<equation id="fs-id1167584772490" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>S</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mtext>I</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>B</m:mi><m:mi>A</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>S</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>II</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584745191">Since the process is reversible,</para>
+<equation id="fs-id1167584980002" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>S</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mtext>I</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>S</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>II</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_21_06_Loop">
+<media id="fs-id1167583541823" alt="The figure shows a a pear shaped closed loop graph with x-axis V and y-axis p.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_06_Loop.jpg"/>
+</media>
+<caption>The closed loop passing through states <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> represents a reversible cycle.</caption>
+</figure>
+<para id="fs-id1167583595448">Hence, the entropy change in going from <emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis> is the same for paths I and II. Since paths I and II are arbitrary, reversible paths, the entropy change in a transition between two equilibrium states is the same for all the reversible processes joining these states. Entropy, like internal energy, is therefore a state function.</para>
+<para id="fs-id1167584753200">What happens if the process is irreversible? When the process is irreversible, we expect the entropy of a closed system, or the system and its environment (the universe), to increase. Therefore we can rewrite this expression as</para>
+<note id="fs-id1167583597003" class="equation-callout">
+<equation id="fs-id1167583681746"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167585015998">where <emphasis effect="italics">S</emphasis> is the total entropy of the closed system or the entire universe, and the equal sign is for a reversible process. The fact is the <term>entropy statement of the second law of thermodynamics</term>:</para>
+<note id="fs-id1167585006894">
+<title>Second Law of Thermodynamics (Entropy statement)</title>
+<para id="fs-id1167584704885">The entropy of a closed system and the entire universe never decreases.</para>
+</note>
+<para id="fs-id1167585009042">We can show that this statement is consistent with the Kelvin statement, the Clausius statement, and the Carnot principle.</para>
+<example id="fs-id1167584623651">
+<para id="fs-id1167585111323"><title>Entropy Change of a System during an Isobaric Process</title>
+Determine the entropy change of an object of mass <emphasis effect="italics">m</emphasis> and specific heat <emphasis effect="italics">c</emphasis> that is cooled rapidly (and irreversibly) at constant pressure from <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> to <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167584702259"><title>Strategy</title>
+The process is clearly stated as an irreversible process; therefore, we cannot simply calculate the entropy change from the actual process. However, because entropy of a system is a function of state, we can imagine a reversible process that starts from the same initial state and ends at the given final state. Then, the entropy change of the system is given by <link target-id="fs-id1167583610032"/>, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>T</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167584917766"><title>Solution</title>
+To replace this rapid cooling with a process that proceeds reversibly, we imagine that the hot object is put into thermal contact with successively cooler heat reservoirs whose temperatures range from <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> to <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Throughout the substitute transition, the object loses infinitesimal amounts of heat <emphasis effect="italics">dQ</emphasis>, so we have</para>
+<equation id="fs-id1167584699633" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167583602166">From the definition of heat capacity, an infinitesimal exchange <emphasis effect="italics">dQ</emphasis> for the object is related to its temperature change <emphasis effect="italics">dT</emphasis> by</para>
+<equation id="fs-id1167583711513" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584654857">Substituting this <emphasis effect="italics">dQ</emphasis> into the expression for <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi></m:mrow></m:math>, we obtain the entropy change of the object as it is cooled at constant pressure from <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167585181220" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584740582">Note that <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> here because <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> In other words, the object has lost some entropy. But if we count whatever is used to remove the heat from the object, we would still end up with <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>universe</m:mtext></m:mrow></m:msub><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> because the process is irreversible.</para>
+<para id="fs-id1167585159300"><title>Significance</title>
+If the temperature changes during the heat flow, you must keep it inside the integral to solve for the change in entropy. If, however, the temperature is constant, you can simply calculate the entropy change as the heat flow divided by the temperature.</para>
+</example>
+<example id="fs-id1167584727098">
+<para id="fs-id1167585038742"><title>Stirling Engine</title>
+The steps of a reversible <term class="no-emphasis">Stirling engine</term> are as follows. For this problem, we will use 0.0010 mol of a monatomic gas that starts at a temperature of <m:math><m:mrow><m:mn>133</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and a volume of <m:math><m:mrow><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, which will be called point <emphasis effect="italics">A</emphasis>. Then it goes through the following steps:</para>
+<list id="fs-id1167584642416" list-type="enumerated" number-style="arabic">
+<item>Step <emphasis effect="italics">AB</emphasis>: isothermal expansion at <m:math><m:mrow><m:mn>133</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> from <m:math><m:mrow><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> to <m:math><m:mrow><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></item>
+<item>Step <emphasis effect="italics">BC</emphasis>: isochoric cooling to <m:math><m:mrow><m:mn>33</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></item>
+<item>Step <emphasis effect="italics">CD</emphasis>: isothermal compression at <m:math><m:mrow><m:mn>33</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> from <m:math><m:mrow><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> to <m:math><m:mrow><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></item>
+<item>Step <emphasis effect="italics">DA</emphasis>: isochoric heating back to <m:math><m:mrow><m:mn>133</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></item>
+</list>
+<para id="fs-id1167584748277">(a) Draw the <emphasis effect="italics">pV</emphasis> diagram for the Stirling engine with proper labels.</para>
+<para id="fs-id1167584650201">(b) Fill in the following table.</para>
+<table id="fs-id1167584679335" summary="The table has four columns and six rows. From left to right, the first row contains “Step”, “W opening parenthesis J closing parenthesis”, “Q opening parenthesis J closing parenthesis” and “delta S opening parenthesis J divided by K closing parenthesis”. The second row contains “Step AB” and three blank columns. The third row contains “Step BC” and three blank columns. The fourth row contains “Step CD” and three blank columns. The fifth row contains “Step DA” and three blank columns. The sixth row contains “Complete cycle” and three blank columns." class="unnumbered">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Step</entry>
+<entry valign="top" align="center"><emphasis effect="italics">W</emphasis> (J)</entry>
+<entry valign="top" align="center"><emphasis effect="italics">Q</emphasis> (J)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi></m:mrow></m:math> (J/K)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Step <emphasis effect="italics">AB</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Step <emphasis effect="italics">BC</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Step <emphasis effect="italics">CD</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Step <emphasis effect="italics">DA</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Complete cycle</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167583541914">(c) How does the efficiency of the Stirling engine compare to the Carnot engine working within the same two heat reservoirs?</para>
+<para id="fs-id1167585064211"><title>Strategy</title>
+Using the ideal gas law, calculate the pressure at each point so that they can be labeled on the <emphasis effect="italics">pV</emphasis> diagram. Isothermal work is calculated using <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and an isochoric process has no work done. The heat flow is calculated from the first law of thermodynamics, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:mi>W</m:mi></m:mrow></m:math> where <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>n</m:mi><m:mi>R</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> for monatomic gasses. Isothermal steps have a change in entropy of <emphasis effect="italics">Q</emphasis>/<emphasis effect="italics">T</emphasis>, whereas isochoric steps have <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>n</m:mi><m:mi>R</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The efficiency of a heat engine is calculated by using <m:math><m:mrow><m:msub><m:mi>e</m:mi><m:mrow><m:mtext>Stir</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>W</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167584632465"><title>Solution</title></para>
+<list id="fs-id1167584797443" list-type="enumerated" number-style="lower-alpha">
+<item>The graph is shown below.<newline/>
+<media id="fs-id1167584689023" alt="The figure shows a graph with x-axis V in m superscript 3 and y-axis p in atm. The four points A (0.10, 26), B (0.20, 17), C (0.20, 13) ad D (0.10, 26) are connected to form a closed loop.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_06_pVStirling_img.jpg"/>
+</media>
+</item>
+<item>The completed table is shown below.<newline/>
+<table id="fs-id1167584720835" summary="The table has four columns and six rows. From left to right, the first row contains “Step”, “W opening parenthesis J closing parenthesis”, “Q opening parenthesis J closing parenthesis” and “delta S opening parenthesis J divided by K closing parenthesis”. The second row contains “Step AB”, “2.3”, “2.3” and “0.0057”. The third row contains “Step BC”, “0”, “minus 1.2” and “0.0035”. The fourth row contains “Step CD”, “minus 1.8”, “minus 1.8” and “minus 0.0059”. The fifth row contains “Step DA”, “0”, “1.2” and “minus 0.0035”. The sixth row contains “Complete cycle”, “0.5”, “0.5” and “approximately 0”." class="unnumbered">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Step</entry>
+<entry valign="top" align="center"><emphasis effect="italics">W</emphasis> (J)</entry>
+<entry valign="top" align="center"><emphasis effect="italics">Q</emphasis> (J)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi></m:mrow></m:math> (J/K)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Step <emphasis effect="italics">AB</emphasis> Isotherm</entry>
+<entry valign="top" align="center">2.3</entry>
+<entry valign="top" align="center">2.3</entry>
+<entry valign="top" align="center">0.0057</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Step <emphasis effect="italics">BC</emphasis> Isochoric</entry>
+<entry valign="top" align="center">0</entry>
+<entry valign="top" align="center">–1.2</entry>
+<entry valign="top" align="center">0.0035</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Step <emphasis effect="italics">CD</emphasis> Isotherm</entry>
+<entry valign="top" align="center">–1.8</entry>
+<entry valign="top" align="center">–1.8</entry>
+<entry valign="top" align="center">–0.0059</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Step <emphasis effect="italics">DA</emphasis> Isochoric</entry>
+<entry valign="top" align="center">0</entry>
+<entry valign="top" align="center">1.2</entry>
+<entry valign="top" align="center">–0.0035</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Complete cycle</entry>
+<entry valign="top" align="center">0.5</entry>
+<entry valign="top" align="center">0.5</entry>
+<entry valign="top" align="center">~ 0</entry>
+</row>
+</tbody>
+</tgroup>
+</table></item>
+<item>The efficiency of the Stirling heat engine is 
+<equation id="fs-id1167584981816" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>e</m:mi><m:mrow><m:mtext>Stir</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>W</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>D</m:mi><m:mi>A</m:mi></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mtext>/</m:mtext><m:mn>4.5</m:mn><m:mo>=</m:mo><m:mn>0.11</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167584730468">If this were a Carnot engine operating between the same heat reservoirs, its efficiency would be</para>
+<equation id="fs-id1167585167132" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>e</m:mi><m:mrow><m:mtext>Car</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.25</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585125733">Therefore, the Carnot engine would have a greater efficiency than the Stirling engine.</para>
+<para id="fs-id1167583758065"><title>Significance</title>
+In the early days of steam engines, accidents would occur due to the high pressure of the steam in the boiler. Robert Stirling developed an engine in 1816 that did not use steam and therefore was safer. The Stirling engine was commonly used in the nineteenth century, but developments in steam and internal combustion engines have made it difficult to broaden the use of the Stirling engine.</para>
+<para id="fs-id1167585065275">The Stirling engine uses compressed air as the working substance, which passes back and forth between two chambers with a porous plug, called the regenerator, which is made of material that does not conduct heat as well. In two of the steps, pistons in the two chambers move in phase.</para>
+</example>
+<section id="fs-id1167584891933" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167583623128" list-type="bulleted" bullet-style="bullet">
+<item>The change in entropy for a reversible process at constant temperature is equal to the heat divided by the temperature. The entropy change of a system under a reversible process is given by <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mi>d</m:mi></m:mrow></m:mstyle><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>T</m:mi></m:mrow></m:math>.</item>
+<item>A system’s change in entropy between two states is independent of the reversible thermodynamic path taken by the system when it makes a transition between the states.</item>
+</list>
+</section>
+<section id="fs-id1167583686758" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167584988455">
+<problem id="fs-id1167584950027">
+<para id="fs-id1167584963440">Does the entropy increase for a Carnot engine for each cycle?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167584886028">
+<problem id="fs-id1167584928850">
+<para id="fs-id1167583953820">Is it possible for a system to have an entropy change if it neither absorbs nor emits heat during a reversible transition? What happens if the process is irreversible?</para>
+</problem>
+<solution id="fs-id1167584726118">
+<para id="fs-id1167584763639">Entropy will not change if it is a reversible transition but will change if the process is irreversible.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167583604092" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167584976532">
+<problem id="fs-id1167584902846">
+<para id="fs-id1167584702418">Two hundred joules of heat are removed from a heat reservoir at a temperature of 200 K. What is the entropy change of the reservoir?</para>
+</problem>
+<solution id="fs-id1167585004684">
+<para id="fs-id1167584968240">–1 J/K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167584653136">
+<problem id="fs-id1167584821848">
+<para id="fs-id1167584759751">In an isothermal reversible expansion at <m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, an ideal gas does 20 J of work. What is the entropy change of the gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167583535490">
+<problem id="fs-id1167584980689">
+<para id="fs-id1167584656399">An ideal gas at 300 K is compressed isothermally to one-fifth its original volume. Determine the entropy change per mole of the gas.</para>
+</problem>
+<solution id="fs-id1167583539274">
+<para id="fs-id1167583839645">–13 J(K mole)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167583718248">
+<problem id="fs-id1167583525884">
+<para id="fs-id1167585017729">What is the entropy change of 10 g of steam at <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> when it condenses to water at the same temperature?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585007826">
+<problem id="fs-id1167585015460">
+<para id="fs-id1167583758112">A metal rod is used to conduct heat between two reservoirs at temperatures <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectively. When an amount of heat <emphasis effect="italics">Q</emphasis> flows through the rod from the hot to the cold reservoir, what is the net entropy change of the rod, the hot reservoir, the cold reservoir, and the universe?</para>
+</problem>
+<solution id="fs-id1167584896632">
+<para id="fs-id1167584992926"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>Q</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167584906313">
+<problem id="fs-id1167584909587">
+<para id="fs-id1167584906842">For the Carnot cycle of <link target-id="CNX_UPhysics_21_05_CarnotCycl" document="m58406"/>, what is the entropy change of the hot reservoir, the cold reservoir, and the universe?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167583597604">
+<problem id="fs-id1167583902250">
+<para id="fs-id1167585156347">A 5.0-kg piece of lead at a temperature of <m:math><m:mrow><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> is placed in a lake whose temperature is <m:math><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. Determine the entropy change of (a) the lead piece, (b) the lake, and (c) the universe.</para>
+</problem>
+<solution id="fs-id1167583960736">
+<para id="fs-id1167584777716">a. –709 J/K; b. 1300 J/K; c. 591 J/K</para></solution>
+</exercise>
+<exercise id="fs-id1167584978208">
+<problem id="fs-id1167583723100">
+<para id="fs-id1167583811338">One mole of an ideal gas doubles its volume in a reversible isothermal expansion. (a) What is the change in entropy of the gas? (b) If 1500 J of heat are added in this process, what is the temperature of the gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167583547795">
+<problem id="fs-id1167583689792">
+<para id="fs-id1167585073955">One mole of an ideal monatomic gas is confined to a rigid container. When heat is added reversibly to the gas, its temperature changes from <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> (a) How much heat is added? (b) What is the change in entropy of the gas?</para>
+</problem>
+<solution id="fs-id1167584635029">
+<para id="fs-id1167585054737">a. <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167583560221">
+<problem id="fs-id1167585014645">
+<para id="fs-id1167584699942">(a) A 5.0-kg rock at a temperature of <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> is dropped into a shallow lake also at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> from a height of <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. What is the resulting change in entropy of the universe? (b) If the temperature of the rock is <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> when it is dropped, what is the change of entropy of the universe? Assume that air friction is negligible (not a good assumption) and that <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>860</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:math> is the specific heat of the rock.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167584769967">
+<term>entropy</term>
+<meaning id="fs-id1167584749829">state function of the system that changes when heat is transferred between the system and the environment</meaning>
+</definition>
+<definition id="fs-id1167584981815">
+<term>entropy statement of the second law of thermodynamics</term>
+<meaning id="fs-id1167584761304">entropy of a closed system or the entire universe never decreases</meaning>
+</definition>
+</glossary>
+
+</document>

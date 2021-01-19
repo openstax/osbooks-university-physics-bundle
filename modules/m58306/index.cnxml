@@ -1,0 +1,746 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Drag Force and Terminal Speed</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58306</md:content-id>
+  <md:title>Drag Force and Terminal Speed</md:title>
+  <md:abstract>By the end of the section, you will be able to:
+<list>
+<item>Express the drag force mathematically</item>
+<item>Describe applications of the drag force</item>
+<item>Define terminal velocity</item>
+<item>Determine an object’s terminal velocity given its mass</item>
+</list></md:abstract>
+  <md:uuid>36a2674d-4cdb-4dfd-a2b0-5c63cc5a969b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165039047079">Another interesting force in everyday life is the force of drag on an object when it is moving in a fluid (either a gas or a liquid). You feel the drag force when you move your hand through water. You might also feel it if you move your hand during a strong wind. The faster you move your hand, the harder it is to move. You feel a smaller drag force when you tilt your hand so only the side goes through the air—you have decreased the area of your hand that faces the direction of motion.</para>
+<section id="fs-id1165039242508">
+<title>Drag Forces</title>
+<para id="fs-id1165035784729">Like friction, the <term>drag force</term> always opposes the motion of an object. Unlike simple friction, the drag force is proportional to some function of the velocity of the object in that fluid. This functionality is complicated and depends upon the shape of the object, its size, its velocity, and the fluid it is in. For most large objects such as cyclists, cars, and baseballs not moving too slowly, the magnitude of the drag force <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub></m:mrow></m:math> is proportional to the square of the speed of the object. We can write this relationship mathematically as <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>∝</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> When taking into account other factors, this relationship becomes</para>
+<note id="fs-id1165035834941" class="equation-callout">
+<equation id="fs-id1165035612959"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>C</m:mi><m:mi>ρ</m:mi><m:mi>A</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165039240894">where <emphasis effect="italics">C</emphasis> is the drag coefficient, <emphasis effect="italics">A</emphasis> is the area of the object facing the fluid, and <m:math><m:mi>ρ</m:mi></m:math> is the density of the fluid. (Recall that density is mass per unit volume.) This equation can also be written in a more generalized fashion as <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mi>b</m:mi><m:msup><m:mi>v</m:mi><m:mi>n</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">b</emphasis> is a constant equivalent to <m:math><m:mrow><m:mn>0.5</m:mn><m:mi>C</m:mi><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:math> We have set the exponent <emphasis effect="italics">n</emphasis> for these equations as 2 because when an object is moving at high velocity through air, the magnitude of the drag force is proportional to the square of the speed. As we shall see in <link document="m58624">Fluid Mechanics</link>, for small particles moving at low speeds in a fluid, the exponent <emphasis effect="italics">n</emphasis> is equal to 1.</para><note id="fs-id1165035991133">
+<title>Drag Force</title>
+<para id="fs-id1165039245532">Drag force <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub></m:mrow></m:math> is proportional to the square of the speed of the object. Mathematically,</para>
+<equation id="fs-id1165035683638" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>C</m:mi><m:mspace width="0.2em"/><m:mi>ρ</m:mi><m:mspace width="0.2em"/><m:mi>A</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039450525">where <emphasis effect="italics">C</emphasis> is the <term class="no-emphasis">drag coefficient</term>, <emphasis effect="italics">A</emphasis> is the area of the object facing the fluid, and <m:math><m:mi>ρ</m:mi></m:math> is the density of the fluid.</para>
+</note>
+<para id="fs-id1165035693556">Athletes as well as car designers seek to reduce the drag force to lower their race times (<link target-id="CNX_UPhysics_06_04_BobSled"/>). Aerodynamic shaping of an automobile can reduce the drag force and thus increase a car’s gas mileage.</para>
+<figure id="CNX_UPhysics_06_04_BobSled">
+<media id="fs-id1165035993058" alt="A photograph of a bobsled on a track at the Olympics.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_Bobsled.jpg"/>
+</media>
+<caption>From racing cars to bobsled racers, aerodynamic shaping is crucial to achieving top speeds. Bobsleds are designed for speed and are shaped like a bullet with tapered fins. (credit: “U.S. Army”/Wikimedia Commons)</caption>
+</figure>
+<para id="fs-id1165035977652">The value of the drag coefficient <emphasis effect="italics">C</emphasis> is determined empirically, usually with the use of a <term class="no-emphasis">wind tunnel</term> (<link target-id="CNX_UPhysics_06_04_WindTunnel"/>).</para>
+<figure id="CNX_UPhysics_06_04_WindTunnel">
+<media id="fs-id1165039251933" alt="A photograph of a model plane in a wind tunnel.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_WindTunnel.jpg"/>
+</media>
+<caption>NASA researchers test a model plane in a wind tunnel. (credit: NASA/Ames)</caption>
+</figure>
+<para id="fs-id1165039236753">The drag coefficient can depend upon velocity, but we assume that it is a constant here. <link target-id="fs-id1165035723394"/> lists some typical drag coefficients for a variety of objects. Notice that the drag coefficient is a dimensionless quantity. At highway speeds, over <m:math><m:mrow><m:mn>50</m:mn><m:mi>%</m:mi></m:mrow></m:math> of the power of a car is used to overcome air drag. The most fuel-efficient cruising speed is about 70–80 km/h (about 45–50 mi/h). For this reason, during the 1970s oil crisis in the United States, maximum speeds on highways were set at about 90 km/h (55 mi/h).</para>
+<table id="fs-id1165035723394" summary="The table has two columns and thirteen rows. The first row is a header row and has entries “object” for the first column and “C” for the second column. The second row has entries Airfoil, 0.05. The third row has entries Toyota Camry, 0.28. The fourth row has entries Ford Focus, 0.32. The fifth row has entries Honda Civic, 0.36. The sixth row has entries Ferrari Testarossa, 0.37. The seventh row has entries Dodge Ram Pickup, 0.43. The eighth row has entries Sphere, 0.45. The ninth row has entries Hummer H2 SUV, 0.64. The tenth row has entries Skydiver (feet first), 0.70. The eleventh row has entries Bicycle, 0.90. The twelfth row has entries Skydiver (horizontal), 1.0. The thirteenth row has entries Circular flat plate, 1.12.">
+<title>Typical Values of Drag Coefficient <emphasis effect="italics">C</emphasis></title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Object</entry>
+<entry valign="top" align="center"><emphasis effect="italics">C</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Airfoil</entry>
+<entry valign="top" align="left">0.05</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Toyota Camry</entry>
+<entry valign="top" align="left">0.28</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ford Focus</entry>
+<entry valign="top" align="left">0.32</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Honda Civic</entry>
+<entry valign="top" align="left">0.36</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ferrari Testarossa</entry>
+<entry valign="top" align="left">0.37</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Dodge Ram Pickup</entry>
+<entry valign="top" align="left">0.43</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Sphere</entry>
+<entry valign="top" align="left">0.45</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hummer H2 SUV</entry>
+<entry valign="top" align="left">0.64</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Skydiver (feet first)</entry>
+<entry valign="top" align="left">0.70</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Bicycle</entry>
+<entry valign="top" align="left">0.90</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Skydiver (horizontal)</entry>
+<entry valign="top" align="left">1.0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Circular flat plate</entry>
+<entry valign="top" align="left">1.12</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1165038975746">Substantial research is under way in the sporting world to minimize drag. The dimples on golf balls are being redesigned, as are the clothes that athletes wear. Bicycle racers and some swimmers and runners wear full bodysuits. Australian Cathy Freeman wore a full body suit in the 2000 Sydney Olympics and won a gold medal in the 400-m race. Many swimmers in the 2008 Beijing Olympics wore (Speedo) body suits; it might have made a difference in breaking many world records (<link target-id="CNX_UPhysics_06_04_BodySuit"/>). Most elite swimmers (and cyclists) shave their body hair. Such innovations can have the effect of slicing away milliseconds in a race, sometimes making the difference between a gold and a silver medal. One consequence is that careful and precise guidelines must be continuously developed to maintain the integrity of the sport.</para>
+<figure id="CNX_UPhysics_06_04_BodySuit">
+<media id="fs-id1165035683609" alt="A photograph of three swimmers wearing body suits.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_BodySuit.jpg"/>
+</media>
+<caption>Body suits, such as this LZR Racer Suit, have been credited with aiding in many world records after their release in 2008. Smoother “skin” and more compression forces on a swimmer’s body provide at least <m:math><m:mrow><m:mn>10</m:mn><m:mi>%</m:mi></m:mrow></m:math> less drag. (credit: NASA/Kathy Barnstorff)</caption>
+</figure>
+</section>
+<section id="fs-id1165039253705">
+<title>Terminal Velocity</title>
+<para id="fs-id1165039119204">Some interesting situations connected to Newton’s second law occur when considering the effects of drag forces upon a moving object. For instance, consider a skydiver falling through air under the influence of gravity. The two forces acting on him are the force of gravity and the drag force (ignoring the small buoyant force). The downward force of gravity remains constant regardless of the velocity at which the person is moving. However, as the person’s velocity increases, the magnitude of the drag force increases until the magnitude of the drag force is equal to the gravitational force, thus producing a net force of zero. A zero net force means that there is no acceleration, as shown by Newton’s second law. At this point, the person’s velocity remains constant and we say that the person has reached his <term>terminal velocity</term> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Since <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub></m:mrow></m:math> is proportional to the speed squared, a heavier skydiver must go faster for <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub></m:mrow></m:math> to equal his weight. Let’s see how this works out more quantitatively.</para>
+<para id="fs-id1165039111305">At the terminal velocity,</para>
+<equation id="fs-id1165039421474" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>−</m:mo><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035706192">Thus,</para>
+<equation id="fs-id1165039345579" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039317309">Using the equation for drag force, we have</para>
+<equation id="fs-id1165039269273" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>C</m:mi><m:mi>ρ</m:mi><m:mi>A</m:mi><m:msubsup><m:mi>v</m:mi><m:mtext>T</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039048514">Solving for the velocity, we obtain</para>
+<equation id="fs-id1165035866534" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mrow><m:mi>ρ</m:mi><m:mi>C</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035634619">Assume the density of air is <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>1.21</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> A 75-kg skydiver descending head first has a cross-sectional area of approximately <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0.18</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and a drag coefficient of approximately <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0.70</m:mn></m:mrow></m:math>. We find that</para>
+<equation id="fs-id1165039027481" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.21</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.70</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.18</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>98</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>=</m:mo><m:mn>350</m:mn><m:mspace width="0.2em"/><m:mtext>km/h</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165035691370">This means a skydiver with a mass of 75 kg achieves a terminal velocity of about 350 km/h while traveling in a headfirst position, minimizing the area and his drag. In a spread-eagle position, that terminal velocity may decrease to about 200 km/h as the area increases. This terminal velocity becomes much smaller after the parachute opens.</para><example id="fs-id1165039257532">
+<para id="fs-id1165035708311"><title>Terminal Velocity of a Skydiver</title>
+Find the terminal velocity of an 85-kg skydiver falling in a spread-eagle position.</para>
+<para id="fs-id1165039377270"><title>Strategy</title>
+At terminal velocity, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> Thus, the drag force on the skydiver must equal the force of gravity (the person’s weight). Using the equation of drag force, we find <m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:mi>C</m:mi><m:mi>A</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1165039515508"><title>Solution</title>
+The terminal velocity <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub></m:mrow></m:math> can be written as</para>
+<equation id="fs-id1165038986825" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mrow><m:mi>ρ</m:mi><m:mi>C</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>85</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.21</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.70</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>44</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165035669750"><title>Significance</title>
+This result is consistent with the value for <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub></m:mrow></m:math> mentioned earlier. The 75-kg skydiver going feet first had a terminal velocity of <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mn>98</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> He weighed less but had a smaller frontal area and so a smaller drag due to the air.</para>
+</example>
+<note id="fs-id1165039044234" class="check-understanding">
+<exercise id="fs-id1165038974070">
+<problem id="fs-id1165039290042">
+<para id="fs-id1165035831943"><emphasis effect="bold">Check Your Understanding</emphasis> Find the terminal velocity of a 50-kg skydiver falling in spread-eagle fashion.</para>
+</problem>
+<solution id="fs-id1165039346376">
+<para id="fs-id1165039026935">34 m/s</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165035662117">The size of the object that is falling through air presents another interesting application of air drag. If you fall from a 5-m-high branch of a tree, you will likely get hurt—possibly fracturing a bone. However, a small squirrel does this all the time, without getting hurt. You do not reach a terminal velocity in such a short distance, but the squirrel does.</para>
+<para id="fs-id1165039087288">The following interesting quote on animal size and terminal velocity is from a 1928 essay by a British biologist, J. B. S. Haldane, titled “On Being the Right Size.”</para>
+<para id="fs-id1165039112798">“To the mouse and any smaller animal, [gravity] presents practically no dangers. You can drop a mouse down a thousand-yard mine shaft; and, on arriving at the bottom, it gets a slight shock and walks away, provided that the ground is fairly soft. A rat is killed, a man is broken, and a horse splashes. For the resistance presented to movement by the air is proportional to the surface of the moving object. Divide an animal’s length, breadth, and height each by ten; its weight is reduced to a thousandth, but its surface only to a hundredth. So the resistance to falling in the case of the small animal is relatively ten times greater than the driving force.”</para>
+<para id="fs-id1165039095325">The above quadratic dependence of air drag upon velocity does not hold if the object is very small, is going very slow, or is in a denser medium than air. Then we find that the drag force is proportional just to the velocity. This relationship is given by Stokes’ law.</para>
+<note id="fs-id1165039085225">
+<title>Stokes’ Law</title>
+<para id="fs-id1165035658086">For a spherical object falling in a medium, the drag force is</para>
+<equation id="fs-id1165035633045"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>η</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039268020">where <emphasis effect="italics">r</emphasis> is the radius of the object, <m:math><m:mi>η</m:mi></m:math> is the viscosity of the fluid, and <emphasis effect="italics">v</emphasis> is the object’s velocity.</para>
+</note>
+<para id="fs-id1165039496329">Good examples of Stokes’ law are provided by microorganisms, pollen, and dust particles. Because each of these objects is so small, we find that many of these objects travel unaided only at a constant (terminal) velocity. Terminal velocities for bacteria (size about <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>μm</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> can be about <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>μm/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> To move at a greater speed, many bacteria swim using flagella (organelles shaped like little tails) that are powered by little motors embedded in the cell.</para>
+<para id="fs-id1165036080352">Sediment in a lake can move at a greater terminal velocity (about <m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>μm/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> so it can take days for it to reach the bottom of the lake after being deposited on the surface.</para>
+<para id="fs-id1165039052942">If we compare animals living on land with those in water, you can see how drag has influenced evolution. Fish, dolphins, and even massive whales are streamlined in shape to reduce drag forces. Birds are streamlined and migratory species that fly large distances often have particular features such as long necks. Flocks of birds fly in the shape of a spearhead as the flock forms a streamlined pattern (<link target-id="CNX_UPhysics_06_04_Geese"/>). In humans, one important example of streamlining is the shape of sperm, which need to be efficient in their use of energy.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_06_04_Geese"><media id="fs-id1165039323727" alt="A photograph of geese flying in a V formation.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_Geese.jpg"/>
+</media>
+
+<caption>Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: modification of work by “Julo”/Wikimedia Commons)</caption></figure><note xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165035866394" class="media-2"><para id="fs-id1165039305307">In lecture demonstrations, we do <link url="https://openstax.org/l/21dragforce">measurements of the drag force</link> on different objects. The objects are placed in a uniform airstream created by a fan. Calculate the Reynolds number and the drag coefficient.</para></note></section>
+<section id="fs-id1165036154918">
+<title>The Calculus of Velocity-Dependent Frictional Forces</title>
+<para id="fs-id1165035888646">When a body slides across a surface, the frictional force on it is approximately constant and given by <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub><m:mi>N</m:mi><m:mo>.</m:mo></m:mrow></m:math> Unfortunately, the frictional force on a body moving through a liquid or a gas does not behave so simply. This drag force is generally a complicated function of the body’s velocity. However, for a body moving in a straight line at moderate speeds through a liquid such as water, the frictional force can often be approximated by</para>
+<equation id="fs-id1165039145268" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165035864268">where <emphasis effect="italics">b</emphasis> is a constant whose value depends on the dimensions and shape of the body and the properties of the liquid, and <emphasis effect="italics">v</emphasis> is the velocity of the body. Two situations for which the frictional force can be represented by this equation are a motorboat moving through water and a small object falling slowly through a liquid.</para><para id="fs-id1165039107750">Let’s consider the object falling through a liquid. The free-body diagram of this object with the positive direction downward is shown in <link target-id="CNX_UPhysics_06_04_Sphere"/>. Newton’s second law in the vertical direction gives the differential equation</para>
+<equation id="fs-id1165035708053" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038998310">where we have written the acceleration as <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> As <emphasis effect="italics">v</emphasis> increases, the frictional force –<emphasis effect="italics">bv</emphasis> increases until it matches <emphasis effect="italics">mg</emphasis>. At this point, there is no acceleration and the velocity remains constant at the terminal velocity <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> From the previous equation,</para>
+<equation id="fs-id1165035654506" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039494996">so</para>
+<equation id="fs-id1165039074189" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_06_04_Sphere">
+<media id="fs-id1165035758180" alt="The free body diagram shows forces m times vector g pointing vertically down and b times vector v pointing vertically up. The velocity, vector v, is vertically down. The positive y direction is also vertically down.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_Sphere.jpg"/>
+</media>
+<caption>Free-body diagram of an object falling through a resistive medium.</caption>
+</figure>
+<para id="fs-id1165039111046">We can find the object’s velocity by integrating the differential equation for <emphasis effect="italics">v</emphasis>. First, we rearrange terms in this equation to obtain</para>
+<equation id="fs-id1165035701016" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>g</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>v</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039091855">Assuming that <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>at</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> integration of this equation yields</para>
+<equation id="fs-id1165039096589" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>v</m:mi></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mrow><m:mrow><m:mi>g</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:mrow></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039027144">or</para>
+<equation id="fs-id1165039051159" class="unnumbered"><label/><m:math><m:mrow><m:msubsup><m:mstyle displaystyle="true"><m:mrow><m:mrow><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>b</m:mi></m:mfrac><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mstyle><m:mn>0</m:mn><m:mi>v</m:mi></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mstyle mathsize="140%" displaystyle="true"><m:mrow><m:mrow><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>|</m:mo></m:mrow></m:mrow></m:mstyle><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035747796">where <m:math><m:mrow><m:mi>v</m:mi><m:mo>'</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>'</m:mo></m:mrow></m:math> are dummy variables of integration. With the limits given, we find</para>
+<equation id="fs-id1165039045687" class="unnumbered"><label/><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>b</m:mi></m:mfrac><m:mo stretchy="false">[</m:mo><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>ln</m:mtext><m:mi>g</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039315146">Since <m:math><m:mrow><m:mtext>ln</m:mtext><m:mi>A</m:mi><m:mo>−</m:mo><m:mtext>ln</m:mtext><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>A</m:mi><m:mtext>/</m:mtext><m:mi>B</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>B</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>implies</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mrow><m:mi>A</m:mi><m:mtext>/</m:mtext><m:mi>B</m:mi></m:mrow><m:mo>,</m:mo></m:mrow></m:math> we obtain</para>
+<equation id="fs-id1165039045529" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>g</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>b</m:mi><m:mi>v</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>g</m:mi></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165036152293">and</para>
+<equation id="fs-id1165036075500" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039100593">Notice that as <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>b</m:mi></m:mrow><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> which is the terminal velocity.</para>
+<para id="fs-id1165035784373">The position at any time may be found by integrating the equation for <emphasis effect="italics">v</emphasis>. With <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1165033369184" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039086738">Assuming <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>when</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1165036159467" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>y</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:msup><m:mi>y</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi><m:mo>'</m:mo></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039306882">which integrates to</para>
+<equation id="fs-id1165036148549" class="unnumbered"><label/><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mi>g</m:mi></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<example id="fs-id1165039028114">
+<para id="fs-id1165036087933"><title>Effect of the Resistive Force on a Motorboat</title>
+A motorboat is moving across a lake at a speed <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> when its motor suddenly freezes up and stops. The boat then slows down under the frictional force <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math> (a) What are the velocity and position of the boat as functions of time? (b) If the boat slows down from 4.0 to 1.0 m/s in 10 s, how far does it travel before stopping?</para>
+<para id="fs-id1165036162614"><title>Solution</title></para>
+<list id="fs-id1165039234072" list-type="enumerated" number-style="lower-alpha">
+<item>With the motor stopped, the only horizontal force on the boat is <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> so from Newton’s second law,
+<equation id="fs-id1165039242125" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+which we can write as
+<equation id="fs-id1165039082029" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mi>v</m:mi></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Integrating this equation between the time zero when the velocity is <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> and the time <emphasis effect="italics">t</emphasis> when the velocity is <m:math><m:mi>v</m:mi></m:math>, we have
+<equation id="fs-id1165039331888" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>v</m:mi></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mrow><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>.</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+Thus,
+<equation id="fs-id1165039448756" class="unnumbered"><label/><m:math><m:mrow><m:mtext>ln</m:mtext><m:mfrac><m:mi>v</m:mi><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+which, since <m:math><m:mrow><m:mtext>ln</m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>implies</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mi>A</m:mi><m:mo>,</m:mo></m:mrow></m:math> we can write this as
+<equation id="fs-id1165035869730" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Now from the definition of velocity,
+<equation id="fs-id1165039188486" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+so we have
+<equation id="fs-id1165035728192" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+With the initial position zero, we have
+<equation id="fs-id1165035639973" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>x</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>'</m:mo><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi><m:mo>'</m:mo></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>'</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+and
+<equation id="fs-id1165039028783" class="unnumbered"><label/><m:math><m:mrow><m:msubsup><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>b</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi><m:mo>'</m:mo></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+As time increases, <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and the position of the boat approaches a limiting value
+<equation id="fs-id1165035869228" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Although this tells us that the boat takes an infinite amount of time to reach <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> the boat effectively stops after a reasonable time. For example, at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:mn>10</m:mn><m:mi>m</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>b</m:mi></m:mrow><m:mo>,</m:mo></m:mrow></m:math> we have
+<equation id="fs-id1165035924469" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mo>≃</m:mo><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+whereas we also have
+<equation id="fs-id1165033369044" class="unnumbered"><label/><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>≃</m:mo><m:mn>0.99995</m:mn><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+Therefore, the boat’s velocity and position have essentially reached their final values.</item>
+<item>With <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext></m:mrow></m:math> we have <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> so
+<equation id="fs-id1165039392040" class="unnumbered"><label/><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mn>0.25</m:mn><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mn>4.0</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+and
+<equation id="fs-id1165039504471" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mtext>-1</m:mtext></m:mrow></m:msup><m:mo>=</m:mo><m:mn>0.14</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mtext>-1</m:mtext></m:mrow></m:msup><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+Now the boat’s limiting position is
+<equation id="fs-id1165035858807" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>0.14</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mtext>−1</m:mtext></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>29</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1165033374126"><title>Significance</title>
+In the both of the previous examples, we found “limiting” values. The terminal velocity is the same as the limiting velocity, which is the velocity of the falling object after a (relatively) long time has passed. Similarly, the limiting distance of the boat is the distance the boat will travel after a long amount of time has passed. Due to the properties of exponential decay, the time involved to reach either of these values is actually not too long (certainly not an infinite amount of time!) but they are quickly found by taking the limit to infinity.</para>
+</example>
+<note id="fs-id1165039483104" class="check-understanding">
+<exercise id="fs-id1165035859767">
+<problem id="fs-id1165036153052">
+<para id="fs-id1165035673258"><emphasis effect="bold">Check Your Understanding</emphasis> Suppose the resistive force of the air on a skydiver can be approximated by <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. If the terminal velocity of a 100-kg skydiver is 60 m/s, what is the value of b?</para>
+</problem>
+<solution id="fs-id1165036146724">
+<para id="fs-id1165039425318">0.27 kg/m</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1165039277022" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1165035867590" list-type="bulleted" bullet-style="bullet">
+<item>Drag forces acting on an object moving in a fluid oppose the motion. For larger objects (such as a baseball) moving at a velocity in air, the drag force is determined using the drag coefficient (typical values are given in <link target-id="fs-id1165035723394"/>), the area of the object facing the fluid, and the fluid density.</item>
+<item>For small objects (such as a bacterium) moving in a denser medium (such as water), the drag force is given by Stokes’ law.</item>
+</list>
+</section>
+<section id="fs-id1165035743931" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1170902765576" class="unnumbered unstyled" summary="This table gives the following formulae: Magnitude of static friction, f subscript s is less than or equal to mu subscript s N; Magnitude of kinetic friction, f subscript k equal to mu subscript k N; Centripetal force, F subscript C equal to m v squared by r or F subscript C equal to m r omega squared; Ideal angle of a banked curve, tan theta equal to v squared by rg; Drag force, F subscript D equal to half C rho A v squared; Stokes’ law, F subscript S equal to 6 pi r eta v.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Magnitude of static friction</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>N</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnitude of kinetic friction</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>k</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mi>k</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Centripetal force</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mspace width="0.5em"/><m:mtext>or</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>r</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ideal angle of a banked curve</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>r</m:mi><m:mi>g</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Drag force</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>D</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>C</m:mi><m:mi>ρ</m:mi><m:mi>A</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Stokes’ law</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>η</m:mi><m:mi>v</m:mi></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1165035772600" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1165036157277">
+<problem id="fs-id1165038999340">
+<para id="fs-id1165036144143">Athletes such as swimmers and bicyclists wear body suits in competition. Formulate a list of pros and cons of such suits.</para>
+</problem>
+<solution id="fs-id1165035687890">
+<para id="fs-id1165035695370">The pros of wearing body suits include: (1) the body suit reduces the drag force on the swimmer and the athlete can move more easily; (2) the tightness of the suit reduces the surface area of the athlete, and even though this is a small amount, it can make a difference in performance time. The cons of wearing body suits are: (1) The tightness of the suits can induce cramping and breathing problems. (2) Heat will be retained and thus the athlete could overheat during a long period of use.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039276994">
+<problem id="fs-id1165039512659">
+<para id="fs-id1165039079000">Two expressions were used for the drag force experienced by a moving object in a liquid. One depended upon the speed, while the other was proportional to the square of the speed. In which types of motion would each of these expressions be more applicable than the other one?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036143556">
+<problem id="fs-id1165036148102">
+<para id="fs-id1165035639634">As cars travel, oil and gasoline leaks onto the road surface. If a light rain falls, what does this do to the control of the car? Does a heavy rain make any difference?</para>
+</problem>
+<solution id="fs-id1165039104764">
+<para id="fs-id1165035860685">The oil is less dense than the water and so rises to the top when a light rain falls and collects on the road. This creates a dangerous situation in which friction is greatly lowered, and so a car can lose control. In a heavy rain, the oil is dispersed and does not affect the motion of cars as much.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035977406">
+<problem id="fs-id1165039391020">
+<para id="fs-id1165039291834">Why can a squirrel jump from a tree branch to the ground and run away undamaged, while a human could break a bone in such a fall?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165039390902" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1165039251723">
+<problem id="fs-id1165039092545">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165035682260">The terminal velocity of a person falling in air depends upon the weight and the area of the person facing the fluid. Find the terminal velocity (in meters per second and kilometers per hour) of an 80.0-kg skydiver falling in a headfirst position with a surface area of <m:math><m:mrow><m:mn>0.140</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para></problem>
+<solution id="fs-id1165039424273">
+<para id="fs-id1165039088988">115 m/s or 414 km/h</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035906453">
+<problem id="fs-id1165036153774">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165035682242">A 60.0-kg and a 90.0-kg skydiver jump from an airplane at an altitude of <m:math><m:mrow><m:mn>6.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>m</m:mtext></m:mrow></m:math>, both falling in a headfirst position. Make some assumption on their frontal areas and calculate their terminal velocities. How long will it take for each skydiver to reach the ground (assuming the time to reach terminal velocity is small)? Assume all values are accurate to three significant digits.</para></problem>
+</exercise>
+<exercise id="fs-id1165036158571">
+<problem id="fs-id1165039458614">
+<para id="fs-id1165035663631">A 560-g squirrel with a surface area of <m:math><m:mrow><m:mn>930</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> falls from a 5.0-m tree to the ground. Estimate its terminal velocity. (Use a drag coefficient for a horizontal skydiver.) What will be the velocity of a 56-kg person hitting the ground, assuming no drag contribution in such a short distance?</para>
+</problem>
+<solution id="fs-id1165039463943">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165035944344"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mn>11.8</m:mn><m:mspace width="0.2em"/><m:mtext>m/s;</m:mtext><m:msub><m:mtext>v</m:mtext><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>9.9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1165039111535">
+<problem id="fs-id1165036148072">
+<para id="fs-id1165036141290">To maintain a constant speed, the force provided by a car’s engine must equal the drag force plus the force of friction of the road (the rolling resistance). (a) What are the drag forces at 70 km/h and 100 km/h for a Toyota Camry? (Drag area is <m:math><m:mrow><m:mn>0.70</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) (b) What is the drag force at 70 km/h and 100 km/h for a Hummer H2? (Drag area is <m:math><m:mrow><m:mn>2.44</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math> Assume all values are accurate to three significant digits.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039477110">
+<problem id="fs-id1165039103252">
+<para id="fs-id1165039312187">By what factor does the drag force on a car increase as it goes from 65 to 110 km/h?</para>
+</problem>
+<solution id="fs-id1165039237992">
+<para id="fs-id1165039414436"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>110</m:mn></m:mrow><m:mrow><m:mn>65</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2.86</m:mn></m:mrow></m:math> times</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035834936">
+<problem id="fs-id1165036080908">
+<para id="fs-id1165035939537">Calculate the velocity a spherical rain drop would achieve falling from 5.00 km (a) in the absence of air drag (b) with air drag. Take the size across of the drop to be 4 mm, the density to be <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, and the surface area to be <m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039434228">
+<problem id="fs-id1165036152519">
+<para id="fs-id1165035698600">Using Stokes’ law, verify that the units for viscosity are kilograms per meter per second.</para>
+</problem>
+<solution id="fs-id1165035692202">
+<para id="fs-id1165035685783">Stokes’ law is <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>η</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math> Solving for the viscosity, <m:math><m:mrow><m:mi>η</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>v</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Considering only the units, this becomes <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mi>η</m:mi><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039415482">
+<problem id="fs-id1165039292226">
+<para id="fs-id1165035730440">Find the terminal velocity of a spherical bacterium (diameter <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mtext>μm</m:mtext></m:mrow></m:math>) falling in water. You will first need to note that the drag force is equal to the weight at terminal velocity. Take the density of the bacterium to be <m:math><m:mrow><m:mn>1.10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039396162">
+<problem id="fs-id1165039423411">
+<para id="fs-id1165039028296">Stokes’ law describes sedimentation of particles in liquids and can be used to measure viscosity. Particles in liquids achieve terminal velocity quickly. One can measure the time it takes for a particle to fall a certain distance and then use Stokes’ law to calculate the viscosity of the liquid. Suppose a steel ball bearing (density <m:math><m:mrow><m:mn>7.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, diameter 3.0 mm) is dropped in a container of motor oil. It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil.</para>
+</problem>
+<solution id="fs-id1165035731597">
+<para id="fs-id1165039513008"><m:math><m:mrow><m:mn>0.76</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165033377748">
+<problem id="fs-id1165039192558">
+<para id="fs-id1165036153540">Suppose that the resistive force of the air on a skydiver can be approximated by <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> If the terminal velocity of a 50.0-kg skydiver is 60.0 m/s, what is the value of <emphasis effect="italics">b</emphasis>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035732089">
+<problem id="fs-id1165035938648">
+<para id="fs-id1165036151480">A small diamond of mass 10.0 g drops from a swimmer’s earring and falls through the water, reaching a terminal velocity of 2.0 m/s. (a) Assuming the frictional force on the diamond obeys <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> what is <emphasis effect="italics">b</emphasis>? (b) How far does the diamond fall before it reaches 90 percent of its terminal speed?</para>
+</problem>
+<solution id="fs-id1165035859851">
+<para id="fs-id1165039454246">a. 0.049 kg/s; b. 0.57 m</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1165035682534" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1165039345130">
+<problem id="fs-id1165038989787">
+<para id="fs-id1165033370856">(a) What is the final velocity of a car originally traveling at 50.0 km/h that accelerates opposite to the motion at a rate of <m:math><m:mrow><m:mn>0.400</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> for 50.0 s? Assume a coefficient of friction of 1.0. (b) What is unreasonable about the result? (c) Which premise is unreasonable, or which premises are inconsistent?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035761606">
+<problem id="fs-id1165035729743">
+<para id="fs-id1165039464292">A 75.0-kg woman stands on a bathroom scale in an elevator that accelerates from rest to 30.0 m/s in 2.00 s. (a) Calculate the scale reading in newtons and compare it with her weight. (The scale exerts an upward force on her equal to its reading.) (b) What is unreasonable about the result? (c) Which premise is unreasonable, or which premises are inconsistent?</para>
+</problem>
+<solution id="fs-id1165036145269">
+<para id="fs-id1165035712091">a. 1860 N, 2.53; b. The value (1860 N) is more force than you expect to experience on an elevator. The force of 1860 N is 418 pounds, compared to the force on a typical elevator of 904 N (which is about 203 pounds); this is calculated for a speed from 0 to 10 miles per hour, which is about 4.5 m/s, in 2.00 s). c. The acceleration <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1.53</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>g</m:mi></m:mrow></m:math> is much higher than any standard elevator. The final speed is too large (30.0 m/s is VERY fast)! The time of 2.00 s is not unreasonable for an elevator.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039351979">
+<problem id="fs-id1165039241179">
+<para id="fs-id1165039396054">(a) Calculate the minimum coefficient of friction needed for a car to negotiate an unbanked 50.0 m radius curve at 30.0 m/s. (b) What is unreasonable about the result? (c) Which premises are unreasonable or inconsistent?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036006942">
+<problem id="fs-id1165035863813">
+<para id="fs-id1165039411492">As shown below, if <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>5.50</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> what is the tension in string 1?</para>
+<media id="fs-id1165035723285" alt="Mass M is suspended from strings 1 and 2. String 1 connects to a wall at a point below and to the left of the mass. String 1 makes an angle of 40 degrees below the horizontal. String 2 connects to a ceiling at a point above and to the right of the mass. String 2 makes an angle of 40 degrees to the right of vertical.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP1_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039237078">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165039442974">199 N</para></solution>
+</exercise>
+<exercise id="fs-id1165038979966">
+<problem id="fs-id1165035641506">
+<para id="fs-id1165035721482">As shown below, if <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>60.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> what is the magnitude of the acceleration of the suspended object? All surfaces are frictionless.</para>
+<media id="fs-id1165039112562" alt="Two blocks are shown. One block, labeled 2 M is on a horizontal table. A force F pulls on the 2 M block up and to the left at an angle of 30 degrees above the horizontal. On the opposite side, the block is connected to a string that pulls it to the right. The string passes over a pulley at edge of the table, then hangs straight down and connects to  the second block, labeled M. Block 2 is not in contact with the ramp.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP2_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165035615426">
+<problem id="fs-id1165035868420">
+<para id="fs-id1165035939480">As shown below, if <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> what is the tension in the connecting string? The pulley and all surfaces are frictionless.</para>
+<media id="fs-id1165039485639" alt="Two blocks, both mass M are connected by a string that passes over a pulley between the blocks. The upper block is on a surface that slopes down and to the right at an angle of 30 degrees to the horizontal. The pulley is attached to the corner at the bottom of the slope, where the surface then bends and goes vertically down. The lower mass hangs straight down. It is not in contact with the surface.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP3_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039266756">
+<para id="fs-id1165039312716">15 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039103753">
+<problem id="fs-id1165035676708">
+<para id="fs-id1165039337931">A small space probe is released from a spaceship. The space probe has mass 20.0 kg and contains 90.0 kg of fuel. It starts from rest in deep space, from the origin of a coordinate system based on the spaceship, and burns fuel at the rate of 3.00 kg/s. The engine provides a constant thrust of 120.0 N. (a) Write an expression for the mass of the space probe as a function of time, between 0 and 30 seconds, assuming that the engine ignites fuel beginning at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> (b) What is the velocity after 15.0 s? (c) What is the position of the space probe after 15.0 s, with initial position at the origin? (d) Write an expression for the position as a function of time, for <m:math><m:mrow><m:mi>t</m:mi><m:mo>&gt;</m:mo><m:mn>30.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039109864">
+<problem id="fs-id1165039367916">
+<para id="fs-id1165035868296">A half-full recycling bin has mass 3.0 kg and is pushed up a <m:math><m:mrow><m:mn>40.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> incline with constant speed under the action of a 26-N force acting up and parallel to the incline. The incline has friction. What magnitude force must act up and parallel to the incline for the bin to move down the incline at constant velocity?</para>
+</problem>
+<solution id="fs-id1165035758540">
+<para id="fs-id1165039110476">12 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039268406">
+<problem id="fs-id1165035866354">
+<para id="fs-id1165039353641">A child has mass 6.0 kg and slides down a <m:math><m:mrow><m:mn>35</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> incline with constant speed under the action of a 34-N force acting up and parallel to the incline. What is the coefficient of kinetic friction between the child and the surface of the incline?</para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1165039234785">
+<problem id="fs-id1165039219140">
+<para id="fs-id1165036160772">The two barges shown here are coupled by a cable of negligible mass. The mass of the front barge is <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and the mass of the rear barge is <m:math><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> A tugboat pulls the front barge with a horizontal force of magnitude <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N,</m:mtext></m:mrow></m:math> and the frictional forces of the water on the front and rear barges are <m:math><m:mrow><m:mn>8.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N,</m:mtext></m:mrow></m:math> respectively. Find the horizontal acceleration of the barges and the tension in the connecting cable.</para>
+<media id="fs-id1165033379354" alt="An illustration showing a tug boat pulling two barges. The barge directly attached to the tug boat has mass 2.00 times 10 to the third kilograms. The barge at the end,  behind the first barge, has mass 3.00 times 10 to the third kilograms.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_01_P25_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039100454">
+<para id="fs-id1165036081064"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mn>0.40</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>11.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036035448">
+<problem id="fs-id1165038990654">
+<para id="fs-id1165035669137">If the order of the barges of the preceding exercise is reversed so that the tugboat pulls the <m:math><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>-kg</m:mtext></m:mrow></m:math> barge with a force of <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>,</m:mo></m:mrow></m:math> what are the acceleration of the barges and the tension in the coupling cable?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039027173">
+<problem id="fs-id1165039293063">
+<para id="fs-id1165039296223">An object with mass <emphasis effect="italics">m</emphasis> moves along the <emphasis effect="italics">x</emphasis>-axis. Its position at any time is given by <m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mi>q</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> where <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> are constants. Find the net force on this object for any time <emphasis effect="italics">t</emphasis>.</para>
+</problem>
+<solution id="fs-id1165036084223">
+<para id="fs-id1165036084654"><emphasis effect="italics">m</emphasis>(6<emphasis effect="italics">pt</emphasis> + 2<emphasis effect="italics">q</emphasis>)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039335542">
+<problem id="fs-id1165035792005">
+<para id="fs-id1165039352836">A helicopter with mass <m:math><m:mrow><m:mn>2.35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> has a position given by <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.020</m:mn><m:mspace width="0.2em"/><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.2</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.060</m:mn><m:mspace width="0.2em"/><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Find the net force on the helicopter at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039453675">
+<problem id="fs-id1165035980452">
+<para id="fs-id1165035688942">Located at the origin, an electric car of mass <emphasis effect="italics">m</emphasis> is at rest and in equilibrium. A time dependent force of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is applied at time <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and its components are <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>t</m:mi></m:mrow></m:math> where <emphasis effect="italics">p</emphasis>, <emphasis effect="italics">q</emphasis>, and <emphasis effect="italics">n</emphasis> are constants. Find the position <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and velocity <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> as functions of time <emphasis effect="italics">t</emphasis>.</para>
+</problem>
+<solution id="fs-id1165039302241">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165039250433"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mi>t</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>q</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>q</m:mi><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1165033378093">
+<problem id="fs-id1165039402799">
+<para id="fs-id1165035867149">A particle of mass <emphasis effect="italics">m</emphasis> is located at the origin. It is at rest and in equilibrium. A time-dependent force of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is applied at time <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and its components are <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mi>t</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mi>t</m:mi></m:mrow></m:math> where <emphasis effect="italics">p</emphasis>, <emphasis effect="italics">q</emphasis>, and <emphasis effect="italics">n</emphasis> are constants. Find the position <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and velocity <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> as functions of time <emphasis effect="italics">t</emphasis>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035661242">
+<problem id="fs-id1165035639346">
+<para id="fs-id1165035662853">A 2.0-kg object has a velocity of <m:math><m:mrow><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> A constant resultant force of <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> then acts on the object for 3.0 s. What is the magnitude of the object’s velocity at the end of the 3.0-s interval?</para>
+</problem>
+<solution id="fs-id1165039391048">
+<para id="fs-id1165039312561">9.2 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035975760">
+<problem id="fs-id1165039234284">
+<para id="fs-id1165039323978">A 1.5-kg mass has an acceleration of <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>3.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Only two forces act on the mass. If one of the forces is <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>1.4</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>N,</m:mtext></m:mrow></m:math> what is the magnitude of the other force?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035669542">
+<problem id="fs-id1165036075410">
+<para id="fs-id1165039345662">A box is dropped onto a conveyor belt moving at 3.4 m/s. If the coefficient of friction between the box and the belt is 0.27, how long will it take before the box moves without slipping?</para>
+</problem>
+<solution id="fs-id1165039441007">
+<para id="fs-id1165036077668">1.3 s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039426530">
+<problem id="fs-id1165033371416">
+<para id="fs-id1165039273532">Shown below is a 10.0-kg block being pushed by a horizontal force <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> of magnitude 200.0 N. The coefficient of kinetic friction between the two surfaces is 0.50. Find the acceleration of the block.</para>
+<media id="fs-id1165039091495" alt="An illustration of a 10.0 kilogram block being pushed into a slope by a horizontal force F. The slope angles up and to the right at an angle of 30 degrees to the horizontal and the force F points to the right.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_02_P25_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165035865609">
+<problem id="fs-id1165038974227">
+<para id="fs-id1165036162461">As shown below, the mass of block 1 is <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> while the mass of block 2 is <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> The coefficient of friction between <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and the inclined surface is <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0.40</m:mn><m:mo>.</m:mo></m:mrow></m:math> What is the acceleration of the system?</para>
+<media id="fs-id1165035730256" alt="Block 1 is on a ramp inclined up and to the right at an angle of 37 degrees above the horizontal. It is connected to a string that passes over a pulley at the top of the ramp, then hangs straight down and connects to  block 2. Block 2 is not in contact with the ramp.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_02_P26_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165036151286">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165039445369"><m:math><m:mrow><m:mn>3.5</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1165039114252">
+<problem id="fs-id1165033370832">
+<para id="fs-id1165035946630">A student is attempting to move a 30-kg mini-fridge into her dorm room. During a moment of inattention, the mini-fridge slides down a 35 degree incline at constant speed when she applies a force of 25 N acting up and parallel to the incline. What is the coefficient of kinetic friction between the fridge and the surface of the incline?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039077028">
+<problem id="fs-id1165039398265">
+<para id="fs-id1165035640986">A crate of mass 100.0 kg rests on a rough surface inclined at an angle of <m:math><m:mrow><m:mn>37.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with the horizontal. A massless rope to which a force can be applied parallel to the surface is attached to the crate and leads to the top of the incline. In its present state, the crate is just ready to slip and start to move down the plane. The coefficient of friction is <m:math><m:mrow><m:mn>80</m:mn><m:mi>%</m:mi></m:mrow></m:math> of that for the static case. (a) What is the coefficient of static friction? (b) What is the maximum force that can be applied upward along the plane on the rope and not move the block? (c) With a slightly greater applied force, the block will slide up the plane. Once it begins to move, what is its acceleration and what reduced force is necessary to keep it moving upward at constant speed? (d) If the block is given a slight nudge to get it started down the plane, what will be its acceleration in that direction? (e) Once the block begins to slide downward, what upward force on the rope is required to keep the block from accelerating downward?</para>
+</problem>
+<solution id="fs-id1165038998256">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165035680752">a. 0.75; b. 1200 N; c. <m:math><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and 1080 N; d. <m:math><m:mrow><m:mn>−1.2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> e. 120 N</para></solution>
+</exercise>
+<exercise id="fs-id1165039470299">
+<problem id="fs-id1165039297163">
+<para id="fs-id1165039079533">A car is moving at high speed along a highway when the driver makes an emergency braking. The wheels become locked (stop rolling), and the resulting skid marks are 32.0 meters long. If the coefficient of kinetic friction between tires and road is 0.550, and the acceleration was constant during braking, how fast was the car going when the wheels became locked?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039446833">
+<problem id="fs-id1165035610527">
+<para id="fs-id1165039376043">A crate having mass 50.0 kg falls horizontally off the back of the flatbed truck, which is traveling at 100 km/h. Find the value of the coefficient of kinetic friction between the road and crate if the crate slides 50 m on the road in coming to rest. The initial speed of the crate is the same as the truck, 100 km/h.</para>
+<media id="fs-id1165036158315" alt="The figure shows a truck moving to the right at 100 kilometers per hour and a 50 kilogram crate on the ground behind the truck.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_02_P30ans_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165038999486">
+<para id="fs-id1165039302278">0.789</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039111122">
+<problem id="fs-id1165039074000">
+<para id="fs-id1165039392702">A 15-kg sled is pulled across a horizontal, snow-covered surface by a force applied to a rope at 30 degrees with the horizontal. The coefficient of kinetic friction between the sled and the snow is 0.20. (a) If the force is 33 N, what is the horizontal acceleration of the sled? (b) What must the force be in order to pull the sled at constant velocity?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039446792">
+<problem id="fs-id1165036146754">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165039422312">A 30.0-g ball at the end of a string is swung in a vertical circle with a radius of 25.0 cm. The tangential velocity is 200.0 cm/s. Find the tension in the string: (a) at the top of the circle, (b) at the bottom of the circle, and (c) at a distance of 12.5 cm from the center of the circle <m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>12.5</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1165035617314">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165038988627">a. 0.186 N; b. 0.774 N; c. 0.48 N</para></solution>
+</exercise>
+<exercise id="fs-id1165035619639">
+<problem id="fs-id1165036154120">
+<para id="fs-id1165039003350">A particle of mass 0.50 kg starts moves through a circular path in the <emphasis effect="italics">xy</emphasis>-plane with a position given by <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> where <emphasis effect="italics">r</emphasis> is in meters and <emphasis effect="italics">t</emphasis> is in seconds. (a) Find the velocity and acceleration vectors as functions of time. (b) Show that the acceleration vector always points toward the center of the circle (and thus represents centripetal acceleration). (c) Find the centripetal force vector as a function of time.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039274986">
+<problem id="fs-id1165039371171">
+<para id="fs-id1165035869114">A stunt cyclist rides on the interior of a cylinder 12 m in radius. The coefficient of static friction between the tires and the wall is 0.68. Find the value of the minimum speed for the cyclist to perform the stunt.</para>
+</problem>
+<solution id="fs-id1165036141382">
+<para id="fs-id1165033377982">13 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035662464">
+<problem id="fs-id1165039401204">
+<para id="fs-id1165039046569">When a body of mass 0.25 kg is attached to a vertical massless spring, it is extended 5.0 cm from its unstretched length of 4.0 cm. The body and spring are placed on a horizontal frictionless surface and rotated about the held end of the spring at 2.0 rev/s. How far is the spring stretched?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035654187">
+<problem id="fs-id1165038993163">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165039297494">A piece of bacon starts to slide down the pan when one side of a pan is raised up 5.0 cm. If the length of the pan from pivot to the raising point is 23.5 cm, what is the coefficient of static friction between the pan and the bacon?</para></problem>
+<solution id="fs-id1165035785562">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165039295147">0.21</para></solution>
+</exercise>
+<exercise id="fs-id1165039317700">
+<problem id="fs-id1165039297475">
+<para id="fs-id1165035733788">A plumb bob hangs from the roof of a railroad car. The car rounds a circular track of radius 300.0 m at a speed of 90.0 km/h. At what angle relative to the vertical does the plumb bob hang?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036081646">
+<problem id="fs-id1165039300224">
+<para id="fs-id1165035870165">An airplane flies at 120.0 m/s and banks at a <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> angle. If its mass is <m:math><m:mrow><m:mn>2.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> (a) what is the magnitude of the lift force? (b) what is the radius of the turn?</para>
+</problem>
+<solution id="fs-id1165039351339">
+<para id="fs-id1165039311841">a. 28,300 N; b. 2540 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039443997">
+<problem id="fs-id1165035633482">
+<para id="fs-id1165036147875">The position of a particle is given by <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mi>ω</m:mi></m:math> is a constant. (a) Show that the particle moves in a circle of radius <emphasis effect="italics">A</emphasis>. (b) Calculate <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:math> and then show that the speed of the particle is a constant <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mi>ω</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> (c) Determine <m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math> and show that <emphasis effect="italics">a</emphasis> is given by<m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (d) Calculate the centripetal force on the particle. [<emphasis effect="italics">Hint</emphasis>: For (b) and (c), you will need to use <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mi>d</m:mi><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mi>d</m:mi><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039504554">
+<problem id="fs-id1165035635058">
+<para id="fs-id1165039073034">Two blocks connected by a string are pulled across a horizontal surface by a force applied to one of the blocks, as shown below. The coefficient of kinetic friction between the blocks and the surface is 0.25. If each block has an acceleration of <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> to the right, what is the magnitude <emphasis effect="italics">F</emphasis> of the applied force?</para>
+<media id="fs-id1165035715506" alt="Two blocks, 1.0 kilograms on the left and 3.0 kilograms on the right, are connected by a string and are on a horizontal surface. Force F acts on the 3.0 kilogram mass and points up and to the right at a angle of 60 degrees above the horizontal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP7_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039504249">
+<para id="fs-id1165039504252">25 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039479037">
+<problem id="fs-id1165035646533">
+<para id="fs-id1165035646536">As shown below, the coefficient of kinetic friction between the surface and the larger block is 0.20, and the coefficient of kinetic friction between the surface and the smaller block is 0.30. If <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>, what is the tension in the connecting string?</para>
+<media id="fs-id1165039351827" alt="Two blocks, 2 M on the left and M on the right, are connected by a string and are on a horizontal surface. Force F acts on M and points to the right.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP8_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165036007610">
+<problem id="fs-id1165035664399">
+<para id="fs-id1165035664401">In the figure, the coefficient of kinetic friction between the surface and the blocks is <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> If <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> find an expression for the magnitude of the acceleration of either block (in terms of <emphasis effect="italics">F</emphasis>, <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> and <emphasis effect="italics">g</emphasis>).</para>
+<media id="fs-id1165035748378" alt="Two blocks, M on the left and 3 M on the right, are connected by a string and are on a horizontal surface. The following forces are indicated: f sub k 2 acting on M and pointing to the right, f sub k 1 acting on 3 M and pointing to the right, F acting on 3 M and pointing to the left, N sub 2 acting on M and pointing up, N sub 1 acting on 3 M and pointing up, M g acting on M and pointing down, , 3 M g acting on 3 M and pointing down.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP9_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165035700051">
+<para id="fs-id1165039305558"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mn>4</m:mn></m:mfrac><m:mo>−</m:mo><m:msub><m:mi>μ</m:mi><m:mi>k</m:mi></m:msub><m:mi>g</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035662213">
+<problem id="fs-id1165039209290">
+<para id="fs-id1165039209292">Two blocks are stacked as shown below, and rest on a frictionless surface. There is friction between the two blocks (coefficient of friction <m:math><m:mi>μ</m:mi></m:math>). An external force is applied to the top block at an angle <m:math><m:mi>θ</m:mi></m:math> with the horizontal. What is the maximum force <emphasis effect="italics">F</emphasis> that can be applied for the two blocks to move together?</para>
+<media id="fs-id1165035758924" alt="Rectangular block M sub 2 is on a horizontal surface. Rectangular block M sub 1 is on top of block M sub 2. A force F pushes on block M sub 1. Force F is directed down and to the right, at a angle theta to the horizontal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP10_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165039496071">
+<problem id="fs-id1165039443360">
+<para id="fs-id1165039433646">A box rests on the (horizontal) back of a truck. The coefficient of static friction between the box and the surface on which it rests is 0.24. What maximum distance can the truck travel (starting from rest and moving horizontally with constant acceleration) in 3.0 s without having the box slide?</para>
+</problem>
+<solution id="fs-id1165039247223">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165039026961">11 m</para></solution>
+</exercise>
+<exercise id="fs-id1165039232615">
+<problem id="fs-id1165039257182">
+<para id="fs-id1165039070262">A double-incline plane is shown below. The coefficient of friction on the left surface is 0.30, and on the right surface 0.16. Calculate the acceleration of the system.</para>
+<media id="fs-id1165035627255" alt="Two carts connected by a string passing over a pulley are on either side of a double inclined plane. The string passes over a pulley attached to the top of the double incline. On the left, the incline makes an angle of 37 degrees with the horizontal and the cart on that side has mass 10 kilograms. On the right, the incline makes an angle of 53 degrees with the horizontal and the cart on that side has mass 15 kilograms.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP12_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165039325516" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1165039026859">
+<problem id="fs-id1165035723079">
+<para id="fs-id1165036007334">In a later chapter, you will find that the weight of a particle varies with altitude such that <m:math><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mrow/></m:msup></m:mrow></m:math> is the radius of Earth and <emphasis effect="italics">r</emphasis> is the distance from Earth’s center. If the particle is fired vertically with velocity <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mrow/></m:msup></m:mrow></m:math> from Earth’s surface, determine its velocity as a function of position <emphasis effect="italics">r</emphasis>. (<emphasis effect="italics">Hint:</emphasis> use <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mrow/></m:msup><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:msup><m:mi>v</m:mi><m:mrow/></m:msup><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> the rearrangement mentioned in the text.)</para>
+</problem>
+<solution id="fs-id1165035627931">
+<para id="fs-id1165039303828"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039315132">
+<problem id="fs-id1165039315134">
+<para id="fs-id1165035926222">A large centrifuge, like the one shown below, is used to expose aspiring astronauts to accelerations similar to those experienced in rocket launches and atmospheric reentries. (a) At what angular velocity is the centripetal acceleration 10<emphasis effect="italics">g</emphasis> if the rider is 15.0 m from the center of rotation? (b) The rider’s cage hangs on a pivot at the end of the arm, allowing it to swing outward during rotation as shown in the bottom accompanying figure. At what angle <m:math><m:mi>θ</m:mi></m:math> below the horizontal will the cage hang when the centripetal acceleration is 10<emphasis effect="italics">g</emphasis>? (<emphasis effect="italics">Hint:</emphasis> The arm supplies centripetal force and supports the weight of the cage. Draw a free-body diagram of the forces to see what the angle <m:math><m:mi>θ</m:mi></m:math> should be.)</para>
+<media id="fs-id1165039487271" alt="(a) A photograph of a high g training centrifuge. The astronaut sits in a cage at the end of a long arm that rotates in a horizontal plane. (b) An illustration of a top view of the centrifuge along with an illustration of the forces. The free body diagram shows the weight, w, pointing vertically down and the force F sub arm pointing up and to the left. The forces are then shown rearranged to form a right triangle. F sub arm is the hypotenuse of the triangle pointing up and left, w is the vertical side pointing down, and F sub c is the base pointing to the left. The F sub c arrow is then shown separately with the notation that vector F sub c equals F sub net.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_P22_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165035646117">
+<problem id="fs-id1165035772540">
+<para id="fs-id1165035772542">A car of mass 1000.0 kg is traveling along a level road at 100.0 km/h when its brakes are applied. Calculate the stopping distance if the coefficient of kinetic friction of the tires is 0.500. Neglect air resistance. (<emphasis effect="italics">Hint:</emphasis> since the distance traveled is of interest rather than the time, <emphasis effect="italics">x</emphasis> is the desired independent variable and not <emphasis effect="italics">t</emphasis>. Use the Chain Rule to change the variable: <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>v</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1165039314578">
+<para id="fs-id1165035772772">78.7 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035679412">
+<problem id="fs-id1165039494317">
+<para id="fs-id1165039331601">An airplane flying at 200.0 m/s makes a turn that takes 4.0 min. What bank angle is required? What is the percentage increase in the perceived weight of the passengers?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039416120">
+<problem id="fs-id1165035975002">
+<para id="fs-id1165035975004">A skydiver is at an altitude of 1520 m. After 10.0 seconds of free fall, he opens his parachute and finds that the air resistance, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub></m:mrow></m:math>, is given by the formula <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">b</emphasis> is a constant and <emphasis effect="italics">v</emphasis> is the velocity. If <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0.750</m:mn><m:mo>,</m:mo></m:mrow></m:math> and the mass of the skydiver is 82.0 kg, first set up differential equations for the velocity and the position, and then find: (a) the speed of the skydiver when the parachute opens, (b) the distance fallen before the parachute opens, (c) the terminal velocity after the parachute opens (find the limiting velocity), and (d) the time the skydiver is in the air after the parachute opens.</para>
+</problem>
+<solution id="fs-id1165035992646">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165035992648">a. 98 m/s; b. 490 m; c. 107 m/s; d. 9.6 s</para></solution>
+</exercise>
+<exercise id="fs-id1165035694730">
+<problem id="fs-id1165035654245">
+<para id="fs-id1165035654247">In a television commercial, a small, spherical bead of mass 4.00 g is released from rest at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> in a bottle of liquid shampoo. The terminal speed is observed to be 2.00 cm/s. Find (a) the value of the constant <emphasis effect="italics">b</emphasis> in the equation <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> and (b) the value of the resistive force when the bead reaches terminal speed.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035685642">
+<problem id="fs-id1165039511826">
+<para id="fs-id1165039511828">A boater and motor boat are at rest on a lake. Together, they have mass 200.0 kg. If the thrust of the motor is a constant force of 40.0 N in the direction of motion, and if the resistive force of the water is numerically equivalent to 2 times the speed <emphasis effect="italics">v</emphasis> of the boat, set up and solve the differential equation to find: (a) the velocity of the boat at time <emphasis effect="italics">t</emphasis>; (b) the limiting velocity (the velocity after a long time has passed).</para>
+</problem>
+<solution id="fs-id1165035699313">
+<para id="fs-id1165035933452">a. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>20.0</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−0.01</m:mn><m:mi>t</m:mi></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>limiting</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165039331836">
+<term>drag force</term>
+<meaning id="fs-id1165039450582">force that always opposes the motion of an object in a fluid; unlike simple friction, the drag force is proportional to some function of the velocity of the object in that fluid</meaning>
+</definition>
+<definition id="fs-id1165039337073">
+<term>terminal velocity</term>
+<meaning id="fs-id1165035673837">constant velocity achieved by a falling object, which occurs when the weight of the object is balanced by the upward drag force</meaning>
+</definition>
+</glossary>
+</document>

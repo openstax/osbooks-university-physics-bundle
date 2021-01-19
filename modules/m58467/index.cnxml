@@ -1,0 +1,615 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>Magnetism in Matter</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58467</md:content-id>
+  <md:title>Magnetism in Matter</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Classify magnetic materials as paramagnetic, diamagnetic, or ferromagnetic, based on their response to a magnetic field</item>
+<item>Sketch how magnetic dipoles align with the magnetic field in each type of substance</item>
+<item>Define hysteresis and magnetic susceptibility, which determines the type of magnetic material</item>
+</list></md:abstract>
+  <md:uuid>fc5b9e52-f3ca-4bcb-a99a-57c2143395b7</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1166168191788">Why are certain materials magnetic and others not? And why do certain substances become magnetized by a field, whereas others are unaffected? To answer such questions, we need an understanding of magnetism on a microscopic level.</para>
+<para id="fs-id1166168105871">Within an atom, every electron travels in an orbit and spins on an internal axis. Both types of motion produce current loops and therefore magnetic dipoles. For a particular atom, the net magnetic dipole moment is the vector sum of the magnetic dipole moments. Values of <m:math><m:mi>μ</m:mi></m:math> for several types of atoms are given in <link target-id="fs-id1166168184037"/>. Notice that some atoms have a zero net dipole moment and that the magnitudes of the nonvanishing moments are typically <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<table id="fs-id1166168184037" summary="This table has two columns and six rows. The first row is a header row and it labels each column, “Atom,” and “Magnetic Moment (10 superscript –24 A times m squared).” Under the “Atom” column is the list of elements: H; He; Li; O; Na; and S. Under the “Magnetic Moment (10 superscript –24 A times m squared)” column are the values: 9.27; 0; 9.27; 13.9; 9.27; and 13.9.">
+<title>Magnetic Moments of Some Atoms</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry align="left">Atom</entry>
+<entry align="left">Magnetic Moment <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">H</entry>
+<entry valign="top" align="left">9.27</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">He</entry>
+<entry valign="top" align="left">0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Li</entry>
+<entry valign="top" align="left">9.27</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">O</entry>
+<entry valign="top" align="left">13.9</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Na</entry>
+<entry valign="top" align="left">9.27</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">S</entry>
+<entry valign="top" align="left">13.9</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1166168224077">A handful of matter has approximately <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>26</m:mn></m:mrow></m:msup></m:mrow></m:math> atoms and ions, each with its magnetic dipole moment. If no external magnetic field is present, the magnetic dipoles are randomly oriented—as many are pointed up as down, as many are pointed east as west, and so on. Consequently, the net magnetic dipole moment of the sample is zero. However, if the sample is placed in a magnetic field, these dipoles tend to align with the field (see <link document="m58464" target-id="fs-id1166167417118"/>), and this alignment determines how the sample responds to the field. On the basis of this response, a material is said to be either paramagnetic, ferromagnetic, or diamagnetic.</para>
+<para id="fs-id1166168332397">In a <term>paramagnetic material</term>, only a small fraction (roughly one-third) of the magnetic dipoles are aligned with the applied field. Since each dipole produces its own magnetic field, this alignment contributes an extra magnetic field, which enhances the applied field. When a <term>ferromagnetic material</term> is placed in a magnetic field, its magnetic dipoles also become aligned; furthermore, they become locked together so that a permanent magnetization results, even when the field is turned off or reversed. This permanent magnetization happens in ferromagnetic materials but not paramagnetic materials. <term>Diamagnetic materials</term> are composed of atoms that have no net magnetic dipole moment. However, when a diamagnetic material is placed in a magnetic field, a magnetic dipole moment is directed opposite to the applied field and therefore produces a magnetic field that opposes the applied field. We now consider each type of material in greater detail.</para>
+<section id="fs-id1166168189026">
+<title>Paramagnetic Materials</title>
+<para id="fs-id1166168410539">For simplicity, we assume our sample is a long, cylindrical piece that completely fills the interior of a long, tightly wound solenoid. When there is no current in the solenoid, the magnetic dipoles in the sample are randomly oriented and produce no net magnetic field. With a solenoid current, the magnetic field due to the solenoid exerts a torque on the dipoles that tends to align them with the field. In competition with the aligning torque are thermal collisions that tend to randomize the orientations of the dipoles. The relative importance of these two competing processes can be estimated by comparing the energies involved. From <link document="m58464" target-id="fs-id1166167417118"/>, the energy difference between a magnetic dipole aligned with and against a magnetic field is <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>μ</m:mi><m:mi>B</m:mi><m:mo>.</m:mo></m:mrow></m:math> If <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>9.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−24</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math> (the value of atomic hydrogen) and <emphasis effect="italics">B</emphasis> = 1.0 T, then</para>
+<equation id="fs-id1166168070558" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>1.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168123012">At a room temperature of <m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> the thermal energy per atom is</para>
+<equation id="fs-id1166168221920" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>T</m:mi></m:msub><m:mo>≈</m:mo><m:mi>k</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mtext>J/K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168085083">which is about 220 times greater than <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>B</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Clearly, energy exchanges in thermal collisions can seriously interfere with the alignment of the magnetic dipoles. As a result, only a small fraction of the dipoles is aligned at any instant.</para>
+<para id="fs-id1166168466514">The four sketches of <link target-id="CNX_UPhysics_29_07_Solenoid2"/> furnish a simple model of this alignment process. In part (a), before the field of the solenoid (not shown) containing the paramagnetic sample is applied, the magnetic dipoles are randomly oriented and there is no net magnetic dipole moment associated with the material. With the introduction of the field, a partial alignment of the dipoles takes place, as depicted in part (b). The component of the net magnetic dipole moment that is perpendicular to the field vanishes. We may then represent the sample by part (c), which shows a collection of magnetic dipoles completely aligned with the field. By treating these dipoles as current loops, we can picture the dipole alignment as equivalent to a current around the surface of the material, as in part (d). This fictitious surface current produces its own magnetic field, which enhances the field of the solenoid.</para>
+<figure id="CNX_UPhysics_29_07_Solenoid2">
+<media id="fs-id1166168449832" alt="Figure a shows a rod with randomly oriented magnetic dipoles. Figure b shows domains that got partially oriented after the magnetic field was applied along the axis of the rod. Figure c shows fully oriented domains. Figure d shows that the dipoles are aligned within the individual domains and are equivalent to a current around the surface of the material. This surface current produces its own magnetic field which enhances the field of the solenoid.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_Solenoid2.jpg"/>
+</media>
+<caption>The alignment process in a paramagnetic material filling a solenoid (not shown). (a) Without an applied field, the magnetic dipoles are randomly oriented. (b) With a field, partial alignment occurs. (c) An equivalent representation of part (b). (d) The internal currents cancel, leaving an effective surface current that produces a magnetic field similar to that of a finite solenoid.</caption>
+</figure>
+<para id="fs-id1166164825694">We can express the total magnetic field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> in the material as</para>
+<equation id="fs-id1166168173799"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>m</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168331716">where <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the field due to the current <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> in the solenoid and <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>m</m:mi></m:msub></m:mrow></m:math> is the field due to the surface current <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mi>m</m:mi></m:msub></m:mrow></m:math> around the sample. Now <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>m</m:mi></m:msub></m:mrow></m:math> is usually proportional to <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> a fact we express by</para>
+<equation id="fs-id1166168221760"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>m</m:mi></m:msub><m:mo>=</m:mo><m:mi>χ</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168213876">where <m:math><m:mi>χ</m:mi></m:math> is a dimensionless quantity called the <term>magnetic susceptibility</term>. Values of <m:math><m:mi>χ</m:mi></m:math> for some paramagnetic materials are given in <link target-id="fs-id1166168213796"/>. Since the alignment of magnetic dipoles is so weak, <m:math><m:mi>χ</m:mi></m:math> is very small for paramagnetic materials. By combining <link target-id="fs-id1166168173799"/> and <link target-id="fs-id1166168221760"/>, we obtain:</para>
+<equation id="fs-id1166168124370"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>χ</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>χ</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168186104">For a sample within an infinite solenoid, this becomes</para>
+<equation id="fs-id1166168125628"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>χ</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168123881">This expression tells us that the insertion of a paramagnetic material into a solenoid increases the field by a factor of <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>χ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> However, since <m:math><m:mi>χ</m:mi></m:math> is so small, the field isn’t enhanced very much.</para>
+<para id="fs-id1166164827411">The quantity</para>
+<note id="fs-id1168329084784" class="equation-callout">
+<equation id="fs-id1166168467028"><label/><m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>χ</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166168127166">is called the magnetic permeability of a material. In terms of <m:math><m:mi>μ</m:mi><m:mo>,</m:mo></m:math> <link target-id="fs-id1166168125628"/> can be written as</para>
+<note id="fs-id1168329064842" class="equation-callout">
+<equation id="fs-id1166168377641"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166168334866">for the filled solenoid.</para>
+<table id="fs-id1166168213796" summary="This table has four columns and nine rows. The first row is a header row and it labels each column, “Paramagnetic Materials” and “Magnetic Susceptibility”, “Diamagnetic Materials” and “Magnetic Susceptibility” Under the “Paramagnetic Materials” column is a list of elements: Aluminum; Calcium; Chromium; Magnesium; Oxygen gas at one atmosphere; Oxygen liquid at 90 K; Tungsten; and Air at one atmosphere. Under the “Magnetic Susceptibility (10 superscript –5)” column are the values: 2.2; 1.4; 3.1; 1.2; 1.8; 3.5; 6.8; and 3.6. Under the “Diamagnetic Materials” column is the list of elements: Bismuth; Carbon diamond; Copper; Lead; Mercury; Hydrogen gas at one atmosphere; Nitrogen gas at one atmosphere; and Water. Under the “Magnetic Susceptibility (10 superscript –5)” column are the values: -1.7; -2.2; -9.7; -1.8; -2.8; -2.2; -6.7; and -9.1.">
+<title>Magnetic Susceptibilities</title>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Paramagnetic Materials</entry>
+<entry valign="top" align="left"><m:math><m:mi>χ</m:mi></m:math></entry>
+<entry valign="top" align="left">Diamagnetic Materials</entry>
+<entry valign="top" align="left"><m:math><m:mi>χ</m:mi></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Aluminum</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Bismuth</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−1.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Calcium</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Carbon (diamond)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−2.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Chromium</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Copper</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−9.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnesium</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Lead</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−1.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Oxygen gas (1 atm)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Mercury</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−2.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Oxygen liquid (90 K)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Hydrogen gas (1 atm)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−2.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Tungsten</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>6.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Nitrogen gas (1 atm)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−6.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Air (1 atm)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Water</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−9.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+<caption>*Note: Unless otherwise specified, values given are for room temperature.</caption>
+</table>
+</section>
+<section id="fs-id1166168479852">
+<title>Diamagnetic Materials</title>
+<para id="fs-id1166168351617">A magnetic field always induces a magnetic dipole in an atom. This induced dipole points opposite to the applied field, so its magnetic field is also directed opposite to the applied field. In paramagnetic and ferromagnetic materials, the induced magnetic dipole is masked by much stronger permanent magnetic dipoles of the atoms. However, in diamagnetic materials, whose atoms have no permanent magnetic dipole moments, the effect of the induced dipole is observable.</para>
+<para id="fs-id1166168173625">We can now describe the magnetic effects of diamagnetic materials with the same model developed for paramagnetic materials. In this case, however, the fictitious surface current flows opposite to the solenoid current, and the magnetic susceptibility <m:math><m:mi>χ</m:mi></m:math> is negative. Values of <m:math><m:mi>χ</m:mi></m:math> for some diamagnetic materials are also given in <link target-id="fs-id1166168213796"/>.</para>
+<note id="fs-id1166168125016" class="media-2">
+<para id="fs-id1166168251077">Water is a common diamagnetic material. Animals are mostly composed of water. Experiments have been performed on <link url="https://openstax.org/l/21frogs">frogs</link> and <link url="https://openstax.org/l/21mice">mice</link> in diverging magnetic fields. The water molecules are repelled from the applied magnetic field against gravity until the animal reaches an equilibrium. The result is that the animal is levitated by the magnetic field.</para>
+</note>
+</section>
+<section id="fs-id1166168451014">
+<title>Ferromagnetic Materials</title>
+<para id="fs-id1166168374106">Common magnets are made of a ferromagnetic material such as iron or one of its alloys. Experiments reveal that a ferromagnetic material consists of tiny regions known as <term>magnetic domains</term>. Their volumes typically range from <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup></m:mrow></m:math> to <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> and they contain about <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup></m:mrow></m:math> to <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:msup></m:mrow></m:math> atoms. Within a domain, the magnetic dipoles are rigidly aligned in the same direction by coupling among the atoms. This coupling, which is due to quantum mechanical effects, is so strong that even thermal agitation at room temperature cannot break it. The result is that each domain has a net dipole moment. Some materials have weaker coupling and are ferromagnetic only at lower temperatures.</para>
+<para id="fs-id1166164826498">If the domains in a ferromagnetic sample are randomly oriented, as shown in <link target-id="CNX_UPhysics_29_07_Domains"/>, the sample has no net magnetic dipole moment and is said to be unmagnetized. Suppose that we fill the volume of a solenoid with an unmagnetized ferromagnetic sample. When the magnetic field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> of the solenoid is turned on, the dipole moments of the domains rotate so that they align somewhat with the field, as depicted in <link target-id="CNX_UPhysics_29_07_Domains"/>. In addition, the aligned domains tend to increase in size at the expense of unaligned ones. The net effect of these two processes is the creation of a net magnetic dipole moment for the ferromagnet that is directed along the applied magnetic field. This net magnetic dipole moment is much larger than that of a paramagnetic sample, and the domains, with their large numbers of atoms, do not become misaligned by thermal agitation. Consequently, the field due to the alignment of the domains is quite large.</para>
+<figure id="CNX_UPhysics_29_07_Domains">
+<media id="fs-id1166168120547" alt="Picture a shows small randomly oriented domains in the unmagnetized piece of the ferromagnetic sample. Picture b shows small partially aligned domains upon the application of a magnetic field. Figure c shows domains of a single crystal of nickel. Clear domain boundaries are visible.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_Domains.jpg"/>
+</media>
+<caption>(a) Domains are randomly oriented in an unmagnetized ferromagnetic sample such as iron. The arrows represent the orientations of the magnetic dipoles within the domains. (b) In an applied magnetic field, the domains align somewhat with the field. (c) The domains of a single crystal of nickel. The white lines show the boundaries of the domains. These lines are produced by iron oxide powder sprinkled on the crystal.</caption>
+</figure>
+<para id="fs-id1166168099196">Besides iron, only four elements contain the magnetic domains needed to exhibit ferromagnetic behavior: cobalt, nickel, gadolinium, and dysprosium. Many alloys of these elements are also ferromagnetic. Ferromagnetic materials can be described using <link target-id="fs-id1166168173799"/> through <link target-id="fs-id1166168377641"/>, the paramagnetic equations. However, the value of <m:math><m:mi>χ</m:mi></m:math> for ferromagnetic material is usually on the order of <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> to <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> and it also depends on the history of the magnetic field to which the material has been subject. A typical plot of <emphasis effect="italics">B</emphasis> (the total field in the material) versus <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (the applied field) for an initially unmagnetized piece of iron is shown in <link target-id="CNX_UPhysics_29_07_Biron"/>. Some sample numbers are (1) for <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>,</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0.60</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>χ</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac bevelled="true"><m:mrow><m:mn>0.60</m:mn></m:mrow><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>≈</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>; (2) for <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>,</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>χ</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac bevelled="true"><m:mrow><m:mn>1.5</m:mn></m:mrow><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>≈</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_29_07_Biron">
+<media id="fs-id1166168409551" alt="This picture shows a plot of the total field in the material versus the applied field for an initially unmagnetized piece of iron. The initial increase in the total field is followed by the saturation.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_Biron.jpg"/>
+</media>
+<caption>(a) The magnetic field <emphasis effect="italics">B</emphasis> in annealed iron as a function of the applied field <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1166168469938">When <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is varied over a range of positive and negative values, <emphasis effect="italics">B</emphasis> is found to behave as shown in <link target-id="CNX_UPhysics_29_07_Hysteresis"/>. Note that the same <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (corresponding to the same current in the solenoid) can produce different values of <emphasis effect="italics">B</emphasis> in the material. The magnetic field <emphasis effect="italics">B</emphasis> produced in a ferromagnetic material by an applied field <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> depends on the magnetic history of the material. This effect is called <term>hysteresis</term>, and the curve of <link target-id="CNX_UPhysics_29_07_Hysteresis"/> is called a hysteresis loop. Notice that <emphasis effect="italics">B</emphasis> does not disappear when <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> (i.e., when the current in the solenoid is turned off). The iron stays magnetized, which means that it has become a permanent magnet.</para>
+<figure id="CNX_UPhysics_29_07_Hysteresis">
+<media id="fs-id1166168245052" alt="This picture shows a typical hysteresis loop for a ferromagnet. It starts at the origin with the upward curve that is the initial magnetization curve to the saturation point a, followed by the downward curve to point b after the saturation, along with the lower return curve back to the point a.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_Hysteresis.jpg"/>
+</media>
+<caption>A typical hysteresis loop for a ferromagnet. When the material is first magnetized, it follows a curve from 0 to <emphasis effect="italics">a</emphasis>. When <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is reversed, it takes the path shown from <emphasis effect="italics">a</emphasis> to <emphasis effect="italics">b</emphasis>. If <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is reversed again, the material follows the curve from <emphasis effect="italics">b</emphasis> to <emphasis effect="italics">a</emphasis>.</caption>
+</figure>
+<para id="fs-id1166168617204">Like the paramagnetic sample of <link target-id="CNX_UPhysics_29_07_Solenoid2"/>, the partial alignment of the domains in a ferromagnet is equivalent to a current flowing around the surface. A bar magnet can therefore be pictured as a tightly wound solenoid with a large current circulating through its coils (the surface current). You can see in <link target-id="CNX_UPhysics_29_07_SolBarMag"/> that this model fits quite well. The fields of the bar magnet and the finite solenoid are strikingly similar. The figure also shows how the poles of the bar magnet are identified. To form closed loops, the field lines outside the magnet leave the north (N) pole and enter the south (S) pole, whereas inside the magnet, they leave S and enter N.</para>
+<figure id="CNX_UPhysics_29_07_SolBarMag">
+<media id="fs-id1166168229866" alt="The left picture shows magnetic fields of a finite solenoid; the right picture shows magnetic fields of a bar magnet. The fields are strikingly similar and form closed loops in both situations.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_SolBarMag.jpg"/>
+</media>
+<caption>Comparison of the magnetic fields of a finite solenoid and a bar magnet.</caption>
+</figure>
+<para id="fs-id1166168177913">Ferromagnetic materials are found in computer hard disk drives and permanent data storage devices (<link target-id="CNX_UPhysics_29_07_HDD"/>). A material used in your hard disk drives is called a spin valve, which has alternating layers of ferromagnetic (aligning with the external magnetic field) and antiferromagnetic (each atom is aligned opposite to the next) metals. It was observed that a significant change in resistance was discovered based on whether an applied magnetic field was on the spin valve or not. This large change in resistance creates a quick and consistent way for recording or reading information by an applied current.</para>
+<figure id="CNX_UPhysics_29_07_HDD">
+<media id="fs-id1166164826342" alt="Photo shows the inside of a hard disk drive. The silver disk contains the information, whereas the thin stylus on top of the disk reads and writes information to the disk.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_HDD.jpg"/>
+</media>
+<caption>The inside of a hard disk drive. The silver disk contains the information, whereas the thin stylus on top of the disk reads and writes information to the disk.</caption>
+</figure>
+<example id="fs-id1166168536605">
+<para id="fs-id1168329518150"><title>Iron Core in a Coil</title>
+A long coil is tightly wound around an iron cylinder whose magnetization curve is shown in <link target-id="CNX_UPhysics_29_07_Biron"/>. (a) If <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> turns per centimeter, what is the applied field <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> when <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>?</m:mo></m:mrow></m:math> (b) What is the net magnetic field for this same current? (c) What is the magnetic susceptibility in this case?</para>
+<para id="fs-id1168328981184"><title>Strategy</title>
+(a) The magnetic field of a solenoid is calculated using <link document="m58466" target-id="fs-id1166167134612"/>. (b) The graph is read to determine the net magnetic field for this same current. (c) The magnetic susceptibility is calculated using <link target-id="fs-id1166168125628"/>.</para>
+<para id="fs-id1168329196390"><title>Solution</title></para>
+<list id="fs-id1171361186280" list-type="enumerated" number-style="lower-alpha">
+<item>The applied field <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> of the coil is
+<equation id="fs-id1168329434783" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2000</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>From inspection of the magnetization curve of <link target-id="CNX_UPhysics_29_07_Biron"/>, we see that, for this value of <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Notice that the internal field of the aligned atoms is much larger than the externally applied field.</item>
+<item>The magnetic susceptibility is calculated to be 
+<equation id="fs-id1166168617199" class="unnumbered"><label/><m:math><m:mrow><m:mi>χ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>B</m:mi><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:mfrac><m:mtext>−1</m:mtext><m:mo>=</m:mo><m:mn>2.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</item>
+</list>
+<para id="fs-id1168329170031"><title>Significance</title>
+Ferromagnetic materials have susceptibilities in the range of <m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math> which compares well to our results here. Paramagnetic materials have fractional susceptibilities, so their applied field of the coil is much greater than the magnetic field generated by the material.</para>
+</example>
+<note id="fs-id1166168466290" class="check-understanding">
+<exercise id="fs-id1166168211223">
+<problem id="fs-id1166168220541">
+<para id="fs-id1166164750613"><emphasis effect="bold">Check Your Understanding</emphasis> Repeat the calculations from the previous example for <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.040</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166168332346">
+<para id="fs-id1166164750962">a. <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math>; b. 0.60 T; c. <m:math><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1166168517048" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1166168189743" list-type="bulleted" bullet-style="bullet">
+<item>Materials are classified as paramagnetic, diamagnetic, or ferromagnetic, depending on how they behave in an applied magnetic field.</item>
+<item>Paramagnetic materials have partial alignment of their magnetic dipoles with an applied magnetic field. This is a positive magnetic susceptibility. Only a surface current remains, creating a solenoid-like magnetic field.</item>
+<item>Diamagnetic materials exhibit induced dipoles opposite to an applied magnetic field. This is a negative magnetic susceptibility.</item>
+<item>Ferromagnetic materials have groups of dipoles, called domains, which align with the applied magnetic field. However, when the field is removed, the ferromagnetic material remains magnetized, unlike paramagnetic materials. This magnetization of the material versus the applied field effect is called hysteresis.</item>
+</list>
+</section>
+<section id="fs-id1166168213665" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1167582526234" summary="The table has two columns and eleven rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Permeability of free space” and “mu subscript 0 equals 4 pi multiplied by 10 power -7 T m divided by A”. The second row contains “Contribution to magnetic field from a current element” and “dB equals mu subscript 0 divided by 4 pi multiplied by numerator I dl sine theta divided by denominator r square”. The third row contains “Biot–Savart law” and “vector B equals mu subscript 0 divided by 4 pi multiplied by wire integral I vector dI cross product vector r divided by r square”. The fourth row contains “Magnetic field due to a long straight wire” and “B equals mu subscript 0 I divided by 2 pi R”. The fifth row contains “Force between two parallel currents” and “F divided by l equals numerator mu subscript 0 I subscript 1 I subscript 2 divided by denominator 2 pi r”. The sixth row contains “Magnetic field of a current loop” and “B equals mu subscript 0 I divided by 2 R (at center of loop)”. The seventh row contains “Ampère’s law” and “integral vector B dot vector dl equals mu subscript 0 I”. The eighth row contains “Magnetic field strength inside a solenoid” and “B equals mu subscript 0 n I”. The ninth row contains “Magnetic field strength inside a toroid” and “B equals numerator mu subscript 0 N I divided by denominator 2 pi r”. The tenth row contains “Magnetic permeability” and “mu equals opening parenthesis 1 plus chi closing parenthesis mu subscript 0”. The eleventh row contains “Magnetic field of a solenoid filled with paramagnetic material” and “B equals mu n I”." class="unnumbered unstyled">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Permeability of free space</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Contribution to magnetic field<newline/>from a current element</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Biot–Savart law</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo stretchy="true">∫</m:mo><m:mrow><m:mtext>wire</m:mtext></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnetic field due to a<newline/>long straight wire</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Force between two parallel currents</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnetic field of a current loop</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>(at center of loop)</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ampère’s law</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnetic field strength<newline/>inside a solenoid</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnetic field strength inside a toroid</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnetic permeability</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>χ</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnetic field of a solenoid<newline/>filled with paramagnetic material</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1166168250738" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1166168154353">
+<problem id="fs-id1166168451287">
+<para id="fs-id1166168451290">A diamagnetic material is brought close to a permanent magnet. What happens to the material?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168466244">
+<problem id="fs-id1166168300116">
+<para id="fs-id1166168300118">If you cut a bar magnet into two pieces, will you end up with one magnet with an isolated north pole and another magnet with an isolated south pole? Explain your answer.</para>
+</problem>
+<solution id="fs-id1166168283278">
+<para id="fs-id1166164751888">The bar magnet will then become two magnets, each with their own north and south poles. There are no magnetic monopoles or single pole magnets.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1166168283351" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1166168220481">
+<problem id="fs-id1166168284812">
+<para id="fs-id1166168284815">The magnetic field in the core of an air-filled solenoid is 1.50 T. By how much will this magnetic field decrease if the air is pumped out of the core while the current is held constant?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168617561">
+<problem id="fs-id1166168617563">
+<para id="fs-id1166168149486">A solenoid has a ferromagnetic core, <emphasis effect="italics">n</emphasis> = 1000 turns per meter, and <emphasis effect="italics">I</emphasis> = 5.0 A. If <emphasis effect="italics">B</emphasis> inside the solenoid is 2.0 T, what is <m:math><m:mi>χ</m:mi></m:math> for the core material?</para>
+</problem>
+<solution id="fs-id1166168208040">
+<para id="fs-id1166168369069">317.31</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168339838">
+<problem id="fs-id1166164750637">
+<para id="fs-id1166164750639">A 20-A current flows through a solenoid with 2000 turns per meter. What is the magnetic field inside the solenoid if its core is (a) a vacuum and (b) filled with liquid oxygen at 90 K?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166164822456">
+<problem id="fs-id1166168117820">
+<para id="fs-id1166168117823">The magnetic dipole moment of the iron atom is about <m:math><m:mrow><m:mn>2.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (a) Calculate the maximum magnetic dipole moment of a domain consisting of <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>19</m:mn></m:mrow></m:msup></m:mrow></m:math> iron atoms. (b) What current would have to flow through a single circular loop of wire of diameter 1.0 cm to produce this magnetic dipole moment?</para>
+</problem>
+<solution id="fs-id1166168229492">
+<para id="fs-id1167582423358"><m:math><m:mrow><m:mn>2.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mn>2.7</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166164750720">
+<problem id="fs-id1166164750722">
+<para id="fs-id1166168180664">Suppose you wish to produce a 1.2-T magnetic field in a toroid with an iron core for which <m:math><m:mrow><m:mi>χ</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> The toroid has a mean radius of 15 cm and is wound with 500 turns. What current is required?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168409195">
+<problem id="fs-id1166168409197">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166168409199">A current of 1.5 A flows through the windings of a large, thin toroid with 200 turns per meter and a radius of 1 meter. If the toroid is filled with iron for which <m:math><m:mrow><m:mi>χ</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> what is the magnetic field within it?</para></problem>
+<solution id="fs-id1166168343602">
+<para id="fs-id1166168343604">0.18 T</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168346819">
+<problem id="fs-id1166168617042">
+<para id="fs-id1166168617044">A solenoid with an iron core is 25 cm long and is wrapped with 100 turns of wire. When the current through the solenoid is 10 A, the magnetic field inside it is 2.0 T. For this current, what is the permeability of the iron? If the current is turned off and then restored to 10 A, will the magnetic field necessarily return to 2.0 T?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168329517118" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1166167074737">
+<problem id="fs-id1166167074739">
+<para id="fs-id1166167074742">Three long, straight, parallel wires, all carrying 20 A, are positioned as shown in the accompanying figure. What is the magnitude of the magnetic field at the point <emphasis effect="italics">P</emphasis>?</para>
+<media id="fs-id1166167074751" alt="This figure shows three long, straight, parallel wires. Each wire forms a vertex of an equilateral triangle with 10 centimeter sides. Point P is the center of a triangle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr16_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166167074367">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166167074369"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1166167081759">
+<problem id="fs-id1166167081761">
+<para id="fs-id1166167081763">A current <emphasis effect="italics">I</emphasis> flows around a wire bent into the shape of a square of side <emphasis effect="italics">a</emphasis>. What is the magnetic field at the point P that is a distance <emphasis effect="italics">z</emphasis> above the center of the square (see the accompanying figure)?</para>
+<media id="fs-id1166167120250" alt="This figure shows a wire bent into the shape of a rhombus of side a. Point P that is a distance z above the center of the rhombus.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr58_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166168227099">
+<problem id="fs-id1166168227101">
+<para id="fs-id1166168227103">The accompanying figure shows a long, straight wire carrying a current of 10 A. What is the magnetic force on an electron at the instant it is 20 cm from the wire, traveling parallel to the wire with a speed of <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m/s?</m:mtext></m:mrow></m:math> Describe qualitatively the subsequent motion of the electron.</para>
+<media id="fs-id1166168322848" alt="Figure shows a long, straight wire carrying a current. An electron is located 20 cm from the wire and travels parallel to it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr13_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168249237">
+<para id="fs-id1166168249239"><m:math><m:mrow><m:mn>3.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−19</m:mtext></m:mrow></m:msup><m:mi>N</m:mi></m:mrow></m:math> in an arc away from the wire</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167388176">
+<problem id="fs-id1166165864875">
+<para id="fs-id1166165864877">Current flows along a thin, infinite sheet as shown in the accompanying figure. The current per unit length along the sheet is <emphasis effect="italics">J</emphasis> in amperes per meter. (a) Use the Biot-Savart law to show that <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>J</m:mi><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow></m:math> on either side of the sheet. What is the direction of <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> on each side? (b) Now use Ampère’s law to calculate the field.</para>
+<media id="fs-id1166166127865" alt="Figure shows current flowing along a thin, infinite sheet.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr34_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166167106412">
+<problem id="fs-id1166167106415">
+<para id="fs-id1166167106417">(a) Use the result of the previous problem to calculate the magnetic field between, above, and below the pair of infinite sheets shown in the accompanying figure. (b) Repeat your calculations if the direction of the current in the lower sheet is reversed.</para>
+<media id="fs-id1166166203293" alt="Figure shows currents flowing along two thin, infinite sheets. Sheets are located in the parallel planes and current flows in the same direction.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr35_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166166019783">
+<para id="fs-id1166166019785">a. above and below <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>j</m:mi><m:mo>,</m:mo></m:mrow></m:math> in the middle <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo></m:mrow></m:math> b. above and below <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> in the middle <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>j</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166166206292">
+<problem id="fs-id1166166206294">
+<para id="fs-id1166166019707">We often assume that the magnetic field is uniform in a region and zero everywhere else. Show that in reality it is impossible for a magnetic field to drop abruptly to zero, as illustrated in the accompanying figure. (<emphasis effect="italics">Hint</emphasis>: Apply Ampère’s law over the path shown.)</para>
+<media id="fs-id1166165870041" alt="Figure shows the magnetic field that is perpendicular to the rectangular current path and intersects it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr36_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166167108730">
+<problem id="fs-id1166166092508">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166166092510">How is the fractional change in the strength of the magnetic field across the face of the toroid related to the fractional change in the radial distance from the axis of the toroid?</para></problem>
+<solution id="fs-id1166167375376">
+<para id="fs-id1166167375378"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mi>B</m:mi></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mspace width="0.05em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167291354">
+<problem id="fs-id1166167291356">
+<para id="fs-id1166167291358">Show that the expression for the magnetic field of a toroid reduces to that for the field of an infinite solenoid in the limit that the central radius goes to infinity.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166166129016">
+<problem id="fs-id1166167076339">
+<para id="fs-id1166167076341">A toroid with an inner radius of 20 cm and an outer radius of 22 cm is tightly wound with one layer of wire that has a diameter of 0.25 mm. (a) How many turns are there on the toroid? (b) If the current through the toroid windings is 2.0 A, what is the strength of the magnetic field at the center of the toroid?</para>
+</problem>
+<solution id="fs-id1166167064465">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166167388172">a. 5026 turns; b. 0.00957 T</para></solution>
+</exercise>
+<exercise id="fs-id1166168318816">
+<problem id="fs-id1166168318818">
+<para id="fs-id1166168318820">A wire element has <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>J</m:mi></m:mstyle><m:mi>A</m:mi><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>J</m:mi></m:mstyle><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">dv</emphasis> are the cross-sectional area and volume of the element, respectively. Use this, the Biot-Savart law, and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>J</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>e</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle></m:mrow></m:math> to show that the magnetic field of a moving point charge q is given by:<newline/>
+<m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>q</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166164826524">
+<problem id="fs-id1166164826526">
+<para id="fs-id1166164826528">A reasonably uniform magnetic field over a limited region of space can be produced with the Helmholtz coil, which consists of two parallel coils centered on the same axis. The coils are connected so that they carry the same current <emphasis effect="italics">I</emphasis>. Each coil has <emphasis effect="italics">N</emphasis> turns and radius <emphasis effect="italics">R</emphasis>, which is also the distance between the coils. (a) Find the magnetic field at any point on the <emphasis effect="italics">z</emphasis>-axis shown in the accompanying figure. (b) Show that <emphasis effect="italics">dB</emphasis>/<emphasis effect="italics">dz</emphasis> and <m:math><m:mrow><m:mfrac bevelled="true"><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> are both zero at <emphasis effect="italics">z</emphasis> = 0. (These vanishing derivatives demonstrate that the magnetic field varies only slightly near <emphasis effect="italics">z</emphasis> = 0.)</para>
+<media id="fs-id1166168224160" alt="This picture shows two parallel coils centered on the same axis that carry the same current I. Each coil has radius R, which is also the distance between the coils.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr59_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168377111">
+<para id="fs-id1166168377113"><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168130061">
+<problem id="fs-id1166168130063">
+<para id="fs-id1166168198067">A charge of <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>μC</m:mtext></m:mrow></m:math> is distributed uniformly around a thin ring of insulating material. The ring has a radius of 0.20 m and rotates at <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>rev/min</m:mtext></m:mrow></m:math> around the axis that passes through its center and is perpendicular to the plane of the ring. What is the magnetic field at the center of the ring?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168477179">
+<problem id="fs-id1166168477181">
+<para id="fs-id1166168465367">A thin, nonconducting disk of radius <emphasis effect="italics">R</emphasis> is free to rotate around the axis that passes through its center and is perpendicular to the face of the disk. The disk is charged uniformly with a total charge <emphasis effect="italics">q</emphasis>. If the disk rotates at a constant angular velocity <m:math><m:mrow><m:mi>ω</m:mi><m:mo>,</m:mo></m:mrow></m:math> what is the magnetic field at its center?</para>
+</problem>
+<solution id="fs-id1166168147818">
+<para id="fs-id1166168207982"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>σ</m:mi><m:mi>ω</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166164827602">
+<problem id="fs-id1166164827604">
+<para id="fs-id1166168224404">Consider the disk in the previous problem. Calculate the magnetic field at a point on its central axis that is a distance <emphasis effect="italics">y</emphasis> above the disk.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168477031">
+<problem id="fs-id1166168184312">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166168184314">Consider the axial magnetic field <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math> of the circular current loop shown below. (a) Evaluate <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow><m:mi>a</m:mi></m:msubsup><m:mrow><m:msub><m:mi>B</m:mi><m:mi>y</m:mi></m:msub><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> Also show that <m:math><m:mrow><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:munder><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow><m:mi>a</m:mi></m:msubsup><m:mrow><m:msub><m:mi>B</m:mi><m:mi>y</m:mi></m:msub></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math> (b) Can you deduce this limit without evaluating the integral? (<emphasis effect="italics">Hint:</emphasis> See the accompanying figure.)</para><media id="fs-id1166168620409" alt="This picture shows the circular current loop I with the magnetic field B perpendicular to the plane of the loop.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr63_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168479740">
+<para id="fs-id1166168479742">derivation</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168281194">
+<problem id="fs-id1166168281196">
+<para id="fs-id1166168432715">The current density in the long, cylindrical wire shown in the accompanying figure varies with distance <emphasis effect="italics">r</emphasis> from the center of the wire according to <m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mi>r</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">c</emphasis> is a constant. (a) What is the current through the wire? (b) What is the magnetic field produced by this current for <m:math><m:mrow><m:mi>r</m:mi><m:mo>≤</m:mo><m:mi>R</m:mi><m:mo>?</m:mo></m:mrow></m:math> For <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1166164729891" alt="This figure shows a long, straight, cylindrical wire with a radius R that has current I flowing through it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr65_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166168344016">
+<problem id="fs-id1166168344018">
+<para id="fs-id1166168344020">A long, straight, cylindrical conductor contains a cylindrical cavity whose axis is displaced by <emphasis effect="italics">a</emphasis> from the axis of the conductor, as shown in the accompanying figure. The current density in the conductor is given by <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is a constant and <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> is along the axis of the conductor. Calculate the magnetic field at an arbitrary point P in the cavity by superimposing the field of a solid cylindrical conductor with radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and current density <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> onto the field of a solid cylindrical conductor with radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> and current density <m:math><m:mrow><m:mtext>−</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Then use the fact that the appropriate azimuthal unit vectors can be expressed as <m:math><m:mrow><m:msub><m:mover accent="true"><m:mi>θ</m:mi><m:mo>^</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msub><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mover accent="true"><m:mi>θ</m:mi><m:mo>^</m:mo></m:mover><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msub><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:mrow></m:math> to show that everywhere inside the cavity the magnetic field is given by the constant <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>r</m:mi></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>r</m:mi></m:mstyle><m:mn>2</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>r</m:mi></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the position of <emphasis effect="italics">P</emphasis> relative to the center of the conductor and <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>r</m:mi></m:mstyle><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:mrow></m:math> is the position of <emphasis effect="italics">P</emphasis> relative to the center of the cavity.</para>
+<media id="fs-id1166168201457" alt="This figure shows a large circle with a radius R1 that has a circular hole of radius R2 in it at a distance a from the center. Point P is located in a hole at the distance r2 from the center of a hole and at a distance r1 from the center of a large circle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr66_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168149062">
+<para id="fs-id1166168149064">derivation</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166164823338">
+<problem id="fs-id1166164823340">
+<para id="fs-id1166164823343">Between the two ends of a horseshoe magnet the field is uniform as shown in the diagram. As you move out to outside edges, the field bends. Show by Ampère’s law that the field must bend and thereby the field weakens due to these bends.</para>
+<media id="fs-id1166164826233" alt="This figure shows a horse shoe magnet with the magnetic lines going from the North end to the South end.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr68_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166164827210">
+<problem id="fs-id1166164827212">
+<para id="fs-id1166164827214">Show that the magnetic field of a thin wire and that of a current loop are zero if you are infinitely far away.</para>
+</problem>
+<solution id="fs-id1166168280998">
+<para id="fs-id1166168281000">As the radial distance goes to infinity, the magnetic fields of each of these formulae go to zero.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168148476">
+<problem id="fs-id1166168148479">
+<para id="fs-id1166168148481">An Ampère loop is chosen as shown by dashed lines for a parallel constant magnetic field as shown by solid arrows. Calculate <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> for each side of the loop then find the entire <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Can you think of an Ampère loop that would make the problem easier? Do those results match these?</para>
+<media id="fs-id1166168247073" alt="This figure shows an Ampere loop that is located in the constant magnetic field. One of the sides of the loop forms an angle theta with the magnetic line.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr70_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166168452703">
+<problem id="fs-id1166168222296">
+<para id="fs-id1166168222298">A very long, thick cylindrical wire of radius <emphasis effect="italics">R</emphasis> carries a current density <emphasis effect="italics">J</emphasis> that varies across its cross-section. The magnitude of the current density at a point a distance <emphasis effect="italics">r</emphasis> from the center of the wire is given by <m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>r</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is a constant. Find the magnetic field (a) at a point outside the wire and (b) at a point inside the wire. Write your answer in terms of the net current <emphasis effect="italics">I</emphasis> through the wire.</para>
+</problem>
+<solution id="fs-id1166164751942">
+<para id="fs-id1166164751944">a. <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168433080">
+<problem id="fs-id1166168433082">
+<para id="fs-id1166168433084">A very long, cylindrical wire of radius <emphasis effect="italics">a</emphasis> has a circular hole of radius <emphasis effect="italics">b</emphasis> in it at a distance <emphasis effect="italics">d</emphasis> from the center. The wire carries a uniform current of magnitude <emphasis effect="italics">I</emphasis> through it. The direction of the current in the figure is out of the paper. Find the magnetic field (a) at a point at the edge of the hole closest to the center of the thick wire, (b) at an arbitrary point inside the hole, and (c) at an arbitrary point outside the wire. (<emphasis effect="italics">Hint:</emphasis> Think of the hole as a sum of two wires carrying current in the opposite directions.)</para>
+<media id="fs-id1166164776985" alt="This figure shows a circle with a radius a that has a circular hole of radius b in it at a distance d from the center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr74_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166164826688"><problem id="fs-id1166164826690">
+<para id="fs-id1166164826693">Magnetic field inside a torus. Consider a torus of rectangular cross-section with inner radius <emphasis effect="italics">a</emphasis> and outer radius <emphasis effect="italics">b</emphasis>. <emphasis effect="italics">N</emphasis> turns of an insulated thin wire are wound evenly on the torus tightly all around the torus and connected to a battery producing a steady current <emphasis effect="italics">I</emphasis> in the wire. Assume that the current on the top and bottom surfaces in the figure is radial, and the current on the inner and outer radii surfaces is vertical. Find the magnetic field inside the torus as a function of radial distance <emphasis effect="italics">r</emphasis> from the axis.</para> <media id="fs-id1262164776985" alt="">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr75_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166164822709">
+<para id="fs-id1166164819576"><m:math><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:math><newline/>
+<media id="fs-id1166168180449" alt="This figure shows a torus with the inner radius a and an outer radius b. A thin wire is wound evenly on the torus.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr75_img.jpg"/>
+</media></para>
+</solution>
+</exercise><exercise id="fs-id1166168466344">
+<problem id="fs-id1166168466346">
+<para id="fs-id1166168466348">Two long coaxial copper tubes, each of length <emphasis effect="italics">L</emphasis>, are connected to a battery of voltage <emphasis effect="italics">V</emphasis>. The inner tube has inner radius <emphasis effect="italics">a</emphasis> and outer radius <emphasis effect="italics">b</emphasis>, and the outer tube has inner radius <emphasis effect="italics">c</emphasis> and outer radius <emphasis effect="italics">d</emphasis>. The tubes are then disconnected from the battery and rotated in the same direction at angular speed of <m:math><m:mi>ω</m:mi></m:math> radians per second about their common axis. Find the magnetic field (a) at a point inside the space enclosed by the inner tube <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> and (b) at a point between the tubes <m:math><m:mrow><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>c</m:mi><m:mo>,</m:mo></m:mrow></m:math> and (c) at a point outside the tubes <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>d</m:mi><m:mo>.</m:mo></m:mrow></m:math> (<emphasis effect="italics">Hint:</emphasis> Think of copper tubes as a capacitor and find the charge density based on the voltage applied, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mi>C</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>L</m:mi></m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>c</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mtext>.)</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168326797819" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1166168455571">
+<problem id="fs-id1166168455573">
+<para id="fs-id1166168215729">The accompanying figure shows a flat, infinitely long sheet of width <emphasis effect="italics">a</emphasis> that carries a current <emphasis effect="italics">I</emphasis> uniformly distributed across it. Find the magnetic field at the point P, which is in the plane of the sheet and at a distance <emphasis effect="italics">x</emphasis> from one edge. Test your result for the limit <m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1166168616690" alt="This picture shows a flat, infinitely long sheet of width a that carries a current I uniformly distributed across it. Point P is in the plane of the sheet and at a distance x from one edge.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr64_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168118152">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166168118154"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>a</m:mi></m:mrow></m:mfrac><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1166168322666">
+<problem id="fs-id1166168322668">
+<para id="fs-id1166168322670">A hypothetical current flowing in the <emphasis effect="italics">z</emphasis>-direction creates the field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>C</m:mi><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mtext>/</m:mtext><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math> in the rectangular region of the <emphasis effect="italics">xy</emphasis>-plane shown in the accompanying figure. Use Ampère’s law to find the current through the rectangle.</para>
+<media id="fs-id1166164824673" alt="This figure shows the rectangular region of the xy-plane; z axis is perpendicular to the plane. Points a1 and a2 are located at the x axis. Points b1 and b2 are located at the y axis. There is an equal distance between all points.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr67_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166168229211">
+<problem id="fs-id1166168583260">
+<para id="fs-id1166168583262">A nonconducting hard rubber circular disk of radius <emphasis effect="italics">R</emphasis> is painted with a uniform surface charge density <m:math><m:mi>σ</m:mi><m:mo>.</m:mo></m:math> It is rotated about its axis with angular speed <m:math><m:mrow><m:mi>ω</m:mi><m:mo>.</m:mo></m:mrow></m:math> (a) Find the magnetic field produced at a point on the axis a distance <emphasis effect="italics">h</emphasis> meters from the center of the disk. (b) Find the numerical value of magnitude of the magnetic field when <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mtext>20 cm</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>h</m:mi><m:mo>=</m:mo><m:mtext>2 cm</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>rad/sec</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and compare it with the magnitude of magnetic field of Earth, which is about 1/2 Gauss.</para>
+</problem>
+<solution id="fs-id1166168466981">
+<para id="fs-id1166168466983">a. <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>σ</m:mi><m:mi>ω</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mtext>−2</m:mtext><m:mi>h</m:mi></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>4.09</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>,</m:mo></m:mrow></m:math> 82% of Earth’s magnetic field</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1166164819496">
+<term>diamagnetic materials</term>
+<meaning id="fs-id1166164819501">their magnetic dipoles align oppositely to an applied magnetic field; when the field is removed, the material is unmagnetized</meaning>
+</definition>
+<definition id="fs-id1166164819506">
+<term>ferromagnetic materials</term>
+<meaning id="fs-id1166164819512">contain groups of dipoles, called domains, that align with the applied magnetic field; when this field is removed, the material is still magnetized</meaning>
+</definition>
+<definition id="fs-id1166164750406">
+<term>hysteresis</term>
+<meaning id="fs-id1166164750412">property of ferromagnets that is seen when a material’s magnetic field is examined versus the applied magnetic field; a loop is created resulting from sweeping the applied field forward and reverse</meaning>
+</definition>
+<definition id="fs-id1166164750420">
+<term>magnetic susceptibility</term>
+<meaning id="fs-id1166164819599">ratio of the magnetic field in the material over the applied field at that time; positive susceptibilities are either paramagnetic or ferromagnetic (aligned with the field) and negative susceptibilities are diamagnetic (aligned oppositely with the field)</meaning>
+</definition>
+<definition id="fs-id1166164819606">
+<term>magnetic domains</term>
+<meaning id="fs-id1166164819611">groups of magnetic dipoles that are all aligned in the same direction and are coupled together quantum mechanically</meaning>
+</definition>
+<definition id="fs-id1166164819616">
+<term>paramagnetic materials</term>
+<meaning id="fs-id1166164819622">their magnetic dipoles align partially in the same direction as the applied magnetic field; when this field is removed, the material is unmagnetized</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,556 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Resistivity and Resistance</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58731</md:content-id>
+  <md:title>Resistivity and Resistance</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Differentiate between resistance and resistivity</item>
+<item>Define the term conductivity</item>
+<item>Describe the electrical component known as a resistor</item>
+<item>State the relationship between resistance of a resistor and its length, cross-sectional area, and resistivity</item>
+<item>State the relationship between resistivity and temperature</item>
+</list></md:abstract>
+  <md:uuid>02850854-071f-4033-b059-24aa8a5f8f97</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902247299">What drives current? We can think of various devices—such as batteries, generators, wall outlets, and so on—that are necessary to maintain a current. All such devices create a potential difference and are referred to as voltage sources. When a voltage source is connected to a conductor, it applies a potential difference <emphasis effect="italics">V</emphasis> that creates an electrical field. The electrical field, in turn, exerts force on free charges, causing current. The amount of current depends not only on the magnitude of the voltage, but also on the characteristics of the material that the current is flowing through. The material can resist the flow of the charges, and the measure of how much a material resists the flow of charges is known as the <emphasis effect="italics">resistivity</emphasis>. This resistivity is crudely analogous to the friction between two materials that resists motion.</para>
+<section xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170902101646"><title>Resistivity</title><para id="fs-id1170904071735">When a voltage is applied to a conductor, an electrical field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is created, and charges in the conductor feel a force due to the electrical field. The current density <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> that results depends on the electrical field and the properties of the material. This dependence can be very complex. In some materials, including metals at a given temperature, the current density is approximately proportional to the electrical field. In these cases, the current density can be modeled as</para>
+<equation id="fs-id1170902091058" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>σ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mo>,</m:mo></m:math></equation>
+<para id="fs-id1170902196879">where <m:math><m:mi>σ</m:mi></m:math> is the <term>electrical conductivity</term>. The electrical conductivity is analogous to thermal conductivity and is a measure of a material’s ability to conduct or transmit electricity. Conductors have a higher electrical conductivity than insulators. Since the electrical conductivity is <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mi>J</m:mi><m:mtext>/</m:mtext><m:mi>E</m:mi></m:mrow></m:math>, the units are</para>
+<equation id="fs-id1170902341973" class="unnumbered"><label/><m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>[</m:mo><m:mi>J</m:mi><m:mo>]</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>[</m:mo><m:mi>E</m:mi><m:mo>]</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mtext>A/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mtext>V/m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mtext>A</m:mtext><m:mrow><m:mtext>V</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>.</m:mo></m:math></equation>
+<para id="fs-id1170902286743">Here, we define a unit named the <term>ohm</term> with the Greek symbol uppercase omega, <m:math><m:mtext>Ω</m:mtext></m:math>. The unit is named after Georg Simon Ohm, whom we will discuss later in this chapter. The <m:math><m:mtext>Ω</m:mtext></m:math> is used to avoid confusion with the number 0. One ohm equals one volt per amp: <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V/A</m:mtext></m:mrow></m:math>. The units of electrical conductivity are therefore <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math>.</para><para id="fs-id1170902366254">Conductivity is an intrinsic property of a material. Another intrinsic property of a material is the <term>resistivity</term>, or electrical resistivity. The resistivity of a material is a measure of how strongly a material opposes the flow of electrical current. The symbol for resistivity is the lowercase Greek letter rho, <m:math><m:mi>ρ</m:mi></m:math>, and resistivity is the reciprocal of electrical conductivity:</para>
+<equation id="fs-id1170903886090" class="unnumbered"><label/><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>σ</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902088859">The unit of resistivity in SI units is the ohm-meter <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. We can define the resistivity in terms of the electrical field and the current density,</para>
+<note id="fs-id1170902304226" class="equation-callout">
+<equation id="fs-id1170902437828"><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>J</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902090732">The greater the resistivity, the larger the field needed to produce a given current density. The lower the resistivity, the larger the current density produced by a given electrical field. Good conductors have a high conductivity and low resistivity. Good insulators have a low conductivity and a high resistivity. <link target-id="fs-id1170904007386"/> lists resistivity and conductivity values for various materials.</para>
+<table id="fs-id1170904007386" summary="No Summary"><title>Resistivities and Conductivities of Various Materials at 20 °C</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Material</entry>
+<entry valign="top" align="left">Conductivity, <m:math><m:mi>σ</m:mi></m:math><newline/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Resistivity, <m:math><m:mi>ρ</m:mi></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Temperature<newline/>Coefficient, <m:math><m:mi>α</m:mi></m:math><newline/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="italics">Conductors</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Silver</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>6.29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1.59</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0.0038</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Copper</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>5.95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1.68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0.0039</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Gold</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4.10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2.44</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0.0034</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Aluminum</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3.77</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2.65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0.0039</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Tungsten</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1.79</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>5.60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0.0045</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Iron</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1.03</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9.71</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0.0065</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Platinum</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0.94</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>10.60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0.0039</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Steel</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>20.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Lead</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0.45</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>22.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Manganin (Cu, Mn, Ni alloy)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0.21</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>48.20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0.000002</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Constantan (Cu, Ni alloy)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>49.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0.00003</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mercury</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>98.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0.0009</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Nichrome (Ni, Fe, Cr alloy)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>100.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0.0004</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="italics">Semiconductors</emphasis>[1]</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Carbon (pure)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2.86</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−5</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">−0.0005</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Carbon</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.86</m:mn><m:mo>−</m:mo><m:mn>1.67</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−6</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.5</m:mn><m:mo>−</m:mo><m:mn>60</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−5</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">−0.0005</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Germanium (pure)</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">−0.048</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Germanium</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>600</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">−0.050</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Silicon (pure)</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">2300</entry>
+<entry valign="top" align="left">−0.075</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Silicon</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0.1</m:mn><m:mo>−</m:mo><m:mn>2300</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">−0.07</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="italics">Insulators</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Amber</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−15</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>14</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Glass</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>−9</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>−14</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>9</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>14</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Lucite</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>&lt;</m:mtext><m:msup><m:mn>10</m:mn><m:mn>−13</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>&gt;</m:mtext><m:msup><m:mn>10</m:mn><m:mn>13</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mica</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>−11</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>−15</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>11</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>15</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Quartz (fused)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1.33</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>–18</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>16</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rubber (hard)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>−13</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>−16</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>13</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>16</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Sulfur</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>−15</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>15</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Teflon<sup>TM</sup></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>&lt;</m:mtext><m:msup><m:mn>10</m:mn><m:mn>−13</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>&gt;</m:mtext><m:msup><m:mn>10</m:mn><m:mn>13</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Wood</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>−11</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>11</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+</tbody>
+
+
+</tgroup><caption>[1] Values depend strongly on amounts and types of impurities.</caption>
+</table><para id="fs-id1170902043469">The materials listed in the table are separated into categories of conductors, semiconductors, and insulators, based on broad groupings of resistivity. Conductors have the smallest resistivity, and insulators have the largest; semiconductors have intermediate resistivity. Conductors have varying but large, free charge densities, whereas most charges in insulators are bound to atoms and are not free to move. Semiconductors are intermediate, having far fewer free charges than conductors, but having properties that make the number of free charges depend strongly on the type and amount of impurities in the semiconductor. These unique properties of semiconductors are put to use in modern electronics, as we will explore in later chapters.</para>
+
+<note id="fs-id1170902236548" class="check-understanding">
+<exercise id="fs-id1170903869133">
+<problem id="fs-id1170903869136">
+<para id="fs-id1170902275630"><emphasis effect="bold">Check Your Understanding</emphasis> Copper wires use routinely used for extension cords and house wiring for several reasons. Copper has the highest electrical conductivity rating, and therefore the lowest resistivity rating, of all nonprecious metals. Also important is the tensile strength, where the tensile strength is a measure of the force required to pull an object to the point where it breaks. The tensile strength of a material is the maximum amount of tensile stress it can take before breaking. Copper has a high tensile strength, <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mfrac><m:mtext>N</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>. A third important characteristic is ductility. Ductility is a measure of a material’s ability to be drawn into wires and a measure of the flexibility of the material, and copper has a high ductility. Summarizing, for a conductor to be a suitable candidate for making wire, there are at least three important characteristics: low resistivity, high tensile strength, and high ductility. What other materials are used for wiring and what are the advantages and disadvantages?</para>
+</problem>
+<solution id="fs-id1170904244725">
+<para id="fs-id1170904244728">Silver, gold, and aluminum are all used for making wires. All four materials have a high conductivity, silver having the highest. All four can easily be drawn into wires and have a high tensile strength, though not as high as copper. The obvious disadvantage of gold and silver is the cost, but silver and gold wires are used for special applications, such as speaker wires. Gold does not oxidize, making better connections between components. Aluminum wires do have their drawbacks. Aluminum has a higher resistivity than copper, so a larger diameter is needed to match the resistance per length of copper wires, but aluminum is cheaper than copper, so this is not a major drawback. Aluminum wires do not have as high of a ductility and tensile strength as copper, but the ductility and tensile strength is within acceptable levels. There are a few concerns that must be addressed in using aluminum and care must be used when making connections. Aluminum has a higher rate of thermal expansion than copper, which can lead to loose connections and a possible fire hazard. The oxidation of aluminum does not conduct and can cause problems. Special techniques must be used when using aluminum wires and components, such as electrical outlets, must be designed to accept aluminum wires.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1170902207159" class="media-2">
+<para id="fs-id1170902291331">View this <link url="https://openstax.org/l/21resistwire">interactive simulation</link> to see what the effects of the cross-sectional area, the length, and the resistivity of a wire are on the resistance of a conductor. Adjust the variables using slide bars and see if the resistance becomes smaller or larger.</para>
+</note>
+</section><section id="fs-id1170902190824">
+<title>Temperature Dependence of Resistivity</title>
+<para id="fs-id1170902190830">Looking back at <link target-id="fs-id1170904007386"/>, you will see a column labeled “Temperature Coefficient.” The resistivity of some materials has a strong temperature dependence. In some materials, such as copper, the resistivity increases with increasing temperature. In fact, in most conducting metals, the resistivity increases with increasing temperature. The increasing temperature causes increased vibrations of the atoms in the lattice structure of the metals, which impede the motion of the electrons. In other materials, such as carbon, the resistivity decreases with increasing temperature. In many materials, the dependence is approximately linear and can be modeled using a linear equation:</para>
+<note id="fs-id1170902167483" class="equation-callout">
+<equation id="fs-id1170902167487"><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>≈</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902277237">where <m:math><m:mi>ρ</m:mi></m:math> is the resistivity of the material at temperature <emphasis effect="italics">T</emphasis>, <m:math><m:mi>α</m:mi></m:math> is the temperature coefficient of the material, and <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the resistivity at <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, usually taken as <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>20.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1170902289983">Note also that the temperature coefficient <m:math><m:mi>α</m:mi></m:math> is negative for the semiconductors listed in <link target-id="fs-id1170904007386"/>, meaning that their resistivity decreases with increasing temperature. They become better conductors at higher temperature, because increased thermal agitation increases the number of free charges available to carry current. This property of decreasing <m:math><m:mi>ρ</m:mi></m:math> with temperature is also related to the type and amount of impurities present in the semiconductors.</para>
+</section>
+<section id="fs-id1170902166213">
+<title>Resistance</title>
+<para id="fs-id1170902101661">We now consider the resistance of a wire or component. The resistance is a measure of how difficult it is to pass current through a wire or component. Resistance depends on the resistivity. The resistivity is a characteristic of the material used to fabricate a wire or other electrical component, whereas the resistance is a characteristic of the wire or component.</para>
+<para id="fs-id1170904008039">To calculate the resistance, consider a section of conducting wire with cross-sectional area <emphasis effect="italics">A</emphasis>, length <emphasis effect="italics">L</emphasis>, and resistivity <m:math><m:mi>ρ</m:mi><m:mo>.</m:mo></m:math> A battery is connected across the conductor, providing a potential difference <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> across it (<link target-id="CNX_UPhysics_26_03_Resistance"/>). The potential difference produces an electrical field that is proportional to the current density, according to <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_26_03_Resistance">
+<media id="fs-id1170902166722" alt="Picture is a schematic drawing of a battery connected to a conductor with the cross-sectional area A. Current flows from high potential side to the low potential side of the conductor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_Resistance.jpg"/>
+</media>
+<caption>A potential provided by a battery is applied to a segment of a conductor with a cross-sectional area <emphasis effect="italics">A</emphasis> and a length <emphasis effect="italics">L</emphasis>.</caption>
+</figure>
+<para id="fs-id1170902142896">The magnitude of the electrical field across the segment of the conductor is equal to the voltage divided by the length, <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>L</m:mi></m:mrow></m:mrow></m:math>, and the magnitude of the current density is equal to the current divided by the cross-sectional area, <m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:mrow><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mrow><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> Using this information and recalling that the electrical field is proportional to the resistivity and the current density, we can see that the voltage is proportional to the current:</para>
+<equation id="fs-id1170904154734" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>J</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mi>V</m:mi><m:mi>L</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>I</m:mi><m:mi>A</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>I</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<note id="fs-id1170902233189">
+<title>Resistance</title>
+<para id="fs-id1170902256794">The ratio of the voltage to the current is defined as the <term>resistance</term> <emphasis effect="italics">R</emphasis>:</para>
+<equation id="fs-id1170902153167"><m:math><m:mrow><m:mi>R</m:mi><m:mo>≡</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>I</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902568442">The resistance of a cylindrical segment of a conductor is equal to the resistivity of the material times the length divided by the area:</para>
+<equation id="fs-id1170903794024"><m:math><m:mrow><m:mi>R</m:mi><m:mo>≡</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902284213">The unit of resistance is the ohm, <m:math><m:mtext>Ω</m:mtext></m:math>. For a given voltage, the higher the resistance, the lower the current.</para>
+<section id="fs-id1170902197997">
+<title>Resistors</title>
+<para id="fs-id1170902139275">A common component in electronic circuits is the resistor. The resistor can be used to reduce current flow or provide a voltage drop. <link target-id="CNX_UPhysics_26_03_ResistorSym"/> shows the symbols used for a resistor in schematic diagrams of a circuit. Two commonly used standards for circuit diagrams are provided by the American National Standard Institute (ANSI, pronounced “AN-see”) and the International Electrotechnical Commission (IEC). Both systems are commonly used. We use the ANSI standard in this text for its visual recognition, but we note that for larger, more complex circuits, the IEC standard may have a cleaner presentation, making it easier to read.</para>
+<figure id="CNX_UPhysics_26_03_ResistorSym">
+<media id="fs-id1170904233616" alt="Figure A shows the ANSI symbol for a resistor. Figure B shows the IEC symbol for a resistor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_ResistorSym.jpg"/>
+</media>
+<caption>Symbols for a resistor used in circuit diagrams. (a) The ANSI symbol; (b) the IEC symbol.</caption>
+</figure>
+</section>
+<section xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170902151904"><title>Material and shape dependence of resistance</title><para id="fs-id1170904257874">A resistor can be modeled as a cylinder with a cross-sectional area <emphasis effect="italics">A</emphasis> and a length <emphasis effect="italics">L</emphasis>, made of a material with a resistivity <m:math><m:mi>ρ</m:mi></m:math> (<link target-id="CNX_UPhysics_26_03_Cylinder"/>). The resistance of the resistor is <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_26_03_Cylinder">
+<media id="fs-id1170904067766" alt="Picture is a schematic drawing of a resistor. It is a uniform cylinder of length L and cross-sectional area A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_Cylinder.jpg"/>
+</media>
+<caption>A model of a resistor as a uniform cylinder of length <emphasis effect="italics">L</emphasis> and cross-sectional area <emphasis effect="italics">A</emphasis>. Its resistance to the flow of current is analogous to the resistance posed by a pipe to fluid flow. The longer the cylinder, the greater its resistance. The larger its cross-sectional area <emphasis effect="italics">A</emphasis>, the smaller its resistance.</caption>
+</figure>
+<para id="fs-id1170900497975">The most common material used to make a resistor is carbon. A carbon track is wrapped around a ceramic core, and two copper leads are attached. A second type of resistor is the metal film resistor, which also has a ceramic core. The track is made from a metal oxide material, which has semiconductive properties similar to carbon. Again, copper leads are inserted into the ends of the resistor. The resistor is then painted and marked for identification. A resistor has four colored bands, as shown in <link target-id="CNX_UPhysics_26_03_Resistor"/>.</para>
+<figure id="CNX_UPhysics_26_03_Resistor">
+<media id="fs-id1170904243888" alt="Picture is a schematic drawing of a resistor. It contains four colored bands: red, black, green, and grey.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_Resistor.jpg"/>
+</media>
+<caption>Many resistors resemble the figure shown above. The four bands are used to identify the resistor. The first two colored bands represent the first two digits of the resistance of the resistor. The third color is the multiplier. The fourth color represents the tolerance of the resistor. The resistor shown has a resistance of <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mtext>±</m:mtext><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1170902099762">Resistances range over many orders of magnitude. Some ceramic insulators, such as those used to support power lines, have resistances of <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> or more. A dry person may have a hand-to-foot resistance of <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, whereas the resistance of the human heart is about <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. A meter-long piece of large-diameter copper wire may have a resistance of <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, and superconductors have no resistance at all at low temperatures. As we have seen, resistance is related to the shape of an object and the material of which it is composed.</para>
+<example id="fs-id1170902043472">
+<para id="fs-id1170904138987"><title>Current Density, Resistance, and Electrical field for a Current-Carrying Wire</title>
+Calculate the current density, resistance, and electrical field of a 5-m length of copper wire with a diameter of 2.053 mm (12-gauge) carrying a current of <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>mA</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1170902234200"><title>Strategy</title>
+We can calculate the current density by first finding the cross-sectional area of the wire, which is <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>3.31</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> and the definition of current density <m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>I</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>. The resistance can be found using the length of the wire <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, the area, and the resistivity of copper <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>1.68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>, where <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>. The resistivity and current density can be used to find the electrical field.</para>
+<para id="fs-id1170904051096"><title>Solution</title>
+First, we calculate the current density:</para>
+<equation id="fs-id1170904173988" class="unnumbered"><label/><m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>I</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext></m:mrow><m:mrow><m:mn>3.31</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mfrac><m:mtext>A</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902239750">The resistance of the wire is</para>
+<equation id="fs-id1170904058178" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>3.31</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.025</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902150008">Finally, we can find the electrical field:</para>
+<equation id="fs-id1170902286907" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>J</m:mi><m:mo>=</m:mo><m:mn>1.68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mfrac><m:mtext>A</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5.07</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mfrac><m:mtext>V</m:mtext><m:mtext>m</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902350530"><title>Significance</title>
+From these results, it is not surprising that copper is used for wires for carrying current because the resistance is quite small. Note that the current density and electrical field are independent of the length of the wire, but the voltage depends on the length.</para>
+</example>
+<para id="fs-id1170904129190">The resistance of an object also depends on temperature, since <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is directly proportional to <m:math><m:mi>ρ</m:mi><m:mo>.</m:mo></m:math> For a cylinder, we know <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>, so if <emphasis effect="italics">L</emphasis> and <emphasis effect="italics">A</emphasis> do not change greatly with temperature, <emphasis effect="italics">R</emphasis> has the same temperature dependence as <m:math><m:mi>ρ</m:mi><m:mo>.</m:mo></m:math> (Examination of the coefficients of linear expansion shows them to be about two orders of magnitude less than typical temperature coefficients of resistivity, so the effect of temperature on <emphasis effect="italics">L</emphasis> and <emphasis effect="italics">A</emphasis> is about two orders of magnitude less than on <m:math><m:mi>ρ</m:mi><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:math> Thus,</para>
+<note id="fs-id1170902346965" class="equation-callout">
+<equation id="fs-id1170902307361"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902125609">is the temperature dependence of the resistance of an object, where <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the original resistance (usually taken to be <m:math><m:mrow><m:mn>20.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <emphasis effect="italics">R</emphasis> is the resistance after a temperature change <m:math><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:math> The color code gives the resistance of the resistor at a temperature of <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1170902386907">Numerous thermometers are based on the effect of temperature on resistance (<link target-id="CNX_UPhysics_26_03_Thermom"/>). One of the most common thermometers is based on the thermistor, a semiconductor crystal with a strong temperature dependence, the resistance of which is measured to obtain its temperature. The device is small, so that it quickly comes into thermal equilibrium with the part of a person it touches.</para>
+<figure id="CNX_UPhysics_26_03_Thermom">
+<media id="fs-id1170902243895" alt="Picture is a photograph of two digital oral thermometers.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_Thermom.jpg"/>
+</media>
+<caption>These familiar thermometers are based on the automated measurement of a thermistor’s temperature-dependent resistance.</caption>
+</figure>
+<example id="fs-id1170902304682">
+<para id="fs-id1170902304685"><title>Calculating Resistance</title>
+Although caution must be used in applying <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for temperature changes greater than <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, for tungsten, the equations work reasonably well for very large temperature changes. A tungsten filament at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> has a resistance of <m:math><m:mrow><m:mn>0.350</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. What would the resistance be if the temperature is increased to <m:math><m:mrow><m:mn>2850</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+<para id="fs-id1170902180089"><title>Strategy</title>
+This is a straightforward application of <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, since the original resistance of the filament is given as <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.350</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> and the temperature change is <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2830</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1170902085628"><title>Solution</title>
+The resistance of the hotter filament <emphasis effect="italics">R</emphasis> is obtained by entering known values into the above equation:</para>
+<equation id="fs-id1170902069982" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.350</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−3</m:mn></m:msup></m:mrow><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2830</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4.8</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902438152"><title>Significance</title>
+Notice that the resistance changes by more than a factor of 10 as the filament warms to the high temperature and the current through the filament depends on the resistance of the filament and the voltage applied. If the filament is used in an incandescent light bulb, the initial current through the filament when the bulb is first energized will be higher than the current after the filament reaches the operating temperature.</para>
+</example>
+<note id="fs-id1170902075185" class="check-understanding">
+<exercise id="fs-id1170902217128">
+<problem id="fs-id1170902217130">
+<para id="fs-id1170902217132"><emphasis effect="bold">Check Your Understanding</emphasis> A strain gauge is an electrical device to measure strain, as shown below. It consists of a flexible, insulating backing that supports a conduction foil pattern. The resistance of the foil changes as the backing is stretched. How does the strain gauge resistance change? Is the strain gauge affected by temperature changes?</para>
+<media id="fs-id1170902049378" alt="Picture is a schematic drawing of a strain gauge device that consists of the conducting pattern deposited on the insulated surface. Metal contacts are made to the two large pads at the origin of the conducting pattern.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_StrainGaug_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170903866189">
+<para id="fs-id1170903866191">The foil pattern stretches as the backing stretches, and the foil tracks become longer and thinner. Since the resistance is calculated as <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>, the resistance increases as the foil tracks are stretched. When the temperature changes, so does the resistivity of the foil tracks, changing the resistance. One way to combat this is to use two strain gauges, one used as a reference and the other used to measure the strain. The two strain gauges are kept at a constant temperature</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1170902155638">
+<para id="fs-id1170902155640"><title>The Resistance of Coaxial Cable</title>
+Long cables can sometimes act like antennas, picking up electronic noise, which are signals from other equipment and appliances. Coaxial cables are used for many applications that require this noise to be eliminated. For example, they can be found in the home in cable TV connections or other audiovisual connections. Coaxial cables consist of an inner conductor of radius <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> surrounded by a second, outer concentric conductor with radius <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math> (<link target-id="CNX_UPhysics_26_03_coax"/>). The space between the two is normally filled with an insulator such as polyethylene plastic. A small amount of radial leakage current occurs between the two conductors. Determine the resistance of a coaxial cable of length <emphasis effect="italics">L</emphasis>.</para>
+<figure id="CNX_UPhysics_26_03_coax">
+<media id="fs-id1170902134627" alt="Picture is a schematic drawing of a coaxial cable. It consists of a central metal core encapsulated by the dielectric insulator. Metal shield surrounds dielectric insulator. The whole assembly in inserted in the plastic jacket.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_coax.jpg"/>
+</media>
+<caption>Coaxial cables consist of two concentric conductors separated by insulation. They are often used in cable TV or other audiovisual connections.</caption>
+</figure>
+<para id="fs-id1170902298793"><title>Strategy</title>
+We cannot use the equation <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math> directly. Instead, we look at concentric cylindrical shells, with thickness <emphasis effect="italics">dr</emphasis>, and integrate.</para>
+<para id="fs-id1170902143015"><title>Solution</title>
+We first find an expression for <emphasis effect="italics">dR</emphasis> and then integrate from <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> to <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>,</para>
+<equation id="fs-id1170902095121" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>d</m:mi><m:mi>R</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>ρ</m:mi><m:mi>A</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ρ</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>R</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mi>d</m:mi><m:mi>R</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mfrac><m:mi>ρ</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>ρ</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>ρ</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170902307418"><title>Significance</title>
+The resistance of a coaxial cable depends on its length, the inner and outer radii, and the resistivity of the material separating the two conductors. Since this resistance is not infinite, a small leakage current occurs between the two conductors. This leakage current leads to the attenuation (or weakening) of the signal being sent through the cable.</para>
+</example>
+<note id="fs-id1170902307427" class="check-understanding">
+<exercise id="fs-id1170902359328">
+<problem id="fs-id1170902359330">
+<para id="fs-id1170902359333"><emphasis effect="bold">Check Your Understanding</emphasis> The resistance between the two conductors of a coaxial cable depends on the resistivity of the material separating the two conductors, the length of the cable and the inner and outer radius of the two conductor. If you are designing a coaxial cable, how does the resistance between the two conductors depend on these variables?</para>
+</problem>
+<solution id="fs-id1170902280954">
+<para id="fs-id1170902280956">The longer the length, the smaller the resistance. The greater the resistivity, the higher the resistance. The larger the difference between the outer radius and the inner radius, that is, the greater the ratio between the two, the greater the resistance. If you are attempting to maximize the resistance, the choice of the values for these variables will depend on the application. For example, if the cable must be flexible, the choice of materials may be limited.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1170902200189" class="media-2">
+<para id="fs-id1170902359339">View this <link url="https://openstax.org/l/21batteryresist">simulation</link> to see how the voltage applied and the resistance of the material the current flows through affects the current through the material. You can visualize the collisions of the electrons and the atoms of the material effect the temperature of the material.</para>
+</note>
+</section><section id="fs-id1170903859074" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170902098108" list-type="bulleted" bullet-style="bullet">
+<item>Resistance has units of ohms <m:math><m:mo stretchy="false">(</m:mo><m:mtext>Ω</m:mtext><m:mo stretchy="false">)</m:mo></m:math>, related to volts and amperes by <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V/A</m:mtext></m:mrow></m:math>.</item>
+<item>The resistance <emphasis effect="italics">R</emphasis> of a cylinder of length <emphasis effect="italics">L</emphasis> and cross-sectional area <emphasis effect="italics">A</emphasis> is <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ρ</m:mi><m:mi>L</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>, where <emphasis effect="italics"><m:math><m:mi>ρ</m:mi></m:math>
+</emphasis> is the resistivity of the material.</item>
+<item>Values of <m:math><m:mi>ρ</m:mi></m:math> in <link target-id="fs-id1170904007386"/> show that materials fall into three groups—conductors, semiconductors, and insulators.</item>
+<item>Temperature affects resistivity; for relatively small temperature changes <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>, resistivity is <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, where <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the original resistivity and <m:math><m:mi>α</m:mi></m:math> is the temperature coefficient of resistivity.</item>
+<item>The resistance <emphasis effect="italics">R</emphasis> of an object also varies with temperature: <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, where <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the original resistance, and <emphasis effect="italics">R</emphasis> is the resistance after the temperature change.</item>
+</list>
+</section>
+<section id="fs-id1170902178703" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170904225145">
+<problem id="fs-id1170904225147">
+<para id="fs-id1170904225150">The <emphasis effect="italics">IR</emphasis> drop across a resistor means that there is a change in potential or voltage across the resistor. Is there any change in current as it passes through a resistor? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902140277">
+<problem id="fs-id1170902140279">
+<para id="fs-id1170902140281">Do impurities in semiconducting materials listed in <link target-id="fs-id1170904007386"/> supply free charges? (<emphasis effect="italics">Hint</emphasis>: Examine the range of resistivity for each and determine whether the pure semiconductor has the higher or lower conductivity.)</para>
+</problem>
+<solution id="fs-id1170904098452">
+<para id="fs-id1170904098455">In carbon, resistivity increases with the amount of impurities, meaning fewer free charges. In silicon and germanium, impurities decrease resistivity, meaning more free electrons.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902397944">
+<problem id="fs-id1170902397946">
+<para id="fs-id1170902397948">Does the resistance of an object depend on the path current takes through it? Consider, for example, a rectangular bar—is its resistance the same along its length as across its width?</para>
+<media id="fs-id1170902068782" alt="Pictures are a schematic drawing of a resistance object with the long side of the length R and the short side of the length R prime. In the left picture, current flows along the long side; in the right picture, current flows along the short side.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_2Paths_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170902196611">
+<problem id="fs-id1170902196613">
+<para id="fs-id1170902196615">If aluminum and copper wires of the same length have the same resistance, which has the larger diameter? Why?</para>
+</problem>
+<solution id="fs-id1170902304127">
+<para id="fs-id1170902304129">Copper has a lower resistivity than aluminum, so if length is the same, copper must have the smaller diameter.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170902304137" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170904041299">
+<problem id="fs-id1170904041301">
+<para id="fs-id1170904041303">What current flows through the bulb of a 3.00-V flashlight when its hot resistance is <m:math><m:mrow><m:mn>3.60</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903856135">
+<problem id="fs-id1170903856138">
+<para id="fs-id1170903856140">Calculate the effective resistance of a pocket calculator that has a 1.35-V battery and through which 0.200 mA flows.</para>
+</problem>
+<solution id="fs-id1170902175001">
+<para id="fs-id1170902175003"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>6.750</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903904251">
+<problem id="fs-id1170903904253">
+<para id="fs-id1170903904255">How many volts are supplied to operate an indicator light on a DVD player that has a resistance of <m:math><m:mrow><m:mn>140</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, given that 25.0 mA passes through it?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904270473">
+<problem id="fs-id1170904270475">
+<para id="fs-id1170904270477">What is the resistance of a 20.0-m-long piece of 12-gauge copper wire having a 2.053-mm diameter?</para>
+</problem>
+<solution id="fs-id1170902235040">
+<para id="fs-id1170902235042"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902342628">
+<problem id="fs-id1170902342630">
+<para id="fs-id1170902363379">The diameter of 0-gauge copper wire is 8.252 mm. Find the resistance of a 1.00-km length of such wire used for power transmission.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902207017">
+<problem id="fs-id1170902207019">
+<para id="fs-id1170902207021">If the 0.100-mm-diameter tungsten filament in a light bulb is to have a resistance of <m:math><m:mrow><m:mn>0.200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> at <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, how long should it be?</para>
+</problem>
+<solution id="fs-id1170903880765">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170903803380"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1170903933954">
+<problem id="fs-id1170903933956">
+<para id="fs-id1170903933958">A lead rod has a length of 30.00 cm and a resistance of <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>Ω</m:mtext></m:mrow></m:math>. What is the radius of the rod?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904170181">
+<problem id="fs-id1170904170183">
+<para id="fs-id1170904170185">Find the ratio of the diameter of aluminum to copper wire, if they have the same resistance per unit length (as they might in household wiring).</para>
+</problem>
+<solution id="fs-id1170904099032">
+<para id="fs-id1170904099034"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac bevelled="true"><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac bevelled="true"><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>π</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>π</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mi>C</m:mi><m:mi>u</m:mi></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902296763">
+<problem id="fs-id1170902296765">
+<para id="fs-id1170902296767">What current flows through a 2.54-cm-diameter rod of pure silicon that is 20.0 cm long, when <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> is applied to it? (Such a rod may be used to make nuclear-particle detectors, for example.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904130540">
+<problem id="fs-id1170904130542">
+<para id="fs-id1170904130544">(a) To what temperature must you raise a copper wire, originally at <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, to double its resistance, neglecting any changes in dimensions? (b) Does this happen in household wiring under ordinary circumstances?</para>
+</problem>
+<solution id="fs-id1170902304496">
+<para id="fs-id1170902304498">a. <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>256.4</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>276.4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>;<newline/>
+b. Under normal conditions, no it should not occur.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902303890">
+<problem id="fs-id1170902303892">
+<para id="fs-id1170902303894">A resistor made of nichrome wire is used in an application where its resistance cannot change more than 1.00% from its value at <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Over what temperature range can it be used?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902438190">
+<problem id="fs-id1170902438192">
+<para id="fs-id1170902438194">Of what material is a resistor made if its resistance is 40.0% greater at <m:math><m:mrow><m:mn>100.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> than at <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170904080900">
+<para id="fs-id1170904080902"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>R</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>α</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0.006</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr></m:mtable></m:math>, iron</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903763192">
+<problem id="fs-id1170903763194">
+<para id="fs-id1170903763196">An electronic device designed to operate at any temperature in the range from <m:math><m:mrow><m:mn>−10.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>55.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> contains pure carbon resistors. By what factor does their resistance increase over this range?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902178613">
+<problem id="fs-id1170902178615">
+<para id="fs-id1170902178617">(a) Of what material is a wire made, if it is 25.0 m long with a diameter of 0.100 mm and has a resistance of <m:math><m:mrow><m:mn>77.7</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> at <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (b) What is its resistance at <m:math><m:mrow><m:mn>150.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C?</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170902113104">
+<para id="fs-id1170902113106">a. <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>2.44</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>, gold;<newline/>
+b. <m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2.44</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mi>π</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>0.100</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>0.0034</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>112</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903825321">
+<problem id="fs-id1170903825323">
+<para id="fs-id1170903825325">Assuming a constant temperature coefficient of resistivity, what is the maximum percent decrease in the resistance of a constantan wire starting at <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902090612">
+<problem id="fs-id1170902090614">
+<para id="fs-id1170902090616">A copper wire has a resistance of <m:math><m:mrow><m:mn>0.500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> at <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and an iron wire has a resistance of <m:math><m:mrow><m:mn>0.525</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> at the same temperature. At what temperature are their resistances equal?</para>
+</problem>
+<solution id="fs-id1170902298582">
+<para id="fs-id1170902298585"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0.525</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>,</m:mo><m:mspace width="0.8em"/><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0.500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>,</m:mo><m:mspace width="0.8em"/><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0.0065</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.8em"/><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0.0039</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>Fe</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2.91</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</section>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170902222074">
+<term>electrical conductivity</term>
+<meaning id="fs-id1170902359945">measure of a material’s ability to conduct or transmit electricity</meaning>
+</definition>
+<definition id="fs-id1170902359951">
+<term>ohm</term>
+<meaning id="fs-id1170902359957"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">)</m:mo></m:mrow></m:math> unit of electrical resistance, <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V/A</m:mtext></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170902256099">
+<term>resistance</term>
+<meaning id="fs-id1170902256104">electric property that impedes current; for ohmic materials, it is the ratio of voltage to current, <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170902307285">
+<term>resistivity</term>
+<meaning id="fs-id1170904172763">intrinsic property of a material, independent of its shape or size, directly proportional to the resistance, denoted by <m:math><m:mi>ρ</m:mi></m:math></meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,533 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Pressure, Temperature, and RMS Speed</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58392</md:content-id>
+  <md:title>Pressure, Temperature, and RMS Speed</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain the relations between microscopic and macroscopic quantities in a gas</item>
+<item>Solve problems involving mixtures of gases</item>
+<item>Solve problems involving the distance and time between a gas molecule’s collisions</item></list></md:abstract>
+  <md:uuid>3ecde2c2-4426-4fac-b2bf-f66d3492246c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172097347485">We have examined pressure and temperature based on their macroscopic definitions. Pressure is the force divided by the area on which the force is exerted, and temperature is measured with a thermometer. We can gain a better understanding of pressure and temperature from the <term>kinetic theory of gases</term>, the theory that relates the macroscopic properties of gases to the motion of the molecules they consist of. First, we make two assumptions about molecules in an ideal gas.</para>
+<list id="fs-id1172099408725" list-type="enumerated" number-style="arabic">
+<item>There is a very large number <emphasis effect="italics">N</emphasis> of molecules, all identical and each having mass <emphasis effect="italics">m</emphasis>.</item>
+<item>The molecules obey Newton’s laws and are in continuous motion, which is random and isotropic, that is, the same in all directions.</item>
+</list>
+<para id="fs-id1172101974031">To derive the ideal gas law and the connection between microscopic quantities such as the energy of a typical molecule and macroscopic quantities such as temperature, we analyze a sample of an ideal gas in a rigid container, about which we make two further assumptions:</para>
+<list id="fs-id1172099908275" list-type="enumerated" number-style="arabic" start-value="3">
+<item>The molecules are much smaller than the average distance between them, so their total volume is much less than that of their container (which has volume <emphasis effect="italics">V</emphasis>). In other words, we take the Van der Waals constant <emphasis effect="italics">b</emphasis>, the volume of a mole of gas molecules, to be negligible compared to the volume of a mole of gas in the container.</item>
+<item>The molecules make perfectly elastic collisions with the walls of the container and with each other. Other forces on them, including gravity and the attractions represented by the Van der Waals constant <emphasis effect="italics">a</emphasis>, are negligible (as is necessary for the assumption of isotropy).</item>
+</list>
+<para id="fs-id1172099664396">The collisions between molecules do not appear in the derivation of the ideal gas law. They do not disturb the derivation either, since collisions between molecules moving with random velocities give new random velocities. Furthermore, if the velocities of gas molecules in a container are initially not random and isotropic, molecular collisions are what make them random and isotropic.</para>
+<para id="fs-id1172101728503">We make still further assumptions that simplify the calculations but do not affect the result. First, we let the container be a rectangular box. Second, we begin by considering <emphasis effect="italics">monatomic</emphasis> gases, those whose molecules consist of single atoms, such as helium. Then, we can assume that the atoms have no energy except their translational kinetic energy; for instance, they have neither rotational nor vibrational energy. (Later, we discuss the validity of this assumption for real monatomic gases and dispense with it to consider diatomic and polyatomic gases.)</para>
+<para id="fs-id1172099660612"><link target-id="CNX_UPhysics_19_02_Wall"/> shows a collision of a gas molecule with the wall of a container, so that it exerts a force on the wall (by Newton’s third law). These collisions are the source of pressure in a gas. As the number of molecules increases, the number of collisions, and thus the pressure, increases. Similarly, if the average velocity of the molecules is higher, the gas pressure is higher.</para>
+<figure id="CNX_UPhysics_19_02_Wall">
+<media id="fs-id1172099870973" alt="The figure is an illustration of a molecule hitting a wall. The molecule approaches the wall with velocity vector v, which is at some unspecified angle to the wall, and moves away from it with velocity vector v prime, at some unspecified angle. A force vector F points directly into the wall.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_02_Wall.jpg"/>
+</media>
+<caption>When a molecule collides with a rigid wall, the component of its momentum perpendicular to the wall is reversed. A force is thus exerted on the wall, creating pressure.</caption>
+</figure>
+<para id="fs-id1172102105818">In a sample of gas in a container, the randomness of the molecular motion causes the number of collisions of molecules with any part of the wall in a given time to fluctuate. However, because a huge number of molecules collide with the wall in a short time, the number of collisions on the scales of time and space we measure fluctuates by only a tiny, usually unobservable fraction from the average. We can compare this situation to that of a casino, where the outcomes of the bets are random and the casino’s takings fluctuate by the minute and the hour. However, over long times such as a year, the casino’s takings are very close to the averages expected from the odds. A tank of gas has enormously more molecules than a casino has bettors in a year, and the molecules make enormously more collisions in a second than a casino has bets.</para>
+<para id="fs-id1172099375158">A calculation of the average force exerted by molecules on the walls of the box leads us to the ideal gas law and to the connection between temperature and molecular kinetic energy. (In fact, we will take two averages: one over time to get the average force exerted by one molecule with a given velocity, and then another average over molecules with different velocities.) This approach was developed by Daniel <term class="no-emphasis">Bernoulli</term> (1700–1782), who is best known in physics for his work on fluid flow (hydrodynamics). Remarkably, Bernoulli did this work before Dalton established the view of matter as consisting of atoms.</para>
+<para id="fs-id1172099483962"><link target-id="CNX_UPhysics_19_02_GasBox"/> shows a container full of gas and an expanded view of an elastic collision of a gas molecule with a wall of the container, broken down into components. We have assumed that a molecule is small compared with the separation of molecules in the gas, and that its interaction with other molecules can be ignored. Under these conditions, the ideal gas law is experimentally valid. Because we have also assumed the wall is rigid and the particles are points, the collision is elastic (by conservation of energy—there’s nowhere for a particle’s kinetic energy to go). Therefore, the molecule’s kinetic energy remains constant, and hence, its speed and the magnitude of its momentum remain constant as well. This assumption is not always valid, but the results in the rest of this module are also obtained in models that let the molecules exchange energy and momentum with the wall.</para>
+<figure id="CNX_UPhysics_19_02_GasBox">
+<media id="fs-id1172099901514" alt="The figure is an illustration of a molecule hitting a wall of a box of depth l. The molecule approaches the wall with a velocity vector that has component v x perpendicular to and toward the wall and v y parallel to the wall, then and moves away from it with a velocity vector that has component v prime x perpendicular to and away from the wall and v prime y parallel to the wall.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_02_GasBox.jpg"/>
+</media>
+<caption>Gas in a box exerts an outward pressure on its walls. A molecule colliding with a rigid wall has its velocity and momentum in the <emphasis effect="italics">x</emphasis>-direction reversed. This direction is perpendicular to the wall. The components of its velocity momentum in the <emphasis effect="italics">y</emphasis>- and <emphasis effect="italics">z</emphasis>-directions are not changed, which means there is no force parallel to the wall.</caption>
+</figure>
+<para id="fs-id1172099535610">If the molecule’s velocity changes in the <emphasis effect="italics">x</emphasis>-direction, its momentum changes from <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:math> to <m:math><m:mrow><m:mo>+</m:mo><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Thus, its change in momentum is <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> According to the impulse-momentum theorem given in the chapter on linear momentum and collisions, the force exerted on the <emphasis effect="italics">i</emphasis>th molecule, where <emphasis effect="italics">i</emphasis> labels the molecules from 1 to <emphasis effect="italics">N</emphasis>, is given by</para>
+<equation id="fs-id1172099568630" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>p</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mrow><m:mi>i</m:mi><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101755388">(In this equation alone, <emphasis effect="italics">p</emphasis> represents momentum, not pressure.) There is no force between the wall and the molecule except while the molecule is touching the wall. During the short time of the collision, the force between the molecule and wall is relatively large, but that is not the force we are looking for. We are looking for the average force, so we take <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> to be the average time between collisions of the given molecule with this wall, which is the time in which we expect to find one collision. Let <emphasis effect="italics">l</emphasis> represent the length of the box in the <emphasis effect="italics">x</emphasis>-direction. Then <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> is the time the molecule would take to go across the box and back, a distance 2<emphasis effect="italics">l</emphasis>, at a speed of <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Thus <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>l</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> and the expression for the force becomes</para>
+<equation id="fs-id1172102098799" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mrow><m:mi>i</m:mi><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>l</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>v</m:mi><m:mrow><m:mi>i</m:mi><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow><m:mi>i</m:mi><m:mi>x</m:mi></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>l</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099475253">This force is due to <emphasis effect="italics">one</emphasis> molecule. To find the total force on the wall, <emphasis effect="italics">F</emphasis>, we need to add the contributions of all <emphasis effect="italics">N</emphasis> molecules:</para>
+<equation id="fs-id1172101775044" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>F</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow><m:mi>i</m:mi><m:mi>x</m:mi></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>l</m:mi></m:mfrac></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>l</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mi>i</m:mi><m:mi>x</m:mi></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101855301">We now use the definition of the average, which we denote with a bar, to find the force:</para>
+<equation id="fs-id1172099531263" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mfrac><m:mi>m</m:mi><m:mi>l</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>N</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mi>i</m:mi><m:mi>x</m:mi></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>N</m:mi><m:mfrac><m:mrow><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow><m:mi>l</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099505120">We want the force in terms of the speed <emphasis effect="italics">v</emphasis>, rather than the <emphasis effect="italics">x</emphasis>-component of the velocity. Note that the total velocity squared is the sum of the squares of its components, so that</para>
+<equation id="fs-id1172102095266" class="unnumbered"><label/><m:math><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>+</m:mo><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>+</m:mo><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>z</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102147945">With the assumption of isotropy, the three averages on the right side are equal, so</para>
+<equation id="fs-id1172099398624" class="unnumbered"><label/><m:math><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mn>3</m:mn><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mi>i</m:mi><m:mi>x</m:mi></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099563343">Substituting this into the expression for <emphasis effect="italics">F</emphasis> gives</para>
+<equation id="fs-id1172101769624" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mfrac><m:mrow><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>l</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172097180773">The pressure is <emphasis effect="italics">F</emphasis>/<emphasis effect="italics">A</emphasis>, so we obtain</para>
+<equation id="fs-id1172102130565" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>N</m:mi><m:mfrac><m:mrow><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>A</m:mi><m:mi>l</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>N</m:mi><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>V</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099706924">where we used <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>l</m:mi></m:mrow></m:math> for the volume. This gives the important result</para>
+<note id="fs-id1172099723909" class="equation-callout">
+<equation id="fs-id1172099477823"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>N</m:mi><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172099603040">Combining this equation with <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> gives</para>
+<equation id="fs-id1172099378779" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>N</m:mi><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mi>N</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099600627">We can get the average kinetic energy of a molecule, <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:math>, from the left-hand side of the equation by dividing out <emphasis effect="italics">N</emphasis> and multiplying by 3/2.</para>
+<note id="fs-id1172102060513">
+<title>Average Kinetic Energy per Molecule</title>
+<para id="fs-id1172102066685">The average kinetic energy of a molecule is directly proportional to its absolute temperature:</para>
+<equation id="fs-id1172101919326"><m:math><m:mrow><m:mover accent="true"><m:mi>K</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172097200471">The equation <m:math><m:mrow><m:mover accent="true"><m:mi>K</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> is the average kinetic energy per molecule. Note in particular that nothing in this equation depends on the molecular mass (or any other property) of the gas, the pressure, or anything but the temperature. If samples of helium and xenon gas, with very different molecular masses, are at the same temperature, the molecules have the same average kinetic energy.</para>
+<para id="fs-id1172099898318">The <term>internal energy</term> of a thermodynamic system is the sum of the mechanical energies of all of the molecules in it. We can now give an equation for the internal energy of a monatomic ideal gas. In such a gas, the molecules’ only energy is their translational kinetic energy. Therefore, denoting the internal energy by <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> we simply have <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>N</m:mi><m:mover accent="true"><m:mi>K</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>,</m:mo></m:mrow></m:math> or</para>
+<note id="fs-id1172101776585" class="equation-callout">
+<equation id="fs-id1172101812266"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>N</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172101852392">Often we would like to use this equation in terms of moles:</para>
+<equation id="fs-id1172099606406" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101692346">We can solve <m:math><m:mrow><m:mover accent="true"><m:mi>K</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> for a typical speed of a molecule in an ideal gas in terms of temperature to determine what is known as the <emphasis effect="italics">root-mean-square</emphasis> (<emphasis effect="italics">rms</emphasis>) <emphasis effect="italics">speed</emphasis> of a molecule.</para>
+<note id="fs-id1172101757940">
+<title>RMS Speed of a Molecule</title>
+<para id="fs-id1172099550324">The <term>root-mean-square (rms) speed</term> of a molecule, or the square root of the average of the square of the speed<m:math><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:math>, is</para>
+<equation id="fs-id1172097370905"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172099551563">The rms speed is not the average or the most likely speed of molecules, as we will see in <link document="m58394">Distribution of Molecular Speeds</link>, but it provides an easily calculated estimate of the molecules’ speed that is related to their kinetic energy. Again we can write this equation in terms of the gas constant <emphasis effect="italics">R</emphasis> and the molar mass <emphasis effect="italics">M</emphasis> in kg/mol:</para>
+<note id="fs-id1172099494077" class="equation-callout">
+<equation id="fs-id1172094928221"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mi>M</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172099908633">We digress for a moment to answer a question that may have occurred to you: When we apply the model to atoms instead of theoretical point particles, does rotational kinetic energy change our results? To answer this question, we have to appeal to quantum mechanics. In quantum mechanics, rotational kinetic energy cannot take on just any value; it’s limited to a discrete set of values, and the smallest value is inversely proportional to the rotational inertia. The rotational inertia of an atom is tiny because almost all of its mass is in the nucleus, which typically has a radius less than <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. Thus the minimum rotational energy of an atom is much more than <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> for any attainable temperature, and the energy available is not enough to make an atom rotate. We will return to this point when discussing diatomic and polyatomic gases in the next section.</para>
+<example id="fs-id1172099383528">
+<para id="fs-id1172097144067"><title>Calculating Kinetic Energy and Speed of a Gas Molecule</title>
+(a) What is the average kinetic energy of a gas molecule at <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>ºC</m:mtext></m:mrow></m:math> (room temperature)? (b) Find the rms speed of a nitrogen molecule <m:math><m:mrow><m:mo>(</m:mo><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> at this temperature.</para>
+<para id="fs-id1172101891792"><title>Strategy</title>
+(a) The known in the equation for the average kinetic energy is the temperature:</para>
+<equation id="fs-id1172102022669" class="unnumbered"><label/><m:math><m:mrow><m:mover accent="true"><m:mi>K</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099506489">Before substituting values into this equation, we must convert the given temperature into kelvin: <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>20.0</m:mn><m:mo>+</m:mo><m:mn>273</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>=</m:mo><m:mn>293</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> We can find the rms speed of a nitrogen molecule by using the equation</para>
+<equation id="fs-id1172101803226" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172097226356">but we must first find the mass of a nitrogen molecule. Obtaining the molar mass of nitrogen <m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> from the periodic table, we find</para>
+<equation id="fs-id1172097218873" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>M</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>14.0067</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg/mol</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>6.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mol</m:mtext></m:mrow><m:mrow><m:mtext>-1</m:mtext></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4.65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−26</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099909282"><title>Solution</title></para>
+<list id="fs-id1172102132792" list-type="enumerated" number-style="lower-alpha">
+<item>The temperature alone is sufficient for us to find the average translational kinetic energy. Substituting the temperature into the translational kinetic energy equation gives
+<equation id="fs-id1172101970371" class="unnumbered"><label/><m:math><m:mrow><m:mover accent="true"><m:mi>K</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>293</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6.07</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Substituting this mass and the value for <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> into the equation for <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math> yields
+<equation id="fs-id1172101774279" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>293</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>4.65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−26</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>511</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1172099544588"><title>Significance</title>
+Note that the average kinetic energy of the molecule is independent of the type of molecule. The average translational kinetic energy depends only on absolute temperature. The kinetic energy is very small compared to macroscopic energies, so that we do not feel when an air molecule is hitting our skin. On the other hand, it is much greater than the typical difference in gravitational potential energy when a molecule moves from, say, the top to the bottom of a room, so our neglect of gravitation is justified in typical real-world situations. The rms speed of the nitrogen molecule is surprisingly large. These large molecular velocities do not yield macroscopic movement of air, since the molecules move in all directions with equal likelihood. The <emphasis effect="italics">mean free path</emphasis> (the distance a molecule moves on average between collisions, discussed a bit later in this section) of molecules in air is very small, so the molecules move rapidly but do not get very far in a second. The high value for rms speed is reflected in the speed of sound, which is about 340 m/s at room temperature. The higher the rms speed of air molecules, the faster sound vibrations can be transferred through the air. The speed of sound increases with temperature and is greater in gases with small molecular masses, such as helium (see <link target-id="CNX_UPhysics_19_02_Molecules"/>).</para>
+<figure id="CNX_UPhysics_19_02_Molecules">
+<media id="fs-id1172102071539" alt="In part a of the figure, circles represent molecules distributed in a gas. An arrow at each circle represents the molecule’s velocity vector. The locations of the molecules and their velocity magnitudes and directions are all randomly distributed. In part b of the figure, an arc represents the wave front of a sound wave in the gas. The velocities of molecules near the arc are oriented roughly perpendicular to the arc, and therefore parallel to the propagation direction of the wave.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_02_Molecules.jpg"/>
+</media>
+<caption>(a) In an ordinary gas, so many molecules move so fast that they collide billions of times every second. (b) Individual molecules do not move very far in a small amount of time, but disturbances like sound waves are transmitted at speeds related to the molecular speeds.</caption>
+</figure>
+</example>
+<example id="fs-id1172101880464">
+<para id="fs-id1172097226236"><title>Calculating Temperature: Escape Velocity of Helium Atoms</title>
+To escape Earth’s gravity, an object near the top of the atmosphere (at an altitude of 100 km) must travel away from Earth at 11.1 km/s. This speed is called the <term class="no-emphasis"><emphasis effect="italics">escape velocity</emphasis></term>. At what temperature would helium atoms have an rms speed equal to the escape velocity?</para>
+<para id="fs-id1172099897221"><title>Strategy</title>
+Identify the knowns and unknowns and determine which equations to use to solve the problem.</para>
+<para id="fs-id1172099509532"><title>Solution</title></para>
+<list id="fs-id1172097236371" list-type="enumerated" number-style="arabic">
+<item>Identify the knowns: <emphasis effect="italics">v</emphasis> is the escape velocity, 11.1 km/s.</item>
+<item>Identify the unknowns: We need to solve for temperature, <emphasis effect="italics">T</emphasis>. We also need to solve for the mass <emphasis effect="italics">m</emphasis> of the helium atom.</item>
+<item>Determine which equations are needed.
+<list id="fs-id1172099909371" list-type="bulleted" bullet-style="bullet">
+<item>To get the mass <emphasis effect="italics">m</emphasis> of the helium atom, we can use information from the periodic table:
+<equation id="fs-id1172101970098" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>M</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>To solve for temperature <emphasis effect="italics">T</emphasis>, we can rearrange
+<equation id="fs-id1172101913376" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math></equation>
+to yield
+<equation id="fs-id1172101922999" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow><m:mrow><m:mn>3</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list></item>
+<item>Substitute the known values into the equations and solve for the unknowns,
+<equation id="fs-id1172097152734" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>M</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4.0026</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg/mol</m:mtext></m:mrow><m:mrow><m:mn>6.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>mol</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6.65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math></equation>
+and
+<equation id="fs-id1172102125294" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6.65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>)</m:mo><m:mspace width="0.2em"/><m:mo>(</m:mo><m:mn>11.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.98</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1172097536614"><title>Significance</title>
+This temperature is much higher than atmospheric temperature, which is approximately 250 K <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−25</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C or</m:mtext><m:mspace width="0.2em"/><m:mo>−</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>F</m:mtext><m:mo>)</m:mo></m:mrow></m:math> at high elevation. Very few helium atoms are left in the atmosphere, but many were present when the atmosphere was formed, and more are always being created by radioactive decay (see the chapter on nuclear physics). The reason for the loss of helium atoms is that a small number of helium atoms have speeds higher than Earth’s escape velocity even at normal temperatures. The speed of a helium atom changes from one collision to the next, so that at any instant, there is a small but nonzero chance that the atom’s speed is greater than the escape velocity. The chance is high enough that over the lifetime of Earth, almost all the helium atoms that have been in the atmosphere have reached escape velocity at high altitudes and escaped from Earth’s gravitational pull. Heavier molecules, such as oxygen, nitrogen, and water, have smaller rms speeds, and so it is much less likely that any of them will have speeds greater than the escape velocity. In fact, the likelihood is so small that billions of years are required to lose significant amounts of heavier molecules from the atmosphere. <link target-id="CNX_UPhysics_19_02_MoonRover"/> shows the effect of a lack of an atmosphere on the Moon. Because the gravitational pull of the Moon is much weaker, it has lost almost its entire atmosphere. The atmospheres of Earth and other bodies are compared in this chapter’s exercises.</para>
+<figure id="CNX_UPhysics_19_02_MoonRover">
+<media id="fs-id1172099507690" alt="A photograph of an astronaut driving the lunar rover on the moon. The image and the shadow of the rover are very sharp. The sky is dark.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_02_MoonRover.jpg"/>
+</media>
+<caption>This photograph of Apollo 17 Commander Eugene Cernan driving the lunar rover on the Moon in 1972 looks as though it was taken at night with a large spotlight. In fact, the light is coming from the Sun. Because the acceleration due to gravity on the Moon is so low (about 1/6 that of Earth), the Moon’s escape velocity is much smaller. As a result, gas molecules escape very easily from the Moon, leaving it with virtually no atmosphere. Even during the daytime, the sky is black because there is no gas to scatter sunlight. (credit: Harrison H. Schmitt/NASA)</caption>
+</figure>
+</example>
+<note id="fs-id1172097386318" class="check-understanding">
+<exercise id="fs-id1172099884016">
+<problem id="fs-id1172099897998">
+<para id="fs-id1172101803832"><emphasis effect="bold">Check Your Understanding</emphasis> If you consider a very small object, such as a grain of pollen, in a gas, then the number of molecules striking its surface would also be relatively small. Would you expect the grain of pollen to experience any fluctuations in pressure due to statistical fluctuations in the number of gas molecules striking it in a given amount of time?</para>
+</problem>
+<solution id="fs-id1172099922688">
+<para id="fs-id1172097502890">Yes. Such fluctuations actually occur for a body of any size in a gas, but since the numbers of molecules are immense for macroscopic bodies, the fluctuations are a tiny percentage of the number of collisions, and the averages spoken of in this section vary imperceptibly. Roughly speaking, the fluctuations are inversely proportional to the square root of the number of collisions, so for small bodies, they can become significant. This was actually observed in the nineteenth century for pollen grains in water and is known as Brownian motion.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1172099388898">
+<title>Vapor Pressure, Partial Pressure, and Dalton’s Law</title>
+<para id="fs-id1172097228663">The pressure a gas would create if it occupied the total volume available is called the gas’s <term>partial pressure</term>. If two or more gases are mixed, they will come to thermal equilibrium as a result of collisions between molecules; the process is analogous to heat conduction as described in the chapter on temperature and heat. As we have seen from kinetic theory, when the gases have the same temperature, their molecules have the same average kinetic energy. Thus, each gas obeys the ideal gas law separately and exerts the same pressure on the walls of a container that it would if it were alone. Therefore, in a mixture of gases, <emphasis effect="italics">the total pressure is the sum of partial pressures of the component gases</emphasis>, assuming ideal gas behavior and no chemical reactions between the components. This law is known as <term>Dalton’s law of partial pressures</term>, after the English scientist John <term class="no-emphasis">Dalton</term> (1766–1844) who proposed it. Dalton’s law is consistent with the fact that pressures add according to Pascal’s principle.</para>
+<para id="fs-id1172099873163">In a mixture of ideal gases in thermal equilibrium, the number of molecules of each gas is proportional to its partial pressure. This result follows from applying the ideal gas law to each in the form <m:math><m:mrow><m:mi>p</m:mi><m:mtext>/</m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math> Because the right-hand side is the same for any gas at a given temperature in a container of a given volume, the left-hand side is the same as well.</para>
+<list id="fs-id1172099618683" list-type="bulleted" bullet-style="bullet">
+<item>Partial pressure is the pressure a gas would create if it existed alone.</item>
+<item>Dalton’s law states that the total pressure is the sum of the partial pressures of all of the gases present.</item>
+<item>For any two gases (labeled 1 and 2) in equilibrium in a container, <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+<para id="fs-id1172101658405">An important application of partial pressure is that, in chemistry, it functions as the concentration of a gas in determining the rate of a reaction. Here, we mention only that the partial pressure of oxygen in a person’s lungs is crucial to life and health. Breathing air that has a partial pressure of oxygen below 0.16 atm can impair coordination and judgment, particularly in people not acclimated to a high elevation. Lower partial pressures of <m:math><m:mrow><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> have more serious effects; partial pressures below 0.06 atm can be quickly fatal, and permanent damage is likely even if the person is rescued. However, the sensation of needing to breathe, as when holding one’s breath, is caused much more by high concentrations of carbon dioxide in the blood than by low concentrations of oxygen. Thus, if a small room or closet is filled with air having a low concentration of oxygen, perhaps because a leaking cylinder of some compressed gas is stored there, a person will not feel any “choking” sensation and may go into convulsions or lose consciousness without noticing anything wrong. Safety engineers give considerable attention to this danger.</para>
+<para id="fs-id1172099462709">Another important application of partial pressure is <term>vapor pressure</term>, which is the partial pressure of a vapor at which it is in equilibrium with the liquid (or solid, in the case of sublimation) phase of the same substance. At any temperature, the partial pressure of the water in the air cannot exceed the vapor pressure of the water at that temperature, because whenever the partial pressure reaches the vapor pressure, water condenses out of the air. Dew is an example of this condensation. The temperature at which condensation occurs for a sample of air is called the <emphasis effect="italics">dew point</emphasis>. It is easily measured by slowly cooling a metal ball; the dew point is the temperature at which condensation first appears on the ball.</para>
+<para id="fs-id1172097332845">The vapor pressures of water at some temperatures of interest for meteorology are given in <link target-id="fs-id1172099688905"/>.</para>
+<table id="fs-id1172099688905" summary="The table has two columns and 15 rows. The first row is a header row with headings “T (degrees Celsius)” and “Vapor pressure (Pascals).” The first column entries are 0, 3, 5, 8, 10, 13, 15, 18, 20,23, 25, 30, 35, and 40. The second column entries are 601.5, 757.9, 872.3, 1073, 1228, 1497, 1705, 2063, 2338, 2809, 3167, 4243, 5623, and 7376.">
+<title>Vapor Pressure of Water at Various Temperatures</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="right"><emphasis effect="italics">T</emphasis> <m:math><m:mrow><m:mo>(</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="right">Vapor Pressure (Pa)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="right">0</entry>
+<entry valign="bottom" align="right">610.5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">3</entry>
+<entry valign="bottom" align="right">757.9</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">5</entry>
+<entry valign="bottom" align="right">872.3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">8</entry>
+<entry valign="bottom" align="right">1073</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">10</entry>
+<entry valign="bottom" align="right">1228</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">13</entry>
+<entry valign="bottom" align="right">1497</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">15</entry>
+<entry valign="bottom" align="right">1705</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">18</entry>
+<entry valign="bottom" align="right">2063</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">20</entry>
+<entry valign="bottom" align="right">2338</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">23</entry>
+<entry valign="bottom" align="right">2809</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">25</entry>
+<entry valign="bottom" align="right">3167</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">30</entry>
+<entry valign="bottom" align="right">4243</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">35</entry>
+<entry valign="bottom" align="right">5623</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="right">40</entry>
+<entry valign="bottom" align="right">7376</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1172097149651">The <term class="no-emphasis"><emphasis effect="italics">relative humidity</emphasis></term> (R.H.) at a temperature <emphasis effect="italics">T</emphasis> is defined by</para>
+<equation id="fs-id1172099456752" class="unnumbered"><label/><m:math><m:mrow><m:mtext>R.H.</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Partial pressure of water vapor at</m:mtext><m:mspace width="0.2em"/><m:mi>T</m:mi></m:mrow><m:mrow><m:mtext>Vapor pressure of water at</m:mtext><m:mspace width="0.2em"/><m:mi>T</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099714947">A relative humidity of <m:math><m:mrow><m:mn>100</m:mn><m:mi>%</m:mi></m:mrow></m:math> means that the partial pressure of water is equal to the vapor pressure; in other words, the air is saturated with water.</para>
+<example id="fs-id1172099388638">
+<para id="fs-id1172099902931"><title>Calculating Relative Humidity</title>
+What is the relative humidity when the air temperature is <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>ºC</m:mtext></m:mrow></m:math> and the dew point is <m:math><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>ºC</m:mtext></m:mrow></m:math>?</para>
+<para id="fs-id1172099600514"><title>Strategy</title>
+We simply look up the vapor pressure at the given temperature and that at the dew point and find the ratio.</para>
+<para id="fs-id1172099618851"><title>Solution</title></para>
+<equation id="fs-id1172101658295" class="unnumbered"><label/><m:math><m:mrow><m:mtext>R.H.</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Partial pressure of water vapor at</m:mtext><m:mspace width="0.2em"/><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow><m:mrow><m:mtext>Partial pressure of water vapor at</m:mtext><m:mspace width="0.2em"/><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1705</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow><m:mrow><m:mn>3167</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>=</m:mo><m:mn>53.8</m:mn><m:mi>%</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172097516333"><title>Significance</title>
+R.H. is important to our comfort. The value of <m:math><m:mrow><m:mn>53.8</m:mn><m:mi>%</m:mi></m:mrow></m:math> is within the range of <m:math><m:mrow><m:mn>40</m:mn><m:mi>%</m:mi><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:mn>60</m:mn><m:mi>%</m:mi></m:mrow></m:math> recommended for comfort indoors.</para>
+<para id="fs-id1172099614358">As noted in the chapter on temperature and heat, the temperature seldom falls below the dew point, because when it reaches the dew point or frost point, water condenses and releases a relatively large amount of latent heat of vaporization.</para>
+</example>
+</section>
+<section id="fs-id1172102097129">
+<title>Mean Free Path and Mean Free Time</title>
+<para id="fs-id1172101906796">We now consider collisions explicitly. The usual first step (which is all we’ll take) is to calculate the <term>mean free path</term>, <m:math><m:mi>λ</m:mi><m:mo>,</m:mo></m:math> the average distance a molecule travels between collisions with other molecules, and the <emphasis effect="italics">mean free time</emphasis> <m:math><m:mi>τ</m:mi></m:math>, the average time between the collisions of a molecule. If we assume all the molecules are spheres with a radius <emphasis effect="italics">r</emphasis>, then a molecule will collide with another if their centers are within a distance 2<emphasis effect="italics">r</emphasis> of each other. For a given particle, we say that the area of a circle with that radius, <m:math><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, is the “cross-section” for collisions. As the particle moves, it traces a cylinder with that cross-sectional area. The mean free path is the length <m:math><m:mi>λ</m:mi></m:math> such that the expected number of other molecules in a cylinder of length <m:math><m:mi>λ</m:mi></m:math> and cross-section <m:math><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> is 1. If we temporarily ignore the motion of the molecules other than the one we’re looking at, the expected number is the number density of molecules, <emphasis effect="italics">N</emphasis>/<emphasis effect="italics">V</emphasis>, times the volume, and the volume is <m:math><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>λ</m:mi></m:mrow></m:math>, so we have <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>N</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi><m:mo stretchy="false">)</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> or</para>
+<equation id="fs-id1172100616081" class="unnumbered"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>N</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172097369444">Taking the motion of all the molecules into account makes the calculation much harder, but the only change is a factor of <m:math><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> The result is</para>
+<note id="fs-id1172097621164" class="equation-callout">
+<equation id="fs-id1172099395762"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mrow><m:mn>4</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>N</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172102123597">In an ideal gas, we can substitute <m:math><m:mrow><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mi>p</m:mi></m:mrow></m:math> to obtain</para>
+<note id="fs-id1172102048401" class="equation-callout">
+<equation id="fs-id1172098606378"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172099811797">The <term>mean free time</term> <m:math><m:mi>τ</m:mi></m:math> is simply the mean free path divided by a typical speed, and the usual choice is the rms speed. Then</para>
+<note id="fs-id1172101797687" class="equation-callout">
+<equation id="fs-id1172099498446"><label/><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>p</m:mi><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1172102099323">
+<para id="fs-id1172097161441"><title>Calculating Mean Free Time</title>
+Find the mean free time for argon atoms <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>39.9</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mo>)</m:mo></m:mrow></m:math> at a temperature of <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and a pressure of 1.00 atm. Take the radius of an argon atom to be <m:math><m:mrow><m:mn>1.70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1172099544581"><title>Solution</title></para>
+<list id="fs-id1172097567885" list-type="enumerated" number-style="arabic">
+<item>Identify the knowns and convert into SI units. We know the molar mass is 0.0399 kg/mol, the temperature is 273 K, the pressure is <m:math><m:mrow><m:mn>1.01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and the radius is <m:math><m:mrow><m:mn>1.70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Find the rms speed: <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mi>M</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>413</m:mn><m:mspace width="0.2em"/><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:math>.</item>
+<item>Substitute into the equation for the mean free time: 
+<equation id="fs-id1172099897694" class="unnumbered"><label/><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>p</m:mi><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>4</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>1.01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>413</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.76</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1172097404022"><title>Significance</title>
+We can hardly compare this result with our intuition about gas molecules, but it gives us a picture of molecules colliding with extremely high frequency.</para>
+</example>
+<note id="fs-id1172099745288" class="check-understanding">
+<exercise id="fs-id1172102010938">
+<problem id="fs-id1172101887322">
+<para id="fs-id1172097169292"><emphasis effect="bold">Check Your Understanding</emphasis> Which has a longer mean free path, liquid water or water vapor in the air?</para>
+</problem>
+<solution id="fs-id1172099413124">
+<para id="fs-id1172099918532">In a liquid, the molecules are very close together, constantly colliding with one another. For a gas to be nearly ideal, as air is under ordinary conditions, the molecules must be very far apart. Therefore the mean free path is much longer in the air.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1172101918253" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172099682338" list-type="bulleted" bullet-style="bullet">
+<item>Kinetic theory is the atomic description of gases as well as liquids and solids. It models the properties of matter in terms of continuous random motion of molecules.</item>
+<item>The ideal gas law can be expressed in terms of the mass of the gas’s molecules and <m:math><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>,</m:mo></m:mrow></m:math> the average of the molecular speed squared, instead of the temperature.</item>
+<item>The temperature of gases is proportional to the average translational kinetic energy of molecules. Hence, the typical speed of gas molecules <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math> is proportional to the square root of the temperature and inversely proportional to the square root of the molecular mass.</item>
+<item>In a mixture of gases, each gas exerts a pressure equal to the total pressure times the fraction of the mixture that the gas makes up.</item>
+<item>The mean free path (the average distance between collisions) and the mean free time of gas molecules are proportional to the temperature and inversely proportional to the molar density and the molecules’ cross-sectional area.</item>
+</list>
+</section>
+<section id="fs-id1172101771397" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172097229868">
+<problem id="fs-id1172102047111">
+<para id="fs-id1172102096941">How is momentum related to the pressure exerted by a gas? Explain on the molecular level, considering the behavior of molecules.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099494621">
+<problem id="fs-id1172101888627">
+<para id="fs-id1172099745345">If one kind of molecule has double the radius of another and eight times the mass, how do their mean free paths under the same conditions compare? How do their mean free times compare?</para>
+</problem>
+<solution id="fs-id1172101883772">
+<para id="fs-id1172099908517">The mean free path is inversely proportional to the square of the radius, so it decreases by a factor of 4. The mean free time is proportional to the mean free path and inversely proportional to the rms speed, which in turn is inversely proportional to the square root of the mass. That gives a factor of <m:math><m:mrow><m:msqrt><m:mn>8</m:mn></m:msqrt></m:mrow></m:math> in the numerator, so the mean free time decreases by a factor of <m:math><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099664605">
+<problem id="fs-id1172094901223">
+<para id="fs-id1172099610523">What is the average <emphasis effect="italics">velocity</emphasis> of the air molecules in the room where you are right now?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099884046">
+<problem id="fs-id1172099817948">
+<para id="fs-id1172099731823">Why do the atmospheres of Jupiter, Saturn, Uranus, and Neptune, which are much more massive and farther from the Sun than Earth is, contain large amounts of hydrogen and helium?</para>
+</problem>
+<solution id="fs-id1172101808425">
+<para id="fs-id1172102114476">Since they’re more massive, their gravity is stronger, so the escape velocity from them is higher. Since they’re farther from the Sun, they’re colder, so the speeds of atmospheric molecules including hydrogen and helium are lower. The combination of those facts means that relatively few hydrogen and helium molecules have escaped from the outer planets.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099600623">
+<problem id="fs-id1172102014593">
+<para id="fs-id1172099604754">Statistical mechanics says that in a gas maintained at a constant temperature through thermal contact with a bigger system (a “reservoir”) at that temperature, the fluctuations in internal energy are typically a fraction <m:math><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:msqrt><m:mi>N</m:mi></m:msqrt></m:mrow></m:math> of the internal energy. As a fraction of the total internal energy of a mole of gas, how big are the fluctuations in the internal energy? Are we justified in ignoring them?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099904774">
+<problem id="fs-id1172102015333">
+<para id="fs-id1172099487318">Which is more dangerous, a closet where tanks of nitrogen are stored, or one where tanks of carbon dioxide are stored?</para>
+</problem>
+<solution id="fs-id1172102047045">
+<para id="fs-id1172101964134">One where nitrogen is stored, as excess <m:math><m:mrow><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math> will cause a feeling of suffocating, but excess nitrogen and insufficient oxygen will not.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172102110081" class="review-problems">
+<title>Problems</title>
+<para id="fs-id1172099555679">In the problems in this section, assume all gases are ideal.</para>
+<exercise id="fs-id1172099833755">
+<problem id="fs-id1172099503027">
+<para id="fs-id1172101805695">A person hits a tennis ball with a mass of 0.058 kg against a wall. The average component of the ball’s velocity perpendicular to the wall is 11 m/s, and the ball hits the wall every 2.1 s on average, rebounding with the opposite perpendicular velocity component. (a) What is the average force exerted on the wall? (b) If the part of the wall the person hits has an area of <m:math><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> what is the average pressure on that area?</para>
+</problem>
+<solution id="fs-id1172099820102">
+<para id="fs-id1172097229392">a. 0.61 N; b. 0.20 Pa</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099564202">
+<problem id="fs-id1172099721089">
+<para id="fs-id1172099454200">A person is in a closed room (a racquetball court) with <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>453</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> hitting a ball <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>42.0</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext><m:mo>)</m:mo></m:mrow></m:math> around at random without any pauses. The average kinetic energy of the ball is 2.30 J. (a) What is the average value of <m:math><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>?</m:mo></m:mrow></m:math> Does it matter which direction you take to be <emphasis effect="italics">x</emphasis>? (b) Applying the methods of this chapter, find the average pressure on the walls? (c) Aside from the presence of only one “molecule” in this problem, what is the main assumption in <link document="m58392">Pressure, Temperature, and RMS Speed</link> that does not apply here?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099641743">
+<problem id="fs-id1172097544685">
+<para id="fs-id1172097168829">Five bicyclists are riding at the following speeds: 5.4 m/s, 5.7 m/s, 5.8 m/s, 6.0 m/s, and 6.5 m/s. (a) What is their average speed? (b) What is their rms speed?</para>
+</problem>
+<solution id="fs-id1172099473448">
+<para id="fs-id1172099880979">a. 5.88 m/s; b. 5.89 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099814878">
+<problem id="fs-id1172097452370">
+<para id="fs-id1172101811992">Some incandescent light bulbs are filled with argon gas. What is <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math> for argon atoms near the filament, assuming their temperature is 2500 K?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099755502">
+<problem id="fs-id1172101807276">
+<para id="fs-id1172099509727">Typical molecular speeds <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> are large, even at low temperatures. What is <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math> for helium atoms at 5.00 K, less than one degree above helium’s liquefaction temperature?</para>
+</problem>
+<solution id="fs-id1172097239764">
+<para id="fs-id1172099724213">177 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172097210755">
+<problem id="fs-id1172099475467">
+<para id="fs-id1172099597532">What is the average kinetic energy in joules of hydrogen atoms on the <m:math><m:mrow><m:mn>5500</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> surface of the Sun? (b) What is the average kinetic energy of helium atoms in a region of the solar corona where the temperature is <m:math><m:mrow><m:mn>6.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>
+?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099730378">
+<problem id="fs-id1172099736613">
+<para id="fs-id1172102119553">What is the ratio of the average translational kinetic energy of a nitrogen molecule at a temperature of 300 K to the gravitational potential energy of a nitrogen-molecule−Earth system at the ceiling of a 3-m-tall room with respect to the same system with the molecule at the floor?</para>
+</problem>
+<solution id="fs-id1172099905427">
+<para id="fs-id1172102147953"><m:math><m:mrow><m:mn>4.54</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172097165241">
+<problem id="fs-id1172097407278">
+<para id="fs-id1172099799071">What is the total translational kinetic energy of the air molecules in a room of volume <m:math><m:mrow><m:mn>23</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> if the pressure is <m:math><m:mrow><m:mn>9.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> (the room is at fairly high elevation) and the temperature is <m:math><m:mrow><m:mn>21</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>
+? Is any item of data unnecessary for the solution?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099758909">
+<problem id="fs-id1172102019650">
+<para id="fs-id1172099524001">The product of the pressure and volume of a sample of hydrogen gas at <m:math><m:mrow><m:mn>0.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is 80.0 J. (a) How many moles of hydrogen are present? (b) What is the average translational kinetic energy of the hydrogen molecules? (c) What is the value of the product of pressure and volume at <m:math><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C?</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1172099898205">
+<para id="fs-id1172099870865">a. 0.0352 mol; b. <m:math><m:mrow><m:mn>5.65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J;</m:mtext></m:mrow></m:math> c. 139 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099648954">
+<problem id="fs-id1172097547811">
+<para id="fs-id1172101883428">What is the gauge pressure inside a tank of <m:math><m:mrow><m:mn>4.86</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>mol</m:mtext></m:mrow></m:math> of compressed nitrogen with a volume of <m:math><m:mrow><m:mn>6.56</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> if the rms speed is 514 m/s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099567214">
+<problem id="fs-id1172101839236">
+<para id="fs-id1172099717482">If the rms speed of oxygen molecules inside a refrigerator of volume <m:math><m:mrow><m:mn>22.0</m:mn><m:mspace width="0.2em"/><m:mtext>ft</m:mtext><m:msup><m:mtext>.</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math> is 465 m/s, what is the partial pressure of the oxygen? There are 5.71 moles of oxygen in the refrigerator, and the molar mass of oxygen is 32.0 g/mol.</para>
+</problem>
+<solution id="fs-id1172099642755">
+<para id="fs-id1172097459299">21.1 kPa</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172097262150">
+<problem id="fs-id1172097231308">
+<para id="fs-id1172099706184">The escape velocity of any object from Earth is 11.1 km/s. At what temperature would oxygen molecules (molar mass is equal to 32.0 g/mol) have root-mean-square velocity <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math> equal to Earth’s escape velocity of 11.1 km/s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099643348">
+<problem id="fs-id1172099924748">
+<para id="fs-id1172099767142">The escape velocity from the Moon is much smaller than that from the Earth, only 2.38 km/s. At what temperature would hydrogen molecules (molar mass is equal to 2.016 g/mol) have a root-mean-square velocity <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math> equal to the Moon’s escape velocity?</para>
+</problem>
+<solution id="fs-id1172102120523">
+<para id="fs-id1172099544966">458 K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099625537">
+<problem id="fs-id1172099893316">
+<para id="fs-id1172101965174">Nuclear fusion, the energy source of the Sun, hydrogen bombs, and fusion reactors, occurs much more readily when the average kinetic energy of the atoms is high—that is, at high temperatures. Suppose you want the atoms in your fusion experiment to have average kinetic energies of <m:math><m:mrow><m:mn>6.40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>. What temperature is needed?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102110244">
+<problem id="fs-id1172099601857">
+<para id="fs-id1172101854045">Suppose that the typical speed <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> of carbon dioxide molecules (molar mass is 44.0 g/mol) in a flame is found to be 1350 m/s. What temperature does this indicate?</para>
+</problem>
+<solution id="fs-id1172099673794">
+<para id="fs-id1172101676761"><m:math><m:mrow><m:mn>3.22</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101919985">
+<problem id="fs-id1172097334936">
+<para id="fs-id1172097200582">(a) Hydrogen molecules (molar mass is equal to 2.016 g/mol) have <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math> equal to 193 m/s. What is the temperature? (b) Much of the gas near the Sun is atomic hydrogen (H rather than <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Its temperature would have to be <m:math><m:mrow><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> for the rms speed <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math> to equal the escape velocity from the Sun. What is that velocity?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099374527">
+<problem id="fs-id1172101727686">
+<para id="fs-id1172099505056">There are two important isotopes of uranium, <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>235</m:mn></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>238</m:mn></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:math>; these isotopes are nearly identical chemically but have different atomic masses. Only <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>235</m:mn></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:math> is very useful in nuclear reactors. Separating the isotopes is called uranium enrichment (and is often in the news as of this writing, because of concerns that some countries are enriching uranium with the goal of making nuclear weapons.) One of the techniques for enrichment, gas diffusion, is based on the different molecular speeds of uranium hexafluoride gas, <m:math><m:mrow><m:msub><m:mrow><m:mtext>UF</m:mtext></m:mrow><m:mn>6</m:mn></m:msub></m:mrow></m:math>. (a) The molar masses of <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>235</m:mn></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>238</m:mn></m:mrow></m:msup><m:msub><m:mrow><m:mtext>UF</m:mtext></m:mrow><m:mn>6</m:mn></m:msub></m:mrow></m:math> are 349.0 g/mol and 352.0 g/mol, respectively. What is the ratio of their typical speeds <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math>? (b) At what temperature would their typical speeds differ by 1.00 m/s? (c) Do your answers in this problem imply that this technique may be difficult?</para>
+</problem>
+<solution id="fs-id1172097225648">
+<para id="fs-id1172097268559">a. 1.004; b. 764 K; c. This temperature is equivalent to <m:math><m:mrow><m:mn>915</m:mn><m:mspace width="0.2em"/><m:mtext>ºF</m:mtext></m:mrow></m:math>, which is high but not impossible to achieve. Thus, this process is feasible. At this temperature, however, there may be other considerations that make the process difficult. (In general, uranium enrichment by gaseous diffusion is indeed difficult and requires many passes.)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172097149302">
+<problem id="fs-id1172099473092">
+<para id="fs-id1172101924012">The partial pressure of carbon dioxide in the lungs is about 470 Pa when the total pressure in the lungs is 1.0 atm. What percentage of the air molecules in the lungs is carbon dioxide? Compare your result to the percentage of carbon dioxide in the atmosphere, about 0.033%.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099922348">
+<problem id="fs-id1172097161964">
+<para id="fs-id1172101755047">Dry air consists of approximately <m:math><m:mrow><m:mn>78</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:mtext>nitrogen</m:mtext><m:mo>,</m:mo><m:mn>21</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:mtext>oxygen</m:mtext><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>1</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:mtext>argon</m:mtext></m:mrow></m:math> by mole, with trace amounts of other gases. A tank of compressed dry air has a volume of 1.76 cubic feet at a gauge pressure of 2200 pounds per square inch and a temperature of 293 K. How much oxygen does it contain in moles?</para>
+</problem>
+<solution id="fs-id1172102145578">
+<para id="fs-id1172099643724">65 mol</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099587878">
+<problem id="fs-id1172099462907">
+<para id="fs-id1172097163890">(a) Using data from the previous problem, find the mass of nitrogen, oxygen, and argon in 1 mol of dry air. The molar mass of <m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> is 28.0 g/mol, that of <m:math><m:mrow><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> is 32.0 g/mol, and that of argon is 39.9 g/mol. (b) Dry air is mixed with pentane <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mtext>C</m:mtext><m:mn>5</m:mn></m:msub><m:msub><m:mtext>H</m:mtext><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> molar mass 72.2 g/mol), an important constituent of gasoline, in an air-fuel ratio of 15:1 by mass (roughly typical for car engines). Find the partial pressure of pentane in this mixture at an overall pressure of 1.00 atm.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099651100">
+<problem id="fs-id1172099706701">
+<para id="fs-id1172094900453">(a) Given that air is <m:math><m:mrow><m:mn>21</m:mn><m:mi>%</m:mi></m:mrow></m:math> oxygen, find the minimum atmospheric pressure that gives a relatively safe partial pressure of oxygen of 0.16 atm. (b) What is the minimum pressure that gives a partial pressure of oxygen above the quickly fatal level of 0.06 atm? (c) The air pressure at the summit of Mount Everest (8848 m) is 0.334 atm. Why have a few people climbed it without oxygen, while some who have tried, even though they had trained at high elevation, had to turn back?</para>
+</problem>
+<solution id="fs-id1172101658346">
+<para id="fs-id1172097271098">a. 0.76 atm; b. 0.29 atm; c. The pressure there is barely above the quickly fatal level.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099618318">
+<problem id="fs-id1172097459321">
+<para id="fs-id1172099456386">(a) If the partial pressure of water vapor is 8.05 torr, what is the dew point? <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>760</m:mn><m:mspace width="0.2em"/><m:mtext>torr</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext><m:mo>=</m:mo><m:mn>101</m:mn><m:mo>,</m:mo><m:mn>325</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>)</m:mo></m:mrow></m:math> (b) On a warm day when the air temperature is <m:math><m:mrow><m:mn>35</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and the dew point is <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, what are the partial pressure of the water in the air and the relative humidity?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172099471706">
+<term>Dalton’s law of partial pressures</term>
+<meaning id="fs-id1172099908071">physical law that states that the total pressure of a gas is the sum of partial pressures of the component gases</meaning>
+</definition>
+<definition id="fs-id1172097144078">
+<term>internal energy</term>
+<meaning id="fs-id1172099689535">sum of the mechanical energies of all of the molecules in it</meaning>
+</definition>
+<definition id="fs-id1172099484378">
+<term>kinetic theory of gases</term>
+<meaning id="fs-id1172099742152">theory that derives the macroscopic properties of gases from the motion of the molecules they consist of</meaning>
+</definition>
+<definition id="fs-id1172097334290">
+<term>mean free path</term>
+<meaning id="fs-id1172101899848">average distance between collisions of a particle</meaning>
+</definition>
+<definition id="fs-id1172099558001">
+<term>mean free time</term>
+<meaning id="fs-id1172099379109">average time between collisions of a particle</meaning>
+</definition>
+<definition id="fs-id1172099495707">
+<term>partial pressure</term>
+<meaning id="fs-id1172099724272">pressure a gas would create if it occupied the total volume of space available</meaning>
+</definition>
+<definition id="fs-id1172099475012">
+<term>root-mean-square (rms) speed</term>
+<meaning id="fs-id1172097225080">square root of the average of the square (of a quantity)</meaning>
+</definition>
+<definition id="fs-id1172099814717">
+<term>vapor pressure</term>
+<meaning id="fs-id1172097547567">partial pressure of a vapor at which it is in equilibrium with the liquid (or solid, in the case of sublimation) phase of the same substance</meaning>
+</definition>
+</glossary>
+
+</document>

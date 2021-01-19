@@ -1,0 +1,169 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Heat Capacities of an Ideal Gas</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58400</md:content-id>
+  <md:title>Heat Capacities of an Ideal Gas</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Define heat capacity of an ideal gas for a specific process</item>
+<item>Calculate the specific heat of an ideal gas for either an isobaric or isochoric process</item>
+<item>Explain the difference between the heat capacities of an ideal gas and a real gas</item>
+<item>Estimate the change in specific heat of a gas over temperature ranges</item>
+</list></md:abstract>
+  <md:uuid>a6b46764-7ec3-48a4-ac87-1361295c95cb</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172100730938">We learned about specific heat and molar heat capacity in <link document="m58383">Temperature and Heat</link>; however, we have not considered a process in which heat is added. We do that in this section. First, we examine a process where the system has a constant volume, then contrast it with a system at constant pressure and show how their specific heats are related.</para>
+<para id="fs-id1172098759826">Let’s start with looking at <link target-id="CNX_UPhysics_20_05_IsochorBar"/>, which shows two vessels <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis>, each containing 1 mol of the same type of ideal gas at a temperature <emphasis effect="italics">T</emphasis> and a volume <emphasis effect="italics">V</emphasis>. The only difference between the two vessels is that the piston at the top of <emphasis effect="italics">A</emphasis> is fixed, whereas the one at the top of <emphasis effect="italics">B</emphasis> is free to move against a constant external pressure <emphasis effect="italics">p</emphasis>. We now consider what happens when the temperature of the gas in each vessel is slowly increased to <m:math><m:mrow><m:mi>T</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:math> with the addition of heat.</para>
+<figure id="CNX_UPhysics_20_05_IsochorBar">
+<media id="fs-id1172096179238" alt="Two containers, labeled Vessel A and Vessel B, are shown. Both are filled with gas and are capped by a piston. In vessel A, the piston is pinned in place. In vessel B, the piston is free to slide, as indicated by a double headed arrow near the piston.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_05_IsochorBar.jpg"/>
+</media>
+<caption>Two vessels are identical except that the piston at the top of <emphasis effect="italics">A</emphasis> is fixed, whereas that atop <emphasis effect="italics">B</emphasis> is free to move against a constant external pressure <emphasis effect="italics">p</emphasis>.</caption>
+</figure>
+<para id="fs-id1172100611115">Since the piston of vessel <emphasis effect="italics">A</emphasis> is fixed, the volume of the enclosed gas does not change. Consequently, the gas does no work, and we have from the first law</para>
+<equation id="fs-id1172098423631" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>Q</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100610498">We represent the fact that the heat is exchanged at constant volume by writing</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172100993517" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1172100916185">where <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> is the <term>molar heat capacity at constant volume</term> of the gas. In addition, since <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow></m:math> for this particular process,</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172098447995"><m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172098275530">We obtained this equation assuming the volume of the gas was fixed. However, internal energy is a state function that depends on only the temperature of an ideal gas. Therefore, <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:math> gives the change in internal energy of an ideal gas for any process involving a temperature change <emphasis effect="italics">dT</emphasis>.</para><para id="fs-id1172098524812">When the gas in vessel <emphasis effect="italics">B</emphasis> is heated, it expands against the movable piston and does work <m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math> In this case, the heat is added at constant pressure, and we write</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172098511070" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1172098455357">where <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math> is the <term>molar heat capacity at constant pressure</term> of the gas. Furthermore, since the ideal gas expands against a constant pressure,</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172100675040" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mi>V</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mi>R</m:mi><m:mi>n</m:mi><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation><para id="fs-id1172100570741">becomes</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172096091036" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1172100952741">Finally, inserting the expressions for <emphasis effect="italics">dQ</emphasis> and <emphasis effect="italics">pdV</emphasis> into the first law, we obtain</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172100493256" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>R</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1172100510952">We have found <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow></m:math> for both an isochoric and an isobaric process. Because the internal energy of an ideal gas depends only on the temperature, <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow></m:math> must be the same for both processes. Thus,</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172098456480" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>R</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1172098453405">and</para>
+<note id="fs-id1172098592382" class="equation-callout">
+<equation id="fs-id1172100983763"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>+</m:mo><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172100677416">The derivation of <link target-id="fs-id1172100983763"/> was based only on the ideal gas law. Consequently, this relationship is approximately valid for all dilute gases, whether monatomic like He, diatomic like <m:math><m:mrow><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> or polyatomic like <m:math><m:mrow><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:msub><m:mrow><m:mspace width="0.2em"/><m:mtext>or NH</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1172096311171">In the preceding chapter, we found the molar heat capacity of an ideal gas under constant volume to be</para>
+<equation id="fs-id1172100536321" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100595390">where <emphasis effect="italics">d</emphasis> is the number of degrees of freedom of a molecule in the system. <link target-id="fs-id1172100537645"/> shows the molar heat capacities of some dilute ideal gases at room temperature. The heat capacities of real gases are somewhat higher than those predicted by the expressions of <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math> given in <link target-id="fs-id1172100983763"/>. This indicates that vibrational motion in polyatomic molecules is significant, even at room temperature. Nevertheless, the difference in the molar heat capacities, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> is very close to <emphasis effect="italics">R</emphasis>, even for the polyatomic gases.</para>
+<table id="fs-id1172100537645" summary="The table has 5 columns and 4 rows. The first row is a header row with headings “Type of molecule”, “Gas”, “C p (J per mole K)”, “C V (J per mole K)”, “C p minus C V (J per mole K)”. The first column has entries “Monatomic,” “Diatomic”, “Polyatomic”. The second column has “ideal” in all three rows. The third column has entries “5 halves R equals 20.79”, “7 halves R equals 29.10”, “4 R equals 33.26”. The fourth column has entries “3 halves R equals 12.47”, “5 halves R equals 20.79”, “3 R equals 24.94”. The fifth column has “R=8.31” in all three rows.">
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry align="center" namest="c1" nameend="c5">Molar Heat Capacities of Dilute Ideal Gases at Room Temperature</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Type of Molecule</entry>
+<entry valign="top" align="center">Gas</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math><newline/>(J/mol K)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math><newline/>(J/mol K)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math><newline/>(J/mol K)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Monatomic</entry>
+<entry valign="top" align="center">Ideal</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>20.79</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>12.47</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>8.31</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Diatomic</entry>
+<entry valign="top" align="center">Ideal</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>29.10</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>20.79</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>8.31</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Polyatomic</entry>
+<entry valign="top" align="center">Ideal</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>4</m:mn><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>33.26</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3</m:mn><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>24.94</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>8.31</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<section id="fs-id1172100677254" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172100883814" list-type="bulleted" bullet-style="bullet">
+<item>For an ideal gas, the molar capacity at constant pressure <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math> is given by <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>+</m:mo><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow></m:math>, where d is the number of degrees of freedom of each molecule/entity in the system.</item>
+<item>A real gas has a specific heat close to but a little bit higher than that of the corresponding ideal gas with <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mo>≃</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>+</m:mo><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1172101004326" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172100747049">
+<problem id="fs-id1172098718956">
+<para id="fs-id1172101036374">How can an object transfer heat if the object does not possess a discrete quantity of heat?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101006189">
+<problem id="fs-id1172096297102">
+<para id="fs-id1172100762557">Most materials expand when heated. One notable exception is water between <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> which actually decreases in volume with the increase in temperature. Which is greater for water in this temperature region, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math> or <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math>
+?</para>
+</problem>
+<solution id="fs-id1172100893897">
+<para id="fs-id1172100786129">Typically <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math> is greater than <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> because when expansion occurs under constant pressure, it does work on the surroundings. Therefore, heat can go into internal energy and work. Under constant volume, all heat goes into internal energy. In this example, water contracts upon heating, so if we add heat at constant pressure, work is done on the water by surroundings and therefore, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math> is less than <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100980286">
+<problem id="fs-id1172100791240">
+<para id="fs-id1172100614779">Why are there two specific heats for gases <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math>, yet only one given for solid?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172100502018" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172100738604">
+<problem id="fs-id1172100855114">
+<para id="fs-id1172098257097">The temperature of an ideal monatomic gas rises by 8.0 K. What is the change in the internal energy of 1 mol of the gas at constant volume?</para>
+</problem>
+<solution id="fs-id1172100904891">
+<para id="fs-id1172100973883">100 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098719883">
+<problem id="fs-id1172100985453">
+<para id="fs-id1172098612056">For a temperature increase of <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> at constant volume, what is the heat absorbed by (a) 3.0 mol of a dilute monatomic gas; (b) 0.50 mol of a dilute diatomic gas; and (c) 15 mol of a dilute polyatomic gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098394379">
+<problem id="fs-id1172100516656">
+<para id="fs-id1172100967900">If the gases of the preceding problem are initially at 300 K, what are their internal energies after they absorb the heat?</para>
+</problem>
+<solution id="fs-id1172100754101">
+<para id="fs-id1172100785261">a. 370 J; b. 100 J; c. 500 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100747501">
+<problem id="fs-id1172100946854">
+<para id="fs-id1172100777635">Consider 0.40 mol of dilute carbon dioxide at a pressure of 0.50 atm and a volume of 50 L. What is the internal energy of the gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100670245">
+<problem id="fs-id1172100643898">
+<para id="fs-id1172100618117">When 400 J of heat are slowly added to 10 mol of an ideal monatomic gas, its temperature rises by <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. What is the work done on the gas?</para>
+</problem>
+<solution id="fs-id1172100893734">
+<para id="fs-id1172098318724">850 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100523260">
+<problem id="fs-id1172101033431">
+<para id="fs-id1172100726476">One mole of a dilute diatomic gas occupying a volume of 10.00 L expands against a constant pressure of 2.000 atm when it is slowly heated. If 400.0 J of heat are added in the process, what is its final volume?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172098464750">
+<term>molar heat capacity at constant pressure</term>
+<meaning id="fs-id1172100745504">quantifies the ratio of the amount of heat added removed to the temperature while measuring at constant pressure</meaning>
+</definition>
+<definition id="fs-id1172100745918">
+<term>molar heat capacity at constant volume</term>
+<meaning id="fs-id1172100654324">quantifies the ratio of the amount of heat added removed to the temperature while measuring at constant volume</meaning>
+</definition>
+</glossary>
+</document>

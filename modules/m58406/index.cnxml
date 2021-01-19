@@ -1,0 +1,262 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="new" cnxml-version="0.7" module-id="new">
+
+<title>The Carnot Cycle</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58406</md:content-id>
+  <md:title>The Carnot Cycle</md:title>
+  <md:abstract><list>
+<item>Describe the Carnot cycle with the roles of all four processes involved</item>
+<item>Outline the Carnot principle and its implications</item>
+<item>Demonstrate the equivalence of the Carnot principle and the second law of thermodynamics</item></list></md:abstract>
+  <md:uuid>c5a4d472-ef3a-440d-b611-62161bb20af2</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167585127729">In the early 1820s, Sadi <term class="no-emphasis">Carnot</term> (1786−1832), a French engineer, became interested in improving the efficiencies of practical heat engines. In 1824, his studies led him to propose a hypothetical working cycle with the highest possible efficiency between the same two reservoirs, known now as the <term>Carnot cycle</term>. An engine operating in this cycle is called a <term>Carnot engine</term>. The Carnot cycle is of special importance for a variety of reasons. At a practical level, this cycle represents a reversible model for the steam power plant and the refrigerator or heat pump. Yet, it is also very important theoretically, for it plays a major role in the development of another important statement of the second law of thermodynamics. Finally, because only two reservoirs are involved in its operation, it can be used along with the second law of thermodynamics to define an absolute temperature scale that is truly independent of any substance used for temperature measurement.</para>
+<para id="fs-id1167584870646">With an ideal gas as the working substance, the steps of the Carnot cycle, as represented by <link target-id="CNX_UPhysics_21_05_Carnot"/>, are as follows.</para>
+<list id="fs-id1167584701478" list-type="enumerated" number-style="arabic">
+<item><emphasis effect="italics">Isothermal expansion.</emphasis> The gas is placed in thermal contact with a heat reservoir at a temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> The gas absorbs heat <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> from the heat reservoir and is allowed to expand isothermally, doing work <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Because the internal energy <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow></m:math> of an ideal gas is a function of the temperature only, the change of the internal energy is zero, that is, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> during this isothermal expansion. With the first law of thermodynamics, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>,</m:mo></m:mrow></m:math> we find that the heat absorbed by the gas is
+<equation id="fs-id1167584965243" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>N</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>M</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_21_05_Carnot">
+<media id="fs-id1167585023260" alt="The figure shows four steps of Carnot cycle, namely isothermal expansion, adiabatic expansion, isothermal compression and adiabatic compression.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_05_Carnot.jpg"/>
+</media>
+<caption>The four processes of the Carnot cycle. The working substance is assumed to be an ideal gas whose thermodynamic path <emphasis effect="italics">MNOP</emphasis> is represented in <link target-id="CNX_UPhysics_21_05_CarnotCycl"/>.</caption>
+</figure>
+<figure id="CNX_UPhysics_21_05_CarnotCycl">
+<media id="fs-id1167584668022" alt="The first part of the figure shows a graph corresponding to four steps of Carnot cycle. The x-axis is V and y-axis is p. The second part shows a downward arrow Q subscript h at T subscript h which splits into a downward arrow Q subscript c at T subscript c and a right arrow W.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_05_CarnotCycl.jpg"/>
+</media>
+<caption>The total work done by the gas in the Carnot cycle is shown and given by the area enclosed by the loop <emphasis effect="italics">MNOPM</emphasis>.</caption>
+</figure>
+</item>
+<item><emphasis effect="italics">Adiabatic expansion</emphasis>. The gas is thermally isolated and allowed to expand further, doing work <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Because this expansion is adiabatic, the temperature of the gas falls—in this case, from <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext><m:mspace width="0.2em"/></m:mrow></m:msub><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> From <m:math><m:mrow><m:mi>p</m:mi><m:msup><m:mi>V</m:mi><m:mi>γ</m:mi></m:msup><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>constant</m:mtext></m:mrow></m:math> and the equation of state for an ideal gas, <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow></m:math>, we have
+<equation id="fs-id1167583686936" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:msup><m:mi>V</m:mi><m:mrow><m:mtext>γ</m:mtext><m:mspace width="0.2em"/><m:mtext>−</m:mtext><m:mspace width="0.2em"/><m:mtext>1</m:mtext></m:mrow></m:msup><m:mo>=</m:mo><m:mtext>constant</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+so that
+<equation id="fs-id1167584699509" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:msub><m:mi>V</m:mi><m:mi>N</m:mi></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:msub><m:mi>V</m:mi><m:mi>O</m:mi></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item><emphasis effect="italics">Isothermal compression</emphasis>. The gas is placed in thermal contact with a cold reservoir at temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> and compressed isothermally. During this process, work <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> is done on the gas and it gives up heat <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> to the cold reservoir. The reasoning used in step 1 now yields
+<equation id="fs-id1167584706617" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>O</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+where <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> is the heat dumped to the cold reservoir by the gas.</item>
+<item><emphasis effect="italics">Adiabatic compression</emphasis>. The gas is thermally isolated and returned to its initial state by compression. In this process, work <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math> is done on the gas. Because the compression is adiabatic, the temperature of the gas rises—from <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> in this particular case. The reasoning of step 2 now gives
+<equation id="fs-id1167583655620" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:msub><m:mi>V</m:mi><m:mi>M</m:mi></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+The total work done by the gas in the Carnot cycle is given by
+<equation id="fs-id1167584895954" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>W</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mn>3</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mn>4</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167584997685">This work is equal to the area enclosed by the loop shown in the <emphasis effect="italics">pV</emphasis> diagram of <link target-id="CNX_UPhysics_21_05_CarnotCycl"/>. Because the initial and final states of the system are the same, the change of the internal energy of the gas in the cycle must be zero, that is, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. The first law of thermodynamics then gives</para>
+<equation id="fs-id1167584895425" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585015076">and</para>
+<equation id="fs-id1167585021369" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167583638736">To find the efficiency of this engine, we first divide <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>by</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167583793377" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>O</m:mi></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow></m:mrow></m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>ln</m:mtext><m:msub><m:mi>V</m:mi><m:mi>N</m:mi></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>V</m:mi><m:mi>M</m:mi></m:msub></m:mrow></m:mrow></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585044591">When the adiabatic constant from step 2 is divided by that of step 4, we find</para>
+<equation id="fs-id1167585127386" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>O</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>N</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>M</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167583654705">Substituting this into the equation for <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> we obtain</para>
+<equation id="fs-id1167585009651" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585020408">Finally, with <link target-id="fs-id1167585928177" document="m58404"/>, we find that the efficiency of this ideal gas Carnot engine is given by</para>
+<note id="fs-id1167583687785" class="equation-callout">
+<equation id="fs-id1167585009004"><label/><m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167584673103">An engine does not necessarily have to follow a Carnot engine cycle. All engines, however, have the same <emphasis effect="italics">net</emphasis> effect, namely the absorption of heat from a hot reservoir, the production of work, and the discarding of heat to a cold reservoir. This leads us to ask: Do all reversible cycles operating between the same two reservoirs have the same efficiency? The answer to this question comes from the second law of thermodynamics discussed earlier: <emphasis effect="italics">All reversible engine cycles produce exactly the same efficiency</emphasis>. Also, as you might expect, all real engines operating between two reservoirs are less efficient than reversible engines operating between the same two reservoirs. This too is a consequence of the second law of thermodynamics shown earlier.</para>
+<para id="fs-id1167585147144">The cycle of an ideal gas Carnot refrigerator is represented by the <emphasis effect="italics">pV</emphasis> diagram of <link target-id="CNX_UPhysics_21_05_CarnotFrig"/>. It is a Carnot engine operating in reverse. The refrigerator extracts heat <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> from a cold-temperature reservoir at <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> when the ideal gas expands isothermally. The gas is then compressed adiabatically until its temperature reaches <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> after which an isothermal compression of the gas results in heat <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> being discarded to a high-temperature reservoir at <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Finally, the cycle is completed by an adiabatic expansion of the gas, causing its temperature to drop to <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_21_05_CarnotFrig">
+<media id="fs-id1167584774727" alt="The first part of the figure shows a graph for one cycle of the Carnot refrigerator. The x-axis is V and y-axis is p. The second part shows an upward arrow Q subscript c at T subscript c which becomes arrow Q subscript h at T subscript h after arrow W is added from the left.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_05_CarnotFrig.jpg"/>
+</media>
+<caption>The work done on the gas in one cycle of the Carnot refrigerator is shown and given by the area enclosed by the loop <emphasis effect="italics">MPONM</emphasis>.</caption>
+</figure>
+<para id="fs-id1167585012696">The work done on the ideal gas is equal to the area enclosed by the path of the <emphasis effect="italics">pV</emphasis> diagram. From the first law, this work is given by</para>
+<equation id="fs-id1167584924312" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585016639">An analysis just like the analysis done for the Carnot engine gives</para>
+<equation id="fs-id1167584731465" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584753194">When combined with <link target-id="fs-id1167582858331" document="m58653"/>, this yields</para>
+<note id="fs-id1167583585110" class="equation-callout">
+<equation id="fs-id1167584992126"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167584756747">for the coefficient of performance of the ideal-gas Carnot refrigerator. Similarly, we can work out the coefficient of performance for a Carnot heat pump as</para>
+<note id="fs-id1167583866070" class="equation-callout">
+<equation id="fs-id1167583733401"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167584761106">We have just found equations representing the efficiency of a Carnot engine and the coefficient of performance of a Carnot refrigerator or a Carnot heat pump, assuming an ideal gas for the working substance in both devices. However, these equations are more general than their derivations imply. We will soon show that they are both valid no matter what the working substance is.</para>
+<para id="fs-id1167583725174">Carnot summarized his study of the Carnot engine and Carnot cycle into what is now known as <term>Carnot’s principle</term>:</para>
+<note id="fs-id1167584691710">
+<title>Carnot’s Principle</title>
+<para id="fs-id1167585036926">No engine working between two reservoirs at constant temperatures can have a greater efficiency than a reversible engine.</para>
+</note>
+<para id="fs-id1167583640060">This principle can be viewed as another statement of the second law of thermodynamics and can be shown to be equivalent to the Kelvin statement and the Clausius statement.</para>
+<example id="fs-id1167584705697">
+<para id="fs-id1167584746033"><title>The Carnot Engine</title>
+A Carnot engine has an efficiency of 0.60 and the temperature of its cold reservoir is 300 K. (a) What is the temperature of the hot reservoir? (b) If the engine does 300 J of work per cycle, how much heat is removed from the high-temperature reservoir per cycle? (c) How much heat is exhausted to the low-temperature reservoir per cycle?</para>
+<para id="fs-id1167584649900"><title>Strategy</title>
+From the temperature dependence of the thermal efficiency of the Carnot engine, we can find the temperature of the hot reservoir. Then, from the definition of the efficiency, we can find the heat removed when the work done by the engine is given. Finally, energy conservation will lead to how much heat must be dumped to the cold reservoir.</para>
+<para id="fs-id1167583696166"><title>Solution</title></para>
+<list id="fs-id1167584743655" list-type="enumerated" number-style="lower-alpha">
+<item>From <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> we have
+<equation id="fs-id1167584685144" class="unnumbered"><label/><m:math><m:mrow><m:mn>0.60</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+so that the temperature of the hot reservoir is
+<equation id="fs-id1167585013153" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.60</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>750</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>By definition, the efficiency of the engine is <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mi>W</m:mi><m:mtext>/</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>, so that the heat removed from the high-temperature reservoir per cycle is
+<equation id="fs-id1167584058318" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>W</m:mi><m:mi>e</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>0.60</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>From the first law, the heat exhausted to the low-temperature reservoir per cycle by the engine is 
+<equation id="fs-id1167585089505" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>−</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167583642182"><title>Significance</title>
+A Carnot engine has the maximum possible efficiency of converting heat into work between two reservoirs, but this does not necessarily mean it is <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> efficient. As the difference in temperatures of the hot and cold reservoir increases, the efficiency of a Carnot engine increases.</para>
+</example>
+<example id="fs-id1167584999148">
+<para id="fs-id1167584739390"><title>A Carnot Heat Pump</title>
+Imagine a Carnot heat pump operates between an outside temperature of <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and an inside temperature of <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. What is the work needed if the heat delivered to the inside of the house is 30.0 kJ?</para>
+<para id="fs-id1167584735487"><title>Strategy</title>
+Because the heat pump is assumed to be a Carnot pump, its performance coefficient is given by <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Thus, we can find the work <emphasis effect="italics">W</emphasis> from the heat delivered <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167584701741"><title>Solution</title>
+The work needed is obtained from</para>
+<equation id="fs-id1167584720382" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>293</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>−</m:mo><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mn>293</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167583566784"><title>Significance</title>
+We note that this work depends not only on the heat delivered to the house but also on the temperatures outside and inside. The dependence on the temperature outside makes them impractical to use in areas where the temperature is much colder outside than room temperature.</para>
+</example>
+<para id="fs-id1167584698611">In terms of energy costs, the <term class="no-emphasis">heat pump</term> is a very economical means for heating buildings (<link target-id="CNX_UPhysics_21_05_Heater"/>). Contrast this method with turning electrical energy directly into heat with resistive heating elements. In this case, one unit of electrical energy furnishes at most only one unit of heat. Unfortunately, heat pumps have problems that do limit their usefulness. They are quite expensive to purchase compared to resistive heating elements, and, as the performance coefficient for a Carnot heat pump shows, they become less effective as the outside temperature decreases. In fact, below about <m:math><m:mrow><m:mn>–10</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, the heat they furnish is less than the energy used to operate them.</para>
+<figure id="CNX_UPhysics_21_05_Heater">
+<media id="fs-id1167583646832" alt="The photo shows a heat pump.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_05_Heater.jpg"/>
+</media>
+<caption>A photograph of a heat pump (large box) located outside a house. This heat pump is located in a warm climate area, like the southern United States, since it would be far too inefficient located in the northern half of the United States. (credit: modification of work by Peter Stevens)</caption>
+</figure>
+<note id="fs-id1167584766129" class="check-understanding">
+<exercise id="fs-id1167583654482">
+<problem id="fs-id1167584954580">
+<para id="fs-id1167583639570"><emphasis effect="bold">Check Your Understanding</emphasis> A Carnot engine operates between reservoirs at <m:math><m:mrow><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. (a) What is the efficiency of the engine? (b) If the engine does 5.0 J of work per cycle, how much heat per cycle does it absorb from the high-temperature reservoir? (c) How much heat per cycle does it exhaust to the cold-temperature reservoir? (d) What temperatures at the cold reservoir would give the minimum and maximum efficiency?</para>
+</problem>
+<solution id="fs-id1167583759211">
+<para id="fs-id1167585044421">a. <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0.55</m:mn></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mi>e</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>9.1</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>4.1</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; d. <m:math><m:mrow><m:mn>−273</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167583679398" class="check-understanding">
+<exercise id="fs-id1167584938396">
+<problem id="fs-id1167583679594">
+<para id="fs-id1167583710125"><emphasis effect="bold">Check Your Understanding</emphasis> A Carnot refrigerator operates between two heat reservoirs whose temperatures are <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (a) What is the coefficient of performance of the refrigerator? (b) If 200 J of work are done on the working substance per cycle, how much heat per cycle is extracted from the cold reservoir? (c) How much heat per cycle is discarded to the hot reservoir?</para>
+</problem>
+<solution id="fs-id1167584655080">
+<para id="fs-id1167585089815">a. <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>10.9</m:mn></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>2.18</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>+</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>2.38</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167584676127" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167583692410" list-type="bulleted" bullet-style="bullet">
+<item>The Carnot cycle is the most efficient engine for a reversible cycle designed between two reservoirs.</item>
+<item>The Carnot principle is another way of stating the second law of thermodynamics.</item>
+</list>
+</section>
+<section id="fs-id1167583653561" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167584758931">
+<problem id="fs-id1167584759357">
+<para id="fs-id1167584624335">To increase the efficiency of a Carnot engine, should the temperature of the hot reservoir be raised or lowered? What about the cold reservoir?</para>
+</problem>
+<solution id="fs-id1167583594340">
+<para id="fs-id1167583681856">In order to increase the efficiency, the temperature of the hot reservoir should be raised, and the cold reservoir should be lowered as much as possible. This can be seen in <link target-id="fs-id1167582858331" document="m58653"/>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167583711805">
+<problem id="fs-id1167584623066">
+<para id="fs-id1167583639405">How could you design a Carnot engine with <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> efficiency?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167584907322">
+<problem id="fs-id1167583737684">
+<para id="fs-id1167585040063">What type of processes occur in a Carnot cycle?</para>
+</problem>
+<solution id="fs-id1167584761385">
+<para id="fs-id1167583600158">adiabatic and isothermal processes</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167583693142" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167584932603">
+<problem id="fs-id1167583522080">
+<para id="fs-id1167584667819">The temperature of the cold and hot reservoirs between which a Carnot refrigerator operates are <m:math><m:mrow><m:mn>−73</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>270</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, respectively. Which is its coefficient of performance?</para>
+</problem>
+<solution id="fs-id1167584971368">
+<para id="fs-id1167585147299">2.0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585073388">
+<problem id="fs-id1167584937169">
+<para id="fs-id1167584988034">Suppose a Carnot refrigerator operates
+   between <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Calculate the amount of work required to extract 1.0 J of heat from the cold reservoir if (a) <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; (b) <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−73</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C;</m:mtext></m:mrow></m:math> (c) <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−173</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; and (d) <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−273</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167584756498">
+<problem id="fs-id1167583653645">
+<para id="fs-id1167584678659">A Carnot engine operates between reservoirs at 600 and 300 K. If the engine absorbs 100 J per cycle at the hot reservoir, what is its work output per cycle?</para>
+</problem>
+<solution id="fs-id1167585059858">
+<para id="fs-id1167583814647">50 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167583510108">
+<problem id="fs-id1167584693621">
+<para id="fs-id1167584693545">A 500-W motor operates a Carnot refrigerator between <m:math><m:mrow><m:mn>−5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. (a) What is the amount of heat per second extracted from the inside of the refrigerator? (b) How much heat is exhausted to the outside air per second?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585181194">
+<problem id="fs-id1167585109806">
+<para id="fs-id1167583529587">Sketch a Carnot cycle on a temperature-volume diagram.</para>
+</problem>
+<solution id="fs-id1167583684456">
+<para id="fs-id1167583569274"><newline/>
+<media id="fs-id1167583719027" alt="The graph shows isotherms and adiabatic curves for Carnot cycle with four points A, B, C and D. The x-axis is V and y-axis is T. The value of T at A and B is T subscript 1 and at C and D is T subscript 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_05_TempVolEnt_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167584771413">
+<problem id="fs-id1167585142413">
+<para id="fs-id1167585176566">A Carnot heat pump operates between <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. How much heat is exhausted into the interior of a house for every 1.0 J of work done by the pump?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167583627980">
+<problem id="fs-id1167581377722">
+<para id="fs-id1167584907924">An engine operating between heat reservoirs at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> extracts 1000 J per cycle from the hot reservoir. (a) What is the maximum possible work that engine can do per cycle? (b) For this maximum work, how much heat is exhausted to the cold reservoir per cycle?</para>
+</problem>
+<solution id="fs-id1167584727280">
+<para id="fs-id1167584855327">a. 381 J; b. 619 J</para></solution>
+</exercise>
+<exercise id="fs-id1167583568610">
+<problem id="fs-id1167583568594">
+<para id="fs-id1167584892396">Suppose a Carnot engine can be operated between two reservoirs as either a heat engine or a refrigerator. How is the coefficient of performance of the refrigerator related to the efficiency of the heat engine?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167584770428">
+<problem id="fs-id1167584653264">
+<para id="fs-id1167583689824">A Carnot engine is used to measure the temperature of a heat reservoir. The engine operates between the heat reservoir and a reservoir consisting of water at its triple point. (a) If 400 J per cycle are removed from the heat reservoir while 200 J per cycle are deposited in the triple-point reservoir, what is the temperature of the heat reservoir? (b) If 400 J per cycle are removed from the triple-point reservoir while 200 J per cycle are deposited in the heat reservoir, what is the temperature of the heat reservoir?</para>
+</problem>
+<solution id="fs-id1167584702992">
+<para id="fs-id1167583608254">a. 546 K; b. 137 K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167583834240">
+<problem id="fs-id1167583725318">
+<para id="fs-id1167584856487">What is the minimum work required of a refrigerator if it is to extract 50 J per cycle from the inside of a freezer at <m:math><m:mrow><m:mn>−10</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and exhaust heat to the air at <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167584633608">
+<term>Carnot cycle</term>
+<meaning id="fs-id1167585155193">cycle that consists of two isotherms at the temperatures of two reservoirs and two adiabatic processes connecting the isotherms</meaning>
+</definition>
+<definition id="fs-id1167585151238">
+<term>Carnot engine</term>
+<meaning id="fs-id1167584776555">Carnot heat engine, refrigerator, or heat pump that operates on a Carnot cycle</meaning>
+</definition>
+<definition id="fs-id1167585104780">
+<term>Carnot principle</term>
+<meaning id="fs-id1167584855837">principle governing the efficiency or performance of a heat device operating on a Carnot cycle: any reversible heat device working between two reservoirs must have the same efficiency or performance coefficient, greater than that of an irreversible heat device operating between the same two reservoirs</meaning>
+</definition>
+</glossary>
+
+</document>

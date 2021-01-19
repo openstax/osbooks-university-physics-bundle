@@ -1,0 +1,160 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>The Hall Effect</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58744</md:content-id>
+  <md:title>The Hall Effect</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain a scenario where the magnetic and electric fields are crossed and their forces balance each other as a charged particle moves through a velocity selector</item>
+<item>Compare how charge carriers move in a conductive material and explain how this relates to the Hall effect</item>
+</list></md:abstract>
+  <md:uuid>921eb5fa-3dff-47a6-9aec-8360641c55ba</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171360231297">In 1879, E.H. <term class="no-emphasis">Hall</term> devised an experiment that can be used to identify the sign of the predominant charge carriers in a conducting material. From a historical perspective, this experiment was the first to demonstrate that the charge carriers in most metals are negative.</para>
+<note id="fs-id1171360088313" class="media-2">
+<para id="fs-id1171358975680">Visit this <link url="https://openstax.org/l/21halleffect">website</link> to find more information about the Hall effect.</para>
+</note>
+<para id="fs-id1171358995404">We investigate the <term>Hall effect</term> by studying the motion of the free electrons along a metallic strip of width <emphasis effect="italics">l</emphasis> in a constant magnetic field (<link target-id="CNX_UPhysics_28_06_Hall"/>). The electrons are moving from left to right, so the magnetic force they experience pushes them to the bottom edge of the strip. This leaves an excess of positive charge at the top edge of the strip, resulting in an electric field <emphasis effect="italics">E</emphasis> directed from top to bottom. The charge concentration at both edges builds up until the electric force on the electrons in one direction is balanced by the magnetic force on them in the opposite direction. Equilibrium is reached when:</para>
+<equation id="fs-id1171360234750"><m:math><m:mrow><m:mi>e</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>e</m:mi><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mi>B</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1171360139672">where <emphasis effect="italics">e</emphasis> is the magnitude of the electron charge, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub></m:mrow></m:math> is the drift speed of the electrons, and <emphasis effect="italics">E</emphasis> is the magnitude of the electric field created by the separated charge. Solving this for the drift speed results in</para>
+<note id="fs-id1163710980707" class="equation-callout">
+<equation id="fs-id1171360336437"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_28_06_Hall">
+<media id="fs-id1171360211349" alt="An illustration of the Hall effect: In both figures, the current in the strip is to the left and the magnetic field points into the page. In figure a, a negative charge is moving to the right with velocity v d. Positive charges accumulate at the top of the strip, negative charges at the bottom of the strip. An electric field E sub H points down. The moving charge experiences an upward force e E sub H and a downward force e v sub d B. In figure b, a positive charge is moving to the left with velocity v d. Negative charges accumulate at the top of the strip, positive charges at the bottom of the strip. An electric field E sub H points up. The moving charge experiences an upward force e E sub H and a downward force e v sub d B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_06_Hall.jpg"/>
+</media>
+<caption>In the Hall effect, a potential difference between the top and bottom edges of the metal strip is produced when moving charge carriers are deflected by the magnetic field. (a) Hall effect for negative charge carriers; (b) Hall effect for positive charge carriers.</caption>
+</figure>
+<para id="fs-id1171360220861">A scenario where the electric and magnetic fields are perpendicular to one another is called a crossed-field situation. If these fields produce equal and opposite forces on a charged particle with the velocity that equates the forces, these particles are able to pass through an apparatus, called a <term>velocity selector</term>, undeflected. This velocity is represented in <link target-id="fs-id1171359000965"/>. Any other velocity of a charged particle sent into the same fields would be deflected by the magnetic force or electric force.</para>
+<para id="fs-id1171359055613">Going back to the Hall effect, if the current in the strip is <emphasis effect="italics">I</emphasis>, then from <link document="m58728">Current and Resistance</link>, we know that</para>
+<equation id="fs-id1171359000965"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>e</m:mi><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mi>A</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1171360217050">where <emphasis effect="italics">n</emphasis> is the number of charge carriers per volume and <emphasis effect="italics">A</emphasis> is the cross-sectional area of the strip. Combining the equations for <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub></m:mrow></m:math> and <emphasis effect="italics">I</emphasis> results in</para>
+<equation id="fs-id1171360269255"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>e</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171360212429">The field <emphasis effect="italics">E</emphasis> is related to the potential difference <emphasis effect="italics">V</emphasis> between the edges of the strip by</para>
+<equation id="fs-id1171360485906"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171360104810">The quantity <emphasis effect="italics">V</emphasis> is called the Hall potential and can be measured with a voltmeter. Finally, combining the equations for <emphasis effect="italics">I</emphasis> and <emphasis effect="italics">E</emphasis> gives us</para>
+<note id="fs-id1163712314724" class="equation-callout">
+<equation id="fs-id1171359011013"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>e</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171358990724">where the upper edge of the strip in <link target-id="CNX_UPhysics_28_06_Hall"/> is positive with respect to the lower edge.</para>
+<para id="fs-id1171360356223">We can also combine <link target-id="fs-id1171360234750"/> and <link target-id="fs-id1171360485906"/> to get an expression for the Hall voltage in terms of the magnetic field:</para>
+<note id="fs-id1163712378765" class="equation-callout">
+<equation id="fs-id1171358949627"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171360404117">What if the charge carriers are positive, as in <link target-id="CNX_UPhysics_28_06_Hall"/>? For the same current <emphasis effect="italics">I</emphasis>, the magnitude of <emphasis effect="italics">V</emphasis> is still given by <link target-id="fs-id1171359011013"/>. However, the upper edge is now negative with respect to the lower edge. Therefore, by simply measuring the sign of <emphasis effect="italics">V</emphasis>, we can determine the sign of the majority charge carriers in a metal.</para>
+<para id="fs-id1171360221404">Hall potential measurements show that electrons are the dominant charge carriers in most metals. However, Hall potentials indicate that for a few metals, such as tungsten, beryllium, and many semiconductors, the majority of charge carriers are positive. It turns out that conduction by positive charge is caused by the migration of missing electron sites (called holes) on ions. Conduction by holes is studied later in <link document="m58591">Condensed Matter Physics</link>.</para>
+<para id="fs-id1171360308019">The Hall effect can be used to measure magnetic fields. If a material with a known density of charge carriers <emphasis effect="italics">n</emphasis> is placed in a magnetic field and <emphasis effect="italics">V</emphasis> is measured, then the field can be determined from <link target-id="fs-id1171359011013"/>. In research laboratories where the fields of electromagnets used for precise measurements have to be extremely steady, a “Hall probe” is commonly used as part of an electronic circuit that regulates the field.</para>
+<example id="fs-id1171358968547">
+<para id="fs-id1171360156172"><title>Velocity Selector</title>
+An electron beam enters a crossed-field velocity selector with magnetic and electric fields of 2.0 mT and <m:math><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/C,</m:mtext></m:mrow></m:math> respectively. (a) What must the velocity of the electron beam be to traverse the crossed fields undeflected? If the electric field is turned off, (b) what is the acceleration of the electron beam and (c) what is the radius of the circular motion that results?</para>
+<para id="fs-id1167586271449"><title>Strategy</title>
+The electron beam is not deflected by either of the magnetic or electric fields if these forces are balanced. Based on these balanced forces, we calculate the velocity of the beam. Without the electric field, only the magnetic force is used in Newton’s second law to find the acceleration. Lastly, the radius of the path is based on the resulting circular motion from the magnetic force.</para>
+<para id="fs-id1167586011976"><title>Solution</title></para>
+<list id="fs-id1171360235736" list-type="enumerated" number-style="lower-alpha">
+<item>The velocity of the unperturbed beam of electrons with crossed fields is calculated by <link target-id="fs-id1171360336437"/>:
+<equation id="fs-id1171360168684" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>N</m:mtext><m:mtext>/</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s.</m:mtext></m:mrow></m:mrow></m:math></equation></item>
+<item>The acceleration is calculated from the net force from the magnetic field, equal to mass times acceleration. The magnitude of the acceleration is:
+<equation id="fs-id1171360182944" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>9.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>The radius of the path comes from a balance of the circular and magnetic forces, or <link target-id="fs-id1171360336437"/>: 
+<equation id="fs-id1171360267138" class="unnumbered"><label/><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>9.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167585882024"><title>Significance</title>
+If electrons in the beam had velocities above or below the answer in part (a), those electrons would have a stronger net force exerted by either the magnetic or electric field. Therefore, only those electrons at this specific velocity would make it through.</para>
+</example>
+<example id="fs-id1171359210019">
+<para id="fs-id1171360368308"><title>The Hall Potential in a Silver Ribbon</title>
+<link target-id="CNX_UPhysics_28_06_Silver"/> shows a silver ribbon whose cross section is 1.0 cm by 0.20 cm. The ribbon carries a current of 100 A from left to right, and it lies in a uniform magnetic field of magnitude 1.5 T. Using a density value of <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup></m:mrow></m:math> electrons per cubic meter for silver, find the Hall potential between the edges of the ribbon.</para>
+<figure id="CNX_UPhysics_28_06_Silver">
+<media id="fs-id1171360138176" alt="The silver ribbon is shown with current flowing to the right, a magnetic field pointing up, negative charges accumulating on the edge near us and positive charges accumulating on the far edge. The dimensions of the strip are 1.0 cm by 0.20 cm.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_06_Silver.jpg"/>
+</media>
+<caption>Finding the Hall potential in a silver ribbon in a magnetic field is shown.</caption>
+</figure>
+<para id="fs-id1167582827322"><title>Strategy</title>
+Since the majority of charge carriers are electrons, the polarity of the Hall voltage is that indicated in the figure. The value of the Hall voltage is calculated using <link target-id="fs-id1171359011013"/>:</para>
+<equation id="fs-id1171360385199" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>e</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167582610779"><title>Solution</title>
+When calculating the Hall voltage, we need to know the current through the material, the magnetic field, the length, the number of charge carriers, and the area. Since all of these are given, the Hall voltage is calculated as:</para>
+<equation id="fs-id1171360533266" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>e</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−2</m:mn></m:msup><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>V.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167582920861"><title>Significance</title>
+As in this example, the Hall potential is generally very small, and careful experimentation with sensitive equipment is required for its measurement.</para>
+</example>
+<note id="fs-id1171360227261" class="check-understanding">
+<exercise id="fs-id1171360531682">
+<problem id="fs-id1171359175258">
+<para id="fs-id1171359085779"><emphasis effect="bold">Check Your Understanding</emphasis> A Hall probe consists of a copper strip, <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>8.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup></m:mrow></m:math> electrons per cubic meter, which is 2.0 cm wide and 0.10 cm thick. What is the magnetic field when <emphasis effect="italics">I</emphasis> = 50 A and the Hall potential is (a) <m:math><m:mrow><m:mn>4.0</m:mn><m:mi>μ</m:mi><m:mtext>V</m:mtext></m:mrow></m:math> and (b) <m:math><m:mrow><m:mn>6.0</m:mn><m:mi>μ</m:mi><m:mtext>V</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1171360520173">
+<para id="fs-id1171360121659">a. 1.1 T; b. 1.6 T</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1171360250462" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1171359032056" list-type="bulleted" bullet-style="bullet">
+<item>Perpendicular electric and magnetic fields exert equal and opposite forces for a specific velocity of entering particles, thereby acting as a velocity selector. The velocity that passes through undeflected is calculated by <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>The Hall effect can be used to measure the sign of the majority of charge carriers for metals. It can also be used to measure a magnetic field.</item>
+</list>
+</section>
+<section id="fs-id1171360084769" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1171360138563">
+<problem id="fs-id1171360268299">
+<para id="fs-id1171360275051">Hall potentials are much larger for poor conductors than for good conductors. Why?</para>
+</problem>
+<solution id="fs-id1171360128851">
+<para id="fs-id1171360293978">Poor conductors have a lower charge carrier density, <emphasis effect="italics">n</emphasis>, which, based on the Hall effect formula, relates to a higher Hall potential. Good conductors have a higher charge carrier density, thereby a lower Hall potential.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1171360295439" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1171359011064">
+<problem id="fs-id1171360293920">
+<para id="fs-id1171360121897">A strip of copper is placed in a uniform magnetic field of magnitude 2.5 T. The Hall electric field is measured to be <m:math><m:mrow><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>V/m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) What is the drift speed of the conduction electrons? (b) Assuming that n = <m:math><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup></m:mrow></m:math> electrons per cubic meter and that the cross-sectional area of the strip is <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> calculate the current in the strip. (c) What is the Hall coefficient 1/nq?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171358939774">
+<problem id="fs-id1171360353889">
+<para id="fs-id1171360345872">The cross-sectional dimensions of the copper strip shown are 2.0 cm by 2.0 mm. The strip carries a current of 100 A, and it is placed in a magnetic field of magnitude <emphasis effect="italics">B</emphasis> = 1.5 T. What are the value and polarity of the Hall potential in the copper strip?</para>
+<media id="fs-id1171358968478" alt="A horizontal 2.0 cm by 2.0 cm square copper strip has current I flowing through it to the right. A magnetic field, B, points up, perpendicular to the face of the strip.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_06_copperstrp.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171358952083">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171359044595"><m:math><m:mrow><m:mn>5.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>V</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1171356720797">
+<problem id="fs-id1171360065073">
+<para id="fs-id1171360587460">The magnitudes of the electric and magnetic fields in a velocity selector are <m:math><m:mrow><m:mn>1.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>V/m</m:mtext></m:mrow></m:math> and 0.080 T, respectively. (a) What speed must a proton have to pass through the selector? (b) Also calculate the speeds required for an alpha-particle and a singly ionized <m:math><m:mrow><m:msubsup><m:mrow/><m:mrow><m:mspace width="0.5em"/><m:mi>s</m:mi></m:mrow><m:mn/></m:msubsup><m:msup><m:mi>O</m:mi><m:mn>16</m:mn></m:msup></m:mrow></m:math> atom to pass through the selector.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171360353816">
+<problem id="fs-id1171360497368">
+<para id="fs-id1171360066166">A charged particle moves through a velocity selector at constant velocity. In the selector, <emphasis effect="italics">E</emphasis> = <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>N/C</m:mtext></m:mrow></m:math> and <emphasis effect="italics">B</emphasis> = 0.250 T. When the electric field is turned off, the charged particle travels in a circular path of radius 3.33 mm. Determine the charge-to-mass ratio of the particle.</para>
+</problem>
+<solution id="fs-id1171358972982">
+<para id="fs-id1171360168250"><m:math><m:mrow><m:mn>4.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>C/kg</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171360346981">
+<problem id="fs-id1171360251965">
+<para id="fs-id1171359161710">A Hall probe gives a reading of <m:math><m:mrow><m:mn>1.5</m:mn><m:mo>μ</m:mo><m:mtext>V</m:mtext></m:mrow></m:math> for a current of 2 A when it is placed in a magnetic field of 1 T. What is the magnetic field in a region where the reading is <m:math><m:mrow><m:mn>2</m:mn><m:mo>μ</m:mo><m:mtext>V</m:mtext></m:mrow></m:math> for 1.7 A of current?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171360099439">
+<term>Hall effect</term>
+<meaning id="fs-id1171360155261">creation of voltage across a current-carrying conductor by a magnetic field</meaning>
+</definition>
+<definition id="fs-id1171360156536">
+<term>velocity selector</term>
+<meaning id="fs-id1171360162598">apparatus where the crossed electric and magnetic fields produce equal and opposite forces on a charged particle moving with a specific velocity; this particle moves through the velocity selector not affected by either field while particles moving with different velocities are deflected by the apparatus</meaning>
+</definition>
+</glossary>
+</document>

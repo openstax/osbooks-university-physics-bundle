@@ -1,0 +1,78 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>Multiple-Slit Interference</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58539</md:content-id>
+  <md:title>Multiple-Slit Interference</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the locations and intensities of secondary maxima for multiple-slit interference</item>
+</list></md:abstract>
+  <md:uuid>7147eb34-1e95-4228-ba4e-e0b991f3ab80</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170904069863">Analyzing the interference of light passing through two slits lays out the theoretical framework of interference and gives us a historical insight into Thomas Young’s experiments. However, much of the modern-day application of slit interference uses not just two slits but many, approaching infinity for practical purposes. The key optical element is called a diffraction grating, an important tool in optical analysis, which we discuss in detail in <link document="m58542">Diffraction</link>. Here, we start the analysis of multiple-slit interference by taking the results from our analysis of the double slit (<m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>) and extending it to configurations with three, four, and much larger numbers of slits.</para>
+<para id="fs-id1170904151137"><link target-id="CNX_UPhysics_36_03_3slits"/> shows the simplest case of multiple-slit interference, with three slits, or <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>. The spacing between slits is <emphasis effect="italics">d</emphasis>, and the path length difference between adjacent slits is <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>, same as the case for the double slit. What is new is that the path length difference for the first and the third slits is <m:math><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>. The condition for constructive interference is the same as for the double slit, that is</para>
+<equation id="fs-id1172101855577" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902132300">When this condition is met, <m:math><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> is automatically a multiple of <m:math><m:mi>λ</m:mi></m:math>, so all three rays combine constructively, and the bright fringes that occur here are called <term>principal maxima</term>. But what happens when the path length difference between adjacent slits is only <m:math><m:mrow><m:mrow><m:mi>λ</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math>? We can think of the first and second rays as interfering destructively, but the third ray remains unaltered. Instead of obtaining a dark fringe, or a minimum, as we did for the double slit, we see a <term>secondary maximum</term> with intensity lower than the principal maxima.</para>
+<figure id="CNX_UPhysics_36_03_3slits">
+<media id="fs-id1170902338807" alt="Picture shows interference with three slits separated by distance d. Rays 1, 2, and 3 travel through the slits at the angles Theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_36_03_3slits.jpg"/>
+</media>
+<caption>Interference with three slits. Different pairs of emerging rays can combine constructively or destructively at the same time, leading to secondary maxima.</caption>
+</figure>
+<para id="fs-id1170904064450">In general, for <emphasis effect="italics">N</emphasis> slits, these secondary maxima occur whenever an unpaired ray is present that does not go away due to destructive interference. This occurs at <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>N</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> evenly spaced positions between the principal maxima. The amplitude of the electromagnetic wave is correspondingly diminished to <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mi>N</m:mi></m:mrow></m:mrow></m:math> of the wave at the principal maxima, and the light intensity, being proportional to the square of the wave amplitude, is diminished to <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math> of the intensity compared to the principal maxima. As <link target-id="CNX_UPhysics_36_03_234slits"/> shows, a dark fringe is located between every maximum (principal or secondary). As <emphasis effect="italics">N</emphasis> grows larger and the number of bright and dark fringes increase, the widths of the maxima become narrower due to the closely located neighboring dark fringes. Because the total amount of light energy remains unaltered, narrower maxima require that each maximum reaches a correspondingly higher intensity.</para>
+<figure id="CNX_UPhysics_36_03_234slits">
+<media id="fs-id1170903905254" alt="Picture A shows a graph for the interference fringe patterns for two, three and four slits. As the number of slits increases, more secondary maxima appear, but the principal maxima become narrower. Picture B shows photographs of fringe patterns for two, three and four slits. As the number of slits increases, more secondary maxima appear, but the principal maxima become brighter.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_36_03_234slits.jpg"/>
+</media>
+<caption>Interference fringe patterns for two, three and four slits. As the number of slits increases, more secondary maxima appear, but the principal maxima become brighter and narrower. (a) Graph and (b) photographs of fringe patterns.</caption>
+</figure>
+<section id="fs-id1170904048444" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170904154517">
+<item>Interference from multiple slits (<m:math><m:mrow><m:mi>N</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn></m:mrow></m:math>) produces principal as well as secondary maxima.</item>
+<item>As the number of slits is increased, the intensity of the principal maxima increases and the width decreases.</item>
+</list>
+</section>
+<section id="fs-id1170902148461" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170904172977">
+<problem id="fs-id1170902223599">
+<para id="fs-id1170904210389">Ten narrow slits are equally spaced 0.25 mm apart and illuminated with yellow light of wavelength 580 nm. (a) What are the angular positions of the third and fourth principal maxima? (b) What is the separation of these maxima on a screen 2.0 m from the slits?</para>
+</problem>
+<solution id="fs-id1170904062373">
+<para id="fs-id1170904055666">a. <m:math><m:mrow><m:mn>0.40</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo><m:mn>0.53</m:mn><m:mtext>°</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>4.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903895999">
+<problem id="fs-id1170904051704">
+<para id="fs-id1170903904974">The width of bright fringes can be calculated as the separation between the two adjacent dark fringes on either side. Find the angular widths of the third- and fourth-order bright fringes from the preceding problem.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903934192">
+<problem id="fs-id1170902095847">
+<para id="fs-id1170903861632">For a three-slit interference pattern, find the ratio of the peak intensities of a secondary maximum to a principal maximum.</para>
+</problem>
+<solution id="fs-id1170902135447">
+<para id="fs-id1170902153104">1:9</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902077189">
+<problem id="fs-id1170902075924">
+<para id="fs-id1170902120399">What is the angular width of the central fringe of the interference pattern of (a) 20 slits separated by <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>mm</m:mtext></m:mrow></m:math>? (b) 50 slits with the same separation? Assume that <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170903792446">
+<term>principal maximum</term>
+<meaning id="fs-id1170902207973">brightest interference fringes seen with multiple slits</meaning>
+</definition>
+<definition id="fs-id1170902265020">
+<term>secondary maximum</term>
+<meaning id="fs-id1170902161729">bright interference fringes of intensity lower than the principal maxima</meaning>
+</definition>
+</glossary>
+</document>

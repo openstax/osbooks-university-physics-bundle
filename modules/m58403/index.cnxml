@@ -1,0 +1,139 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Reversible and Irreversible Processes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58403</md:content-id>
+  <md:title>Reversible and Irreversible Processes</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Define reversible and irreversible processes</item>
+<item>State the second law of thermodynamics via an irreversible process</item></list></md:abstract>
+  <md:uuid>2ae259c8-4249-4bb2-9f2b-868a8e859133</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167584699711">Consider an ideal gas that is held in half of a thermally insulated container by a wall in the middle of the container. The other half of the container is under vacuum with no molecules inside. Now, if we remove the wall in the middle quickly, the gas expands and fills up the entire container immediately, as shown in <link target-id="CNX_UPhysics_21_01_FreeExpan"/>.</para>
+<figure id="CNX_UPhysics_21_01_FreeExpan">
+<media id="fs-id1167584694625" alt="Part a of the figure shows a container which has gas in the left half and vacuum in the right half. Part b shows a container which is completely filled with gas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_01_FreeExpan.jpg"/>
+</media>
+<caption>A gas expanding from half of a container to the entire container (a) before and (b) after the wall in the middle is removed.</caption>
+</figure>
+<para id="fs-id1167584900254">Because half of the container is under vacuum before the gas expands there, we do not expect any work to be done by the system—that is, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>—because no force from the vacuum is exerted on the gas during the expansion. If the container is thermally insulated from the rest of the environment, we do not expect any heat transfer to the system either, so <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Then the first law of thermodynamics leads to the change of the internal energy of the system,</para>
+<equation id="fs-id1167585066605" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585104391">For an ideal gas, if the internal energy doesn’t change, then the temperature stays the same. Thus, the equation of state of the ideal gas gives us the final pressure of the gas, <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the pressure of the gas before the expansion. The volume is doubled and the pressure is halved, but nothing else seems to have changed during the expansion.</para>
+<para id="fs-id1167584745259">All of this discussion is based on what we have learned so far and makes sense. Here is what puzzles us: Can all the molecules go backward to the original half of the container in some future time? Our intuition tells us that this is going to be very unlikely, even though nothing we have learned so far prevents such an event from happening, regardless of how small the probability is. What we are really asking is whether the expansion into the vacuum half of the container is <emphasis effect="italics">reversible</emphasis>.</para>
+<para id="fs-id1167583724498">A <term>reversible process</term> is a process in which the system and environment can be restored to exactly the same initial states that they were in before the process occurred, if we go backward along the path of the process. The necessary condition for a reversible process is therefore the quasi-static requirement. Note that it is quite easy to restore a system to its original state; the hard part is to have its environment restored to its original state at the same time. For example, in the example of an ideal gas expanding into vacuum to twice its original volume, we can easily push it back with a piston and restore its temperature and pressure by removing some heat from the gas. The problem is that we cannot do it without changing something in its surroundings, such as dumping some heat there.</para>
+<para id="fs-id1167584901209">A reversible process is truly an ideal process that rarely happens. We can make certain processes close to reversible and therefore use the consequences of the corresponding reversible processes as a starting point or reference. In reality, almost all processes are irreversible, and some properties of the environment are altered when the properties of the system are restored. The expansion of an ideal gas, as we have just outlined, is irreversible because the process is not even quasi-static, that is, not in an equilibrium state at any moment of the expansion.</para>
+<para id="fs-id1167584729245">From the microscopic point of view, a particle described by Newton’s second law can go backward if we flip the direction of time. But this is not the case, in practical terms, in a macroscopic system with more than <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup></m:mrow></m:math> particles or molecules, where numerous collisions between these molecules tend to erase any trace of memory of the initial trajectory of each of the particles. For example, we can actually estimate the chance for all the particles in the expanded gas to go back to the original half of the container, but the current age of the universe is still not long enough for it to happen even once.</para>
+<para id="fs-id1167583810892">An <term>irreversible process</term> is what we encounter in reality almost all the time. The system and its environment cannot be restored to their original states at the same time. Because this is what happens in nature, it is also called a natural process. The sign of an irreversible process comes from the finite gradient between the states occurring in the actual process. For example, when heat flows from one object to another, there is a finite temperature difference (gradient) between the two objects. More importantly, at any given moment of the process, the system most likely is not at equilibrium or in a well-defined state. This phenomenon is called <term>irreversibility</term>.</para>
+<para id="fs-id1167584766090">Let us see another example of irreversibility in thermal processes. Consider two objects in thermal contact: one at temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and the other at temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, as shown in <link target-id="CNX_UPhysics_21_01_HeatFlow"/>.</para>
+<figure id="CNX_UPhysics_21_01_HeatFlow">
+<media id="fs-id1167584970008" alt="The figure shows two adjoining objects with an arrow from left object to right object. The temperature of left object is T subscript 2 and right object is T subscript 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_01_HeatFlow.jpg"/>
+</media>
+<caption>Spontaneous heat flow from an object at higher temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> to another at lower temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1167583628129">We know from common personal experience that heat flows from a hotter object to a colder one. For example, when we hold a few pieces of ice in our hands, we feel cold because heat has left our hands into the ice. The opposite is true when we hold one end of a metal rod while keeping the other end over a fire. Based on all of the experiments that have been done on spontaneous heat transfer, the following statement summarizes the governing principle:</para>
+<note id="fs-id1167585023104">
+<title>Second Law of Thermodynamics (Clausius statement)</title>
+<para id="fs-id1167583815004">Heat never flows spontaneously from a colder object to a hotter object.</para>
+</note>
+<para id="fs-id1167583646080">This statement turns out to be one of several different ways of stating the second law of thermodynamics. The form of this statement is credited to German physicist Rudolf <term class="no-emphasis">Clausius</term> (1822−1888) and is referred to as the <term>Clausius statement of the second law of thermodynamics</term>. The word “spontaneously” here means no other effort has been made by a third party, or one that is neither the hotter nor colder object. We will introduce some other major statements of the second law and show that they imply each other. In fact, all the different statements of the second law of thermodynamics can be shown to be equivalent, and all lead to the irreversibility of spontaneous heat flow between macroscopic objects of a very large number of molecules or particles.</para>
+<para id="fs-id1167583516004">Both isothermal and adiabatic processes sketched on a <emphasis effect="italics">pV</emphasis> graph (discussed in <link document="m58721">The First Law of Thermodynamics</link>) are reversible in principle because the system is always at an equilibrium state at any point of the processes and can go forward or backward along the given curves. Other idealized processes can be represented by <emphasis effect="italics">pV</emphasis> curves; <link target-id="fs-id1167585159300"/> summarizes the most common reversible processes.</para>
+<table id="fs-id1167585159300" summary="The table has two columns and five rows. From left to right, the first row contains “Process” and “Constant Quantity and Resulting Fact”. The second row contains “Isobaric” and “Constant pressure W equals p delta V”. The third row contains “Isochoric” and “Constant volume W equals 0”. The fourth row contains “Isothermal” and “Constant temperature delta T equals 0”. The fifth row contains “Adiabatic” and “No heat transfer Q equals 0”."><title>Summary of Simple Thermodynamic Processes</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Process</entry>
+<entry valign="top" align="left">Constant Quantity and Resulting Fact</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Isobaric</entry>
+<entry valign="top" align="left">Constant pressure <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Isochoric</entry>
+<entry valign="top" align="left">Constant volume <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Isothermal</entry>
+<entry valign="top" align="left">Constant temperature <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Adiabatic</entry>
+<entry valign="top" align="left">No heat transfer <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><section id="fs-id1167584937711" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167585022460" list-type="bulleted" bullet-style="bullet">
+<item>A reversible process is one in which both the system and its environment can return to exactly the states they were in by following the reverse path.</item>
+<item>An irreversible process is one in which the system and its environment cannot return together to exactly the states that they were in.</item>
+<item>The irreversibility of any natural process results from the second law of thermodynamics.</item>
+</list>
+</section>
+<section id="fs-id1167584675714" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167584970944">
+<problem id="fs-id1167584667305">
+<para id="fs-id1167585020795">State an example of a process that occurs in nature that is as close to reversible as it can be.</para>
+</problem>
+<solution id="fs-id1167584857506">
+<para id="fs-id1167584632501">Some possible solutions are frictionless movement; restrained compression or expansion; energy transfer as heat due to infinitesimal temperature nonuniformity; electric current flow through a zero resistance; restrained chemical reaction; and mixing of two samples of the same substance at the same state.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167584722620" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167583712999">
+<problem id="fs-id1167584911045">
+<para id="fs-id1167585014520">A tank contains 111.0 g chlorine gas <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mrow><m:mtext>Cl</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> which is at temperature <m:math><m:mrow><m:mn>82.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and absolute pressure <m:math><m:mrow><m:mn>5.70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>.</m:mo></m:mrow></m:math> The temperature of the air outside the tank is <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. The molar mass of <m:math><m:mrow><m:msub><m:mrow><m:mtext>Cl</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math> is 70.9 g/mol. (a) What is the volume of the tank? (b) What is the internal energy of the gas? (c) What is the work done by the gas if the temperature and pressure inside the tank drop to <m:math><m:mrow><m:mn>31.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>3.80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math>, respectively, due to a leak?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585022699">
+<problem id="fs-id1167584696011">
+<para id="fs-id1167583686936">A mole of ideal monatomic gas at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and 1.00 atm is warmed up to expand isobarically to triple its volume. How much heat is transferred during the process?</para>
+</problem>
+<solution id="fs-id1167584841634">
+<para id="fs-id1167584691742"><m:math><m:mrow><m:mn>11.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167585023280">
+<problem id="fs-id1167584751098">
+<para id="fs-id1167583639778">A mole of an ideal gas at pressure 4.00 atm and temperature 298 K expands isothermally to double its volume. What is the work done by the gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585127386">
+<problem id="fs-id1167585091698">
+<para id="fs-id1167585016161">After a free expansion to quadruple its volume, a mole of ideal diatomic gas is compressed back to its original volume adiabatically and then cooled down to its original temperature. What is the minimum heat removed from the gas in the final step to restoring its state?</para></problem>
+<solution id="fs-id1167584720443">
+<para id="fs-id1167583687541"><m:math><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mi>p</m:mi><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167584724939">
+<term>Clausius statement of the second law of thermodynamics</term>
+<meaning id="fs-id1167584775821">heat never flows spontaneously from a colder object to a hotter object</meaning>
+</definition>
+<definition id="fs-id1167583837383">
+<term>irreversibility</term>
+<meaning id="fs-id1167585152485">phenomenon associated with a natural process</meaning>
+</definition>
+<definition id="fs-id1167583839601">
+<term>irreversible process</term>
+<meaning id="fs-id1167584696816">process in which neither the system nor its environment can be restored to their original states at the same time</meaning>
+</definition>
+<definition id="fs-id1167584753200">
+<term>reversible process</term>
+<meaning id="fs-id1167583837337">process in which both the system and the external environment theoretically can be returned to their original states</meaning>
+</definition>
+</glossary>
+
+</document>

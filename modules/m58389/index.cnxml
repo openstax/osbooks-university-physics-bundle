@@ -1,0 +1,902 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Mechanisms of Heat Transfer</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58389</md:content-id>
+  <md:title>Mechanisms of Heat Transfer</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain some phenomena that involve conductive, convective, and radiative heat transfer</item>
+<item>Solve problems on the relationships between heat transfer, time, and rate of heat transfer</item>
+<item>Solve problems using the formulas for conduction and radiation</item>
+</list></md:abstract>
+  <md:uuid>e848904f-17a1-4772-b780-97dcdb2799e4</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170903900576">Just as interesting as the effects of heat transfer on a system are the methods by which it occurs. Whenever there is a temperature difference, heat transfer occurs. It may occur rapidly, as through a cooking pan, or slowly, as through the walls of a picnic ice chest. So many processes involve heat transfer that it is hard to imagine a situation where no heat transfer occurs. Yet every heat transfer takes place by only three methods:</para>
+<list id="fs-id1170902116660" list-type="enumerated" number-style="arabic">
+<item><emphasis effect="bold">Conduction</emphasis> is heat transfer through stationary matter by physical contact. (The matter is stationary on a macroscopic scale—we know that thermal motion of the atoms and molecules occurs at any temperature above absolute zero.) Heat transferred from the burner of a stove through the bottom of a pan to food in the pan is transferred by <term class="no-emphasis">conduction</term>.</item>
+<item><emphasis effect="bold">Convection</emphasis> is the heat transfer by the macroscopic movement of a fluid. This type of transfer takes place in a forced-air furnace and in weather systems, for example.</item>
+<item>Heat transfer by <term>radiation</term> occurs when microwaves, infrared radiation, visible light, or another form of electromagnetic radiation is emitted or absorbed. An obvious example is the warming of Earth by the Sun. A less obvious example is thermal radiation from the human body.</item>
+</list>
+<para id="fs-id1170904129257">In the illustration at the beginning of this chapter, the fire warms the snowshoers’ faces largely by radiation. Convection carries some heat to them, but most of the air flow from the fire is upward (creating the familiar shape of flames), carrying heat to the food being cooked and into the sky. The snowshoers wear clothes designed with low conductivity to prevent heat flow out of their bodies.</para>
+<para id="fs-id1170903821247">In this section, we examine these methods in some detail. Each method has unique and interesting characteristics, but all three have two things in common: They transfer heat solely because of a temperature difference, and the greater the temperature difference, the faster the heat transfer (<link target-id="CNX_UPhysics_18_06_Fireplace"/>).</para>
+<figure id="CNX_UPhysics_18_06_Fireplace">
+<media id="fs-id1170904051682" alt="Figure shows a room with a fireplace. Hot air rises through the chimney. This is labeled convection. Heat going into the room from the fireplace is labeled radiation. Arrows show air circulation within the room. This is labeled convection. There is cold air outside the room. There is convection around doors and windows. The fire heats the floor of the room through conduction.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Fireplace.jpg"/>
+</media>
+<caption>In a fireplace, heat transfer occurs by all three methods: conduction, convection, and radiation. Radiation is responsible for most of the heat transferred into the room. Heat transfer also occurs through conduction into the room, but much slower. Heat transfer by convection also occurs through cold air entering the room around windows and hot air leaving the room by rising up the chimney.</caption>
+</figure>
+<note id="fs-id1170902410391" class="check-understanding">
+<exercise id="fs-id1170904068326">
+<problem id="fs-id1170903809520">
+<para id="fs-id1170902180278"><emphasis effect="bold">Check Your Understanding</emphasis> Name an example from daily life (different from the text) for each mechanism of heat transfer.</para>
+</problem>
+<solution id="fs-id1170902265069">
+<para id="fs-id1170903799562">Conduction: Heat transfers into your hands as you hold a hot cup of coffee. Convection: Heat transfers as the barista “steams” cold milk to make hot cocoa. Radiation: Heat transfers from the Sun to a jar of water with tea leaves in it to make “Sun tea.” A great many other answers are possible.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1170904166832">
+<title>Conduction</title>
+<para id="fs-id1170904104440">As you walk barefoot across the living room carpet in a cold house and then step onto the kitchen tile floor, your feet feel colder on the tile. This result is intriguing, since the carpet and tile floor are both at the same temperature. The different sensation is explained by the different rates of heat transfer: The heat loss is faster for skin in contact with the tiles than with the carpet, so the sensation of cold is more intense.</para>
+<para id="fs-id1170902191502">Some materials conduct thermal energy faster than others. <link target-id="CNX_UPhysics_18_06_Insulation"/> shows a material that conducts heat slowly—it is a good thermal insulator, or poor heat conductor—used to reduce heat flow into and out of a house.</para>
+<figure id="CNX_UPhysics_18_06_Insulation">
+<media id="fs-id1170902125745" alt="Photograph of insulation on doors.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Insulation.jpg"/>
+</media>
+<caption>Insulation is used to limit the conduction of heat from the inside to the outside (in winter) and from the outside to the inside (in summer). (credit: Giles Douglas)</caption>
+</figure>
+<para id="fs-id1170902243297">A molecular picture of heat conduction will help justify the equation that describes it. <link target-id="CNX_UPhysics_18_06_Kinetic"/> shows molecules in two bodies at different temperatures, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> for “hot” and “cold.” The average kinetic energy of a molecule in the hot body is higher than in the colder body. If two molecules collide, energy transfers from the high-energy to the low-energy molecule. In a metal, the picture would also include free valence electrons colliding with each other and with atoms, likewise transferring energy. The cumulative effect of all collisions is a net flux of heat from the hotter body to the colder body. Thus, the rate of heat transfer increases with increasing temperature difference <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> If the temperatures are the same, the net heat transfer rate is zero. Because the number of collisions increases with increasing area, heat conduction is proportional to the cross-sectional area—a second factor in the equation.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_18_06_Kinetic"><media id="fs-id1170904152785" alt="Figure shows the cross section of a surface as a vertical line. To the left is an area at higher temperature, to the right is an area with lower temperature. A molecule strikes the surface from the left and bounces off. This has high energy before collision compared to after. Another molecule to the right of the surface strikes it. This has low energy before collision compared to after.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Kinetic.jpg"/>
+</media>
+
+<caption>Molecules in two bodies at different temperatures have different average kinetic energies. Collisions occurring at the contact surface tend to transfer energy from high-temperature regions to low-temperature regions. In this illustration, a molecule in the lower-temperature region (right side) has low energy before collision, but its energy increases after colliding with a high-energy molecule at the contact surface. In contrast, a molecule in the higher-temperature region (left side) has high energy before collision, but its energy decreases after colliding with a low-energy molecule at the contact surface.</caption></figure><para id="fs-id1170904110830">A third quantity that affects the conduction rate is the thickness of the material through which heat transfers. <link target-id="CNX_UPhysics_18_06_Conduction"/> shows a slab of material with a higher temperature on the left than on the right. Heat transfers from the left to the right by a series of molecular collisions. The greater the distance between hot and cold, the more time the material takes to transfer the same amount of heat.</para>
+<figure id="CNX_UPhysics_18_06_Conduction">
+<media id="fs-id1170902165943" alt="Figure shows a rectangular bar of material with thermal conductivity k and cross sectional area A. It is in contact with a block at high temperature Th to the left and with a block at low temperature Tc to the right.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Conduction.jpg"/>
+</media>
+<caption>Heat conduction occurs through any material, represented here by a rectangular bar, whether window glass or walrus blubber.</caption>
+</figure>
+<para id="fs-id1170902166543">All four of these quantities appear in a simple equation deduced from and confirmed by experiments. The <term>rate of conductive heat transfer</term> through a slab of material, such as the one in <link target-id="CNX_UPhysics_18_06_Conduction"/>, is given by</para>
+<note id="fs-id1170903903012" class="equation-callout">
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170904051426"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:math></equation></note>
+<para id="fs-id1170904168041">where <emphasis effect="italics">P</emphasis> is the power or rate of heat transfer in watts or in kilocalories per second, <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">d</emphasis> are its surface area and thickness, as shown in <link target-id="CNX_UPhysics_18_06_Conduction"/>, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> is the temperature difference across the slab, and <emphasis effect="italics">k</emphasis> is the <term>thermal conductivity</term> of the material. <link target-id="fs-id1170903900728"/> gives representative values of thermal conductivity.</para>
+<para id="fs-id1170902131502">More generally, we can write</para>
+<equation id="fs-id1170904163891" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>k</m:mi><m:mi>A</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902283372">where <emphasis effect="italics">x</emphasis> is the coordinate in the direction of heat flow. Since in <link target-id="CNX_UPhysics_18_06_Conduction"/>, the power and area are constant, <emphasis effect="italics">dT</emphasis>/<emphasis effect="italics">dx</emphasis> is constant, and the temperature decreases linearly from <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> to <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170903900728" summary="This table has 2 columns, 22 rows and a header row. The header row labels each column: substance and thermal conductivity k in W per m degree C. Column 1 has these substances: Diamond, Silver, Copper, Gold, Aluminum, Steel iron, Stainless Steel, Ice, Average Glass, Concrete brick, Water, Fatty tissue without blood, Asbestos, Plasterboard, Wood, Dry Snow, Cork, Glass wool, Wool, Down feathers, Air and Polystyrene foam. Column 2 has these values: 2000, 420, 390, 318, 220, 80, 14, 2.2, 0.84, 0.84, 0.6, 0.2, 0.16, 0.16, 0.08 to 0.16, 0.10, 0.042, 0.042, 0.04, 0.025, 0.023 and 0.010. Values are given for temperatures near zero degrees Celsius."><title>Thermal Conductivities of Common Substances </title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry valign="top" align="center">Substance</entry>
+<entry valign="top" align="center">Thermal Conductivity <emphasis effect="italics">k</emphasis> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>W</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="top" align="left">Diamond</entry>
+<entry valign="top" align="center">2000</entry>
+</row>
+<row>
+<entry valign="top" align="left">Silver</entry>
+<entry valign="top" align="center">420</entry>
+</row>
+<row>
+<entry valign="top" align="left">Copper</entry>
+<entry valign="top" align="center">390</entry>
+</row>
+<row>
+<entry valign="top" align="left">Gold</entry>
+<entry valign="top" align="center">318</entry>
+</row>
+<row>
+<entry valign="top" align="left">Aluminum</entry>
+<entry valign="top" align="center">220</entry>
+</row>
+<row>
+<entry valign="top" align="left">Steel iron</entry>
+<entry valign="top" align="center">80</entry>
+</row>
+<row>
+<entry valign="top" align="left">Steel (stainless)</entry>
+<entry valign="top" align="center">14</entry>
+</row>
+<row>
+<entry valign="top" align="left">Ice</entry>
+<entry valign="top" align="center">2.2</entry>
+</row>
+<row>
+<entry valign="top" align="left">Glass (average)</entry>
+<entry valign="top" align="center">0.84</entry>
+</row>
+<row>
+<entry valign="top" align="left">Concrete brick</entry>
+<entry valign="top" align="center">0.84</entry>
+</row>
+<row>
+<entry valign="top" align="left">Water</entry>
+<entry valign="top" align="center">0.6</entry>
+</row>
+<row>
+<entry valign="top" align="left">Fatty tissue (without blood)</entry>
+<entry valign="top" align="center">0.2</entry>
+</row>
+<row>
+<entry valign="top" align="left">Asbestos</entry>
+<entry valign="top" align="center">0.16</entry>
+</row>
+<row>
+<entry valign="top" align="left">Plasterboard</entry>
+<entry valign="top" align="center">0.16</entry>
+</row>
+<row>
+<entry valign="top" align="left">Wood</entry>
+<entry valign="top" align="center">0.08–0.16</entry>
+</row>
+<row>
+<entry valign="top" align="left">Snow (dry)</entry>
+<entry valign="top" align="center">0.10</entry>
+</row>
+<row>
+<entry valign="top" align="left">Cork</entry>
+<entry valign="top" align="center">0.042</entry>
+</row>
+<row>
+<entry valign="top" align="left">Glass wool</entry>
+<entry valign="top" align="center">0.042</entry>
+</row>
+<row>
+<entry valign="top" align="left">Wool</entry>
+<entry valign="top" align="center">0.04</entry>
+</row>
+<row>
+<entry valign="top" align="left">Down feathers</entry>
+<entry valign="top" align="center">0.025</entry>
+</row>
+<row>
+<entry valign="top" align="left">Air</entry>
+<entry valign="top" align="center">0.023</entry>
+</row>
+<row>
+<entry valign="top" align="left">Polystyrene foam</entry>
+<entry valign="top" align="center">0.010</entry>
+</row>
+</tbody>
+
+</tgroup><caption>Values are given for temperatures near <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</caption>
+</table><example id="fs-id1170902100031">
+<para id="fs-id1170902116889"><title>Calculating Heat Transfer through Conduction</title>
+A polystyrene foam icebox has a total area of <m:math><m:mrow><m:mn>0.950</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and walls with an average thickness of 2.50 cm. The box contains ice, water, and canned beverages at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> The inside of the box is kept cold by melting ice. How much ice melts in one day if the icebox is kept in the trunk of a car at <m:math><m:mrow><m:mn>35.0</m:mn><m:mspace width="0.2em"/><m:mtext>ºC</m:mtext></m:mrow></m:math>?</para>
+<para id="fs-id1170904073136"><title>Strategy</title>
+This question involves both heat for a phase change (melting of ice) and the transfer of heat by conduction. To find the amount of ice melted, we must find the net heat transferred. This value can be obtained by calculating the rate of heat transfer by conduction and multiplying by time.</para>
+<para id="fs-id1170903748946"><title>Solution</title>
+First we identify the knowns.</para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170902123238"><m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0.010</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> for polystyrene foam; <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0.950</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>2.50</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>0.0250</m:mn><m:mspace width="0.2em"/><m:mtext>m;</m:mtext></m:mrow></m:math>;<m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C;</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>35.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>day</m:mtext><m:mo>=</m:mo><m:mn>24</m:mn><m:mspace width="0.2em"/><m:mtext>hours</m:mtext><m:mspace width="0.2em"/><m:mtext>-</m:mtext><m:mspace width="0.2em"/><m:mn>86,400</m:mn><m:mspace width="0.2em"/><m:mtext>s.</m:mtext></m:mrow></m:math></para><para id="fs-id1170902338368">Then we identify the unknowns. We need to solve for the mass of the ice, <emphasis effect="italics">m</emphasis>. We also need to solve for the net heat transferred to melt the ice, <emphasis effect="italics">Q</emphasis>. The rate of heat transfer by conduction is given by</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170904209870" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1170902161688">The heat used to melt the ice is <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math>.We insert the known values:</para>
+<equation id="fs-id1170902192985" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.010</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.950</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>35.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>0.0250</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>13.3</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170902188414">Multiplying the rate of heat transfer by the time we obtain</para><equation id="fs-id1170902162310" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13.3</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>86.400</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.15</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902270689">We set this equal to the heat transferred to melt the ice, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> and solve for the mass <emphasis effect="italics">m</emphasis>:</para>
+<equation id="fs-id1170903825467" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1.15</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>334</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3.44</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902112592"><title>Significance</title>
+The result of 3.44 kg, or about 7.6 lb, seems about right, based on experience. You might expect to use about a 4 kg (7–10 lb) bag of ice per day. A little extra ice is required if you add any warm food or beverages.</para>
+<para id="fs-id1170904060989"><link target-id="fs-id1170903900728"/> shows that polystyrene foam is a very poor conductor and thus a good insulator. Other good insulators include fiberglass, wool, and goosedown feathers. Like polystyrene foam, these all contain many small pockets of air, taking advantage of air’s poor thermal conductivity.</para>
+</example>
+<para id="fs-id1170904260709">In developing <term class="no-emphasis">insulation</term>, the smaller the conductivity <emphasis effect="italics">k</emphasis> and the larger the thickness <emphasis effect="italics">d</emphasis>, the better. Thus, the ratio <emphasis effect="italics">d/k</emphasis>, called the <term class="no-emphasis"><emphasis effect="italics">R factor</emphasis></term>, is large for a good insulator. The rate of conductive heat transfer is inversely proportional to <emphasis effect="italics">R</emphasis>. <emphasis effect="italics">R</emphasis> factors are most commonly quoted for household insulation, refrigerators, and the like. Unfortunately, in the United States, <emphasis effect="italics">R</emphasis> is still in non-metric units of <m:math><m:mrow><m:msup><m:mrow><m:mtext>ft</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:mtext>°F</m:mtext><m:mo>·</m:mo><m:mtext>h/Btu</m:mtext></m:mrow></m:math>, although the unit usually goes unstated [1 British thermal unit (Btu) is the amount of energy needed to change the temperature of 1.0 lb of water by <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>, which is 1055.1 J]. A couple of representative values are an <emphasis effect="italics">R</emphasis> factor of 11 for 3.5-inch-thick fiberglass batts (pieces) of insulation and an <emphasis effect="italics">R</emphasis> factor of 19 for 6.5-inch-thick fiberglass batts (<link target-id="CNX_UPhysics_18_06_Fiberglass"/>). In the US, walls are usually insulated with 3.5-inch batts, whereas ceilings are usually insulated with 6.5-inch batts. In cold climates, thicker batts may be used.</para>
+<figure id="CNX_UPhysics_18_06_Fiberglass">
+<media id="fs-id1170903874449" alt="Photograph of a person handling a fiberglass batt.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Fiberglass.jpg"/>
+</media>
+<caption>The fiberglass batt is used for insulation of walls and ceilings to prevent heat transfer between the inside of the building and the outside environment. (credit: Tracey Nicholls)</caption>
+</figure>
+<para id="fs-id1170902140934">Note that in <link target-id="fs-id1170903900728"/>, most of the best thermal conductors—silver, copper, gold, and aluminum—are also the best electrical conductors, because they contain many free electrons that can transport thermal energy. (Diamond, an electrical insulator, conducts heat by atomic vibrations.) Cooking utensils are typically made from good conductors, but the handles of those used on the stove are made from good insulators (bad conductors).</para>
+<example id="fs-id1170902140575">
+<para id="fs-id1170902108368"><title>Two Conductors End to End</title>
+A steel rod and an aluminum rod, each of diameter 1.00 cm and length 25.0 cm, are welded end to end. One end of the steel rod is placed in a large tank of boiling water at <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, while the far end of the aluminum rod is placed in a large tank of water at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. The rods are insulated so that no heat escapes from their surfaces. What is the temperature at the joint, and what is the rate of heat conduction through this composite rod?</para>
+<para id="fs-id1170903862987"><title>Strategy</title>
+The heat that enters the steel rod from the boiling water has no place to go but through the steel rod, then through the aluminum rod, to the cold water. Therefore, we can equate the rate of conduction through the steel to the rate of conduction through the aluminum.</para>
+<para id="fs-id1170903780037">We repeat the calculation with a second method, in which we use the thermal resistance <emphasis effect="italics">R</emphasis> of the rod, since it simply adds when two rods are joined end to end. (We will use a similar method in the chapter on direct-current circuits.)</para>
+<para id="fs-id1170902117039"><title>Solution</title></para>
+<list id="fs-id1170902280775" list-type="enumerated" number-style="arabic">
+<item>Identify the knowns and convert them to SI units.<newline/>
+The length of each rod is <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext></m:mrow></m:math> the cross-sectional area of each rod is <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>7.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>,</m:mtext></m:mrow></m:math> the thermal conductivity of aluminum is <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>220</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, the thermal conductivity of steel is <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, the temperature at the hot end is <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, and the temperature at the cold end is <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</item>
+<item>Calculate the heat-conduction rate through the steel rod and the heat-conduction rate through the aluminum rod in terms of the unknown temperature <emphasis effect="italics">T</emphasis> at the joint:
+<equation id="fs-id1170904097851" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.0251</m:mn><m:mspace width="0.2em"/><m:mtext>W/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<equation id="fs-id1170902225837" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>220</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.0691</m:mn><m:mspace width="0.2em"/><m:mtext>W/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Set the two rates equal and solve for the unknown temperature:
+<equation id="fs-id1170904172614" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.0691</m:mn><m:mspace width="0.2em"/><m:mtext>W/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.0251</m:mn><m:mspace width="0.2em"/><m:mtext>W/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>T</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>41.3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Calculate either rate:
+<equation id="fs-id1170904110251" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.0251</m:mn><m:mspace width="0.2em"/><m:mtext>W/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>41.3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.47</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>If desired, check your answer by calculating the other rate.</item>
+</list>
+<para id="fs-id1170902355958"><title>Solution</title></para>
+<list id="fs-id1170904129915" list-type="enumerated" number-style="arabic">
+<item>Recall that <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>k</m:mi></m:mrow></m:math>. Now <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>We know that <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. We also know that <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> and we denote that rate of heat flow by <emphasis effect="italics">P</emphasis>. Combine the equations:
+<equation id="fs-id1170902137364" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>P</m:mi><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Thus, we can simply add <emphasis effect="italics">R</emphasis> factors. Now, <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mrow><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math>.</item>
+<item>Find the <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mi>s</m:mi></m:msub></m:mrow></m:math> from the known quantities:
+<equation id="fs-id1170904166586" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:msub><m:mrow/><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3.13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C/W</m:mtext></m:mrow></m:math></equation>
+and
+<equation id="fs-id1170902300926" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:msub><m:mrow/><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C/W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Substitute these values in to find <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>1.47</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math> as before.</item>
+<item>Determine <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> for the aluminum rod (or for the steel rod) and use it to find <emphasis effect="italics">T</emphasis> at the joint.
+<equation id="fs-id1170903757915" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.47</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C/W</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>7.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>21.3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math></equation>
+so <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>+</m:mo><m:mn>21.3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mn>41.3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, as in Solution <m:math><m:mn>1</m:mn></m:math>.</item>
+<item>If desired, check by determining <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> for the other rod.</item>
+</list>
+<para id="fs-id1170902116214"><title>Significance</title>
+In practice, adding <emphasis effect="italics">R</emphasis> values is common, as in calculating the <emphasis effect="italics">R</emphasis> value of an insulated wall. In the analogous situation in electronics, the resistance corresponds to <emphasis effect="italics">AR</emphasis> in this problem and is additive even when the areas are unequal, as is common in electronics. Our equation for heat conduction can be used only when the areas are equal; otherwise, we would have a problem in three-dimensional heat flow, which is beyond our scope.</para>
+</example>
+<note id="fs-id1170904088518" class="check-understanding">
+<exercise id="fs-id1170904203779">
+<problem id="fs-id1170903804711">
+<para id="fs-id1170904060932"><emphasis effect="bold">Check Your Understanding</emphasis> How does the rate of heat transfer by conduction change when all spatial dimensions are doubled?</para>
+</problem>
+<solution id="fs-id1170903878186">
+<para id="fs-id1170904130389">Because area is the product of two spatial dimensions, it increases by a factor of four when each dimension is doubled <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. The distance, however, simply doubles. Because the temperature difference and the coefficient of thermal conductivity are independent of the spatial dimensions, the rate of heat transfer by conduction increases by a factor of four divided by two, or two:<newline/>
+<m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:mfrac><m:mrow><m:mi>k</m:mi><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1170902397556">Conduction is caused by the random motion of atoms and molecules. As such, it is an ineffective mechanism for heat transport over macroscopic distances and short times. For example, the temperature on Earth would be unbearably cold during the night and extremely hot during the day if heat transport in the atmosphere were only through conduction. Also, car engines would overheat unless there was a more efficient way to remove excess heat from the pistons. The next module discusses the important heat-transfer mechanism in such situations.</para>
+</section>
+<section id="fs-id1170902043689">
+<title>Convection</title>
+<para id="fs-id1170902110372">In <term class="no-emphasis">convection</term>, thermal energy is carried by the large-scale flow of matter. It can be divided into two types. In <term class="no-emphasis"><emphasis effect="italics">forced convection</emphasis></term>, the flow is driven by fans, pumps, and the like. A simple example is a fan that blows air past you in hot surroundings and cools you by replacing the air heated by your body with cooler air. A more complicated example is the cooling system of a typical car, in which a pump moves coolant through the radiator and engine to cool the engine and a fan blows air to cool the radiator.</para>
+<para id="fs-id1170902063250">In <emphasis effect="italics">free</emphasis> or <term class="no-emphasis"><emphasis effect="italics">natural convection</emphasis></term>, the flow is driven by buoyant forces: hot fluid rises and cold fluid sinks because density decreases as temperature increases. The house in <link target-id="CNX_UPhysics_18_06_GravFurn"/> is kept warm by natural convection, as is the pot of water on the stove in <link target-id="CNX_UPhysics_18_06_PotWater"/>. Ocean currents and large-scale atmospheric circulation, which result from the buoyancy of warm air and water, transfer hot air from the tropics toward the poles and cold air from the poles toward the tropics. (Earth’s rotation interacts with those flows, causing the observed eastward flow of air in the temperate zones.)</para>
+<figure id="CNX_UPhysics_18_06_GravFurn">
+<media id="fs-id1170902236114" alt="Figure shows a room heated by a gravity furnace. Hot air rises from the furnace and travels along the ceiling to the right. Air cooled by room travels down from the ceiling and back to the furnace.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_GravFurn.jpg"/>
+</media>
+<caption>Air heated by a so-called gravity furnace expands and rises, forming a convective loop that transfers energy to other parts of the room. As the air is cooled at the ceiling and outside walls, it contracts, eventually becoming denser than room air and sinking to the floor. A properly designed heating system using natural convection, like this one, can heat a home quite efficiently.</caption>
+</figure>
+<figure id="CNX_UPhysics_18_06_PotWater">
+<media id="fs-id1170904144861" alt="Figure shows a pot of water being heated. Hot water rises and cold water sinks, resulting in circular motion of water within the pot.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_PotWater.jpg"/>
+</media>
+<caption>Natural convection plays an important role in heat transfer inside this pot of water. Once conducted to the inside, heat transfer to other parts of the pot is mostly by convection. The hotter water expands, decreases in density, and rises to transfer heat to other regions of the water, while colder water sinks to the bottom. This process keeps repeating.</caption>
+</figure>
+<note id="fs-id1170902288616" class="media-2">
+<para id="fs-id1170902568466">Natural convection like that of <link target-id="CNX_UPhysics_18_06_GravFurn"/> and <link target-id="CNX_UPhysics_18_06_PotWater"/>, but acting on rock in Earth’s mantle, drives <link url="https://openstax.org/l/21platetecton">plate tectonics</link> that are the motions that have shaped Earth’s surface.</para>
+</note>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170904224540">Convection is usually more complicated than conduction. Beyond noting that the convection rate is often approximately proportional to the temperature difference, we will not do any quantitative work comparable to the formula for conduction. However, we can describe convection qualitatively and relate convection rates to heat and time. Air is a poor conductor, so convection dominates heat transfer by air. Therefore, the amount of available space for airflow determines whether air transfers heat rapidly or slowly. There is little heat transfer in a space filled with air with a small amount of other material that prevents flow. The space between the inside and outside walls of a typical American house, for example, is about 9 cm (3.5 in.)—large enough for convection to work effectively. The addition of wall insulation prevents airflow, so heat loss (or gain) is decreased. On the other hand, the gap between the two panes of a double-paned window is about 1 cm, which largely prevents convection and takes advantage of air’s low conductivity reduce heat loss. Fur, cloth, and fiberglass also take advantage of the low conductivity of air by trapping it in spaces too small to support convection (<link target-id="CNX_UPhysics_18_06_Convection"/>).</para><figure id="CNX_UPhysics_18_06_Convection">
+<media id="fs-id1170902097010" alt="Figure shows part of a warm body covered with a layer of fur. The air outside is cold. There are circular arrows in the fur labeled convection loops.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Convection.jpg"/>
+</media>
+<caption>Fur is filled with air, breaking it up into many small pockets. Convection is very slow here, because the loops are so small. The low conductivity of air makes fur a very good lightweight insulator.</caption>
+</figure>
+<para id="fs-id1170903906318">Some interesting phenomena happen when convection is accompanied by a phase change. The combination allows us to cool off by sweating even if the temperature of the surrounding air exceeds body temperature. Heat from the skin is required for sweat to evaporate from the skin, but without air flow, the air becomes saturated and evaporation stops. Air flow caused by convection replaces the saturated air by dry air and evaporation continues.</para>
+<example id="fs-id1170904053210">
+<para id="fs-id1170904053212"><title>Calculating the Flow of Mass during Convection</title>
+The average person produces heat at the rate of about 120 W when at rest. At what rate must water evaporate from the body to get rid of all this energy? (For simplicity, we assume this evaporation occurs when a person is sitting in the shade and surrounding temperatures are the same as skin temperature, eliminating heat transfer by other methods.)</para>
+<para id="fs-id1170904041417"><title>Strategy</title>
+Energy is needed for this phase change (<m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub></m:mrow></m:math>). Thus, the energy loss per unit time is</para>
+<equation id="fs-id1170903829656" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub></m:mrow><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>=</m:mo><m:mtext>120 J/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903847076">We divide both sides of the equation by <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub></m:mrow></m:math> to find that the mass evaporated per unit time is</para>
+<equation id="fs-id1170902116070" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903879663"><title>Solution</title>
+Insert the value of the latent heat from <link target-id="fs-id1170903879019" document="m58388"/>, <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub><m:mo>=</m:mo><m:mn>2430</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/kg</m:mtext><m:mo>=</m:mo><m:mn>2430</m:mn><m:mspace width="0.2em"/><m:mtext>J/g</m:mtext></m:mrow></m:math>. This yields</para>
+<equation id="fs-id1170903830055" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext></m:mrow><m:mrow><m:mn>2430</m:mn><m:mspace width="0.2em"/><m:mtext>J/g</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.0494</m:mn><m:mspace width="0.2em"/><m:mtext>g/s</m:mtext><m:mo>=</m:mo><m:mn>2.96</m:mn><m:mspace width="0.2em"/><m:mtext>g/min</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902196497"><title>Significance</title>
+Evaporating about 3 g/min seems reasonable. This would be about 180 g (about 7 oz.) per hour. If the air is very dry, the sweat may evaporate without even being noticed. A significant amount of evaporation also takes place in the lungs and breathing passages.</para>
+</example>
+<para id="fs-id1170904192218">Another important example of the combination of phase change and convection occurs when water evaporates from the oceans. Heat is removed from the ocean when water evaporates. If the water vapor condenses in liquid droplets as clouds form, possibly far from the ocean, heat is released in the atmosphere. Thus, there is an overall transfer of heat from the ocean to the atmosphere. This process is the driving power behind thunderheads, those great cumulus clouds that rise as much as 20.0 km into the stratosphere (<link target-id="CNX_UPhysics_18_06_Cumulus"/>). Water vapor carried in by convection condenses, releasing tremendous amounts of energy. This energy causes the air to expand and rise to colder altitudes. More condensation occurs in these regions, which in turn drives the cloud even higher. This mechanism is an example of positive feedback, since the process reinforces and accelerates itself. It sometimes produces violent storms, with lightning and hail. The same mechanism drives hurricanes.</para>
+<note id="fs-id1170904097980" class="media-2">
+<para id="fs-id1170904097984">This <link url="https://openstax.org/l/21convthuncurr">time-lapse video</link> shows convection currents in a thunderstorm, including “rolling” motion similar to that of boiling water.</para>
+</note>
+<figure id="CNX_UPhysics_18_06_Cumulus">
+<media id="fs-id1170903874941" alt="Photograph of a cumulus cloud.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Cumulus.jpg"/>
+</media>
+<caption>Cumulus clouds are caused by water vapor that rises because of convection. The rise of clouds is driven by a positive feedback mechanism. (credit: “Amada44”/Wikimedia Commons)</caption>
+</figure>
+<note id="fs-id1170902338719" class="check-understanding">
+<exercise id="fs-id1170903904166">
+<problem id="fs-id1170903904169">
+<para id="fs-id1170904179934"><emphasis effect="bold">Check Your Understanding</emphasis> Explain why using a fan in the summer feels refreshing.</para>
+</problem>
+<solution id="fs-id1170902093445">
+<para id="fs-id1170904142515">Using a fan increases the flow of air: Warm air near your body is replaced by cooler air from elsewhere. Convection increases the rate of heat transfer so that moving air “feels” cooler than still air.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170902350756">
+<title>Radiation</title>
+<para id="fs-id1170902131961">You can feel the heat transfer from the Sun. The space between Earth and the Sun is largely empty, so the Sun warms us without any possibility of heat transfer by convection or conduction. Similarly, you can sometimes tell that the oven is hot without touching its door or looking inside—it may just warm you as you walk by. In these examples, heat is transferred by radiation (<link target-id="CNX_UPhysics_18_06_Fire"/>). That is, the hot body emits electromagnetic waves that are absorbed by the skin. No medium is required for electromagnetic waves to propagate. Different names are used for electromagnetic waves of different wavelengths: radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays.</para>
+<figure id="CNX_UPhysics_18_06_Fire">
+<media id="fs-id1170904165147" alt="Photograph of fire.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Fire.jpg"/>
+</media>
+<caption>Most of the heat transfer from this fire to the observers occurs through infrared radiation. The visible light, although dramatic, transfers relatively little thermal energy. Convection transfers energy away from the observers as hot air rises, while conduction is negligibly slow here. Skin is very sensitive to infrared radiation, so you can sense the presence of a fire without looking at it directly. (credit: Daniel O’Neil)</caption>
+</figure>
+<para id="fs-id1170902300446">The energy of electromagnetic radiation varies over a wide range, depending on the wavelength: A shorter wavelength (or higher frequency) corresponds to a higher energy. Because more heat is radiated at higher temperatures, higher temperatures produce more intensity at every wavelength but especially at shorter wavelengths. In visible light, wavelength determines color—red has the longest wavelength and violet the shortest—so a temperature change is accompanied by a color change. For example, an electric heating element on a stove glows from red to orange, while the higher-temperature steel in a blast furnace glows from yellow to white. Infrared radiation is the predominant form radiated by objects cooler than the electric element and the steel. The radiated energy as a function of wavelength depends on its intensity, which is represented in <link target-id="CNX_UPhysics_18_06_GraphSpect"/> by the height of the distribution. (<link document="m58495">Electromagnetic Waves</link> explains more about the electromagnetic spectrum, and <link document="m58757">Photons and Matter Waves</link> discusses why the decrease in wavelength corresponds to an increase in energy.)</para>
+<figure id="CNX_UPhysics_18_06_GraphSpect">
+<media id="fs-id1170902297791" alt="Figure a shows a graph of EM radiation intensity versus lambda in nm. There are three separate curves on the graph. These are labeled 6000 K or white hot, 4000 K and 3000 K or red hot. All rise, peak and taper down, with the first having the highest intensity and the last one, the lowest. The first curve peaks near the range of visible light, the second and third ones, just after. Figure b shows a flame. It is blue near the bottom, whitish in the middle and orangish at the top.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_GraphSpect.jpg"/>
+</media>
+<caption>(a) A graph of the spectrum of electromagnetic waves emitted from an ideal radiator at three different temperatures. The intensity or rate of radiation emission increases dramatically with temperature, and the spectrum shifts down in wavelength toward the visible and ultraviolet parts of the spectrum. The shaded portion denotes the visible part of the spectrum. It is apparent that the shift toward the ultraviolet with temperature makes the visible appearance shift from red to white to blue as temperature increases. (b) Note the variations in color corresponding to variations in flame temperature.</caption>
+</figure>
+<para id="fs-id1170902288825">The rate of heat transfer by radiation also depends on the object’s color. Black is the most effective, and white is the least effective. On a clear summer day, black asphalt in a parking lot is hotter than adjacent gray sidewalk, because black absorbs better than gray (<link target-id="CNX_UPhysics_18_06_Pavement"/>). The reverse is also true—black radiates better than gray. Thus, on a clear summer night, the asphalt is colder than the gray sidewalk, because black radiates the energy more rapidly than gray. A perfectly black object would be an <emphasis effect="italics">ideal radiator</emphasis> and an <emphasis effect="italics">ideal absorber</emphasis>, as it would capture all the radiation that falls on it. In contrast, a perfectly white object or a perfect mirror would reflect all radiation, and a perfectly transparent object would transmit it all (<link target-id="CNX_UPhysics_18_06_Absorption"/>). Such objects would not emit any radiation. Mathematically, the color is represented by the <term>emissivity</term> <emphasis effect="italics">e</emphasis>. A “blackbody” radiator would have an <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, whereas a perfect reflector or transmitter would have <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. For real examples, tungsten light bulb filaments have an <emphasis effect="italics">e</emphasis> of about 0.5, and carbon black (a material used in printer toner) has an emissivity of about 0.95.</para>
+<figure id="CNX_UPhysics_18_06_Pavement">
+<media id="fs-id1170902349728" alt="Figure on the left shows ice melting on a light coloured pavement. Figure on the right shows ice melting on a darker pavement. Here the ice has melted more.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Pavement.jpg"/>
+</media>
+<caption>The darker pavement is hotter than the lighter pavement (much more of the ice on the right has melted), although both have been in the sunlight for the same time. The thermal conductivities of the pavements are the same.</caption>
+</figure>
+<figure id="CNX_UPhysics_18_06_Absorption">
+<media id="fs-id1170902094974" alt="Figure shows four boxes. The first two are black and the other two are silver coated. The first box is labeled absorb. Incident radiant energy is absorbed and a small part of it is reflected. The second box is labeled radiate. Most energy is emitted and a small part of it is retained. The third box is labeled absorb. Most incident radiant anergy is reflected. A small part is absorbed. The last box is labeled radiate. Most incident energy is retained. A small part of it is emitted.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Absorption.jpg"/>
+</media>
+<caption>A black object is a good absorber and a good radiator, whereas a white, clear, or silver object is a poor absorber and a poor radiator. </caption>
+</figure>
+<para id="fs-id1170902096358">To see that, consider a silver object and a black object that can exchange heat by radiation and are in thermal equilibrium. We know from experience that they will stay in equilibrium (the result of a principle that will be discussed at length in <link document="m58402">Second Law of Thermodynamics</link>). For the black object’s temperature to stay constant, it must emit as much radiation as it absorbs, so it must be as good at radiating as absorbing. Similar considerations show that the silver object must radiate as little as it absorbs. Thus, one property, emissivity, controls both radiation and absorption.</para>
+<para id="fs-id1170902132114">Finally, the radiated heat is proportional to the object’s surface area, since every part of the surface radiates. If you knock apart the coals of a fire, the radiation increases noticeably due to an increase in radiating surface area.</para>
+<para id="fs-id1170902132117">The rate of heat transfer by emitted radiation is described by the <term>Stefan-Boltzmann law of radiation</term>:</para>
+<equation id="fs-id1170902124525" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>A</m:mi><m:mi>e</m:mi><m:msup><m:mi>T</m:mi><m:mn>4</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902178185">where <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>5.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:math> is the Stefan-Boltzmann constant, a combination of fundamental constants of nature; <emphasis effect="italics">A</emphasis> is the surface area of the object; and <emphasis effect="italics">T</emphasis> is its temperature in kelvins.</para>
+<para id="fs-id1170902295414">The proportionality to the <emphasis effect="italics">fourth power</emphasis> of the absolute temperature is a remarkably strong temperature dependence. It allows the detection of even small temperature variations. Images called <term class="no-emphasis"><emphasis effect="italics">thermographs</emphasis></term> can be used medically to detect regions of abnormally high temperature in the body, perhaps indicative of disease. Similar techniques can be used to detect heat leaks in homes (<link target-id="CNX_UPhysics_18_06_ThermGraph"/>), optimize performance of blast furnaces, improve comfort levels in work environments, and even remotely map Earth’s temperature profile.</para>
+<figure id="CNX_UPhysics_18_06_ThermGraph">
+<media id="fs-id1170902283369" alt="Figure shows a photograph of a building overlaid by its thermograph. The thermograph shows different areas of the building in different colours. The windows are yellow with red frames.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_ThermGraph.jpg"/>
+</media>
+<caption>A thermograph of part of a building shows temperature variations, indicating where heat transfer to the outside is most severe. Windows are a major region of heat transfer to the outside of homes. (credit: US Army)</caption>
+</figure>
+<para id="fs-id1170904053462">The Stefan-Boltzmann equation needs only slight refinement to deal with a simple case of an object’s absorption of radiation from its surroundings. Assuming that an object with a temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is surrounded by an environment with uniform temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, the <term>net rate of heat transfer by radiation</term> is</para>
+<note id="fs-id1170902057965" class="equation-callout">
+<equation id="fs-id1170902057968"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902065233">where <emphasis effect="italics">e</emphasis> is the emissivity of the object alone. In other words, it does not matter whether the surroundings are white, gray, or black: The balance of radiation into and out of the object depends on how well it emits and absorbs radiation. When <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> the quantity <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow></m:math> is positive, that is, the net heat transfer is from hot to cold.</para>
+<para id="fs-id1170902057490">Before doing an example, we have a complication to discuss: different emissivities at different wavelengths. If the fraction of incident radiation an object reflects is the same at all visible wavelengths, the object is gray; if the fraction depends on the wavelength, the object has some other color. For instance, a red or reddish object reflects red light more strongly than other visible wavelengths. Because it absorbs less red, it radiates less red when hot. Differential reflection and absorption of wavelengths outside the visible range have no effect on what we see, but they may have physically important effects. Skin is a very good absorber and emitter of infrared radiation, having an emissivity of 0.97 in the infrared spectrum. Thus, in spite of the obvious variations in skin color, we are all nearly black in the infrared. This high infrared emissivity is why we can so easily feel radiation on our skin. It is also the basis for the effectiveness of night-vision scopes used by law enforcement and the military to detect human beings.</para>
+<example id="fs-id1170902222732">
+<para id="fs-id1170902222734"><title>Calculating the Net Heat Transfer of a Person</title>
+What is the rate of heat transfer by radiation of an unclothed person standing in a dark room whose ambient temperature is <m:math><m:mrow><m:mn>22.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? The person has a normal skin temperature of <m:math><m:mrow><m:mn>33.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and a surface area of <m:math><m:mrow><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> The emissivity of skin is 0.97 in the infrared, the part of the spectrum where the radiation takes place.</para>
+<para id="fs-id1170902156241"><title>Strategy</title>
+We can solve this by using the equation for the rate of radiative heat transfer.</para>
+<para id="fs-id1170902206128"><title>Solution</title>
+Insert the temperature values <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>295</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>306</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>, so that</para>
+<equation id="fs-id1170902308478" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.97</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>295</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>306</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mo>]</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>−99</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>=</m:mo><m:mn>−99</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170902150888"><title>Significance</title>
+This value is a significant rate of heat transfer to the environment (note the minus sign), considering that a person at rest may produce energy at the rate of 125 W and that conduction and convection are also transferring energy to the environment. Indeed, we would probably expect this person to feel cold. Clothing significantly reduces heat transfer to the environment by all mechanisms, because clothing slows down both conduction and convection, and has a lower emissivity (especially if it is light-colored) than skin.</para>
+</example>
+<para id="fs-id1170903855653">The average temperature of Earth is the subject of much current discussion. Earth is in radiative contact with both the Sun and dark space, so we cannot use the equation for an environment at a uniform temperature. Earth receives almost all its energy from radiation of the Sun and reflects some of it back into outer space. Conversely, dark space is very cold, about 3 K, so that Earth radiates energy into the dark sky. The rate of heat transfer from soil and grasses can be so rapid that frost may occur on clear summer evenings, even in warm latitudes.</para>
+<para id="fs-id1170903855655">The average temperature of Earth is determined by its energy balance. To a first approximation, it is the temperature at which Earth radiates heat to space as fast as it receives energy from the Sun.</para>
+<para id="fs-id1170904102802">An important parameter in calculating the temperature of Earth is its emissivity (<emphasis effect="italics">e</emphasis>). On average, it is about 0.65, but calculation of this value is complicated by the great day-to-day variation in the highly reflective cloud coverage. Because clouds have lower emissivity than either oceans or land masses, they reflect some of the radiation back to the surface, greatly reducing heat transfer into dark space, just as they greatly reduce heat transfer into the atmosphere during the day. There is negative feedback (in which a change produces an effect that opposes that change) between clouds and heat transfer; higher temperatures evaporate more water to form more clouds, which reflect more radiation back into space, reducing the temperature.</para>
+<para id="fs-id1170903821983">The often-mentioned <term>greenhouse effect</term> is directly related to the variation of Earth’s emissivity with wavelength (<link target-id="CNX_UPhysics_18_06_Greenhouse"/>). The greenhouse effect is a natural phenomenon responsible for providing temperatures suitable for life on Earth and for making Venus unsuitable for human life. Most of the infrared radiation emitted from Earth is absorbed by carbon dioxide (<m:math><m:mrow><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math>) and water (<m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext></m:mrow></m:math>) in the atmosphere and then re-radiated into outer space or back to Earth. Re-radiation back to Earth maintains its surface temperature about <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> higher than it would be if there were no atmosphere. (The glass walls and roof of a greenhouse increase the temperature inside by blocking convective heat losses, not radiative losses.)</para>
+<figure id="CNX_UPhysics_18_06_Greenhouse">
+<media id="fs-id1170902307790" alt="Figure shows UV, IR and visible light from the sun striking the earth through its atmosphere. Of these, only IR is reflected.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Greenhouse.jpg"/>
+</media>
+<caption>The greenhouse effect is the name given to the increase of Earth’s temperature due to absorption of radiation in the atmosphere. The atmosphere is transparent to incoming visible radiation and most of the Sun’s infrared. The Earth absorbs that energy and re-emits it. Since Earth’s temperature is much lower than the Sun’s, it re-emits the energy at much longer wavelengths, in the infrared. The atmosphere absorbs much of that infrared radiation and radiates about half of the energy back down, keeping Earth warmer than it would otherwise be. The amount of trapping depends on concentrations of trace gases such as carbon dioxide, and an increase in the concentration of these gases increases Earth’s surface temperature.</caption>
+</figure>
+<para id="fs-id1170904172960">The greenhouse effect is central to the discussion of global warming due to emission of carbon dioxide and methane (and other greenhouse gases) into Earth’s atmosphere from industry, transportation, and farming. Changes in global climate could lead to more intense storms, precipitation changes (affecting agriculture), reduction in rain forest biodiversity, and rising sea levels.</para>
+<note id="fs-id1170904127965" class="media-2">
+<para id="fs-id1170904127969">You can explore <link url="https://openstax.org/l/21simgreeneff">a simulation of the greenhouse effect</link> that takes the point of view that the atmosphere scatters (redirects) infrared radiation rather than absorbing it and reradiating it. You may want to run the simulation first with no greenhouse gases in the atmosphere and then look at how adding greenhouse gases affects the infrared radiation from the Earth and the Earth’s temperature.</para>
+</note>
+<note id="fs-id1170902085644" class="problem-solving">
+<title>Effects of Heat Transfer</title>
+<list id="fs-id1170902116092" list-type="enumerated" number-style="arabic">
+<item>Examine the situation to determine what type of heat transfer is involved.</item>
+<item>Identify the type(s) of heat transfer—conduction, convection, or radiation.</item>
+<item>Identify exactly what needs to be determined in the problem (identify the unknowns). A written list is useful.</item>
+<item>Make a list of what is given or what can be inferred from the problem as stated (identify the knowns).</item>
+<item>Solve the appropriate equation for the quantity to be determined (the unknown).</item>
+<item>For conduction, use the equation <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:math>. <link target-id="fs-id1170903900728"/> lists thermal conductivities. For convection, determine the amount of matter moved and the equation <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>, along with <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> or <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub></m:mrow></m:math> if a substance changes phase. For radiation, the equation <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> gives the net heat transfer rate.</item>
+<item>Substitute the knowns along with their units into the appropriate equation and obtain numerical solutions complete with units.</item>
+<item>Check the answer to see if it is reasonable. Does it make sense?</item>
+</list>
+</note>
+<note id="fs-id1170903788674" class="check-understanding">
+<exercise id="fs-id1170902205119">
+<problem id="fs-id1170902205121">
+<para id="fs-id1170902205124"><emphasis effect="bold">Check Your Understanding</emphasis> How much greater is the rate of heat radiation when a body is at the temperature <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> than when it is at the temperature <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170902402497">
+<para id="fs-id1170902402499">The radiated heat is proportional to the fourth power of the <emphasis effect="italics">absolute temperature</emphasis>. Because <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>293</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>313</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>, the rate of heat transfer increases by about 30% of the original rate.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170902264743" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170904170856" list-type="bulleted" bullet-style="bullet">
+<item>Heat is transferred by three different methods: conduction, convection, and radiation.</item>
+<item>Heat conduction is the transfer of heat between two objects in direct contact with each other.</item>
+<item>The rate of heat transfer <emphasis effect="italics">P</emphasis> (energy per unit time) is proportional to the temperature difference <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> and the contact area <emphasis effect="italics">A</emphasis> and inversely proportional to the distance <emphasis effect="italics">d</emphasis> between the objects.</item>
+<item>Convection is heat transfer by the macroscopic movement of mass. Convection can be natural or forced, and generally transfers thermal energy faster than conduction. Convection that occurs along with a phase change can transfer energy from cold regions to warm ones.</item>
+<item>Radiation is heat transfer through the emission or absorption of electromagnetic waves.</item>
+<item>The rate of radiative heat transfer is proportional to the emissivity <emphasis effect="italics">e</emphasis>. For a perfect blackbody, <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, whereas a perfectly white, clear, or reflective body has <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, with real objects having values of <emphasis effect="italics">e</emphasis> between 1 and 0.</item>
+<item>The rate of heat transfer depends on the surface area and the fourth power of the absolute temperature:
+<equation id="fs-id1170902275068" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:msup><m:mi>T</m:mi><m:mn>4</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+where <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>5.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:math> is the Stefan-Boltzmann constant and <emphasis effect="italics">e</emphasis> is the emissivity of the body. The net rate of heat transfer from an object by radiation is
+<equation id="fs-id1170902041956" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+where <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the temperature of the object surrounded by an environment with uniform temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> and <emphasis effect="italics">e</emphasis> is the emissivity of the object.</item>
+</list>
+</section>
+<section id="fs-id1170902161206" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1170902097931" summary="The table has two columns and nine rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Linear thermal expansion” and “delta L equals alpha L delta T”. The second row contains “Thermal expansion in two dimensions” and “delta A equals 2 alpha A delta T”. The third row contains “Thermal expansion in three dimensions” and “delta V equals beta V delta T”. The fourth row contains “Heat transfer” and “Q equals m c delta T”. The fifth row contains “Transfer of heat in a calorimeter” and “Q subscript cold plus Q subscript hot equals 0”. The sixth row contains “Heat due to phase change (melting and freezing)” and “Q equals m L subscript f”. The seventh row contains “Heat due to phase change (evaporation and condensation)” and “Q equals m L subscript v”. The eighth row contains “Rate of conductive heat transfer” and “P equals numerator k A opening parenthesis T subscript h minus T subscript c closing parenthesis divided by denominator d”. The ninth row contains “Net rate of heat transfer by radiation” and “sigma e A opening parenthesis T subscript 2 power 4 minus T subscript 1 power 4 closing parenthesis”." class="unnumbered unstyled">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Linear thermal expansion</entry>
+<entry align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Thermal expansion in two dimensions</entry>
+<entry align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>α</m:mi><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Thermal expansion in three dimensions</entry>
+<entry align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>β</m:mi><m:mi>V</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Heat transfer</entry>
+<entry align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Transfer of heat in a calorimeter</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>cold</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>hot</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Heat due to phase change (melting and freezing)</entry>
+<entry align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Heat due to phase change (evaporation and condensation)</entry>
+<entry align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Rate of conductive heat transfer</entry>
+<entry align="left"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mi>h</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mi>c</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Net rate of heat transfer by radiation</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1170902196722" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170902321039">
+<problem id="fs-id1170902321041">
+<para id="fs-id1170902321044">What are the main methods of heat transfer from the hot core of Earth to its surface? From Earth’s surface to outer space?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902100469">
+<problem id="fs-id1170902102387">
+<para id="fs-id1170902102389">When our bodies get too warm, they respond by sweating and increasing blood circulation to the surface to transfer thermal energy away from the core. What effect will those processes have on a person in a <m:math><m:mrow><m:mn>40.0</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> hot tub?</para>
+</problem>
+<solution id="fs-id1170902232328">
+<para id="fs-id1170902232330">Increasing circulation to the surface will warm the person, as the temperature of the water is warmer than human body temperature. Sweating will cause no evaporative cooling under water or in the humid air immediately above the tub.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902158734">
+<problem id="fs-id1170904203704">
+<para id="fs-id1170904203706">Shown below is a cut-away drawing of a thermos bottle (also known as a Dewar flask), which is a device designed specifically to slow down all forms of heat transfer. Explain the functions of the various parts, such as the vacuum, the silvering of the walls, the thin-walled long glass neck, the rubber support, the air layer, and the stopper.</para>
+<media id="fs-id1170904209214" alt="Figure shows the cross section of a thermos. Glass walls with silvered surfaces form the inner container. It is suspended within the outer container with springs and rubber supports. There is a layer of air and a layer of vacuum between the two containers. the inner container is filled with hot or cold liquid.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Thermos_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170904135459">
+<problem id="fs-id1170904135461">
+<para id="fs-id1170902304420">Some electric stoves have a flat ceramic surface with heating elements hidden beneath. A pot placed over a heating element will be heated, while the surface only a few centimeters away is safe to touch. Why is ceramic, with a conductivity less than that of a metal but greater than that of a good insulator, an ideal choice for the stove top?</para>
+</problem>
+<solution id="fs-id1170903847224">
+<para id="fs-id1170903847226">It spread the heat over the area above the heating elements, evening the temperature there, but does not spread the heat much beyond the heating elements.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904056164">
+<problem id="fs-id1170902191160">
+<para id="fs-id1170902191162">Loose-fitting white clothing covering most of the body, shown below, is ideal for desert dwellers, both in the hot Sun and during cold evenings. Explain how such clothing is advantageous during both day and night.</para>
+<media id="fs-id1170904225254" alt="Photograph of men wearing loose white clothing.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Jellabiya_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170903855364">
+<problem id="fs-id1170903881233">
+<para id="fs-id1170903881235">One way to make a fireplace more energy-efficient is to have room air circulate around the outside of the fire box and back into the room. Detail the methods of heat transfer involved.</para>
+</problem>
+<solution id="fs-id1170903831144">
+<para id="fs-id1170903881238">Heat is conducted from the fire through the fire box to the circulating air and then convected by the air into the room (forced convection).</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903905867">
+<problem id="fs-id1170903905869">
+<para id="fs-id1170903905871">On cold, clear nights horses will sleep under the cover of large trees. How does this help them keep warm?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902224401">
+<problem id="fs-id1170902118342">
+<para id="fs-id1170902118345">When watching a circus during the day in a large, dark-colored tent, you sense significant heat transfer from the tent. Explain why this occurs.</para>
+</problem>
+<solution id="fs-id1170904092731">
+<para id="fs-id1170904092734">The tent is heated by the Sun and transfers heat to you by all three processes, especially radiation.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902150007">
+<problem id="fs-id1170902150009">
+<para id="fs-id1170903867931">Satellites designed to observe the radiation from cold (3 K) dark space have sensors that are shaded from the Sun, Earth, and the Moon and are cooled to very low temperatures. Why must the sensors be at low temperature?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902090940">
+<problem id="fs-id1170902090942">
+<para id="fs-id1170902270510">Why are thermometers that are used in weather stations shielded from the sunshine? What does a thermometer measure if it is shielded from the sunshine? What does it measure if it is not?</para>
+</problem>
+<solution id="fs-id1170902358899">
+<para id="fs-id1170902358901">If shielded, it measures the air temperature. If not, it measures the combined effect of air temperature and net radiative heat gain from the Sun.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904007161">
+<problem id="fs-id1170904007164">
+<para id="fs-id1170904140196">Putting a lid on a boiling pot greatly reduces the heat transfer necessary to keep it boiling. Explain why.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904048491">
+<problem id="fs-id1170904048493">
+<para id="fs-id1170902130781">Your house will be empty for a while in cold weather, and you want to save energy and money. Should you turn the thermostat down to the lowest level that will protect the house from damage such as freezing pipes, or leave it at the normal temperature? (If you don’t like coming back to a cold house, imagine that a timer controls the heating system so the house will be warm when you get back.) Explain your answer.</para>
+</problem>
+<solution id="fs-id1170902130784">
+<para id="fs-id1170902130786">Turn the thermostat down. To have the house at the normal temperature, the heating system must replace all the heat that was lost. For all three mechanisms of heat transfer, the greater the temperature difference between inside and outside, the more heat is lost and must be replaced. So the house should be at the lowest temperature that does not allow freezing damage.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902166555">
+<problem id="fs-id1170902166557">
+<para id="fs-id1170902166559">You pour coffee into an unlidded cup, intending to drink it 5 minutes later. You can add cream when you pour the cup or right before you drink it. (The cream is at the same temperature either way. Assume that the cream and coffee come into thermal equilibrium with each other very quickly.) Which way will give you hotter coffee? What feature of this question is different from the previous one?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902340094">
+<problem id="fs-id1170904037062">
+<para id="fs-id1170904037065">Broiling is a method of cooking by radiation, which produces somewhat different results from cooking by conduction or convection. A gas flame or electric heating element produces a very high temperature close to the food and <emphasis effect="italics">above</emphasis> it. Why is radiation the dominant heat-transfer method in this situation?</para>
+</problem>
+<solution id="fs-id1170902184118">
+<para id="fs-id1170902184120">Air is a good insulator, so there is little conduction, and the heated air rises, so there is little convection downward.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902109339">
+<problem id="fs-id1170902109342">
+<para id="fs-id1170902179374">On a cold winter morning, why does the metal of a bike feel colder than the wood of a porch?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170903825027" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170902359581">
+<problem id="fs-id1170902359583">
+<para id="fs-id1170902359585">(a) Calculate the rate of heat conduction through house walls that are 13.0 cm thick and have an average thermal conductivity twice that of glass wool. Assume there are no windows or doors. The walls’ surface area is <m:math><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and their inside surface is at <m:math><m:mrow><m:mn>18.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, while their outside surface is at <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (b) How many 1-kW room heaters would be needed to balance the heat transfer due to conduction?</para>
+</problem>
+<solution id="fs-id1170902092492">
+<para id="fs-id1170902092494">a. <m:math><m:mrow><m:mn>1.01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; b. One 1-kilowatt room heater is needed.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902175194">
+<problem id="fs-id1170902166074">
+<para id="fs-id1170902166076">The rate of heat conduction out of a window on a winter day is rapid enough to chill the air next to it. To see just how rapidly the windows transfer heat by conduction, calculate the rate of conduction in watts through a <m:math><m:mrow><m:mn>3.00</m:mn><m:msup><m:mrow><m:mtext>-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> window that is 0.634 cm thick (1/4 in.) if the temperatures of the inner and outer surfaces are <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>−10.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, respectively. (This rapid rate will not be maintained—the inner surface will cool, even to the point of frost formation.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904130420">
+<problem id="fs-id1170902434084">
+<para id="fs-id1170902434086">Calculate the rate of heat conduction out of the human body, assuming that the core internal temperature is <m:math><m:mrow><m:mn>37.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, the skin temperature is <m:math><m:mrow><m:mn>34.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, the thickness of the fatty tissues between the core and the skin averages 1.00 cm, and the surface area is <m:math><m:mrow><m:mn>1.40</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1170902128753">
+<para id="fs-id1170903815349">84.0 W</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903815354">
+<problem id="fs-id1170904102261">
+<para id="fs-id1170904102263">Suppose you stand with one foot on ceramic flooring and one foot on a wool carpet, making contact over an area of <m:math><m:mrow><m:mn>80.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> with each foot. Both the ceramic and the carpet are 2.00 cm thick and are <m:math><m:mrow><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> on their bottom sides. At what rate must heat transfer occur from each foot to keep the top of the ceramic and carpet at <m:math><m:mrow><m:mn>33.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902276867">
+<problem id="fs-id1170902276869">
+<para id="fs-id1170902276871">A man consumes 3000 kcal of food in one day, converting most of it to thermal energy to maintain body temperature. If he loses half this energy by evaporating water (through breathing and sweating), how many kilograms of water evaporate?</para>
+</problem>
+<solution id="fs-id1170902057153">
+<para id="fs-id1170902107736">2.59 kg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902107741">
+<problem id="fs-id1170903802625">
+<para id="fs-id1170903802627">A firewalker runs across a bed of hot coals without sustaining burns. Calculate the heat transferred by conduction into the sole of one foot of a firewalker given that the bottom of the foot is a 3.00-mm-thick callus with a conductivity at the low end of the range for wood and its density is <m:math><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. The area of contact is <m:math><m:mrow><m:mn>25.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> the temperature of the coals is <m:math><m:mrow><m:mn>700</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, and the time in contact is 1.00 s. Ignore the evaporative cooling of sweat.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902096297">
+<problem id="fs-id1170902096299">
+<para id="fs-id1170902096302">(a) What is the rate of heat conduction through the 3.00-cm-thick fur of a large animal having a <m:math><m:mrow><m:mn>1.40</m:mn><m:msup><m:mrow><m:mtext>-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> surface area? Assume that the animal’s skin temperature is <m:math><m:mrow><m:mn>32.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, that the air temperature is <m:math><m:mrow><m:mn>−5.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, and that fur has the same thermal conductivity as air. (b) What food intake will the animal need in one day to replace this heat transfer?</para>
+</problem>
+<solution id="fs-id1170903803927">
+<para id="fs-id1170902207557">a. 39.7 W; b. 820 kcal</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902207563">
+<problem id="fs-id1170904086325">
+<para id="fs-id1170904086327">A walrus transfers energy by conduction through its blubber at the rate of 150 W when immersed in <m:math><m:mrow><m:mn>−1.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> water. The walrus’s internal core temperature is <m:math><m:mrow><m:mn>37.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, and it has a surface area of <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. What is the average thickness of its blubber, which has the conductivity of fatty tissues without blood?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902361881">
+<problem id="fs-id1170902361884">
+<para id="fs-id1170902321023">Compare the rate of heat conduction through a 13.0-cm-thick wall that has an area of <m:math><m:mrow><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and a thermal conductivity twice that of glass wool with the rate of heat conduction through a 0.750-cm-thick window that has an area of <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, assuming the same temperature difference across each.</para>
+</problem>
+<solution id="fs-id1170902198803">
+<para id="fs-id1170904258258"><m:math><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:math>, so that<newline/>
+<m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>wall</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>window</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>wall</m:mtext></m:mrow></m:msub><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>wall</m:mtext></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>window</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>window</m:mtext></m:mrow></m:msub><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>window</m:mtext></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>wall</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>0.042</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.750</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.84</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math><newline/>
+This gives 0.0288 wall: window, or 35:1 window: wall</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904053259">
+<problem id="fs-id1170903755845">
+<para id="fs-id1170903755847">Suppose a person is covered head to foot by wool clothing with average thickness of 2.00 cm and is transferring energy by conduction through the clothing at the rate of 50.0 W. What is the temperature difference across the clothing, given the surface area is <m:math><m:mrow><m:mn>1.40</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902343171">
+<problem id="fs-id1170904083567">
+<para id="fs-id1170904083569">Some stove tops are smooth ceramic for easy cleaning. If the ceramic is 0.600 cm thick and heat conduction occurs through the same area and at the same rate as computed in <link target-id="fs-id1170902140575"/>, what is the temperature difference across it? Ceramic has the same thermal conductivity as glass and brick.</para>
+</problem>
+<solution id="fs-id1170903794592">
+<para id="fs-id1170902351226"><m:math><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo stretchy="false">⇒</m:mo></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2256</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.84</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.54</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1046</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mn>1.05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>K</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902207905">
+<problem id="fs-id1170902207907">
+<para id="fs-id1170902207910">One easy way to reduce heating (and cooling) costs is to add extra insulation in the attic of a house. Suppose a single-story cubical house already had 15 cm of fiberglass insulation in the attic and in all the exterior surfaces. If you added an extra 8.0 cm of fiberglass to the attic, by what percentage would the heating cost of the house drop? Take the house to have dimensions 10 m by 15 m by 3.0 m. Ignore air infiltration and heat loss through windows and doors, and assume that the interior is uniformly at one temperature and the exterior is uniformly at another.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903847773">
+<problem id="fs-id1170903847775">
+<para id="fs-id1170903847777">Many decisions are made on the basis of the payback period: the time it will take through savings to equal the capital cost of an investment. Acceptable payback times depend upon the business or philosophy one has. (For some industries, a payback period is as small as 2 years.) Suppose you wish to install the extra insulation in the preceding problem. If energy cost <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>1.00</m:mn></m:mrow></m:math> per million joules and the insulation was $4.00 per square meter, then calculate the simple payback time. Take the average <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> for the 120-day heating season to be <m:math><m:mrow><m:mn>15.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170904051702">
+<para id="fs-id1170904051704">We found in the preceding problem that <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>126</m:mn><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> as baseline energy use. So the total heat loss during this period is <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>126</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>15.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>days</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>86.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s/day</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1960</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>. At the cost of $1/MJ, the cost is $1960. From an earlier problem, the savings is 12% or $235/y. We need <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> of insulation in the attic. At <m:math><m:mrow><m:mi>$</m:mi><m:mn>4</m:mn><m:mtext>/</m:mtext><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>, this is a $500 cost. So the payback period is <m:math><m:mrow><m:mi>$</m:mi><m:mn>600</m:mn><m:mtext>/</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>$</m:mi><m:mn>235</m:mn><m:mtext>/</m:mtext><m:mtext>y</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2.6</m:mn><m:mspace width="0.2em"/><m:mtext>years</m:mtext></m:mrow></m:math> (excluding labor costs).</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170902070588" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1170904127383">
+<problem id="fs-id1170904146724">
+<para id="fs-id1170904146727">In 1701, the Danish astronomer Ole Rømer proposed a temperature scale with two fixed points, freezing water at 7.5 degrees, and boiling water at 60.0 degrees. What is the boiling point of oxygen, 90.2 K, on the Rømer scale?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902196974">
+<problem id="fs-id1170902196976">
+<para id="fs-id1170902190804">What is the percent error of thinking the melting point of tungsten is <m:math><m:mrow><m:mn>3695</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> instead of the correct value of 3695 K?</para>
+</problem>
+<solution id="fs-id1170902091270">
+<para id="fs-id1170902091273"><m:math><m:mrow><m:mn>7.39</m:mn><m:mi>%</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902179492">
+<problem id="fs-id1170902179494">
+<para id="fs-id1170902269337">An engineer wants to design a structure in which the difference in length between a steel beam and an aluminum beam remains at 0.500 m regardless of temperature, for ordinary temperatures. What must the lengths of the beams be?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902385785">
+<problem id="fs-id1170902225394">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170902225396">How much stress is created in a steel beam if its temperature changes from <m:math><m:mrow><m:mn>–15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> but it cannot expand? For steel, the Young’s modulus <m:math><m:mrow><m:mi>Y</m:mi><m:mo>=</m:mo><m:mn>210</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> from <link target-id="fs-id1163713086230" document="m58342">Stress, Strain, and Elastic Modulus</link>. (Ignore the change in area resulting from the expansion.)</para></problem>
+<solution id="fs-id1170902207604">
+<para id="fs-id1170902190139"><m:math><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>210</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904056352">
+<problem id="fs-id1170904056354">
+<para id="fs-id1170903904201">A brass rod <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Y</m:mi><m:mo>=</m:mo><m:mn>90</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> with a diameter of 0.800 cm and a length of 1.20 m when the temperature is <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, is fixed at both ends. At what temperature is the force in it at 36,000 N?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902155405">
+<problem id="fs-id1170902155407">
+<para id="fs-id1170902113670">A mercury thermometer still in use for meteorology has a bulb with a volume of <m:math><m:mrow><m:mn>0.780</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> and a tube for the mercury to expand into of inside diameter 0.130 mm. (a) Neglecting the thermal expansion of the glass, what is the spacing between marks <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> apart? (b) If the thermometer is made of ordinary glass (not a good idea), what is the spacing?</para>
+</problem>
+<solution id="fs-id1170902041467">
+<para id="fs-id1170902041469">a. <m:math><m:mrow><m:mn>1.06</m:mn></m:mrow></m:math> cm; b. <m:math><m:mrow><m:mn>1.11</m:mn></m:mrow></m:math> cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902259974">
+<problem id="fs-id1170902259976">
+<para id="fs-id1170902219819">Even when shut down after a period of normal use, a large commercial nuclear reactor transfers thermal energy at the rate of 150 MW by the radioactive decay of fission products. This heat transfer causes a rapid increase in temperature if the cooling system fails <m:math><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>watt</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>joule/second</m:mtext></m:mrow></m:math> or <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>MW</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>megawatt</m:mtext><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math> (a) Calculate the rate of temperature increase in degrees Celsius per second <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>°</m:mtext><m:mtext>C/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> if the mass of the reactor core is <m:math><m:mrow><m:mn>1.60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and it has an average specific heat of <m:math><m:mrow><m:mn>0.3349</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (b) How long would it take to obtain a temperature increase of <m:math><m:mrow><m:mn>2000</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, which could cause some metals holding the radioactive materials to melt? (The initial rate of temperature increase would be greater than that calculated here because the heat transfer is concentrated in a smaller mass. Later, however, the temperature increase would slow down because the 500,000-kg steel containment vessel would also begin to heat up.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902064233">
+<problem id="fs-id1170904054287">
+<para id="fs-id1170904054289">You leave a pastry in the refrigerator on a plate and ask your roommate to take it out before you get home so you can eat it at room temperature, the way you like it. Instead, your roommate plays video games for hours. When you return, you notice that the pastry is still cold, but the game console has become hot. Annoyed, and knowing that the pastry will not be good if it is microwaved, you warm up the pastry by unplugging the console and putting it in a clean trash bag (which acts as a perfect calorimeter) with the pastry on the plate. After a while, you find that the equilibrium temperature is a nice, warm <m:math><m:mrow><m:mn>38.3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. You know that the game console has a mass of 2.1 kg. Approximate it as having a uniform initial temperature of <m:math><m:mrow><m:mn>4</m:mn><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. The pastry has a mass of 0.16 kg and a specific heat of <m:math><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mspace width="0.2em"/><m:mtext>J/</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>ºC</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> and is at a uniform initial temperature of <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. The plate is at the same temperature and has a mass of 0.24 kg and a specific heat of <m:math><m:mrow><m:mn>0.90</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>ºC</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. What is the specific heat of the console?</para>
+</problem>
+<solution id="fs-id1170902090800">
+<para id="fs-id1170902090802"><m:math><m:mrow><m:mn>1.7</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>ºC</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903720947">
+<problem id="fs-id1170903720949">
+<para id="fs-id1170903720951">Two solid spheres, <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis>, made of the same material, are at temperatures of <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, respectively. The spheres are placed in thermal contact in an ideal calorimeter, and they reach an equilibrium temperature of <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Which is the bigger sphere? What is the ratio of their diameters?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904184038">
+<problem id="fs-id1170904184040">
+<para id="fs-id1170904184042">In some countries, liquid nitrogen is used on dairy trucks instead of mechanical refrigerators. A 3.00-hour delivery trip requires 200 L of liquid nitrogen, which has a density of <m:math><m:mrow><m:mn>808</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (a) Calculate the heat transfer necessary to evaporate this amount of liquid nitrogen and raise its temperature to <m:math><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (Use <m:math><m:mrow><m:msub><m:mi>c</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math> and assume it is constant over the temperature range.) This value is the amount of cooling the liquid nitrogen supplies. (b) What is this heat transfer rate in kilowatt-hours? (c) Compare the amount of cooling obtained from melting an identical mass of <m:math><m:mrow><m:mn>0</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> ice with that from evaporating the liquid nitrogen.</para>
+</problem>
+<solution id="fs-id1170904049508">
+<para id="fs-id1170904049510">a. <m:math><m:mrow><m:mn>1.57</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kcal</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>18.3</m:mn><m:mspace width="0.2em"/><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>1.29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kcal</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902190374">
+<problem id="fs-id1170902190376">
+<para id="fs-id1170902190378">Some gun fanciers make their own bullets, which involves melting lead and casting it into lead slugs. How much heat transfer is needed to raise the temperature and melt 0.500 kg of lead, starting from <m:math><m:mrow><m:mn>25.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902119892">
+<problem id="fs-id1170902119894">
+<para id="fs-id1170902119896">A 0.800-kg iron cylinder at a temperature of <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is dropped into an insulated chest of 1.00 kg of ice at its melting point. What is the final temperature, and how much ice has melted?</para>
+</problem>
+<solution id="fs-id1170902233858">
+<para id="fs-id1170902233860"><m:math><m:mrow><m:mn>6.3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. All of the ice melted.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904172107">
+<problem id="fs-id1170904172109">
+<para id="fs-id1170904172111">Repeat the preceding problem with 2.00 kg of ice instead of 1.00 kg.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902130126">
+<problem id="fs-id1170902130128">
+<para id="fs-id1170902130130">Repeat the preceding problem with 0.500 kg of ice, assuming that the ice is initially in a copper container of mass 1.50 kg in equilibrium with the ice.</para>
+</problem>
+<solution id="fs-id1170902179626">
+<para id="fs-id1170902179628"><m:math><m:mrow><m:mn>63.9</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, all the ice melted</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902140904">
+<problem id="fs-id1170902140906">
+<para id="fs-id1170902140908">A 30.0-g ice cube at its melting point is dropped into an aluminum calorimeter of mass 100.0 g in equilibrium at <m:math><m:mrow><m:mn>24.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> with 300.0 g of an unknown liquid. The final temperature is <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. What is the heat capacity of the liquid?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902206515">
+<problem id="fs-id1170902206517">
+<para id="fs-id1170902206519">(a) Calculate the rate of heat conduction through a double-paned window that has a <m:math><m:mrow><m:mn>1.50</m:mn><m:msup><m:mrow><m:mtext>-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> area and is made of two panes of 0.800-cm-thick glass separated by a 1.00-cm air gap. The inside surface temperature is <m:math><m:mrow><m:mn>15.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> while that on the outside is <m:math><m:mrow><m:mn>−10.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (<emphasis effect="italics">Hint:</emphasis> There are identical temperature drops across the two glass panes. First find these and then the temperature drop across the air gap. This problem ignores the increased heat transfer in the air gap due to convection.) (b) Calculate the rate of heat conduction through a 1.60-cm-thick window of the same area and with the same temperatures. Compare your answer with that for part (a).</para>
+</problem>
+<solution id="fs-id1170904112317">
+<para id="fs-id1170902109738">a. 83 W; b. <m:math><m:mrow><m:mn>1.97</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; The single-pane window has a rate of heat conduction equal to 1969/83, or 24 times that of a double-pane window.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902154875">
+<problem id="fs-id1170902154877">
+<para id="fs-id1170902154879">(a) An exterior wall of a house is 3 m tall and 10 m wide. It consists of a layer of drywall with an <emphasis effect="italics">R</emphasis> factor of 0.56, a layer 3.5 inches thick filled with fiberglass batts, and a layer of insulated siding with an <emphasis effect="italics">R</emphasis> factor of 2.6. The wall is built so well that there are no leaks of air through it. When the inside of the wall is at <m:math><m:mrow><m:mn>22</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and the outside is at <m:math><m:mrow><m:mn>−2</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, what is the rate of heat flow through the wall? (b) More realistically, the 3.5-inch space also contains 2-by-4 studs—wooden boards 1.5 inches by 3.5 inches oriented so that 3.5-inch dimension extends from the drywall to the siding. They are “on 16-inch centers,” that is, the centers of the studs are 16 inches apart. What is the heat current in this situation? Don’t worry about one stud more or less.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904202613">
+<problem id="fs-id1170904202615">
+<para id="fs-id1170902118393">For the human body, what is the rate of heat transfer by conduction through the body’s tissue with the following conditions: the tissue thickness is 3.00 cm, the difference in temperature is <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, and the skin area is <m:math><m:mrow><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. How does this compare with the average heat transfer rate to the body resulting from an energy intake of about 2400 kcal per day? (No exercise is included.)</para>
+</problem>
+<solution id="fs-id1170902065052">
+<para id="fs-id1170902065054">The rate of heat transfer by conduction is 20.0 W. On a daily basis, this is 1,728 kJ/day. Daily food intake is <m:math><m:mrow><m:mn>2400</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/d</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>4186</m:mn><m:mspace width="0.2em"/><m:mtext>J/kcal</m:mtext><m:mo>=</m:mo><m:mn>10,050</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/day</m:mtext></m:mrow></m:math>. So only 17.2% of energy intake goes as heat transfer by conduction to the environment at this <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902275235">
+<problem id="fs-id1170902275237">
+<para id="fs-id1170902275239">You have a Dewar flask (a laboratory vacuum flask) that has an open top and straight sides, as shown below. You fill it with water and put it into the freezer. It is effectively a perfect insulator, blocking all heat transfer, except on the top. After a time, ice forms on the surface of the water. The liquid water and the bottom surface of the ice, in contact with the liquid water, are at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. The top surface of the ice is at the same temperature as the air in the freezer, <m:math><m:mrow><m:mn>−18</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C.</m:mtext></m:mrow></m:math> Set the rate of heat flow through the ice equal to the rate of loss of heat of fusion as the water freezes. When the ice layer is 0.700 cm thick, find the rate in m/s at which the ice is thickening.</para>
+<media id="fs-id1170904108911" alt="Figure shows a flask filled with water with a layer of ice at the top. The top surface of ice is at minus 18 degrees Celsius. The bottom surface of the ice and the water are at 0 degrees Celsius.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Dewar_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170904131132">
+<problem id="fs-id1170902352542">
+<para id="fs-id1170902352544">An infrared heater for a sauna has a surface area of <m:math><m:mrow><m:mn>0.050</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and an emissivity of 0.84. What temperature must it run at if the required power is 360 W? Neglect the temperature of the environment.</para>
+</problem>
+<solution id="fs-id1170903855576">
+<para id="fs-id1170904172920">620 K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904172926">
+<problem id="fs-id1170904172928">
+<para id="fs-id1170904068623">(a) Determine the power of radiation from the Sun by noting that the intensity of the radiation at the distance of Earth is <m:math><m:mrow><m:mn>1370</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. <emphasis effect="italics">Hint:</emphasis> That intensity will be found everywhere on a spherical surface with radius equal to that of Earth’s orbit. (b) Assuming that the Sun’s temperature is 5780 K and that its emissivity is 1, find its radius.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170904208735" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1170904089530">
+<problem id="fs-id1170904089532">
+<para id="fs-id1170904089535">A pendulum is made of a rod of length <emphasis effect="italics">L</emphasis> and negligible mass, but capable of thermal expansion, and a weight of negligible size. (a) Show that when the temperature increases by <emphasis effect="italics">dT</emphasis>, the period of the pendulum increases by a fraction <m:math><m:mrow><m:mi>α</m:mi><m:mi>L</m:mi><m:mi>d</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>. (b) A clock controlled by a brass pendulum keeps time correctly at <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. If the room temperature is <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, does the clock run faster or slower? What is its error in seconds per day?</para>
+</problem>
+<solution id="fs-id1170903755438">
+<para id="fs-id1170904088331">Denoting the period by <emphasis effect="italics">P</emphasis>, we know <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>g</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> When the temperature increases by <emphasis effect="italics">dT</emphasis>, the length increases by <m:math><m:mrow><m:mi>α</m:mi><m:mi>L</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:math>. Then the new length is a. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>L</m:mi><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+by the binomial expansion. b. The clock runs slower, as its new period is 1.00019 s. It loses 16.4 s per day.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902293168">
+<problem id="fs-id1170902090725">
+<para id="fs-id1170902090727">At temperatures of a few hundred kelvins the specific heat capacity of copper approximately follows the empirical formula <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mi>T</m:mi><m:mo>+</m:mo><m:mi>δ</m:mi><m:msup><m:mi>T</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>349</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>K,</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>0.107</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>δ</m:mi><m:mo>=</m:mo><m:mn>4.58</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> How much heat is needed to raise the temperature of a 2.00-kg piece of copper from <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>250</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902221615">
+<problem id="fs-id1170902221617">
+<para id="fs-id1170903825185">In a calorimeter of negligible heat capacity, 200 g of steam at <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and 100 g of ice at <m:math><m:mrow><m:mn>−40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> are mixed. The pressure is maintained at 1 atm. What is the final temperature, and how much steam, ice, and water are present?</para>
+</problem>
+<solution id="fs-id1170904267417">
+<para id="fs-id1170904267419">The amount of heat to melt the ice and raise it to <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is not enough to condense the steam, but it is more than enough to lower the steam’s temperature by <m:math><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, so the final state will consist of steam and liquid water in equilibrium, and the final temperature is <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; 9.5 g of steam condenses, so the final state contains 49.5 g of steam and 40.5 g of liquid water.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902179515">
+<problem id="fs-id1170902179518">
+<para id="fs-id1170902114429">An astronaut performing an extra-vehicular activity (space walk) shaded from the Sun is wearing a spacesuit that can be approximated as perfectly white <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> except for a <m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>8</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> patch in the form of the astronaut’s national flag. The patch has emissivity 0.300. The spacesuit under the patch is 0.500 cm thick, with a thermal conductivity <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0.0600</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, and its inner surface is at a temperature of <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. What is the temperature of the patch, and what is the rate of heat loss through it? Assume the patch is so thin that its outer surface is at the same temperature as the outer surface of the spacesuit under it. Also assume the temperature of outer space is 0 K. You will get an equation that is very hard to solve in closed form, so you can solve it numerically with a graphing calculator, with software, or even by trial and error with a calculator.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902214125">
+<problem id="fs-id1170902214127">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170902187034">Find the growth of an ice layer as a function of time in a Dewar flask as seen in <link target-id="fs-id1170902275235"/>. Call the thickness of the ice layer <emphasis effect="italics">L</emphasis>. (a) Derive an equation for <emphasis effect="italics">dL</emphasis>/<emphasis effect="italics">dt</emphasis> in terms of <emphasis effect="italics">L</emphasis> , the temperature <emphasis effect="italics">T</emphasis> above the ice, and the properties of ice (which you can leave in symbolic form instead of substituting the numbers). (b) Solve this differential equation assuming that at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, you have <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> If you have studied differential equations, you will know a technique for solving equations of this type: manipulate the equation to get <emphasis effect="italics">dL</emphasis>/<emphasis effect="italics">dt</emphasis> multiplied by a (very simple) function of <emphasis effect="italics">L</emphasis> on one side, and integrate both sides with respect to time. Alternatively, you may be able to use your knowledge of the derivatives of various functions to guess the solution, which has a simple dependence on <emphasis effect="italics">t</emphasis>. (c) Will the water eventually freeze to the bottom of the flask?</para></problem>
+<solution id="fs-id1170904030359">
+<para id="fs-id1170902234348">a. <m:math><m:mrow><m:mi>d</m:mi><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mi>ρ</m:mi><m:mi>L</m:mi></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>k</m:mi><m:mi>T</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mi>ρ</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:msqrt></m:mrow></m:math>; c. yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902215993">
+<problem id="fs-id1170902215995">
+<para id="fs-id1170902215997">As the very first rudiment of climatology, estimate the temperature of Earth. Assume it is a perfect sphere and its temperature is uniform. Ignore the greenhouse effect. Thermal radiation from the Sun has an intensity (the “solar constant” <emphasis effect="italics">S</emphasis>) of about <m:math><m:mrow><m:mn>1370</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> at the radius of Earth’s orbit. (a) Assuming the Sun’s rays are parallel, what area must <emphasis effect="italics">S</emphasis> be multiplied by to get the total radiation intercepted by Earth? It will be easiest to answer in terms of Earth’s radius, <emphasis effect="italics">R</emphasis>. (b) Assume that Earth reflects about 30% of the solar energy it intercepts. In other words, Earth has an albedo with a value of <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0.3</m:mn></m:mrow></m:math>. In terms of <emphasis effect="italics">S</emphasis>, <emphasis effect="italics">A</emphasis>, and <emphasis effect="italics">R</emphasis>, what is the rate at which Earth absorbs energy from the Sun? (c) Find the temperature at which Earth radiates energy at the same rate. Assume that at the infrared wavelengths where it radiates, the emissivity <emphasis effect="italics">e</emphasis> is 1. Does your result show that the greenhouse effect is important? (d) How does your answer depend on the the area of Earth?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902090908">
+<problem id="fs-id1170902090910">
+<para id="fs-id1170902090912">Let’s stop ignoring the greenhouse effect and incorporate it into the previous problem in a very rough way. Assume the atmosphere is a single layer, a spherical shell around Earth, with an emissivity <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>0.77</m:mn></m:mrow></m:math> (chosen simply to give the right answer) at infrared wavelengths emitted by Earth and by the atmosphere. However, the atmosphere is transparent to the Sun’s radiation (that is, assume the radiation is at visible wavelengths with no infrared), so the Sun’s radiation reaches the surface. The greenhouse effect comes from the difference between the atmosphere’s transmission of visible light and its rather strong absorption of infrared. Note that the atmosphere’s radius is not significantly different from Earth’s, but since the atmosphere is a layer above Earth, it emits radiation both upward and downward, so it has twice Earth’s area. There are three radiative energy transfers in this problem: solar radiation absorbed by Earth’s surface; infrared radiation from the surface, which is absorbed by the atmosphere according to its emissivity; and infrared radiation from the atmosphere, half of which is absorbed by Earth and half of which goes out into space. Apply the method of the previous problem to get an equation for Earth’s surface and one for the atmosphere, and solve them for the two unknown temperatures, surface and atmosphere.</para>
+<list id="fs-id1170902118148" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>In terms of Earth’s radius, the constant <m:math><m:mi>σ</m:mi></m:math>, and the unknown temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>s</m:mi></m:msub></m:mrow></m:math> of the surface, what is the power of the infrared radiation from the surface?</item>
+<item>What is the power of Earth’s radiation absorbed by the atmosphere?</item>
+<item>In terms of the unknown temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>e</m:mi></m:msub></m:mrow></m:math> of the atmosphere, what is the power radiated from the atmosphere?</item>
+<item>Write an equation that says the power of the radiation the atmosphere absorbs from Earth equals the power of the radiation it emits.</item>
+<item>Half of the power radiated by the atmosphere hits Earth. Write an equation that says that the power Earth absorbs from the atmosphere and the Sun equals the power that it emits.</item>
+<item>Solve your two equations for the unknown temperature of Earth.<newline/>
+For steps that make this model less crude, see for example the <link url="https://openstax.org/l/21paulgormlec">lectures</link> by Paul O’Gorman.</item>
+</list>
+</problem>
+<solution id="fs-id1170902291611">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170902291613">a. <m:math><m:mrow><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mi>T</m:mi><m:mtext>s</m:mtext></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>4</m:mn><m:mi>e</m:mi><m:mi>σ</m:mi><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>T</m:mi><m:mtext>s</m:mtext></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>8</m:mn><m:mi>e</m:mi><m:mi>σ</m:mi><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>T</m:mi><m:mtext>e</m:mtext></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow></m:math>; d. <m:math><m:mrow><m:msubsup><m:mi>T</m:mi><m:mi>s</m:mi><m:mn>4</m:mn></m:msubsup><m:mo>=</m:mo><m:mn>2</m:mn><m:msubsup><m:mi>T</m:mi><m:mi>e</m:mi><m:mn>4</m:mn></m:msubsup></m:mrow></m:math>; e. <m:math><m:mrow><m:mi>e</m:mi><m:mi>σ</m:mi><m:msubsup><m:mi>T</m:mi><m:mtext>s</m:mtext><m:mn>4</m:mn></m:msubsup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>A</m:mi><m:mo stretchy="false">)</m:mo><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:msubsup><m:mi>T</m:mi><m:mtext>s</m:mtext><m:mn>4</m:mn></m:msubsup></m:mrow></m:math>; f. <m:math><m:mn>288</m:mn><m:mi>K</m:mi></m:math></para></solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170904189085">
+<term>conduction</term>
+<meaning id="fs-id1170904189090">heat transfer through stationary matter by physical contact</meaning>
+</definition>
+<definition id="fs-id1170902151874">
+<term>convection</term>
+<meaning id="fs-id1170902151880">heat transfer by the macroscopic movement of fluid</meaning>
+</definition>
+<definition id="fs-id1170902261894">
+<term>emissivity</term>
+<meaning id="fs-id1170902261900">measure of how well an object radiates</meaning>
+</definition>
+<definition id="fs-id1170902261904">
+<term>greenhouse effect</term>
+<meaning id="fs-id1170903891729">warming of the earth that is due to gases such as carbon dioxide and methane that absorb infrared radiation from Earth’s surface and reradiate it in all directions, thus sending some of it back toward Earth</meaning>
+</definition>
+<definition id="fs-id1170903891735">
+<term>net rate of heat transfer by radiation</term>
+<meaning id="fs-id1170902339624"><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170902231527">
+<term>radiation</term>
+<meaning id="fs-id1170902231533">energy transferred by electromagnetic waves directly as a result of a temperature difference</meaning>
+</definition>
+<definition id="fs-id1170902231537">
+<term>rate of conductive heat transfer</term>
+<meaning id="fs-id1170902184082">rate of heat transfer from one material to another</meaning>
+</definition>
+<definition id="fs-id1170902184086">
+<term>Stefan-Boltzmann law of radiation</term>
+<meaning id="fs-id1170902184091"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>A</m:mi><m:mi>e</m:mi><m:msup><m:mi>T</m:mi><m:mn>4</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>5.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:math> is the Stefan-Boltzmann constant, <emphasis effect="italics">A</emphasis> is the surface area of the object, <emphasis effect="italics">T</emphasis> is the absolute temperature, and <emphasis effect="italics">e</emphasis> is the emissivity</meaning>
+</definition>
+<definition id="fs-id1170902090259">
+<term>thermal conductivity</term>
+<meaning id="fs-id1170902090264">property of a material describing its ability to conduct heat</meaning>
+</definition>
+</glossary>
+</document>

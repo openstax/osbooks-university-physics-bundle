@@ -1,0 +1,297 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>RLC Series Circuits</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58756</md:content-id>
+  <md:title>RLC Series Circuits</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Determine the angular frequency of oscillation for a resistor, inductor, capacitor <m:math><m:mrow><m:mo>(</m:mo><m:mi>R</m:mi><m:mi>L</m:mi><m:mi>C</m:mi><m:mo>)</m:mo></m:mrow></m:math> series circuit</item>
+<item>Relate the <m:math><m:mrow><m:mi>R</m:mi><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:math> circuit to a damped spring oscillation</item>
+</list></md:abstract>
+  <md:uuid>33937d19-5b28-4df3-84d5-4b254c62e65a</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131427799">When the switch is closed in the <term><emphasis effect="italics">RLC</emphasis> circuit</term> of <link target-id="CNX_UPhysics_31_06_RLC"/>(a), the capacitor begins to discharge and electromagnetic energy is dissipated by the resistor at a rate <m:math><m:mrow><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow></m:math>. With <emphasis effect="italics">U</emphasis> given by <link document="m58751" target-id="fs-id1167134963649"/>, we have</para>
+<equation id="fs-id1167131187496"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>U</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mi>C</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>L</m:mi><m:mi>i</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>i</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167134812842">where <emphasis effect="italics">i</emphasis> and <emphasis effect="italics">q</emphasis> are time-dependent functions. This reduces to</para>
+<equation id="fs-id1167131262832"><m:math><m:mrow><m:mi>L</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>R</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>C</m:mi></m:mfrac><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_31_06_RLC">
+<media id="fs-id1167131091260" alt="Figure a is a circuit with a capacitor, an inductor and a resistor in series with each other. They are also in series with a switch, which is open. Figure b shows the graph of charge versus time. The charge is at maximum value, q0, at t=0. The curve is similar to a sine wave that reduces in amplitude till it becomes zero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_RLC.jpg"/>
+</media>
+<caption>(a) An <emphasis effect="italics">RLC</emphasis> circuit. Electromagnetic oscillations begin when the switch is closed. The capacitor is fully charged initially. (b) Damped oscillations of the capacitor charge are shown in this curve of charge versus time, or <emphasis effect="italics">q</emphasis> versus <emphasis effect="italics">t</emphasis>. The capacitor contains a charge <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> before the switch is closed.</caption>
+</figure>
+<para id="fs-id1167131632316">This equation is analogous to</para>
+<equation id="fs-id1167131274811" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>b</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134541538">which is the equation of motion for a <emphasis effect="italics">damped mass-spring system</emphasis> (you first encountered this equation in <link document="m58360">Oscillations</link>). As we saw in that chapter, it can be shown that the solution to this differential equation takes three forms, depending on whether the angular frequency of the undamped spring is greater than, equal to, or less than <emphasis effect="italics">b</emphasis>/2<emphasis effect="italics">m</emphasis>. Therefore, the result can be underdamped <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msqrt><m:mrow><m:mi>k</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:msqrt><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, critically damped <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msqrt><m:mrow><m:mi>k</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:msqrt><m:mo>=</m:mo><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, or overdamped <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msqrt><m:mrow><m:mi>k</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:msqrt><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. By analogy, the solution <emphasis effect="italics">q</emphasis>(<emphasis effect="italics">t</emphasis>) to the <emphasis effect="italics">RLC</emphasis> differential equation has the same feature. Here we look only at the case of under-damping. By replacing <emphasis effect="italics">m</emphasis> by <emphasis effect="italics">L</emphasis>, <emphasis effect="italics">b</emphasis> by <emphasis effect="italics">R</emphasis>, <emphasis effect="italics">k</emphasis> by 1/<emphasis effect="italics">C</emphasis>, and <emphasis effect="italics">x</emphasis> by <emphasis effect="italics">q</emphasis> in <link target-id="fs-id1167131262832"/>, and assuming <m:math><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:msqrt><m:mo>&gt;</m:mo><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:math>, we obtain</para>
+<note id="fs-id1167131269228" class="equation-callout">
+<equation id="fs-id1167131111252"><label/><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>R</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext>′</m:mtext><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134869818">where the angular frequency of the oscillations is given by</para>
+<note id="fs-id1167134940770" class="equation-callout">
+<equation id="fs-id1167134958768"><label/><m:math><m:mrow><m:msup><m:mi>ω</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134476902">This underdamped solution is shown in <link target-id="CNX_UPhysics_31_06_RLC"/>(b). Notice that the amplitude of the oscillations decreases as energy is dissipated in the resistor. <link target-id="fs-id1167131111252"/> can be confirmed experimentally by measuring the voltage across the capacitor as a function of time. This voltage, multiplied by the capacitance of the capacitor, then gives <emphasis effect="italics">q</emphasis>(<emphasis effect="italics">t</emphasis>).</para>
+<note id="fs-id1167131082824" class="media-2">
+<para id="fs-id1167131331119">Try an <link url="https://openstax.org/l/21phetcirconstr">interactive circuit construction kit</link> that allows you to graph current and voltage as a function of time. You can add inductors and capacitors to work with any combination of <emphasis effect="italics">R</emphasis>, <emphasis effect="italics">L</emphasis>, and <emphasis effect="italics">C</emphasis> circuits with both dc and ac sources.</para>
+</note>
+<note id="fs-id1167131183816" class="media-2">
+<para id="fs-id1167131549948">Try out a <link url="https://openstax.org/l/21cirphysbascur">circuit-based java applet website</link> that has many problems with both dc and ac sources that will help you practice circuit problems.</para>
+</note>
+<note id="fs-id1167131584277" class="check-understanding">
+<exercise id="fs-id1167134713946">
+<problem id="fs-id1167131102121">
+<para id="fs-id1167131502463"><emphasis effect="bold">Check Your Understanding</emphasis> In an <emphasis effect="italics">RLC</emphasis> circuit, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext><m:mo>,</m:mo><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>6.0</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) Is the circuit underdamped, critically damped, or overdamped? (b) If the circuit starts oscillating with a charge of <m:math><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> on the capacitor, how much energy has been dissipated in the resistor by the time the oscillations cease?</para>
+</problem>
+<solution id="fs-id1167131459285">
+<para id="fs-id1167131201247">a. overdamped; b. 0.75 J</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131227727" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167131225149" list-type="bulleted" bullet-style="bullet">
+<item>The underdamped solution for the capacitor charge in an <emphasis effect="italics">RLC</emphasis> circuit is
+<equation id="fs-id1167131204578" class="unnumbered"><label/><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>R</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext>′</m:mtext><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The angular frequency given in the underdamped solution for the <emphasis effect="italics">RLC</emphasis> circuit is
+<equation id="fs-id1167134967794" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>ω</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+</section>
+<section id="fs-id1167134863650" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1167584933154" class="unnumbered unstyled" summary="The table has two columns and thirteen rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Mutual inductance by flux” and “M equals N subscript 2 phi subscript 21 divided by I subscript 1 equals N subscript 1 phi subscript 12 divided by I subscript 2”. The second row contains “Mutual inductance in circuits” and “epsilon subscript 1 equals minus M differential of I subscript 2 with respect to t”. The third row contains “Self-inductance in terms of magnetic flux” and “N phi subscript m equals L I”. The fourth row contains “Self-inductance in terms of emf” and “epsilon equals minus L differential of I with respect to t”. The fifth row contains “Self-inductance of a solenoid” and “L subscript solenoid equals mu subscript 0 N square A divided by l”. The sixth row contains “Self-inductance of a toroid” and “L subscript toroid equals mu subscript 0 N square h divided by 2 pi multiplied by natural log of R subscript 2 divided by R subscript 1”. The seventh row contains “Energy stored in an inductor” and “U equals half L I square”. The eighth row contains “Current as a function of time for a RL circuit” and “I opening parenthesis t closing parenthesis equals epsilon divided by R multiplied by opening parenthesis 1 minus exponential e power minus t divided by tau subscript L closing parenthesis”. The ninth row contains “Time constant for a RL circuit” and “tau subscript L equals L divided by R”. The tenth row contains “Charge oscillation in LC circuits” and “q opening parenthesis t closing parenthesis equals q subscript 0 cosine opening parenthesis omega t plus phi closing parenthesis”. The eleventh row contains “Angular frequency in LC circuits” and “omega equals square root 1 divided by L C”. The twelfth row contains “Current oscillations in LC circuits” and “i opening parenthesis t closing parenthesis equals minus omega q subscript 0 sine opening parenthesis omega t plus phi closing parenthesis”. The thirteenth row contains “Charge as a function of time in RLC circuit” and “q opening parenthesis t closing parenthesis equals q subscript 0 exponential e power minus R t divided by 2 L multiplied by cosine opening parenthesis omega dash t plus phi closing parenthesis”. The fourteenth row contains “Angular frequency in RLC circuit” and “omega dash equals square root 1 divided by L C minus opening parenthesis R divided by 2 L closing parenthesis square”.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Mutual inductance by flux</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mutual inductance in circuits</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Self-inductance in terms of magnetic flux</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mi>I</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Self-inductance in terms of emf</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Self-inductance of a solenoid</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>solenoid</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi></m:mrow><m:mi>l</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Self-inductance of a toroid</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>toroid</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energy stored in an inductor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Current as a function of time for a <emphasis effect="italics">RL</emphasis> circuit</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mtext>ε</m:mtext><m:mi>R</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Time constant for a <emphasis effect="italics">RL</emphasis> circuit</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Charge oscillation in <emphasis effect="italics">LC</emphasis> circuits</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Angular frequency in <emphasis effect="italics">LC</emphasis> circuits</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Current oscillations in <emphasis effect="italics">LC</emphasis> circuits</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>ω</m:mi><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Charge as a function of time in <emphasis effect="italics">RLC</emphasis> circuit</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>R</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext>′</m:mtext><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Angular frequency in <emphasis effect="italics">RLC</emphasis> circuit</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mtext>′</m:mtext><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</section>
+<section id="fs-id1167129963317" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167131375593">
+<problem id="fs-id1167131375595">
+<para id="fs-id1167131589779">When a wire is connected between the two ends of a solenoid, the resulting circuit can oscillate like an <emphasis effect="italics">RLC</emphasis> circuit. Describe what causes the capacitance in this circuit.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131332160">
+<problem id="fs-id1167134435225">
+<para id="fs-id1167134435228">Describe what effect the resistance of the connecting wires has on an oscillating <emphasis effect="italics">LC</emphasis> circuit.</para>
+</problem>
+<solution id="fs-id1167131548526">
+<para id="fs-id1167131584168">This creates an <emphasis effect="italics">RLC</emphasis> circuit that dissipates energy, causing oscillations to decrease in amplitude slowly or quickly depending on the value of resistance.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131563568">
+<problem id="fs-id1167131563570">
+<para id="fs-id1167131631269">Suppose you wanted to design an <emphasis effect="italics">LC</emphasis> circuit with a frequency of 0.01 Hz. What problems might you encounter?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131389037">
+<problem id="fs-id1167131389039">
+<para id="fs-id1167130363828">A radio receiver uses an <emphasis effect="italics">RLC</emphasis> circuit to pick out particular frequencies to listen to in your house or car without hearing other unwanted frequencies. How would someone design such a circuit?</para>
+</problem>
+<solution id="fs-id1167131485960">
+<para id="fs-id1167131571411">You would have to pick out a resistance that is small enough so that only one station at a time is picked up, but big enough so that the tuner doesn’t have to be set at exactly the correct frequency. The inductance or capacitance would have to be varied to tune into the station however practically speaking, variable capacitors are a lot easier to build in a circuit.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131399674" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167130042880">
+<problem id="fs-id1167130042882">
+<para id="fs-id1167131496539">In an oscillating <emphasis effect="italics">RLC</emphasis> circuit, <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the angular frequency of the oscillations?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167129991327">
+<problem id="fs-id1167129991329">
+<para id="fs-id1167134830787">In an oscillating <emphasis effect="italics">RLC</emphasis> circuit with <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext><m:mo>,</m:mo><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mi>µ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo></m:mrow></m:math> how much time elapses before the amplitude of the oscillations drops to half its initial value?</para>
+</problem>
+<solution id="fs-id1167131475304">
+<para id="fs-id1167131341458">6.9 ms</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131140433">
+<problem id="fs-id1167134582582">
+<para id="fs-id1167134582584">What resistance <emphasis effect="italics">R</emphasis> must be connected in series with a 200-mH inductor and a <m:math><m:mrow><m:mn>10</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor of the resulting <emphasis effect="italics">RLC</emphasis> oscillating circuit is to decay to <m:math><m:mrow><m:mn>50</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its initial value of charge in 50 cycles? To <m:math><m:mrow><m:mn>0.10</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its initial value in 50 cycles?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167131581260" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1167131567322">
+<problem id="fs-id1167131567324">
+<para id="fs-id1167131204931">Show that the self-inductance per unit length of an infinite, straight, thin wire is infinite.</para>
+</problem>
+<solution id="fs-id1167131231390">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167131231393">Let <emphasis effect="italics">a</emphasis> equal the radius of the long, thin wire, <emphasis effect="italics">r</emphasis> the location where the magnetic field is measured, and <emphasis effect="italics">R</emphasis> the upper limit of the problem where we will take <emphasis effect="italics">R</emphasis> as it approaches infinity. <newline/>
+proof <m:math><m:mtable>
+<m:mtr><m:mtd columnalign="right"><m:mtext>Outside,</m:mtext><m:mspace width="1em"/><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="0.5em"/><m:mtext>Inside,</m:mtext><m:mspace width="1em"/><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>U</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>l</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mi>R</m:mi><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mtext>So,</m:mtext><m:mspace width="2em"/><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>U</m:mi></m:mrow><m:mrow><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>l</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mi>R</m:mi><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mtext>and</m:mtext><m:mspace width="1em"/><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>∞</m:mi></m:mtd></m:mtr></m:mtable></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167131343417">
+<problem id="fs-id1167131510640">
+<para id="fs-id1167131510642">Two long, parallel wires carry equal currents in opposite directions. The radius of each wire is <emphasis effect="italics">a</emphasis>, and the distance between the centers of the wires is <emphasis effect="italics">d</emphasis>. Show that if the magnetic flux within the wires themselves can be ignored, the self-inductance of a length <emphasis effect="italics">l</emphasis> of such a pair of wires is</para>
+<para id="fs-id1167134519627"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>l</m:mi></m:mrow><m:mi>π</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow><m:mi>a</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167131375320">(<emphasis effect="italics">Hint</emphasis>: Calculate the magnetic flux through a rectangle of length <emphasis effect="italics">l</emphasis> between the wires and then use <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mtext>Φ</m:mtext><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow></m:math>.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134990271">
+<problem id="fs-id1167134884275">
+<para id="fs-id1167134884277">A small, rectangular single loop of wire with dimensions <emphasis effect="italics">l</emphasis>, and <emphasis effect="italics">a</emphasis> is placed, as shown below, in the plane of a much larger, rectangular single loop of wire. The two short sides of the larger loop are so far from the smaller loop that their magnetic fields over the smaller fields over the smaller loop can be ignored. What is the mutual inductance of the two loops?</para>
+<media id="fs-id1167129979424" alt="The figure shows a rectangular loop of wire. The length of the rectangle is l and width is a. On both sides of the rectangle are wires parallel to its length. They are a distance d away from the rectangle. Current I1 flows through both in opposites directions.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_Problem47_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131263669">
+<para id="fs-id1167131327853"><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>l</m:mi></m:mrow><m:mi>π</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mo>+</m:mo><m:mi>a</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167129970346">
+<problem id="fs-id1167129970348">
+<para id="fs-id1167131199484">Suppose that a cylindrical solenoid is wrapped around a core of iron whose magnetic susceptibility is <emphasis effect="bold"><emphasis effect="italics">x</emphasis></emphasis>. Using <link document="m58748" target-id="fs-id1167133805496"/>, show that the self-inductance of the solenoid is given by</para>
+<para id="fs-id1167131268449"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi></m:mrow><m:mi>l</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167131110351">where <emphasis effect="italics">l</emphasis> is its length, <emphasis effect="italics">A</emphasis> its cross-sectional area, and <emphasis effect="italics">N</emphasis> its total number of turns.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131615186">
+<problem id="fs-id1167131615188">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134717550">A solenoid with <m:math><m:mn>4</m:mn><m:mo>x</m:mo><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:math> turns/m has an iron core placed in it whose magnetic susceptibility is <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. (a) If a current of 2.0 A flows through the solenoid, what is the magnetic field in the iron core? (b) What is the effective surface current formed by the aligned atomic current loops in the iron core? (c) What is the self-inductance of the filled solenoid?</para></problem>
+<solution id="fs-id1167134565655">
+<para id="fs-id1167134565657">a. 100 T; b. 2 A; c. 0.50 H</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131619226">
+<problem id="fs-id1167131619228">
+<para id="fs-id1167134921523">A rectangular toroid with inner radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>7.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm,</m:mtext></m:mrow></m:math> outer radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>9.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, height <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn></m:mrow></m:math>, and <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>3000</m:mn></m:mrow></m:math> turns is filled with an iron core of magnetic susceptibility <m:math><m:mrow><m:mn>5.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. (a) What is the self-inductance of the toroid? (b) If the current through the toroid is 2.0 A, what is the magnetic field at the center of the core? (c) For this same 2.0-A current, what is the effective surface current formed by the aligned atomic current loops in the iron core?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131399352">
+<problem id="fs-id1167131399354">
+<para id="fs-id1167131205180">The switch S of the circuit shown below is closed at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Determine (a) the initial current through the battery and (b) the steady-state current through the battery.</para>
+<media id="fs-id1167131399490" alt="A 12 volt battery is connected in series with a 5 ohm resistor, a 1 Henry inductor, a 3 ohm resistor and an open switch S. Parallel to the 3 ohm resistor is a 2 Henry inductor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_Problem51_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167134932628">
+<para id="fs-id1167131256402">a. 0 A; b. 2.4 A</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131233926">
+<problem id="fs-id1167131233928">
+<para id="fs-id1167131144509">In an oscillating <emphasis effect="italics">RLC</emphasis> circuit, <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>7.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>. Initially, the capacitor has a charge of <m:math><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> and the current is zero. Calculate the charge on the capacitor (a) five cycles later and (b) 50 cycles later.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131422580">
+<problem id="fs-id1167131422582">
+<para id="fs-id1167131255835">A 25.0-H inductor has 100 A of current turned off in 1.00 ms. (a) What voltage is induced to oppose this? (b) What is unreasonable about this result? (c) Which assumption or premise is responsible?</para>
+</problem>
+<solution id="fs-id1167131615087">
+<para id="fs-id1167129963748">a. <m:math><m:mrow><m:mn>2.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>; (b) The voltage is so extremely high that arcing would occur and the current would not be reduced so rapidly. (c) It is not reasonable to shut off such a large current in such a large inductor in such an extremely short time.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167130203588" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1167134858899">
+<problem id="fs-id1167134858901">
+<para id="fs-id1167131315192">A coaxial cable has an inner conductor of radius a, and outer thin cylindrical shell of radius b. A current <emphasis effect="italics">I</emphasis> flows in the inner conductor and returns in the outer conductor. The self-inductance of the structure will depend on how the current in the inner cylinder tends to be distributed. Investigate the following two extreme cases. (a) Let current in the inner conductor be distributed only on the surface and find the self-inductance. (b) Let current in the inner cylinder be distributed uniformly over its cross-section and find the self-inductance. Compare with your results in (a).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134573587">
+<problem id="fs-id1167134951548">
+<para id="fs-id1167134951550">In a damped oscillating circuit the energy is dissipated in the resistor. The <emphasis effect="italics">Q</emphasis>-factor is a measure of the persistence of the oscillator against the dissipative loss. (a) Prove that for a lightly damped circuit the energy, <emphasis effect="italics">U</emphasis>, in the circuit decreases according to the following equation.</para>
+<para id="fs-id1167131406196"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>U</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>β</m:mi><m:mi>U</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167134880779">(b) Using the definition of the <emphasis effect="italics">Q</emphasis>-factor as energy divided by the loss over the next cycle, prove that <emphasis effect="italics">Q</emphasis>-factor of a lightly damped oscillator as defined in this problem is <m:math><m:mrow/></m:math></para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167131234015"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>≡</m:mo><m:mfrac><m:mrow><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>begin</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>one cycle</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>C</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1167131605251">(<emphasis effect="italics">Hint:</emphasis> For (b), to obtain <emphasis effect="italics">Q</emphasis>, divide <emphasis effect="italics">E</emphasis> at the beginning of one cycle by the change <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> over the next cycle.)</para>
+</problem>
+<solution id="fs-id1167131374552">
+<para id="fs-id1167131374554">proof</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131225222">
+<problem id="fs-id1167131225224">
+<para id="fs-id1167134929702">The switch in the circuit shown below is closed at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>. Find currents through (a) <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, (b) <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, and (c) the battery as function of time.</para>
+<media id="fs-id1167134969759" alt="A 12 volt battery is connected to a 6 ohm resistor and a switch S, which is open at time t=0. Connected in parallel with the 6 ohm resistor are another 6 ohm resistor and a 24 Henry inductor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_Problem80_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134717198"><problem id="fs-id1167134717200">
+<para id="fs-id1167129962405">A square loop of side 2 cm is placed 1 cm from a long wire carrying a current that varies with time at a constant rate of 3 A/s as shown below. (a) Use Ampère’s law and find the magnetic field. (b) Determine the magnetic flux through the loop. (c) If the loop has a resistance of <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, how much induced current flows in the loop?</para><media id="fs-id1167134964759" alt="A 12 volt battery is connected to a 6 ohm resistor and a switch S, which is open at time t=0. Connected in parallel with the 6 ohm resistor are another 6 ohm resistor and a 24 Henry inductor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_Problem85_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131225968">
+<para id="fs-id1167131282092">a. <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T/s;</m:mtext></m:mrow></m:math> b. <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>a</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>; c. 4.4 nA</para></solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134655841">
+<term><emphasis effect="italics">RLC</emphasis> circuit</term>
+<meaning id="fs-id1167131188977">circuit with an ac source, resistor, inductor, and capacitor all in series.</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,230 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Ohm's Law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58732</md:content-id>
+  <md:title>Ohm's Law</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe Ohm’s law</item>
+<item>Recognize when Ohm’s law applies and when it does not</item>
+</list></md:abstract>
+  <md:uuid>a7dfdf47-5742-4be9-a6ae-4398ce8f93d7</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170903770990">We have been discussing three electrical properties so far in this chapter: current, voltage, and resistance. It turns out that many materials exhibit a simple relationship among the values for these properties, known as Ohm’s law. Many other materials do not show this relationship, so despite being called Ohm’s law, it is not considered a law of nature, like Newton’s laws or the laws of thermodynamics. But it is very useful for calculations involving materials that do obey Ohm’s law.</para>
+<section id="fs-id1170902282495">
+<title>Description of Ohm’s Law</title>
+<para id="fs-id1170902208457">The current that flows through most substances is directly proportional to the voltage <emphasis effect="italics">V</emphasis> applied to it. The German physicist Georg Simon <term class="no-emphasis">Ohm</term> (1787–1854) was the first to demonstrate experimentally that the current in a metal wire is <emphasis effect="italics">directly proportional to the voltage applied</emphasis>:</para>
+<equation id="fs-id1170904127776" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mtext>∝</m:mtext><m:mspace width="0.2em"/><m:mi>V</m:mi></m:mrow><m:mo>.</m:mo></m:math></equation>
+<para id="fs-id1170902129518">This important relationship is the basis for <term>Ohm’s law</term>. It can be viewed as a cause-and-effect relationship, with voltage the cause and current the effect. This is an empirical law, which is to say that it is an experimentally observed phenomenon, like friction. Such a linear relationship doesn’t always occur. Any material, component, or device that obeys Ohm’s law, where the current through the device is proportional to the voltage applied, is known as an <term>ohmic</term> material or ohmic component. Any material or component that does not obey Ohm’s law is known as a <term>nonohmic</term> material or nonohmic component.</para>
+</section>
+<section id="fs-id1170902102040">
+<title>Ohm’s Experiment</title>
+<para id="fs-id1170903886772">In a paper published in 1827, Georg Ohm described an experiment in which he measured voltage across and current through various simple electrical circuits containing various lengths of wire. A similar experiment is shown in <link target-id="CNX_UPhysics_26_04_OhmsSetup"/>. This experiment is used to observe the current through a resistor that results from an applied voltage. In this simple circuit, a resistor is connected in series with a battery. The voltage is measured with a voltmeter, which must be placed across the resistor (in parallel with the resistor). The current is measured with an ammeter, which must be in line with the resistor (in series with the resistor).</para>
+<figure id="CNX_UPhysics_26_04_OhmsSetup">
+<media id="fs-id1170900368438" alt="Pictures are a schematic drawing of a resistance object in a circuit with the ammeter and voltmeter included into the chain. Battery acts as a source of the electric current. In the left picture current flows in the clockwise direction; in the right picture current flows in the counterclockwise direction.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_OhmsSetup.jpg"/>
+</media>
+<caption>The experimental set-up used to determine if a resistor is an ohmic or nonohmic device. (a) When the battery is attached, the current flows in the clockwise direction and the voltmeter and ammeter have positive readings. (b) When the leads of the battery are switched, the current flows in the counterclockwise direction and the voltmeter and ammeter have negative readings.</caption>
+</figure>
+<para id="fs-id1170900432880">In this updated version of Ohm’s original experiment, several measurements of the current were made for several different voltages. When the battery was hooked up as in <link target-id="CNX_UPhysics_26_04_OhmsSetup"/>(a), the current flowed in the clockwise direction and the readings of the voltmeter and ammeter were positive. Does the behavior of the current change if the current flowed in the opposite direction? To get the current to flow in the opposite direction, the leads of the battery can be switched. When the leads of the battery were switched, the readings of the voltmeter and ammeter readings were negative because the current flowed in the opposite direction, in this case, counterclockwise. Results of a similar experiment are shown in <link target-id="CNX_UPhysics_26_04_OhmsResult"/>.</para>
+<figure id="CNX_UPhysics_26_04_OhmsResult">
+<media id="fs-id1170902197336" alt="Figure is a plot of current versus voltage. There is a linear relationship between voltage and the current and the graph goes through the origin.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_OhmsResult.jpg"/>
+</media>
+<caption>A resistor is placed in a circuit with a battery. The voltage applied varies from −10.00 V to +10.00 V, increased by 1.00-V increments. A plot shows values of the voltage versus the current typical of what a casual experimenter might find.</caption>
+</figure>
+<para id="fs-id1170903802926">In this experiment, the voltage applied across the resistor varies from −10.00 to +10.00 V, by increments of 1.00 V. The current through the resistor and the voltage across the resistor are measured. A plot is made of the voltage versus the current, and the result is approximately linear. The slope of the line is the resistance, or the voltage divided by the current. This result is known as <term class="no-emphasis">Ohm’s law</term>:</para>
+<note id="fs-id1170904225551" class="equation-callout">
+<equation id="fs-id1170904054935"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170904153095">where <emphasis effect="italics">V</emphasis> is the voltage measured in volts across the object in question, <emphasis effect="italics">I</emphasis> is the current measured through the object in amps, and <emphasis effect="italics">R</emphasis> is the resistance in units of ohms. As stated previously, any device that shows a linear relationship between the voltage and the current is known as an ohmic device. A resistor is therefore an ohmic device.</para>
+<example id="fs-id1170902116601">
+<para id="fs-id1170904061676"><title>Measuring Resistance</title>
+A carbon resistor at room temperature <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is attached to a 9.00-V battery and the current measured through the resistor is 3.00 mA. (a) What is the resistance of the resistor measured in ohms? (b) If the temperature of the resistor is increased to <m:math><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> by heating the resistor, what is the current through the resistor?</para>
+<para id="fs-id1170904162440"><title>Strategy</title>
+(a) The resistance can be found using Ohm’s law. Ohm’s law states that <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math>, so the resistance can be found using <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1172101651417">(b) First, the resistance is temperature dependent so the new resistance after the resistor has been heated can be found using <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. The current can be found using Ohm’s law in the form <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1170902304688"><title>Solution</title></para>
+<list id="fs-id1172101939764" list-type="enumerated" number-style="lower-alpha">
+<item>Using Ohm’s law and solving for the resistance yields the resistance at room temperature:
+<equation id="fs-id1170902287225" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow><m:mo>.</m:mo></m:math></equation></item>
+<item>The resistance at <m:math><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> can be found using <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where the temperature coefficient for carbon is <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>−0.0005</m:mn></m:mrow></m:math>. <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.0005</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2.94</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>.<newline/>
+The current through the heated resistor is 
+<equation id="fs-id1170904071855" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>2.94</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3.06</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext><m:mo>=</m:mo><m:mn>3.06</m:mn><m:mspace width="0.2em"/><m:mtext>mA</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1170902257173"><title>Significance</title>
+A change in temperature of <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> resulted in a 2.00% change in current. This may not seem like a very great change, but changing electrical characteristics can have a strong effect on the circuits. For this reason, many electronic appliances, such as computers, contain fans to remove the heat dissipated by components in the electric circuits.</para>
+</example>
+<note id="fs-id1170904166900" class="check-understanding">
+<exercise id="fs-id1170904041592">
+<problem id="fs-id1170904146178">
+<para id="fs-id1170902267917"><emphasis effect="bold">Check Your Understanding</emphasis> The voltage supplied to your house varies as <m:math><m:mrow><m:mi>V</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>f</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. If a resistor is connected across this voltage, will Ohm’s law <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math> still be valid?</para>
+</problem>
+<solution id="fs-id1170902285061">
+<para id="fs-id1170904156987">Yes, Ohm’s law is still valid. At every point in time the current is equal to <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math>, so the current is also a function of time, <m:math><m:mrow><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>f</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1170902123546" class="media-2">
+<para id="fs-id1170902289644">See how the <link url="https://openstax.org/l/21ohmslaw">equation form of Ohm’s law</link> relates to a simple circuit. Adjust the voltage and resistance, and see the current change according to Ohm’s law. The sizes of the symbols in the equation change to match the circuit diagram.</para>
+</note>
+<para id="fs-id1170902152787">Nonohmic devices do not exhibit a linear relationship between the voltage and the current. One such device is the semiconducting circuit element known as a diode. A <term>diode</term> is a circuit device that allows current flow in only one direction. A diagram of a simple circuit consisting of a battery, a diode, and a resistor is shown in <link target-id="CNX_UPhysics_26_04_Diode"/>. Although we do not cover the theory of the diode in this section, the diode can be tested to see if it is an ohmic or a nonohmic device.</para>
+<figure id="CNX_UPhysics_26_04_Diode">
+<media id="fs-id1170903721355" alt="Pictures are a schematic drawing of a diode in a circuit with the ammeter, voltmeter, and resistor included into the chain. In the left picture the anode is positive and the cathode is negative; in the right picture the anode is negative and the cathode is positive.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_Diode.jpg"/>
+</media>
+<caption>A diode is a semiconducting device that allows current flow only if the diode is forward biased, which means that the anode is positive and the cathode is negative.</caption>
+</figure>
+<para id="fs-id1170903891278">A plot of current versus voltage is shown in <link target-id="CNX_UPhysics_26_04_DiodeRead"/>. Note that the behavior of the diode is shown as current versus voltage, whereas the resistor operation was shown as voltage versus current. A diode consists of an anode and a cathode. When the anode is at a negative potential and the cathode is at a positive potential, as shown in part (a), the diode is said to have reverse bias. With reverse bias, the diode has an extremely large resistance and there is very little current flow—essentially zero current—through the diode and the resistor. As the voltage applied to the circuit increases, the current remains essentially zero, until the voltage reaches the breakdown voltage and the diode conducts current, as shown in <link target-id="CNX_UPhysics_26_04_DiodeRead"/>. When the battery and the potential across the diode are reversed, making the anode positive and the cathode negative, the diode conducts and current flows through the diode if the voltage is greater than 0.7 V. The resistance of the diode is close to zero. (This is the reason for the resistor in the circuit; if it were not there, the current would become very large.) You can see from the graph in <link target-id="CNX_UPhysics_26_04_DiodeRead"/> that the voltage and the current do not have a linear relationship. Thus, the diode is an example of a nonohmic device.</para>
+<figure id="CNX_UPhysics_26_04_DiodeRead">
+<media id="fs-id1170902199101" alt="Figure is a plot of current versus voltage. When the voltage across the diode is negative and small, there is very little current flow through the diode. As the voltage reaches the breakdown voltage, the current flow drastically increases. When the voltage across the diode is positive and greater than 0.7 V, the diode conducts. As the voltage applied increases, the current through the diode increases, but the voltage across the diode remains approximately 0.7 V.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_DiodeRead.jpg"/>
+</media>
+<caption>When the voltage across the diode is negative and small, there is very little current flow through the diode. As the voltage reaches the breakdown voltage, the diode conducts. When the voltage across the diode is positive and greater than 0.7 V (the actual voltage value depends on the diode), the diode conducts. As the voltage applied increases, the current through the diode increases, but the voltage across the diode remains approximately 0.7 V.</caption>
+</figure>
+<para id="fs-id1170902345248">Ohm’s law is commonly stated as <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math>, but originally it was stated as a microscopic view, in terms of the current density, the conductivity, and the electrical field. This microscopic view suggests the proportionality <m:math><m:mrow><m:mi>V</m:mi><m:mo>∝</m:mo><m:mi>I</m:mi></m:mrow></m:math> comes from the drift velocity of the free electrons in the metal that results from an applied electrical field. As stated earlier, the current density is proportional to the applied electrical field. The reformulation of Ohm’s law is credited to Gustav Kirchhoff, whose name we will see again in the next chapter.</para>
+</section>
+<section id="fs-id1170902135606" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170904201977" list-type="bulleted" bullet-style="bullet">
+<item>Ohm’s law is an empirical relationship for current, voltage, and resistance for some common types of circuit elements, including resistors. It does not apply to other devices, such as diodes.</item>
+<item>One statement of Ohm’s law gives the relationship among current <emphasis effect="italics">I</emphasis>, voltage <emphasis effect="italics">V</emphasis>, and resistance <emphasis effect="italics">R</emphasis> in a simple circuit as <emphasis effect="italics"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math>.
+</emphasis></item>
+<item>Another statement of Ohm’s law, on a microscopic level, is <m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>E</m:mi></m:mrow></m:math>.</item>
+</list>
+</section>
+<section id="fs-id1170904243968" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170902270318">
+<problem id="fs-id1170902222075">
+<para id="fs-id1170902246452">In <link document="m58433">Determining Field from Potential</link>, resistance was defined as <m:math><m:mrow><m:mi>R</m:mi><m:mo>≡</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>I</m:mi></m:mfrac></m:mrow></m:math>. In this section, we presented Ohm’s law, which is commonly expressed as <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math>. The equations look exactly alike. What is the difference between Ohm’s law and the definition of resistance?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904037552">
+<problem id="fs-id1170904117614">
+<para id="fs-id1170902203962">Shown below are the results of an experiment where four devices were connected across a variable voltage source. The voltage is increased and the current is measured. Which device, if any, is an ohmic device?</para>
+<media id="fs-id1170903822002" alt="Figure is a plot of current versus voltage. For A, current originally increases with voltage, then saturates and remains the same. For B, current linearly increases with voltage. For C current increases with voltage at a growing late. For D current decreases with voltage approaching zero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_Concept50_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170902058024">
+<para id="fs-id1170902296012">Device <emphasis effect="italics">B</emphasis> shows a linear relationship and the device is ohmic.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903880232">
+<problem id="fs-id1170902297283">
+<para id="fs-id1170904073069">The current <emphasis effect="italics">I</emphasis> is measured through a sample of an ohmic material as a voltage <emphasis effect="italics">V</emphasis> is applied. (a) What is the current when the voltage is doubled to 2<emphasis effect="italics">V</emphasis> (assume the change in temperature of the material is negligible)? (b) What is the voltage applied is the current measured is 0.2<emphasis effect="italics">I</emphasis> (assume the change in temperature of the material is negligible)? What will happen to the current if the material if the voltage remains constant, but the temperature of the material increases significantly?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170904073136" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170903762813">
+<problem id="fs-id1170903806306">
+<para id="fs-id1170903809897">A <m:math><m:mrow><m:mn>2.2</m:mn><m:mtext>-k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor is connected across a D cell battery (1.5 V). What is the current through the resistor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903858880">
+<problem id="fs-id1170902093392">
+<para id="fs-id1170904165079">A resistor rated at <m:math><m:mrow><m:mn>250</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> is connected across two D cell batteries (each 1.50 V) in series, with a total voltage of 3.00 V. The manufacturer advertises that their resistors are within 5% of the rated value. What are the possible minimum current and maximum current through the resistor?</para>
+</problem>
+<solution id="fs-id1170902191383">
+<para id="fs-id1170902102541"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>min</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.375</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>,</m:mo><m:mspace width="0.8em"/><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>min</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>12.63</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.625</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>,</m:mo><m:mspace width="0.8em"/><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>11.43</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902161919">
+<problem id="fs-id1170902063263">
+<para id="fs-id1170902437990">A resistor is connected in series with a power supply of 20.00 V. The current measure is 0.50 A. What is the resistance of the resistor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903761757">
+<problem id="fs-id1170902221718">
+<para id="fs-id1170902197081">A resistor is placed in a circuit with an adjustable voltage source. The voltage across and the current through the resistor and the measurements are shown below. Estimate the resistance of the resistor.</para>
+<media id="fs-id1170903786923" alt="Figure is a plot of voltage versus current. There is a linear relationship between voltage and the current. It is zero Volts at zero Amperes, 200 Volts at 2 Amperes, 400 Volts at 4 Amperes, 600 Volts at 6 Amperes, and 800 Volts at 8 Amperes.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_Quest35_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170902305086">
+<para id="fs-id1170902197131"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903864145">
+<problem id="fs-id1170902292912">
+<para id="fs-id1170902116290">The following table show the measurements of a current through and the voltage across a sample of material. Plot the data, and assuming the object is an ohmic device, estimate the resistance.</para>
+<table id="fs-id1170902293374" class="unnumbered" summary="This table has two columns and ten rows. The first row is a header row and it labels each column: “I in A”, and “V in V”. Under the “I” column is the list of numbers: 0; 2; 4; 6; 8; 10; 12; 14; 16. ”. Under the “V” column is the list of numbers: 3; 23; 39; 58; 77; 100; 119; 142; 162.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="bottom" align="left"><emphasis effect="italics">I</emphasis>(A)</entry>
+<entry valign="bottom" align="left"><emphasis effect="italics">V</emphasis>(V)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="bottom" align="right">0</entry>
+<entry valign="bottom" align="right">3</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">2</entry>
+<entry valign="bottom" align="right">23</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">4</entry>
+<entry valign="bottom" align="right">39</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">6</entry>
+<entry valign="bottom" align="right">58</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">8</entry>
+<entry valign="bottom" align="right">77</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">10</entry>
+<entry valign="bottom" align="right">100</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">12</entry>
+<entry valign="bottom" align="right">119</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">14</entry>
+<entry valign="bottom" align="right">142</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">16</entry>
+<entry valign="bottom" align="right">162</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170902131900">
+<term>diode</term>
+<meaning id="fs-id1170903928987">nonohmic circuit device that allows current flow in only one direction</meaning>
+</definition>
+<definition id="fs-id1170902405808">
+<term>Ohm’s law</term>
+<meaning id="fs-id1170902381048">empirical relation stating that the current <emphasis effect="italics">I</emphasis> is proportional to the potential difference <emphasis effect="italics">V</emphasis>; it is often written as <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math>, where <emphasis effect="italics">R</emphasis> is the resistance</meaning>
+</definition>
+<definition id="fs-id1170902149697">
+<term>ohmic</term>
+<meaning id="fs-id1170902342874">type of a material for which Ohm’s law is valid, that is, the voltage drop across the device is equal to the current times the resistance</meaning>
+</definition>
+<definition id="fs-id1170903799858">
+<term>nonohmic</term>
+<meaning id="fs-id1170904170235">type of a material for which Ohm’s law is not valid</meaning>
+</definition>
+</glossary>
+</document>

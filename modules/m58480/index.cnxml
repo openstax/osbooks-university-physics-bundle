@@ -1,0 +1,119 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Eddy Currents</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58480</md:content-id>
+  <md:title>Eddy Currents</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain how eddy currents are created in metals</item>
+<item>Describe situations where eddy currents are beneficial and where they are not helpful</item>
+</list></md:abstract>
+  <md:uuid>556a6f87-b8b8-4065-b8c6-8630b1a375e4</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171242253112">As discussed two sections earlier, a motional emf is induced when a conductor moves in a magnetic field or when a magnetic field moves relative to a conductor. If motional emf can cause a current in the conductor, we refer to that current as an <term>eddy current</term>.</para>
+<section id="fs-id1171242410348">
+<title>Magnetic Damping</title>
+<para id="fs-id1171242520751">Eddy currents can produce significant drag, called <term>magnetic damping</term>, on the motion involved. Consider the apparatus shown in <link target-id="CNX_UPhysics_30_05_EddyCurr"/>, which swings a pendulum bob between the poles of a strong magnet. (This is another favorite physics demonstration.) If the bob is metal, significant drag acts on the bob as it enters and leaves the field, quickly damping the motion. If, however, the bob is a slotted metal plate, as shown in part (b) of the figure, the magnet produces a much smaller effect. There is no discernible effect on a bob made of an insulator. Why does drag occur in both directions, and are there any uses for magnetic drag?</para>
+<figure id="CNX_UPhysics_30_05_EddyCurr">
+<media id="fs-id1171242238909" alt="Figure A shows a metal pendulum bob swinging between the poles of a magnet. Eddy currents are indicated by arrows. Figure B shows a slotted metal bob swinging between the poles of a magnet. Figure C shows a non-conducting pendulum bob swinging between the poles of a magnet.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_05_EddyCurr.jpg"/>
+</media>
+<caption>A common physics demonstration device for exploring eddy currents and magnetic damping. (a) The motion of a metal pendulum bob swinging between the poles of a magnet is quickly damped by the action of eddy currents. (b) There is little effect on the motion of a slotted metal bob, implying that eddy currents are made less effective. (c) There is also no magnetic damping on a nonconducting bob, since the eddy currents are extremely small.</caption>
+</figure>
+<para id="fs-id1171242612917"><link target-id="CNX_UPhysics_30_05_ConPlate"/> shows what happens to the metal plate as it enters and leaves the magnetic field. In both cases, it experiences a force opposing its motion. As it enters from the left, flux increases, setting up an eddy current (Faraday’s law) in the counterclockwise direction (Lenz’s law), as shown. Only the right-hand side of the current loop is in the field, so an unopposed force acts on it to the left (RHR-1). When the metal plate is completely inside the field, there is no eddy current if the field is uniform, since the flux remains constant in this region. But when the plate leaves the field on the right, flux decreases, causing an eddy current in the clockwise direction that, again, experiences a force to the left, further slowing the motion. A similar analysis of what happens when the plate swings from the right toward the left shows that its motion is also damped when entering and leaving the field.</para>
+<figure id="CNX_UPhysics_30_05_ConPlate">
+<media id="fs-id1171242173128" alt="Figure shows conducting plate swinging between the poles of a magnet and passing uniform magnetic field. Counterclockwise eddy current is created when the plate enters the field. Clockwise current is create when the plate exists the field.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_05_ConPlate.jpg"/>
+</media>
+<caption>A more detailed look at the conducting plate passing between the poles of a magnet. As it enters and leaves the field, the change in flux produces an eddy current. Magnetic force on the current loop opposes the motion. There is no current and no magnetic drag when the plate is completely inside the uniform field.</caption>
+</figure>
+<para id="fs-id1171242609445">When a slotted metal plate enters the field (<link target-id="CNX_UPhysics_30_05_SlotPlate"/>), an emf is induced by the change in flux, but it is less effective because the slots limit the size of the current loops. Moreover, adjacent loops have currents in opposite directions, and their effects cancel. When an insulating material is used, the eddy current is extremely small, so magnetic damping on insulators is negligible. If eddy currents are to be avoided in conductors, then they must be slotted or constructed of thin layers of conducting material separated by insulating sheets.</para>
+<figure id="CNX_UPhysics_30_05_SlotPlate">
+<media id="fs-id1171242423534" alt="Figure shows a slotted metal plate entering a magnetic field. Small eddy currents rotating in the opposite directions are created when the plate enters the field.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_05_SlotPlate.jpg"/>
+</media>
+<caption>Eddy currents induced in a slotted metal plate entering a magnetic field form small loops, and the forces on them tend to cancel, thereby making magnetic drag almost zero.</caption>
+</figure>
+</section>
+<section id="fs-id1171239845834">
+<title>Applications of Magnetic Damping</title>
+<para id="fs-id1171242380462">One use of magnetic damping is found in sensitive laboratory balances. To have maximum sensitivity and accuracy, the balance must be as friction-free as possible. But if it is friction-free, then it will oscillate for a very long time. Magnetic damping is a simple and ideal solution. With <term class="no-emphasis">magnetic damping</term>, drag is proportional to speed and becomes zero at zero velocity. Thus, the oscillations are quickly damped, after which the damping force disappears, allowing the balance to be very sensitive (<link target-id="CNX_UPhysics_30_05_Damping"/>). In most balances, magnetic damping is accomplished with a conducting disc that rotates in a fixed field.</para>
+<figure id="CNX_UPhysics_30_05_Damping">
+<media id="fs-id1171242182787" alt="Figure shows sensitive laboratory balances. Magnetic damping is achieved by a conducting disc, also called damper vane, inserted into the magnet.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_05_Damping.jpg"/>
+</media>
+<caption>Magnetic damping of this sensitive balance slows its oscillations. Since Faraday’s law of induction gives the greatest effect for the most rapid change, damping is greatest for large oscillations and goes to zero as the motion stops.</caption>
+</figure>
+<para id="fs-id1171242550716">Since eddy currents and magnetic damping occur only in conductors, recycling centers can use magnets to separate metals from other materials. Trash is dumped in batches down a ramp, beneath which lies a powerful magnet. Conductors in the trash are slowed by magnetic damping while nonmetals in the trash move on, separating from the metals (<link target-id="CNX_UPhysics_30_05_MagDrag"/>). This works for all metals, not just ferromagnetic ones. A magnet can separate out the ferromagnetic materials alone by acting on stationary trash.</para>
+<figure id="CNX_UPhysics_30_05_MagDrag">
+<media id="fs-id1171242091114" alt="Figure illustrates the use of the magnetic drag to separate metals form other trash. A strong magnet is installed below the path of the trash from the truck separating materials.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_05_MagDrag.jpg"/>
+</media>
+<caption>Metals can be separated from other trash by magnetic drag. Eddy currents and magnetic drag are created in the metals sent down this ramp by the powerful magnet beneath it. Nonmetals move on.</caption>
+</figure>
+<para id="fs-id1171242429329">Other major applications of eddy currents appear in <term class="no-emphasis">metal detectors</term> and <term class="no-emphasis">braking systems</term> in trains and roller coasters. Portable metal detectors (<link target-id="CNX_UPhysics_30_05_Soldier"/>) consist of a primary coil carrying an alternating current and a secondary coil in which a current is induced. An eddy current is induced in a piece of metal close to the detector, causing a change in the induced current within the secondary coil. This can trigger some sort of signal, such as a shrill noise.</para>
+<figure id="CNX_UPhysics_30_05_Soldier">
+<media id="fs-id1171242505875" alt="Photograph shows a soldier with the metal detector in one hand.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_05_Soldier.jpg"/>
+</media>
+<caption>A soldier in Iraq uses a metal detector to search for explosives and weapons. (credit: U.S. Army)</caption>
+</figure>
+<para id="fs-id1171242061630">Braking using eddy currents is safer because factors such as rain do not affect the braking and the braking is smoother. However, eddy currents cannot bring the motion to a complete stop, since the braking force produced decreases as speed is reduced. Thus, speed can be reduced from say 20 m/s to 5 m/s, but another form of braking is needed to completely stop the vehicle. Generally, powerful rare-earth magnets such as neodymium magnets are used in roller coasters. <link target-id="CNX_UPhysics_30_05_EarthMag"/> shows rows of magnets in such an application. The vehicle has metal fins (normally containing copper) that pass through the magnetic field, slowing the vehicle down in much the same way as with the pendulum bob shown in <link target-id="CNX_UPhysics_30_05_EddyCurr"/>.</para>
+<figure id="CNX_UPhysics_30_05_EarthMag">
+<media id="fs-id1171242576087" alt="Photograph shows the rows of rare-earth magnets installed along line of the roller coaster.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_05_EarthMag.jpg"/>
+</media>
+<caption>The rows of rare-earth magnets (protruding horizontally) are used for magnetic braking in roller coasters. (credit: Stefan Scheer)</caption>
+</figure>
+<para id="fs-id1171242323866">Induction cooktops have electromagnets under their surface. The magnetic field is varied rapidly, producing eddy currents in the base of the pot, causing the pot and its contents to increase in temperature. Induction cooktops have high efficiencies
+and good response times when the base of the pot is a conductor, such as iron or steel.</para>
+</section>
+<section id="fs-id1171242366567" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1171242170672" list-type="bulleted" bullet-style="bullet">
+<item>Current loops induced in moving conductors are called eddy currents. They can create significant drag, called magnetic damping.</item>
+<item>Manipulation of eddy currents has resulted in applications such as metal detectors, braking in trains or roller coasters, and induction cooktops.</item>
+</list>
+</section>
+<section id="fs-id1171242228698" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1171242253643">
+<problem id="fs-id1171242149660">
+<para id="fs-id1171242113351">A conducting sheet lies in a plane perpendicular to a magnetic field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> that is below the sheet. If <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> oscillates at a high frequency and the conductor is made of a material of low resistivity, the region above the sheet is effectively shielded from <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>. Explain why. Will the conductor shield this region from static magnetic fields?</para>
+</problem>
+<solution id="fs-id1171242092559">
+<para id="fs-id1171242113200">The conducting sheet is shielded from the changing magnetic fields by creating an induced emf. This induced emf creates an induced magnetic field that opposes any changes in magnetic fields from the field underneath. Therefore, there is no net magnetic field in the region above this sheet. If the field were due to a static magnetic field, no induced emf will be created since you need a changing magnetic flux to induce an emf. Therefore, this static magnetic field will not be shielded.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242499055">
+<problem id="fs-id1171242549298">
+<para id="fs-id1171242442214">Electromagnetic braking can be achieved by applying a strong magnetic field to a spinning metal disk attached to a shaft. (a) How can a magnetic field slow the spinning of a disk? (b) Would the brakes work if the disk was made of plastic instead of metal?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242138113">
+<problem id="fs-id1171242072276">
+<para id="fs-id1171242465999">A coil is moved through a magnetic field as shown below. The field is uniform inside the rectangle and zero outside. What is the direction of the induced current and what is the direction of the magnetic force on the coil at each position shown?</para>
+<media id="fs-id1171242093054" alt="Picture shows a coil is moved from the left to the right through a uniform magnetic field. Magnetic lines are perpendicular to the coil and are directed from the plane of the page.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_05_Q3_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171242116513">
+<para id="fs-id1171242558227">a. zero induced current, zero force; b. clockwise induced current, force is to the left; c. zero induced current, zero force; d. counterclockwise induced current, force is to the left; e. zero induced current, zero force.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171242379564">
+<term>magnetic damping</term>
+<meaning id="fs-id1171242104750">drag produced by eddy currents</meaning>
+</definition>
+<definition id="fs-id1171242176058">
+<term>eddy current</term>
+<meaning id="fs-id1171242343913">current loop in a conductor caused by motional emf</meaning>
+</definition>
+</glossary>
+</document>

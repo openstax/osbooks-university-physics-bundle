@@ -1,0 +1,54 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>The Camera</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58532</md:content-id>
+  <md:title>The Camera</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the optics of a camera</item>
+<item>Characterize the image created by a camera</item>
+</list></md:abstract>
+  <md:uuid>b0e332ca-bf6a-4b2c-9542-0f31f6a7c80c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167132525720"><term class="no-emphasis">Cameras</term> are very common in our everyday life. Between 1825 and 1827, French inventor Nicéphore Niépce successfully photographed an image created by a primitive camera. Since then, enormous progress has been achieved in the design of cameras and camera-based detectors.</para>
+<para id="fs-id1167132376585">Initially, photographs were recorded by using the light-sensitive reaction of silver-based compounds such as silver chloride or silver bromide. Silver-based photographic paper was in common use until the advent of digital photography in the 1980s, which is intimately connected to <term>charge-coupled device (CCD)</term> detectors. In a nutshell, a CCD is a semiconductor chip that records images as a matrix of tiny pixels, each pixel located in a “bin” in the surface. Each pixel is capable of detecting the intensity of light impinging on it. Color is brought into play by putting red-, blue-, and green-colored filters over the pixels, resulting in colored digital images (<link target-id="CNX_UPhysics_35_06_CCD"/>). At its best resolution, one CCD pixel corresponds to one pixel of the image. To reduce the resolution and decrease the size of the file, we can “bin” several CCD pixels into one, resulting in a smaller but “pixelated” image.</para>
+<figure id="CNX_UPhysics_35_06_CCD">
+<media id="fs-id1167132383214" alt="A photograph of a charge coupled device is shown. A small part of this is enlarged and shows several pixels with red, blue and green squares. This is labeled “sensors for red, blue or green wavelengths of light” and “conversion to voltages”. A photograph of flowers is shown, labeled “picture output”.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_06_CCD.jpg"/>
+</media>
+<caption>A charge-coupled device (CCD) converts light signals into electronic signals, enabling electronic processing and storage of visual images. This is the basis for electronic imaging in all digital cameras, from cell phones to movie cameras. (credit left: modification of work by Bruce Turner)</caption>
+</figure>
+<para id="fs-id1167132317679">Clearly, electronics is a big part of a digital camera; however, the underlying physics is basic optics. As a matter of fact, the optics of a camera are pretty much the same as those of a single lens with an object distance that is significantly larger than the lens’s focal distance (<link target-id="CNX_UPhysics_35_06_camera"/>).</para>
+<figure id="CNX_UPhysics_35_06_camera">
+<media id="fs-id1167133545804" alt="Figure shows the side view of a digital camera. At the front of the camera is a disc labeled aperture, followed by a bi-convex lens, a bi-concave lens, a slanted mirror labeled flip-up mirror, a shutter and a sensor. The light path is shown such that light enters the camera through the aperture and lenses and strikes the mirror. It is reflected upwards to the viewing system. Here it reflects from two more mirrors before going through a bi-convex lens and emerging out of the camera.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_06_camera.jpg"/>
+</media>
+<caption>Modern digital cameras have several lenses to produce a clear image with minimal aberration and use red, blue, and green filters to produce a color image.</caption>
+</figure>
+<para id="fs-id1167132371645">For instance, let us consider the camera in a smartphone. An average smartphone camera is equipped with a stationary wide-angle lens with a focal length of about 4–5 mm. (This focal length is about equal to the thickness of the phone.) The image created by the lens is focused on the CCD detector mounted at the opposite side of the phone. In a cell phone, the lens and the CCD cannot move relative to each other. So how do we make sure that both the images of a distant and a close object are in focus?</para>
+<para id="fs-id1167132371404">Recall that a human eye can accommodate for distant and close images by changing its focal distance. A cell phone camera cannot do that because the distance from the lens to the detector is fixed. Here is where the small focal distance becomes important. Let us assume we have a camera with a 5-mm focal distance. What is the image distance for a selfie? The object distance for a selfie (the length of the hand holding the phone) is about 50 cm. Using the thin-lens equation, we can write</para>
+<equation id="fs-id1167133789925" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167132612705">We then obtain the image distance:</para>
+<equation id="fs-id1167133568137" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167133325177">Note that the object distance is 100 times larger than the focal distance. We can clearly see that the 1/(500 mm) term is significantly smaller than 1/(5 mm), which means that the image distance is pretty much equal to the lens’s focal length. An actual calculation gives us the image distance <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mn>5.05</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math>. This value is extremely close to the lens’s focal distance.</para>
+<para id="fs-id1167132422778">Now let us consider the case of a distant object. Let us say that we would like to take a picture of a person standing about 5 m from us. Using the thin-lens equation again, we obtain the image distance of 5.005 mm. The farther the object is from the lens, the closer the image distance is to the focal distance. At the limiting case of an infinitely distant object, we obtain the image distance exactly equal to the focal distance of the lens.</para>
+<para id="fs-id1167133659361">As you can see, the difference between the image distance for a selfie and the image distance for a distant object is just about 0.05 mm or 50 microns. Even a short object distance such as the length of your hand is two orders of magnitude larger than the lens’s focal length, resulting in minute variations of the image distance. (The 50-micron difference is smaller than the thickness of an average sheet of paper.) Such a small difference can be easily accommodated by the same detector, positioned at the focal distance of the lens. Image analysis software can help improve image quality.</para>
+<para id="fs-id1167132301327">Conventional point-and-shoot cameras often use a movable lens to change the lens-to-image distance. Complex lenses of the more expensive mirror reflex cameras allow for superb quality photographic images. The optics of these camera lenses is beyond the scope of this textbook.</para>
+<section id="fs-id1167133329208" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167132463207">
+<item>Cameras use combinations of lenses to create an image for recording.</item>
+<item>Digital photography is based on charge-coupled devices (CCDs) that break an image into tiny “pixels” that can be converted into electronic signals.</item>
+</list>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167132627862">
+<term>charge-coupled device (CCD)</term>
+<meaning id="fs-id1167132534168">semiconductor chip that converts a light image into tiny pixels that can be converted into electronic signals of color and intensity</meaning>
+</definition>
+</glossary>
+</document>

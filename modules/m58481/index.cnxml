@@ -1,0 +1,212 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Electric Generators and Back Emf</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58481</md:content-id>
+  <md:title>Electric Generators and Back Emf</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain how an electric generator works</item>
+<item>Determine the induced emf in a loop at any time interval, rotating at a constant rate in a magnetic field</item>
+<item>Show that rotating coils have an induced emf; in motors this is called back emf because it opposes the emf input to the motor</item>
+</list></md:abstract>
+  <md:uuid>88de98b6-87e3-4a8c-bd76-02ab23defc45</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171241425977">A variety of important phenomena and devices can be understood with Faraday’s law. In this section, we examine two of these.</para>
+<section id="fs-id1171241165275">
+<title>Electric Generators</title>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171241327645"><emphasis effect="bold">Electric generators</emphasis> induce an emf by rotating a coil in a magnetic field, as briefly discussed in <link document="m58477">Motional Emf</link>. We now explore <term class="no-emphasis">generators</term> in more detail. Consider the following example.</para><example id="fs-id1171241240350">
+<para id="fs-id1171241197036"><title>Calculating the Emf Induced in a Generator Coil</title>
+The generator coil shown in <link target-id="CNX_UPhysics_30_06_GenCoil"/> is rotated through one-fourth of a revolution (from <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to<m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> in 15.0 ms. The 200-turn circular coil has a 5.00-cm radius and is in a uniform 0.80-T magnetic field. What is the emf induced?</para>
+<figure id="CNX_UPhysics_30_06_GenCoil">
+<media id="fs-id1171241130240" alt="Picture shows a generator coil that is rotated by mechanical means through one-fourth of a revolution.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_06_GenCoil.jpg"/>
+</media>
+<caption>When this generator coil is rotated through one-fourth of a revolution, the magnetic flux <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> changes from its maximum to zero, inducing an emf.</caption>
+</figure>
+<para id="fs-id1171241142290"><title>Strategy</title>
+Faraday’s law of induction is used to find the emf induced:</para>
+<equation id="fs-id1171241235508" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>N</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241284278">We recognize this situation as the same one in <link target-id="fs-id1171242083031" document="m58477"/>. According to the diagram, the projection of the surface normal vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo stretchy="true">^</m:mo></m:mover></m:mstyle></m:mrow></m:math> to the magnetic field is initially<m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> and this is inserted by the definition of the dot product. The magnitude of the magnetic field and area of the loop are fixed over time, which makes the integration simplify quickly. The induced emf is written out using Faraday’s law:</para>
+<equation id="fs-id1171241059063" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>B</m:mi><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241246354"><title>Solution</title>
+We are given that <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0.80</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>=</m:mo><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math>, and <m:math><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>15.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>.</m:mo></m:mrow></m:math> The area of the loop is</para>
+<equation id="fs-id1171241109968" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.0500</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>7.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241133797">Entering this value gives</para>
+<equation id="fs-id1171241132703" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>200</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.80</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>15.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>131</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1171241135497"><title>Significance</title>
+This is a practical average value, similar to the 120 V used in household power.</para>
+</example>
+<para id="fs-id1171241000803">The emf calculated in <link target-id="fs-id1171241240350"/> is the average over one-fourth of a revolution. What is the emf at any given instant? It varies with the angle between the magnetic field and a perpendicular to the coil. We can get an expression for emf as a function of time by considering the motional emf on a rotating rectangular coil of width <emphasis effect="italics">w</emphasis> and height <emphasis effect="italics">l</emphasis> in a uniform magnetic field, as illustrated in <link target-id="CNX_UPhysics_30_06_UniMagFi"/>.</para>
+<figure id="CNX_UPhysics_30_06_UniMagFi">
+<media id="fs-id1171241151747" alt="Picture shows a single rectangular coil that is rotated at constant angular velocity in a uniform magnetic field.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_06_UniMagFi.jpg"/>
+</media>
+<caption>A generator with a single rectangular coil rotated at constant angular velocity in a uniform magnetic field produces an emf that varies sinusoidally in time. Note the generator is similar to a motor, except the shaft is rotated to produce a current rather than the other way around.</caption>
+</figure>
+<para id="fs-id1171241336058">Charges in the wires of the loop experience the magnetic force, because they are moving in a magnetic field. Charges in the vertical wires experience forces parallel to the wire, causing currents. But those in the top and bottom segments feel a force perpendicular to the wire, which does not cause a current. We can thus find the induced emf by considering only the side wires. Motional emf is given to be <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi></m:mrow></m:math>, where the velocity <emphasis effect="italics">v</emphasis> is perpendicular to the magnetic field <emphasis effect="italics">B</emphasis>. Here the velocity is at an angle <m:math><m:mi>θ</m:mi></m:math> with <emphasis effect="italics">B</emphasis>, so that its component perpendicular to <emphasis effect="italics">B</emphasis> is <emphasis effect="italics">v</emphasis> sin <m:math><m:mi>θ</m:mi></m:math> (see <link target-id="CNX_UPhysics_30_06_UniMagFi"/>). Thus, in this case, the emf induced on each side is <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>, and they are in the same direction. The total emf around the loop is then</para>
+<equation id="fs-id1171241116926"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241201790">This expression is valid, but it does not give emf as a function of time. To find the time dependence of emf, we assume the coil rotates at a constant angular velocity <m:math><m:mi>ω</m:mi></m:math>. The angle <m:math><m:mi>θ</m:mi></m:math> is related to angular velocity by <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> so that</para>
+<equation id="fs-id1171241189082"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241167286">Now, linear velocity <emphasis effect="italics">v</emphasis> is related to angular velocity <m:math><m:mi>ω</m:mi></m:math> by <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi><m:mo>.</m:mo></m:mrow></m:math> Here, <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>w</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> so that <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>w</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>ω</m:mi><m:mo>,</m:mo></m:mrow></m:math> and</para>
+<equation id="fs-id1171241149519"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>B</m:mi><m:mi>l</m:mi><m:mfrac><m:mi>w</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mi>w</m:mi><m:mo stretchy="false">)</m:mo><m:mi>B</m:mi><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241066334">Noting that the area of the loop is <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>l</m:mi><m:mi>w</m:mi><m:mo>,</m:mo></m:mrow></m:math> and allowing for <emphasis effect="italics">N</emphasis> loops, we find that</para>
+<note id="fs-id1171241079198" class="equation-callout">
+<equation id="fs-id1171241052401"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>B</m:mi><m:mi>A</m:mi><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171241098721">This is the emf induced in a generator coil of <emphasis effect="italics">N</emphasis> turns and area <emphasis effect="italics">A</emphasis> rotating at a constant angular velocity <m:math><m:mi>ω</m:mi></m:math> in a uniform magnetic field <emphasis effect="italics">B</emphasis>. This can also be expressed as</para>
+<equation id="fs-id1171241087755"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241058008">where</para>
+<equation id="fs-id1171241165114"><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>ω</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1171241129702">is the peak emf, since the maximum value of <m:math><m:mrow><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>w</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Note that the frequency of the oscillation is <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>ω</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:math> and the period is <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mtext>1/</m:mtext><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mo>.</m:mo></m:mrow></m:math> <link target-id="CNX_UPhysics_30_06_EmfTime"/> shows a graph of emf as a function of time, and it now seems reasonable that ac voltage is sinusoidal.</para>
+<figure id="CNX_UPhysics_30_06_EmfTime">
+<media id="fs-id1171241257445" alt="Picture shows a single rectangular coil that is rotated at constant angular velocity between opposite poles of magnet. Generated current lights the bulb. Graph shows emf plotted as a function of time. Emf has a sinusoidal shape with a period T.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_06_EmfTime.jpg"/>
+</media>
+<caption>The emf of a generator is sent to a light bulb with the system of rings and brushes shown. The graph gives the emf of the generator as a function of time, where <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the peak emf. The period is <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mtext>1/</m:mtext><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">f</emphasis> is the frequency.</caption>
+</figure>
+<para id="fs-id1171241199202">The fact that the peak emf is <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>B</m:mi><m:mi>A</m:mi><m:mi>ω</m:mi></m:mrow></m:math> makes good sense. The greater the number of coils, the larger their area, and the stronger the field, the greater the output voltage. It is interesting that the faster the generator is spun (greater <m:math><m:mi>ω</m:mi></m:math>), the greater the emf. This is noticeable on bicycle generators—at least the cheaper varieties.</para>
+<para id="fs-id1171241111872"><link target-id="CNX_UPhysics_30_06_SplitRing"/> shows a scheme by which a generator can be made to produce pulsed dc. More elaborate arrangements of multiple coils and split rings can produce smoother dc, although electronic rather than mechanical means are usually used to make ripple-free dc.</para>
+<figure id="CNX_UPhysics_30_06_SplitRing">
+<media id="fs-id1171241141584" alt="Picture shows a single rectangular coil that is rotated at constant angular velocity between opposite poles of magnet. Generated current lights the bulb. Graph shows pulsed dc emf output.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_06_SplitRing.jpg"/>
+</media>
+<caption>Split rings, called commutators, produce a pulsed dc emf output in this configuration.</caption>
+</figure>
+<para id="fs-id1171241332155">In real life, electric generators look a lot different from the figures in this section, but the principles are the same. The source of mechanical energy that turns the coil can be falling water (hydropower), steam produced by the burning of fossil fuels, or the kinetic energy of wind. <link target-id="CNX_UPhysics_30_06_Turbine"/> shows a cutaway view of a steam turbine; steam moves over the blades connected to the shaft, which rotates the coil within the generator. The generation of electrical energy from mechanical energy is the basic principle of all power that is sent through our electrical grids to our homes.</para>
+<figure id="CNX_UPhysics_30_06_Turbine">
+<media id="fs-id1171241237446" alt="Photograph shows a steam turbine generator.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_06_Turbine.jpg"/>
+</media>
+<caption>Steam turbine/generator. The steam produced by burning coal impacts the turbine blades, turning the shaft, which is connected to the generator.</caption>
+</figure>
+<para id="fs-id1171241098592">Generators illustrated in this section look very much like the motors illustrated previously. This is not coincidental. In fact, a motor becomes a generator when its shaft rotates. Certain early automobiles used their starter motor as a generator. In the next section, we further explore the action of a motor as a generator.</para>
+</section>
+<section id="fs-id1171241156817">
+<title>Back Emf</title>
+<para id="fs-id1171241206056">Generators convert mechanical energy into electrical energy, whereas motors convert electrical energy into mechanical energy. Thus, it is not surprising that motors and generators have the same general construction. A motor works by sending a current through a loop of wire located in a magnetic field. As a result, the magnetic field exerts torque on the loop. This rotates a shaft, thereby extracting mechanical work out of the electrical current sent in initially. (Refer to <link document="m58743">Force and Torque on a Current Loop</link> for a discussion on motors that will help you understand more about them before proceeding.)</para>
+<para id="fs-id1171241095131">When the coil of a motor is turned, magnetic flux changes through the coil, and an emf (consistent with Faraday’s law) is induced. The motor thus acts as a generator whenever its coil rotates. This happens whether the shaft is turned by an external input, like a belt drive, or by the action of the motor itself. That is, when a motor is doing work and its shaft is turning, an emf is generated. Lenz’s law tells us the emf opposes any change, so that the input emf that powers the motor is opposed by the motor’s self-generated emf, called the <term>back emf</term> of the motor (<link target-id="CNX_UPhysics_30_06_BackEmf"/>).</para>
+<figure id="CNX_UPhysics_30_06_BackEmf">
+<media id="fs-id1171241246610" alt="Schematic shows the coil of a dc motor. It consists of driving emf, back emf, resistor, and a switch.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_06_BackEmf.jpg"/>
+</media>
+<caption>The coil of a dc motor is represented as a resistor in this schematic. The back emf is represented as a variable emf that opposes the emf driving the motor. Back emf is zero when the motor is not turning and increases proportionally to the motor’s angular velocity.</caption>
+</figure>
+<para id="fs-id1171241162368">The generator output of a motor is the difference between the supply voltage and the back emf. The back emf is zero when the motor is first turned on, meaning that the coil receives the full driving voltage and the motor draws maximum current when it is on but not turning. As the motor turns faster, the back emf grows, always opposing the driving emf, and reduces both the voltage across the coil and the amount of current it draws. This effect is noticeable in many common situations. When a vacuum cleaner, refrigerator, or washing machine is first turned on, lights in the same circuit dim briefly due to the <emphasis effect="italics">IR</emphasis> drop produced in feeder lines by the large current drawn by the motor.</para>
+<para id="fs-id1171241156346">When a motor first comes on, it draws more current than when it runs at its normal operating speed. When a mechanical load is placed on the motor, like an electric wheelchair going up a hill, the motor slows, the back emf drops, more current flows, and more work can be done. If the motor runs at too low a speed, the larger current can overheat it (via resistive power in the coil, <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> perhaps even burning it out. On the other hand, if there is no mechanical load on the motor, it increases its angular velocity <m:math><m:mi>ω</m:mi></m:math> until the back emf is nearly equal to the driving emf. Then the motor uses only enough energy to overcome friction.</para>
+<para id="fs-id1171241142624">Eddy currents in iron cores of motors can cause troublesome energy losses. These are usually minimized by constructing the cores out of thin, electrically insulated sheets of iron. The magnetic properties of the core are hardly affected by the lamination of the insulating sheet, while the resistive heating is reduced considerably. Consider, for example, the motor coils represented in <link target-id="CNX_UPhysics_30_06_BackEmf"/>. The coils have an equivalent resistance of <m:math><m:mrow><m:mn>0.400</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> and are driven by an emf of 48.0 V. Shortly after being turned on, they draw a current</para>
+<equation id="fs-id1171241429573" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>48.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.400</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1171240994187">and thus dissipate <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>5.76</m:mn><m:mspace width="0.2em"/><m:mtext>kW</m:mtext></m:mrow></m:math> of energy as heat transfer. Under normal operating conditions for this motor, suppose the back emf is 40.0 V. Then at operating speed, the total voltage across the coils is 8.0 V (48.0 V minus the 40.0 V back emf), and the current drawn is</para>
+<equation id="fs-id1171241092018" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.400</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mspace width="0.2em"/><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241027949">Under normal load, then, the power dissipated is <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>160</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>.</m:mo></m:mrow></m:math> This does not cause a problem for this motor, whereas the former 5.76 kW would burn out the coils if sustained.</para>
+<example id="fs-id1171240980740">
+<para id="fs-id1171241167071"><title>A Series-Wound Motor in Operation</title>
+The total resistance <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mi>f</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mi>a</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> of a series-wound dc motor is <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> (<link target-id="CNX_UPhysics_30_06_SerMot"/>). When connected to a 120-V source (<m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mi>S</m:mi></m:msub></m:mrow></m:math>), the motor draws 10 A while running at constant angular velocity. (a) What is the back emf induced in the rotating coil, <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mi>i</m:mi></m:msub><m:mo>?</m:mo></m:mrow></m:math> (b) What is the mechanical power output of the motor? (c) How much power is dissipated in the resistance of the coils? (d) What is the power output of the 120-V source? (e) Suppose the load on the motor increases, causing it to slow down to the point where it draws 20 A. Answer parts (a) through (d) for this situation.</para>
+<figure id="CNX_UPhysics_30_06_SerMot">
+<media id="fs-id1171240975097" alt="Schematic shows the circuit of a series-wound direct current motor. It consists of two emfs and two resistors.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_06_SerMot.jpg"/>
+</media>
+<caption>Circuit representation of a series-wound direct current motor.</caption>
+</figure>
+<para id="fs-id1171241236563"><title>Strategy</title>
+The back emf is calculated based on the difference between the supplied voltage and the loss from the current through the resistance. The power from each device is calculated from one of the power formulas based on the given information.</para>
+<para id="fs-id1171241207652"><title>Solution</title></para>
+<list id="fs-id1171241169377" list-type="enumerated" number-style="lower-alpha">
+<item>The back emf is
+<equation id="fs-id1171241132946" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mi>s</m:mi></m:msub><m:mo>−</m:mo><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>R</m:mi><m:mi>f</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mi>a</m:mi></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>Since the potential across the armature is 100 V when the current through it is 10 A, the power output of the motor is
+<equation id="fs-id1171241068991" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mi>i</m:mi></m:msub><m:mi>I</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>A 10-A current flows through coils whose combined resistance is <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, so the power dissipated in the coils is
+<equation id="fs-id1171241243504" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>Since 10 A is drawn from the 120-V source, its power output is
+<equation id="fs-id1171241283504" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mi>s</m:mi></m:msub><m:mspace width="0.2em"/><m:mi>I</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>Repeating the same calculations with <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>, we find 
+<equation id="fs-id1171241345001" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>1.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>P</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:mn>2.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+The motor is turning more slowly in this case, so its power output and the power of the source are larger.</item>
+</list>
+<para id="fs-id1171241318487"><title>Significance</title>
+Notice that we have an energy balance in part (d): <m:math><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>+</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</example>
+</section>
+<section id="fs-id1171241280559" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1171241198216" list-type="bulleted" bullet-style="bullet">
+<item>An electric generator rotates a coil in a magnetic field, inducing an emf given as a function of time by <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>B</m:mi><m:mi>A</m:mi><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> where <emphasis effect="italics">A</emphasis> is the area of an <emphasis effect="italics">N</emphasis>-turn coil rotated at a constant angular velocity <m:math><m:mi>ω</m:mi></m:math> in a uniform magnetic field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>The peak emf of a generator is <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>B</m:mi><m:mi>A</m:mi><m:mi>ω</m:mi></m:mrow></m:math>.</item>
+<item>Any rotating coil produces an induced emf. In motors, this is called back emf because it opposes the emf input to the motor.</item>
+</list>
+</section>
+<section id="fs-id1171241207222" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1171241317836">
+<problem id="fs-id1171241408282">
+<para id="fs-id1171241185978">Design a current loop that, when rotated in a uniform magnetic field of strength 0.10 T, will produce an emf <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>110</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1171241143502">
+<para id="fs-id1171241223494">three turns with an area of 1 m<sup>2</sup></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241278006">
+<problem id="fs-id1171241317862">
+<para id="fs-id1171241143449">A flat, square coil of 20 turns that has sides of length 15.0 cm is rotating in a magnetic field of strength 0.050 T. If the maximum emf produced in the coil is 30.0 mV, what is the angular velocity of the coil?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241329403">
+<problem id="fs-id1171241337670">
+<para id="fs-id1171241278194">A 50-turn rectangular coil with dimensions <m:math><m:mrow><m:mn>0.15</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>0.40</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> rotates in a uniform magnetic field of magnitude 0.75 T at 3600 rev/min. (a) Determine the emf induced in the coil as a function of time. (b) If the coil is connected to a <m:math><m:mrow><m:mn>1000</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor, what is the power as a function of time required to keep the coil turning at 3600 rpm? (c) Answer part (b) if the coil is connected to a 2000-<m:math><m:mtext>Ω</m:mtext></m:math> resistor.</para>
+</problem>
+<solution id="fs-id1171241283811">
+<para id="fs-id1171241256404">a. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>ω</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>120</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>850</m:mn><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mi>π</m:mi><m:mtext>t V;</m:mtext></m:mtd></m:mtr></m:mtable></m:math><newline/>
+b. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>720</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mi>π</m:mi><m:mi>t</m:mi><m:mspace width="0.2em"/><m:mtext>W;</m:mtext></m:mrow></m:math><newline/>
+c. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>360</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mi>π</m:mi><m:mi>t</m:mi><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241242265">
+<problem id="fs-id1171241141452">
+<para id="fs-id1171241177279">The square armature coil of an alternating current generator has 200 turns and is 20.0 cm on side. When it rotates at 3600 rpm, its peak output voltage is 120 V. (a) What is the frequency of the output voltage? (b) What is the strength of the magnetic field in which the coil is turning?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241177283">
+<problem id="fs-id1171241451122">
+<para id="fs-id1171241277437">A flip coil is a relatively simple device used to measure a magnetic field. It consists of a circular coil of <emphasis effect="italics">N</emphasis> turns wound with fine conducting wire. The coil is attached to a ballistic galvanometer, a device that measures the total charge that passes through it. The coil is placed in a magnetic field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> such that its face is perpendicular to the field. It is then flipped through <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and the total charge <emphasis effect="italics">Q</emphasis> that flows through the galvanometer is measured. (a) If the total resistance of the coil and galvanometer is <emphasis effect="italics">R</emphasis>, what is the relationship between <emphasis effect="italics">B</emphasis> and <emphasis effect="italics">Q</emphasis>? Because the coil is very small, you can assume that <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is uniform over it. (b) How can you determine whether or not the magnetic field is perpendicular to the face of the coil?</para>
+</problem>
+<solution id="fs-id1171241071882">
+<para id="fs-id1171241342968">a. <emphasis effect="italics">B</emphasis> is proportional to <emphasis effect="italics">Q</emphasis>; b. If the coin turns easily, the magnetic field is perpendicular. If the coin is at an equilibrium position, it is parallel.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241251512">
+<problem id="fs-id1171241144536">
+<para id="fs-id1171241192667">The flip coil of the preceding problem has a radius of 3.0 cm and is wound with 40 turns of copper wire. The total resistance of the coil and ballistic galvanometer is <m:math><m:mrow><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω.</m:mtext></m:mrow></m:math> When the coil is flipped through <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> in a magnetic field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> a change of 0.090 C flows through the ballistic galvanometer. (a) Assuming that <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> and the face of the coil are initially perpendicular, what is the magnetic field? (b) If the coil is flipped through <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math> what is the reading of the galvanometer?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241199590">
+<problem id="fs-id1171241128144">
+<para id="fs-id1171241240249">A 120-V, series-wound motor has a field resistance of 80 <m:math><m:mtext>Ω</m:mtext></m:math> and an armature resistance of 10 <m:math><m:mtext>Ω</m:mtext></m:math>. When it is operating at full speed, a back emf of 75 V is generated. (a) What is the initial current drawn by the motor? When the motor is operating at full speed, where are (b) the current drawn by the motor, (c) the power output of the source, (d) the power output of the motor, and (e) the power dissipated in the two resistances?</para>
+</problem>
+<solution id="fs-id1171241209112">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171241280567">a. 1.33 A; b. 0.50 A; c. 60 W; d. 37.5 W; e. 22.5W</para></solution>
+</exercise>
+<exercise id="fs-id1171241235590">
+<problem id="fs-id1171241321586">
+<para id="fs-id1171241123307">A small series-wound dc motor is operated from a 12-V car battery. Under a normal load, the motor draws 4.0 A, and when the armature is clamped so that it cannot turn, the motor draws 24 A. What is the back emf when the motor is operating normally?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171241139772">
+<term>back emf</term>
+<meaning id="fs-id1171241164178">emf generated by a running motor, because it consists of a coil turning in a magnetic field; it opposes the voltage powering the motor</meaning>
+</definition>
+<definition id="fs-id1171241200968">
+<term>peak emf</term>
+<meaning id="fs-id1171241165878">maximum emf produced by a generator</meaning>
+</definition>
+<definition id="fs-id1171241114615">
+<term>electric generator</term>
+<meaning id="fs-id1171241317856">device for converting mechanical work into electric energy; it induces an emf by rotating a coil in a magnetic field</meaning>
+</definition>
+</glossary>
+</document>

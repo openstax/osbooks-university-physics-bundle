@@ -1,0 +1,132 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Statements of the Second Law of Thermodynamics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58405</md:content-id>
+  <md:title>Statements of the Second Law of Thermodynamics</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Contrast the second law of thermodynamics statements according to Kelvin and Clausius formulations</item>
+<item>Interpret the second of thermodynamics via irreversibility</item></list></md:abstract>
+  <md:uuid>88f5b48e-f493-4068-b6f6-740cbfe13c69</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167584684407">Earlier in this chapter, we introduced the Clausius statement of the second law of thermodynamics, which is based on the irreversibility of spontaneous heat flow. As we remarked then, the second law of thermodynamics can be stated in several different ways, and all of them can be shown to imply the others. In terms of heat engines, the second law of thermodynamics may be stated as follows:</para>
+<note id="fs-id1167584731767">
+<title>Second Law of Thermodynamics (Kelvin statement)</title>
+<para id="fs-id1167585001587">It is impossible to convert the heat from a single source into work without any other effect.</para>
+</note>
+<para id="fs-id1167583693158">This is known as the <term>Kelvin statement of the second law of thermodynamics</term>. This statement describes an unattainable “<term>perfect engine</term>,” as represented schematically in <link target-id="CNX_UPhysics_21_04_Kelvin"/>(a). Note that “without any other effect” is a very strong restriction. For example, an engine can absorb heat and turn it all into work, <emphasis effect="italics">but not if it completes a cycle</emphasis>. Without completing a cycle, the substance in the engine is not in its original state and therefore an “other effect” has occurred. Another example is a chamber of gas that can absorb heat from a heat reservoir and do work isothermally against a piston as it expands. However, if the gas were returned to its initial state (that is, made to complete a cycle), it would have to be compressed and heat would have to be extracted from it.</para>
+<para id="fs-id1167584771268">The Kelvin statement is a manifestation of a well-known engineering problem. Despite advancing technology, we are not able to build a heat engine that is <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> efficient. The first law does not exclude the possibility of constructing a perfect engine, but the second law forbids it.</para>
+<figure id="CNX_UPhysics_21_04_Kelvin">
+<media id="fs-id1167585040105" alt="Part a shows schematic of a perfect heat engine with a downward arrow Q at T subscript h and a right arrow W where Q equals W. Part b shows schematic of a perfect refrigerator with an upward arrow Q at T subscript c and an upward arrow Q at T subscript h.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_04_Kelvin.jpg"/>
+</media>
+<caption>(a) A “perfect heat engine” converts all input heat into work. (b) A “perfect refrigerator” transports heat from a cold reservoir to a hot reservoir without work input. Neither of these devices is achievable in reality.</caption>
+</figure>
+<para id="fs-id1167583958356">We can show that the Kelvin statement is equivalent to the Clausius statement if we view the two objects in the Clausius statement as a cold reservoir and a hot reservoir. Thus, the Clausius statement becomes: <emphasis effect="italics">It is impossible to construct a refrigerator that transfers heat from a cold reservoir to a hot reservoir without aid from an external source</emphasis>. The Clausius statement is related to the everyday observation that heat never flows spontaneously from a cold object to a hot object. <emphasis effect="italics">Heat transfer in the direction of increasing temperature always requires some energy input</emphasis>. A “<term>perfect refrigerator</term>,” shown in <link target-id="CNX_UPhysics_21_04_Kelvin"/>(b), which works without such external aid, is impossible to construct.</para>
+<para id="fs-id1167584855246">To prove the equivalence of the Kelvin and Clausius statements, we show that if one statement is false, it necessarily follows that the other statement is also false. Let us first assume that the Clausius statement is false, so that the perfect refrigerator of <link target-id="CNX_UPhysics_21_04_Kelvin"/>(b) does exist. The refrigerator removes heat <emphasis effect="italics">Q</emphasis> from a cold reservoir at a temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> and transfers all of it to a hot reservoir at a temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Now consider a real heat engine working in the same temperature range. It extracts heat <m:math><m:mrow><m:mi>Q</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow></m:math> from the hot reservoir, does work <emphasis effect="italics">W</emphasis>, and discards heat <emphasis effect="italics">Q</emphasis> to the cold reservoir. From the first law, these quantities are related by <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>Q</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>Q</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>Q</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1167584747972">Suppose these two devices are combined as shown in <link target-id="CNX_UPhysics_21_04_PerfEng"/>. The net heat removed from the hot reservoir is <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>, no net heat transfer occurs to or from the cold reservoir, and work <emphasis effect="italics">W</emphasis> is done on some external body. Since <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>, the combination of a perfect refrigerator and a real heat engine is itself a perfect heat engine, thereby contradicting the Kelvin statement. Thus, if the Clausius statement is false, the Kelvin statement must also be false.</para>
+<figure id="CNX_UPhysics_21_04_PerfEng">
+<media id="fs-id1167584767355" alt="The figure shows schematic of a perfect refrigerator and real heat engine. On the left there is an upward arrow Q and on the right there is a downward arrow Q plus delta Q which splits into a downward arrow Q and a right arrow W.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_04_PerfEng.jpg"/>
+</media>
+<caption>Combining a perfect refrigerator and a real heat engine yields a perfect heat engine because <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>Q</m:mi><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1167584910958">Using the second law of thermodynamics, we now prove two important properties of heat engines operating between two heat reservoirs. The first property is that <emphasis effect="italics">any reversible engine operating between two reservoirs has a greater efficiency than any irreversible engine operating between the same two reservoirs</emphasis>.</para>
+<para id="fs-id1167585164280">The second property to be demonstrated is that <emphasis effect="italics">all reversible engines operating between the same two reservoirs have the same efficiency</emphasis>. To show this, we start with the two engines D and E of <link target-id="CNX_UPhysics_21_04_EngCoup"/>(a), which are operating between two common heat reservoirs at temperatures <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> First, we assume that D is a reversible engine and that E is a hypothetical irreversible engine that has a higher efficiency than D. If both engines perform the same amount of work <m:math><m:mi>W</m:mi></m:math> per cycle, it follows from <link target-id="fs-id1167585928177" document="m58404"/> that <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>&gt;</m:mo><m:msubsup><m:mi>Q</m:mi><m:mtext>h</m:mtext><m:mo>′</m:mo></m:msubsup></m:mrow></m:math>. It then follows from the first law that <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>&gt;</m:mo><m:msubsup><m:mi>Q</m:mi><m:mtext>c</m:mtext><m:mo>′</m:mo></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_21_04_EngCoup">
+<media id="fs-id1167583608506" alt="Part a of the figure shows uncoupled engines. On the left there is a downward arrow Q subscript h which splits into a left arrow W and a downward arrow Q subscript c. On the right there is a downward arrow Q dash subscript h which splits into a downward arrow Q dash subscript c and a right arrow W. Part b shows coupled engines. On the left there is an upward arrow Q subscript c which changes to Q subscript h after arrow W is added to it. On the right there is a downward arrow Q dash subscript h which splits into a left arrow W and a downward arrow Q dash subscript c.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_04_EngCoup.jpg"/>
+</media>
+<caption>(a) Two uncoupled engines D and E working between the same reservoirs. (b) The coupled engines, with D working in reverse.</caption>
+</figure>
+<para id="fs-id1167585125690">Suppose the cycle of D is reversed so that it operates as a refrigerator, and the two engines are coupled such that the work output of E is used to drive D, as shown in <link target-id="CNX_UPhysics_21_04_EngCoup"/>(b). Since <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>&gt;</m:mo><m:msubsup><m:mi>Q</m:mi><m:mtext>h</m:mtext><m:mo>′</m:mo></m:msubsup></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>&gt;</m:mo><m:msubsup><m:mi>Q</m:mi><m:mtext>c</m:mtext><m:mo>′</m:mo></m:msubsup><m:mo>,</m:mo></m:mrow></m:math> the net result of each cycle is equivalent to a spontaneous transfer of heat from the cold reservoir to the hot reservoir, a process the second law does not allow. The original assumption must therefore be wrong, and it is impossible to construct an irreversible engine such that E is more efficient than the reversible engine D.</para>
+<para id="fs-id1167583758624">Now it is quite easy to demonstrate that the efficiencies of all reversible engines operating between the same reservoirs are equal. Suppose that D and E are both reversible engines. If they are coupled as shown in <link target-id="CNX_UPhysics_21_04_EngCoup"/>(b), the efficiency of E cannot be greater than the efficiency of D, or the second law would be violated. If both engines are then reversed, the same reasoning implies that the efficiency of D cannot be greater than the efficiency of E. Combining these results leads to the conclusion that all reversible engines working between the same two reservoirs have the same efficiency.</para>
+<note id="fs-id1167584943398" class="check-understanding">
+<exercise id="fs-id1167584760787">
+<problem id="fs-id1167583731249">
+<para id="fs-id1167584987643"><emphasis effect="bold">Check Your Understanding</emphasis> What is the efficiency of a perfect heat engine? What is the coefficient of performance of a perfect refrigerator?</para>
+</problem>
+<solution id="fs-id1167584741024">
+<para id="fs-id1167585043244">A perfect heat engine would have <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, which would lead to <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> A perfect refrigerator would need zero work, that is, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, which leads to <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>W</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167584998783" class="check-understanding">
+<exercise id="fs-id1167584741418">
+<problem id="fs-id1167584716422">
+<para id="fs-id1167584911316"><emphasis effect="bold">Check Your Understanding</emphasis> Show that <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msubsup><m:mi>Q</m:mi><m:mtext>h</m:mtext><m:mo>′</m:mo></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>−</m:mo><m:msubsup><m:mi>Q</m:mi><m:mtext>c</m:mtext><m:mo>′</m:mo></m:msubsup></m:mrow></m:math> for the hypothetical engine of <link target-id="CNX_UPhysics_21_04_EngCoup"/>(b).</para>
+</problem>
+<solution id="fs-id1167585111169">
+<para id="fs-id1167585160886">From the engine on the right, we have <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msubsup><m:mi>Q</m:mi><m:mtext>h</m:mtext><m:mo>′</m:mo></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>Q</m:mi><m:mtext>c</m:mtext><m:mo>′</m:mo></m:msubsup><m:mo>.</m:mo></m:mrow></m:math> From the refrigerator on the right, we have <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>+</m:mo><m:mi>W</m:mi><m:mo>.</m:mo></m:mrow></m:math> Thus, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msubsup><m:mi>Q</m:mi><m:mtext>h</m:mtext><m:mo>′</m:mo></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>Q</m:mi><m:mtext>c</m:mtext><m:mo>′</m:mo></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167585000495" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167583544781" list-type="bulleted" bullet-style="bullet">
+<item>The Kelvin statement of the second law of thermodynamics: It is impossible to convert the heat from a single source into work without any other effect.</item>
+<item>The Kelvin statement and Clausius statement of the second law of thermodynamics are equivalent.</item>
+</list>
+</section>
+<section id="fs-id1167583834034" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167584777336">
+<problem id="fs-id1167584632501">
+<para id="fs-id1167584684068">In the text, we showed that if the Clausius statement is false, the Kelvin statement must also be false. Now show the reverse, such that if the Kelvin statement is false, it follows that the Clausius statement is false.</para>
+</problem>
+<solution id="fs-id1167584907857">
+<para id="fs-id1167584979749">If we combine a perfect engine and a real refrigerator with the engine converting heat <emphasis effect="italics">Q</emphasis> from the hot reservoir into work <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi></m:mrow></m:math> to drive the refrigerator, then the heat dumped to the hot reservoir by the refrigerator will be <m:math><m:mrow><m:mi>W</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>, resulting in a perfect refrigerator transferring heat <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow></m:math> from the cold reservoir to hot reservoir without any other effect.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167584664172">
+<problem id="fs-id1167584698298">
+<para id="fs-id1167584754599">Why don’t we operate ocean liners by extracting heat from the ocean or operate airplanes by extracting heat from the atmosphere?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167584777560">
+<problem id="fs-id1167584738554">
+<para id="fs-id1167584698260">Discuss the practical advantages and disadvantages of heat pumps and electric heating.</para>
+</problem>
+<solution id="fs-id1167584959095">
+<para id="fs-id1167585086854">Heat pumps can efficiently extract heat from the ground to heat on cooler days or pull heat out of the house on warmer days. The disadvantage of heat pumps are that they are more costly than alternatives, require maintenance, and will not work efficiently when temperature differences between the inside and outside are very large. Electric heating is much cheaper to purchase than a heat pump; however, it may be more costly to run depending on the electric rates and amount of usage.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167584699585">
+<problem id="fs-id1167584743435">
+<para id="fs-id1167584736555">The energy output of a heat pump is greater than the energy used to operate the pump. Why doesn’t this statement violate the first law of thermodynamics?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585013543">
+<problem id="fs-id1167584728109">
+<para id="fs-id1167583728408">Speculate as to why nuclear power plants are less efficient than fossil-fuel plants based on temperature arguments.</para>
+</problem>
+<solution id="fs-id1167585168436">
+<para id="fs-id1167584733050">A nuclear reactor needs to have a lower temperature to operate, so its efficiency will not be as great as a fossil-fuel plant. This argument does not take into consideration the amount of energy per reaction: Nuclear power has a far greater energy output than fossil fuels.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167584730720">
+<problem id="fs-id1167585013821">
+<para id="fs-id1167584733047">An ideal gas goes from state <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mtext>i</m:mtext></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to state <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mtext>f</m:mtext></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> when it is allowed to expand freely. Is it possible to represent the actual process on a <emphasis effect="italics">pV</emphasis> diagram? Explain.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167585089590">
+<term>Kelvin statement of the second law of thermodynamics</term>
+<meaning id="fs-id1167583532262">it is impossible to convert the heat from a single source into work without any other effect</meaning>
+</definition>
+<definition id="fs-id1167585157775">
+<term>perfect engine</term>
+<meaning id="fs-id1167584916149">engine that can convert heat into work with <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> efficiency</meaning>
+</definition>
+<definition id="fs-id1167584979364">
+<term>perfect refrigerator (heat pump)</term>
+<meaning id="fs-id1167583737567">refrigerator (heat pump) that can remove (dump) heat without any input of work</meaning>
+</definition>
+</glossary>
+
+</document>

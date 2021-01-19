@@ -1,0 +1,167 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Energy Stored in a Capacitor</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58450</md:content-id>
+  <md:title>Energy Stored in a Capacitor</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain how energy is stored in a capacitor</item>
+<item>Use energy relations to determine the energy stored in a capacitor network</item>
+</list></md:abstract>
+  <md:uuid>8f769bf9-7e6b-4f2e-9c10-7f0773e48feb</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167132593814">Most of us have seen dramatizations of medical personnel using a defibrillator to pass an electrical current through a patient’s heart to get it to beat normally. Often realistic in detail, the person applying the shock directs another person to “make it 400 joules this time.” The energy delivered by the defibrillator is stored in a capacitor and can be adjusted to fit the situation. SI units of joules are often employed. Less dramatic is the use of capacitors in microelectronics to supply energy when batteries are charged (<link target-id="CNX_UPhysics_25_03_Circuits"/>). Capacitors are also used to supply energy for flash lamps on cameras.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_25_03_Circuits"><media id="fs-id1167133550659" alt="This is a photograph of a PCB with an IC and various other components on it. The PCB is attached to a USB connector. Labels for all components are printed on the board.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_03_Circuits.jpg"/>
+</media>
+
+<caption>The capacitors on the circuit board for an electronic device follow a labeling convention that identifies each one with a code that begins with the letter “C.” (credit: Windell Oskay)</caption></figure><para id="fs-id1167133639015">The energy <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub></m:mrow></m:math> stored in a capacitor is electrostatic potential energy and is thus related to the charge <emphasis effect="italics">Q</emphasis> and voltage <emphasis effect="italics">V</emphasis> between the capacitor plates. A charged capacitor stores energy in the electrical field between its plates. As the capacitor is being charged, the electrical field builds up. When a charged capacitor is disconnected from a battery, its energy remains in the field in the space between its plates.</para>
+<para id="fs-id1167132236908">To gain insight into how this energy may be expressed (in terms of <emphasis effect="italics">Q</emphasis> and <emphasis effect="italics">V</emphasis>), consider a charged, empty, parallel-plate capacitor; that is, a capacitor without a dielectric but with a vacuum between its plates. The space between its plates has a volume <emphasis effect="italics">Ad</emphasis>, and it is filled with a uniform electrostatic field <emphasis effect="italics">E</emphasis>. The total energy <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub></m:mrow></m:math> of the capacitor is contained within this space. The <term>energy density</term> <m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub></m:mrow></m:math> in this space is simply <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub></m:mrow></m:math> divided by the volume <emphasis effect="italics">Ad</emphasis>. If we know the energy density, the energy can be found as <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. We will learn in <link document="m58495">Electromagnetic Waves</link> (after completing the study of Maxwell’s equations) that the energy density <m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub></m:mrow></m:math> in a region of free space occupied by an electrical field <emphasis effect="italics">E</emphasis> depends only on the magnitude of the field and is</para>
+<note id="fs-id1167132682092" class="equation-callout">
+<equation id="fs-id1167132235827"><label/><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133838362">If we multiply the energy density by the volume between the plates, we obtain the amount of energy stored between the plates of a parallel-plate capacitor:<m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi><m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup><m:mi>C</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1167132748204">In this derivation, we used the fact that the electrical field between the plates is uniform so that <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mi>A</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:math> Because <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi></m:mrow></m:mrow></m:math>, we can express this result in other equivalent forms:</para>
+<note id="fs-id1167132306813" class="equation-callout">
+<equation id="fs-id1167133774352"><label/><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>Q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167132699567">The expression in <link target-id="fs-id1167133774352"/> for the energy stored in a parallel-plate capacitor is generally valid for all types of capacitors. To see this, consider any uncharged capacitor (not necessarily a parallel-plate type). At some instant, we connect it across a battery, giving it a potential difference <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mi>q</m:mi><m:mtext>/</m:mtext><m:mi>C</m:mi></m:mrow></m:mrow></m:math> between its plates. Initially, the charge on the plates is <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> As the capacitor is being charged, the charge gradually builds up on its plates, and after some time, it reaches the value <emphasis effect="italics">Q</emphasis>. To move an infinitesimal charge <emphasis effect="italics">dq</emphasis> from the negative plate to the positive plate (from a lower to a higher potential), the amount of work <emphasis effect="italics">dW</emphasis> that must be done on <emphasis effect="italics">dq</emphasis> is <m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mi>d</m:mi><m:mi>q</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mi>C</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1167132302126">This work becomes the energy stored in the electrical field of the capacitor. In order to charge the capacitor to a charge <emphasis effect="italics">Q</emphasis>, the total work required is</para>
+<equation id="fs-id1167133522244" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">(</m:mo><m:mi>Q</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mn>0</m:mn><m:mi>Q</m:mi></m:msubsup><m:mrow><m:mfrac><m:mi>q</m:mi><m:mi>C</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>Q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133329970">Since the geometry of the capacitor has not been specified, this equation holds for any type of capacitor. The total work <emphasis effect="italics">W</emphasis> needed to charge a capacitor is the electrical potential energy <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub></m:mrow></m:math> stored in it, or <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mi>W</m:mi></m:mrow></m:math>. When the charge is expressed in coulombs, potential is expressed in volts, and the capacitance is expressed in farads, this relation gives the energy in joules.</para>
+<para id="fs-id1167132394973">Knowing that the energy stored in a capacitor is <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mrow><m:msup><m:mi>Q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>C</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:math>, we can now find the energy density <m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub></m:mrow></m:math> stored in a vacuum between the plates of a charged parallel-plate capacitor. We just have to divide <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub></m:mrow></m:math> by the volume <emphasis effect="italics">Ad</emphasis> of space between its plates and take into account that for a parallel-plate capacitor, we have <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mi>σ</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mi>A</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi></m:mrow></m:mrow></m:math>. Therefore, we obtain</para>
+<equation id="fs-id1167132231842" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub></m:mrow><m:mrow><m:mi>A</m:mi><m:mi>d</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>Q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>A</m:mi><m:mi>d</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>Q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mi>A</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi></m:mrow></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>A</m:mi><m:mi>d</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133859129">We see that this expression for the density of energy stored in a parallel-plate capacitor is in accordance with the general relation expressed in <link target-id="fs-id1167132235827"/>. We could repeat this calculation for either a spherical capacitor or a cylindrical capacitor—or other capacitors—and in all cases, we would end up with the general relation given by <link target-id="fs-id1167132235827"/>.</para>
+<example id="fs-id1167132710004">
+<para id="fs-id1167133321787"><title>Energy Stored in a Capacitor</title>
+Calculate the energy stored in the capacitor network in <link target-id="CNX_UPhysics_25_02_Networks" document="m58449"/>(a) when the capacitors are fully charged and when the capacitances are <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F,</m:mtext></m:mrow></m:math> respectively.</para>
+<para id="fs-id1167132361929"><title>Strategy</title>
+We use <link target-id="fs-id1167133774352"/> to find the energy <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, and <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> stored in capacitors 1, 2, and 3, respectively. The total energy is the sum of all these energies.</para>
+<para id="fs-id1167133580842"><title>Solution</title>
+We identify <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> The energies stored in these capacitors are</para>
+<equation id="fs-id1167133617960" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>U</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>96</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>U</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>64</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>U</m:mi><m:mn>3</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>3</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>130</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167132499573">The total energy stored in this network is</para>
+<equation id="fs-id1167132742438" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>U</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>96</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J</m:mtext><m:mo>+</m:mo><m:mn>64</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J</m:mtext><m:mo>+</m:mo><m:mn>130</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>0.29</m:mn><m:mspace width="0.2em"/><m:mtext>mJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132318999"><title>Significance</title>
+We can verify this result by calculating the energy stored in the single <m:math><m:mrow><m:mn>4</m:mn><m:mtext>.0-</m:mtext><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math> capacitor, which is found to be equivalent to the entire network. The voltage across the network is 12.0 V. The total energy obtained in this way agrees with our previously obtained result,<m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>C</m:mi><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0.29</m:mn><m:mspace width="0.2em"/><m:mtext>mJ</m:mtext></m:mrow></m:math>.</para>
+</example>
+<note id="fs-id1167132236820" class="check-understanding">
+<exercise id="fs-id1167132463591">
+<problem id="fs-id1167133396980">
+<para id="fs-id1167132572456"><emphasis effect="bold">Check Your Understanding</emphasis> The potential difference across a 5.0-pF capacitor is 0.40 V. (a) What is the energy stored in this capacitor? (b) The potential difference is now increased to 1.20 V. By what factor is the stored energy increased?</para>
+</problem>
+<solution id="fs-id1167132463478">
+<para id="fs-id1167132201246">a.<m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−13</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext></m:mrow></m:math>; b. 9 times</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167132573146">In a cardiac emergency, a portable electronic device known as an automated external defibrillator (AED) can be a lifesaver. A <term>defibrillator</term> (<link target-id="CNX_UPhysics_25_03_Defib"/>) delivers a large charge in a short burst, or a shock, to a person’s heart to correct abnormal heart rhythm (an arrhythmia). A heart attack can arise from the onset of fast, irregular beating of the heart—called cardiac or ventricular fibrillation. Applying a large shock of electrical energy can terminate the arrhythmia and allow the body’s natural pacemaker to resume its normal rhythm. Today, it is common for ambulances to carry AEDs. AEDs are also found in many public places. These are designed to be used by lay persons. The device automatically diagnoses the patient’s heart rhythm and then applies the shock with appropriate energy and waveform. CPR (cardiopulmonary resuscitation) is recommended in many cases before using a defibrillator.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_25_03_Defib"><media id="fs-id1167133805393" alt="Photograph of an automated external defibrillator.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_03_Defib.jpg"/>
+</media>
+
+<caption>Automated external defibrillators are found in many public places. These portable units provide verbal instructions for use in the important first few minutes for a person suffering a cardiac attack. (credit: Owain Davies)</caption></figure><example id="fs-id1167132454854">
+<para id="fs-id1167133353681"><title>Capacitance of a Heart Defibrillator</title>
+A heart defibrillator delivers <m:math><m:mrow><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>J</m:mtext></m:mrow></m:math> of energy by discharging a capacitor initially at <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> What is its capacitance?</para>
+<para id="fs-id1167132257479"><title>Strategy</title>
+We are given <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub></m:mrow></m:math> and <emphasis effect="italics">V</emphasis>, and we are asked to find the capacitance <emphasis effect="italics">C</emphasis>. We solve <link target-id="fs-id1167133774352"/> for <emphasis effect="italics">C</emphasis> and substitute.</para>
+<para id="fs-id1167132519497"><title>Solution</title>
+Solving this expression for <emphasis effect="italics">C</emphasis>
+and entering the given values yields
+<m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mfrac><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub></m:mrow><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:mfrac><m:mrow><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mspace width="0.1em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8.00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</example>
+<section id="fs-id1167133519300" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167132483887" list-type="bulleted" bullet-style="bullet">
+<item>Capacitors are used to supply energy to a variety of devices, including defibrillators, microelectronics such as calculators, and flash lamps.</item>
+<item>The energy stored in a capacitor is the work required to charge the capacitor, beginning with no charge on its plates. The energy is stored in the electrical field in the space between the capacitor plates. It depends on the amount of electrical charge on the plates and on the potential difference between the plates.</item>
+<item>The energy stored in a capacitor network is the sum of the energies stored on individual capacitors in the network. It can be computed as the energy stored in the equivalent capacitor of the network.</item>
+</list>
+</section>
+<section id="fs-id1167133465264" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167133513609">
+<problem id="fs-id1167132497239">
+<para id="fs-id1167132282406">If you wish to store a large amount of energy in a capacitor bank, would you connect capacitors in series or parallel? Explain.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167132688982" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167132473260">
+<problem id="fs-id1167133561454">
+<para id="fs-id1167132336287">How much energy is stored in an <m:math><m:mrow><m:mn>8.00</m:mn><m:mtext>-</m:mtext><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math> capacitor whose plates are at a potential difference of 6.00 V?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133562879">
+<problem id="fs-id1167133542594">
+<para id="fs-id1167133826549">A capacitor has a charge of <m:math><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> when connected to a 6.0-V battery. How much energy is stored in this capacitor?</para>
+</problem>
+<solution id="fs-id1167132567907">
+<para id="fs-id1167132467162"><m:math><m:mrow><m:mn>7.5</m:mn><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132288019">
+<problem id="fs-id1167132709757">
+<para id="fs-id1167133826890">How much energy is stored in the electrical field of a metal sphere of radius 2.0 m that is kept at a 10.0-V potential?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132529025">
+<problem id="fs-id1167132487377">
+<para id="fs-id1167133374632">(a) What is the energy stored in the <m:math><m:mrow><m:mn>10.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor of a heart defibrillator charged to <m:math><m:mrow><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>
+? (b) Find the amount of the stored charge.</para>
+</problem>
+<solution id="fs-id1167132623406">
+<para id="fs-id1167132211978">a. 405 J; b. 90.0 mC</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133456316">
+<problem id="fs-id1167133579439">
+<para id="fs-id1167133511034">In open-heart surgery, a much smaller amount of energy will defibrillate the heart. (a) What voltage is applied to the <m:math><m:mrow><m:mn>8.00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor of a heart defibrillator that stores 40.0 J of energy? (b) Find the amount of the stored charge.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133384841">
+<problem id="fs-id1167133376600">
+<para id="fs-id1167132539524">A <m:math><m:mrow><m:mn>165</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor is used in conjunction with a dc motor. How much energy is stored in it when 119 V is applied?</para>
+</problem>
+<solution id="fs-id1167133558696">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167132432678">1.17 J</para></solution>
+</exercise>
+<exercise id="fs-id1167133530158">
+<problem id="fs-id1167132300136">
+<para id="fs-id1167132735964">Suppose you have a 9.00-V battery, a <m:math><m:mrow><m:mn>2.00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor, and a <m:math><m:mrow><m:mn>7.40</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor. (a) Find the charge and energy stored if the capacitors are connected to the battery in series. (b) Do the same for a parallel connection.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133384279">
+<problem id="fs-id1167133446973">
+<para id="fs-id1167132367239">An anxious physicist worries that the two metal shelves of a wood frame bookcase might obtain a high voltage if charged by static electricity, perhaps produced by friction. (a) What is the capacitance of the empty shelves if they have area <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and are 0.200 m apart? (b) What is the voltage between them if opposite charges of magnitude 2.00 nC are placed on them? (c) To show that this voltage poses a small hazard, calculate the energy stored. (d) The actual shelves have an area 100 times smaller than these hypothetical shelves with a connection to the same voltage. Are his fears justified?</para>
+</problem>
+<solution id="fs-id1167132688620">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167132275943">a. <m:math><m:mrow><m:mn>4.43</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext></m:mrow></m:math>; b. 0.453 V; c. <m:math><m:mrow><m:mn>4.53</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; d. no</para></solution>
+</exercise>
+<exercise id="fs-id1167133698055">
+<problem id="fs-id1167132205530">
+<para id="fs-id1167133376985">A parallel-plate capacitor is made of two square plates 25 cm on a side and 1.0 mm apart. The capacitor is connected to a 50.0-V battery. With the battery still connected, the plates are pulled apart to a separation of 2.00 mm. What are the energies stored in the capacitor before and after the plates are pulled farther apart? Why does the energy decrease even though work is done in separating the plates?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133696789">
+<problem id="fs-id1167133347000">
+<para id="fs-id1167132319133">Suppose that the capacitance of a variable capacitor can be manually changed from 100 pF to 800 pF by turning a dial, connected to one set of plates by a shaft, from <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. With the dial set at <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> (corresponding to <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>800</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>), the capacitor is connected to a 500-V source. After charging, the capacitor is disconnected from the source, and the dial is turned to <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. If friction is negligible, how much work is required to turn the dial from <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>
+?</para>
+</problem>
+<solution id="fs-id1167132370098">
+<para id="fs-id1167133571546">0.7 mJ</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167133797142">
+<term>energy density</term>
+<meaning id="fs-id1167132366861">energy stored in a capacitor divided by the volume between the plates</meaning>
+</definition>
+</glossary>
+</document>

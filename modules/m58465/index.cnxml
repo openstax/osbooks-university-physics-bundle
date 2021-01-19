@@ -1,0 +1,232 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>Ampère’s Law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58465</md:content-id>
+  <md:title>Ampère’s Law</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain how Ampère’s law relates the magnetic field produced by a current to the value of the current</item>
+<item>Calculate the magnetic field from a long straight wire, either thin or thick, by Ampère’s law</item>
+</list></md:abstract>
+  <md:uuid>cc30d0fc-3dfa-411b-aa04-2b98c0ef20cf</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1166167402958">A fundamental property of a static magnetic field is that, unlike an electrostatic field, it is not conservative. A conservative field is one that does the same amount of work on a particle moving between two different points regardless of the path chosen. Magnetic fields do not have such a property. Instead, there is a relationship between the magnetic field and its source, electric current. It is expressed in terms of the line integral of <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> and is known as <term>Ampère’s law</term>. This law can also be derived directly from the Biot-Savart law. We now consider that derivation for the special case of an infinite, straight wire.</para>
+<para id="fs-id1166167113768"><link target-id="CNX_UPhysics_29_05_AmpereArb"/> shows an arbitrary plane perpendicular to an infinite, straight wire whose current <emphasis effect="italics">I</emphasis> is directed out of the page. The magnetic field lines are circles directed counterclockwise and centered on the wire. To begin, let’s consider <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> over the closed paths <emphasis effect="italics">M</emphasis> and <emphasis effect="italics">N</emphasis>. Notice that one path (<emphasis effect="italics">M</emphasis>) encloses the wire, whereas the other (<emphasis effect="italics">N</emphasis>) does not. Since the field lines are circular, <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is the product of <emphasis effect="italics">B</emphasis> and the projection of <emphasis effect="italics">dl</emphasis> onto the circle passing through <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> If the radius of this particular circle is <emphasis effect="italics">r</emphasis>, the projection is <m:math><m:mrow><m:mi>r</m:mi><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> and</para>
+<equation id="fs-id1166167079083" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_29_05_AmpereArb">
+<media id="fs-id1166167079731" alt="Figures A and B show an arbitrary plane perpendicular to an infinite, straight wire whose current I is directed out of the page. The magnetic field lines are circles directed counterclockwise and centered on the wire. Ampere path M demonstrated in the Figure A encloses the wire. Ampere path N demonstrated in the Figure B does not enclose the wire.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_AmpereArb.jpg"/>
+</media>
+<caption>The current <emphasis effect="italics">I</emphasis> of a long, straight wire is directed out of the page. The integral <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> equals <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:math> and 0, respectively, for paths <emphasis effect="italics">M</emphasis> and <emphasis effect="italics">N</emphasis>.</caption>
+</figure>
+<para id="fs-id1166165865545">With <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo>→</m:mo></m:mover></m:mstyle></m:math> given by <link target-id="fs-id1166168124989" document="m58462"/>,</para>
+<equation id="fs-id1166167311525"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167046931">For path <emphasis effect="italics">M</emphasis>, which circulates around the wire, <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>M</m:mi></m:msub><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:math> and</para>
+<equation id="fs-id1166167369167"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>M</m:mi></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167112513">Path <emphasis effect="italics">N</emphasis>, on the other hand, circulates through both positive (counterclockwise) and negative (clockwise) <m:math><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math> (see <link target-id="CNX_UPhysics_29_05_AmpereArb"/>), and since it is closed, <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>N</m:mi></m:msub><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>0.</m:mn></m:mrow></m:math> Thus for path <emphasis effect="italics">N</emphasis>,</para>
+<equation id="fs-id1166167124699"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>N</m:mi></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167277364">The extension of this result to the general case is Ampère’s law.</para>
+<note id="fs-id1166167034996">
+<title>Ampère’s law</title>
+<para id="fs-id1166167075913">Over an arbitrary closed path,</para>
+<equation id="fs-id1166167040161"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1166167089517">where <emphasis effect="italics">I</emphasis> is the total current passing through any open surface <emphasis effect="italics">S</emphasis> whose perimeter is the path of integration. Only currents inside the path of integration need be considered.</para>
+</note>
+<para id="fs-id1166167104466">To determine whether a specific current <emphasis effect="italics">I</emphasis> is positive or negative, curl the fingers of your right hand in the direction of the path of integration, as shown in <link target-id="CNX_UPhysics_29_05_AmpereArb"/>. If <emphasis effect="italics">I</emphasis> passes through <emphasis effect="italics">S</emphasis> in the same direction as your extended thumb, <emphasis effect="italics">I</emphasis> is positive; if <emphasis effect="italics">I</emphasis> passes through <emphasis effect="italics">S</emphasis> in the direction opposite to your extended thumb, it is negative.</para>
+<note id="fs-id1166167088218" class="problem-solving">
+<title>Ampère’s Law</title>
+<para id="fs-id1166167371819">To calculate the magnetic field created from current in wire(s), use the following steps:</para>
+<list id="fs-id1166167346765" list-type="enumerated" number-style="arabic">
+<item>Identify the symmetry of the current in the wire(s). If there is no symmetry, use the Biot-Savart law to determine the magnetic field.</item>
+<item>Determine the direction of the magnetic field created by the wire(s) by right-hand rule 2.</item>
+<item>Chose a path loop where the magnetic field is either constant or zero.</item>
+<item>Calculate the current inside the loop.</item>
+<item>Calculate the line integral <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> around the closed loop.</item>
+<item>Equate <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> with <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow></m:math> and solve for <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math>
+</item>
+</list>
+</note>
+<example id="fs-id1166167290455">
+<para id="fs-id1168327988072"><title>Using Ampère’s Law to Calculate the Magnetic Field Due to a Wire</title>
+Use Ampère’s law to calculate the magnetic field due to a steady current <emphasis effect="italics">I</emphasis> in an infinitely long, thin, straight wire as shown in <link target-id="CNX_UPhysics_29_05_Bskematic"/>.</para>
+<figure id="CNX_UPhysics_29_05_Bskematic">
+<media id="fs-id1166167120065" alt="Figures shows an infinitely long, thin, straight wire with the current directed out of the page. The possible magnetic field components in this plane, BR and BTheta, are shown at arbitrary points on a circle of radius r centered on the wire.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_Bskematic.jpg"/>
+</media>
+<caption>The possible components of the magnetic field <emphasis effect="italics">B</emphasis> due to a current <emphasis effect="italics">I</emphasis>, which is directed out of the page. The radial component is zero because the angle between the magnetic field and the path is at a right angle.</caption>
+</figure>
+<para id="fs-id1168327957186"><title>Strategy</title>
+Consider an arbitrary plane perpendicular to the wire, with the current directed out of the page. The possible magnetic field components in this plane, <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>r</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> are shown at arbitrary points on a circle of radius <emphasis effect="italics">r</emphasis> centered on the wire. Since the field is cylindrically symmetric, neither <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>r</m:mi></m:msub></m:mrow></m:math> nor <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub></m:mrow></m:math> varies with the position on this circle. Also from symmetry, the radial lines, if they exist, must be directed either all inward or all outward from the wire. This means, however, that there must be a net magnetic flux across an arbitrary cylinder concentric with the wire. The radial component of the magnetic field must be zero because <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>r</m:mi></m:msub><m:mo>⋅</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0.</m:mn></m:mrow></m:math> Therefore, we can apply Ampère’s law to the circular path as shown.</para>
+<para id="fs-id1168327887433"><title>Solution</title>
+Over this path <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is constant and parallel to <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> so</para>
+<equation id="fs-id1166167086100" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167346494">Thus Ampère’s law reduces to</para>
+<equation id="fs-id1166167280623" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167100001">Finally, since <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub></m:mrow></m:math> is the only component of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> we can drop the subscript and write</para>
+<equation id="fs-id1166167085409" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167417644">This agrees with the Biot-Savart calculation above.</para>
+<para id="fs-id1168327941542"><title>Significance</title>
+Ampère’s law works well if you have a path to integrate over which <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> has results that are easy to simplify. For the infinite wire, this works easily with a path that is circular around the wire so that the magnetic field factors out of the integration. If the path dependence looks complicated, you can always go back to the Biot-Savart law and use that to find the magnetic field.</para>
+</example>
+<example id="fs-id1166167090001">
+<para id="fs-id1168327863599"><title>Calculating the Magnetic Field of a Thick Wire with Ampère’s Law</title>
+The radius of the long, straight wire of <link target-id="CNX_UPhysics_29_05_Thickwire"/> is <emphasis effect="italics">a</emphasis>, and the wire carries a current <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> that is distributed uniformly over its cross-section. Find the magnetic field both inside and outside the wire.</para>
+<figure id="CNX_UPhysics_29_05_Thickwire">
+<media id="fs-id1166167344756" alt="Figure A shows a long, straight wire of radius a that carries current I. Figure B shows a cross-section of the same wire with the Ampère’s loop of radius r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_Thickwire.jpg"/>
+</media>
+<caption>(a) A model of a current-carrying wire of radius <emphasis effect="italics">a</emphasis> and current <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> (b) A cross-section of the same wire showing the radius <emphasis effect="italics">a</emphasis> and the Ampère’s loop of radius <emphasis effect="italics">r</emphasis>.</caption>
+</figure>
+<para id="fs-id1168327927974"><title>Strategy</title>
+This problem has the same geometry as <link target-id="fs-id1166167290455"/>, but the enclosed current changes as we move the integration path from outside the wire to inside the wire, where it doesn’t capture the entire current enclosed (see <link target-id="CNX_UPhysics_29_05_Thickwire"/>).</para>
+<para id="fs-id1168327873672"><title>Solution</title>
+For any circular path of radius <emphasis effect="italics">r</emphasis> that is centered on the wire,</para>
+<equation id="fs-id1166167041520" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>B</m:mi><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167135577">From Ampère’s law, this equals the total current passing through any surface bounded by the path of integration.</para>
+<para id="fs-id1166167036507">Consider first a circular path that is inside the wire <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>≤</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> such as that shown in part (a) of <link target-id="CNX_UPhysics_29_05_Thickwire"/>. We need the current <emphasis effect="italics">I</emphasis> passing through the area enclosed by the path. It’s equal to the current density <emphasis effect="italics">J</emphasis> times the area enclosed. Since the current is uniform, the current density inside the path equals the current density in the whole wire, which is <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>/</m:mo><m:mi>π</m:mi><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Therefore the current <emphasis effect="italics">I</emphasis> passing through the area enclosed by the path is</para>
+<equation id="fs-id1166167075972" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>π</m:mi><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167081125">We can consider this ratio because the current density <emphasis effect="italics">J</emphasis> is constant over the area of the wire. Therefore, the current density of a part of the wire is equal to the current density in the whole area. Using Ampère’s law, we obtain</para>
+<equation id="fs-id1166167311470" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167267868">and the magnetic field inside the wire is</para>
+<equation id="fs-id1166167085903" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>r</m:mi><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>≤</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1166167097208">Outside the wire, the situation is identical to that of the infinite thin wire of the previous example; that is,</para>
+<equation id="fs-id1166166061711" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1166166023588">The variation of <emphasis effect="italics">B</emphasis> with <emphasis effect="italics">r</emphasis> is shown in <link target-id="CNX_UPhysics_29_05_Graph"/>.</para>
+<figure id="CNX_UPhysics_29_05_Graph">
+<media id="fs-id1166167389673" alt="Graph shows the variation of B with r. It linearly increases with the r until the point a. Then it starts to decrease proportionally to the inverse of r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_Graph.jpg"/>
+</media>
+<caption>Variation of the magnetic field produced by a current <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> in a long, straight wire of radius <emphasis effect="italics">a</emphasis>.</caption>
+</figure>
+<para id="fs-id1168327926291"><title>Significance</title>
+The results show that as the radial distance increases inside the thick wire, the magnetic field increases from zero to a familiar value of the magnetic field of a thin wire. Outside the wire, the field drops off regardless of whether it was a thick or thin wire.</para>
+<para id="fs-id1166166093567">This result is similar to how Gauss’s law for electrical charges behaves inside a uniform charge distribution, except that Gauss’s law for electrical charges has a uniform volume distribution of charge, whereas Ampère’s law here has a uniform area of current distribution. Also, the drop-off outside the thick wire is similar to how an electric field drops off outside of a linear charge distribution, since the two cases have the same geometry and neither case depends on the configuration of charges or currents once the loop is outside the distribution.</para>
+</example>
+<example id="fs-id1166166064227">
+<para id="fs-id1168327955924"><title>Using Ampère’s Law with Arbitrary Paths</title>
+Use Ampère’s law to evaluate <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> for the current configurations and paths in <link target-id="CNX_UPhysics_29_05_Loops"/>.</para>
+<figure id="CNX_UPhysics_29_05_Loops">
+<media id="fs-id1166167133662" alt="Figure A shows four wires carrying currents of two Amperes, five Amperes, three Amperes, and four Amperes. All four wires are inside the loop. First and second wires carry current downward through the loop. Third and fourth wires carry current upward through the loop. Figure B shows three wires carrying currents of five Amperes, two Amperes, and three Amperes. First and third wires are outside the loop, second wire is inside the loop. First wire carries current upward through the loop. Second and third wires carry current downward through the loop. Figure C shows three wires carrying currents of seven Amperes, five Amperes, and three Amperes. All three wires are inside the loop. First and second wires carry current downward through the loop. Third wire carries current upward through the loop.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_Loops.jpg"/>
+</media>
+<caption>Current configurations and paths for <link target-id="fs-id1166166064227"/>.</caption>
+</figure>
+<para id="fs-id1168327923531"><title>Strategy</title>
+Ampère’s law states that <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow></m:math> where <emphasis effect="italics">I</emphasis> is the total current passing through the enclosed loop. The quickest way to evaluate the integral is to calculate <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow></m:math> by finding the net current through the loop. Positive currents flow with your right-hand thumb if your fingers wrap around in the direction of the loop. This will tell us the sign of the answer.</para>
+<para id="fs-id1168327935419"><title>Solution</title>
+(a) The current going downward through the loop equals the current going out of the loop, so the net current is zero. Thus, <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0.</m:mn></m:mrow></m:math></para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166167387776">(b) The only current to consider in this problem is 2A because it is the only current inside the loop. The right-hand rule shows us the current going downward through the loop is in the positive direction. Therefore, the answer is <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2.51</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−6</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166166072826">(c) The right-hand rule shows us the current going downward through the loop is in the positive direction. There are <m:math><m:mrow><m:mtext>7A</m:mtext><m:mo>+</m:mo><m:mtext>5A</m:mtext><m:mo>=</m:mo><m:mtext>12A</m:mtext></m:mrow></m:math> of current going downward and –3 A going upward. Therefore, the total current is 9 A and <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1.13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>–5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1168327959580"><title>Significance</title>
+If the currents all wrapped around so that the same current went into the loop and out of the loop, the net current would be zero and no magnetic field would be present. This is why wires are very close to each other in an electrical cord. The currents flowing toward a device and away from a device in a wire equal zero total current flow through an Ampère loop around these wires. Therefore, no stray magnetic fields can be present from cords carrying current.</para>
+</example>
+<note id="fs-id1166166205166" class="check-understanding">
+<exercise id="fs-id1166166025025">
+<problem id="fs-id1166166027997">
+<para id="fs-id1166167417636"><emphasis effect="bold">Check Your Understanding</emphasis> Consider using Ampère’s law to calculate the magnetic fields of a finite straight wire and of a circular loop of wire. Why is it not useful for these calculations?</para>
+</problem>
+<solution id="fs-id1166166020711">
+<para id="fs-id1166166080035">In these cases the integrals around the Ampèrian loop are very difficult because there is no symmetry, so this method would not be useful.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1166167103064" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1166167112544" list-type="bulleted" bullet-style="bullet">
+<item>The magnetic field created by current following any path is the sum (or integral) of the fields due to segments along the path (magnitude and direction as for a straight wire), resulting in a general relationship between current and field known as Ampère’s law.</item>
+<item>Ampère’s law can be used to determine the magnetic field from a thin wire or thick wire by a geometrically convenient path of integration. The results are consistent with the Biot-Savart law.</item>
+</list>
+</section>
+<section id="fs-id1166167101908" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1166167092826">
+<problem id="fs-id1166167118066">
+<para id="fs-id1166167133737">Is Ampère’s law valid for all closed paths? Why isn’t it normally useful for calculating a magnetic field?</para>
+</problem>
+<solution id="fs-id1166167135844">
+<para id="fs-id1166167375106">Ampère’s law is valid for all closed paths, but it is not useful for calculating fields when the magnetic field produced lacks symmetry that can be exploited by a suitable choice of path.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1166166022536" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1166166206191">
+<problem id="fs-id1166167275012">
+<para id="fs-id1166167108860">A current <emphasis effect="italics">I</emphasis> flows around the rectangular loop shown in the accompanying figure. Evaluate <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> for the paths <emphasis effect="italics">A</emphasis>, <emphasis effect="italics">B</emphasis>, <emphasis effect="italics">C</emphasis>, and <emphasis effect="italics">D</emphasis>.</para>
+<media id="fs-id1166166206835" alt="Figure shows rectangular loop carrying current I. Paths A and C intersect with the short sides of the loop. Path B intersects with the two long sides of the loop. Path D intersects both with the short and the long sides of the loop.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr26_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166166091123">
+<para id="fs-id1166166091125">a. <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>;</m:mo></m:mrow></m:math> b. 0; c. <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>;</m:mo></m:mrow></m:math> d. 0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166166189456">
+<problem id="fs-id1166166206185">
+<para id="fs-id1166166206187">Evaluate <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> for each of the cases shown in the accompanying figure.</para>
+<media id="fs-id1166167097251" alt="Figure A shows a wire inside the loop that carries current of two Amperes upward through the loop. Figure B shows three wires inside the loop that carry current of five Amperes, two Amperes, and six Amperes. First and third wires carry current upward through the loop. Second wire carries current downward through the loop. Figure C shows two wires outside the loop that carry current of three Amperes and two Amperes upward through the loop. Figure D shows three wires carrying current of three Amperes, two Amperes, and four Amperes. First wire is outside the loop, second and third wires are inside the loop. First and third wires carry current downward through the loop. Second wire carries current upward through the loop. Figure D shows four wires carrying currents of four Amperes, three Amperes, two Amperes, and two Amperes. First and fourth wires are outside the loop. Second and third wires are inside the loop. First, second, and third wires carry current upward through the loop. Fourth wire carries current downward through the loop.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr27_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166166203060">
+<problem id="fs-id1166166203062">
+<para id="fs-id1166166203064">The coil whose lengthwise cross section is shown in the accompanying figure carries a current <emphasis effect="italics">I</emphasis> and has <emphasis effect="italics">N</emphasis> evenly spaced turns distributed along the length l. Evaluate <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> for the paths indicated.</para>
+<media id="fs-id1166166072862" alt="Figure shows the lengthwise cross section of a coil. Path A intersects three coils carrying current from the plane of the paper. Path B intersects four coils with two carrying current from the plane of the paper and two carrying current into the plane of the paper. Path C intersects seven coils carrying current into the plane of the paper. Path D intersects two coils carrying current into the plane of the paper.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr28_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166166200737">
+<para id="fs-id1166166200739">a. <m:math><m:mrow><m:mn>3</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>;</m:mo></m:mrow></m:math> b. 0; c. <m:math><m:mrow><m:mn>7</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>;</m:mo></m:mrow></m:math> d. <m:math><m:mrow><m:mtext>−2</m:mtext><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167130243">
+<problem id="fs-id1166167130245">
+<para id="fs-id1166166195280">A superconducting wire of diameter 0.25 cm carries a current of 1000 A. What is the magnetic field just outside the wire?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167085032">
+<problem id="fs-id1166167085034">
+<para id="fs-id1166167085036">A long, straight wire of radius <emphasis effect="italics">R</emphasis> carries a current <emphasis effect="italics">I</emphasis> that is distributed uniformly over the cross-section of the wire. At what distance from the axis of the wire is the magnitude of the magnetic field a maximum?</para>
+</problem>
+<solution id="fs-id1166166205123">
+<para id="fs-id1166166205125">at the radius <emphasis effect="italics">R</emphasis></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167134535">
+<problem id="fs-id1166167134537">
+<para id="fs-id1166167134539">The accompanying figure shows a cross-section of a long, hollow, cylindrical conductor of inner radius <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>3.0 cm</m:mtext></m:mrow></m:math> and outer radius <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mtext>5.0 cm</m:mtext><m:mo>.</m:mo></m:mrow></m:math> A 50-A current distributed uniformly over the cross-section flows into the page. Calculate the magnetic field at <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mtext>2.0 cm</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mtext>6.0 cm</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1166165880401" alt="Figure shows a cross-section of a long, hollow, cylindrical conductor with an inner radius of three centimeters and an outer radius of five centimeters.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr31_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166166195321">
+<problem id="fs-id1166166195323">
+<para id="fs-id1166166189372">A long, solid, cylindrical conductor of radius 3.0 cm carries a current of 50 A distributed uniformly over its cross-section. Plot the magnetic field as a function of the radial distance <emphasis effect="italics">r</emphasis> from the center of the conductor.</para>
+</problem>
+<solution id="fs-id1166167293572">
+<para id="fs-id1166167293574">
+<media id="fs-id1166167293576" alt="Graph shows the variation of B with r. B linearly increases with r until the point a. Then it starts to decreases proportionally to the inverse of r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_Graph_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167425804">
+<problem id="fs-id1166167425806">
+<para id="fs-id1166167425808">A portion of a long, cylindrical <term class="no-emphasis">coaxial cable</term> is shown in the accompanying figure. A current <emphasis effect="italics">I</emphasis> flows down the center conductor, and this current is returned in the outer conductor. Determine the magnetic field in the regions (a) <m:math><m:mrow><m:mi>r</m:mi><m:mo>≤</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>≥</m:mo><m:mi>r</m:mi><m:mo>≥</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> (c) <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>3</m:mn></m:msub><m:mo>≥</m:mo><m:mi>r</m:mi><m:mo>≥</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and (d) <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:msub><m:mi>r</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Assume that the current is distributed uniformly over the cross sections of the two parts of the cable.</para>
+<media id="fs-id1166166101777" alt="Figure shows a long, cylindrical coaxial cable. Radius of the inner center conductor is r1. Distance from the center to the inner side of the shield is r2. Distance from the center to the outer side of the shield is r3.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr33_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1166167104735">
+<term>Ampère’s law</term>
+<meaning id="fs-id1166167104740">physical law that states that the line integral of the magnetic field around an electric current is proportional to the current</meaning>
+</definition>
+</glossary>
+</document>

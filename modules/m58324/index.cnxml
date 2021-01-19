@@ -1,0 +1,534 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Rocket Propulsion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58324</md:content-id>
+  <md:title>Rocket Propulsion</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the application of conservation of momentum when the mass changes with time, as well as the velocity</item>
+<item>Calculate the speed of a rocket in empty space, at some time, given initial conditions</item>
+<item>Calculate the speed of a rocket in Earth’s gravity field, at some time, given initial conditions</item>
+</list></md:abstract>
+  <md:uuid>13e7da4b-9c8d-4e79-89be-4c339dcfd3a5</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167132331513">Now we deal with the case where the mass of an object is changing. We analyze the motion of a rocket, which changes its velocity (and hence its momentum) by ejecting burned fuel gases, thus causing it to accelerate in the opposite direction of the velocity of the ejected fuel (see <link target-id="CNX_UPhysics_09_07_Shuttle"/>). Specifically: A fully fueled rocket ship in deep space has a total mass <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (this mass includes the initial mass of the fuel). At some moment in time, the rocket has a velocity <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> and mass <emphasis effect="italics">m</emphasis>; this mass is a combination of the mass of the empty rocket and the mass of the remaining unburned fuel it contains. (We refer to <emphasis effect="italics">m</emphasis> as the “instantaneous mass” and <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> as the “instantaneous velocity.”) The rocket accelerates by burning the fuel it carries and ejecting the burned exhaust gases. If the burn rate of the fuel is constant, and the velocity at which the exhaust is ejected is also constant, what is the change of velocity of the rocket as a result of burning all of its fuel?</para>
+<figure id="CNX_UPhysics_09_07_Shuttle">
+<media id="fs-id1167133396746" alt="A photograph of the space shuttle taking off.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_07_Shuttle.jpg"/>
+</media>
+<caption>The space shuttle had a number of reusable parts. Solid fuel boosters on either side were recovered and refueled after each flight, and the entire orbiter returned to Earth for use in subsequent flights. The large liquid fuel tank was expended. The space shuttle was a complex assemblage of technologies, employing both solid and liquid fuel, and pioneering ceramic tiles as reentry heat shields. As a result, it permitted multiple launches as opposed to single-use rockets. (credit: modification of work by NASA)</caption>
+</figure>
+<section id="fs-id1167133406272">
+<title>Physical Analysis</title>
+<para id="fs-id1167132501076">Here’s a description of what happens, so that you get a feel for the physics involved.</para>
+<list id="fs-id1167132274414" list-type="bulleted" bullet-style="bullet">
+<item>As the rocket engines operate, they are continuously ejecting burned fuel gases, which have both mass and velocity, and therefore some momentum. By conservation of momentum, the rocket’s momentum changes by this same amount (with the opposite sign). We will assume the burned fuel is being ejected at a constant rate, which means the rate of change of the rocket’s momentum is also constant. By <link target-id="fs-id1167131584453" document="m58319"/>, this represents a constant force on the rocket.</item>
+<item>However, as time goes on, the mass of the rocket (which includes the mass of the remaining fuel) continuously decreases. Thus, even though the force on the rocket is constant, the resulting acceleration is not; it is continuously increasing.</item>
+<item>So, the total change of the rocket’s velocity will depend on the amount of mass of fuel that is burned, and that dependence is not linear.</item>
+</list>
+<para id="fs-id1167133823900">The problem has the mass and velocity of the rocket changing; also, the total mass of ejected gases is changing. If we define our system to be the rocket + fuel, then this is a closed system (since the rocket is in deep space, there are no external forces acting on this system); as a result, momentum is conserved for this system. Thus, we can apply conservation of momentum to answer the question (<link target-id="CNX_UPhysics_09_07_rocket"/>).</para>
+<figure id="CNX_UPhysics_09_07_rocket">
+<media id="fs-id1167132415258" alt="An x y coordinate system is shown. A rocket mass m is moving to the right with velocity v. the rocket’s exhaust mass d m sub g is moving to the left with velocity u. The system consists of the rocket and the exhaust.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_07_rocket.jpg"/>
+</media>
+<caption>The rocket accelerates to the right due to the expulsion of some of its fuel mass to the left. Conservation of momentum enables us to determine the resulting change of velocity. The mass <emphasis effect="italics">m</emphasis> is the instantaneous total mass of the rocket (i.e., mass of rocket body plus mass of fuel at that point in time). (credit: modification of work by NASA/Bill Ingalls)</caption>
+</figure>
+<para id="fs-id1167132260598">At the same moment that the total instantaneous rocket mass is <emphasis effect="italics">m</emphasis> (i.e., <emphasis effect="italics">m</emphasis> is the mass of the rocket body plus the mass of the fuel at that point in time), we define the rocket’s instantaneous velocity to be <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>v</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> (in the +<emphasis effect="italics">x</emphasis>-direction); this velocity is measured relative to an inertial reference system (the Earth, for example). Thus, the initial momentum of the system is</para>
+<para id="fs-id1167133366597"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>v</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167133784377">The rocket’s engines are burning fuel at a constant rate and ejecting the exhaust gases in the −<emphasis effect="italics">x</emphasis>-direction. During an infinitesimal time interval <emphasis effect="italics">dt</emphasis>, the engines eject a (positive) infinitesimal mass of gas <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> at velocity <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>u</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>; note that although the rocket velocity <m:math><m:mrow><m:mi>v</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> is measured with respect to Earth, the exhaust gas velocity is measured with respect to the (moving) rocket. Measured with respect to the Earth, therefore, the exhaust gas has velocity <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo>−</m:mo><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>.</para>
+<para id="fs-id1167132371915">As a consequence of the ejection of the fuel gas, the rocket’s mass decreases by <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math>, and its velocity increases by <m:math><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Therefore, including both the change for the rocket and the change for the exhaust gas, the final momentum of the system is</para>
+<equation id="fs-id1167133658461" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>f</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>rocket</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>gas</m:mtext></m:mrow></m:msub></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo>−</m:mo><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd></m:mtr></m:mtable><m:mtext>.</m:mtext></m:math></equation>
+<para id="fs-id1167132423342">Since all vectors are in the <emphasis effect="italics">x</emphasis>-direction, we drop the vector notation. Applying conservation of momentum, we obtain</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167133396253" class="unnumbered"><label/><m:math><m:mtable columnalign="left"><m:mtr><m:mtd><m:msub><m:mi>p</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mtext>f</m:mtext></m:msub></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>m</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo>−</m:mo><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>m</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>−</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>v</m:mi><m:mo>−</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>v</m:mi><m:mo>−</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>u</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>u</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><para id="fs-id1167132416648">Now, <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> and <emphasis effect="italics">dv</emphasis> are each very small; thus, their product <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow></m:math> is very, very small, much smaller than the other two terms in this expression. We neglect this term, therefore, and obtain:</para>
+<equation id="fs-id1167133822229" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>u</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132414244">Our next step is to remember that, since <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> represents an increase in the mass of ejected gases, it must also represent a decrease of mass of the rocket:</para>
+<equation id="fs-id1167132261159" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>d</m:mi><m:mi>m</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133565517">Replacing this, we have</para>
+<equation id="fs-id1167133331678" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>d</m:mi><m:mi>m</m:mi><m:mi>u</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167133544606">or</para>
+<equation id="fs-id1167133354925" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>u</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167132231097">Integrating from the initial mass <emphasis effect="italics">m</emphasis><sub>0</sub> to the final mass <emphasis effect="italics">m</emphasis> of the rocket gives us the result we are after:</para><equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167133700691" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mi>v</m:mi></m:msubsup><m:mi>d</m:mi></m:mrow></m:mstyle><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>u</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>m</m:mi></m:msubsup><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>m</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>m</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>v</m:mi><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mtext>i</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><para id="fs-id1167133568482">and thus our final answer is</para>
+<note id="fs-id1167131393821" class="equation-callout">
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167133539448"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation></note>
+<para id="fs-id1167133445045">This result is called the <term>rocket equation</term>. It was originally derived by the Soviet physicist Konstantin Tsiolkovsky in 1897. It gives us the change of velocity that the rocket obtains from burning a mass of fuel that decreases the total rocket mass from <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> down to <emphasis effect="italics">m</emphasis>. As expected, the relationship between <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow></m:math> and the change of mass of the rocket is nonlinear.</para>
+<note id="fs-id1167133635427" class="problem-solving">
+<title>Rocket Propulsion</title>
+<para id="fs-id1167133830184">In rocket problems, the most common questions are finding the change of velocity due to burning some amount of fuel for some amount of time; or to determine the acceleration that results from burning fuel.</para>
+<list id="fs-id1167131138658" list-type="enumerated" number-style="arabic">
+<item>To determine the change of velocity, use the rocket equation <link target-id="fs-id1167133539448"/>.</item>
+<item>To determine the acceleration, determine the force by using the impulse-momentum theorem, using the rocket equation to determine the change of velocity.</item>
+</list>
+</note>
+<example id="fs-id1167132331629">
+<para id="fs-id1167133562110"><title>Thrust on a Spacecraft</title>
+A spacecraft is moving in gravity-free space along a straight path when its pilot decides to accelerate forward. He turns on the thrusters, and burned fuel is ejected at a constant rate of <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg/s</m:mtext></m:mrow></m:math>, at a speed (relative to the rocket) of <m:math><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>. The initial mass of the spacecraft and its unburned fuel is <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>, and the thrusters are on for 30 s.</para>
+<list id="fs-id1167133557994" list-type="enumerated" number-style="lower-alpha">
+<item>What is the thrust (the force applied to the rocket by the ejected fuel) on the spacecraft?</item>
+<item>What is the spacecraft’s acceleration as a function of time?</item>
+<item>What are the spacecraft’s accelerations at <emphasis effect="italics">t</emphasis> = 0, 15, 30, and 35 s?</item>
+</list>
+<para id="fs-id1167133560436"><title>Strategy</title></para>
+<list id="fs-id1167132319102" list-type="enumerated" number-style="lower-alpha">
+<item>The force on the spacecraft is equal to the rate of change of the momentum of the fuel.</item>
+<item>Knowing the force from part (a), we can use Newton’s second law to calculate the consequent acceleration. The key here is that, although the force applied to the spacecraft is constant (the fuel is being ejected at a constant rate), the mass of the spacecraft isn’t; thus, the acceleration caused by the force won’t be constant. We expect to get a function <emphasis effect="italics">a</emphasis>(<emphasis effect="italics">t</emphasis>), therefore.</item>
+<item>We’ll use the function we obtain in part (b), and just substitute the numbers given. Important: We expect that the acceleration will get larger as time goes on, since the mass being accelerated is continuously decreasing (fuel is being ejected from the rocket).</item>
+</list>
+<para id="fs-id1167133676986"><title>Solution</title></para>
+<list id="fs-id1167133685958" list-type="enumerated" number-style="lower-alpha">
+<item>The momentum of the ejected fuel gas is
+<equation id="fs-id1167133560380" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+The ejection velocity <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> is constant, and therefore the force is
+<equation id="fs-id1167132331662" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>v</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>v</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Now, <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> is the rate of change of the mass of the fuel; the problem states that this is <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>kg/s</m:mtext></m:mrow></m:math>. Substituting, we get
+<equation id="fs-id1167132375260" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>F</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>v</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Above, we defined <emphasis effect="italics">m</emphasis> to be the combined mass of the empty rocket plus however much unburned fuel it contained: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math>. From Newton’s second law,
+<equation id="fs-id1167132375186" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mrow><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+The force is constant and the empty rocket mass <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math> is constant, but the fuel mass <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> is decreasing at a uniform rate; specifically:
+<equation id="fs-id1167133399469" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:msub><m:mi>g</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:msub><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+This gives us
+<equation id="fs-id1167133344911" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:msub><m:mi>g</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:msub><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mrow><m:mi>M</m:mi><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Notice that, as expected, the acceleration is a function of time. Substituting the given numbers:
+<equation id="fs-id1167132340651" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>:
+<equation id="fs-id1167132504089" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.5</m:mn><m:mfrac><m:mtext>m</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mn>2.9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.<newline/>
+At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3.6</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m/s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.<newline/>
+Acceleration is increasing, as we expected.</item>
+</list>
+<para id="fs-id1167133406211"><title>Significance</title>
+Notice that the acceleration is not constant; as a result, any dynamical quantities must be calculated either using integrals, or (more easily) conservation of total energy.</para>
+</example>
+<note id="fs-id1167133365488" class="check-understanding">
+<exercise id="fs-id1167133451449">
+<problem id="fs-id1167133792368">
+<para id="fs-id1167132436151"><emphasis effect="bold">Check Your Understanding</emphasis> What is the physical difference (or relationship) between <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> in this example?</para>
+</problem>
+<solution id="fs-id1167132289452">
+<para id="fs-id1167133789987">The notation <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> stands for the mass of the fuel and <emphasis effect="italics">m</emphasis> stands for the mass of the rocket plus the initial mass of the fuel. Note that <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> changes with time, so we write it as <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Using <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math> as the mass of the rocket with no fuel, the total mass of the rocket plus fuel is <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Differentiation with respect to time gives<newline/>
+<m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math><newline/>
+where we used <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> because the mass of the rocket does not change. Thus, time rate of change of the mass of the rocket is the same as that of the fuel.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167133375888">
+<title>Rocket in a Gravitational Field</title>
+<para id="fs-id1167133535955">Let’s now analyze the velocity change of the rocket during the launch phase, from the surface of Earth. To keep the math manageable, we’ll restrict our attention to distances for which the acceleration caused by gravity can be treated as a constant <emphasis effect="italics">g</emphasis>.</para>
+<para id="fs-id1167133558499">The analysis is similar, except that now there is an external force of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> acting on our system. This force applies an impulse <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, which is equal to the change of momentum. This gives us</para>
+<equation id="fs-id1167133612598" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo>−</m:mo><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>v</m:mi></m:mrow><m:mo>]</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167132205531">and so</para>
+<equation id="fs-id1167133540165" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>−</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>u</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167133513938">where we have again neglected the term <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow></m:math> and dropped the vector notation. Next we replace <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> with <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow></m:math>:</para>
+<equation id="fs-id1167133612085" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>m</m:mi><m:mi>u</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>d</m:mi><m:mi>m</m:mi><m:mi>u</m:mi><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167133514676">Dividing through by <emphasis effect="italics">m</emphasis> gives</para>
+<equation id="fs-id1167132539368" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>u</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>−</m:mo><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167133694572">and integrating, we have</para>
+<note id="fs-id1167131226099" class="equation-callout">
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167133523104"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>g</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></note>
+<para id="fs-id1167132573500">Unsurprisingly, the rocket’s velocity is affected by the (constant) acceleration of gravity.</para>
+<para id="fs-id1167133446981">Remember that <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> is the burn time of the fuel. Now, in the absence of gravity, <link target-id="fs-id1167133539448"/> implies that it makes no difference how much time it takes to burn the entire mass of fuel; the change of velocity does not depend on <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>. However, in the presence of gravity, it matters a lot. The −<emphasis effect="italics">g</emphasis><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> term in <link target-id="fs-id1167133523104"/> tells us that the <emphasis effect="italics">longer</emphasis> the burn time is, the <emphasis effect="italics">smaller</emphasis> the rocket’s change of velocity will be. This is the reason that the launch of a rocket is so spectacular at the first moment of liftoff: It’s essential to burn the fuel as quickly as possible, to get as large a <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow></m:math> as possible.</para>
+</section>
+<section id="fs-id1167131237917" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167133384840" list-type="bulleted" bullet-style="bullet">
+<item>A rocket is an example of conservation of momentum where the mass of the system is not constant, since the rocket ejects fuel to provide thrust.</item>
+<item>The rocket equation gives us the change of velocity that the rocket obtains from burning a mass of fuel that decreases the total rocket mass.</item>
+</list>
+</section>
+<section id="fs-id1167133829595" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1170902236204" class="unnumbered unstyled" summary="This table gives the following formulae:  Definition of momentum, vector p equal to m vector v; Impulse, vector J equal to integration ti to tf vector F t dt or vector J equal to vector F subscript ave delta t; Impulse-momentum theorem, vector J equal to vector delta P; Average force from momentum, vector F equal to delta vector P by delta t; Instantaneous force from momentum, Newton’s second law, vector F t equal to d by dt vector p; Conservation of momentum, d by dt vector p1 plus d by dt vector p2 equal to zero or vector p1 plus vector p2 equal to constant; Generalized conservation of momentum, summation j from 1 to N vector p subscript J equal to constant; Conservation of momentum in two dimensions, P subscript f, x equal to P subscript 1, i, x plus P subscript 2, i, x, P subscript f, y equal to P subscript 1, i, y plus P subscript 2, i, y; External forces, vector F ext equal to summation j from 1 to N d by dt vector p subscript j; Newton’s second law for an extended object, vector F equal to d by dt vector P subscript CM; Acceleration of the center of mass, vector a subscript CM equal to d squared by dt squared open parentheses 1 by M summation j from 1 to N m subscript j vector r subscript j close parentheses equal to i by M summation j from 1 to N m subscript j vector a subscript j; Position of the center of mass for a system of particles, vector r subscript CM equal to 1 by M summation j from 1 to N m subscript j vector subscript j; Velocity of the center of mass, vector  v subscript  CM equal to d by dt open parentheses 1 by M summation j equal to 1 to N m subscript j vector r subscript j close parentheses equal to 1 by M summation j from 1 to N m subscript j vector v subscript j; Position of the center of mass of a continuous object, vector r subscript CM equal to 1 by M integration vector r d m; Rocket equation, delta v equal to U natural log open parentheses m subscript i by m close parentheses.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Definition of momentum</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Impulse</entry>
+<entry align="left"><m:math><m:mrow><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>≡</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:msubsup><m:mrow><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow><m:mspace width="0.2em"/><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Impulse-momentum theorem</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Average force from momentum</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Instantaneous force from momentum<newline/>(Newton’s second law)</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Conservation of momentum</entry>
+<entry align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mn>1</m:mn></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mn>2</m:mn></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mspace width="0.5em"/><m:mtext>or</m:mtext><m:mspace width="0.5em"/><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mn>1</m:mn></m:mstyle></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mn>2</m:mn></m:mstyle></m:msub><m:mo>=</m:mo><m:mtext>constant</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Generalized conservation of momentum</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>j</m:mi></m:mstyle></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mtext>constant</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Conservation of momentum in two dimensions</entry>
+<entry align="left"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>f</m:mtext><m:mo>,</m:mo><m:mi>x</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>1,i</m:mtext><m:mo>,</m:mo><m:mi>x</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>2,i</m:mtext><m:mo>,</m:mo><m:mi>x</m:mi></m:mrow></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>f</m:mtext><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>1,i</m:mtext><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>2,i</m:mtext><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow></m:msub></m:mtd></m:mtr></m:mtable></m:math></entry>
+</row>
+<row>
+<entry align="left">External forces</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>ext</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Newton’s second law for an extended object</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Acceleration of the center of mass</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Position of the center of mass for a system <newline/>of particles</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>≡</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Velocity of the center of mass</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Position of the center of mass of a<newline/>continuous object</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>≡</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Rocket equation</entry>
+<entry align="left"><m:math><m:mrow><m:mi>Δ</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167133333085" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167133603524">
+<problem id="fs-id1167133603526">
+<para id="fs-id1167132235862">It is possible for the velocity of a rocket to be greater than the exhaust velocity of the gases it ejects. When that is the case, the gas velocity and gas momentum are in the same direction as that of the rocket. How is the rocket still able to obtain thrust by ejecting the gases?</para>
+</problem>
+<solution id="fs-id1167133780024">
+<para id="fs-id1167133780026">Yes, the rocket speed can exceed the exhaust speed of the gases it ejects. The thrust of the rocket does not depend on the relative speeds of the gases and rocket, it simply depends on conservation of momentum.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167133780028" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167132243654">
+<problem id="fs-id1167133346136">
+<para id="fs-id1167133346138">(a) A 5.00-kg squid initially at rest ejects 0.250 kg of fluid with a velocity of 10.0 m/s. What is the recoil velocity of the squid if the ejection is done in 0.100 s and there is a 5.00-<emphasis effect="italics">N</emphasis> frictional force opposing the squid’s movement?</para>
+<para id="fs-id1167132273365">(b) How much energy is lost to work done against friction?</para>
+</problem>
+<solution id="fs-id1167132273369">
+<para id="fs-id1167132522511">(a) 0.413 m/s, (b) about 0.2 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132522517">
+<problem id="fs-id1167132620035">
+<para id="fs-id1167132620037">A rocket takes off from Earth and reaches a speed of 100 m/s in 10.0 s. If the exhaust speed is 1500 m/s and the mass of fuel burned is 100 kg, what was the initial mass of the rocket?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132362217">
+<problem id="fs-id1167132467177">
+<para id="fs-id1167132467179">Repeat the preceding problem but for a rocket that takes off from a space station, where there is no gravity other than the negligible gravity due to the space station.</para>
+</problem>
+<solution id="fs-id1167132414203">
+<para id="fs-id1167132414205">1551 kg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133842903">
+<problem id="fs-id1167133842905">
+<para id="fs-id1167132528474">How much fuel would be needed for a 1000-kg rocket (this is its mass with no fuel) to take off from Earth and reach 1000 m/s in 30 s? The exhaust speed is 1000 m/s.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132616660">
+<problem id="fs-id1167132616662">
+<para id="fs-id1167132446574">What exhaust speed is required to accelerate a rocket in deep space from 800 m/s to 1000 m/s in 5.0 s if the total rocket mass is 1200 kg and the rocket only has 50 kg of fuel left?</para>
+</problem>
+<solution id="fs-id1167133464000">
+<para id="fs-id1167133464002">4.9 km/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132376612">
+<problem id="fs-id1167132376614">
+<para id="fs-id1167132361762"><emphasis effect="bold">Unreasonable Results</emphasis> Squids have been reported to jump from the ocean and travel 30.0 m (measured horizontally) before re-entering the water.</para>
+<para id="fs-id1167132619975">(a) Calculate the initial speed of the squid if it leaves the water at an angle of 20.0°, assuming negligible lift from the air and negligible air resistance.</para>
+<para id="fs-id1167132267521">(b) The squid propels itself by squirting water. What fraction of its mass would it have to eject in order to achieve the speed found in the previous part? The water is ejected at 12.0 m/s; gravitational force and friction are neglected.</para>
+<para id="fs-id1167132267526">(c) What is unreasonable about the results?</para>
+<para id="fs-id1167133457650">(d) Which premise is unreasonable, or which premises are inconsistent?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167133856322" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1167132530479">
+<problem id="fs-id1167132243177">
+<para id="fs-id1167132243179">Two 70-kg canoers paddle in a single, 50-kg canoe. Their paddling moves the canoe at 1.2 m/s with respect to the water, and the river they’re in flows at 4 m/s with respect to the land. What is their momentum with respect to the land?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133606659">
+<problem id="fs-id1167133606661">
+<para id="fs-id1167133606663">Which has a larger magnitude of momentum: a 3000-kg elephant moving at 40 km/h or a 60-kg cheetah moving at 112 km/h?</para>
+</problem>
+<solution id="fs-id1167132228807">
+<para id="fs-id1167133550418">the elephant has a higher momentum</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133550424">
+<problem id="fs-id1167132276399">
+<para id="fs-id1167132276401">A driver applies the brakes and reduces the speed of her car by 20%, without changing the direction in which the car is moving. By how much does the car’s momentum change?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133863112">
+<problem id="fs-id1167133484982">
+<para id="fs-id1167133484984">You friend claims that momentum is mass multiplied by velocity, so things with more mass have more momentum. Do you agree? Explain.</para>
+</problem>
+<solution id="fs-id1167132463331">
+<para id="fs-id1167132463334">Answers may vary. The first clause is true, but the second clause is not true in general because the velocity of an object with small mass may be large enough so that the momentum of the object is greater than that of a larger-mass object with a smaller velocity.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133718494">
+<problem id="fs-id1167133805059">
+<para id="fs-id1167133805062">Dropping a glass on a cement floor is more likely to break the glass than if it is dropped from the same height on a grass lawn. Explain in terms of the impulse.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132319328">
+<problem id="fs-id1167132319330">
+<para id="fs-id1167133683538">Your 1500-kg sports car accelerates from 0 to 30 m/s in 10 s. What average force is exerted on it during this acceleration?</para>
+</problem>
+<solution id="fs-id1167132412597">
+<para id="fs-id1167132412599"><m:math><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132426568">
+<problem id="fs-id1167132426570">
+<para id="fs-id1167132371110">A ball of mass <m:math><m:mi>m</m:mi></m:math> is dropped. What is the formula for the impulse exerted on the ball from the instant it is dropped to an arbitrary time <m:math><m:mi>τ</m:mi></m:math> later? Ignore air resistance.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132463268">
+<problem id="fs-id1167132361231">
+<para id="fs-id1167132361233">Repeat the preceding problem, but including a drag force due to air of <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>drag</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167132541928">
+<para id="fs-id1167133793004"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mn>0</m:mn><m:mi>τ</m:mi></m:msubsup><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>m</m:mi><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>−</m:mo><m:mi>m</m:mi><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>b</m:mi></m:mfrac><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>τ</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133549801">
+<problem id="fs-id1167133855091">
+<para id="fs-id1167133855093">A 5.0-g egg falls from a 90-cm-high counter onto the floor and breaks. What impulse is exerted by the floor on the egg?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132305009">
+<problem id="fs-id1167132305011">
+<para id="fs-id1167133395287">A car crashes into a large tree that does not move. The car goes from 30 m/s to 0 in 1.3 m. (a) What impulse is applied to the driver by the seatbelt, assuming he follows the same motion as the car? (b) What is the average force applied to the driver by the seatbelt?</para>
+</problem>
+<solution id="fs-id1167132423412">
+<para id="fs-id1167132423414">a. <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, b. <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>24</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132230395">
+<problem id="fs-id1167132230397">
+<para id="fs-id1167132579530">Two hockey players approach each other head on, each traveling at the same speed <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>. They collide and get tangled together, falling down and moving off at a speed <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mtext>/</m:mtext><m:mn>5</m:mn></m:mrow></m:mrow></m:math>. What is the ratio of their masses?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132257267">
+<problem id="fs-id1167133775656">
+<para id="fs-id1167133775658">You are coasting on your 10-kg bicycle at 15 m/s and a 5.0-g bug splatters on your helmet. The bug was initially moving at 2.0 m/s in the same direction as you. If your mass is 60 kg, (a) what is the initial momentum of you plus your bicycle? (b) What is the initial momentum of the bug? (c) What is your change in velocity due to the collision with the bug? (d) What would the change in velocity have been if the bug were traveling in the opposite direction?</para>
+</problem>
+<solution id="fs-id1167133775660">
+<para id="fs-id1167133862928">a. <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, b. <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.010</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, c. <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.00093</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, d. <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.0012</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132371653">
+<problem id="fs-id1167132259332">
+<para id="fs-id1167132259334">A load of gravel is dumped straight down into a 30 000-kg freight car coasting at 2.2 m/s on a straight section of a railroad. If the freight car’s speed after receiving the gravel is 1.5 m/s, what mass of gravel did it receive?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132411513">
+<problem id="fs-id1167132586714">
+<para id="fs-id1167132586716">Two carts on a straight track collide head on. The first cart was moving at 3.6 m/s in the positive <emphasis effect="italics">x</emphasis> direction and the second was moving at 2.4 m/s in the opposite direction. After the collision, the second car continues moving in its initial direction of motion at 0.24 m/s. If the mass of the second car is 5.0 times that of the first, what is the final velocity of the first car?</para>
+</problem>
+<solution id="fs-id1167132415512">
+<para id="fs-id1167132415514"><m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7.2</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133359911">
+<problem id="fs-id1167133359913">
+<para id="fs-id1167132465617">A 100-kg astronaut finds himself separated from his spaceship by 10 m and moving away from the spaceship at 0.1 m/s. To get back to the spaceship, he throws a 10-kg tool bag away from the spaceship at 5.0 m/s. How long will he take to return to the spaceship?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132227134">
+<problem id="fs-id1167132227136">
+<para id="fs-id1167132227138">Derive the equations giving the final speeds for two objects that collide elastically, with the mass of the objects being <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> and the initial speeds being <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> (i.e., second object is initially stationary).</para>
+</problem>
+<solution id="fs-id1167133396887">
+<para id="fs-id1167133396889"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,f</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,f</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132202557">
+<problem id="fs-id1167132252231">
+<para id="fs-id1167132252233">Repeat the preceding problem for the case when the initial speed of the second object is nonzero.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133780121">
+<problem id="fs-id1167133780123">
+<para id="fs-id1167133780125">A child sleds down a hill and collides at 5.6 m/s into a stationary sled that is identical to his. The child is launched forward at the same speed, leaving behind the two sleds that lock together and slide forward more slowly. What is the speed of the two sleds after this collision?</para>
+</problem>
+<solution id="fs-id1167132320046">
+<para id="fs-id1167132320049">2.8 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132238341">
+<problem id="fs-id1167132238343">
+<para id="fs-id1167132238345">For the preceding problem, find the final speed of each sled for the case of an elastic collision.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132369938">
+<problem id="fs-id1167132369940">
+<para id="fs-id1167133805123">A 90-kg football player jumps vertically into the air to catch a 0.50-kg football that is thrown essentially horizontally at him at 17 m/s. What is his horizontal speed after catching the ball?</para>
+</problem>
+<solution id="fs-id1167133396908">
+<para id="fs-id1167133396910">0.094 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132539301">
+<problem id="fs-id1167132539303">
+<para id="fs-id1167133792513">Three skydivers are plummeting earthward. They are initially holding onto each other, but then push apart. Two skydivers of mass 70 and 80 kg gain horizontal velocities of 1.2 m/s north and 1.4 m/s southeast, respectively. What is the horizontal velocity of the third skydiver, whose mass is 55 kg?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133829088">
+<problem id="fs-id1167133829090">
+<para id="fs-id1167132374798">Two billiard balls are at rest and touching each other on a pool table. The cue ball travels at 3.8 m/s along the line of symmetry between these balls and strikes them simultaneously. If the collision is elastic, what is the velocity of the three balls after the collision?</para>
+</problem>
+<solution id="fs-id1167132306238">
+<para id="fs-id1167132306240">final velocity of cue ball is <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.76</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, final velocities of the other two balls are 2.6 m/s at ±30° with respect to the initial velocity of the cue ball</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133647819">
+<problem id="fs-id1167133647821">
+<para id="fs-id1167132240717">A billiard ball traveling at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.2</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> collides with a wall that is aligned in the <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> direction. Assuming the collision is elastic, what is the final velocity of the ball?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133403316">
+<problem id="fs-id1167133403318">
+<para id="fs-id1167133403320">Two identical billiard balls collide. The first one is initially traveling at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.2</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> and the second one at <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Suppose they collide when the center of ball 1 is at the origin and the center of ball 2 is at the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <emphasis effect="italics">R</emphasis> is the radius of the balls. What is the final velocity of each ball?</para>
+</problem>
+<solution id="fs-id1167132573202">
+<para id="fs-id1167133822121">ball 1: <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, ball 2: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.2</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132452153">
+<problem id="fs-id1167132452155">
+<para id="fs-id1167133328891">Repeat the preceding problem if the balls collide when the center of ball 1 is at the origin and the center of ball 2 is at the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132273346">
+<problem id="fs-id1167132273348">
+<para id="fs-id1167132410318">Repeat the preceding problem if the balls collide when the center of ball 1 is at the origin and the center of ball 2 is at the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mi>R</m:mi></m:mrow><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>,</m:mo><m:mrow><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167132497150">
+<para id="fs-id1167133521698">ball 1: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.7</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, ball 2: <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.8</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.012</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132241577">
+<problem id="fs-id1167132241579">
+<para id="fs-id1167132241581">Where is the center of mass of a semicircular wire of radius <emphasis effect="italics">R</emphasis> that is centered on the origin, begins and ends on the <emphasis effect="italics">x</emphasis> axis, and lies in the <emphasis effect="italics">x</emphasis>,<emphasis effect="italics">y</emphasis> plane?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133717950">
+<problem id="fs-id1167133717952">
+<para id="fs-id1167133717954">Where is the center of mass of a slice of pizza that was cut into eight equal slices? Assume the origin is at the apex of the slice and measure angles with respect to an edge of the slice. The radius of the pizza is <emphasis effect="italics">R</emphasis>.</para>
+</problem>
+<solution id="fs-id1167132396715">
+<para id="fs-id1167132396717"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>,</m:mo><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow><m:mo>,</m:mo><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>8</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132244398">
+<problem id="fs-id1167132437387">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167132437389">If 1% of the Earth’s mass were transferred to the Moon, how far would the center of mass of the Earth-Moon-population system move? The mass of the Earth is <m:math><m:mrow><m:mn>5.97</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:math> and that of the Moon is <m:math><m:mrow><m:mn>7.34</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:math>. The radius of the Moon’s orbit is about <m:math><m:mrow><m:mn>3.84</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m</m:mtext></m:mrow></m:math>.</para></problem>
+</exercise>
+<exercise id="fs-id1167132497049">
+<problem id="fs-id1167132497052">
+<para id="fs-id1167132497054">You friend wonders how a rocket continues to climb into the sky once it is sufficiently high above the surface of Earth so that its expelled gasses no longer push on the surface. How do you respond?</para>
+</problem>
+<solution id="fs-id1167133703698">
+<para id="fs-id1167133703700">Answers may vary. The rocket is propelled forward not by the gasses pushing against the surface of Earth, but by conservation of momentum. The momentum of the gas being expelled out the back of the rocket must be compensated by an increase in the forward momentum of the rocket.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133703708">
+<problem id="fs-id1167132228842">
+<para id="fs-id1167132228844">To increase the acceleration of a rocket, should you throw rocks out of the front window of the rocket or out of the back window?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167132306218" class="review-challenge">
+<title>Challenge</title>
+<exercise id="fs-id1167132278372">
+<problem id="fs-id1167132278374">
+<para id="fs-id1167132278376">A 65-kg person jumps from the first floor window of a burning building and lands almost vertically on the ground with a horizontal velocity of 3 m/s and vertical velocity of <m:math><m:mrow><m:mn>−9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>. Upon impact with the ground he is brought to rest in a short time. The force experienced by his feet depends on whether he keeps his knees stiff or bends them. Find the force on his feet in each case.</para>
+<media id="fs-id1167132298477" alt="A drawing of a person near the ground. His velocity vector is directed down and slightly to the left and is given as 3.0 meters per second i hat minus 9.0 meters per second j hat. The x y directions are shown for reference, with x to the right and y upward.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_02_Falling_img.jpg"/>
+</media>
+<list id="fs-id1167133581069" list-type="enumerated" number-style="lower-alpha">
+<item>First find the impulse on the person from the impact on the ground. Calculate both its magnitude and direction.</item>
+<item>Find the average force on the feet if the person keeps his leg stiff and straight and his center of mass drops by only 1 cm vertically and 1 cm horizontally during the impact.</item>
+<item>Find the average force on the feet if the person bends his legs throughout the impact so that his center of mass drops by 50 cm vertically and 5 cm horizontally during the impact.</item>
+<item>Compare the results of part (b) and (c), and draw conclusions about which way is better.</item>
+</list>
+<para id="fs-id1167133564676">You will need to find the time the impact lasts by making reasonable assumptions about the acceleration opposite to the motion. Although the force is not constant during the impact, working with constant average force for this problem is acceptable.</para>
+</problem>
+<solution id="fs-id1167132441490">
+<para id="fs-id1167132441492">a. <m:math><m:mrow><m:mn>617</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>, 108°; b. <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mn>2.91</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mn>2.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mn>5850</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mn>5265</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132415455">
+<problem id="fs-id1167132415458">
+<para id="fs-id1167132415460">Two projectiles of mass <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are ﬁred at the same speed but in opposite directions from two launch sites separated by a distance <emphasis effect="italics">D</emphasis>. They both reach the same spot in their highest point and strike there. As a result of the impact they stick together and move as a single body afterwards. Find the place they will land.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132201915">
+<problem id="fs-id1167132201918">
+<para id="fs-id1167132201920">Two identical objects (such as billiard balls) have a one-dimensional collision in which one is initially motionless. After the collision, the moving object is stationary and the other moves with the same speed as the other originally had. Show that both momentum and kinetic energy are conserved.</para>
+</problem>
+<solution id="fs-id1167133694087">
+<para id="fs-id1167133694089">Conservation of momentum demands <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,f</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,f</m:mtext></m:mrow></m:msub></m:mrow></m:math>. We are given that <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,f</m:mtext></m:mrow></m:msub></m:mrow></m:math>, and <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,f</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Combining these equations with the equation given by conservation of momentum gives <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub></m:mrow></m:math>, which is true, so conservation of momentum is satisfied. Conservation of energy demands <m:math><m:mrow><m:mstyle scriptlevel="+1"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mstyle><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mstyle scriptlevel="+1"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mstyle><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>2,i</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mstyle scriptlevel="+1"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mstyle><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>1,f</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mstyle scriptlevel="+1"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mstyle><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>2,f</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:math>. Again combining this equation with the conditions given above give <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub></m:mrow></m:math>, so conservation of energy is satisfied.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132426551">
+<problem id="fs-id1167132426553">
+<para id="fs-id1167132426555">A ramp of mass <emphasis effect="italics">M</emphasis> is at rest on a horizontal surface. A small cart of mass <emphasis effect="italics">m</emphasis> is placed at the top of the ramp and released.</para>
+<media id="fs-id1167132606907" alt="Before release, the cart, mass m, is at the top of a structure that consists of a horizontal stretch a the bottom and a ramp that rises up and to the right to a height h. The ramp has mass M and is on wheels. After release, the cart mass m is on the horizontal part of the ramp and is moving to the left with velocity v cart. The ramp is moving to the right with velocity v ramp.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_04_CProb2_img.jpg"/>
+</media>
+<para id="fs-id1167132260464">What are the velocities of the ramp and the cart relative to the ground at the instant the cart leaves the ramp?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132416290">
+<problem id="fs-id1167132416293">
+<para id="fs-id1167132416295">Find the center of mass of the structure given in the figure below. Assume a uniform thickness of 20 cm, and a uniform density of <m:math><m:mrow><m:mn>1</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>g/cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167132355036" alt="A diagram of several masses arranged to look like a model of a person is shown. At the top is a sphere, radius 8 cm. Centered below it is a rectangle 25 cm wide horizontally and 60 cm tall that looks like the body of the person. On either side of the rectangle are rectangles measuring 60 cm horizontally and 5 cm tall that look like the outstretched arms. The tops or the arms are aligned with the top of the body, and each arm extends out from the sides of the body horizontally. At the end of each arm is a 5 cm wide square. Below the body are the legs. Each leg is 70 cm tall and 8 cm wide. The tops of the legs are aligned with the bottom of the body. The outer sides of the legs are aligned with the sides o the body. Below each leg are the feet, which are 3 cm tall and 15 cm wide. The inner side of each foot is aligned with the inner side of the leg above it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_06_CProb1_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167132460519">
+<para id="fs-id1167132460521">Assume origin on centerline and at floor, then <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,86</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167132409972">
+<term>rocket equation</term>
+<meaning id="fs-id1167132320522">derived by the Soviet physicist Konstantin Tsiolkovsky in 1897, it gives us the change of velocity that the rocket obtains from burning a mass of fuel that decreases the total rocket mass from <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> down to <emphasis effect="italics">m</emphasis></meaning>
+</definition>
+</glossary>
+</document>

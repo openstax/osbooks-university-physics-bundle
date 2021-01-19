@@ -1,0 +1,161 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Pascal's Principle and Hydraulics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58355</md:content-id>
+  <md:title>Pascal's Principle and Hydraulics</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>State Pascal’s principle</item>
+<item>Describe applications of Pascal’s principle</item>
+<item>Derive relationships between forces in a hydraulic system</item>
+</list></md:abstract>
+  <md:uuid>508f3b88-1644-4e89-afbd-1c5a32125c52</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170959658107">In 1653, the French philosopher and scientist Blaise Pascal published his <emphasis effect="italics">Treatise on the Equilibrium of Liquids</emphasis>, in which he discussed principles of static fluids. A static fluid is a fluid that is not in motion. When a fluid is not flowing, we say that the fluid is in static equilibrium. If the fluid is water, we say it is in <term>hydrostatic equilibrium</term>. For a fluid in static equilibrium, the net force on any part of the fluid must be zero; otherwise the fluid will start to flow.</para>
+<para id="fs-id1170959824678">Pascal’s observations—since proven experimentally—provide the foundation for <term class="no-emphasis">hydraulics</term>, one of the most important developments in modern mechanical technology. Pascal observed that a change in pressure applied to an enclosed fluid is transmitted undiminished throughout the fluid and to the walls of its container. Because of this, we often know more about pressure than other physical quantities in fluids. Moreover, Pascal’s principle implies that the total pressure in a fluid is the sum of the pressures from different sources. A good example is the fluid at a depth depends on the depth of the fluid and the pressure of the atmosphere.</para>
+<section id="fs-id1170957580041">
+<title>Pascal’s Principle</title>
+<para id="fs-id1170957440068"><term>Pascal’s principle</term> (also known as Pascal’s law) states that when a change in pressure is applied to an enclosed fluid, it is transmitted undiminished to all portions of the fluid and to the walls of its container. In an enclosed fluid, since atoms of the fluid are free to move about, they transmit pressure to all parts of the fluid <emphasis effect="italics">and</emphasis> to the walls of the container. Any change in pressure is transmitted undiminished.</para>
+<para id="fs-id1170957485577">Note that this principle does not say that the pressure is the same at all points of a fluid—which is not true, since the pressure in a fluid near Earth varies with height. Rather, this principle applies to the <emphasis effect="italics">change</emphasis> in pressure. Suppose you place some water in a cylindrical container of height <emphasis effect="italics">H</emphasis> and cross-sectional area <emphasis effect="italics">A</emphasis> that has a movable piston of mass <emphasis effect="italics">m</emphasis> (<link target-id="CNX_UPhysics_Figure_14_03_PressedPrs"/>). Adding weight <emphasis effect="italics">Mg</emphasis> at the top of the piston increases the pressure at the top by <emphasis effect="italics">Mg</emphasis>/<emphasis effect="italics">A</emphasis>, since the additional weight also acts over area <emphasis effect="italics">A</emphasis> of the lid:</para>
+<equation id="fs-id1170960159671" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>top</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>M</m:mi><m:mi>g</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_Figure_14_03_PressedPrs">
+<media id="fs-id1170959783993" alt="Figure A is a schematic drawing of a cylinder filled with fluid and opened to the atmosphere on one side. A disk of mass m and surface area A identical to the surface area of the cylinder is placed in the container. Distance between the disk and the bottom of the cylinder is h. Figure B is a schematic drawing of the cylinder with an additional disk of mass Mg placed atop mass m causing mass m to move lower.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_03_PressedPrs.jpg"/>
+</media>
+<caption>Pressure in a fluid changes when the fluid is compressed. (a) The pressure at the top layer of the fluid is different from pressure at the bottom layer. (b) The increase in pressure by adding weight to the piston is the same everywhere, for example, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>top new</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>top</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>bottom new</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>bottom</m:mtext></m:mrow></m:msub></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1170959791702">According to Pascal’s principle, the pressure at all points in the water changes by the same amount, <emphasis effect="italics">Mg</emphasis>/<emphasis effect="italics">A</emphasis>. Thus, the pressure at the bottom also increases by <emphasis effect="italics">Mg</emphasis>/<emphasis effect="italics">A</emphasis>. The pressure at the bottom of the container is equal to the sum of the atmospheric pressure, the pressure due the fluid, and the pressure supplied by the mass. The change in pressure at the bottom of the container due to the mass is</para>
+<equation id="fs-id1170957582509" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>bottom</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>M</m:mi><m:mi>g</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170957502125">Since the pressure changes are the same everywhere in the fluid, we no longer need subscripts to designate the pressure change for top or bottom:</para>
+<equation id="fs-id1170960191948" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>top</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>bottom</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>everywhere</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<note id="fs-id1170959793262" class="media-2">
+<para id="fs-id1170959657883">Pascal’s Barrel is a great demonstration of Pascal’s principle. Watch a <link url="https://openstax.org/l/21pascalbarrel">simulation</link> of Pascal’s 1646 experiment, in which he demonstrated the effects of changing pressure in a fluid.</para>
+</note>
+</section>
+<section id="fs-id1170960045269">
+<title>Applications of Pascal’s Principle and Hydraulic Systems</title>
+<para id="fs-id1170959811616">Hydraulic systems are used to operate automotive brakes, hydraulic jacks, and numerous other mechanical systems (<link target-id="CNX_UPhysics_Figure_14_03_HydrylicPr"/>).</para>
+<figure id="CNX_UPhysics_Figure_14_03_HydrylicPr">
+<media id="fs-id1170959644108" alt="A schematic drawing of a hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube. A downward force F1 on the left piston with the surface area A1 creates a change in pressure that results in an upward force F2on the right piston with the surface area A2. Surface area A2 is larger than the surface area A1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_03_HydrylicPr.jpg"/>
+</media>
+<caption>A typical hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube called a hydraulic line. A downward force <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub></m:mrow></m:math> on the left piston creates a change in pressure that is transmitted undiminished to all parts of the enclosed fluid. This results in an upward force <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>2</m:mn></m:msub></m:mrow></m:math> on the right piston that is larger than <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub></m:mrow></m:math> because the right piston has a larger surface area.</caption>
+</figure>
+<para id="fs-id1170959817166">We can derive a relationship between the forces in this simple hydraulic system by applying Pascal’s principle. Note first that the two pistons in the system are at the same height, so there is no difference in pressure due to a difference in depth. The pressure due to <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> acting on area <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is simply</para>
+<equation id="fs-id1170959817861" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>as defined by</m:mtext><m:mspace width="0.2em"/><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959658411">According to Pascal’s principle, this pressure is transmitted undiminished throughout the fluid and to all walls of the container. Thus, a pressure <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is felt at the other piston that is equal to <m:math><m:mrow><m:msub><m:mrow><m:mi>p</m:mi></m:mrow><m:mn>1</m:mn></m:msub></m:mrow></m:math>. That is, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> However, since<m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> we see that</para>
+<note id="fs-id1170959803105" class="equation-callout">
+<equation id="fs-id1170959778996"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170959749801">This equation relates the ratios of force to area in any hydraulic system, provided that the pistons are at the same vertical height and that friction in the system is negligible.</para>
+<para id="fs-id1170957512191">Hydraulic systems can increase or decrease the force applied to them. To make the force larger, the pressure is applied to a larger area. For example, if a 100-N force is applied to the left cylinder in <link target-id="CNX_UPhysics_Figure_14_03_HydrylicPr"/> and the right cylinder has an area five times greater, then the output force is 500 N. Hydraulic systems are analogous to simple levers, but they have the advantage that pressure can be sent through tortuously curved lines to several places at once.</para>
+<para id="fs-id1170959797007">The <term>hydraulic jack</term> is such a hydraulic system. A hydraulic jack is used to lift heavy loads, such as the ones used by auto mechanics to raise an automobile. It consists of an incompressible fluid in a U-tube fitted with a movable piston on each side. One side of the U-tube is narrower than the other. A small force applied over a small area can balance a much larger force on the other side over a larger area (<link target-id="CNX_UPhysics_Figure_14_03_HydraulicJ"/>).</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_Figure_14_03_HydraulicJ"><media id="fs-id1170959803831" alt="Figure A is a schematic drawing of a U tube filled with a fluid. A downward force F1 is applied at the left side with the surface area A1. A downward force F2 is applied on the right side with the surface area A2. Surface area A2 is larger than the surface area A1.Figure B is a photo of passenger car placed on the hydraulic jack.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_03_HydraulicJ.jpg"/>
+</media>
+
+<caption>(a) A hydraulic jack operates by applying forces <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to an incompressible fluid in a U-tube, using a movable piston <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> on each side of the tube. (b) Hydraulic jacks are commonly used by car mechanics to lift vehicles so that repairs and maintenance can be performed. (credit b: modification of work by Jane Whitney)</caption></figure><para id="fs-id1170959693557">From Pascal’s principle, it can be shown that the force needed to lift the car is less than the weight of the car:</para>
+<equation id="fs-id1170959870334" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170957514264">where <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the force applied to lift the car, <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the cross-sectional area of the smaller piston, <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is the cross sectional area of the larger piston, and <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is the weight of the car.</para>
+<example id="fs-id1170959644656">
+<para id="fs-id1170960161979"><title>Calculating Force on Wheel Cylinders: Pascal Puts on the Brakes</title>
+Consider the automobile hydraulic system shown in <link target-id="CNX_UPhysics_Figure_14_03_AutoBrake"/>. Suppose a force of 100 N is applied to the brake pedal, which acts on the pedal cylinder (acting as a “master” cylinder) through a lever. A force of 500 N is exerted on the pedal cylinder. Pressure created in the pedal cylinder is transmitted to the four wheel cylinders. The pedal cylinder has a diameter of 0.500 cm and each wheel cylinder has a diameter of 2.50 cm. Calculate the magnitude of the force <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> created at each of the wheel cylinders.</para>
+<figure id="CNX_UPhysics_Figure_14_03_AutoBrake">
+<media id="fs-id1170959807107" alt="Figure is a schematic drawing of a hydraulic brake system. A foot is applied to the brake pedal with the force F1. It is transmitted to the pedal cylinder with the area A1 of 0.5 cm. The Pedal cylinder is connected to the hydraulic system with two wheel cylinders with an area A2 of 2.5 cm. Wheel cylinders create output force F2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_03_AutoBrake.jpg"/>
+</media>
+<caption>Hydraulic brakes use Pascal’s principle. The driver pushes the brake pedal, exerting a force that is increased by the simple lever and again by the hydraulic system. Each of the identical wheel cylinders receives the same pressure and, therefore, creates the same force output <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. The circular cross-sectional areas of the pedal and wheel cylinders are represented by <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, respectively.</caption>
+</figure>
+<para id="fs-id1170959749142"><title>Strategy</title> 
+We are given the force <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> applied to the pedal cylinder. The cross-sectional areas <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> can be calculated from their given diameters. Then we can use the following relationship to find the force <m:math><m:mrow><m:msub><m:mrow><m:mi>F</m:mi></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math>:</para>
+<equation id="fs-id1170959658897" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959821126">Manipulate this algebraically to get <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> on one side and substitute known values.</para>
+<para id="fs-id1170959806822"><title>Solution</title> 
+Pascal’s principle applied to hydraulic systems is given by <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1170959730848" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.25</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.250</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>=</m:mo><m:mn>1.25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mtext>10</m:mtext><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170959788783"><title>Significance</title> 
+This value is the force exerted by each of the four wheel cylinders. Note that we can add as many wheel cylinders as we wish. If each has a 2.50-cm diameter, each will exert <m:math><m:mrow><m:mn>1.25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> A simple hydraulic system, as an example of a simple machine, can increase force but cannot do more work than is done on it. Work is force times distance moved, and the wheel cylinder moves through a smaller distance than the pedal cylinder. Furthermore, the more wheels added, the smaller the distance each one moves. Many hydraulic systems—such as power brakes and those in bulldozers—have a motorized pump that actually does most of the work in the system.</para>
+</example>
+<note id="fs-id1170959938408" class="check-understanding">
+<exercise id="fs-id1170959801934">
+<problem id="fs-id1170959975966">
+<para id="fs-id1170959801106"><emphasis effect="bold">Check Your Understanding</emphasis> Would a hydraulic press still operate properly if a gas is used instead of a liquid?</para>
+</problem>
+<solution id="fs-id1170959756282">
+<para id="fs-id1170959970582">Yes, it would still work, but since a gas is compressible, it would not operate as efficiently. When the force is applied, the gas would first compress and warm. Hence, the air in the brake lines must be bled out in order for the brakes to work properly.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170957416473" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170957584067" list-type="bulleted" bullet-style="bullet">
+<item>Pressure is force per unit area.</item>
+<item>A change in pressure applied to an enclosed fluid is transmitted undiminished to all portions of the fluid and to the walls of its container.</item>
+<item>A hydraulic system is an enclosed fluid system used to exert forces.</item>
+</list>
+</section>
+<section id="fs-id1170959800895" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170959944526">
+<problem id="fs-id1170959817267">
+<para id="fs-id1170959828882">Suppose the master cylinder in a hydraulic system is at a greater height than the cylinder it is controlling. Explain how this will affect the force produced at the cylinder that is being controlled.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170959937015" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170957416264">
+<problem id="fs-id1170959788541">
+<para id="fs-id1170960167510">How much pressure is transmitted in the hydraulic system considered in <link target-id="fs-id1170959644656"/>? Express your answer in atmospheres.</para>
+</problem>
+<solution id="fs-id1170959796341">
+<para id="fs-id1170959863128">251 atm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959815428">
+<problem id="fs-id1170959820291">
+<para id="fs-id1170959804300">What force must be exerted on the master cylinder of a hydraulic lift to support the weight of a 2000-kg car (a large car) resting on a second cylinder? The master cylinder has a 2.00-cm diameter and the second cylinder has a 24.0-cm diameter.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959690514">
+<problem id="fs-id1170959790906">
+<para id="fs-id1170959813498">A host pours the remnants of several bottles of wine into a jug after a party. The host then inserts a cork with a 2.00-cm diameter into the bottle, placing it in direct contact with the wine. The host is amazed when the host pounds the cork into place and the bottom of the jug (with a 14.0-cm diameter) breaks away. Calculate the extra force exerted against the bottom if he pounded the cork with a 120-N force.</para>
+</problem>
+<solution id="fs-id1170959801033">
+<para id="fs-id1170959723876"><m:math><m:mrow><m:mn>5.76</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mtext>extra force</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959645158">
+<problem id="fs-id1170959641429">
+<para id="fs-id1170960187461">A certain hydraulic system is designed to exert a force 100 times as large as the one put into it. (a) What must be the ratio of the area of the cylinder that is being controlled to the area of the master cylinder? (b) What must be the ratio of their diameters? (c) By what factor is the distance through which the output force moves reduced relative to the distance through which the input force moves? Assume no losses due to friction.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959731581">
+<problem id="fs-id1170957506857">
+<para id="fs-id1170959792959">Verify that work input equals work output for a hydraulic system assuming no losses due to friction. Do this by showing that the distance the output force moves is reduced by the same factor that the output force is increased. Assume the volume of the fluid is constant. What effect would friction within the fluid and between components in the system have on the output force? How would this depend on whether or not the fluid is moving?</para>
+</problem>
+<solution id="fs-id1170960184163">
+<para id="fs-id1170957425203">If the system is not moving, the friction would not play a role. With friction, we know there are losses, so that <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>W</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>;</m:mo></m:mrow></m:math> therefore, the work output is less than the work input. In other words, to account for friction, you would need to push harder on the input piston than was calculated.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170959671759">
+<term>hydraulic jack</term>
+<meaning id="fs-id1170957409654">simple machine that uses cylinders of different diameters to distribute force</meaning>
+</definition>
+<definition id="fs-id1170959977716">
+<term>hydrostatic equilibrium</term>
+<meaning id="fs-id1170959657924">state at which water is not flowing, or is static</meaning>
+</definition>
+<definition id="fs-id1170959657635">
+<term>Pascal’s principle</term>
+<meaning id="fs-id1170959780581">change in pressure applied to an enclosed fluid is transmitted undiminished to all portions of the fluid and to the walls of its container</meaning>
+</definition>
+</glossary>
+</document>

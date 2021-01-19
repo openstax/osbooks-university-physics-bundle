@@ -1,0 +1,253 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Capacitors in Series and in Parallel</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58449</md:content-id>
+  <md:title>Capacitors in Series and in Parallel</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain how to determine the equivalent capacitance of capacitors in series and in parallel combinations</item>
+<item>Compute the potential difference across the plates and the charge on the plates for a capacitor in a network and determine the net capacitance of a network of capacitors</item>
+</list></md:abstract>
+  <md:uuid>be1fe18e-9e90-4604-9fbf-e1045057e4a1</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131613556">Several capacitors can be connected together to be used in a variety of applications. Multiple connections of capacitors behave as a single equivalent capacitor. The total capacitance of this equivalent single capacitor depends both on the individual capacitors and how they are connected. Capacitors can be arranged in two simple and common types of connections, known as <emphasis effect="italics">series</emphasis> and <emphasis effect="italics">parallel</emphasis>, for which we can easily calculate the total capacitance. These two basic combinations, series and parallel, can also be used as part of more complex connections.</para>
+<section id="fs-id1167131553177">
+<title>The Series Combination of Capacitors</title>
+<para id="fs-id1167131412737"><link target-id="CNX_UPhysics_25_02_Series"/> illustrates a series combination of three capacitors, arranged in a row within the circuit. As for any capacitor, the capacitance of the combination is related to the charge and voltage by using <link target-id="fs-id1167134569412" document="m58448"/>. When this series combination is connected to a battery with voltage <emphasis effect="italics">V</emphasis>, each of the capacitors acquires an identical charge <emphasis effect="italics">Q</emphasis>. To explain, first note that the charge on the plate connected to the positive terminal of the battery is <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math> and the charge on the plate connected to the negative terminal is <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>. Charges are then induced on the other plates so that the sum of the charges on all plates, and the sum of charges on any pair of capacitor plates, is zero. However, the potential drop <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math> on one capacitor may be different from the potential drop <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math> on another capacitor, because, generally, the capacitors may have different capacitances. The series combination of two or three capacitors resembles a single capacitor with a smaller capacitance. Generally, any number of capacitors connected in series is equivalent to one capacitor whose capacitance (called the <emphasis effect="italics">equivalent capacitance</emphasis>) is smaller than the smallest of the capacitances in the series combination. Charge on this equivalent capacitor is the same as the charge on any capacitor in a series combination: That is, <emphasis effect="italics">all capacitors of a series combination have the same charge</emphasis>. This occurs due to the conservation of charge in the circuit. When a charge <emphasis effect="italics">Q</emphasis> in a series circuit is removed from a plate of the first capacitor (which we denote as <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>), it must be placed on a plate of the second capacitor (which we denote as <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> and so on.</para>
+<figure id="CNX_UPhysics_25_02_Series">
+<media id="fs-id1167134945727" alt="Figure a shows capacitors C1, C2 and C3 in series, connected to a battery. Figure b shows capacitor Cs connected to the battery.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_Series.jpg"/>
+</media>
+<caption>(a) Three capacitors are connected in series. The magnitude of the charge on each plate is <emphasis effect="italics">Q</emphasis>. (b) The network of capacitors in (a) is equivalent to one capacitor that has a smaller capacitance than any of the individual capacitances in (a), and the charge on its plates is <emphasis effect="italics">Q</emphasis>.</caption>
+</figure>
+<para id="fs-id1167131530950">We can find an expression for the total (equivalent) capacitance by considering the voltages across the individual capacitors. The potentials across capacitors 1, 2, and 3 are, respectively, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math>, and <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math>. These potentials must sum up to the voltage of the battery, giving the following potential balance:</para>
+<equation id="fs-id1167131226600" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131620066">Potential <emphasis effect="italics">V</emphasis> is measured across an equivalent capacitor that holds charge <emphasis effect="italics">Q</emphasis> and has an equivalent capacitance <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math>. Entering the expressions for <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, and <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>, we get</para>
+<equation id="fs-id1167134444376" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131556955">Canceling the charge <emphasis effect="italics">Q</emphasis>, we obtain an expression containing the equivalent capacitance, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math>, of three capacitors connected in series:</para>
+<equation id="fs-id1167134520393" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131230626">This expression can be generalized to any number of capacitors in a series network.</para>
+<note id="fs-id1167134897976">
+<title>Series Combination</title>
+<para id="fs-id1167131500452">For capacitors connected in a <term>series combination</term>, the reciprocal of the equivalent capacitance is the sum of reciprocals of individual capacitances:</para>
+<equation id="fs-id1167134633020"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mtext>⋯</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1167134512809">
+<para id="fs-id1167131188006"><title>Equivalent Capacitance of a Series Network</title>
+Find the total capacitance for three capacitors connected in series, given their individual capacitances are <m:math><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mn>5.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>, and <m:math><m:mrow><m:mn>8.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167134508503"><title>Strategy</title>
+Because there are only three capacitors in this network, we can find the equivalent capacitance by using <link target-id="fs-id1167134633020"/> with three terms.</para>
+<para id="fs-id1167134950520"><title>Solution</title>
+We enter the given capacitances into <link target-id="fs-id1167134633020"/>:</para>
+<equation id="fs-id1167134467395" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>5.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>8.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>1.325</m:mn></m:mrow><m:mrow><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167134881804">Now we invert this result and obtain <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow><m:mrow><m:mn>1.325</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.755</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167134516195"><title>Significance</title>
+Note that in a series network of capacitors, the equivalent capacitance is always less than the smallest individual capacitance in the network.</para>
+</example>
+</section>
+<section id="fs-id1167131228041">
+<title>The Parallel Combination of Capacitors</title>
+<para id="fs-id1167131513273">A parallel combination of three capacitors, with one plate of each capacitor connected to one side of the circuit and the other plate connected to the other side, is illustrated in <link target-id="CNX_UPhysics_25_02_QC"/>(a). Since the capacitors are connected in parallel, <emphasis effect="italics">they all have the same voltage V across their plates</emphasis>. However, each capacitor in the parallel network may store a different charge. To find the equivalent capacitance <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math> of the parallel network, we note that the total charge <emphasis effect="italics">Q</emphasis> stored by the network is the sum of all the individual charges:</para>
+<equation id="fs-id1167134513072" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134566318">On the left-hand side of this equation, we use the relation <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub><m:mi>V</m:mi></m:mrow></m:math>, which holds for the entire network. On the right-hand side of the equation, we use the relations <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mi>V</m:mi><m:mo>,</m:mo><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mi>V</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mi>V</m:mi></m:mrow></m:math> for the three capacitors in the network. In this way we obtain</para>
+<equation id="fs-id1167134822340" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mi>V</m:mi><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mi>V</m:mi><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131145336">This equation, when simplified, is the expression for the equivalent capacitance of the parallel network of three capacitors:</para>
+<equation id="fs-id1167134858166" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131254860">This expression is easily generalized to any number of capacitors connected in parallel in the network.</para>
+<note id="fs-id1167131567108">
+<title>Parallel Combination</title>
+<para id="fs-id1167131459182">For capacitors connected in a <term>parallel combination</term>, the equivalent (net) capacitance is the sum of all individual capacitances in the network,</para>
+<equation id="fs-id1167134538528"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>P</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:mtext>⋯</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_25_02_QC">
+<media id="fs-id1167134943517" alt="Figure a shows capacitors C1, C2 and C3 in parallel, with each one connected to a battery. The positive plates of C1, C2 and C3 have charge +Q1, +Q2 and +Q3 respectively and the negative plates have charge –Q1, –Q2 and –Q3 respectively. Figure b shows equivalent capacitor Cp equal to C1 plus C2 plus C3. The charge on the positive plate is equal to +Q equal to Q1 plus Q2 plus Q3. The charge on the negative plate is equal to –Q equal to minus Q1 minus Q2 minus Q3.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_QC.jpg"/>
+</media>
+<caption>(a) Three capacitors are connected in parallel. Each capacitor is connected directly to the battery. (b) The charge on the equivalent capacitor is the sum of the charges on the individual capacitors.</caption>
+</figure>
+<example id="fs-id1167131127008">
+<para id="fs-id1167134541425"><title>Equivalent Capacitance of a Parallel Network</title>
+Find the net capacitance for three capacitors connected in parallel, given their individual capacitances are <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167134475214"><title>Strategy</title>
+Because there are only three capacitors in this network, we can find the equivalent capacitance by using <link target-id="fs-id1167134538528"/> with three terms.</para>
+<para id="fs-id1167131269027"><title>Solution</title>
+Entering the given capacitances into <link target-id="fs-id1167134538528"/> yields</para>
+<equation id="fs-id1167134645894" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>+</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>+</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>14.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167131137214"><title>Significance</title>
+Note that in a parallel network of capacitors, the equivalent capacitance is always larger than any of the individual capacitances in the network.</para>
+</example>
+<para id="fs-id1167134941993">Capacitor networks are usually some combination of series and parallel connections, as shown in <link target-id="CNX_UPhysics_25_02_Connect"/>. To find the net capacitance of such combinations, we identify parts that contain only series or only parallel connections, and find their equivalent capacitances. We repeat this process until we can determine the equivalent capacitance of the entire network. The following example illustrates this process.</para>
+<figure id="CNX_UPhysics_25_02_Connect">
+<media id="fs-id1167134534595" alt="Figure a shows capacitors C1 and C2 in series and C3 in parallel with them. The value of C1 is 1 micro Farad, that of C2 is 5 micro Farad and that of C3 is 8 micro Farad. Figure b is the same as figure a, with C1 and C2 being replaced with equivalent capacitor Cs. Figure c is the same as figure b with Cs and C3 being replaced with equivalent capacitor C tot. C tot is equal to Cs plus C3.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_Connect.jpg"/>
+</media>
+<caption>(a) This circuit contains both series and parallel connections of capacitors. (b) <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are in series; their equivalent capacitance is <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> (c) The equivalent capacitance <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> is connected in parallel with <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Thus, the equivalent capacitance of the entire network is the sum of <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<example id="fs-id1167131223019">
+<para id="fs-id1167131549755"><title>Equivalent Capacitance of a Network</title>
+Find the total capacitance of the combination of capacitors shown in <link target-id="CNX_UPhysics_25_02_Connect"/>. Assume the capacitances are known to three decimal places <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>5.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F,</m:mtext></m:mrow></m:math><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>8.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:math> Round your answer to three decimal places.</para>
+<para id="fs-id1167131462155"><title>Strategy</title>
+We first identify which capacitors are in series and which are in parallel. Capacitors <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are in series. Their combination, labeled <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> is in parallel with <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167134864035"><title>Solution</title>
+Since <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are in series, their equivalent capacitance <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> is obtained with <link target-id="fs-id1167134633020"/>:</para>
+<equation id="fs-id1167584693616" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>5.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1.200</m:mn></m:mrow><m:mrow><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0.833</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167131376733">Capacitance <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> is connected in parallel with the third capacitance <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>, so we use <link target-id="fs-id1167134538528"/> to find the equivalent capacitance <emphasis effect="italics">C</emphasis> of the entire network:</para>
+<equation id="fs-id1167134937144" class="unnumbered"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.833</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>+</m:mo><m:mn>8.000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mn>8.833</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</example>
+<example id="fs-id1167131097759">
+<para id="fs-id1167131582494"><title>Network of Capacitors</title>
+Determine the net capacitance <emphasis effect="italics">C</emphasis> of the capacitor combination shown in <link target-id="CNX_UPhysics_25_02_Networks"/> when the capacitances are <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>. When a 12.0-V potential difference is maintained across the combination, find the charge and the voltage across each capacitor.</para>
+<figure id="CNX_UPhysics_25_02_Networks">
+<media id="fs-id1167131435046" alt="Figure a shows capacitors C1 and C2 in series and C3 in parallel with them. The value of C1 is 1 micro Farad, that of C2 is 5 micro Farad and that of C3 is 8 micro Farad. Figure b is the same as figure a, with C1 and C2 being replaced with equivalent capacitor Cs. Figure c is the same as figure b with Cs and C3 being replaced with equivalent capacitor C tot. C tot is equal to Cs plus C3.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_networks.jpg"/>
+</media>
+<caption>(a) A capacitor combination. (b) An equivalent two-capacitor combination.</caption>
+</figure>
+<para id="fs-id1167134512778"><title>Strategy</title>
+We first compute the net capacitance <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow></m:math> of the parallel connection <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>. Then <emphasis effect="italics">C</emphasis> is the net capacitance of the series connection <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow></m:math>. We use the relation <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi></m:mrow></m:mrow></m:math> to find the charges <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>,<m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, and <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>, and the voltages <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, and <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>, across capacitors 1, 2, and 3, respectively.</para>
+<para id="fs-id1167134645651"><title>Solution</title>
+The equivalent capacitance for <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> is</para>
+<equation id="fs-id1167134562556" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>+</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167131180083">The entire three-capacitor combination is equivalent to two capacitors in series,</para>
+<equation id="fs-id1167130010542" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167131490648">Consider the equivalent two-capacitor combination in <link target-id="CNX_UPhysics_25_02_Networks"/>(b). Since the capacitors are in series, they have the same charge, <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow></m:math>. Also, the capacitors share the 12.0-V potential difference, so</para>
+<equation id="fs-id1167134823806" class="unnumbered"><label/><m:math><m:mrow><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>48.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167129993901">Now the potential difference across capacitor 1 is</para>
+<equation id="fs-id1167131427396" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>48.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167131550854">Because capacitors 2 and 3 are connected in parallel, they are at the same potential difference:</para>
+<equation id="fs-id1167134536713" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>−</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134443642">Hence, the charges on these two capacitors are, respectively,</para>
+<equation id="fs-id1167134664831" class="unnumbered"><label/><m:math><m:mtable columnalign="left"><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>16.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>32.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167131376171"><title>Significance</title>
+As expected, the net charge on the parallel combination of <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> is <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>48.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</example>
+<note id="fs-id1167134566569" class="check-understanding">
+<exercise id="fs-id1167131255847">
+<problem id="fs-id1167131557192">
+<para id="fs-id1167131177958"><emphasis effect="bold">Check Your Understanding</emphasis> Determine the net capacitance <emphasis effect="italics">C</emphasis> of each network of capacitors shown below. Assume that <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>, and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>. Find the charge on each capacitor, assuming there is a potential difference of 12.0 V across each network.</para>
+<media id="fs-id1167134674175" alt="Figure a shows capacitors C2 and C3 in parallel with each other. They are in series with C1. Figure b shows capacitors C2 and C3 in series with each other. They are in parallel with C1. Figure c shows capacitors C1 and C2 in parallel with each other and capacitors C3 and C4 in parallel with each other. These combinations are connected in series.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_networks2_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131184073">
+<para id="fs-id1167131164418">a. <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0.86</m:mn><m:mspace width="0.2em"/><m:mtext>pF,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>3.4</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>6.8</m:mn><m:mspace width="0.2em"/><m:mtext>pC</m:mtext></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2.3</m:mn><m:mspace width="0.2em"/><m:mtext>pF,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>16</m:mn><m:mspace width="0.2em"/><m:mtext>pC</m:mtext></m:mrow></m:math>;<newline/>
+c. <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2.3</m:mn><m:mspace width="0.2em"/><m:mtext>pF,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>9.0</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>pC</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167131337189" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167131329469" list-type="bulleted" bullet-style="bullet">
+<item>When several capacitors are connected in a series combination, the reciprocal of the equivalent capacitance is the sum of the reciprocals of the individual capacitances.</item>
+<item>When several capacitors are connected in a parallel combination, the equivalent capacitance is the sum of the individual capacitances.</item>
+<item>When a network of capacitors contains a combination of series and parallel connections, we identify the series and parallel networks, and compute their equivalent capacitances step by step until the entire network becomes reduced to one equivalent capacitance.</item>
+</list>
+</section>
+<section id="fs-id1167131128919" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167134872384">
+<problem id="fs-id1167134883243">
+<para id="fs-id1167134866820">If you wish to store a large amount of charge in a capacitor bank, would you connect capacitors in series or in parallel? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134653213">
+<problem id="fs-id1167131143346">
+<para id="fs-id1167134858171">What is the maximum capacitance you can get by connecting three <m:math><m:mrow><m:mn>1.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitors? What is the minimum capacitance?</para>
+</problem>
+<solution id="fs-id1167134749828">
+<para id="fs-id1167131272414"><m:math><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:mn>0.33</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167134569155" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167131184278">
+<problem id="fs-id1167131220729">
+<para id="fs-id1167134644866">A 4.00-pF is connected in series with an 8.00-pF capacitor and a 400-V potential difference is applied across the pair. (a) What is the charge on each capacitor? (b) What is the voltage across each capacitor?</para>
+</problem>
+<solution id="fs-id1167134540998">
+<para id="fs-id1167134915780">a. 1.07 nC; b. 267 V, 133 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134992580">
+<problem id="fs-id1167134506720">
+<para id="fs-id1167131459186">Three capacitors, with capacitances of <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>, and <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F,</m:mtext></m:mrow></m:math> respectively, are connected in parallel. A 500-V potential difference is applied across the combination. Determine the voltage across each capacitor and the charge on each capacitor.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131255933">
+<problem id="fs-id1167134633828">
+<para id="fs-id1167134816516">Find the total capacitance of this combination of series and parallel capacitors shown below.</para>
+<media id="fs-id1167134519672" alt="Figure shows capacitors of value 10 micro Farad and 2.5 micro Farad connected in parallel with each other. These are connected in series with a capacitor of value 0.3 micro Farad.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_square_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167134922868">
+<para id="fs-id1167134684665"><m:math><m:mrow><m:mn>0.29</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131431010">
+<problem id="fs-id1167134517885">
+<para id="fs-id1167134509955">Suppose you need a capacitor bank with a total capacitance of 0.750 F but you have only 1.50-mF capacitors at your disposal. What is the smallest number of capacitors you could connect together to achieve your goal, and how would you connect them?</para>
+</problem>
+<solution id="fs-id1167131455898">
+<para id="fs-id1167131435348">500 capacitors; connected in parallel</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134468780">
+<problem id="fs-id1167134890862">
+<para id="fs-id1167134716362">What total capacitances can you make by connecting a <m:math><m:mrow><m:mn>5.00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> and a <m:math><m:mrow><m:mn>8.00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor?</para>
+</problem>
+<solution id="fs-id1167131517332">
+<para id="fs-id1167131224953"><m:math><m:mrow><m:mn>3.08</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> (series) and <m:math><m:mrow><m:mn>13.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> (parallel)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131498492">
+<problem id="fs-id1167131425840">
+<para id="fs-id1167131587880">Find the equivalent capacitance of the combination of series and parallel capacitors shown below.</para>
+<media id="fs-id1167134895185" alt="Figure shows capacitors of value 0.3 micro Farad and 10 micro Farad connected in series with each other. These are connected in parallel with a capacitor of value 2.5 micro Farad.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_Box_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167134881053">
+<problem id="fs-id1167131222288">
+<para id="fs-id1167131201385">Find the net capacitance of the combination of series and parallel capacitors shown below.</para>
+<media id="fs-id1167134627277" alt="Figure shows a circuit with three branches connected in parallel with each other. Brach 1 has capacitors of value 5 micro Farad and 3.5 micro Farad connected in series with each other. Brach 2 has a capacitor of value 8 micro Farad. Brach 3 has three capacitors. Two of these, having values 0.75 micro Farad and 15 micro Farad are connected in parallel with each other. These are in series with the third capacitor of value 1.5 micro Farad.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_TwoBox_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167134940601">
+<para id="fs-id1167131362317"><m:math><m:mrow><m:mn>11.4</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131569035">
+<problem id="fs-id1167134512367">
+<para id="fs-id1167134507058">A 40-pF capacitor is charged to a potential difference of 500 V. Its terminals are then connected to those of an uncharged 10-pF capacitor. Calculate: (a) the original charge on the 40-pF capacitor; (b) the charge on each capacitor after the connection is made; and (c) the potential difference across the plates of each capacitor after the connection.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131089215">
+<problem id="fs-id1167131472063">
+<para id="fs-id1167134590659">A <m:math><m:mrow><m:mn>2.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor and a <m:math><m:mrow><m:mn>4.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor are connected in series across a 1.0-kV potential. The charged capacitors are then disconnected from the source and connected to each other with terminals of like sign together. Find the charge on each capacitor and the voltage across each capacitor.</para>
+</problem>
+<solution id="fs-id1167131217962">
+<para id="fs-id1167134910835">0.89 mC; 1.78 mC; 444 V</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134926180">
+<term>parallel combination</term>
+<meaning id="fs-id1167131177822">components in a circuit arranged with one side of each component connected to one side of the circuit and the other sides of the components connected to the other side of the circuit</meaning>
+</definition>
+<definition id="fs-id1167134941320">
+<term>series combination</term>
+<meaning id="fs-id1167131201557">components in a circuit arranged in a row one after the other in a circuit</meaning>
+</definition>
+</glossary>
+</document>

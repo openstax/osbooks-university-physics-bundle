@@ -1,0 +1,193 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Sound Waves</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58375</md:content-id>
+  <md:title>Sound Waves</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para> 
+<list>
+<item>Explain the difference between sound and hearing</item>
+<item>Describe sound as a wave</item>
+<item>List the equations used to model sound waves</item>
+<item>Describe compression and rarefactions as they relate to sound</item>
+</list></md:abstract>
+  <md:uuid>077cf2e2-9625-47d8-b9de-a822ee5999b9</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165039073542">The physical phenomenon of <term>sound</term> is a disturbance of matter that is transmitted from its source outward. <term>Hearing</term> is the perception of sound, just as seeing is the perception of visible light. On the atomic scale, sound is a disturbance of atoms that is far more ordered than their thermal motions. In many instances, sound is a periodic wave, and the atoms undergo simple harmonic motion. Thus, sound waves can induce oscillations and resonance effects (<link target-id="CNX_UPhysics_17_01_Glass"/>).</para>
+<figure id="CNX_UPhysics_17_01_Glass">
+<media id="fs-id1165039322775" alt="Picture shows a photograph of a wine glass shattering into many little pieces.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_01_Glass.jpg"/>
+</media>
+<caption>This glass has been shattered by a high-intensity sound wave of the same frequency as the resonant frequency of the glass. (credit: “||read||”/Flickr)</caption>
+</figure>
+<note id="fs-id1165039069281" class="media-2">
+<para id="fs-id1165035708979">This <link url="https://openstax.org/l/21waveswineglas">video</link> shows waves on the surface of a wine glass, being driven by sound waves from a speaker. As the frequency of the sound wave approaches the resonant frequency of the wine glass, the amplitude and frequency of the waves on the wine glass increase. When the resonant frequency is reached, the glass shatters.</para>
+</note>
+<para id="fs-id1165039395848">A speaker produces a sound wave by oscillating a cone, causing vibrations of air molecules. In <link target-id="CNX_UPhysics_17_01_Speaker"/>, a speaker vibrates at a constant frequency and amplitude, producing vibrations in the surrounding air molecules. As the speaker oscillates back and forth, it transfers energy to the air, mostly as thermal energy. But a small part of the speaker’s energy goes into compressing and expanding the surrounding air, creating slightly higher and lower local pressures. These <term class="no-emphasis">compressions</term> (high-pressure regions) and <term class="no-emphasis">rarefactions</term> (low-pressure regions) move out as longitudinal pressure waves having the same frequency as the speaker—they are the disturbance that is a sound wave. (Sound waves in air and most fluids are longitudinal, because fluids have almost no shear strength. In solids, sound waves can be both transverse and longitudinal.)</para>
+<para id="fs-id1165039053016"><link target-id="CNX_UPhysics_17_01_Speaker"/>(a) shows the compressions and rarefactions, and also shows a graph of gauge pressure versus distance from a speaker. As the speaker moves in the positive <emphasis effect="italics">x</emphasis>-direction, it pushes air molecules, displacing them from their equilibrium positions. As the speaker moves in the negative <emphasis effect="italics">x</emphasis>-direction, the air molecules move back toward their equilibrium positions due to a restoring force. The air molecules oscillate in simple harmonic motion about their equilibrium positions, as shown in part (b). Note that sound waves in air are longitudinal, and in the figure, the wave propagates in the positive <emphasis effect="italics">x</emphasis>-direction and the molecules oscillate parallel to the direction in which the wave propagates.</para>
+<figure id="CNX_UPhysics_17_01_Speaker">
+<media id="fs-id1165039010862" alt="Figure A is a graph that shows the gauge pressure of the air versus the distance from the speaker. The gauge pressure is modeled with a sine function, where the crests of the function line up with the compressions and the troughs line up with the rarefactions. Figure B is the displacement of the air molecules versus the position. The displacement is modeled with a cosine function, where the zeroes are for the molecules in their equilibrium position and are centered at the compressions and rarefactions.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_01_Speaker.jpg"/>
+</media>
+<caption>(a) A vibrating cone of a speaker, moving in the positive <emphasis effect="italics">x</emphasis>-direction, compresses the air in front of it and expands the air behind it. As the speaker oscillates, it creates another compression and rarefaction as those on the right move away from the speaker. After many vibrations, a series of compressions and rarefactions moves out from the speaker as a sound wave. The red graph shows the gauge pressure of the air versus the distance from the speaker. Pressures vary only slightly from atmospheric pressure for ordinary sounds. Note that gauge pressure is modeled with a sine function, where the crests of the function line up with the compressions and the troughs line up with the rarefactions. (b) Sound waves can also be modeled using the displacement of the air molecules. The blue graph shows the displacement of the air molecules versus the position from the speaker and is modeled with a cosine function. Notice that the displacement is zero for the molecules in their equilibrium position and are centered at the compressions and rarefactions. Compressions are formed when molecules on either side of the equilibrium molecules are displaced toward the equilibrium position. Rarefactions are formed when the molecules are displaced away from the equilibrium position.</caption>
+</figure>
+<note id="fs-id1165038973022">
+<title>Models Describing Sound</title>
+<para id="fs-id1165039391052">Sound can be modeled as a pressure wave by considering the change in pressure from average pressure,</para>
+<equation id="fs-id1165035759759"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>P</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>∓</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038961648">This equation is similar to the periodic wave equations seen in <link document="m58367">Waves</link>, where <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>P</m:mi></m:mrow></m:math> is the change in pressure, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the maximum change in pressure, <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>λ</m:mi></m:mfrac></m:mrow></m:math> is the wave number, <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>f</m:mi></m:mrow></m:math> is the angular frequency, and <m:math><m:mi>ϕ</m:mi></m:math> is the initial phase. The wave speed can be determined from <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ω</m:mi><m:mi>k</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>λ</m:mi><m:mi>T</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Sound waves can also be modeled in terms of the displacement of the air molecules. The displacement of the air molecules can be modeled using a cosine function:</para>
+<equation id="fs-id1165039044456"><m:math><m:mrow><m:mi>s</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>s</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>∓</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039391590">In this equation, <emphasis effect="italics">s</emphasis> is the displacement and <m:math><m:mrow><m:msub><m:mi>s</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the maximum displacement.</para>
+</note>
+<para id="fs-id1165039114883">Not shown in the figure is the amplitude of a sound wave as it decreases with distance from its source, because the energy of the wave is spread over a larger and larger area. The intensity decreases as it moves away from the speaker, as discussed in <link document="m58367">Waves</link>. The energy is also absorbed by objects and converted into thermal energy by the viscosity of the air. In addition, during each compression, a little heat transfers to the air; during each rarefaction, even less heat transfers from the air, and these heat transfers reduce the organized disturbance into random thermal motions. Whether the heat transfer from compression to rarefaction is significant depends on how far apart they are—that is, it depends on wavelength. Wavelength, frequency, amplitude, and speed of propagation are important characteristics for sound, as they are for all waves.</para>
+<section id="fs-id1165039331186" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1165038974242" list-type="bulleted" bullet-style="bullet">
+<item>Sound is a disturbance of matter (a pressure wave) that is transmitted from its source outward. Hearing is the perception of sound.</item>
+<item>Sound can be modeled in terms of pressure or in terms of displacement of molecules.</item>
+<item>The human ear is sensitive to frequencies between 20 Hz and 20 kHz.</item>
+</list>
+</section>
+<section id="fs-id1165039093719" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1165039340829">
+<problem id="fs-id1165039112127">
+<para id="fs-id1165035696997">What is the difference between sound and hearing?</para>
+</problem>
+<solution id="fs-id1165039108036">
+<para id="fs-id1165039308626">Sound is a disturbance of matter (a pressure wave) that is transmitted from its source outward. Hearing is the human perception of sound.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035888139">
+<problem id="fs-id1165039118303">
+<para id="fs-id1165039047977">You will learn that light is an electromagnetic wave that can travel through a vacuum. Can sound waves travel through a vacuum?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039328882">
+<problem id="fs-id1165039071510">
+<para id="fs-id1165039115052">Sound waves can be modeled as a change in pressure. Why is the change in pressure used and not the actual pressure?</para>
+</problem>
+<solution id="fs-id1165039304554">
+<para id="fs-id1165035614184">Consider a sound wave moving through air. The pressure of the air is the equilibrium condition, it is the change in pressure that produces the sound wave.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1165039064399" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1165038994069">
+<problem id="fs-id1165039376213">
+<para id="fs-id1165038972336">Consider a sound wave modeled with the equation<m:math><m:mrow><m:mi>s</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.66</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1256</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> What is the maximum displacement, the wavelength, the frequency, and the speed of the sound wave?</para>
+</problem>
+<solution id="fs-id1165038974782">
+<para id="fs-id1165039323957"><m:math><m:mrow><m:msub><m:mi>s</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>1.72</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>343.17</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039290912">
+<problem id="fs-id1165039325755">
+<para id="fs-id1165039290947">Consider a sound wave moving through the air modeled with the equation<m:math><m:mrow><m:mi>s</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6.00</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>54.93</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>18.84</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> What is the shortest time required for an air molecule to move between 3.00 nm and –3.00 nm?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039402592">
+<problem id="fs-id1165039092888">
+<para id="fs-id1165039112929">Consider a diagnostic ultrasound of frequency 5.00 MHz that is used to examine an irregularity in soft tissue. (a) What is the wavelength in air of such a sound wave if the speed of sound is 343 m/s? (b) If the speed of sound in tissue is 1800 m/s, what is the wavelength of this wave in tissue?</para>
+</problem>
+<solution id="fs-id1165035748955">
+<para id="fs-id1165035634536">a. <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>68.60</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m;</m:mtext></m:mrow></m:math> b. <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>360.00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039446891">
+<problem id="fs-id1165039336666">
+<para id="fs-id1165035683609">A sound wave is modeled as <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>1.80</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>55.41</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>18,840</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> What is the maximum change in pressure, the wavelength, the frequency, and the speed of the sound wave?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039050534">
+<problem id="fs-id1165039225285">
+<para id="fs-id1165039082668">A sound wave is modeled with the wave function <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>1.20</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6.28</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the sound wave travels in air at a speed of <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>343.00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> (a) What is the wave number of the sound wave? (b) What is the value for <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mn>20.00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1165035654552">
+<para id="fs-id1165039108066">a. <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>183.09</m:mn><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>;</m:mo></m:mrow></m:math><newline/>
+b. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>−1.11</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039098927">
+<problem id="fs-id1165039051756">
+<para id="fs-id1165039118512">The displacement of the air molecules in sound wave is modeled with the wave function <m:math><m:mrow><m:mi>s</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>91.54</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. (a) What is the wave speed of the sound wave? (b) What is the maximum speed of the air molecules as they oscillate in simple harmonic motion? (c) What is the magnitude of the maximum acceleration of the air molecules as they oscillate in simple harmonic motion?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038965909">
+<problem id="fs-id1165039114576">
+<para id="fs-id1165035712042">A speaker is placed at the opening of a long horizontal tube. The speaker oscillates at a frequency <emphasis effect="italics">f</emphasis>, creating a sound wave that moves down the tube. The wave moves through the tube at a speed of <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>340.00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> The sound wave is modeled with the wave function <m:math><m:mrow><m:mi>s</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>s</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> At time <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0.00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>, an air molecule at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> is at the maximum displacement of 7.00 nm. At the same time, another molecule at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3.7</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> has a displacement of 3.00 nm. What is the frequency at which the speaker is oscillating?</para>
+</problem>
+<solution id="fs-id1165038975226">
+<para id="fs-id1165035975769"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>s</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>7.00</m:mn><m:mspace width="0.2em"/><m:mtext>nm,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>s</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>nm,</m:mtext><m:mspace width="0.5em"/><m:mi>k</m:mi><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>k</m:mi><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mn>1.128</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.128</m:mn><m:mspace width="0.2em"/><m:mtext>rad,</m:mtext><m:mspace width="0.5em"/><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>5.64</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>1.11</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.5em"/><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>306.31</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039448071">
+<problem id="fs-id1165039322797">
+<para id="fs-id1165035742606">A 250-Hz tuning fork is struck and begins to vibrate. A sound-level meter is located 34.00 m away. It takes the sound <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> to reach the meter. The maximum displacement of the tuning fork is 1.00 mm. Write a wave function for the sound.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039050248">
+<problem id="fs-id1165039089090">
+<para id="fs-id1165039425536">A sound wave produced by an ultrasonic transducer, moving in air, is modeled with the wave equation <m:math><m:mrow><m:mi>s</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4.50</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9.15</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mtext>MHz</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The transducer is to be used in nondestructive testing to test for fractures in steel beams. The speed of sound in the steel beam is <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>5950</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Find the wave function for the sound wave in the steel beam.</para>
+</problem>
+<solution id="fs-id1165039055628">
+<para id="fs-id1165038986738"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>5.28</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>s</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4.50</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5.28</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mtext>MHz</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039414715">
+<problem id="fs-id1165035718919">
+<para id="fs-id1165039421634">Porpoises emit sound waves that they use for navigation. If the wavelength of the sound wave emitted is 4.5 cm, and the speed of sound in the water is <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>1530</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext></m:mrow></m:math> what is the period of the sound?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038973886">
+<problem id="fs-id1165035699437">
+<para id="fs-id1165039106730">Bats use sound waves to catch insects. Bats can detect frequencies up to 100 kHz. If the sound waves travel through air at a speed of <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>343</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext></m:mrow></m:math> what is the wavelength of the sound waves?</para>
+</problem>
+<solution id="fs-id1165035675851">
+<para id="fs-id1165039187626"><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>3.43</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039041602">
+<problem id="fs-id1165039420472">
+<para id="fs-id1165039053411">A bat sends of a sound wave 100 kHz and the sound waves travel through air at a speed of <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>343</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> (a) If the maximum pressure difference is 1.30 Pa, what is a wave function that would model the sound wave, assuming the wave is sinusoidal? (Assume the phase shift is zero.) (b) What are the period and wavelength of the sound wave?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039124152">
+<problem id="fs-id1165039268584">
+<para id="fs-id1165039470629">Consider the graph shown below of a compression wave. Shown are snapshots of the wave function for <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0.000</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> (blue) and <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0.005</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> (orange). What are the wavelength, maximum displacement, velocity, and period of the compression wave?</para>
+<media id="fs-id1165038990903" alt="Figure is a graph that shows a compression wave. The wave consists of two sinusoidal functions. The function shown with a blue color has maxima at 5, 11 and minima in 2, 8, 14. The function shown with red color has maxima at 2, 8, 14 and minima in 5, 11.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_01_prob_16_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039224379">
+<para id="fs-id1165039352240"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>6.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>s</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0.01</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039085444">
+<problem id="fs-id1165035620117">
+<para id="fs-id1165039256292">Consider the graph in the preceding problem of a compression wave. Shown are snapshots of the wave function for <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0.000</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> (blue) and <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0.005</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> (orange). Given that the displacement of the molecule at time <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0.00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> and position <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> is <m:math><m:mrow><m:mi>s</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mn>0.00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.08</m:mn><m:mspace width="0.2em"/><m:mtext>mm,</m:mtext></m:mrow></m:math> derive a wave function to model the compression wave.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039091302">
+<problem id="fs-id1165039041947">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165039268879">A guitar string oscillates at a frequency of 100 Hz and produces a sound wave. (a) What do you think the frequency of the sound wave is that the vibrating string produces? (b) If the speed of the sound wave is<newline/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>343</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext></m:mrow></m:math> what is the wavelength of the sound wave?</para></problem>
+<solution id="fs-id1165039475936">
+<para id="fs-id1165039120314">(a) <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Hz,</m:mtext><m:mspace width="0.5em"/></m:mrow></m:math> (b) <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>3.43</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165039390663">
+<term>hearing</term>
+<meaning id="fs-id1165039025976">perception of sound</meaning>
+</definition>
+<definition id="fs-id1165039296043">
+<term>sound</term>
+<meaning id="fs-id1165039438996">traveling pressure wave that may be periodic; the wave can be modeled as a pressure wave or as an oscillation of molecules</meaning>
+</definition>
+</glossary>
+</document>

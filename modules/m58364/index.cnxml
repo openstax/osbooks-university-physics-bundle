@@ -1,0 +1,260 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Pendulums</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58364</md:content-id>
+  <md:title>Pendulums</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>State the forces that act on a simple pendulum</item>
+<item>Determine the angular frequency, frequency, and period of a simple pendulum in terms of the length of the pendulum and the acceleration due to gravity</item>
+<item>Define the period for a physical pendulum</item>
+<item>Define the period for a torsional pendulum</item>
+</list></md:abstract>
+  <md:uuid>8a05cde5-91c5-4952-92e7-737508c6c84f</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131485483">Pendulums are in common usage. Grandfather clocks use a pendulum to keep time and a pendulum can be used to measure the acceleration due to gravity. For small displacements, a pendulum is a simple harmonic oscillator.</para>
+<section id="fs-id1167130004423">
+<title>The Simple Pendulum</title>
+<para id="fs-id1167131090422">A <term>simple pendulum</term> is defined to have a point mass, also known as the <term class="no-emphasis">pendulum bob</term>, which is suspended from a string of length <emphasis effect="italics">L</emphasis> with negligible mass (<link target-id="CNX_UPhysics_15_05_SimplePend"/>). Here, the only forces acting on the bob are the force of gravity (i.e., the weight of the bob) and tension from the string. The mass of the string is assumed to be negligible as compared to the mass of the bob.</para>
+<figure id="CNX_UPhysics_15_05_SimplePend">
+<media id="fs-id1167131102347" alt="In the figure, a horizontal bar is shown. A string of length L extends from the bar at an angle theta counterclockwise from the vertical. The vertical direction is indicated by a dashed line extending down from where the string is attached to the bar. A circular bob of mass m is attached to the lower end of the string. The arc from the mass to the vertical is indicated by another dashed line and is a length s. A red arrow showing the time T of the oscillation of the mob is shown along the string line toward the bar. A coordinate system is shown near the bob with the positive y direction aligned with the string and pointing toward the pivot point and the positive x direction pointing tangent to the arc and away from the equilibrium position. An blue arrow from the bob toward the pivot, along the string, is labeled F sub T. A red arrow from the bob pointing down is labeled w = m g. A red arrow pointing tangent to the arc and toward equilibrium, in the minus x direction, is labeled minus m g sine theta. A red arrow at an angle theta counterclockwise from w is labeled minus m g cosine theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_05_SimplePend.jpg"/>
+</media>
+<caption>A simple pendulum has a small-diameter bob and a string that has a very small mass but is strong enough not to stretch appreciably. The linear displacement from equilibrium is <emphasis effect="italics">s</emphasis>, the length of the arc. Also shown are the forces on the bob, which result in a net force of <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> toward the equilibrium position—that is, a restoring force.</caption>
+</figure>
+<para id="fs-id1167130036041">Consider the torque on the pendulum. The force providing the restoring torque is the component of the weight of the pendulum bob that acts along the arc length. The torque is the length of the string <emphasis effect="italics">L</emphasis> times the component of the net force that is perpendicular to the radius of the arc. The minus sign indicates the torque acts in the opposite direction of the angular displacement:</para>
+<equation id="fs-id1167131404192" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>τ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mi>α</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mi>g</m:mi><m:mi>L</m:mi></m:mfrac><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167134638924">The solution to this differential equation involves advanced calculus, and is beyond the scope of this text. But note that for small angles (less than 15 degrees), <m:math><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> and <m:math><m:mi>θ</m:mi></m:math> differ by less than 1%, so we can use the small angle approximation <m:math><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math> The angle <m:math><m:mi>θ</m:mi></m:math> describes the position of the pendulum. Using the small angle approximation gives an approximate solution for small angles,</para>
+<note id="fs-id1167134443125" class="equation-callout">
+<equation id="fs-id1167134582750"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>g</m:mi><m:mi>L</m:mi></m:mfrac><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167130344667">Because this equation has the same form as the equation for SHM, the solution is easy to find. The angular frequency is</para>
+<note id="fs-id1167131238164" class="equation-callout">
+<equation id="fs-id1167134588131"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>g</m:mi><m:mi>L</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131402009">and the period is</para>
+<note id="fs-id1167131554269" class="equation-callout">
+<equation id="fs-id1167131398670"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131262321">The period of a simple pendulum depends on its length and the acceleration due to gravity. The period is completely independent of other factors, such as mass and the maximum displacement. As with simple harmonic oscillators, the period <emphasis effect="italics">T</emphasis> for a pendulum is nearly independent of amplitude, especially if <m:math><m:mi>θ</m:mi></m:math> is less than about <m:math><m:mrow><m:mn>15</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Even simple pendulum clocks can be finely adjusted and remain accurate.</para>
+<para id="fs-id1167130005326">Note the dependence of <emphasis effect="italics">T</emphasis> on <emphasis effect="italics">g</emphasis>. If the length of a pendulum is precisely known, it can actually be used to measure the acceleration due to gravity, as in the following example.</para>
+<example id="fs-id1167131235662">
+<para id="fs-id1167130143455"><title>Measuring Acceleration due to Gravity by the Period of a Pendulum</title>
+What is the acceleration due to gravity in a region where a simple pendulum having a length 75.000 cm has a period of 1.7357 s?</para>
+<para id="fs-id1167130050927"><title>Strategy</title>
+We are asked to find <emphasis effect="italics">g</emphasis> given the period <emphasis effect="italics">T</emphasis> and the length <emphasis effect="italics">L</emphasis> of a pendulum. We can solve <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> for <emphasis effect="italics">g</emphasis>, assuming only that the angle of deflection is less than <m:math><m:mrow><m:mn>15</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167131167842"><title>Solution</title></para>
+<list id="fs-id1167131583258" list-type="enumerated" number-style="arabic">
+<item>Square <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> and solve for <emphasis effect="italics">g</emphasis>:
+<equation id="fs-id1167131453570" class="unnumbered"><label/><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:mfrac><m:mi>L</m:mi><m:mrow><m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Substitute known values into the new equation:
+<equation id="fs-id1167131123290" class="unnumbered"><label/><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:mfrac><m:mrow><m:mn>0.75000</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.7357</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Calculate to find <emphasis effect="italics">g</emphasis>:
+<equation id="fs-id1165168894703" class="unnumbered"><label/><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9.8281</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167131517509"><title>Significance</title>
+This method for determining <emphasis effect="italics">g</emphasis> can be very accurate, which is why length and period are given to five digits in this example. For the precision of the approximation <m:math><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math> to be better than the precision of the pendulum length and period, the maximum displacement angle should be kept below about <m:math><m:mrow><m:mn>0.5</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</para>
+</example>
+<note id="fs-id1167131404748" class="check-understanding">
+<exercise id="fs-id1167131578889">
+<problem id="fs-id1167134882828">
+<para id="fs-id1167131149152"><emphasis effect="bold">Check Your Understanding</emphasis> An engineer builds two simple pendulums. Both are suspended from small wires secured to the ceiling of a room. Each pendulum hovers 2 cm above the floor. Pendulum 1 has a bob with a mass of 10 kg. Pendulum 2 has a bob with a mass of 100 kg. Describe how the motion of the pendulums will differ if the bobs are both displaced by <m:math><m:mrow><m:mn>12</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167131444820">
+<para id="fs-id1167130002571">The movement of the pendulums will not differ at all because the mass of the bob has no effect on the motion of a simple pendulum. The pendulums are only affected by the period (which is related to the pendulum’s length) and by the acceleration due to gravity.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167131545002">
+<title>Physical Pendulum</title>
+<para id="fs-id1167131547848">Any object can oscillate like a pendulum. Consider a coffee mug hanging on a hook in the pantry. If the mug gets knocked, it oscillates back and forth like a pendulum until the oscillations die out. We have described a simple pendulum as a point mass and a string. A <term>physical pendulum</term> is any object whose oscillations are similar to those of the simple pendulum, but cannot be modeled as a point mass on a string, and the mass distribution must be included into the equation of motion.</para>
+<para id="fs-id1167130142276">As for the simple pendulum, the restoring force of the physical pendulum is the force of gravity. With the simple pendulum, the force of gravity acts on the center of the pendulum bob. In the case of the physical pendulum, the force of gravity acts on the center of mass (CM) of an object. The object oscillates about a point <emphasis effect="italics">O</emphasis>. Consider an object of a generic shape as shown in <link target-id="CNX_UPhysics_15_05_PhysicalPd"/>.</para>
+<figure id="CNX_UPhysics_15_05_PhysicalPd">
+<media id="fs-id1167130222676" alt="A drawing of a physical pendulum. In the figure, the pendulum is an irregularly shaped object. The center of mass, C M, is a distance L from the pivot point, O. The center of mass traces a circular arc, centered at O. The line from O to L makes an angle theta counterclockwise from the vertical. Three forces are depicted by red arrows at the center of mass. The force m g points down. Its components are minus m g sine theta which points tangent to the arc traced by the center of mass, and m g cosine theta which points radially outward.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_05_PhysicalPd.jpg"/>
+</media>
+<caption>A physical pendulum is any object that oscillates as a pendulum, but cannot be modeled as a point mass on a string. The force of gravity acts on the center of mass (CM) and provides the restoring force that causes the object to oscillate. The minus sign on the component of the weight that provides the restoring force is present because the force acts in the opposite direction of the increasing angle <m:math><m:mi>θ</m:mi></m:math>.</caption>
+</figure>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167131098246">When a physical pendulum is hanging from a point but is free to rotate, it rotates because of the torque applied at the CM, produced by the component of the object’s weight that acts tangent to the motion of the CM. Taking the counterclockwise direction to be positive, the component of the gravitational force that acts tangent to the motion is <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>. The minus sign is the result of the restoring force acting in the opposite direction of the increasing angle. Recall that the torque is equal to <m:math><m:mrow><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. The magnitude of the torque is equal to the length of the radius arm times the tangential component of the force applied, <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>τ</m:mi><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>F</m:mi><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>. Here, the length <emphasis effect="italics">L</emphasis> of the radius arm is the distance between the point of rotation and the CM. To analyze the motion, start with the net torque. Like the simple pendulum, consider only small angles so that <m:math><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math>. Recall from <link document="m58325">Fixed-Axis Rotation</link> on rotation that the net torque is equal to the moment of inertia <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> times the angular acceleration <m:math><m:mrow><m:mi>α</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>:</para><equation id="fs-id1167131402339" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:msub><m:mi>τ</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134527205">Using the small angle approximation and rearranging:</para>
+<equation id="fs-id1167131262469" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mi>α</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>θ</m:mi><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>θ</m:mi><m:mo>;</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow><m:mi>I</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>θ</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167131536730">Once again, the equation says that the second time derivative of the position (in this case, the angle) equals minus a constant <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow><m:mi>I</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> times the position. The solution is</para>
+<equation id="fs-id1167131152814" class="unnumbered"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>Θ</m:mtext><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131360584">where <m:math><m:mtext>Θ</m:mtext></m:math> is the maximum angular displacement. The angular frequency is</para>
+<note id="fs-id1167134735579" class="equation-callout">
+<equation id="fs-id1167131497484"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow><m:mi>I</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131168215">The period is therefore</para>
+<note id="fs-id1167131407523" class="equation-callout">
+<equation id="fs-id1167129979902"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134891195">Note that for a simple pendulum, the moment of inertia is <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and the period reduces to <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+<example xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134722590"><para id="fs-id1167131509230"><title>Reducing the Swaying of a Skyscraper</title>
+In extreme conditions, skyscrapers can sway up to two meters with a frequency of up to 20.00 Hz due to high winds or seismic activity. Several companies have developed physical pendulums that are placed on the top of the skyscrapers. As the skyscraper sways to the right, the pendulum swings to the left, reducing the sway. Assuming the oscillations have a frequency of 0.50 Hz, design a pendulum that consists of a long beam, of constant density, with a mass of 100 metric tons and a pivot point at one end of the beam. What should be the length of the beam?</para>
+<media id="fs-id1167129964010" alt="The figure depicts a tall building with a column on its roof and a long rod of length L that swings on a pivot point near the top of the column.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_05_SkyPend_img.jpg"/>
+</media>
+<para id="fs-id1167131618916"><title>Strategy</title>
+We are asked to find the length of the physical pendulum with a known mass. We first need to find the moment of inertia of the beam. We can then use the equation for the period of a physical pendulum to find the length.</para>
+<para id="fs-id1167131346450"><title>Solution</title></para>
+<list id="fs-id1167131420681" list-type="enumerated" number-style="arabic"><item>Find the moment of inertia for the CM:</item>
+<item>Use the parallel axis theorem to find the moment of inertia about the point of rotation:<newline/>
+<equation id="fs-id1167129965832" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msup><m:mrow><m:mfrac><m:mi>L</m:mi><m:mn>4</m:mn></m:mfrac></m:mrow><m:mn>2</m:mn></m:msup><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The period of a physical pendulum has a period of <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>. Use the moment of inertia to solve for the length <emphasis effect="italics">L</emphasis>:
+<equation id="fs-id1167134964462" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd><m:mi>T</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mn>2</m:mn><m:mo>π</m:mo><m:msqrt><m:mfrac><m:mi mathvariant="normal">I</m:mi><m:mi>mgL</m:mi></m:mfrac></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>L</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup><m:mi>g</m:mi></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi mathvariant="normal">π</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>49</m:mn><m:mi mathvariant="normal">m</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable><m:mo>=</m:mo><m:mn>2</m:mn><m:mi mathvariant="normal">π</m:mi><m:msqrt><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mstyle><m:msup><m:mi>ML</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>Mg</m:mi><m:mstyle displaystyle="true"><m:mfrac><m:mi mathvariant="normal">L</m:mi><m:mn>2</m:mn></m:mfrac></m:mstyle></m:mrow></m:mfrac></m:msqrt><m:mo>=</m:mo><m:mn>2</m:mn><m:mi mathvariant="normal">π</m:mi><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi mathvariant="normal">L</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi mathvariant="normal">g</m:mi></m:mrow></m:mfrac></m:msqrt><m:mo>;</m:mo></m:math></equation></item>
+<item>This length <emphasis effect="italics">L</emphasis> is from the center of mass to the axis of rotation, which is half the length of the pendulum. Therefore the length <emphasis effect="italics">H</emphasis> of the pendulum is:
+<equation id="addedequation" class="unnumbered"><label/><m:math><m:mrow><m:mi>H</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>5.96</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></equation></item>
+</list><para id="fs-id1167134972224"><title>Significance</title>
+There are many ways to reduce the oscillations, including modifying the shape of the skyscrapers, using multiple physical pendulums, and using tuned-mass dampers.</para>
+</example></section>
+<section id="fs-id1167131178689">
+<title>Torsional Pendulum</title>
+<para id="fs-id1167131214545">A <term>torsional pendulum</term> consists of a rigid body suspended by a light wire or spring (<link target-id="CNX_UPhysics_15_05_TorsionPnd"/>). When the body is twisted some small maximum angle <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtext>Θ</m:mtext><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and released from rest, the body oscillates between <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mtext>Θ</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mspace width="0.2em"/><m:mtext>Θ</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. The restoring torque is supplied by the shearing of the string or wire.</para>
+<figure id="CNX_UPhysics_15_05_TorsionPnd">
+<media id="fs-id1167131157418" alt="A torsional pendulum is illustrated in this figure. The pendulum consists of a horizontal disk that hangs by a string from the ceiling. The string attaches to the disk at its center, at point O. The disk and string can oscillate in a horizontal plane between angles plus Theta and minus Theta. The equilibrium position is between these, at theta = 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_05_TorsionPnd.jpg"/>
+</media>
+<caption>A torsional pendulum consists of a rigid body suspended by a string or wire. The rigid body oscillates between <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mtext>Θ</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>Θ</m:mtext></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1167131487002">The restoring torque can be modeled as being proportional to the angle:</para>
+<equation id="fs-id1167134834825" class="unnumbered"><label/><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>κ</m:mi><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131590102">The variable kappa <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>κ</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is known as the <term class="no-emphasis">torsion constant</term> of the wire or string. The minus sign shows that the restoring torque acts in the opposite direction to increasing angular displacement. The net torque is equal to the moment of inertia times the angular acceleration:</para>
+<equation id="fs-id1167134947445" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>I</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>κ</m:mi><m:mi>θ</m:mi><m:mo>;</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>κ</m:mi><m:mi>I</m:mi></m:mfrac><m:mi>θ</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167131606037">This equation says that the second time derivative of the position (in this case, the angle) equals a negative constant times the position. This looks very similar to the equation of motion for the SHM <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:math>, where the period was found to be <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>k</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>. Therefore, the period of the torsional pendulum can be found using</para>
+<note id="fs-id1167131633578" class="equation-callout">
+<equation id="fs-id1167131389919"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mi>κ</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131181173">The units for the torsion constant are <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mi>κ</m:mi><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>N-m</m:mtext><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>kg</m:mtext><m:mfrac><m:mtext>m</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mtext>kg</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> and the units for the moment of inertial are <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mi>I</m:mi><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> which show that the unit for the period is the second.</para>
+<example id="fs-id1167131104537">
+<para id="fs-id1167129966482"><title>Measuring the Torsion Constant of a String</title>
+A rod has a length of <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0.30</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> and a mass of 4.00 kg. A string is attached to the CM of the rod and the system is hung from the ceiling (<link target-id="CNX_UPhysics_15_05_TorsPenRod"/>). The rod is displaced 10 degrees from the equilibrium position and released from rest. The rod oscillates with a period of 0.5 s. What is the torsion constant <m:math><m:mi>κ</m:mi></m:math>?</para>
+<figure id="CNX_UPhysics_15_05_TorsPenRod">
+<media id="fs-id1167131152402" alt="Figure a shows a horizontal rod, length 30.0 centimeters and mass 4.00 kilograms, hanging by a string from the ceiling. The string attaches to the middle of the rod. The rod rotates with the string in the horizontal plane. Figure b shows the rod with the details needed for finding its moment of inertia. The rod’s length, end to end, is L and its total mass is M. It has linear mass density lambda equals d m d x which also equals M over L. A small segment of the rod that has length d x at a distance x from the center of the rod is highlighted. The string is attached to the rod at the center of the rod.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_05_TorsPenRod.jpg"/>
+</media>
+<caption>(a) A rod suspended by a string from the ceiling. (b) Finding the rod’s moment of inertia.</caption>
+</figure>
+<para id="fs-id1167131589368"><title>Strategy</title>
+We are asked to find the torsion constant of the string. We first need to find the moment of inertia.</para>
+<para id="fs-id1167131119882"><title>Solution</title></para>
+<list id="fs-id1167131104595" list-type="enumerated" number-style="arabic">
+<item>Find the moment of inertia for the CM:
+<equation id="fs-id1167131435658" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>m</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mrow><m:mo>+</m:mo><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msubsup><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>λ</m:mi><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>λ</m:mi><m:msubsup><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mrow><m:mo>+</m:mo><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>=</m:mo><m:mi>λ</m:mi><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>L</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>M</m:mi><m:mi>L</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>L</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Calculate the torsion constant using the equation for the period:
+<equation id="fs-id1167130003263" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>T</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mi>κ</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>κ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>I</m:mi><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.30</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4.73</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1167131634436"><title>Significance</title>
+Like the force constant of the system of a block and a spring, the larger the torsion constant, the shorter the period.</para>
+</example>
+</section>
+<section id="fs-id1167134790815" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167131325699" list-type="bulleted" bullet-style="bullet">
+<item>A mass <emphasis effect="italics">m</emphasis> suspended by a wire of length <emphasis effect="italics">L</emphasis> and negligible mass is a simple pendulum and undergoes SHM for amplitudes less than about <m:math><m:mrow><m:mn>15</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. The period of a simple pendulum is <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>, where <emphasis effect="italics">L</emphasis> is the length of the string and <emphasis effect="italics">g</emphasis> is the acceleration due to gravity.</item>
+<item>The period of a physical pendulum <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> can be found if the moment of inertia is known. The length between the point of rotation and the center of mass is <emphasis effect="italics">L</emphasis>.</item>
+<item>The period of a torsional pendulum <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mi>κ</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> can be found if the moment of inertia and torsion constant are known.</item>
+</list>
+</section>
+<section id="fs-id1167134858260" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167130204232">
+<problem id="fs-id1167134989908">
+<para id="fs-id1167131142943">Pendulum clocks are made to run at the correct rate by adjusting the pendulum’s length. Suppose you move from one city to another where the acceleration due to gravity is slightly greater, taking your pendulum clock with you, will you have to lengthen or shorten the pendulum to keep the correct time, other factors remaining constant? Explain your answer.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167130002201">
+<problem id="fs-id1167131422142">
+<para id="fs-id1167131621010">A pendulum clock works by measuring the period of a pendulum. In the springtime the clock runs with perfect time, but in the summer and winter the length of the pendulum changes. When most materials are heated, they expand. Does the clock run too fast or too slow in the summer? What about the winter?</para>
+</problem>
+<solution id="fs-id1167134926082">
+<para id="fs-id1167131515354">The period of the pendulum is <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>g</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> In summer, the length increases, and the period increases. If the period should be one second, but period is longer than one second in the summer, it will oscillate fewer than 60 times a minute and clock will run slow. In the winter it will run fast.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167130292275">
+<problem id="fs-id1167131434754">
+<para id="fs-id1167131564655">With the use of a phase shift, the position of an object may be modeled as a cosine or sine function. If given the option, which function would you choose? Assuming that the phase shift is zero, what are the initial conditions of function; that is, the initial position, velocity, and acceleration, when using a sine function? How about when a cosine function is used?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167130004778" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167131621714">
+<problem id="fs-id1167134573578">
+<para id="fs-id1167130310101">What is the length of a pendulum that has a period of 0.500 s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131346070">
+<problem id="fs-id1167131510582">
+<para id="fs-id1167130145331">Some people think a pendulum with a period of 1.00 s can be driven with “mental energy” or psycho kinetically, because its period is the same as an average heartbeat. True or not, what is the length of such a pendulum?</para>
+</problem>
+<solution id="fs-id1167131468450">
+<para id="fs-id1167134969626">24.8 cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134937568">
+<problem id="fs-id1167131604234">
+<para id="fs-id1167130143060">What is the period of a 1.00-m-long pendulum?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131598147">
+<problem id="fs-id1167131452685">
+<para id="fs-id1167134723805">How long does it take a child on a swing to complete one swing if her center of gravity is 4.00 m below the pivot?</para>
+</problem>
+<solution id="fs-id1167131602999">
+<para id="fs-id1167130034736">4.01 s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134722587">
+<problem id="fs-id1167130187485">
+<para id="fs-id1167131083711">The pendulum on a cuckoo clock is 5.00-cm long. What is its frequency?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167129964005">
+<problem id="fs-id1167131088826">
+<para id="fs-id1167131211907">Two parakeets sit on a swing with their combined CMs 10.0 cm below the pivot. At what frequency do they swing?</para>
+</problem>
+<solution id="fs-id1167134910173">
+<para id="fs-id1167130304351">1.58 s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134734848">
+<problem id="fs-id1167130262451">
+<para id="fs-id1167131326742">(a) A pendulum that has a period of 3.00000 s and that is located where the acceleration due to gravity is <m:math><m:mrow><m:mn>9.79</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> is moved to a location where the acceleration due to gravity is <m:math><m:mrow><m:mn>9.82</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. What is its new period? (b) Explain why so many digits are needed in the value for the period, based on the relation between the period and the acceleration due to gravity.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167130202347">
+<problem id="fs-id1167131607925">
+<para id="fs-id1167134572374">A pendulum with a period of 2.00000 s in one location (<m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9.80</m:mn><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) is moved to a new location where the period is now 1.99796 s. What is the acceleration due to gravity at its new location?</para>
+</problem>
+<solution id="fs-id1167131471258">
+<para id="fs-id1167130035528"><m:math><m:mrow><m:mn>9.82002</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131503450">
+<problem id="fs-id1167131621293">
+<para id="fs-id1167130238850">(a) What is the effect on the period of a pendulum if you double its length? (b) What is the effect on the period of a pendulum if you decrease its length by 5.00%?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134992245">
+<term>physical pendulum</term>
+<meaning id="fs-id1167131103658">any extended object that swings like a pendulum</meaning>
+</definition>
+<definition id="fs-id1167131496711">
+<term>simple pendulum</term>
+<meaning id="fs-id1167131615793">point mass, called a pendulum bob, attached to a near massless string</meaning>
+</definition>
+<definition id="fs-id1167131248348">
+<term>torsional pendulum</term>
+<meaning id="fs-id1167130033412">any suspended object that oscillates by twisting its suspension</meaning>
+</definition>
+</glossary>
+</document>
