@@ -1,0 +1,242 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Newton’s Second Law for Rotation</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58332</md:content-id>
+  <md:title>Newton’s Second Law for Rotation</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Calculate the torques on rotating systems about a fixed axis to find the angular acceleration</item>
+<item>Explain how changes in the moment of inertia of a rotating system affect angular acceleration with a fixed applied torque</item>
+</list></md:abstract>
+  <md:uuid>2573a64b-7bcd-40e4-8b94-9768dbec03d9</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134711893">In this section, we put together all the pieces learned so far in this chapter to analyze the dynamics of rotating rigid bodies. We have analyzed motion with kinematics and rotational kinetic energy but have not yet connected these ideas with force and/or torque. In this section, we introduce the rotational equivalent to Newton’s second law of motion and apply it to rigid bodies with fixed-axis rotation.</para>
+<section id="fs-id1167134970204">
+<title>Newton’s Second Law for Rotation</title>
+<para id="fs-id1167134457416">We have thus far found many counterparts to the translational terms used throughout this text, most recently, torque, the rotational analog to force. This raises the question: Is there an analogous equation to Newton’s second law, <m:math><m:mrow><m:mi>Σ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> which involves torque and rotational motion? To investigate this, we start with Newton’s second law for a single particle rotating around an axis and executing circular motion. Let’s exert a force <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> on a point mass <emphasis effect="italics">m</emphasis> that is at a distance <emphasis effect="italics">r</emphasis> from a pivot point (<link target-id="CNX_UPhysics_10_07_Table"/>). The particle is constrained to move in a circular path with fixed radius and the force is tangent to the circle. We apply Newton’s second law to determine the magnitude of the acceleration <emphasis effect="italics"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:math></emphasis> in the direction of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Recall that the magnitude of the tangential acceleration is proportional to the magnitude of the angular acceleration by <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>α</m:mi></m:mrow></m:math>. Substituting this expression into Newton’s second law, we obtain</para>
+<equation id="fs-id1167134862830" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>r</m:mi><m:mi>α</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_10_07_Table">
+<media id="fs-id1167134878181" alt="Figure shows a table with a frictionless tabletop. An object with the mass m is supported by a horizontal frictionless table and is attached to a pivot point by a cord with the length r. A force F is applied to the object perpendicular to the cord r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_Table.jpg"/>
+</media>
+<caption>An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is applied to the object perpendicular to the radius <emphasis effect="italics">r</emphasis>, causing it to accelerate about the pivot point. The force is perpendicular to <emphasis effect="italics">r</emphasis>.</caption>
+</figure>
+<para id="fs-id1167134897734">Multiply both sides of this equation by <emphasis effect="italics">r</emphasis>,</para>
+<equation id="fs-id1167134651630" class="unnumbered"><label/><m:math><m:mrow><m:mi>r</m:mi><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>α</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134650762">Note that the left side of this equation is the torque about the axis of rotation, where <emphasis effect="italics">r</emphasis> is the lever arm and <emphasis effect="italics">F</emphasis> is the force, perpendicular to <emphasis effect="italics">r</emphasis>. Recall that the moment of inertia for a point particle is<m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. The torque applied perpendicularly to the point mass in <link target-id="CNX_UPhysics_10_07_Table"/> is therefore</para>
+<equation id="fs-id1167134891146" class="unnumbered"><label/><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134812957"><emphasis effect="italics">The torque on the particle is equal to the moment of inertia about the rotation axis times the angular acceleration</emphasis>. We can generalize this equation to a rigid body rotating about a fixed axis.</para>
+<note id="fs-id1167134886602">
+<title>Newton’s Second Law for Rotation</title>
+<para id="fs-id1167134511100">If more than one torque acts on a rigid body about a fixed axis, then the sum of the torques equals the moment of inertia times the angular acceleration:</para>
+<equation id="fs-id1167134508536"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134439710">The term <m:math><m:mrow><m:mi>I</m:mi><m:mi>α</m:mi></m:mrow></m:math> is a scalar quantity and can be positive or negative (counterclockwise or clockwise) depending upon the sign of the net torque. Remember the convention that counterclockwise angular acceleration is positive. Thus, if a rigid body is rotating clockwise and experiences a positive torque (counterclockwise), the angular acceleration is positive.</para>
+<para id="fs-id1167134488660"><link target-id="fs-id1167134508536"/> is <term>Newton’s second law for rotation</term> and tells us how to relate torque, moment of inertia, and rotational kinematics. This is called the equation for <term>rotational dynamics</term>. With this equation, we can solve a whole class of problems involving force and rotation. It makes sense that the relationship for how much force it takes to rotate a body would include the moment of inertia, since that is the quantity that tells us how easy or hard it is to change the rotational motion of an object.</para>
+</section>
+<section id="fs-id1167134861171">
+<title>Deriving Newton’s Second Law for Rotation in Vector Form</title>
+<para id="fs-id1167134757778">As before, when we found the angular acceleration, we may also find the torque vector. The second law <m:math><m:mrow><m:mi>Σ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> tells us the relationship between net force and how to change the translational motion of an object. We have a vector rotational equivalent of this equation, which can be found by using <link target-id="fs-id1167134860789" document="m58326"/> and <link target-id="CNX_UPhysics_10_01_AngTanVec" document="m58326"/>. <link target-id="fs-id1167134860789" document="m58326"/> relates the angular acceleration to the position and tangential acceleration vectors:</para>
+<equation id="fs-id1167134863999" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134688716">We form the cross product of this equation with <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and use a cross product identity (note that <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>):</para>
+<equation id="fs-id1167134518632" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131107920">We now form the cross product of Newton’s second law with the position vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167134881719" class="unnumbered"><label/><m:math><m:mrow><m:mi>Σ</m:mi><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134534508">Identifying the first term on the left as the sum of the torques, and <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> as the moment of inertia, we arrive at Newton’s second law of rotation in vector form:</para>
+<equation id="fs-id1167134512030"><m:math><m:mrow><m:mi>Σ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134866352">This equation is exactly <link target-id="fs-id1167134508536"/> but with the torque and angular acceleration as vectors. An important point is that the torque vector is in the same direction as the angular acceleration.</para>
+</section>
+<section id="fs-id1167134563378">
+<title>Applying the Rotational Dynamics Equation</title>
+<para id="fs-id1167134443040">Before we apply the rotational dynamics equation to some everyday situations, let’s review a general problem-solving strategy for use with this category of problems.</para>
+<note id="fs-id1167134538404" class="problem-solving">
+<title>Rotational Dynamics</title>
+<list id="fs-id1167134442126" list-type="enumerated" number-style="arabic">
+<item>Examine the situation to determine that torque and mass are involved in the rotation. Draw a careful sketch of the situation.</item>
+<item>Determine the system of interest.</item>
+<item>Draw a free-body diagram. That is, draw and label all external forces acting on the system of interest.</item>
+<item>Identify the pivot point. If the object is in equilibrium, it must be in equilibrium for all possible pivot points––chose the one that simplifies your work the most.</item>
+<item>Apply <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi></m:mrow></m:math>, the rotational equivalent of Newton’s second law, to solve the problem. Care must be taken to use the correct moment of inertia and to consider the torque about the point of rotation.</item>
+<item>As always, check the solution to see if it is reasonable.</item>
+</list>
+</note>
+<example id="fs-id1167134515317">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134664382"><title>Calculating the Effect of Mass Distribution on a Merry-Go-Round</title>Consider the father pushing a playground merry-go-round in <link target-id="CNX_UPhysics_10_07_Merry"/>. He exerts a force of 250 N at the edge of the 50.0-kg merry-go-round, which has a 1.50-m radius. Calculate the angular acceleration produced (a) when no one is on the merry-go-round and (b) when an 18.0-kg child sits 1.25 m away from the center. Consider the merry-go-round itself to be a uniform disk with negligible friction.</para><figure id="CNX_UPhysics_10_07_Merry">
+<media id="fs-id1167134948181" alt="Figure shows a man that pushes a merry-go-round at its edge and perpendicular to its radius.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_Merry.jpg"/>
+</media>
+<caption>A father pushes a playground merry-go-round at its edge and perpendicular to its radius to achieve maximum torque.</caption>
+</figure>
+<para id="fs-id1167134681573"><title>Strategy</title>
+The net torque is given directly by the expression <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi></m:mrow></m:math>, To solve for <m:math><m:mi>α</m:mi></m:math>, we must first calculate the net torque <m:math><m:mi>τ</m:mi></m:math> (which is the same in both cases) and moment of inertia <emphasis effect="italics">I</emphasis> (which is greater in the second case).</para>
+<para id="fs-id1167134562572"><title>Solution</title></para>
+<list id="fs-id1167134862695" list-type="enumerated" number-style="lower-alpha">
+<item>The moment of inertia of a solid disk about this axis is given in <link target-id="CNX_UPhysics_10_04_RotInertia" document="m58329"/> to be
+<equation id="fs-id1167134860996" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+We have <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>50.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, so
+<equation id="fs-id1167134562195" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.500</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>50.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>56.25</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+To find the net torque, we note that the applied force is perpendicular to the radius and friction is negligible, so that
+<equation id="fs-id1167134514313" class="unnumbered"><label/><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>F</m:mi><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>250.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>375.0</m:mn><m:mspace width="0.2em"/><m:mtext>N-m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Now, after we substitute the known values, we find the angular acceleration to be
+<equation id="fs-id1167134760414" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>τ</m:mi><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>375.0</m:mn><m:mspace width="0.2em"/><m:mtext>N-m</m:mtext></m:mrow><m:mrow><m:mn>56.25</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6.67</m:mn><m:mfrac><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>We expect the angular acceleration for the system to be less in this part because the moment of inertia is greater when the child is on the merry-go-round. To find the total moment of inertia <emphasis effect="italics">I</emphasis>, we first find the child’s moment of inertia <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> by approximating the child as a point mass at a distance of 1.25 m from the axis. Then
+<equation id="fs-id1167134858415" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>18.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>28.13</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+The total moment of inertia is the sum of the moments of inertia of the merry-go-round and the child (about the same axis):
+<equation id="fs-id1167134886469" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>28.13</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>56.25</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>84.38</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Substituting known values into the equation for <emphasis effect="italics">α</emphasis> gives 
+<equation id="fs-id1167134969438" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>τ</m:mi><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>375.0</m:mn><m:mspace width="0.2em"/><m:mtext>N-m</m:mtext></m:mrow><m:mrow><m:mn>84.38</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn><m:mn>.44</m:mn><m:mfrac><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167134652591"><title>Significance</title>
+The angular acceleration is less when the child is on the merry-go-round than when the merry-go-round is empty, as expected. The angular accelerations found are quite large, partly due to the fact that friction was considered to be negligible. If, for example, the father kept pushing perpendicularly for 2.00 s, he would give the merry-go-round an angular velocity of 13.3 rad/s when it is empty but only 8.89 rad/s when the child is on it. In terms of revolutions per second, these angular velocities are 2.12 rev/s and 1.41 rev/s, respectively. The father would end up running at about 50 km/h in the first case.</para>
+</example>
+<note id="fs-id1167134669584" class="check-understanding">
+<exercise id="fs-id1167134896658">
+<problem id="fs-id1167134899720">
+<para id="fs-id1167134638811"><emphasis effect="bold">Check Your Understanding</emphasis> The fan blades on a jet engine have a moment of inertia <m:math><m:mrow><m:mn>30.0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. In 10 s, they rotate counterclockwise from rest up to a rotation rate of 20 rev/s. (a) What torque must be applied to the blades to achieve this angular acceleration? (b) What is the torque required to bring the fan blades rotating at 20 rev/s to a rest in 20 s?</para>
+</problem>
+<solution id="fs-id1167134858538">
+<para id="fs-id1167131112464">a. The angular acceleration is <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>20.0</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>12.56</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>. Solving for the torque, we have <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>30.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>12.56</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>376.80</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>; b. The angular acceleration is <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0</m:mn><m:mo>−</m:mo><m:mn>20.0</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−6.28</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>. Solving for the torque, we have <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>30.0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−6.28</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−188.50</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167134627352" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167134646273" list-type="bulleted" bullet-style="bullet">
+<item>Newton’s second law for rotation, <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi></m:mrow></m:math>, says that the sum of the torques on a rotating system about a fixed axis equals the product of the moment of inertia and the angular acceleration. This is the rotational analog to Newton’s second law of linear motion.</item>
+<item>In the vector form of Newton’s second law for rotation, the torque vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is in the same direction as the angular acceleration <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. If the angular acceleration of a rotating system is positive, the torque on the system is also positive, and if the angular acceleration is negative, the torque is negative.</item>
+</list>
+</section>
+<section id="fs-id1167134682344" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167134760962">
+<problem id="fs-id1167134881876">
+<para id="fs-id1167134604221">If you were to stop a spinning wheel with a constant force, where on the wheel would you apply the force to produce the maximum negative acceleration?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134884496">
+<problem id="fs-id1167134884498">
+<para id="fs-id1167134884500">A rod is pivoted about one end. Two forces <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi> </m:mi><m:mi> </m:mi><m:mi> </m:mi><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mo>−</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> are applied to it. Under what circumstances will the rod not rotate?</para>
+</problem>
+<solution id="fs-id1167131109815">
+<para id="fs-id1167131109817">If the forces are along the axis of rotation, or if they have the same lever arm and are applied at a point on the rod.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131109824" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167131109831">
+<problem id="fs-id1167131109833">
+<para id="fs-id1167131109835">You have a grindstone (a disk) that is 90.0 kg, has a 0.340-m radius, and is turning at 90.0 rpm, and you press a steel axe against it with a radial force of 20.0 N. (a) Assuming the kinetic coefficient of friction between steel and stone is 0.20, calculate the angular acceleration of the grindstone. (b) How many turns will the stone make before coming to rest?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131115995">
+<problem id="fs-id1167131115997">
+<para id="fs-id1167131115999">Suppose you exert a force of 180 N tangential to a 0.280-m-radius, 75.0-kg grindstone (a solid disk). (a)What torque is exerted? (b) What is the angular acceleration assuming negligible opposing friction? (c) What is the angular acceleration if there is an opposing frictional force of 20.0 N exerted 1.50 cm from the axis?</para>
+</problem>
+<solution id="fs-id1167131116006">
+<para id="fs-id1167131116009">a. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.280</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>180.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>50.4</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>17.14</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>;<newline/>
+c. <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>17.04</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134873006">
+<problem id="fs-id1167134873008">
+<para id="fs-id1167134873010">A flywheel (<m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) starting from rest acquires an angular velocity of 200.0 rad/s while subject to a constant torque from a motor for 5 s. (a) What is the angular acceleration of the flywheel? (b) What is the magnitude of the torque?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134963846">
+<problem id="fs-id1167134963848">
+<para id="fs-id1167134963850">A constant torque is applied to a rigid body whose moment of inertia is <m:math><m:mrow><m:mn>4.0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> around the axis of rotation. If the wheel starts from rest and attains an angular velocity of 20.0 rad/s in 10.0 s, what is the applied torque?</para>
+</problem>
+<solution id="fs-id1167134963869">
+<para id="fs-id1167134963872"><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131121762">
+<problem id="fs-id1167131121764">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167131121766">A torque of 50.0 N-m is applied to a grinding wheel (<m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) for 20 s. (a) If it starts from rest, what is the angular velocity of the grinding wheel after the torque is removed? (b) Through what angle does the wheel move while the torque is applied?</para></problem>
+</exercise>
+<exercise id="fs-id1167134966142">
+<problem id="fs-id1167134966144">
+<para id="fs-id1167134966146">A flywheel (<m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>100.0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) rotating at 500.0 rev/min is brought to rest by friction in 2.0 min. What is the frictional torque on the flywheel?</para>
+</problem>
+<solution id="fs-id1167134966170">
+<para id="fs-id1167134966172"><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>−43.6</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131115536">
+<problem id="fs-id1167131115538">
+<para id="fs-id1167131115540">A uniform cylindrical grinding wheel of mass 50.0 kg and diameter 1.0 m is turned on by an electric motor. The friction in the bearings is negligible. (a) What torque must be applied to the wheel to bring it from rest to 120 rev/min in 20 revolutions? (b) A tool whose coefficient of kinetic friction with the wheel is 0.60 is pressed perpendicularly against the wheel with a force of 40.0 N. What torque must be supplied by the motor to keep the wheel rotating at a constant angular velocity?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131107637">
+<problem id="fs-id1167131107639">
+<para id="fs-id1167131107641">Suppose when Earth was created, it was not rotating. However, after the application of a uniform torque after 6 days, it was rotating at 1 rev/day. (a) What was the angular acceleration during the 6 days? (b) What torque was applied to Earth during this period? (c) What force tangent to Earth at its equator would produce this torque?</para>
+</problem>
+<solution id="fs-id1167131107648">
+<para id="fs-id1167131107651">a. <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>1.36</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>28</m:mn></m:mrow></m:msup><m:mtext>N-m</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>2.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131109093">
+<problem id="fs-id1167131109095">
+<para id="fs-id1167131109097">A pulley of moment of inertia <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> is mounted on a wall as shown in the following figure. Light strings are wrapped around two circumferences of the pulley and weights are attached. What are (a) the angular acceleration of the pulley and (b) the linear acceleration of the weights? Assume the following data: <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>.</para>
+<media id="fs-id1167134966652" alt="Figure shows a pulley mounted on a wall. Light strings are wrapped around two circumferences of the pulley and weights are attached. Smaller weight m1 is attached to the outer circumference of radius r1. Larger weight M2 is attached to the inner circumference of radius r2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_Prob12_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167131112903">
+<problem id="fs-id1167131112905">
+<para id="fs-id1167131112907">A block of mass 3 kg slides down an inclined plane at an angle of <m:math><m:mrow><m:mn>45</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with a massless tether attached to a pulley with mass 1 kg and radius 0.5 m at the top of the incline (see the following figure). The pulley can be approximated as a disk. The coefficient of kinetic friction on the plane is 0.4. What is the acceleration of the block?</para>
+<media id="fs-id1167131112920" alt="Figure shows a block that slides down an inclined plane at an angle of 45 degrees with a tether attached to a pulley.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_BlocInc_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131112933">
+<para id="fs-id1167131112936"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3.6</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131119168">
+<problem id="fs-id1167131119170">
+<para id="fs-id1167131119172">The cart shown below moves across the table top as the block falls. What is the acceleration of the cart? Neglect friction and assume the following data:<m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>0.4</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math></para>
+<media id="fs-id1167131119232" alt="Figure shows the pulley installed on a table. A cart of mass m2 is attached to one side of the pulley. A weight m1 is attached at another side and hangs in air.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_Cart_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167134962861">
+<problem id="fs-id1167134962863">
+<para id="fs-id1167134962865">A uniform rod of mass and length is held vertically by two strings of negligible mass, as shown below. (a) Immediately after the string is cut, what is the linear acceleration of the free end of the stick? (b) Of the middle of the stick?</para>
+<media id="fs-id1167134962871" alt="Figure shows a rod that is held vertically by two strings connected at its ends. One of the strings is cut with scissors.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_RodTwo_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167134962884">
+<para id="fs-id1167134962886">a. <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>14.7</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>L</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>g</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134920911">
+<problem id="fs-id1167134920913">
+<para id="fs-id1167134920915">A thin stick of mass 0.2 kg and length <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> is attached to the rim of a metal disk of mass <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and radius <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>0.3</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. The stick is free to rotate around a horizontal axis through its other end (see the following figure). (a) If the combination is released with the stick horizontal, what is the speed of the center of the disk when the stick is vertical? (b) What is the acceleration of the center of the disk at the instant the stick is released? (c) At the instant the stick passes through the vertical?</para>
+<media id="fs-id1167134920960" alt="Figure A shows a thin stick attached to the rim of a metal disk. Figure B shows a thin stick that is attached to the rim of a metal disk and rotates around a horizontal axis through its other end.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_SticDis_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131118823">
+<term>Newton’s second law for rotation</term>
+<meaning id="fs-id1167131118830">sum of the torques on a rotating system equals its moment of inertia times its angular acceleration</meaning>
+</definition>
+<definition id="fs-id1167131118835">
+<term>rotational dynamics</term>
+<meaning id="fs-id1167131118840">analysis of rotational motion using the net torque and moment of inertia to find the angular acceleration</meaning>
+</definition>
+</glossary>
+</document>

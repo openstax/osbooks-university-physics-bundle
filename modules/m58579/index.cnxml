@@ -1,0 +1,192 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>The Schrӧdinger Equation</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58579</md:content-id>
+  <md:title>The Schrӧdinger Equation</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para> 
+<list>
+<item>Describe the role Schrӧdinger’s equation plays in quantum mechanics</item>
+<item>Explain the difference between time-dependent and -independent Schrӧdinger’s equations</item>  
+<item>Interpret the solutions of Schrӧdinger’s equation</item>
+</list></md:abstract>
+  <md:uuid>e326b80e-eed7-4c8d-977e-2336debc6abe</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902057607">In the preceding two sections, we described how to use a quantum mechanical wave function and discussed Heisenberg’s uncertainty principle. In this section, we present a complete and formal theory of quantum mechanics that can be used to make predictions. In developing this theory, it is helpful to review the wave theory of light. For a light wave, the electric field <emphasis effect="italics">E</emphasis>(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">t</emphasis>) obeys the relation</para>
+<equation id="fs-id1170903853347"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>E</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>E</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170904138778">where <emphasis effect="italics">c</emphasis> is the speed of light and the symbol <m:math><m:mo>∂</m:mo></m:math> represents a <emphasis effect="italics">partial derivative</emphasis>. (Recall from <link document="m58360">Oscillations</link> that a partial derivative is closely related to an ordinary derivative, but involves functions of more than one variable. When taking the partial derivative of a function by a certain variable, all other variables are held constant.) A light wave consists of a very large number of photons, so the quantity <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> can interpreted as a probability density of finding a single photon at a particular point in space (for example, on a viewing screen).</para><para id="fs-id1170902194849">There are many solutions to this equation. One solution of particular importance is</para>
+<equation id="fs-id1170902118559"><m:math><m:mrow><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903859532">where <emphasis effect="italics">A</emphasis> is the amplitude of the electric field, <emphasis effect="italics">k</emphasis> is the wave number, and <m:math><m:mi>ω</m:mi></m:math> is the angular frequency. Combing this equation with <link target-id="fs-id1170903853347"/> gives</para>
+<equation id="fs-id1170902186856"><m:math><m:mrow><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902142518">According to de Broglie’s equations, we have <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>k</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>ω</m:mi></m:mrow></m:math>. Substituting these equations in <link target-id="fs-id1170902186856"/> gives</para>
+<equation id="fs-id1170904152351"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170903805930">or</para><equation id="fs-id1170904252568"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902284845">Therefore, according to Einstein’s general energy-momentum equation (<link target-id="fs-id1167794292182" document="m58572"/>), <link target-id="fs-id1170903853347"/> describes a particle with a zero rest mass. This is consistent with our knowledge of a photon.</para>
+<para id="fs-id1170904153453">This process can be reversed. We can begin with the energy-momentum equation of a particle and then ask what wave equation corresponds to it. The energy-momentum equation of a nonrelativistic particle in one dimension is</para>
+<equation id="fs-id1170903900466"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902287480">where <emphasis effect="italics">p</emphasis> is the momentum, <emphasis effect="italics">m</emphasis> is the mass, and <emphasis effect="italics">U</emphasis> is the potential energy of the particle. The wave equation that goes with it turns out to be a key equation in quantum mechanics, called <term>Schrӧdinger’s time-dependent equation</term>.</para>
+<note id="fs-id1170903798652">
+<title>The Schrӧdinger Time-Dependent Equation</title>
+<para id="fs-id1170904065074">The equation describing the energy and momentum of a wave function is known as the Schrӧdinger equation:</para>
+<equation id="fs-id1170902110094"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>i</m:mi><m:mi>ℏ</m:mi><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170902089474">As described in <link document="m58311">Potential Energy and Conservation of Energy</link>, the force on the particle described by this equation is given by</para><equation id="fs-id1170902179935"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902196817">This equation plays a role in quantum mechanics similar to Newton’s second law in classical mechanics. Once the potential energy of a particle is specified—or, equivalently, once the force on the particle is specified—we can solve this differential equation for the wave function. The solution to Newton’s second law equation (also a differential equation) in one dimension is a function <emphasis effect="italics">x</emphasis>(<emphasis effect="italics">t</emphasis>) that specifies where an object is at any time <emphasis effect="italics">t</emphasis>. The solution to Schrӧdinger’s time-dependent equation provides a tool—the wave function—that can be used to determine where the particle is <emphasis effect="italics">likely</emphasis> to be. This equation can be also written in two or three dimensions. Solving Schrӧdinger’s time-dependent equation often requires the aid of a computer.</para>
+<para id="fs-id1170902061967">Consider the special case of a free particle. A free particle experiences no force <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Based on <link target-id="fs-id1170902179935"/>, this requires only that</para>
+<equation id="fs-id1170902195526"><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mtext>constant</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902140135">For simplicity, we set <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Schrӧdinger’s equation then reduces to</para>
+<equation id="fs-id1170904052586"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>i</m:mi><m:mi>ℏ</m:mi><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902194463">A valid solution to this equation is</para>
+<equation id="fs-id1170902196880"><m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170904082323">Not surprisingly, this solution contains an <term class="no-emphasis">imaginary number</term> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>i</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>−1</m:mn></m:mrow></m:msqrt><m:mo stretchy="false">)</m:mo></m:mrow></m:math> because the differential equation itself contains an imaginary number. As stressed before, however, quantum-mechanical predictions depend only on <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, which yields completely real values. Notice that the real plane-wave solutions, <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> do not obey Schrödinger’s equation. The temptation to think that a wave function can be seen, touched, and felt in nature is eliminated by the appearance of an imaginary number. In Schrӧdinger’s theory of quantum mechanics, the wave function is merely a tool for calculating things.</para>
+<para id="fs-id1170902183058">If the potential energy function (<emphasis effect="italics">U</emphasis>) does not depend on time, it is possible to show that</para>
+<note id="fs-id1170903806306" class="equation-callout">
+<equation id="fs-id1170902063770"><label/><m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902089128">satisfies Schrӧdinger’s time-dependent equation, where <m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is a <emphasis effect="italics">time</emphasis>-independent function and <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> is a <emphasis effect="italics">space</emphasis>-independent function. In other words, the wave function is <emphasis effect="italics">separable</emphasis> into two parts: a space-only part and a time-only part. The factor <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> is sometimes referred to as a <term>time-modulation factor</term> since it modifies the space-only function. According to de Broglie, the energy of a matter wave is given by <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>ω</m:mi></m:mrow></m:math>, where <emphasis effect="italics">E</emphasis> is its total energy. Thus, the above equation can also be written as</para>
+<equation id="fs-id1170904230883"><m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mi>E</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mi>ℏ</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903868508">Any linear combination of such states (mixed state of energy or momentum) is also valid solution to this equation. Such states can, for example, describe a localized particle (see <link target-id="CNX_UPhysics_40_02_packet" document="m58578"/>)</para>
+<note id="fs-id1170903906579" class="check-understanding">
+<exercise id="fs-id1170902220108">
+<problem id="fs-id1170902234159">
+<para id="fs-id1170904136006"><emphasis effect="bold">Check Your Understanding</emphasis> A particle with mass <emphasis effect="italics">m</emphasis> is moving along the <emphasis effect="italics">x</emphasis>-axis in a potential given by the potential energy function <m:math><m:mrow><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mi>m</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Compute the product <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>*</m:mo></m:msup><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Express your answer in terms of the time-independent wave function, <m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170903869252">
+<para id="fs-id1170903815599"><m:math><m:mrow><m:mn>0.5</m:mn><m:mi>m</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>ψ</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>*</m:mo></m:msup><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1170903802658">Combining <link target-id="fs-id1170902110094"/> and <link target-id="fs-id1170902063770"/>, Schrödinger’s time-dependent equation reduces to</para>
+<note id="fs-id1170903855651" class="equation-callout">
+<equation id="fs-id1170902298020"><label/><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>E</m:mi><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170904202033">where <emphasis effect="italics">E</emphasis> is the total energy of the particle (a real number). This equation is called <term>Schrӧdinger’s time-independent equation</term>. Notice that we use “big psi” <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Ψ</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for the time-dependent wave function and “little psi” <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>ψ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for the time-independent wave function. The wave-function solution to this equation must be multiplied by the time-modulation factor to obtain the time-dependent wave function.</para>
+<para id="fs-id1170904272107">In the next sections, we solve Schrӧdinger’s time-independent equation for three cases: a quantum particle in a box, a simple harmonic oscillator, and a quantum barrier. These cases provide important lessons that can be used to solve more complicated systems. The time-independent wave function <m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> solutions must satisfy three conditions:</para>
+<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170902363308" list-type="bulleted" bullet-style="bullet"><item><m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> must be a continuous function.</item>
+<item>The first derivative of <m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with respect to space, <m:math><m:mrow><m:mi>d</m:mi><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:math>, must be continuous, unless <m:math><m:mrow><m:mi>V</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>∞</m:mi></m:mrow></m:math>.</item>
+<item><m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> must not diverge (“blow up”) at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>±</m:mtext><m:mi>∞</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+</list><para id="fs-id1170902216092">The first condition avoids sudden jumps or gaps in the wave function. The second condition requires the wave function to be smooth at all points, except in special cases. (In a more advanced course on quantum mechanics, for example, potential spikes of infinite depth and height are used to model solids). The third condition requires the wave function be normalizable. This third condition follows from Born’s interpretation of quantum mechanics. It ensures that <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> is a finite number so we can use it to calculate probabilities.</para>
+<note id="fs-id1170904201971" class="check-understanding">
+<exercise id="fs-id1170902214402">
+<problem id="fs-id1170903855855">
+<para id="fs-id1170902263944"><emphasis effect="bold">Check Your Understanding</emphasis> Which of the following wave functions is a valid wave-function solution for Schrӧdinger’s equation?</para>
+<media id="fs-id1170904111214" alt="Three graphs of Psi of x versus x are shown. The first rises then drops discontinuously to a lower value, rises again and then has a constant value. The second function looks like a breaking wave, with a crest overtaking the base. The third increases exponentially to infinity.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_40_03_Acceptable_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170904007351">
+<para id="fs-id1170902118654">None. The first function has a discontinuity; the second function is double-valued; and the third function diverges so is not normalizable.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1170904054598" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170903882590" list-type="bulleted" bullet-style="bullet">
+<item>The Schrӧdinger equation is the fundamental equation of wave quantum mechanics. It allows us to make predictions about wave functions.</item>
+<item>When a particle moves in a time-independent potential, a solution of the time-dependent Schrӧdinger equation is a product of a time-independent wave function and a time-modulation factor.</item>
+<item>The Schrӧdinger equation can be applied to many physical situations.</item>
+</list>
+</section>
+<section id="fs-id1170902041192" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170903850579">
+<problem id="fs-id1170902402218">
+<para id="fs-id1170903831926">What is the difference between a wave function <m:math><m:mrow><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and a wave function <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for the same particle?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903809330">
+<problem id="fs-id1170902558084">
+<para id="fs-id1170902076463">If a quantum particle is in a stationary state, does it mean that it does not move?</para>
+</problem>
+<solution id="fs-id1170903818824">
+<para id="fs-id1170902350869">No, it means that predictions about the particle (expressed in terms of probabilities) are time-independent.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902042246">
+<problem id="fs-id1170904183513">
+<para id="fs-id1170903881317">Explain the difference between time-dependent and -independent Schrӧdinger’s equations.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902363597">
+<problem id="fs-id1170904153173">
+<para id="fs-id1170904192270">Suppose a wave function is discontinuous at some point. Can this function represent a quantum state of some physical particle? Why? Why not?</para>
+</problem>
+<solution id="fs-id1170902297147">
+<para id="fs-id1170904173360">No, because the probability of the particle existing in a narrow (infinitesimally small) interval at the discontinuity is undefined.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170903884904" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170902160480">
+<problem id="fs-id1170903883525">
+<para id="fs-id1170903886924">Combine <link target-id="fs-id1170903853347"/> and <link target-id="fs-id1170902118559"/> to show <m:math><m:mrow><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170903883339">
+<para id="fs-id1170902183310">Carrying out the derivatives yields <m:math><m:mrow><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902396024">
+<problem id="fs-id1170902100270">
+<para id="fs-id1170902353781">Show that <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msup></m:mrow></m:math> is a valid solution to Schrӧdinger’s time-dependent equation.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904150582">
+<problem id="fs-id1170902299975">
+<para id="fs-id1170902180831">Show that <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> do not obey Schrӧdinger’s time-dependent equation.</para>
+</problem>
+<solution id="fs-id1170902307779">
+<para id="fs-id1170903831386">Carrying out the derivatives (as above) for the sine function gives a cosine on the right side the equation, so the equality fails. The same occurs for the cosine solution.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902222104">
+<problem id="fs-id1170902158137">
+<para id="fs-id1170902092796">Show that when <m:math><m:mrow><m:msub><m:mtext>Ψ</m:mtext><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mtext>Ψ</m:mtext><m:mn>2</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> are solutions to the time-dependent Schrӧdinger equation and <emphasis effect="italics">A</emphasis>,<emphasis effect="italics">B</emphasis> are numbers, then a function <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> that is a superposition of these functions is also a solution: <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:msub><m:mtext>Ψ</m:mtext><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>B</m:mi><m:msub><m:mtext>Ψ</m:mtext><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902354437">
+<problem id="fs-id1170903789116">
+<para id="fs-id1170903893041">A particle with mass <emphasis effect="italics">m</emphasis> is described by the following wave function: <m:math><m:mrow><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>k</m:mi><m:mi>x</m:mi></m:mrow></m:math>, where <emphasis effect="italics">A</emphasis>, <emphasis effect="italics">B</emphasis>, and <emphasis effect="italics">k</emphasis> are constants. Assuming that the particle is free, show that this function is the solution of the stationary Schrӧdinger equation for this particle and find the energy that the particle has in this state.</para>
+</problem>
+<solution id="fs-id1170903879003">
+<para id="fs-id1170902267094"><m:math><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:msup><m:mi>ℏ</m:mi><m:mrow><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903829721">
+<problem id="fs-id1170903835143">
+<para id="fs-id1170903875163">Find the expectation value of the kinetic energy for the particle in the state, <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msup></m:mrow></m:math>. What conclusion can you draw from your solution?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903896742">
+<problem id="fs-id1170903896745">
+<para id="fs-id1170903860046">Find the expectation value of the square of the momentum squared for the particle in the state, <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msup></m:mrow></m:math>. What conclusion can you draw from your solution?</para>
+</problem>
+<solution id="fs-id1170903762950">
+<para id="fs-id1170903762952"><m:math><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mrow><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>k</m:mi><m:mrow><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math>; The particle has definite momentum and therefore definite momentum squared.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902156430">
+<problem id="fs-id1170902056810">
+<para id="fs-id1170902056812">A free proton has a wave function given by <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext> </m:mtext><m:mi>i</m:mi><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:msup></m:mrow></m:math>.</para>
+<para id="fs-id1170902181335">The coefficient of <emphasis effect="italics">x</emphasis> is inverse meters <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and the coefficient on <emphasis effect="italics">t</emphasis> is inverse seconds <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Find its momentum and energy.</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170904080909">
+<term>Schrӧdinger’s time-dependent equation</term>
+<meaning id="fs-id1170904169491">equation in space and time that allows us to determine wave functions of a quantum particle</meaning>
+</definition>
+<definition id="fs-id1170902450101">
+<term>Schrӧdinger’s time-independent equation</term>
+<meaning id="fs-id1170902077000">equation in space that allows us to determine wave functions of a quantum particle; this wave function must be multiplied by a time-modulation factor to obtain the time-dependent wave function</meaning>
+</definition>
+<definition id="fs-id1170902269928">
+<term>time-modulation factor</term>
+<meaning id="fs-id1170902223795">factor <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> that multiplies the time-independent wave function when the potential energy of the particle is time independent</meaning>
+</definition>
+</glossary>
+</document>

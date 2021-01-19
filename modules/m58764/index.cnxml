@@ -1,0 +1,531 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>Bohr’s Model of the Hydrogen Atom</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58764</md:content-id>
+  <md:title>Bohr’s Model of the Hydrogen Atom</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain the difference between the absorption spectrum and the emission spectrum of radiation emitted by atoms</item>
+<item>Describe the Rutherford gold foil experiment and the discovery of the atomic nucleus</item>
+<item>Explain the atomic structure of hydrogen</item>
+<item>Describe the postulates of the early quantum theory for the hydrogen atom</item>
+<item>Summarize how Bohr’s quantum model of the hydrogen atom explains the radiation spectrum of atomic hydrogen</item>
+</list></md:abstract>
+  <md:uuid>e486dd2f-0de5-4de8-a98e-9d0a46bec54e</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1163713315411">Historically, Bohr’s model of the hydrogen atom is the very first model of atomic structure that correctly explained the radiation spectra of atomic hydrogen. The model has a special place in the history of physics because it introduced an early quantum theory, which brought about new developments in scientific thought and later culminated in the development of quantum mechanics. To understand the specifics of Bohr’s model, we must first review the nineteenth-century discoveries that prompted its formulation.</para>
+<para id="fs-id1163713537891">When we use a prism to analyze white light coming from the sun, several dark lines in the solar spectrum are observed (<link target-id="CNX_UPhysics_39_04_fraunhofer"/>). Solar absorption lines are called <term>Fraunhofer lines</term> after Joseph von <term class="no-emphasis">Fraunhofer</term>, who accurately measured their wavelengths. During 1854–1861, Gustav Kirchhoff and Robert Bunsen discovered that for the various chemical elements, the line <term>emission spectrum</term> of an element exactly matches its line <term>absorption spectrum</term>. The difference between the absorption spectrum and the emission spectrum is explained in <link target-id="CNX_UPhysics_39_04_spectra"/>. An absorption spectrum is observed when light passes through a gas. This spectrum appears as black lines that occur only at certain wavelengths on the background of the continuous spectrum of white light (<link target-id="CNX_UPhysics_39_04_fraunhofer"/>). The missing wavelengths tell us which wavelengths of the radiation are absorbed by the gas. The emission spectrum is observed when light is emitted by a gas. This spectrum is seen as colorful lines on the black background (see <link target-id="CNX_UPhysics_39_04_emit-H"/> and <link target-id="CNX_UPhysics_39_04_emit-Fe"/>). Positions of the emission lines tell us which wavelengths of the radiation are emitted by the gas. Each chemical element has its own characteristic emission spectrum. For each element, the positions of its emission lines are exactly the same as the positions of its absorption lines. This means that atoms of a specific element absorb radiation only at specific wavelengths and radiation that does not have these wavelengths is not absorbed by the element at all. This also means that the radiation emitted by atoms of each element has exactly the same wavelengths as the radiation they absorb.</para>
+<figure id="CNX_UPhysics_39_04_fraunhofer">
+<media id="fs-id1163713268538" alt="Figure depicts the solar emission spectrum in the visible range from the deep blue end of the spectrum measured at 380 nm, to the deep red part of the spectrum measured at 710 nm. Fraunhofer lines are observed as vertical black lines at specific spectral positions in the continuous spectrum.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_04_fraunhofer.jpg"/>
+</media>
+<caption>In the solar emission spectrum in the visible range from 380 nm to 710 nm, Fraunhofer lines are observed as vertical black lines at specific spectral positions in the continuous spectrum. Highly sensitive modern instruments observe thousands of such lines.</caption>
+</figure>
+<figure id="CNX_UPhysics_39_04_spectra">
+<media id="fs-id1163709750023" alt="Figures A and B show the schematics of an experimental setup to observe absorption lines. In Figure A, white light passes through the prism and gets separated into the wavelengths. In the spectrum of the passed light, some wavelengths are missing, which are seen as black absorption lines in the continuous spectrum on the viewing screen. In Figure B, light emitted by the gas in the discharge tube passes through the prism and gets separated into the wavelengths. In the spectrum of the passed light, only specific wavelengths are present, which are seen as colorful emission lines on the screen.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_04_spectra.jpg"/>
+</media>
+<caption>Observation of line spectra: (a) setup to observe absorption lines; (b) setup to observe emission lines. (a) White light passes through a cold gas that is contained in a glass flask. A prism is used to separate wavelengths of the passed light. In the spectrum of the passed light, some wavelengths are missing, which are seen as black absorption lines in the continuous spectrum on the viewing screen. (b) A gas is contained in a glass discharge tube that has electrodes at its ends. At a high potential difference between the electrodes, the gas glows and the light emitted from the gas passes through the prism that separates its wavelengths. In the spectrum of the emitted light, only specific wavelengths are present, which are seen as colorful emission lines on the screen.</caption>
+</figure>
+<figure id="CNX_UPhysics_39_04_emit-H">
+<media id="fs-id1163713429123" alt="Figures shows the emission spectrum of hydrogen. Only four emission lines, three in the blue and one in the red line of the spectrum, are present.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_04_emit-H.jpg"/>
+</media>
+<caption>The emission spectrum of atomic hydrogen: The spectral positions of emission lines are characteristic for hydrogen atoms. (credit: “Merikanto”/Wikimedia Commons)</caption>
+</figure>
+<figure id="CNX_UPhysics_39_04_emit-Fe">
+<media id="fs-id1163713285581" alt="Figures shows the emission spectrum of iron. Numerous overlapping emission lines are present in the visible part of the spectrum.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_04_emit-Fe.jpg"/>
+</media>
+<caption>The emission spectrum of atomic iron: The spectral positions of emission lines are characteristic for iron atoms.</caption>
+</figure>
+<para id="fs-id1163713069894">Emission spectra of the elements have complex structures; they become even more complex for elements with higher atomic numbers. The simplest spectrum, shown in <link target-id="CNX_UPhysics_39_04_emit-H"/>, belongs to the hydrogen atom. Only four lines are visible to the human eye. As you read from right to left in <link target-id="CNX_UPhysics_39_04_emit-H"/>, these lines are: red (656 nm), called the H-<m:math><m:mtext>α</m:mtext></m:math> line; aqua (486 nm), blue (434 nm), and violet (410 nm). The lines with wavelengths shorter than 400 nm appear in the ultraviolet part of the spectrum (<link target-id="CNX_UPhysics_39_04_emit-H"/>, far left) and are invisible to the human eye. There are infinitely many invisible spectral lines in the series for hydrogen.</para>
+<para id="fs-id1163713254055">An empirical formula to describe the positions (wavelengths) <m:math><m:mi>λ</m:mi></m:math> of the hydrogen emission lines in this series was discovered in 1885 by Johann <term class="no-emphasis">Balmer</term>. It is known as the <term>Balmer formula</term>:</para>
+<note id="fs-id1163709706026" class="equation-callout">
+<equation id="fs-id1163713204647"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713541170">The constant <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.09737</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math> is called the <term>Rydberg constant for hydrogen</term>. In <link target-id="fs-id1163713204647"/>, the positive integer <emphasis effect="italics">n</emphasis> takes on values <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow></m:math> for the four visible lines in this series. The series of emission lines given by the Balmer formula is called the <term>Balmer series</term> for hydrogen. Other emission lines of hydrogen that were discovered in the twentieth century are described by the <term>Rydberg formula</term>, which summarizes all of the experimental data:</para>
+<note id="fs-id1163713181998" class="equation-callout">
+<equation id="fs-id1163713275712"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msubsup><m:mi>n</m:mi><m:mi>f</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msubsup><m:mi>n</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713124363">When <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> the series of spectral lines is called the <term>Lyman series</term>. When <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> the series is called the Balmer series, and in this case, the Rydberg formula coincides with the Balmer formula. When <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> the series is called the <term>Paschen series</term>. When <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo></m:mrow></m:math> the series is called the <term>Brackett series</term>. When <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> the series is called the <term>Pfund series</term>. When <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math> we have the <term>Humphreys series</term>. As you may guess, there are infinitely many such spectral bands in the spectrum of hydrogen because <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:math> can be any positive integer number.</para>
+<para id="fs-id1163713059079">The Rydberg formula for hydrogen gives the exact positions of the spectral lines as they are observed in a laboratory; however, at the beginning of the twentieth century, nobody could explain why it worked so well. The Rydberg formula remained unexplained until the first successful model of the hydrogen atom was proposed in 1913.</para>
+<example id="fs-id1163713182117">
+<para id="fs-id1172098581139"><title>Limits of the Balmer Series</title>
+Calculate the longest and the shortest wavelengths in the Balmer series.</para>
+<para id="fs-id1172098544785"><title>Strategy</title>
+We can use either the Balmer formula or the Rydberg formula. The longest wavelength is obtained when <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> is largest, which is when <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> because <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> for the Balmer series. The smallest wavelength is obtained when <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> is smallest, which is <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:math> when <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>.</m:mo></m:math></para>
+<para id="fs-id1172100637244"><title>Solution</title>
+The long-wave limit:</para>
+<equation id="fs-id1163713019579" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.09737</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>m</m:mtext></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>656.3</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1163713031765">The short-wave limit:</para>
+<equation id="fs-id1163709784289" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.09737</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>m</m:mtext></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>364.6</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172100674757"><title>Significance</title>
+Note that there are infinitely many spectral lines lying between these two limits.</para>
+</example>
+<note id="fs-id1163713204333" class="check-understanding">
+<exercise id="fs-id1163709666451">
+<problem id="fs-id1163713052254">
+<para id="fs-id1163713259462"><emphasis effect="bold">Check Your Understanding</emphasis> What are the limits of the Lyman series? Can you see these spectral lines?</para>
+</problem>
+<solution id="fs-id1163713106379">
+<para id="fs-id1163713128033">121.5 nm and 91.1 nm; no, these spectral bands are in the ultraviolet</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163713056691">The key to unlocking the mystery of atomic spectra is in understanding atomic structure. Scientists have long known that matter is made of atoms. According to nineteenth-century science, atoms are the smallest indivisible quantities of matter. This scientific belief was shattered by a series of groundbreaking experiments that proved the existence of subatomic particles, such as electrons, protons, and neutrons.</para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1163713013146">The electron was discovered and identified as the smallest quantity of electric charge by J.J. <term class="no-emphasis">Thomson</term> in 1897 in his cathode ray experiments, also known as β-ray experiments: A <term><emphasis effect="italics">β</emphasis>-ray</term> is a beam of electrons. In 1904, Thomson proposed the first model of atomic structure, known as the “plum pudding” model, in which an atom consisted of an unknown positively charged matter with negative electrons embedded in it like plums in a pudding. Around 1900, E. <term class="no-emphasis">Rutherford</term>, and independently, Paul Ulrich Villard, classified all radiation known at that time as <term><m:math><m:mi>α</m:mi></m:math>-rays</term>, <emphasis effect="italics">β</emphasis>-rays, and <term><emphasis effect="italics">γ</emphasis>-rays</term> (a <emphasis effect="italics">γ</emphasis>-ray is a beam of highly energetic photons). In 1907, Rutherford and Thomas Royds used spectroscopy methods to show that positively charged particles of <m:math><m:mi>α</m:mi></m:math>-radiation (called <term><m:math><m:mi>α</m:mi></m:math>-particles</term>) are in fact doubly ionized atoms of helium. In 1909, Rutherford, Ernest Marsden, and Hans Geiger used <m:math><m:mi>α</m:mi></m:math>-particles in their famous scattering experiment that disproved Thomson’s model (see <link document="m58317">Linear Momentum and Collisions</link>).</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1163713042221">In the <term>Rutherford gold foil experiment</term> (also known as the Geiger–Marsden experiment), <m:math><m:mi>α</m:mi></m:math>-particles were incident on a thin gold foil and were scattered by gold atoms inside the foil (see <link target-id="CNX_UPhysics_09_04_TvsR" document="m58321">Types of Collisions</link>). The outgoing particles were detected by a <m:math><m:mrow><m:mn>360</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> scintillation screen surrounding the gold target (for a detailed description of the experimental setup, see <link document="m58317">Linear Momentum and Collisions</link>). When a scattered particle struck the screen, a tiny flash of light (scintillation) was observed at that location. By counting the scintillations seen at various angles with respect to the direction of the incident beam, the scientists could determine what fraction of the incident particles were scattered and what fraction were not deflected at all. If the plum pudding model were correct, there would be no back-scattered <m:math><m:mi>α</m:mi></m:math>-particles. However, the results of the Rutherford experiment showed that, although a sizable fraction of <m:math><m:mi>α</m:mi></m:math>-particles emerged from the foil not scattered at all as though the foil were not in their way, a significant fraction of <m:math><m:mi>α</m:mi></m:math>-particles were back-scattered toward the source. This kind of result was possible only when most of the mass and the entire positive charge of the gold atom were concentrated in a tiny space inside the atom.</para><para id="fs-id1163713201236">In 1911, Rutherford proposed a <term>nuclear model of the atom</term>. In Rutherford’s model, an atom contained a positively charged nucleus of negligible size, almost like a point, but included almost the entire mass of the atom. The atom also contained negative electrons that were located within the atom but relatively far away from the nucleus. Ten years later, Rutherford coined the name <emphasis effect="italics">proton</emphasis> for the nucleus of hydrogen and the name <emphasis effect="italics">neutron</emphasis> for a hypothetical electrically neutral particle that would mediate the binding of positive protons in the nucleus (the neutron was discovered in 1932 by James <term class="no-emphasis">Chadwick</term>). Rutherford is credited with the discovery of the atomic nucleus; however, the Rutherford model of atomic structure does not explain the Rydberg formula for the hydrogen emission lines.</para>
+<para id="fs-id1163713036273"><term>Bohr’s model of the hydrogen atom</term>, proposed by Niels <term class="no-emphasis">Bohr</term> in 1913, was the first quantum model that correctly explained the hydrogen emission spectrum. Bohr’s model combines the classical mechanics of planetary motion with the quantum concept of photons. Once Rutherford had established the existence of the atomic nucleus, Bohr’s intuition that the negative electron in the hydrogen atom must revolve around the positive nucleus became a logical consequence of the inverse-square-distance law of electrostatic attraction. Recall that Coulomb’s law describing the attraction between two opposite charges has a similar form to Newton’s universal law of gravitation in the sense that the gravitational force and the electrostatic force are both decreasing as <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">r</emphasis> is the separation distance between the bodies. In the same way as Earth revolves around the sun, the negative electron in the hydrogen atom can revolve around the positive nucleus. However, an accelerating charge radiates its energy. Classically, if the electron moved around the nucleus in a planetary fashion, it would be undergoing centripetal acceleration, and thus would be radiating energy that would cause it to spiral down into the nucleus. Such a planetary hydrogen atom would not be stable, which is contrary to what we know about ordinary hydrogen atoms that do not disintegrate. Moreover, the classical motion of the electron is not able to explain the discrete emission spectrum of hydrogen.</para>
+<para id="fs-id1163713196393">To circumvent these two difficulties, Bohr proposed the following three <term>postulates of Bohr’s model</term>:</para>
+<list id="fs-id1163713489088" list-type="enumerated" number-style="arabic">
+<item>The negative electron moves around the positive nucleus (proton) in a circular orbit. All electron orbits are centered at the nucleus. Not all classically possible orbits are available to an electron bound to the nucleus.</item>
+<item>The allowed electron orbits satisfy the <emphasis effect="italics">first quantization condition</emphasis>: In the <emphasis effect="italics">n</emphasis>th orbit, the angular momentum <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> of the electron can take only discrete values:<newline/>
+<note id="fs-id1163709682583" class="equation-callout">
+<equation id="fs-id1163713197261"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>ℏ</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note><newline/>
+This postulate says that the electron’s angular momentum is quantized. Denoted by <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>n</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectively, the radius of the <emphasis effect="italics">n</emphasis>th orbit and the electron’s speed in it, the first quantization condition can be expressed explicitly as<newline/>
+<equation id="fs-id1163713071268"><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msub><m:mi>v</m:mi><m:mi>n</m:mi></m:msub><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>ℏ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>An electron is allowed to make transitions from one orbit where its energy is <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> to another orbit where its energy is <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>m</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> When an atom absorbs a photon, the electron makes a transition to a higher-energy orbit. When an atom emits a photon, the electron transits to a lower-energy orbit. Electron transitions with the simultaneous photon absorption or photon emission take place <emphasis effect="italics">instantaneously</emphasis>. The allowed electron transitions satisfy the <emphasis effect="italics">second quantization condition</emphasis>:<newline/>
+<note id="fs-id1163713277995" class="equation-callout">
+<equation id="fs-id1163709714544"><m:math><m:mrow><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mo>|</m:mo><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mi>m</m:mi></m:msub><m:mo>|</m:mo></m:mrow></m:math></equation>
+</note><newline/>
+where <m:math><m:mrow><m:mi>h</m:mi><m:mi>f</m:mi></m:mrow></m:math> is the energy of either an emitted or an absorbed photon with frequency <emphasis effect="italics">f</emphasis>. The second quantization condition states that an electron’s change in energy in the hydrogen atom is quantized.</item>
+</list>
+<para id="fs-id1163713280169">These three postulates of the early quantum theory of the hydrogen atom allow us to derive not only the Rydberg formula, but also the value of the Rydberg constant and other important properties of the hydrogen atom such as its energy levels, its ionization energy, and the sizes of electron orbits. Note that in Bohr’s model, along with two nonclassical quantization postulates, we also have the classical description of the electron as a particle that is subjected to the Coulomb force, and its motion must obey Newton’s laws of motion. The hydrogen atom, as an isolated system, must obey the laws of conservation of energy and momentum in the way we know from classical physics. Having this theoretical framework in mind, we are ready to proceed with our analysis.</para>
+<section id="fs-id1163713134889">
+<title>Electron Orbits</title>
+<para id="fs-id1163709724956">To obtain the size <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> of the electron’s <emphasis effect="italics">n</emphasis>th orbit and the electron’s speed <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> in it, we turn to Newtonian mechanics. As a charged particle, the electron experiences an electrostatic pull toward the positively charged nucleus in the center of its circular orbit. This electrostatic pull is the centripetal force that causes the electron to move in a circle around the nucleus. Therefore, the magnitude of centripetal force is identified with the magnitude of the electrostatic force:</para>
+<equation id="fs-id1163713085070"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msubsup><m:mi>v</m:mi><m:mi>n</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mi>n</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709713761">Here, <m:math><m:mi>e</m:mi></m:math> denotes the value of the elementary charge. The negative electron and positive proton have the same value of charge, <m:math display="block"><m:mrow><m:mo>|</m:mo><m:mi>q</m:mi><m:mo>|</m:mo><m:mo>=</m:mo><m:mi>e</m:mi><m:mo>.</m:mo></m:mrow></m:math> When <link target-id="fs-id1163713085070"/> is combined with the first quantization condition given by <link target-id="fs-id1163713071268"/>, we can solve for the speed, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>n</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> and for the radius, <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1163713260524"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>ℏ</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow></m:math></equation>
+<equation id="fs-id1163709713858"><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709756950">Note that these results tell us that the electron’s speed as well as the radius of its orbit depend only on the index <emphasis effect="italics">n</emphasis> that enumerates the orbit because all other quantities in the preceding equations are fundamental constants. We see from <link target-id="fs-id1163709713858"/> that the size of the orbit grows as the square of <emphasis effect="italics">n</emphasis>. This means that the second orbit is four times as large as the first orbit, and the third orbit is nine times as large as the first orbit, and so on. We also see from <link target-id="fs-id1163713260524"/> that the electron’s speed in the orbit decreases as the orbit size increases. The electron’s speed is largest in the first Bohr orbit, for <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> which is the orbit closest to the nucleus. The radius of the first Bohr orbit is called the <term>Bohr radius of hydrogen</term>, denoted as <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Its value is obtained by setting <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> in <link target-id="fs-id1163709713858"/>:</para>
+<note id="fs-id1163713434383" class="equation-callout">
+<equation id="fs-id1163713197714"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>5.29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>0.529</m:mn><m:mspace width="0.2em"/><m:mtext>Å</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713421835">We can substitute <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> in <link target-id="fs-id1163709713858"/> to express the radius of the <emphasis effect="italics">n</emphasis>th orbit in terms of <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math></para>
+<note id="fs-id1163713287822" class="equation-callout">
+<equation id="fs-id1163713538834"><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713162524">This result means that the electron orbits in hydrogen atom are <emphasis effect="italics">quantized</emphasis> because the orbital radius takes on only specific values of <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:mn>4</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:mn>9</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:mn>16</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math> given by <link target-id="fs-id1163713538834"/>, and no other values are allowed.</para>
+</section>
+<section id="fs-id1163713074874">
+<title>Electron Energies</title>
+<para id="fs-id1163713051265">The total energy <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> of an electron in the <emphasis effect="italics">n</emphasis>th orbit is the sum of its kinetic energy <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> and its electrostatic potential energy <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>n</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Utilizing <link target-id="fs-id1163713260524"/>, we find that</para>
+<equation id="fs-id1163713084406"><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msubsup><m:mi>v</m:mi><m:mi>n</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>32</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msubsup><m:mi>ε</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713172179">Recall that the electrostatic potential energy of interaction between two charges <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> that are separated by a distance <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:math> is <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Here, <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>e</m:mi></m:mrow></m:math> is the charge of the nucleus in the hydrogen atom (the charge of the proton), <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>e</m:mi></m:mrow></m:math> is the charge of the electron and <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> is the radius of the <emphasis effect="italics">n</emphasis>th orbit. Now we use <link target-id="fs-id1163709713858"/> to find the potential energy of the electron:</para>
+<equation id="fs-id1163713203409"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msubsup><m:mi>ε</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713119076">The total energy of the electron is the sum of <link target-id="fs-id1163713084406"/> and <link target-id="fs-id1163713203409"/>:</para>
+<equation id="fs-id1163713106682"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mi>n</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>32</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msubsup><m:mi>ε</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713424888">Note that the energy depends only on the index <emphasis effect="italics">n</emphasis> because the remaining symbols in <link target-id="fs-id1163713106682"/> are physical constants. The value of the constant factor in <link target-id="fs-id1163713106682"/> is</para>
+<note id="fs-id1163713258346" class="equation-callout">
+<equation id="fs-id1163709830578"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>32</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msubsup><m:mi>ε</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>8</m:mn><m:msubsup><m:mi>ε</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.17</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−18</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163709685382">It is convenient to express the electron’s energy in the <emphasis effect="italics">n</emphasis>th orbit in terms of this energy, as</para>
+<note id="fs-id1163713181081" class="equation-callout">
+<equation id="fs-id1163713535556"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163709757240">Now we can see that the electron energies in the hydrogen atom are <emphasis effect="italics">quantized</emphasis> because they can have only discrete values of <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:mtext>−</m:mtext><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo></m:mrow></m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo></m:mrow></m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mn>16</m:mn></m:mrow></m:mrow><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math> given by <link target-id="fs-id1163713535556"/>, and no other energy values are allowed. This set of allowed electron energies is called the <term>energy spectrum of hydrogen</term> (<link target-id="CNX_UPhysics_39_04_H-energy"/>). The index <emphasis effect="italics">n</emphasis> that enumerates energy levels in Bohr’s model is called the energy <term>quantum number</term>. We identify the energy of the electron inside the hydrogen atom with the energy of the hydrogen atom. Note that the smallest value of energy is obtained for <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> so the hydrogen atom cannot have energy smaller than that. This smallest value of the electron energy in the hydrogen atom is called the <term>ground state energy of the hydrogen atom</term> and its value is</para>
+<note id="fs-id1163713547849" class="equation-callout">
+<equation id="fs-id1163713009596"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>−13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713103924">The hydrogen atom may have other energies that are higher than the ground state. These higher energy states are known as <term>excited energy states of a hydrogen atom</term>.</para>
+<para id="fs-id1163713263165">There is only one ground state, but there are infinitely many excited states because there are infinitely many values of <emphasis effect="italics">n</emphasis> in <link target-id="fs-id1163713535556"/>. We say that the electron is in the “first exited state” when its energy is <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> (when <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>), the second excited state when its energy is <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> (when <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>) and, in general, in the <emphasis effect="italics">n</emphasis>th exited state when its energy is <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> There is no highest-of-all excited state; however, there is a limit to the sequence of excited states. If we keep increasing <emphasis effect="italics">n</emphasis> in <link target-id="fs-id1163713535556"/>, we find that the limit is <m:math><m:mrow><m:mtext>−</m:mtext><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:munder><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> In this limit, the electron is no longer bound to the nucleus but becomes a free electron. An electron remains bound in the hydrogen atom as long as its energy is negative. An electron that orbits the nucleus in the first Bohr orbit, closest to the nucleus, is in the ground state, where its energy has the smallest value. In the ground state, the electron is most strongly bound to the nucleus and its energy is given by <link target-id="fs-id1163713009596"/>. If we want to remove this electron from the atom, we must supply it with enough energy, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>∞</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> to at least balance out its ground state energy <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1163713283381"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>∞</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>E</m:mi><m:mi>∞</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713182202">The energy that is needed to remove the electron from the atom is called the <term>ionization energy</term>. The ionization energy <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>∞</m:mi></m:msub></m:mrow></m:math> that is needed to remove the electron from the first Bohr orbit is called the <term>ionization limit of the hydrogen atom</term>. The ionization limit in <link target-id="fs-id1163713283381"/> that we obtain in Bohr’s model agrees with experimental value.</para>
+<figure id="CNX_UPhysics_39_04_H-energy">
+<media id="fs-id1163713204626" alt="Figure shows the energy spectrum of the hydrogen atom. The Y axis represents the energy expressed in eV. Horizontal lines represent the bound states of an electron in the level. There is only one ground state, marked as n = 1 at -13.6 eV and infinite number of quantized excited states. The states are enumerated by the quantum numbers n = 1, 2, 3, 4 and their density increases when approaching 0 eV. The Lyman series transitions to n = 1, the Balmer series transitions to n = 2 at -3.4 eV, and the Patchen series transitions to n = -3 at -1.51 eV. The series are indicated with downward arrows.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_04_H-energy.jpg"/>
+</media>
+<caption>The energy spectrum of the hydrogen atom. Energy levels (horizontal lines) represent the bound states of an electron in the atom. There is only one ground state, <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> and infinite quantized excited states. The states are enumerated by the quantum number <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math> Vertical lines illustrate the allowed electron transitions between the states. Downward arrows illustrate transitions with an emission of a photon with a wavelength in the indicated spectral band.</caption>
+</figure>
+</section>
+<section id="fs-id1163713051313">
+<title>Spectral Emission Lines of Hydrogen</title>
+<para id="fs-id1163713042337">To obtain the wavelengths of the emitted radiation when an electron makes a transition from the <emphasis effect="italics">n</emphasis>th orbit to the <emphasis effect="italics">m</emphasis>th orbit, we use the second of Bohr’s quantization conditions and <link target-id="fs-id1163713535556"/> for energies. The emission of energy from the atom can occur only when an electron makes a transition from an excited state to a lower-energy state. In the course of such a transition, the emitted photon carries away the difference of energies between the states involved in the transition. The transition cannot go in the other direction because the energy of a photon cannot be negative, which means that for emission we must have <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>E</m:mi><m:mi>m</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:mi>n</m:mi><m:mo>&gt;</m:mo><m:mi>m</m:mi><m:mo>.</m:mo></m:mrow></m:math> Therefore, the third of Bohr’s postulates gives</para>
+<equation id="fs-id1163713155077"><m:math><m:mrow><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mo>|</m:mo><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mi>m</m:mi></m:msub><m:mo>|</m:mo><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mi>m</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709724875">Now we express the photon’s energy in terms of its wavelength, <m:math><m:mrow><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>c</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>λ</m:mi><m:mo>,</m:mo></m:mrow></m:math> and divide both sides of <link target-id="fs-id1163713155077"/> by <m:math><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math> The result is</para>
+<equation id="fs-id1163709829542"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713489222">The value of the constant in this equation is</para>
+<equation id="fs-id1163713489226"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4.136</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mtext>eV</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.997</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mrow><m:mtext>m</m:mtext><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.097</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mfrac><m:mn>1</m:mn><m:mtext>m</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709766124">This value is exactly the Rydberg constant <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub></m:mrow></m:math> in the Rydberg heuristic formula <link target-id="fs-id1163713275712"/>. In fact, <link target-id="fs-id1163709829542"/> is identical to the Rydberg formula, because for a given <emphasis effect="italics">m</emphasis>, we have <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math> In this way, the Bohr quantum model of the hydrogen atom allows us to derive the experimental Rydberg constant from first principles and to express it in terms of fundamental constants. Transitions between the allowed electron orbits are illustrated in <link target-id="CNX_UPhysics_39_04_H-energy"/>.</para>
+<para id="fs-id1163713119682">We can repeat the same steps that led to <link target-id="fs-id1163709829542"/> to obtain the wavelength of the absorbed radiation; this again gives <link target-id="fs-id1163709829542"/> but this time for the positions of absorption lines in the absorption spectrum of hydrogen. The only difference is that for absorption, the quantum number <emphasis effect="italics">m</emphasis> is the index of the orbit occupied by the electron before the transition (lower-energy orbit) and the quantum number <emphasis effect="italics">n</emphasis> is the index of the orbit to which the electron makes the transition (higher-energy orbit). The difference between the electron energies in these two orbits is the energy of the absorbed photon.</para>
+<example id="fs-id1163713245820">
+<para id="fs-id1172096386702"><title>Size and Ionization Energy of the Hydrogen Atom in an Excited State</title>
+If a hydrogen atom in the ground state absorbs a 93.7-nm photon, corresponding to a transition line in the Lyman series, how does this affect the atom’s energy and size? How much energy is needed to ionize the atom when it is in this excited state? Give your answers in absolute units, and relative to the ground state.</para>
+<para id="fs-id1172100654175"><title>Strategy</title>
+Before the absorption, the atom is in its ground state. This means that the electron transition takes place from the orbit <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> to some higher <emphasis effect="italics">n</emphasis>th orbit. First, we must determine <m:math><m:mi>n</m:mi></m:math> for the absorbed wavelength <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>93.7</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Then, we can use <link target-id="fs-id1163713535556"/> to find the energy <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> of the excited state and its ionization energy <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>n</m:mi></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> and use <link target-id="fs-id1163713538834"/> to find the radius <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> of the atom in the excited state. To estimate <emphasis effect="italics">n</emphasis>, we use <link target-id="fs-id1163709829542"/>.</para>
+<para id="fs-id1172100633188"><title>Solution</title>
+Substitute <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>93.7</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math> in <link target-id="fs-id1163709829542"/> and solve for <m:math><m:mi>n</m:mi><m:mo>.</m:mo></m:math> You should not expect to obtain a perfect integer answer because of rounding errors, but your answer will be close to an integer, and you can estimate <emphasis effect="italics">n</emphasis> by taking the integral part of your answer:</para>
+<equation id="fs-id1163713325785" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>λ</m:mi><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>93.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.097</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6.07</m:mn><m:mo stretchy="false">⇒</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709742902">The radius of the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> orbit is</para>
+<equation id="fs-id1163713513206" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mn>6</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>36</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>36</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0.529</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>19.04</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>≅</m:mo><m:mn>19.0</m:mn><m:mspace width="0.2em"/><m:mtext>Å</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713310422">Thus, after absorbing the 93.7-nm photon, the size of the hydrogen atom in the excited <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> state is 36 times larger than before the absorption, when the atom was in the ground state. The energy of the fifth excited state (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>) is:</para>
+<equation id="fs-id1163709830584" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mn>6</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>≅</m:mo><m:mo>−</m:mo><m:mn>0.378</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713328529">After absorbing the 93.7-nm photon, the energy of the hydrogen atom is larger than it was before the absorption. Ionization of the atom when it is in the fifth excited state (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>) requites 36 times less energy than is needed when the atom is in the ground state:</para>
+<equation id="fs-id1163709829302" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>6</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>−0.378</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.378</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100585304"><title>Significance</title>
+We can analyze any spectral line in the spectrum of hydrogen in the same way. Thus, the experimental measurements of spectral lines provide us with information about the atomic structure of the hydrogen atom.</para>
+</example>
+<note id="fs-id1163713278516" class="check-understanding">
+<exercise id="fs-id1163713278519">
+<problem id="fs-id1163713278521">
+<para id="fs-id1163709827129"><emphasis effect="bold">Check Your Understanding</emphasis> When an electron in a hydrogen atom is in the first excited state, what prediction does the Bohr model give about its orbital speed and kinetic energy? What is the magnitude of its orbital angular momentum?</para>
+</problem>
+<solution id="fs-id1163709827138">
+<para id="fs-id1163713430953"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mrow><m:mtext>m</m:mtext><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mtext>s</m:mtext></m:mrow><m:mo>≅</m:mo><m:mn>0.0036</m:mn><m:mi>c</m:mi><m:mo>;</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>ℏ</m:mi><m:mspace width="0.4em"/><m:msub><m:mi>K</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>3.4</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163709724954">Bohr’s model of the hydrogen atom also correctly predicts the spectra of some hydrogen-like ions. <term>Hydrogen-like ions</term> are atoms of elements with an atomic number <emphasis effect="italics">Z</emphasis> larger than one (<m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> for hydrogen) but with all electrons removed except one. For example, an electrically neutral helium atom has an atomic number <m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> This means it has two electrons orbiting the nucleus with a charge of <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>Z</m:mi><m:mi>e</m:mi><m:mo>.</m:mo></m:mrow></m:math> When one of the orbiting electrons is removed from the helium atom (we say, when the helium atom is singly ionized), what remains is a hydrogen-like atomic structure where the remaining electron orbits the nucleus with a charge of <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>Z</m:mi><m:mi>e</m:mi><m:mo>.</m:mo></m:mrow></m:math> This type of situation is described by the Bohr model. Assuming that the charge of the nucleus is not <m:math><m:mrow><m:mo>+</m:mo><m:mi>e</m:mi></m:mrow></m:math> but <m:math><m:mrow><m:mo>+</m:mo><m:mi>Z</m:mi><m:mi>e</m:mi><m:mo>,</m:mo></m:mrow></m:math> we can repeat all steps, beginning with <link target-id="fs-id1163713085070"/>, to obtain the results for a hydrogen-like ion:</para>
+<note id="fs-id1163713280157" class="equation-callout">
+<equation id="fs-id1163713280160"><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>Z</m:mi></m:mfrac><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713484558">where <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the Bohr orbit of hydrogen, and</para>
+<note id="fs-id1163713258855" class="equation-callout">
+<equation id="fs-id1163713258858"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>Z</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713170756">where <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the ionization limit of a hydrogen atom. These equations are good approximations as long as the atomic number <emphasis effect="italics">Z</emphasis> is not too large.</para>
+<para id="fs-id1163713069663">The Bohr model is important because it was the first model to postulate the quantization of electron orbits in atoms. Thus, it represents an early quantum theory that gave a start to developing modern quantum theory. It introduced the concept of a quantum number to describe atomic states. The limitation of the early quantum theory is that it cannot describe atoms in which the number of electrons orbiting the nucleus is larger than one. The Bohr model of hydrogen is a semi-classical model because it combines the classical concept of electron orbits with the new concept of quantization. The remarkable success of this model prompted many physicists to seek an explanation for why such a model should work at all, and to seek an understanding of the physics behind the postulates of early quantum theory. This search brought about the onset of an entirely new concept of “matter waves.”</para>
+</section>
+<section id="fs-id1163713328376" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1163713328382" list-type="bulleted" bullet-style="bullet">
+<item>Positions of absorption and emission lines in the spectrum of atomic hydrogen are given by the experimental Rydberg formula. Classical physics cannot explain the spectrum of atomic hydrogen.</item>
+<item>The Bohr model of hydrogen was the first model of atomic structure to correctly explain the radiation spectra of atomic hydrogen. It was preceded by the Rutherford nuclear model of the atom. In Rutherford’s model, an atom consists of a positively charged point-like nucleus that contains almost the entire mass of the atom and of negative electrons that are located far away from the nucleus.</item>
+<item>Bohr’s model of the hydrogen atom is based on three postulates: (1) an electron moves around the nucleus in a circular orbit, (2) an electron’s angular momentum in the orbit is quantized, and (3) the change in an electron’s energy as it makes a quantum jump from one orbit to another is always accompanied by the emission or absorption of a photon. Bohr’s model is semi-classical because it combines the classical concept of electron orbit (postulate 1) with the new concept of quantization (postulates 2 and 3).</item>
+<item>Bohr’s model of the hydrogen atom explains the emission and absorption spectra of atomic hydrogen and hydrogen-like ions with low atomic numbers. It was the first model to introduce the concept of a quantum number to describe atomic states and to postulate quantization of electron orbits in the atom. Bohr’s model is an important step in the development of quantum mechanics, which deals with many-electron atoms.</item>
+</list>
+</section>
+<section id="fs-id1163711964260" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1163713537489">
+<problem id="fs-id1163713537491">
+<para id="fs-id1163709758434">Explain why the patterns of bright emission spectral lines have an identical spectral position to the pattern of dark absorption spectral lines for a given gaseous element.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713268590">
+<problem id="fs-id1163713412975">
+<para id="fs-id1163713412977">Do the various spectral lines of the hydrogen atom overlap?</para>
+</problem>
+<solution id="fs-id1163713412982">
+<para id="fs-id1163713412984">no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713258490">
+<problem id="fs-id1163713258493">
+<para id="fs-id1163713258495">The Balmer series for hydrogen was discovered before either the Lyman or the Paschen series. Why?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713050499">
+<problem id="fs-id1163713050501">
+<para id="fs-id1163713050503">When the absorption spectrum of hydrogen at room temperature is analyzed, absorption lines for the Lyman series are found, but none are found for the Balmer series. What does this tell us about the energy state of most hydrogen atoms at room temperature?</para>
+</problem>
+<solution id="fs-id1163713253746">
+<para id="fs-id1163713253748">They are at ground state.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713253754">
+<problem id="fs-id1163713535568">
+<para id="fs-id1163713535570">Hydrogen accounts for about 75% by mass of the matter at the surfaces of most stars. However, the absorption lines of hydrogen are strongest (of highest intensity) in the spectra of stars with a surface temperature of about 9000 K. They are weaker in the sun spectrum and are essentially nonexistent in very hot (temperatures above 25,000 K) or rather cool (temperatures below 3500 K) stars. Speculate as to why surface temperature affects the hydrogen absorption lines that we observe.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713485376">
+<problem id="fs-id1163713485378">
+<para id="fs-id1163713485380">Discuss the similarities and differences between Thomson’s model of the hydrogen atom and Bohr’s model of the hydrogen atom.</para>
+</problem>
+<solution id="fs-id1163713243478">
+<para id="fs-id1163713243480">Answers may vary</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713243485">
+<problem id="fs-id1163713243487">
+<para id="fs-id1163713243489">Discuss the way in which Thomson’s model is nonphysical. Support your argument with experimental evidence.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713163950">
+<problem id="fs-id1163713163953">
+<para id="fs-id1163713289669">If, in a hydrogen atom, an electron moves to an orbit with a larger radius, does the energy of the hydrogen atom increase or decrease?</para>
+</problem>
+<solution id="fs-id1163713289674">
+<para id="fs-id1163713289676">increase</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713289682">
+<problem id="fs-id1163713010187">
+<para id="fs-id1163713010189">How is the energy conserved when an atom makes a transition from a higher to a lower energy state?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713010201">
+<problem id="fs-id1163709832973">
+<para id="fs-id1163709832975">Suppose an electron in a hydrogen atom makes a transition from the (<emphasis effect="italics">n+1</emphasis>)th orbit to the <emphasis effect="italics">n</emphasis>th orbit. Is the wavelength of the emitted photon longer for larger values of <emphasis effect="italics">n</emphasis>, or for smaller values of <emphasis effect="italics">n</emphasis>?</para>
+</problem>
+<solution id="fs-id1163713294180">
+<para id="fs-id1163713294182">for larger <emphasis effect="italics">n</emphasis></para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713556636">
+<problem id="fs-id1163713556638">
+<para id="fs-id1163713556640">Discuss why the allowed energies of the hydrogen atom are negative.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709648346">
+<problem id="fs-id1163709648348">
+<para id="fs-id1163709648350">Can a hydrogen atom absorb a photon whose energy is greater than 13.6 eV?</para>
+</problem>
+<solution id="fs-id1163709648354">
+<para id="fs-id1163713204145">Yes, the excess of 13.6 eV will become kinetic energy of a free electron.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713204150">
+<problem id="fs-id1163713204152">
+<para id="fs-id1163713204155">Why can you see through glass but not through wood?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709681324">
+<problem id="fs-id1163709681326">
+<para id="fs-id1163709681329">Do gravitational forces have a significant effect on atomic energy levels?</para>
+</problem>
+<solution id="fs-id1163709681333">
+<para id="fs-id1163709681335">no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709724857">
+<problem id="fs-id1163709724859">
+<para id="fs-id1163709724861">Show that Planck’s constant has the dimensions of angular momentum.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1163709724868" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1163713163833">
+<problem id="fs-id1163713163835">
+<para id="fs-id1163713163837">Calculate the wavelength of the first line in the Lyman series and show that this line lies in the ultraviolet part of the spectrum.</para>
+</problem>
+<solution id="fs-id1163713163843">
+<para id="fs-id1163713163845">121.5 nm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709831664">
+<problem id="fs-id1163709831666">
+<para id="fs-id1163709831668">Calculate the wavelength of the fifth line in the Lyman series and show that this line lies in the ultraviolet part of the spectrum.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709827766">
+<problem id="fs-id1163709827768">
+<para id="fs-id1163709827770">Calculate the energy changes corresponding to the transitions of the hydrogen atom: (a) from <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> to <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>;</m:mo></m:mrow></m:math> (b) from <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> to <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>;</m:mo></m:mrow></m:math> and (c) from <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> to <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1163713450595">
+<para id="fs-id1163713450597">a. 0.661 eV; b. –10.2 eV; c. 1.511 eV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713450603">
+<problem id="fs-id1163713450605">
+<para id="fs-id1163713450607">Determine the wavelength of the third Balmer line (transition from <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> to <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713429628">
+<problem id="fs-id1163713429630">
+<para id="fs-id1163713429632">What is the frequency of the photon absorbed when the hydrogen atom makes the transition from the ground state to the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> state?</para>
+</problem>
+<solution id="fs-id1163709829694">
+<para id="fs-id1163709829696">3038 THz</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709829701">
+<problem id="fs-id1163709829703">
+<para id="fs-id1163709829705">When a hydrogen atom is in its ground state, what are the shortest and longest wavelengths of the photons it can absorb without being ionized?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713432792">
+<problem id="fs-id1163713432794">
+<para id="fs-id1163713432796">When a hydrogen atom is in its third excided state, what are the shortest and longest wavelengths of the photons it can emit?</para>
+</problem>
+<solution id="fs-id1163713284374">
+<para id="fs-id1163713284377">97.33 nm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713284382">
+<problem id="fs-id1163713284384">
+<para id="fs-id1163713284386">What is the longest wavelength that light can have if it is to be capable of ionizing the hydrogen atom in its ground state?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713050379">
+<problem id="fs-id1163713050381">
+<para id="fs-id1163713050383">For an electron in a hydrogen atom in the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> state, compute: (a) the angular momentum; (b) the kinetic energy; (c) the potential energy; and (d) the total energy.</para>
+</problem>
+<solution id="fs-id1163713246672">
+<para id="fs-id1163713246675">a. h/<m:math><m:mi>π</m:mi><m:mo>;</m:mo></m:math> b. 3.4 eV; c. – 6.8 eV; d. – 3.4 eV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713246684">
+<problem id="fs-id1163713246686">
+<para id="fs-id1163713246688">Find the ionization energy of a hydrogen atom in the fourth energy state.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713557498">
+<problem id="fs-id1163713557500">
+<para id="fs-id1163713557502">It has been measured that it required 0.850 eV to remove an electron from the hydrogen atom. In what state was the atom before the ionization happened?</para>
+</problem>
+<solution id="fs-id1163713557508">
+<para id="fs-id1163713276584"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713276597">
+<problem id="fs-id1163713276599">
+<para id="fs-id1163713276601">What is the radius of a hydrogen atom when the electron is in the first excited state?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713249475">
+<problem id="fs-id1163713249477">
+<para id="fs-id1163713249479">Find the shortest wavelength in the Balmer series. In what part of the spectrum does this line lie?</para>
+</problem>
+<solution id="fs-id1163713249484">
+<para id="fs-id1163713249486">365 nm; UV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713249491">
+<problem id="fs-id1163713517356">
+<para id="fs-id1163713517358">Show that the entire Paschen series lies in the infrared part of the spectrum.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713517363">
+<problem id="fs-id1163713517366">
+<para id="fs-id1163713517368">Do the Balmer series and the Lyman series overlap? Why? Why not? (Hint: calculate the shortest Balmer line and the longest Lyman line.)</para>
+</problem>
+<solution id="fs-id1163713517373">
+<para id="fs-id1163713517375">no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713535613">
+<problem id="fs-id1163713535615">
+<para id="fs-id1163713535617">(a) Which line in the Balmer series is the first one in the UV part of the spectrum? (b) How many Balmer lines lie in the visible part of the spectrum? (c) How many Balmer lines lie in the UV?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709817720">
+<problem id="fs-id1163709817722">
+<para id="fs-id1163709817724">A <m:math><m:mrow><m:mn>4.653</m:mn><m:mtext>-μ</m:mtext><m:mtext>m</m:mtext></m:mrow></m:math> emission line of atomic hydrogen corresponds to transition between the states <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Find <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1163709818696">
+<para id="fs-id1163709818699">7</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1163709818708">
+<term>absorption spectrum</term>
+<meaning id="fs-id1163709818714">wavelengths of absorbed radiation by atoms and molecules</meaning>
+</definition>
+<definition id="fs-id1163713120574">
+<term><m:math><m:mi>α</m:mi></m:math>-particle</term>
+<meaning id="fs-id1163713120583">doubly ionized helium atom</meaning>
+</definition>
+<definition id="fs-id1163713120587">
+<term><m:math><m:mi>α</m:mi></m:math>-ray</term>
+<meaning id="fs-id1163713120595">beam of <m:math><m:mi>α</m:mi></m:math>-particles (alpha-particles)</meaning>
+</definition>
+<definition id="fs-id1163709837130">
+<term>Balmer formula</term>
+<meaning id="fs-id1163709837136">describes the emission spectrum of a hydrogen atom in the visible-light range</meaning>
+</definition>
+<definition id="fs-id1163709837140">
+<term>Balmer series</term>
+<meaning id="fs-id1163709837145">spectral lines corresponding to electron transitions to/from the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> state of the hydrogen atom, described by the Balmer formula</meaning>
+</definition>
+<definition id="fs-id1163709679224">
+<term>β-ray</term>
+<meaning id="fs-id1163709679229">beam of electrons</meaning>
+</definition>
+<definition id="fs-id1163709679234">
+<term>Bohr radius of hydrogen</term>
+<meaning id="fs-id1163709679239">radius of the first Bohr’s orbit</meaning>
+</definition>
+<definition id="fs-id1163713535514">
+<term>Bohr’s model of the hydrogen atom</term>
+<meaning id="fs-id1163713535519">first quantum model to explain emission spectra of hydrogen</meaning>
+</definition>
+<definition id="fs-id1163713535523">
+<term>Brackett series</term>
+<meaning id="fs-id1163713535528">spectral lines corresponding to electron transitions to/from the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> state</meaning>
+</definition>
+<definition id="fs-id1163713513317">
+<term>emission spectrum</term>
+<meaning id="fs-id1163713513322">wavelengths of emitted radiation by atoms and molecules</meaning>
+</definition>
+<definition id="fs-id1163713513327">
+<term>energy spectrum of hydrogen</term>
+<meaning id="fs-id1163713513332">set of allowed discrete energies of an electron in a hydrogen atom</meaning>
+</definition>
+<definition id="fs-id1163713513336">
+<term>excited energy states of the H atom</term>
+<meaning id="fs-id1163713195307">energy state other than the ground state</meaning>
+</definition>
+<definition id="fs-id1163713195311">
+<term>Fraunhofer lines</term>
+<meaning id="fs-id1163713195316">dark absorption lines in the continuum solar emission spectrum</meaning>
+</definition>
+<definition id="fs-id1163713195320">
+<term>γ-ray</term>
+<meaning id="fs-id1163713195326">beam of highly energetic photons</meaning>
+</definition>
+<definition id="fs-id1163713430117">
+<term>ground state energy of the hydrogen atom</term>
+<meaning id="fs-id1163713430122">energy of an electron in the first Bohr orbit of the hydrogen atom</meaning>
+</definition>
+<definition id="fs-id1163713430127">
+<term>Humphreys series</term>
+<meaning id="fs-id1163713430132">spectral lines corresponding to electron transitions to/from the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> state</meaning>
+</definition>
+<definition id="fs-id1163709831628">
+<term>hydrogen-like atom</term>
+<meaning id="fs-id1163709831633">ionized atom with one electron remaining and nucleus with charge <m:math><m:mrow><m:mo>+</m:mo><m:mi>Z</m:mi><m:mi>e</m:mi></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1163709831646">
+<term>ionization energy</term>
+<meaning id="fs-id1163709831651">energy needed to remove an electron from an atom</meaning>
+</definition>
+<definition id="fs-id1163713557561">
+<term>ionization limit of the hydrogen atom</term>
+<meaning id="fs-id1163713557566">ionization energy needed to remove an electron from the first Bohr orbit</meaning>
+</definition>
+<definition id="fs-id1163713557570">
+<term>Lyman series</term>
+<meaning id="fs-id1163713557576">spectral lines corresponding to electron transitions to/from the ground state</meaning>
+</definition>
+<definition id="fs-id1163713557580">
+<term>nuclear model of the atom</term>
+<meaning id="fs-id1163713557585">heavy positively charged nucleus at the center is surrounded by electrons, proposed by Rutherford</meaning>
+</definition>
+<definition id="fs-id1163709821220">
+<term>Paschen series</term>
+<meaning id="fs-id1163709821226">spectral lines corresponding to electron transitions to/from the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> state</meaning>
+</definition>
+<definition id="fs-id1163709821239">
+<term>Pfund series</term>
+<meaning id="fs-id1163713513434">spectral lines corresponding to electron transitions to/from the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> state</meaning>
+</definition>
+<definition id="fs-id1163713513448">
+<term>postulates of Bohr’s model</term>
+<meaning id="fs-id1163713513454">three assumptions that set a frame for Bohr’s model</meaning>
+</definition>
+<definition id="fs-id1163713513459">
+<term>quantum number</term>
+<meaning id="fs-id1163713537359">index that enumerates energy levels</meaning>
+</definition>
+<definition id="fs-id1163713537364">
+<term>Rutherford’s gold foil experiment</term>
+<meaning id="fs-id1163713537369">first experiment to demonstrate the existence of the atomic nucleus</meaning>
+</definition>
+<definition id="fs-id1163713537373">
+<term>Rydberg constant for hydrogen</term>
+<meaning id="fs-id1163713537379">physical constant in the Balmer formula</meaning>
+</definition>
+<definition id="fs-id1163713537383">
+<term>Rydberg formula</term>
+<meaning id="fs-id1163713537388">experimentally found positions of spectral lines of hydrogen atom</meaning>
+</definition>
+</glossary>
+</document>

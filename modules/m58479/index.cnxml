@@ -1,0 +1,214 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Induced Electric Fields</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58479</md:content-id>
+  <md:title>Induced Electric Fields</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Connect the relationship between an induced emf from Faraday’s law to an electric field, thereby showing that a changing magnetic flux creates an electric field</item>
+<item>Solve for the electric field based on a changing magnetic flux in time</item>
+</list></md:abstract>
+  <md:uuid>17e524bd-f433-4fd0-ae98-b39cce095009</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171241204243">The fact that emfs are induced in circuits implies that work is being done on the conduction electrons in the wires. What can possibly be the source of this work? We know that it’s neither a battery nor a magnetic field, for a battery does not have to be present in a circuit where current is induced, and magnetic fields never do work on moving charges. The answer is that the source of the work is an electric field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> that is induced in the wires. The work done by <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> in moving a unit charge completely around a circuit is the induced emf ε; that is,</para>
+<equation id="fs-id1171241198392"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1171241057622">where <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow/></m:mrow></m:mstyle></m:mrow></m:math> represents the line integral around the circuit. Faraday’s law can be written in terms of the <term>induced electric field</term> as</para>
+<equation id="fs-id1171241245801"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mo>−</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241151786">There is an important distinction between the electric field induced by a changing magnetic field and the electrostatic field produced by a fixed charge distribution. Specifically, the induced electric field is nonconservative because it does net work in moving a charge over a closed path, whereas the electrostatic field is conservative and does no net work over a closed path. Hence, electric potential can be associated with the electrostatic field, but not with the induced field. The following equations represent the distinction between the two types of electric field:</para>
+<equation id="fs-id1171241321731"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>≠</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mtext>induced</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mtext>electrostatic</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171241141534">Our results can be summarized by combining these equations:</para>
+<note id="fs-id1171241203698" class="equation-callout">
+<equation id="fs-id1171241323591"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mtext>−</m:mtext></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1171241195336">
+<para id="fs-id1171241244436"><title>Induced Electric Field in a Circular Coil</title>
+What is the induced electric field in the circular coil of <link target-id="fs-id1171242446729" document="m58476"/> (and <link target-id="CNX_UPhysics_30_02_Circle" document="m58476"/>) at the three times indicated?</para>
+<para id="fs-id1171241091640"><title>Strategy</title>
+Using cylindrical symmetry, the electric field integral simplifies into the electric field times the circumference of a circle. Since we already know the induced emf, we can connect these two expressions by Faraday’s law to solve for the induced electric field.</para>
+<para id="fs-id1171241203115"><title>Solution</title>
+The induced electric field in the coil is constant in magnitude over the cylindrical surface, similar to how Ampere’s law problems with cylinders are solved. Since <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is tangent to the coil,</para>
+<equation id="fs-id1171240984625" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>E</m:mi><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>E</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241342749">When combined with <link target-id="fs-id1171241323591"/>, this gives</para>
+<equation id="fs-id1171240951972" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241158935">The direction of <m:math><m:mi>ε</m:mi></m:math> is counterclockwise, and <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> circulates in the same direction around the coil. The values of <emphasis effect="italics">E</emphasis> are</para>
+<equation id="fs-id1171241075648" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.9</m:mn><m:mspace width="0.2em"/><m:mtext>V/m;</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4.7</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mtext>V/m;</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>3</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.040</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.013</m:mn><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171241066391"><title>Significance</title>
+When the magnetic flux through a circuit changes, a nonconservative electric field is induced, which drives current through the circuit. But what happens if <m:math><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> in free space where there isn’t a conducting path? The answer is that this case can be treated <emphasis effect="italics">as if a conducting path were present</emphasis>; that is, nonconservative electric fields are induced wherever <m:math><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> whether or not there is a conducting path present.</para>
+<para id="fs-id1171241200342">These nonconservative electric fields always satisfy <link target-id="fs-id1171241323591"/>. For example, if the circular coil of <link target-id="CNX_UPhysics_30_02_Circle" document="m58476"/> were removed, an electric field <emphasis effect="italics">in free space</emphasis> at <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> would still be directed counterclockwise, and its magnitude would still be 1.9 V/m at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, 1.5 V/m at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> etc. The existence of induced electric fields is certainly <emphasis effect="italics">not</emphasis> restricted to wires in circuits.</para>
+</example>
+<example id="fs-id1171241016755">
+<para id="fs-id1171240990101"><title>Electric Field Induced by the Changing Magnetic Field of a Solenoid</title>
+Part (a) of <link target-id="CNX_UPhysics_30_04_Solenoid"/> shows a long solenoid with radius <emphasis effect="italics">R</emphasis> and <emphasis effect="italics">n</emphasis> turns per unit length; its current decreases with time according to <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> What is the magnitude of the induced electric field at a point a distance <emphasis effect="italics">r</emphasis> from the central axis of the solenoid (a) when <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>R</m:mi></m:mrow></m:math> and (b) when <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi></m:mrow></m:math> [see part (b) of <link target-id="CNX_UPhysics_30_04_Solenoid"/>]. (c) What is the direction of the induced field at both locations? Assume that the infinite-solenoid approximation is valid throughout the regions of interest.</para>
+<figure id="CNX_UPhysics_30_04_Solenoid">
+<media id="fs-id1171241035326" alt="Figure A shows a side view of the long solenoid with the electrical current flowing through it. Figure B shows a cross-sectional view of the solenoid from its left end.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_04_Solenoid.jpg"/>
+</media>
+<caption>(a) The current in a long solenoid is decreasing exponentially. (b) A cross-sectional view of the solenoid from its left end. The cross-section shown is near the middle of the solenoid. An electric field is induced both inside and outside the solenoid.</caption>
+</figure>
+<para id="fs-id1171241094382"><title>Strategy</title>
+Using the formula for the magnetic field inside an infinite solenoid and Faraday’s law, we calculate the induced emf. Since we have cylindrical symmetry, the electric field integral reduces to the electric field times the circumference of the integration path. Then we solve for the electric field.</para>
+<para id="fs-id1171241082512"><title>Solution</title></para>
+<list id="fs-id1171241273247" list-type="enumerated" number-style="lower-alpha">
+<item>The magnetic field is confined to the interior of the solenoid where
+<equation id="fs-id1171240994834" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Thus, the magnetic flux through a circular path whose radius <emphasis effect="italics">r</emphasis> is greater than <emphasis effect="italics">R</emphasis>, the solenoid radius, is
+<equation id="fs-id1171240988292" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+The induced field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is tangent to this path, and because of the cylindrical symmetry of the system, its magnitude is constant on the path. Hence, we have
+<equation id="fs-id1171240988508" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>|</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>α</m:mi><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>E</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>α</m:mi><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>For a path of radius <emphasis effect="italics">r</emphasis> inside the solenoid, <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> so
+<equation id="fs-id1171241235897" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>α</m:mi><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+and the induced field is
+<equation id="fs-id1171241083066" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>α</m:mi><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>r</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The magnetic field points into the page as shown in part (b) and is decreasing. If either of the circular paths were occupied by conducting rings, the currents induced in them would circulate as shown, in conformity with Lenz’s law. The induced electric field must be so directed as well.</item>
+</list>
+<para id="fs-id1171241244155"><title>Significance</title>
+In part (b), note that <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow></m:mrow></m:math> increases with <emphasis effect="italics">r</emphasis> inside and decreases as 1/<emphasis effect="italics">r</emphasis> outside the solenoid, as shown in <link target-id="CNX_UPhysics_30_04_Evsr"/>.</para>
+<figure id="CNX_UPhysics_30_04_Evsr">
+<media id="fs-id1171241130904" alt="Figure is a plot of the electric field E versus distance r. Electric field is zero at the beginning, rises linearly till r equal to R, reaches sharp maximum at R, and falls of proportional to 1/r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_04_Evsr.jpg"/>
+</media>
+<caption>The electric field vs. distance <emphasis effect="italics">r</emphasis>. When <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> the electric field rises linearly, whereas when <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> the electric field falls of proportional to 1/<emphasis effect="italics">r</emphasis>.</caption>
+</figure>
+</example>
+<note id="fs-id1171241157923" class="check-understanding">
+<exercise id="fs-id1171241243710">
+<problem id="fs-id1171241248499">
+<para id="fs-id1171241425740"><emphasis effect="bold">Check Your Understanding</emphasis> Suppose that the coil of <link target-id="fs-id1171242446729" document="m58476"/> is a square rather than circular. Can <link target-id="fs-id1171241323591"/> be used to calculate (a) the induced emf and (b) the induced electric field?</para>
+</problem>
+<solution id="fs-id1171241197414">
+<para id="fs-id1171241142920">a. yes; b. Yes; however there is a lack of symmetry between the electric field and coil, making <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> a more complicated relationship that can’t be simplified as shown in the example.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171240945988" class="check-understanding">
+<exercise id="fs-id1171241331054">
+<problem id="fs-id1171241331056">
+<para id="fs-id1171241088370"><emphasis effect="bold">Check Your Understanding</emphasis> What is the magnitude of the induced electric field in <link target-id="fs-id1171241016755"/> at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> if <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2000</m:mn></m:mrow></m:math> turns per meter, <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>1</m:mn></m:mrow></m:msup><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1171241075827">
+<para id="fs-id1171241075829"><m:math><m:mrow><m:mn>3.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171241192683" class="check-understanding">
+<exercise id="fs-id1171241129179">
+<problem id="fs-id1171241129181">
+<para id="fs-id1171241129183"><emphasis effect="bold">Check Your Understanding</emphasis> The magnetic field shown below is confined to the cylindrical region shown and is changing with time. Identify those paths for which <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>≠</m:mo><m:mn>0.</m:mn></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></para>
+<media id="fs-id1171241195887" alt="Figure shows the magnetic filed confined within the cylindrical region. Area P1 partially lies in the magnetic field. Area P2 is larger that the area of magnetic field and completely includes it. Area P3 lies outside of the magnetic field. Area P4 is smaller than the area of the magnetic field and is completely included within it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_04_Region_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171241094324">
+<para id="fs-id1171241414829"><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171241255355" class="check-understanding">
+<exercise id="fs-id1171241255358">
+<problem id="fs-id1171241131182">
+<para id="fs-id1171241131184"><emphasis effect="bold">Check Your Understanding</emphasis> A long solenoid of cross-sectional area <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> is wound with 25 turns of wire per centimeter. It is placed in the middle of a closely wrapped coil of 10 turns and radius 25 cm, as shown below. (a) What is the emf induced in the coil when the current through the solenoid is decreasing at a rate <m:math><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>−0.20</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo>?</m:mo></m:mrow></m:math> (b) What is the electric field induced in the coil?</para>
+<media id="fs-id1171241165866" alt="Figure shows a long solenoid placed in the middle of a closely wrapped coil with radius of 25 cm.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_04_SCoil.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171241451052">
+<para id="fs-id1171241451054">a. <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>6</m:mn></m:mrow></m:msup><m:mtext>V</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1171241153673" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1171241257935" list-type="bulleted" bullet-style="bullet">
+<item>A changing magnetic flux induces an electric field.</item>
+<item>Both the changing magnetic flux and the induced electric field are related to the induced emf from Faraday’s law.</item>
+</list>
+</section>
+<section id="fs-id1171241132657" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1171241132504">
+<problem id="fs-id1171241132506">
+<para id="fs-id1171241132508">Is the work required to accelerate a rod from rest to a speed <emphasis effect="italics">v</emphasis> in a magnetic field greater than the final kinetic energy of the rod? Why?</para>
+</problem>
+<solution id="fs-id1171240975000">
+<para id="fs-id1171240975002">The work is greater than the kinetic energy because it takes energy to counteract the induced emf.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241134196">
+<problem id="fs-id1171241134198">
+<para id="fs-id1171241134200">The copper sheet shown below is partially in a magnetic field. When it is pulled to the right, a resisting force pulls it to the left. Explain. What happen if the sheet is pushed to the left?</para>
+<media id="fs-id1171241148028" alt="Figure shows a copper sheet pulled to the right through the uniform perpendicular magnetic field with the force F.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_20_Quest_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1171241195649" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1171241183790">
+<problem id="fs-id1171241183792">
+<para id="fs-id1171241183794">Calculate the induced electric field in a 50-turn coil with a diameter of 15 cm that is placed in a spatially uniform magnetic field of magnitude 0.50 T so that the face of the coil and the magnetic field are perpendicular. This magnetic field is reduced to zero in 0.10 seconds. Assume that the magnetic field is cylindrically symmetric with respect to the central axis of the coil.</para>
+</problem>
+<solution id="fs-id1171241197423">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171241246077">9.375 V/m</para></solution>
+</exercise>
+<exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171241255876"><problem id="fs-id1171241255878">
+<para id="fs-id1171241255880">The magnetic field through a circular loop of radius 10.0 cm varies with time as shown in the accompanying figure. The field is perpendicular to the loop. Assuming cylindrical symmetry with respect to the central axis of the loop, plot the induced electric field in the loop as a function of time.</para><media id="fs-id1121241148028" alt="">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_07pr_img_new.jpg"/>
+</media>
+ </problem>
+</exercise><exercise id="fs-id1171241247333">
+<problem id="fs-id1171241247335">
+<para id="fs-id1171241204624">The current <emphasis effect="italics">I</emphasis> through a long solenoid with <emphasis effect="italics">n</emphasis> turns per meter and radius <emphasis effect="italics">R</emphasis> is changing with time as given by <emphasis effect="italics">dI</emphasis>/<emphasis effect="italics">dt</emphasis>. Calculate the induced electric field as a function of distance <emphasis effect="italics">r</emphasis> from the central axis of the solenoid.</para>
+</problem>
+<solution id="fs-id1171241207785">
+<para id="fs-id1171241202414">Inside, <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mtext>,</m:mtext><m:mspace width="0.5em"/><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> so, <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>r</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> (inside). Outside, <m:math><m:mrow><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> so, <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> (outside)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241330321">
+<problem id="fs-id1171241330323">
+<para id="fs-id1171241330325">Calculate the electric field induced both inside and outside the solenoid of the preceding problem if <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241185426">
+<problem id="fs-id1171241185428">
+<para id="fs-id1171241185430">Over a region of radius <emphasis effect="italics">R</emphasis>, there is a spatially uniform magnetic field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> (See below.) At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>T,</m:mtext></m:mrow></m:math> after which it decreases at a constant rate to zero in 30 s. (a) What is the electric field in the regions where <m:math><m:mrow><m:mi>r</m:mi><m:mo>≤</m:mo><m:mi>R</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi></m:mrow></m:math> during that 30-s interval? (b) Assume that <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>. How much work is done by the electric field on a proton that is carried once clock wise around a circular path of radius 5.0 cm? (c) How much work is done by the electric field on a proton that is carried once counterclockwise around a circular path of any radius <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi></m:mrow></m:math>? (d) At the instant when <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math>, a proton enters the magnetic field at <emphasis effect="italics">A</emphasis>, moving a velocity <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> as shown. What are the electric and magnetic forces on the proton at that instant?</para>
+<media id="fs-id1171241131068" alt="Figure shows a proton carried into a uniform magnetic field with a radius R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_33pr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171241129190">
+<para id="fs-id1171241129192">a. <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>inside</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac><m:mi>r</m:mi><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>outside</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>4.19</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; c. 0 J; d. <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>mag</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>elec</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−22</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241330299">
+<problem id="fs-id1171241330301">
+<para id="fs-id1171241330486">The magnetic field at all points within the cylindrical region whose cross-section is indicated in the accompanying figure starts at 1.0 T and decreases uniformly to zero in 20 s. What is the electric field (both magnitude and direction) as a function of <emphasis effect="italics">r</emphasis>, the distance from the geometric center of the region?</para>
+<media id="fs-id1171241330495" alt="Figure shows a uniform magnetic field with a radius of 20 centimeters.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_34pr_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171241460910">
+<problem id="fs-id1171241460912">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171241460914">The current in a long solenoid with 20 turns per centimeter of radius 3 cm is varied with time at a rate of 2 A/s. A circular loop of wire of radius 5 cm and resistance <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> surrounds the solenoid. Find the electrical current induced in the loop.</para></problem>
+<solution id="fs-id1171241154619">
+<para id="fs-id1171241154621"><m:math><m:mrow><m:mn>7.1</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>A</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241431590">
+<problem id="fs-id1171241431593">
+<para id="fs-id1171241431595">The current in a long solenoid of radius 3 cm and 20 turns/cm is varied with time at a rate of 2 A/s. Find the electric field at a distance of 4 cm from the center of the solenoid.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171241245169">
+<term>induced electric field</term>
+<meaning id="fs-id1171241245174">created based on the changing magnetic flux with time</meaning>
+</definition>
+</glossary>
+</document>

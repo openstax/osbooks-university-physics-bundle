@@ -1,0 +1,273 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Heat Capacity and Equipartition of Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58393</md:content-id>
+  <md:title>Heat Capacity and Equipartition of Energy</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Solve problems involving heat transfer to and from ideal monatomic gases whose volumes are held constant</item>
+<item>Solve similar problems for non-monatomic ideal gases based on the number of degrees of freedom of a molecule</item>
+<item>Estimate the heat capacities of metals using a model based on degrees of freedom</item></list></md:abstract>
+  <md:uuid>98bcf6e9-6dbf-4011-aac1-129bb34b5278</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172098714628">In the chapter on temperature and heat, we defined the specific heat capacity with the equation <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> or <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>. However, the properties of an ideal gas depend directly on the number of moles in a sample, so here we define specific heat capacity in terms of the number of moles, not the mass. Furthermore, when talking about solids and liquids, we ignored any changes in volume and pressure with changes in temperature—a good approximation for solids and liquids, but for gases, we have to make some condition on volume or pressure changes. Here, we focus on the heat capacity with the volume held constant. We can calculate it for an ideal gas.</para>
+<section id="fs-id1172100974304">
+<title>Heat Capacity of an Ideal Monatomic Gas at Constant Volume</title>
+<para id="fs-id1172096030973">We define the <term class="no-emphasis"><emphasis effect="italics">molar heat capacity at constant volume</emphasis></term> <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> as</para>
+<equation id="fs-id1172098566696" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>with</m:mtext><m:mspace width="0.2em"/><m:mi>V</m:mi><m:mspace width="0.2em"/><m:mtext>held constant</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172096076046">This is often expressed in the form</para>
+<note id="fs-id1172100623460" class="equation-callout">
+<equation id="fs-id1172100981775"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172100715507">If the volume does not change, there is no overall displacement, so no work is done, and the only change in internal energy is due to the heat flow <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>.</m:mo></m:mrow></m:math> (This statement is discussed further in the next chapter.) We use the equation <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math> to write <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>R</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math> and substitute <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> for <emphasis effect="italics">Q</emphasis> to find <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>R</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>, which gives the following simple result for an ideal monatomic gas:</para>
+<equation id="fs-id1172100529526" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100854990">It is independent of temperature, which justifies our use of finite differences instead of a derivative. This formula agrees well with experimental results.</para>
+<para id="fs-id1172100937613">In the next chapter we discuss the molar specific heat at constant pressure <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> which is always greater than <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1172096016703">
+<para id="fs-id1172100563470"><title>Calculating Temperature</title>
+A sample of 0.125 kg of xenon is contained in a rigid metal cylinder, big enough that the xenon can be modeled as an ideal gas, at a temperature of <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. The cylinder is moved outside on a hot summer day. As the xenon comes into equilibrium by reaching the temperature of its surroundings, 180 J of heat are conducted to it through the cylinder walls. What is the equilibrium temperature? Ignore the expansion of the metal cylinder.</para>
+<para id="fs-id1172098449406"><title>Solution</title></para>
+<list id="fs-id1172100894015" list-type="enumerated" number-style="arabic">
+<item>Identify the knowns: We know the initial temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, the heat <emphasis effect="italics">Q</emphasis> is 180 J, and the mass <emphasis effect="italics">m</emphasis> of the xenon is 0.125 kg.</item>
+<item>Identify the unknown. We need the final temperature, so we’ll need <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>.</item>
+<item>Determine which equations are needed. Because xenon gas is monatomic, we can use <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>R</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> Then we need the number of moles, <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mtext>/</m:mtext><m:mi>M</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Substitute the known values into the equations and solve for the unknowns.<newline/>
+The molar mass of xenon is 131.3 g, so we obtain
+<equation id="fs-id1172100841128" class="unnumbered"><label/><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>125</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow><m:mrow><m:mn>131.3</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.952</m:mn><m:mspace width="0.2em"/><m:mtext>mol,</m:mtext></m:mrow></m:math></equation>
+<equation id="fs-id1172100664522" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>Q</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0.952</m:mn><m:mspace width="0.2em"/><m:mtext>mol</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8.31</m:mn><m:mspace width="0.2em"/><m:mtext>J/mol</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>15.2</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Therefore, the final temperature is <m:math><m:mrow><m:mn>35.2</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. The problem could equally well be solved in kelvin; as a kelvin is the same size as a degree Celsius of temperature change, you would get <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>15.2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+</list>
+<para id="fs-id1172098790637"><title>Significance</title>
+The heating of an ideal or almost ideal gas at constant volume is important in car engines and many other practical systems.</para>
+</example>
+<note id="fs-id1172098524927" class="check-understanding">
+<exercise id="fs-id1172098699963">
+<problem id="fs-id1172100991399">
+<para id="fs-id1172098722294"><emphasis effect="bold">Check Your Understanding</emphasis> Suppose 2 moles of helium gas at 200 K are mixed with 2 moles of krypton gas at 400 K in a calorimeter. What is the final temperature?</para>
+</problem>
+<solution id="fs-id1172100527957">
+<para id="fs-id1172100644070">As the number of moles is equal and we know the molar heat capacities of the two gases are equal, the temperature is halfway between the initial temperatures, 300 K.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1172098371727">We would like to generalize our results to ideal gases with more than one atom per molecule. In such systems, the molecules can have other forms of energy beside translational kinetic energy, such as rotational kinetic energy and vibrational kinetic and potential energies. We will see that a simple rule lets us determine the average energies present in these forms and solve problems in much the same way as we have for monatomic gases.</para>
+</section>
+<section id="fs-id1172098598559">
+<title>Degrees of Freedom</title>
+<para id="fs-id1172100617206">In the previous section, we found that <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mn>3</m:mn><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:math>, from which it follows that <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math>. The same equation holds for <m:math><m:mrow><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:math> and for <m:math><m:mrow><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>z</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:math>. Thus, we can look at our energy of <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> as the sum of contributions of <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> from each of the three dimensions of translational motion. Shifting to the gas as a whole, we see that the 3 in the formula <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi></m:mrow></m:math> also reflects those three dimensions. We define a <term>degree of freedom</term> as an independent possible motion of a molecule, such as each of the three dimensions of translation. Then, letting <emphasis effect="italics">d</emphasis> represent the number of degrees of freedom, the molar heat capacity at constant volume of a monatomic ideal gas is <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+<para id="fs-id1172098733834">The branch of physics called <emphasis effect="italics">statistical mechanics</emphasis> tells us, and experiment confirms, that <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> of any ideal gas is given by this equation, regardless of the number of degrees of freedom. This fact follows from a more general result, the <term>equipartition theorem</term>, which holds in classical (non-quantum) thermodynamics for systems in thermal equilibrium under technical conditions that are beyond our scope. Here, we mention only that in a system, the energy is shared among the degrees of freedom by collisions.</para>
+<note id="fs-id1172098432136">
+<title>Equipartition Theorem</title>
+<para id="fs-id1172100590123">The energy of a thermodynamic system in equilibrium is partitioned equally among its degrees of freedom. Accordingly, the molar heat capacity of an ideal gas is proportional to its number of degrees of freedom, <emphasis effect="italics">d</emphasis>:</para>
+<equation id="fs-id1172100959365"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172096037909">This result is due to the Scottish physicist James Clerk <term class="no-emphasis">Maxwell</term> (1831−1871), whose name will appear several more times in this book.</para>
+<para id="fs-id1172100735531">For example, consider a diatomic ideal gas (a good model for nitrogen, <m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and oxygen, <m:math><m:mrow><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Such a gas has more degrees of freedom than a monatomic gas. In addition to the three degrees of freedom for translation, it has two degrees of freedom for rotation perpendicular to its axis. Furthermore, the molecule can vibrate along its axis. This motion is often modeled by imagining a spring connecting the two atoms, and we know from simple harmonic motion that such motion has both kinetic and potential energy. Each of these forms of energy corresponds to a degree of freedom, giving two more.</para>
+<para id="fs-id1172098308617">We might expect that for a diatomic gas, we should use 7 as the number of degrees of freedom; classically, if the molecules of a gas had only translational kinetic energy, collisions between molecules would soon make them rotate and vibrate. However, as explained in the previous module, quantum mechanics controls which degrees of freedom are active. The result is shown in <link target-id="CNX_UPhysics_19_03_DegFreedom"/>. Both rotational and vibrational energies are limited to discrete values. For temperatures below about 60 K, the energies of hydrogen molecules are too low for a collision to bring the rotational state or vibrational state of a molecule from the lowest energy to the second lowest, so the only form of energy is translational kinetic energy, and <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> or <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math> as in a monatomic gas. Above that temperature, the two rotational degrees of freedom begin to contribute, that is, some molecules are excited to the rotational state with the second-lowest energy. (This temperature is much lower than that where rotations of monatomic gases contribute, because diatomic molecules have much higher rotational inertias and hence much lower rotational energies.) From about room temperature (a bit less than 300 K) to about 600 K, the rotational degrees of freedom are fully active, but the vibrational ones are not, and <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>. Then, finally, above about 3000 K, the vibrational degrees of freedom are fully active, and <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> as the classical theory predicted.</para>
+<figure id="CNX_UPhysics_19_03_DegFreedom">
+<media id="fs-id1172098317398" alt="A graph of the molar heat capacity C V in joules per mole Kelvin as a function of temperature in Kelvin. The horizontal scale is logarithmic and extends from 10 to 10,000. The vertical scale is linear and extends from 10 to 30. The graph shows three steps. The first extends from about 20 K to 50 K at a constant value of about 12.5 Joules per Mole Kelvin. This step is labeled three halves R. The graph rises gradually to another step that extends from about 300 K to about 500 K at a constant value of about 20 Joules per Mole Kelvin. This step is labeled five halves R. The graph again rises gradually and flattens to start a third step at around 3000 K at a constant value of just under 30 Joules per Mole Kelvin. This step is labeled seven halves R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_03_DegFreedom.jpg"/>
+</media>
+<caption>The molar heat capacity of hydrogen as a function of temperature (on a logarithmic scale). The three “steps” or “plateaus” show different numbers of degrees of freedom that the typical energies of molecules must achieve to activate. Translational kinetic energy corresponds to three degrees of freedom, rotational to another two, and vibrational to yet another two.</caption>
+</figure>
+<para id="fs-id1172100959807">Polyatomic molecules typically have one additional rotational degree of freedom at room temperature, since they have comparable moments of inertia around any axis. Thus, at room temperature, they have <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math> and at high temperature, <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math> We usually assume that gases have the theoretical room-temperature values of <emphasis effect="italics">d</emphasis>.</para>
+<para id="fs-id1172098275449">As shown in <link target-id="fs-id1172100673759"/>, the results agree well with experiments for many monatomic and diatomic gases, but the agreement for triatomic gases is only fair. The differences arise from interactions that we have ignored between and within molecules.</para>
+<table id="fs-id1172100673759" summary="The table has two columns and 12 rows. The first row is a header row with headings “Gas” and “C v over R at 25 degrees Celcius and one atmosphere.” The first column entries are A r, H e, N e, C O, H 2, N 2, O 2, F 2, C O 2, H 2 S, N 2 O. The second column entries are 1.50, 1.50, 1.50, 2.50, 2.47, 2.50, 2.53, 2.8, 3.48, 3.13, 3.66.">
+<title><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math> for Various Monatomic, Diatomic, and Triatomic Gases</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Gas</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math> at <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and 1 atm</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Ar</entry>
+<entry valign="top" align="center">1.50</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">He</entry>
+<entry valign="top" align="center">1.50</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ne</entry>
+<entry valign="top" align="center">1.50</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">CO</entry>
+<entry valign="top" align="center">2.50</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center">2.47</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center">2.50</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center">2.53</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center">2.8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center">3.48</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>S</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center">3.13</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center">3.66</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1172100841876">What about internal energy for diatomic and polyatomic gases? For such gases, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> is a function of temperature (<link target-id="CNX_UPhysics_19_03_DegFreedom"/>), so we do not have the kind of simple result we have for monatomic ideal gases.</para>
+</section>
+<section id="fs-id1172098650642">
+<title>Molar Heat Capacity of Solid Elements</title>
+<para id="fs-id1172100915997">The idea of equipartition leads to an estimate of the molar heat capacity of solid elements at ordinary temperatures. We can model the atoms of a solid as attached to neighboring atoms by springs (<link target-id="CNX_UPhysics_19_03_MetalSprng"/>).</para>
+<figure id="CNX_UPhysics_19_03_MetalSprng">
+<media id="fs-id1172100991060" alt="The figure is an illustration of a model of a solid. Seven atoms, one at the center and one on either side, above, below, in front and behind it, are represented as small spheres. The center atom is connected to each of the others by a spring, labeled as ideal springs. The neighboring atoms have additional springs to connect them to their nearest neighbors, which are not included in the drawing.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_03_MetalSprng.jpg"/>
+</media>
+<caption>In a simple model of a solid element, each atom is attached to others by six springs, two for each possible motion: <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>, and <emphasis effect="italics">z</emphasis>. Each of the three motions corresponds to two degrees of freedom, one for kinetic energy and one for potential energy. Thus <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1172098730890">Analogously to the discussion of vibration in the previous module, each atom has six degrees of freedom: one kinetic and one potential for each of the <emphasis effect="italics">x</emphasis>-, <emphasis effect="italics">y</emphasis>-, and <emphasis effect="italics">z</emphasis>-directions. Accordingly, the molar specific heat of a metal should be 3<emphasis effect="italics">R</emphasis>. This result, known as the <term class="no-emphasis">Law of Dulong and Petit</term>, works fairly well experimentally at room temperature. (For every element, it fails at low temperatures for quantum-mechanical reasons. Since quantum effects are particularly important for low-mass particles, the Law of Dulong and Petit already fails at room temperature for some light elements, such as beryllium and carbon. It also fails for some heavier elements for various reasons beyond what we can cover.)</para>
+<note id="fs-id1172100621493" class="problem-solving">
+<title>Heat Capacity and Equipartition</title>
+<para id="fs-id1172100617814">The strategy for solving these problems is the same as the one in <link document="m58388">Phase Changes</link> for the effects of heat transfer. The only new feature is that you should determine whether the case just presented—ideal gases at constant volume—applies to the problem. (For solid elements, looking up the specific heat capacity is generally better than estimating it from the Law of Dulong and Petit.) In the case of an ideal gas, determine the number <emphasis effect="italics">d</emphasis> of degrees of freedom from the number of atoms in the gas molecule and use it to calculate <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> (or use <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> to solve for <emphasis effect="italics">d</emphasis>).</para>
+</note>
+<example id="fs-id1172098418051">
+<para id="fs-id1172100986540"><title>Calculating Temperature: Calorimetry with an Ideal Gas</title>
+A 300-g piece of solid gallium (a metal used in semiconductor devices) at its melting point of only <m:math><m:mrow><m:mn>30.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is in contact with 12.0 moles of air (assumed diatomic) at <m:math><m:mrow><m:mn>95.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> in an insulated container. When the air reaches equilibrium with the gallium, 202 g of the gallium have melted. Based on those data, what is the heat of fusion of gallium? Assume the volume of the air does not change and there are no other heat transfers.</para>
+<para id="fs-id1172100575288"><title>Strategy</title>
+We’ll use the equation <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>hot</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>cold</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> As some of the gallium doesn’t melt, we know the final temperature is still the melting point. Then the only <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>hot</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the heat lost as the air cools, <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>hot</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>air</m:mtext></m:mrow></m:msub><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> The only <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>cold</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the latent heat of fusion of the gallium, <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>cold</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Ga</m:mtext></m:mrow></m:msub><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> It is positive because heat flows into the gallium.</para>
+<para id="fs-id1172101038372"><title>Solution</title></para>
+<list id="fs-id1172100803337" list-type="enumerated" number-style="arabic">
+<item>Set up the equation:
+<equation id="fs-id1172100824453" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>air</m:mtext></m:mrow></m:msub><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Ga</m:mtext></m:mrow></m:msub><m:mspace width="0.2em"/><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Substitute the known values and solve: 
+<equation id="fs-id1172100634488" class="unnumbered"><label/><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mtext>mol</m:mtext><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.31</m:mn><m:mfrac><m:mtext>J</m:mtext><m:mrow><m:mtext>mol</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>30.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>95.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.202</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msub><m:mrow><m:mtext>L</m:mtext></m:mrow><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+We solve to find that the heat of fusion of gallium is 80.2 kJ/kg.</item>
+</list>
+</example>
+</section>
+<section id="fs-id1172100627358" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172100557968" list-type="bulleted" bullet-style="bullet">
+<item>Every degree of freedom of an ideal gas contributes <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> per atom or molecule to its changes in internal energy.</item>
+<item>Every degree of freedom contributes <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi></m:mrow></m:math> to its molar heat capacity at constant volume <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Degrees of freedom do not contribute if the temperature is too low to excite the minimum energy of the degree of freedom as given by quantum mechanics. Therefore, at ordinary temperatures, <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> for monatomic gases, <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> for diatomic gases, and <m:math><m:mrow><m:mi>d</m:mi><m:mo>≈</m:mo><m:mn>6</m:mn></m:mrow></m:math> for polyatomic gases.</item>
+</list>
+</section>
+<section id="fs-id1172100532319" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172100886521">
+<problem id="fs-id1172100900781">
+<para id="fs-id1172100993058">Experimentally it appears that many polyatomic molecules’ vibrational degrees of freedom can contribute to some extent to their energy at room temperature. Would you expect that fact to increase or decrease their heat capacity from the value <emphasis effect="italics">R</emphasis>? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098632103">
+<problem id="fs-id1172098370632">
+<para id="fs-id1172100623888">One might think that the internal energy of diatomic gases is given by <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> Do diatomic gases near room temperature have more or less internal energy than that? <emphasis effect="italics">Hint:</emphasis> Their internal energy includes the total energy added in raising the temperature from the boiling point (very low) to room temperature.</para>
+</problem>
+<solution id="fs-id1172096024846">
+<para id="fs-id1172098278709">Less, because at lower temperatures their heat capacity was only 3<emphasis effect="italics">RT</emphasis>/2.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100745186">
+<problem id="fs-id1172100842100">
+<para id="fs-id1172098548548">You mix 5 moles of <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> at 300 K with 5 moles of He at 360 K in a perfectly insulated calorimeter. Is the final temperature higher or lower than 330 K?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172100969340" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172096077953">
+<problem id="fs-id1172100558782">
+<para id="fs-id1172100921638">To give a helium atom nonzero angular momentum requires about 21.2 eV of energy (that is, 21.2 eV is the difference between the energies of the lowest-energy or ground state and the lowest-energy state with angular momentum). The electron-volt or eV is defined as <m:math><m:mrow><m:mn>1.60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Find the temperature <emphasis effect="italics">T</emphasis> where this amount of energy equals <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> Does this explain why we can ignore the rotational energy of helium for most purposes? (The results for other monatomic gases, and for diatomic gases rotating around the axis connecting the two atoms, have comparable orders of magnitude.)</para>
+</problem>
+<solution id="fs-id1172098730514">
+<para id="fs-id1172098395538"><m:math><m:mrow><m:mn>4.92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>; Yes, that’s an impractically high temperature.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098622901">
+<problem id="fs-id1172100552786">
+<para id="fs-id1172100632653">(a) How much heat must be added to raise the temperature of 1.5 mol of air from <m:math><m:mrow><m:mn>25.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>33.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> at constant volume? Assume air is completely diatomic. (b) Repeat the problem for the same number of moles of xenon, Xe.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100757566">
+<problem id="fs-id1172100757044">
+<para id="fs-id1172100716464">A sealed, rigid container of 0.560 mol of an unknown ideal gas at a temperature of <m:math><m:mrow><m:mn>30.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> is cooled to <m:math><m:mrow><m:mn>−40.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. In the process, 980 J of heat are removed from the gas. Is the gas monatomic, diatomic, or polyatomic?</para>
+</problem>
+<solution id="fs-id1172100583582">
+<para id="fs-id1172100729714">polyatomic</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172096214348">
+<problem id="fs-id1172100642535">
+<para id="fs-id1172096305587">A sample of neon gas (Ne, molar mass <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>20.2</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> at a temperature of <m:math><m:mrow><m:mn>13.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> is put into a steel container of mass 47.2 g that’s at a temperature of <m:math><m:mrow><m:mn>−40.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. The final temperature is<m:math><m:mrow><m:mn>−28.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. (No heat is exchanged with the surroundings, and you can neglect any change in the volume of the container.) What is the mass of the sample of neon?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100992146">
+<problem id="fs-id1172098405909">
+<para id="fs-id1172098408408">A steel container of mass 135 g contains 24.0 g of ammonia, <m:math><m:mrow><m:msub><m:mrow><m:mtext>NH</m:mtext></m:mrow><m:mn>3</m:mn></m:msub></m:mrow></m:math>, which has a molar mass of 17.0 g/mol. The container and gas are in equilibrium at <m:math><m:mrow><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. How much heat has to be removed to reach a temperature of <m:math><m:mrow><m:mn>−20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>
+? Ignore the change in volume of the steel.</para>
+</problem>
+<solution id="fs-id1172100744228">
+<para id="fs-id1172098776041"><m:math><m:mrow><m:mn>3.08</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098321243">
+<problem id="fs-id1172100639888">
+<para id="fs-id1172098696567">A sealed room has a volume of <m:math><m:mrow><m:mn>24</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. It’s filled with air, which may be assumed to be diatomic, at a temperature of <m:math><m:mrow><m:mn>24</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and a pressure of <m:math><m:mrow><m:mn>9.83</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> A 1.00-kg block of ice at its melting point is placed in the room. Assume the walls of the room transfer no heat. What is the equilibrium temperature?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098318467">
+<problem id="fs-id1172100982943">
+<para id="fs-id1172100736205">Heliox, a mixture of helium and oxygen, is sometimes given to hospital patients who have trouble breathing, because the low mass of helium makes it easier to breathe than air. Suppose helium at <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> is mixed with oxygen at <m:math><m:mrow><m:mn>35</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> to make a mixture that is <m:math><m:mrow><m:mn>70</m:mn><m:mi>%</m:mi></m:mrow></m:math> helium by mole. What is the final temperature? Ignore any heat flow to or from the surroundings, and assume the final volume is the sum of the initial volumes.</para>
+</problem>
+<solution id="fs-id1172098723458">
+<para id="fs-id1172101000024"><m:math><m:mrow><m:mn>29.2</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098791819">
+<problem id="fs-id1172098314897">
+<para id="fs-id1172098661570">Professional divers sometimes use heliox, consisting of <m:math><m:mrow><m:mn>79</m:mn><m:mi>%</m:mi></m:mrow></m:math> helium and <m:math><m:mrow><m:mn>21</m:mn><m:mi>%</m:mi></m:mrow></m:math> oxygen by mole. Suppose a perfectly rigid scuba tank with a volume of 11 L contains heliox at an absolute pressure of <m:math><m:mrow><m:mn>2.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> at a temperature of <m:math><m:mrow><m:mn>31</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. (a) How many moles of helium and how many moles of oxygen are in the tank? (b) The diver goes down to a point where the sea temperature is <m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> while using a negligible amount of the mixture. As the gas in the tank reaches this new temperature, how much heat is removed from it?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098393508">
+<problem id="fs-id1172096170446">
+<para id="fs-id1172096082716">In car racing, one advantage of mixing liquid nitrous oxide <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> with air is that the boiling of the “nitrous” absorbs latent heat of vaporization and thus cools the air and ultimately the fuel-air mixture, allowing more fuel-air mixture to go into each cylinder. As a very rough look at this process, suppose 1.0 mol of nitrous oxide gas at its boiling point, <m:math><m:mrow><m:mn>−88</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, is mixed with 4.0 mol of air (assumed diatomic) at <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. What is the final temperature of the mixture? Use the measured heat capacity of <m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext></m:mrow></m:math> at <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, which is <m:math><m:mrow><m:mn>30.4</m:mn><m:mspace width="0.2em"/><m:mtext>J/mol</m:mtext><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. (The primary advantage of nitrous oxide is that it consists of 1/3 oxygen, which is more than air contains, so it supplies more oxygen to burn the fuel. Another advantage is that its decomposition into nitrogen and oxygen releases energy in the cylinder.)</para>
+</problem>
+<solution id="fs-id1172096304745">
+<para id="fs-id1172096232395"><m:math><m:mrow><m:mn>−1.6</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172098314323">
+<term>degree of freedom</term>
+<meaning id="fs-id1172096056226">independent kind of motion possessing energy, such as the kinetic energy of motion in one of the three orthogonal spatial directions</meaning>
+</definition>
+<definition id="fs-id1172098284452">
+<term>equipartition theorem</term>
+<meaning id="fs-id1172098391682">theorem that the energy of a classical thermodynamic system is shared equally among its degrees of freedom</meaning>
+</definition>
+</glossary>
+
+</document>

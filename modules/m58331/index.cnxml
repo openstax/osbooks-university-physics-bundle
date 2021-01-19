@@ -1,0 +1,313 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Torque</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58331</md:content-id>
+  <md:title>Torque</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para> 
+<list>
+<item>Describe how the magnitude of a torque depends on the magnitude of the lever arm and the angle the force vector makes with the lever arm</item>
+<item>Determine the sign (positive or negative) of a torque using the right-hand rule</item>
+<item>Calculate individual torques about a common axis and sum them to find the net torque</item>
+</list></md:abstract>
+  <md:uuid>be132b4f-faab-417a-a1a0-34ed54c97f40</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167133803207">An important quantity for describing the dynamics of a rotating rigid body is torque. We see the application of torque in many ways in our world. We all have an intuition about torque, as when we use a large wrench to unscrew a stubborn bolt. Torque is at work in unseen ways, as when we press on the accelerator in a car, causing the engine to put additional torque on the drive train. Or every time we move our bodies from a standing position, we apply a torque to our limbs. In this section, we define torque and make an argument for the equation for calculating torque for a rigid body with fixed-axis rotation.</para>
+<section id="fs-id1167133822680">
+<title>Defining Torque</title>
+<para id="fs-id1167133511270">So far we have defined many variables that are rotational equivalents to their translational counterparts. Let’s consider what the counterpart to force must be. Since forces change the translational motion of objects, the rotational counterpart must be related to changing the rotational motion of an object about an axis. We call this rotational counterpart <term>torque</term>.</para>
+<para id="fs-id1167133856159">In everyday life, we rotate objects about an axis all the time, so intuitively we already know much about torque. Consider, for example, how we rotate a door to open it. First, we know that a door opens slowly if we push too close to its hinges; it is more efficient to rotate a door open if we push far from the hinges. Second, we know that we should push perpendicular to the plane of the door; if we push parallel to the plane of the door, we are not able to rotate it. Third, the larger the force, the more effective it is in opening the door; the harder you push, the more rapidly the door opens. The first point implies that the farther the force is applied from the axis of rotation, the greater the angular acceleration; the second implies that the effectiveness depends on the angle at which the force is applied; the third implies that the magnitude of the force must also be part of the equation. Note that for rotation in a plane, torque has two possible directions. Torque is either clockwise or counterclockwise relative to the chosen pivot point. <link target-id="CNX_UPhysics_10_06_Door"/> shows counterclockwise rotations.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_10_06_Door"><media id="fs-id1167133826008" alt="Figure A is a schematic drawing of a door with force F is applied at a distance r from the hinges at a 90 degree angle. Figure B is a schematic drawing of a door with force smaller F is applied at a distance r from the hinges at a 90 degree angle. Figure C is a schematic drawing of a door with force smaller F is applied at a smaller distance r from the hinges at a 90 degree angle. Figure D is a schematic drawing of a door with force F is applied at a distance r from the hinges under the angle theta that is less than 90 degrees.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_Door_new.jpg"/>
+</media>
+
+<caption>Torque is the turning or twisting effectiveness of a force, illustrated here for door rotation on its hinges (as viewed from overhead). Torque has both magnitude and direction. (a) A counterclockwise torque is produced by a force <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> acting at a distance <emphasis effect="italics">r</emphasis> from the hinges (the pivot point). (b) A smaller counterclockwise torque is produced when a smaller force <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mtext>′</m:mtext></m:msup></m:mstyle></m:math> acts at the same distance <emphasis effect="italics">r</emphasis> from the hinges. (c) The same force as in (a) produces a smaller counterclockwise torque when applied at a smaller distance from the hinges. (d) A smaller counterclockwise torque is produced by the same magnitude force as (a) acting at the same distance as (a) but at an angle <m:math><m:mi>θ</m:mi></m:math> that is less than <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</caption></figure><para id="fs-id1167132203028">Now let’s consider how to define torques in the general three-dimensional case.</para>
+<note id="fs-id1167133804264">
+<title>Torque</title>
+<para id="fs-id1167133543067">When a force <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is applied to a point <emphasis effect="italics">P</emphasis> whose position is <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> relative to <emphasis effect="italics">O</emphasis> (<link target-id="CNX_UPhysics_10_06_3DTorque"/>), the torque <m:math><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:math> around <emphasis effect="italics">O</emphasis> is</para>
+<equation id="fs-id1167133544606"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_10_06_3DTorque">
+<media id="fs-id1167133331749" alt="Figure shows an XYZ coordinate system. Force F is applied in the XY plane and is parallel to the X axis. Vector r lies in the XY plane. It starts at the origin of the origin of the coordinate system and ends at the beginning of vector F. Vector for torque starts at the intersection point of r and v vectors. It is perpendicular to the XY plane and is pointed into the Z direction.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_3DTorque.jpg"/>
+</media>
+<caption>The torque is perpendicular to the plane defined by <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and its direction is determined by the right-hand rule.</caption>
+</figure>
+<para id="fs-id1167133394839">From the definition of the cross product, the torque <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is perpendicular to the plane containing <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and has magnitude</para>
+<equation id="fs-id1167133402154" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>F</m:mi><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133664917">where <m:math><m:mi>θ</m:mi></m:math> is the angle between the vectors <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> and <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>. The SI unit of torque is newtons times meters, usually written as <m:math><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>. The quantity <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> is the perpendicular distance from <emphasis effect="italics">O</emphasis> to the line determined by the vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and is called the <term>lever arm</term>. Note that the greater the lever arm, the greater the magnitude of the torque. In terms of the lever arm, the magnitude of the torque is</para>
+<note id="fs-id1167133337296" class="equation-callout">
+<equation id="fs-id1167133364403"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub><m:mi>F</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133485903">The cross product <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> also tells us the sign of the torque. In <link target-id="CNX_UPhysics_10_06_3DTorque"/>, the cross product <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is along the positive <emphasis effect="italics">z</emphasis>-axis, which by convention is a positive torque. If <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is along the negative <emphasis effect="italics">z</emphasis>-axis, this produces a negative torque.</para>
+<para id="fs-id1167133451691">If we consider a disk that is free to rotate about an axis through the center, as shown in <link target-id="CNX_UPhysics_10_06_Disk"/>, we can see how the angle between the radius <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> and the force <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> affects the magnitude of the torque. If the angle is zero, the torque is zero; if the angle is <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, the torque is maximum. The torque in <link target-id="CNX_UPhysics_10_06_Disk"/> is positive because the direction of the torque by the right-hand rule is out of the page along the positive <emphasis effect="italics">z</emphasis>-axis. The disk rotates counterclockwise due to the torque, in the same direction as a positive angular acceleration.</para>
+<figure id="CNX_UPhysics_10_06_Disk">
+<media id="fs-id1167133399145" alt="Figure shows a disk that rotates counterclockwise about its axis through the center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_Disk.jpg"/>
+</media>
+<caption>A disk is free to rotate about its axis through the center. The magnitude of the torque on the disk is <m:math><m:mrow><m:mi>r</m:mi><m:mi>F</m:mi><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>.When <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, the torque is zero and the disk does not rotate. When <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, the torque is maximum and the disk rotates with maximum angular acceleration.</caption>
+</figure>
+<para id="fs-id1167133397384">Any number of torques can be calculated about a given axis. The individual torques add to produce a net torque about the axis. When the appropriate sign (positive or negative) is assigned to the magnitudes of individual torques about a specified axis, the net torque about the axis is the sum of the individual torques:</para>
+<note id="fs-id1167133522112" class="equation-callout">
+<equation id="fs-id1167133775552"><label/><m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>i</m:mi></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+</section>
+<section id="fs-id1167133540802">
+<title>Calculating Net Torque for Rigid Bodies on a Fixed Axis</title>
+<para id="fs-id1167133465135">In the following examples, we calculate the torque both abstractly and as applied to a rigid body.</para>
+<para id="fs-id1167133417030">We first introduce a problem-solving strategy.</para>
+<note id="fs-id1167133320442" class="problem-solving">
+<title>Finding Net Torque</title>
+<list id="fs-id1167133466388" list-type="enumerated" number-style="arabic">
+<item>Choose a coordinate system with the pivot point or axis of rotation as the origin of the selected coordinate system.</item>
+<item>Determine the angle between the lever arm <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and the force vector.</item>
+<item>Take the cross product of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> to determine if the torque is positive or negative about the pivot point or axis.</item>
+<item>Evaluate the magnitude of the torque using <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub><m:mi>F</m:mi></m:mrow></m:math>.</item>
+<item>Assign the appropriate sign, positive or negative, to the magnitude.</item>
+<item>Sum the torques to find the net torque.</item>
+</list>
+</note>
+<example id="fs-id1167133448295">
+<para id="fs-id1167133810378"><title>Calculating Torque</title>
+Four forces are shown in <link target-id="CNX_UPhysics_10_06_Forces"/> at particular locations and orientations with respect to a given <emphasis effect="italics">xy</emphasis>-coordinate system. Find the torque due to each force about the origin, then use your results to find the net torque about the origin.</para>
+<figure id="CNX_UPhysics_10_06_Forces">
+<media id="fs-id1167133697950" alt="Figure shows four forces producing torques that plotted at the XY coordinate system. Both X and Y axes plot distance in meters. Vector for the force that has a magnitude of 40 N starts at (4,0) point, is parallel to the Y axis, and is directed to the positive direction. Vector for the force that has a magnitude of 20 N starts at (0,-3) point, is parallel to the X axis, and is directed to the negative direction. Another vector for the force that has a magnitude of 20 N starts at (0,1) point, and is directed to the left top part of the graph forming a 60 degree angle with the X axis. Vector for the force that has a magnitude of 30 N starts at (-5,0) point, and is directed to the left bottom part of the graph forming a 53 degree angle with the X axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_forces.jpg"/>
+</media>
+<caption>Four forces producing torques.</caption>
+</figure>
+<para id="fs-id1167133439500"><title>Strategy</title>
+This problem requires calculating torque. All known quantities––forces with directions and lever arms––are given in the figure. The goal is to find each individual torque and the net torque by summing the individual torques. Be careful to assign the correct sign to each torque by using the cross product of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and the force vector <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>.</para>
+<para id="fs-id1167133613008"><title>Solution</title>
+Use <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>F</m:mi><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> to find the magnitude and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> to determine the sign of the torque.</para>
+<para id="fs-id1167133355217">The torque from force 40 N in the first quadrant is given by <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>40</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>=</m:mo><m:mn>160</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167133415932">The cross product of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is out of the page, positive.</para>
+<para id="fs-id1167133338291">The torque from force 20 N in the third quadrant is given by<m:math><m:mrow><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167133678105">The cross product of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is into the page, so it is negative.</para>
+<para id="fs-id1167133542790">The torque from force 30 N in the third quadrant is given by <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>30</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>53</m:mn><m:mtext>°</m:mtext><m:mo>=</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167133417586">The cross product of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is out of the page, positive.</para>
+<para id="fs-id1167133685730">The torque from force 20 N in the second quadrant is given by <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>30</m:mn><m:mtext>°</m:mtext><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167133686771">The cross product of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is out of the page.</para>
+<para id="fs-id1167133497960">The net torque is therefore <m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>τ</m:mi></m:mstyle></m:mrow><m:mrow><m:mi>i</m:mi></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>160</m:mn><m:mo>−</m:mo><m:mn>60</m:mn><m:mo>+</m:mo><m:mn>120</m:mn><m:mo>+</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>230</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167133564897"><title>Significance</title>
+Note that each force that acts in the counterclockwise direction has a positive torque, whereas each force that acts in the clockwise direction has a negative torque. The torque is greater when the distance, force, or perpendicular components are greater.</para>
+</example>
+<example id="fs-id1167133665240">
+<para id="fs-id1167133773693"><title>Calculating Torque on a rigid body</title>
+<link target-id="CNX_UPhysics_10_06_ThreeTor"/> shows several forces acting at different locations and angles on a flywheel. We have <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>, and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. Find the net torque on the flywheel about an axis through the center.</para>
+<figure id="CNX_UPhysics_10_06_ThreeTor">
+<media id="fs-id1167133432903" alt="Figure shows a flywheel with three forces acting on it at different locations and angles. Force F3 is applied at the center and is perpendicular to the axis of rotation. Force F2 is applied at the left edge and is perpendicular to the axis of rotation. Force F1 is applied at the center and forms 30 degree angle with the axis of rotation.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_ThreeTor.jpg"/>
+</media>
+<caption>Three forces acting on a flywheel.</caption>
+</figure>
+<para id="fs-id1167133675413"><title>Strategy</title>
+We calculate each torque individually, using the cross product, and determine the sign of the torque. Then we sum the torques to find the net torque.</para>
+<para id="fs-id1167133377088"><title>Solution</title>
+We start with <m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:math>. If we look at <link target-id="CNX_UPhysics_10_06_ThreeTor"/>, we see that <m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:math> makes an angle of <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>+</m:mo><m:mn>60</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with the radius vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Taking the cross product, we see that it is out of the page and so is positive. We also see this from calculating its magnitude:</para>
+<equation id="fs-id1167133665356" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>r</m:mi><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>150</m:mn><m:mtext>°</m:mtext><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133826702">Next we look at <m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:math>. The angle between <m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> and the cross product is into the page so the torque is negative. Its value is</para>
+<equation id="fs-id1167133530158" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>r</m:mi><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>=</m:mo><m:mn>−0.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−15.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133466187">When we evaluate the torque due to <m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow></m:math>, we see that the angle it makes with <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is zero so <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> Therefore, <m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow></m:math> does not produce any torque on the flywheel.</para>
+<para id="fs-id1167133873214">We evaluate the sum of the torques:</para>
+<equation id="fs-id1167133553999" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>τ</m:mi></m:mstyle></m:mrow><m:mrow><m:mi>i</m:mi></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>−10</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132201470"><title>Significance</title>
+The axis of rotation is at the center of mass of the flywheel. Since the flywheel is on a fixed axis, it is not free to translate. If it were on a frictionless surface and not fixed in place, <m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow></m:math> would cause the flywheel to translate, as well as <m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:math>. Its motion would be a combination of translation and rotation.</para>
+</example>
+<note id="fs-id1167133328829" class="check-understanding">
+<exercise id="fs-id1167132207324">
+<problem id="fs-id1167132206584">
+<para id="fs-id1167132202056"><emphasis effect="bold">Check Your Understanding</emphasis> A large ocean-going ship runs aground near the coastline, similar to the fate of the <emphasis effect="italics">Costa Concordia</emphasis>, and lies at an angle as shown below. Salvage crews must apply a torque to right the ship in order to float the vessel for transport. A force of <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> acting at point <emphasis effect="italics">A</emphasis> must be applied to right the ship. What is the torque about the point of contact of the ship with the ground (<link target-id="CNX_UPhysics_10_06_Ship"/>)?</para>
+<figure id="CNX_UPhysics_10_06_Ship">
+<media id="fs-id1167133829126" alt="Figure shows a ship that lies at an angle on the seashore. A force of 50000 N is applied at 10 degree angle to the normal at a point that 100 meters above the point of contact between the ship and the seashore.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_Ship.jpg"/>
+</media>
+<caption>A ship runs aground and tilts, requiring torque to be applied to return the vessel to an upright position.</caption>
+</figure>
+</problem>
+<solution id="fs-id1167132204481">
+<para id="fs-id1167133354541">The angle between the lever arm and the force vector is <m:math><m:mrow><m:mn>80</m:mn><m:mtext>°</m:mtext><m:mo>;</m:mo></m:mrow></m:math> therefore, <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub><m:mo>=</m:mo><m:mn>100</m:mn><m:mtext>m(sin80</m:mtext><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>98.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167133851884">The cross product <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> gives a negative or clockwise torque.</para>
+<para id="fs-id1167133843313">The torque is then <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>−98.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−4.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167132199978" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167133327934" list-type="bulleted" bullet-style="bullet">
+<item>The magnitude of a torque about a fixed axis is calculated by finding the lever arm to the point where the force is applied and using the relation <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub><m:mi>F</m:mi></m:mrow></m:math>, where <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow></m:math> is the perpendicular distance from the axis to the line upon which the force vector lies.</item>
+<item>The sign of the torque is found using the right hand rule. If the page is the plane containing <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>, then <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is out of the page for positive torques and into the page for negative torques.</item>
+<item>The net torque can be found from summing the individual torques about a given axis.</item>
+</list>
+</section>
+<section id="fs-id1167133871573" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167133356783">
+<problem id="fs-id1167133677759">
+<para id="fs-id1167133677762">What three factors affect the torque created by a force relative to a specific pivot point?</para>
+</problem>
+<solution id="fs-id1167133326614">
+<para id="fs-id1167133326616">magnitude of the force, length of the lever arm, and angle of the lever arm and force vector</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133376700">
+<problem id="fs-id1167133527253">
+<para id="fs-id1167133527255">Give an example in which a small force exerts a large torque. Give another example in which a large force exerts a small torque.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133550204">
+<problem id="fs-id1167133455975">
+<para id="fs-id1167133827220">When reducing the mass of a racing bike, the greatest benefit is realized from reducing the mass of the tires and wheel rims. Why does this allow a racer to achieve greater accelerations than would an identical reduction in the mass of the bicycle’s frame?</para>
+</problem>
+<solution id="fs-id1167133326016">
+<para id="fs-id1167133464190">The moment of inertia of the wheels is reduced, so a smaller torque is needed to accelerate them.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133795240">
+<problem id="fs-id1167132278547">
+<para id="fs-id1167132288093">Can a single force produce a zero torque?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132202281">
+<problem id="fs-id1167133346226">
+<para id="fs-id1167133326633">Can a set of forces have a net torque that is zero and a net force that is not zero?</para>
+</problem>
+<solution id="fs-id1167133446939">
+<para id="fs-id1167132202023">yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132287133">
+<problem id="fs-id1167133325873">
+<para id="fs-id1167133394671">Can a set of forces have a net force that is zero and a net torque that is not zero?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133859126">
+<problem id="fs-id1167133845999">
+<para id="fs-id1167133698664">In the expression <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> can <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow></m:mrow></m:math> ever be less than the lever arm? Can it be equal to the lever arm?</para>
+</problem>
+<solution id="fs-id1167133802954">
+<para id="fs-id1167133344309"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow></m:mrow></m:math> can be equal to the lever arm but never less than the lever arm</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167133606678" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167133549687">
+<problem id="fs-id1167132202940">
+<para id="fs-id1167132202942">Two flywheels of negligible mass and different radii are bonded together and rotate about a common axis (see below). The smaller flywheel of radius 30 cm has a cord that has a pulling force of 50 N on it. What pulling force needs to be applied to the cord connecting the larger flywheel of radius 50 cm such that the combination does not rotate?</para>
+<media id="fs-id1167133871041" alt="Figure shows two flywheels of different radii that are bonded together and rotate about a common axis. A force of 50 N is applied to the smaller flywheel. A force of unknown magnitude is applied to the larger flywheel and pulls it into the opposite direction.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_TwoFlyW_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167133535966">
+<para id="fs-id1167133872335"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133823140">
+<problem id="fs-id1167133851956">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167133851958">The cylinder head bolts on a car are to be tightened with a torque of 62.0 N<m:math><m:mo>·</m:mo><m:mtext>m</m:mtext></m:math>. If a mechanic uses a wrench of length 20 cm, what perpendicular force must he exert on the end of the wrench to tighten a bolt correctly?</para></problem>
+</exercise>
+<exercise id="fs-id1167133464118">
+<problem id="fs-id1167133464120">
+<para id="fs-id1167133318631">(a) When opening a door, you push on it perpendicularly with a force of 55.0 N at a distance of 0.850 m from the hinges. What torque are you exerting relative to the hinges? (b) Does it matter if you push at the same height as the hinges? There is only one pair of hinges.</para>
+</problem>
+<solution id="fs-id1167133872512">
+<para id="fs-id1167133872514">a. <m:math><m:mrow><m:mn>0.85</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>55.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>46</m:mn><m:mo>.</m:mo><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>; b. It does not matter at what height you push.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132321096">
+<problem id="fs-id1167133784430">
+<para id="fs-id1167133784432">When tightening a bolt, you push perpendicularly on a wrench with a force of 165 N at a distance of 0.140 m from the center of the bolt. How much torque are you exerting in newton-meters (relative to the center of the bolt)?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133794885">
+<problem id="fs-id1167132201789">
+<para id="fs-id1167132201791">What hanging mass must be placed on the cord to keep the pulley from rotating (see the following figure)? The mass on the frictionless plane is 5.0 kg. The inner radius of the pulley is 20 cm and the outer radius is 30 cm.</para>
+<media id="fs-id1167133353040" alt="Figure shows the pulley in which a mass of 5 kg rests on an inclined plane at a 45 degree angle and acts as a counterweight to an object of the unknown mass that hangs in the air.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_HangMass_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167133826244">
+<para id="fs-id1167133826246"><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4.9</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>9.8</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0.3</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.67</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132300767">
+<problem id="fs-id1167132300770">
+<para id="fs-id1167132300772">A simple pendulum consists of a massless tether 50 cm in length connected to a pivot and a small mass of 1.0 kg attached at the other end. What is the torque about the pivot when the pendulum makes an angle of <m:math><m:mrow><m:mn>40</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with respect to the vertical?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133465097">
+<problem id="fs-id1167133465099">
+<para id="fs-id1167132282442">Calculate the torque about the <emphasis effect="italics">z</emphasis>-axis that is out of the page at the origin in the following figure, given that <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>F</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>F</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.8</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>.</para>
+<media id="fs-id1167132306073" alt="Figure shows the XY coordinate system. Force F1 is applied from the point that is located at the line that originates from the center of the coordinate system and is directed towards the top right corner. Point is 3 meters away from the origin and force F1 is directed towards the right bottom corner. Force F2 is applied from the point that is located at the Y axis, 2 meters above the center of the coordinate system. Force F2 forms 30 degree angle with the line parallel to the X axis and is directed towards the left bottom corner. Force F3 is applied from the center of coordinate system and is directed towards the left bottom corner. Force F4 is applied from the point that is located at the X axis, 2 meters to the right from the center of the coordinate system. Force F2 forms 20 degree angle with the line parallel to the Y axis and is directed towards the left bottom corner.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_Prob12_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167132279340">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167132279342"><m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>e</m:mi><m:mi>t</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>−9.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>+</m:mo><m:mn>3.46</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>−</m:mo><m:mn>3.38</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>−8.92</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167133333416">
+<problem id="fs-id1167133333419">
+<para id="fs-id1167133333421">A seesaw has length 10.0 m and uniform mass 10.0 kg and is resting at an angle of <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with respect to the ground (see the following figure). The pivot is located at 6.0 m. What magnitude of force needs to be applied perpendicular to the seesaw at the raised end so as to allow the seesaw to barely start to rotate?</para>
+<media id="fs-id1167133795466" alt="Figure shows a seesaw. One of the ends of the seesaw rests on the ground forming 30 degree angle with it, another end is hanging in the air.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_Seesaw_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167133570785">
+<problem id="fs-id1167133320252">
+<para id="fs-id1167133320254">A pendulum consists of a rod of mass 1 kg and length 1 m connected to a pivot with a solid sphere attached at the other end with mass 0.5 kg and radius 30 cm. What is the torque about the pivot when the pendulum makes an angle of <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with respect to the vertical?</para>
+</problem>
+<solution id="fs-id1167133320233">
+<para id="fs-id1167133873324"><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>5.66</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133863010">
+<problem id="fs-id1167133863012">
+<para id="fs-id1167133863014">A torque of <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mspace width="0.2em"/></m:mrow></m:math> is required to raise a drawbridge (see the following figure). What is the tension necessary to produce this torque? Would it be easier to raise the drawbridge if the angle <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math> were larger or smaller?</para>
+<media id="fs-id1167133518664" alt="Figure shows the drawbridge that has a length of 6 meters. A force is applied at a 30 degree angle towards the drawbridge.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_Prob13_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167132282560">
+<problem id="fs-id1167132282562">
+<para id="fs-id1167132201735">A horizontal beam of length 3 m and mass 2.0 kg has a mass of 1.0 kg and width 0.2 m sitting at the end of the beam (see the following figure). What is the torque of the system about the support at the wall?</para>
+<media id="fs-id1167132201740" alt="Figure shows a horizontal beam that is connected to the wall. Beam has a length of 3 m and mass 2.0 kg. In addition, a mass of 1.0 kg and width 0.2 m sits at the end of the beam.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_Beam_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167132287063">
+<para id="fs-id1167132287066"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo></m:mrow></m:mstyle><m:mn>57.82</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133859691">
+<problem id="fs-id1167133859694">
+<para id="fs-id1167133859696">What force must be applied to end of a rod along the <emphasis effect="italics">x</emphasis>-axis of length 2.0 m in order to produce a torque on the rod about the origin of <m:math><m:mrow><m:mn>8.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>
+?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133472494">
+<problem id="fs-id1167133472496">
+<para id="fs-id1167133472499">What is the torque about the origin of the force <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>1.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> if it is applied at the point whose position is: <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>m?</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167133563480">
+<para id="fs-id1167132303872"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mi/><m:mo>−</m:mo><m:mn>16.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mi/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167132312261">
+<term>lever arm</term>
+<meaning id="fs-id1167133606817">perpendicular distance from the line that the force vector lies on to a given axis</meaning>
+</definition>
+<definition id="fs-id1167133606821">
+<term>torque</term>
+<meaning id="fs-id1167132306479">cross product of a force and a lever arm to a given axis</meaning>
+</definition>
+</glossary>
+</document>

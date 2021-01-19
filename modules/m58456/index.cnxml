@@ -1,0 +1,135 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Electrical Measuring Instruments</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58456</md:content-id>
+  <md:title>Electrical Measuring Instruments</md:title>
+  <md:abstract>By the end of the section, you will be able to:
+<list>
+<item>Describe how to connect a voltmeter in a circuit to measure voltage</item>
+<item>Describe how to connect an ammeter in a circuit to measure current</item>
+<item>Describe the use of an ohmmeter</item>
+</list></md:abstract>
+  <md:uuid>8bdf32b5-84b0-443b-9112-c741709b9008</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172099547884">Ohm’s law and Kirchhoff’s method are useful to analyze and design electrical circuits, providing you with the voltages across, the current through, and the resistance of the components that compose the circuit. To measure these parameters require instruments, and these instruments are described in this section.</para>
+<section id="fs-id1172099389000">
+<title>DC Voltmeters and Ammeters</title>
+<para id="fs-id1172099378705">Whereas <term>voltmeter</term><emphasis effect="bold">s</emphasis> measure voltage, <term>ammeter</term><emphasis effect="bold">s</emphasis> measure current. Some of the meters in automobile dashboards, digital cameras, cell phones, and tuner-amplifiers are actually voltmeters or ammeters (<link target-id="CNX_UPhysics_27_04_Voltmeters"/>). The internal construction of the simplest of these meters and how they are connected to the system they monitor give further insight into applications of series and parallel connections.</para>
+<figure id="CNX_UPhysics_27_04_Voltmeters">
+<media id="fs-id1172099922507" alt="The figure shows photo of fuel and temperature gauges.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_Voltmeters.jpg"/>
+</media>
+<caption>The fuel and temperature gauges (far right and far left, respectively) in this 1996 Volkswagen are voltmeters that register the voltage output of “sender” units. These units are proportional to the amount of gasoline in the tank and to the engine temperature. (credit: Christian Giersing)</caption>
+</figure>
+</section>
+<section id="fs-id1172099668596">
+<title>Measuring Current with an Ammeter</title>
+<para id="fs-id1172099614791">To measure the current through a device or component, the ammeter is placed in series with the device or component. A series connection is used because objects in series have the same current passing through them. (See <link target-id="CNX_UPhysics_27_04_Ammeter1"/>, where the ammeter is represented by the symbol A.)</para>
+<figure id="CNX_UPhysics_27_04_Ammeter1">
+<media id="fs-id1172101761709" alt="Part a shows positive terminal of a battery with emf ε and internal resistance r connected to ammeter which is connected in series to two resistors, R subscript 1 and R subscript 2. Part b shows positive terminal of a battery with emf ε and internal resistance r connected to ammeter which is connected to two parallel resistors, R subscript 1 with ammeter and R subscript 2 with ammeter.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_Ammeter1.jpg"/>
+</media>
+<caption>(a) When an ammeter is used to measure the current through two resistors connected in series to a battery, a single ammeter is placed in series with the two resistors because the current is the same through the two resistors in series. (b) When two resistors are connected in parallel with a battery, three meters, or three separate ammeter readings, are necessary to measure the current from the battery and through each resistor. The ammeter is connected in series with the component in question.</caption>
+</figure>
+<para id="fs-id1172101887500">Ammeters need to have a very low resistance, a fraction of a milliohm. If the resistance is not negligible, placing the ammeter in the circuit would change the equivalent resistance of the circuit and modify the current that is being measured. Since the current in the circuit travels through the meter, ammeters normally contain a fuse to protect the meter from damage from currents which are too high.</para>
+</section>
+<section id="fs-id1172101881584">
+<title>Measuring Voltage with a Voltmeter</title>
+<para id="fs-id1172099648754">A voltmeter is connected in parallel with whatever device it is measuring. A parallel connection is used because objects in parallel experience the same potential difference. (See <link target-id="CNX_UPhysics_27_04_Parallel"/>, where the voltmeter is represented by the symbol V.)</para>
+<figure id="CNX_UPhysics_27_04_Parallel">
+<media id="fs-id1172101914334" alt="Part a shows positive terminal of a battery with emf ε and internal resistance r connected in series to two resistors, R subscript 1 and R subscript 2. The battery and the two resistors have voltmeters connected to them in parallel.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_Parallel.jpg"/>
+</media>
+<caption>To measure potential differences in this series circuit, the voltmeter (V) is placed in parallel with the voltage source or either of the resistors. Note that terminal voltage is measured between the positive terminal and the negative terminal of the battery or voltage source. It is not possible to connect a voltmeter directly across the emf without including the internal resistance <emphasis effect="italics">r</emphasis> of the battery.</caption>
+</figure>
+<para id="fs-id1172101790262">Since voltmeters are connected in parallel, the voltmeter must have a very large resistance. Digital voltmeters convert the analog voltage into a digital value to display on a digital readout (<link target-id="CNX_UPhysics_27_04_DigAn"/>). Inexpensive voltmeters have resistances on the order of <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>M</m:mtext></m:msub><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>M</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo></m:mrow></m:math> whereas high-precision voltmeters have resistances on the order of <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>M</m:mtext></m:msub><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>G</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. The value of the resistance may vary, depending on which scale is used on the meter.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_27_04_DigAn"><media id="fs-id1172099479473" alt="Part a shows photo of an analog voltmeter and part b shows photo of a digital meter.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_DigAn.jpg"/>
+</media>
+
+<caption>(a) An analog voltmeter uses a galvanometer to measure the voltage. (b) Digital meters use an analog-to-digital converter to measure the voltage. (credit: modification of works by Joseph J. Trout)</caption></figure></section>
+<section id="fs-id1172102124868">
+<title>Analog and Digital Meters</title>
+<para id="fs-id1172099892685">You may encounter two types of meters in the physics lab: analog and digital. The term ‘analog’ refers to signals or information represented by a continuously variable physical quantity, such as voltage or current. An <term class="no-emphasis">analog meter</term> uses a galvanometer, which is essentially a coil of wire with a small resistance, in a magnetic field, with a pointer attached that points to a scale. Current flows through the coil, causing the coil to rotate. To use the galvanometer as an ammeter, a small resistance is placed in parallel with the coil. For a voltmeter, a large resistance is placed in series with the coil. A <term class="no-emphasis">digital meter</term> uses a component called an analog-to-digital (A to D) converter and expresses the current or voltage as a series of the digits 0 and 1, which are used to run a digital display. Most analog meters have been replaced by digital meters.</para>
+<note id="fs-id1172099545529" class="check-understanding">
+<exercise id="fs-id1172099878015">
+<problem id="fs-id1172102132137">
+<para id="fs-id1172102006332"><emphasis effect="bold">Check Your Understanding</emphasis> Digital meters are able to detect smaller currents than analog meters employing galvanometers. How does this explain their ability to measure voltage and current more accurately than analog meters?</para>
+</problem>
+<solution id="fs-id1172099821846">
+<para id="fs-id1172099491687">Since digital meters require less current than analog meters, they alter the circuit less than analog meters. Their resistance as a voltmeter can be far greater than an analog meter, and their resistance as an ammeter can be far less than an analog meter. Consult <link target-id="CNX_UPhysics_27_04_Parallel"/> and <link target-id="CNX_UPhysics_27_04_Ammeter1"/> and their discussion in the text.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1172099747729" class="media-2">
+<para id="fs-id1172101759744">In this <link url="https://openstax.org/l/21cirreslabsim">virtual lab</link> simulation, you may construct circuits with resistors, voltage sources, ammeters and voltmeters to test your knowledge of circuit design.</para>
+</note>
+</section>
+<section id="fs-id1172099493952">
+<title>Ohmmeters</title>
+<para id="fs-id1172099516329">An <term class="no-emphasis">ohmmeter</term> is an instrument used to measure the resistance of a component or device. The operation of the ohmmeter is based on Ohm’s law. Traditional ohmmeters contained an internal voltage source (such as a battery) that would be connected across the component to be tested, producing a current through the component. A galvanometer was then used to measure the current and the resistance was deduced using Ohm’s law. Modern digital meters use a constant current source to pass current through the component, and the voltage difference across the component is measured. In either case, the resistance is measured using Ohm’s law <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> where the voltage is known and the current is measured, or the current is known and the voltage is measured.</para>
+<para id="fs-id1172099464263">The component of interest should be isolated from the circuit; otherwise, you will be measuring the equivalent resistance of the circuit. An ohmmeter should never be connected to a “live” circuit, one with a voltage source connected to it and current running through it. Doing so can damage the meter.</para>
+</section>
+<section id="fs-id1172099689687" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172099560046" list-type="bulleted" bullet-style="bullet">
+<item>Voltmeters measure voltage, and ammeters measure current. Analog meters are based on the combination of a resistor and a galvanometer, a device that gives an analog reading of current or voltage. Digital meters are based on analog-to-digital converters and provide a discrete or digital measurement of the current or voltage.</item>
+<item>A voltmeter is placed in parallel with the voltage source to receive full voltage and must have a large resistance to limit its effect on the circuit.</item>
+<item>An ammeter is placed in series to get the full current flowing through a branch and must have a small resistance to limit its effect on the circuit.</item>
+<item>Standard voltmeters and ammeters alter the circuit they are connected to and are thus limited in accuracy.</item>
+<item>Ohmmeters are used to measure resistance. The component in which the resistance is to be measured should be isolated (removed) from the circuit.</item>
+</list>
+</section>
+<section id="fs-id1172099719316" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172102129533">
+<problem id="fs-id1172099498735">
+<para id="fs-id1172099382342">What would happen if you placed a voltmeter in series with a component to be tested?</para>
+</problem>
+<solution id="fs-id1172102124445">
+<para id="fs-id1172099522919">The voltmeter would put a large resistance in series with the circuit, significantly changing the circuit. It would probably give a reading, but it would be meaningless.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102062314">
+<problem id="fs-id1172102151507">
+<para id="fs-id1172097144459">What is the basic operation of an ohmmeter as it measures a resistor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102061365">
+<problem id="fs-id1172102114361">
+<para id="fs-id1172101897305">Why should you not connect an ammeter directly across a voltage source as shown below?</para>
+<media id="fs-id1172101778292" alt="The figure shows positive terminal of a battery with emf ε and internal resistance r connected to ammeter.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_P3_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099725467">
+<para id="fs-id1172102143796">The ammeter has a small resistance; therefore, a large current will be produced and could damage the meter and/or overheat the battery.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172099602251" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172101780811">
+<problem id="fs-id1172099414011">
+<para id="fs-id1172102139025">Suppose you measure the terminal voltage of a 1.585-V alkaline cell having an internal resistance of <m:math><m:mrow><m:mn>0.100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> by placing a <m:math><m:mrow><m:mn>1.00</m:mn><m:mtext>-k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> voltmeter across its terminals (see below). (a) What current flows? (b) Find the terminal voltage. (c) To see how close the measured terminal voltage is to the emf, calculate their ratio.</para>
+<media id="fs-id1172101923362" alt="The figure shows positive terminal of a battery with emf ε and internal resistance r connected to a voltmeter.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_P4_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172102120844">
+<term>ammeter</term>
+<meaning id="fs-id1172102033654">instrument that measures current</meaning>
+</definition>
+<definition id="fs-id1172099660763">
+<term>voltmeter</term>
+<meaning id="fs-id1172101765962">instrument that measures voltage</meaning>
+</definition>
+</glossary>
+</document>

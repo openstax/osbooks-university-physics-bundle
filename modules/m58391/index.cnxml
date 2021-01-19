@@ -1,0 +1,524 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Molecular Model of an Ideal Gas</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58391</md:content-id>
+  <md:title>Molecular Model of an Ideal Gas</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Apply the ideal gas law to situations involving the pressure, volume, temperature, and the number of molecules of a gas</item>
+<item>Use the unit of moles in relation to numbers of molecules, and molecular and macroscopic masses</item>
+<item>Explain the ideal gas law in terms of moles rather than numbers of molecules</item>
+<item>Apply the van der Waals gas law to situations where the ideal gas law is inadequate</item></list></md:abstract>
+  <md:uuid>7cce1697-6a75-4b06-ba15-90790862746a</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172100840580">In this section, we explore the thermal behavior of gases. Our word “gas” comes from the Flemish word meaning “chaos,” first used for vapors by the seventeenth-century chemist J. B. van Helmont. The term was more appropriate than he knew, because gases consist of molecules moving and colliding with each other at random. This randomness makes the connection between the microscopic and macroscopic domains simpler for gases than for liquids or solids.</para>
+<para id="fs-id1172100957007">How do gases differ from solids and liquids? Under ordinary conditions, such as those of the air around us, the difference is that the molecules of gases are much farther apart than those of solids and liquids. Because the typical distances between molecules are large compared to the size of a molecule, as illustrated in <link target-id="CNX_UPhysics_19_01_AtomsinGas"/>, the forces between them are considered negligible, except when they come into contact with each other during collisions. Also, at temperatures well above the boiling temperature, the motion of molecules is fast, and the gases expand rapidly to occupy all of the accessible volume. In contrast, in liquids and solids, molecules are closer together, and the behavior of molecules in liquids and solids is highly constrained by the molecules’ interactions with one another. The macroscopic properties of such substances depend strongly on the forces between the molecules, and since many molecules are interacting, the resulting “many-body problems” can be extremely complicated (see <link document="m58591">Condensed Matter Physics</link>).</para>
+<figure id="CNX_UPhysics_19_01_AtomsinGas">
+<media id="fs-id1172098261456" alt="This figure illustrates the motion of atoms in a gas. The atoms are illustrated as small spheres, widely separated from each other. Their velocities are represented by arrows. The various velocity have different, random directions and have different lengths.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_01_AtomsinGas.jpg"/>
+</media>
+<caption>Atoms and molecules in a gas are typically widely separated. Because the forces between them are quite weak at these distances, the properties of a gas depend more on the number of atoms per unit volume and on temperature than on the type of atom.</caption>
+</figure>
+<section id="fs-id1172098383233">
+<title>The Gas Laws</title>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172100643944">In the previous chapter, we saw one consequence of the large intermolecular spacing in gases: Gases are easily compressed. <link target-id="fs-id1170902626134" document="m58386"/> shows that gases have larger coefficients of volume expansion than either solids or liquids. These large coefficients mean that gases expand and contract very rapidly with temperature changes. We also saw (in the section on thermal expansion) that most gases expand at the same rate or have the same coefficient of volume expansion, <m:math><m:mi>β</m:mi></m:math>. This raises a question: Why do all gases act in nearly the same way, when all the various liquids and solids have widely varying expansion rates?</para><para id="fs-id1172098641601">To study how the pressure, temperature, and volume of a gas relate to one another, consider what happens when you pump air into a deflated car tire. The tire’s volume first increases in direct proportion to the amount of air injected, without much increase in the tire pressure. Once the tire has expanded to nearly its full size, the tire’s walls limit its volume expansion. If we continue to pump air into the tire, the pressure increases. When the car is driven and the tires flex, their temperature increases, and therefore the pressure increases even further (<link target-id="CNX_UPhysics_19_01_FlatTire"/>).</para>
+<figure id="CNX_UPhysics_19_01_FlatTire">
+<media id="fs-id1172096291820" alt="The figure has three parts, each part showing a tire connected to a pressure gauge at the start and at the end of a stage of inflating the tire, showing pressures P and P prime respectively. In part a, the tire pressure is initially zero. After some air is added, represented by an arrow labeled Add air, the pressure rises to slightly above zero. In part b, the tire pressure is initially at the half-way mark. After some air is added, represented by an arrow labeled Add air, the pressure rises to the three-fourths mark. In part c, the tire pressure is initially at the three-fourths mark. After the temperature is raised, represented by an arrow labeled Increase temperature, the pressure rises to nearly the full mark.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_01_FlatTire.jpg"/>
+</media>
+<caption>(a) When air is pumped into a deflated tire, its volume first increases without much increase in pressure. (b) When the tire is filled to a certain point, the tire walls resist further expansion, and the pressure increases with more air. (c) Once the tire is inflated, its pressure increases with temperature.</caption>
+</figure>
+<para id="fs-id1172098629598"><link target-id="CNX_UPhysics_19_01_BoylesLaw"/> shows data from the experiments of Robert <term class="no-emphasis">Boyle</term> (1627–1691), illustrating what is now called <term class="no-emphasis">Boyle’s law</term>: At constant temperature and number of molecules, the absolute pressure of a gas and its volume are inversely proportional. (Recall from <link document="m58624">Fluid Mechanics</link> that the absolute pressure is the true pressure and the gauge pressure is the absolute pressure minus the ambient pressure, typically atmospheric pressure.) The graph in <link target-id="CNX_UPhysics_19_01_BoylesLaw"/> displays this relationship as an inverse proportionality of volume to pressure.</para>
+<figure id="CNX_UPhysics_19_01_BoylesLaw">
+<media id="fs-id1172098700632" alt="This figure is a graph of the volume (in arbitrary units) on the vertical axis as a function of one over the pressure (in inverse inches of mercury) on the horizontal axis. The horizontal scale runs from 0 to 0.04. The vertical scale runs from 0 to 60. The graph shows data points that appear to lie on a straight line, starting inverse pressure of about 0.008 inverse inches of mercury and volume of about 11, and ending at an inverse pressure of just under 0.035 inverse inches of mercury and volume of just under 50. The data points are closely spaced at the lower end and get farther apart as the inverse pressure and volume increase.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_01_BoylesLaw.jpg"/>
+</media>
+<caption>Robert Boyle and his assistant found that volume and pressure are inversely proportional. Here their data are plotted as <emphasis effect="italics">V</emphasis> versus 1/<emphasis effect="italics">p</emphasis>; the linearity of the graph shows the inverse proportionality. The number shown as the volume is actually the height in inches of air in a cylindrical glass tube. The actual volume was that height multiplied by the cross-sectional area of the tube, which Boyle did not publish. The data are from Boyle’s book <emphasis effect="italics">A Defence of the Doctrine Touching the Spring and Weight of the Air</emphasis>…, p. 60.<footnote id="fs-id1172098530441">http://bvpb.mcu.es/en/consulta/registro.cmd?id=406806</footnote></caption>
+</figure>
+<para id="fs-id1172100987631"><link target-id="CNX_UPhysics_19_01_CharlesLaw"/> shows experimental data illustrating what is called <term class="no-emphasis">Charles’s law</term>, after Jacques <term class="no-emphasis">Charles</term> (1746–1823). Charles’s law states that at constant pressure and number of molecules, the volume of a gas is proportional to its absolute temperature.</para>
+<figure id="CNX_UPhysics_19_01_CharlesLaw">
+<media id="fs-id1172100848668" alt="This figure is a graph of the volume (in arbitrary units) on the vertical axis as a function of temperature (in Kelvin) on the horizontal axis. The horizontal scale runs from 0 to 350 K and the vertical scale from 0 to 140. Nine data points are shown. The data points lie on a straight line and are evenly spaced. The data extends from 273 K and volume of 108 to 313 K and volume of 123. A line labeled Extrapolated line of best fit is drawn through the data and back to 0 K. The hits the vertical axis just above the origin.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_01_CharlesLaw.jpg"/>
+</media>
+<caption>Experimental data showing that at constant pressure, volume is approximately proportional to temperature. The best-fit line passes approximately through the origin.<footnote id="fs-id1172100894014">http://chemed.chem.purdue.edu/genchem/history/charles.html</footnote></caption>
+</figure>
+<para id="fs-id1172100572336">Similar is Amonton’s or <term class="no-emphasis">Gay-Lussac’s law</term>, which states that at constant volume and number of molecules, the pressure is proportional to the temperature. That law is the basis of the constant-volume gas thermometer, discussed in the previous chapter. (The histories of these laws and the appropriate credit for them are more complicated than can be discussed here.)</para>
+<para id="fs-id1172100919954">It is known experimentally that for gases at low density (such that their molecules occupy a negligible fraction of the total volume) and at temperatures well above the boiling point, these proportionalities hold to a good approximation. Not surprisingly, with the other quantities held constant, either pressure or volume is proportional to the number of molecules. More surprisingly, when the proportionalities are combined into a single equation, the constant of proportionality is independent of the composition of the gas. The resulting equation for all gases applies in the limit of low density and high temperature; it’s the same for oxygen as for helium or uranium hexafluoride. A gas at that limit is called an <term>ideal gas</term>; it obeys the <term>ideal gas law</term>, which is also called the equation of state of an ideal gas.</para>
+<note id="fs-id1172100491472">
+<title>Ideal Gas Law</title>
+<para id="fs-id1172100598839">The ideal gas law states that</para>
+<equation id="fs-id1172100723281"><m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100517268">where <emphasis effect="italics">p</emphasis> is the absolute pressure of a gas, <emphasis effect="italics">V</emphasis> is the volume it occupies, <emphasis effect="italics">N</emphasis> is the number of molecules in the gas, and <emphasis effect="italics">T</emphasis> is its absolute temperature.</para>
+</note>
+<para id="fs-id1172100529528">The constant <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> is called the <term>Boltzmann constant</term> in honor of the Austrian physicist Ludwig <term class="no-emphasis">Boltzmann</term> (1844–1906) and has the value</para>
+<equation id="fs-id1172098449405" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098257072">The ideal gas law describes the behavior of any real gas when its density is low enough or its temperature high enough that it is far from liquefaction. This encompasses many practical situations. In the next section, we’ll see why it’s independent of the type of gas.</para>
+<para id="fs-id1172100655310">In many situations, the ideal gas law is applied to a sample of gas with a constant number of molecules; for instance, the gas may be in a sealed container. If <emphasis effect="italics">N</emphasis> is constant, then solving for <emphasis effect="italics">N</emphasis> shows that <emphasis effect="italics">pV</emphasis> /<emphasis effect="italics">T</emphasis> is constant. We can write that fact in a convenient form:</para>
+<note id="fs-id1172100656694" class="equation-callout">
+<equation id="fs-id1172098671839"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172098671665">where the subscripts 1 and 2 refer to any two states of the gas at different times. Again, the temperature must be expressed in kelvin and the pressure must be absolute pressure, which is the sum of gauge pressure and atmospheric pressure.</para>
+<example id="fs-id1172098436191">
+<para id="fs-id1172100900461"><title>Calculating Pressure Changes Due to Temperature Changes</title>
+Suppose your bicycle tire is fully inflated, with an absolute pressure of <m:math><m:mrow><m:mn>7.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> (a gauge pressure of just under <m:math><m:mrow><m:mn>90.0</m:mn><m:mspace width="0.2em"/><m:mtext>lb/in</m:mtext><m:msup><m:mtext>.</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>) at a temperature of <m:math><m:mrow><m:mn>18.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> What is the pressure after its temperature has risen to <m:math><m:mrow><m:mn>35.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> on a hot day? Assume there are no appreciable leaks or changes in volume.</para>
+<para id="fs-id1172100841027"><title>Strategy</title>
+The pressure in the tire is changing only because of changes in temperature. We know the initial pressure <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>7.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>,</m:mo></m:mrow></m:math> the initial temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>18.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and the final temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>35.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> We must find the final pressure <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Since the number of molecules is constant, we can use the equation</para>
+<equation id="fs-id1172101007535" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>f</m:mtext></m:msub><m:msub><m:mi>V</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100656371">Since the volume is constant, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> are the same and they divide out. Therefore,</para>
+<equation id="fs-id1172098694939" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100949982">We can then rearrange this to solve for <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1172096204023" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100524702">where the temperature must be in kelvin.</para>
+<para id="fs-id1172098359040"><title>Solution</title></para>
+<list id="fs-id1172098421203" list-type="enumerated" number-style="arabic">
+<item>Convert temperatures from degrees Celsius to kelvin
+<equation id="fs-id1172100564097" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>18.0</m:mn><m:mo>+</m:mo><m:mn>273</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>K</m:mtext><m:mo>=</m:mo><m:mn>291</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+<equation id="fs-id1172100532318" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>35.0</m:mn><m:mo>+</m:mo><m:mn>273</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>K</m:mtext><m:mo>=</m:mo><m:mn>308</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>Substitute the known values into the equation,
+<equation id="fs-id1172098448866" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>308</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mrow><m:mn>291</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7.41</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1172100894399"><title>Significance</title>
+The final temperature is about <m:math><m:mrow><m:mn>6</m:mn><m:mi>%</m:mi></m:mrow></m:math> greater than the original temperature, so the final pressure is about <m:math><m:mrow><m:mn>6</m:mn><m:mi>%</m:mi></m:mrow></m:math> greater as well. Note that <emphasis effect="italics">absolute pressure</emphasis> (see <link document="m58624">Fluid Mechanics</link>) and <emphasis effect="italics">absolute temperature</emphasis> (see <link document="m58383">Temperature and Heat</link>) must be used in the ideal gas law.</para>
+</example>
+<example id="fs-id1172100636938">
+<para id="fs-id1172098746842"><title>Calculating the Number of Molecules in a Cubic Meter of Gas</title>
+How many molecules are in a typical object, such as gas in a tire or water in a glass? This calculation can give us an idea of how large <emphasis effect="italics">N</emphasis> typically is. Let’s calculate the number of molecules in the air that a typical healthy young adult inhales in one breath, with a volume of 500 mL, at <term class="no-emphasis"><emphasis effect="italics">standard temperature and pressure</emphasis> (STP)</term>, which is defined as <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>ºC</m:mtext></m:mrow></m:math> and atmospheric pressure. (Our young adult is apparently outside in winter.)</para>
+<para id="fs-id1172100923507"><title>Strategy</title>
+Because pressure, volume, and temperature are all specified, we can use the ideal gas law, <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> to find <emphasis effect="italics">N</emphasis>.</para>
+<para id="fs-id1172100575288"><title>Solution</title></para>
+<list id="fs-id1172098406743" list-type="enumerated" number-style="arabic">
+<item>Identify the knowns.
+<equation id="fs-id1172100996108" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1.01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>mL</m:mtext><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext></m:mrow></m:math></equation></item>
+<item>Substitute the known values into the equation and solve for <emphasis effect="italics">N</emphasis>.
+<equation id="fs-id1172100951831" class="unnumbered"><label/><m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.34</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>molecules</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1172100595537"><title>Significance</title>
+<emphasis effect="italics">N</emphasis> is huge, even in small volumes. For example, <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> of a gas at STP contains <m:math><m:mrow><m:mn>2.68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>19</m:mn></m:mrow></m:msup></m:mrow></m:math> molecules. Once again, note that our result for <emphasis effect="italics">N</emphasis> is the same for all types of gases, including mixtures.</para>
+<para id="fs-id1172098524542">As we observed in the chapter on fluid mechanics, pascals are <m:math><m:mrow><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, so <m:math><m:mrow><m:mtext>Pa</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Thus, our result for <emphasis effect="italics">N</emphasis> is dimensionless, a pure number that could be obtained by counting (in principle) rather than measuring. As it is the number of molecules, we put “molecules” after the number, keeping in mind that it is an aid to communication rather than a unit.</para>
+</example>
+</section>
+<section id="fs-id1172100513078">
+<title>Moles and Avogadro’s Number</title>
+<para id="fs-id1172096296361">It is often convenient to measure the amount of substance with a unit on a more human scale than molecules. The SI unit for this purpose was developed by the Italian scientist Amedeo <term class="no-emphasis">Avogadro</term> (1776–1856). (He worked from the hypothesis that equal volumes of gas at equal pressure and temperature contain equal numbers of molecules, independent of the type of gas. As mentioned above, this hypothesis has been confirmed when the ideal gas approximation applies.) A <term>mole</term> (abbreviated mol) is defined as the amount of any substance that contains as many molecules as there are atoms in exactly 12 grams (0.012 kg) of carbon-12. (Technically, we should say “formula units,” not “molecules,” but this distinction is irrelevant for our purposes.) The number of molecules in one mole is called <term>Avogadro’s number</term> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> and the value of Avogadro’s number is now known to be</para>
+<equation id="fs-id1172100561592" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:mo>=</m:mo><m:mn>6.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mol</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101004196">We can now write <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:msub><m:mi>n</m:mi></m:mrow></m:math>, where <emphasis effect="italics">n</emphasis> represents the number of moles of a substance.</para>
+<para id="fs-id1172098504206">Avogadro’s number relates the mass of an amount of substance in grams to the number of protons and neutrons in an atom or molecule (12 for a carbon-12 atom), which roughly determine its mass. It’s natural to define a unit of mass such that the mass of an atom is approximately equal to its number of neutrons and protons. The unit of that kind accepted for use with the SI is the <term class="no-emphasis"><emphasis effect="italics">unified atomic mass unit</emphasis> (u)</term>, also called the <term class="no-emphasis"><emphasis effect="italics">dalton</emphasis></term>. Specifically, a carbon-12 atom has a mass of exactly 12 u, so that its molar mass <emphasis effect="italics">M</emphasis> in grams per mole is numerically equal to the mass of one carbon-12 atom in u. That equality holds for any substance. In other words, <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub></m:mrow></m:math> is not only the conversion from numbers of molecules to moles, but it is also the conversion from u to grams: <m:math><m:mrow><m:mn>6.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>u</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> See <link target-id="CNX_UPhysics_19_01_MoleSize"/>.</para>
+<figure id="CNX_UPhysics_19_01_MoleSize">
+<media id="fs-id1172100506689" alt="The illustration shows relatively flat land with a solitary mountain, labeled “Mt. Everest for scale”, and blue sky well above the mountain top. A double-headed vertical arrow, labeled “table tennis balls”, stretches between the land and the sky.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_01_MoleSize.jpg"/>
+</media>
+<caption>How big is a mole? On a macroscopic level, Avogadro’s number of table tennis balls would cover Earth to a depth of about 40 km.</caption>
+</figure>
+<para id="fs-id1172100932335">Now letting <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow></m:math> stand for the mass of a sample of a substance, we have <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>M</m:mi><m:mo>.</m:mo></m:mrow></m:math> Letting <emphasis effect="italics">m</emphasis> stand for the mass of a molecule, we have <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:msub><m:mi>m</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1172100506931" class="check-understanding">
+<exercise id="fs-id1172098513629">
+<problem id="fs-id1172100993593">
+<para id="fs-id1172098708151"><emphasis effect="bold">Check Your Understanding</emphasis> The recommended daily amount of vitamin <m:math><m:mrow><m:msub><m:mtext>B</m:mtext><m:mn>3</m:mn></m:msub></m:mrow></m:math> or niacin, <m:math><m:mrow><m:msub><m:mtext>C</m:mtext><m:mn>6</m:mn></m:msub><m:msub><m:mrow><m:mtext>NH</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> for women who are not pregnant or nursing, is 14 mg. Find the number of molecules of niacin in that amount.</para>
+</problem>
+<solution id="fs-id1172098267487">
+<para id="fs-id1172098626995">We first need to calculate the molar mass (the mass of one mole) of niacin. To do this, we must multiply the number of atoms of each element in the molecule by the element’s molar mass.<newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>mol of carbon</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mol hydrogen</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>mol nitrogen</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>14</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>mol oxygen</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>16.0</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>123</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/>
+Then we need to calculate the number of moles in 14 mg.<newline/>
+<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>14</m:mn><m:mspace width="0.2em"/><m:mtext>mg</m:mtext></m:mrow><m:mrow><m:mn>123</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow><m:mrow><m:mn>1000</m:mn><m:mspace width="0.2em"/><m:mtext>mg</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>mol</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math><newline/>
+Then, we use Avogadro’s number to calculate the number of molecules:<newline/>
+<m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>mol</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>molecules</m:mtext><m:mtext>/</m:mtext><m:mtext>mol</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>molecules</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1172100735121" class="check-understanding">
+<exercise id="fs-id1172098760360">
+<problem id="fs-id1172100957709">
+<para id="fs-id1172098392506"><emphasis effect="bold">Check Your Understanding</emphasis> The density of air in a classroom <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C)</m:mtext></m:mrow></m:math> is <m:math><m:mrow><m:mn>1.28</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. At what pressure is the density <m:math><m:mrow><m:mn>0.600</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> if the temperature is kept constant?</para>
+</problem>
+<solution id="fs-id1172098666657">
+<para id="fs-id1172100643740">The density of a gas is equal to a constant, the average molecular mass, times the number density <emphasis effect="italics">N</emphasis>/<emphasis effect="italics">V</emphasis>. From the ideal gas law, <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> we see that <m:math><m:mrow><m:mi>N</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math> Therefore, at constant temperature, if the density and, consequently, the number density are reduced by half, the pressure must also be reduced by half, and <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0.500</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1172100657987">
+<title>The Ideal Gas Law Restated using Moles</title>
+<para id="fs-id1172100799951">A very common expression of the ideal gas law uses the number of moles in a sample, <emphasis effect="italics">n</emphasis>, rather than the number of molecules, <emphasis effect="italics">N</emphasis>. We start from the ideal gas law,</para>
+<equation id="fs-id1172100665159" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100575491">and multiply and divide the right-hand side of the equation by Avogadro’s number <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> This gives us</para>
+<equation id="fs-id1172100979038" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>N</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:mspace width="0.2em"/><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100695618">Note that <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub></m:mrow></m:math> is the number of moles. We define the <term>universal gas constant</term> as <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> and obtain the ideal gas law in terms of moles.</para>
+<note id="fs-id1172098421846">
+<title>Ideal Gas Law (in terms of moles)</title>
+<para id="fs-id1172100523424">In terms of number of moles <emphasis effect="italics">n</emphasis>, the ideal gas law is written as</para>
+<equation id="fs-id1172100967343"><m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098577544">In SI units,</para>
+<equation id="fs-id1172100854526" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mol</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mtext>J</m:mtext><m:mtext>K</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8.31</m:mn><m:mspace width="0.2em"/><m:mfrac><m:mtext>J</m:mtext><m:mrow><m:mtext>mol</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100944605">In other units,</para>
+<equation id="fs-id1172100991460" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>1.99</m:mn><m:mfrac><m:mrow><m:mtext>cal</m:mtext></m:mrow><m:mrow><m:mtext>mol</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.0821</m:mn><m:mfrac><m:mrow><m:mtext>L</m:mtext><m:mo>·</m:mo><m:mtext>atm</m:mtext></m:mrow><m:mrow><m:mtext>mol</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098410542">You can use whichever value of <emphasis effect="italics">R</emphasis> is most convenient for a particular problem.</para>
+</note>
+<example id="fs-id1172101029634">
+<para id="fs-id1172098530658"><title>Density of Air at STP and in a Hot Air Balloon</title>
+Calculate the density of dry air (a) under standard conditions and (b) in a hot air balloon at a temperature of <m:math><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>ºC</m:mtext></m:mrow></m:math>. Dry air is approximately <m:math><m:mrow><m:mn>78</m:mn><m:mi>%</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>N</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mn>21</m:mn><m:mi>%</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>O</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mn>1</m:mn><m:mi>%</m:mi><m:mspace width="0.2em"/><m:mtext>Ar</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1172098272967"><title>Strategy and Solution</title></para>
+<list id="fs-id1172098522866" list-type="enumerated" number-style="lower-alpha">
+<item>We are asked to find the density, or mass per cubic meter. We can begin by finding the molar mass. If we have a hundred molecules, of which 78 are nitrogen, 21 are oxygen, and 1 is argon, the average molecular mass is <m:math><m:mrow><m:mfrac><m:mrow><m:mn>78</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>m</m:mi><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:msub><m:mo>+</m:mo><m:mn>21</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>m</m:mi><m:mrow><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Ar</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math>, or the mass of each constituent multiplied by its percentage. The same applies to the molar mass, which therefore is
+<equation id="fs-id1167586182486" class="unnumbered"><label/><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>0.78</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>M</m:mi><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:msub><m:mo>+</m:mo><m:mn>0.21</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>M</m:mi><m:mrow><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:msub><m:mo>+</m:mo><m:mn>0.01</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>M</m:mi><m:mrow><m:mtext>Ar</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>29.0</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+Now we can find the number of moles per cubic meter. We use the ideal gas law in terms of moles, <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> with <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, and <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>8.31</m:mn><m:mspace width="0.2em"/><m:mtext>J/mol</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:math>. The most convenient choice for <emphasis effect="italics">R</emphasis> in this case is <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>8.31</m:mn><m:mspace width="0.2em"/><m:mtext>J/mol</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:math> because the known quantities are in SI units:
+<equation id="fs-id1172100980319" class="unnumbered"><label/><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>8.31</m:mn><m:mspace width="0.2em"/><m:mtext>J/mol</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>44.1</m:mn><m:mspace width="0.2em"/><m:mtext>mol</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+Then, the mass <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow></m:math> of that air is
+<equation id="fs-id1172098435771" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>M</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>44.1</m:mn><m:mspace width="0.2em"/><m:mtext>mol</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>29.0</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1290</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext><m:mo>=</m:mo><m:mn>1.28</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Finally the density of air at STP is
+<equation id="fs-id1172098271145" class="unnumbered"><label/><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1.28</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.28</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The air pressure inside the balloon is still 1 atm because the bottom of the balloon is open to the atmosphere. The calculation is the same except that we use a temperature of <m:math><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>ºC</m:mtext></m:mrow></m:math>, which is 393 K. We can repeat the calculation in (a), or simply observe that the density is proportional to the number of moles, which is inversely proportional to the temperature. Then using the subscripts 1 for air at STP and 2 for the hot air, we have
+<equation id="fs-id1172100639888" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mrow><m:mn>393</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1.28</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.889</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1172096052604"><emphasis effect="bold">Significance</emphasis></para>
+<para id="fs-id1172098442945">Using the methods of <link document="m58356">Archimedes’ Principle and Buoyancy</link>, we can find that the net force on <m:math><m:mrow><m:mn>2200</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> of air at <m:math><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>ºC</m:mtext></m:mrow></m:math> is <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>b</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>F</m:mi><m:mi>g</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>atmosphere</m:mtext></m:mrow></m:msub><m:mi>V</m:mi><m:mi>g</m:mi><m:mo>−</m:mo><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>hot air</m:mtext></m:mrow></m:msub><m:mi>V</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>8.49</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mn>,</m:mn></m:mrow></m:math> or enough to lift about 867 kg. The mass density and molar density of air at STP, found above, are often useful numbers. From the molar density, we can easily determine another useful number, the volume of a mole of any ideal gas at STP, which is 22.4 L.</para>
+</example>
+<note id="fs-id1172100875936" class="check-understanding">
+<exercise id="fs-id1172096038449">
+<problem id="fs-id1172098492495">
+<para id="fs-id1172098434490"><emphasis effect="bold">Check Your Understanding</emphasis> Liquids and solids have densities on the order of 1000 times greater than gases. Explain how this implies that the distances between molecules in gases are on the order of 10 times greater than the size of their molecules.</para>
+</problem>
+<solution id="fs-id1172098391682">
+<para id="fs-id1172098657374">Density is mass per unit volume, and volume is proportional to the size of a body (such as the radius of a sphere) cubed. So if the distance between molecules increases by a factor of 10, then the volume occupied increases by a factor of 1000, and the density decreases by a factor of 1000. Since we assume molecules are in contact in liquids and solids, the distance between their centers is on the order of their typical size, so the distance in gases is on the order of 10 times as great.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1172098565614">The ideal gas law is closely related to energy: The units on both sides of the equation are joules. The right-hand side of the ideal gas law equation is <m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math> This term is roughly the total translational kinetic energy (which, when discussing gases, refers to the energy of translation of a molecule, not that of vibration of its atoms or rotation) of <emphasis effect="italics">N</emphasis> molecules at an absolute temperature <emphasis effect="italics">T</emphasis>, as we will see formally in the next section. The left-hand side of the ideal gas law equation is <emphasis effect="italics">pV</emphasis>. As mentioned in the example on the number of molecules in an ideal gas, pressure multiplied by volume has units of energy. The energy of a gas can be changed when the gas does work as it increases in volume, something we explored in the preceding chapter, and the amount of work is related to the pressure. This is the process that occurs in gasoline or steam engines and turbines, as we’ll see in the next chapter.</para>
+<note id="fs-id1172100493366" class="problem-solving">
+<title>The Ideal Gas Law</title>
+<para id="fs-id1172096024912"><emphasis effect="bold">Step 1.</emphasis> Examine the situation to determine that an ideal gas is involved. Most gases are nearly ideal unless they are close to the boiling point or at pressures far above atmospheric pressure.</para>
+<para id="fs-id1172098670232"><emphasis effect="bold">Step 2.</emphasis> Make a list of what quantities are given or can be inferred from the problem as stated (identify the known quantities).</para>
+<para id="fs-id1172098516202"><emphasis effect="bold">Step 3.</emphasis> Identify exactly what needs to be determined in the problem (identify the unknown quantities). A written list is useful.</para>
+<para id="fs-id1172100827265"><emphasis effect="bold">Step 4.</emphasis> Determine whether the number of molecules or the number of moles is known or asked for to decide whether to use the ideal gas law as <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">N</emphasis> is the number of molecules, or <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">n</emphasis> is the number of moles.</para>
+<para id="fs-id1172098283016"><emphasis effect="bold">Step 5.</emphasis> Convert known values into proper SI units (K for temperature, Pa for pressure, <m:math><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math> for volume, molecules for <emphasis effect="italics">N</emphasis>, and moles for <emphasis effect="italics">n</emphasis>). If the units of the knowns are consistent with one of the non-SI values of <emphasis effect="italics">R</emphasis>, you can leave them in those units. Be sure to use absolute temperature and absolute pressure.</para>
+<para id="fs-id1172096296073"><emphasis effect="bold">Step 6.</emphasis> Solve the ideal gas law for the quantity to be determined (the unknown quantity). You may need to take a ratio of final states to initial states to eliminate the unknown quantities that are kept fixed.</para>
+<para id="fs-id1172100663890"><emphasis effect="bold">Step 7.</emphasis> Substitute the known quantities, along with their units, into the appropriate equation and obtain numerical solutions complete with units.</para>
+<para id="fs-id1172098665190"><emphasis effect="bold">Step 8.</emphasis> Check the answer to see if it is reasonable: Does it make sense?</para>
+</note>
+</section>
+<section id="fs-id1172100992850">
+<title>The Van der Waals Equation of State</title>
+<para id="fs-id1172098275529">We have repeatedly noted that the ideal gas law is an approximation. How can it be improved upon? The <term>van der Waals equation of state</term> (named after the Dutch physicist Johannes <term class="no-emphasis">van der Waals</term>, 1837−1923) improves it by taking into account two factors. First, the attractive forces between molecules, which are stronger at higher density and reduce the pressure, are taken into account by adding to the pressure a term equal to the square of the molar density multiplied by a positive coefficient <emphasis effect="italics">a</emphasis>. Second, the volume of the molecules is represented by a positive constant <emphasis effect="italics">b</emphasis>, which can be thought of as the volume of a mole of molecules. This is subtracted from the total volume to give the remaining volume that the molecules can move in. The constants <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> are determined experimentally for each gas. The resulting equation is</para>
+<note id="fs-id1172098407405" class="equation-callout">
+<equation id="fs-id1172098267768"><label/><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>n</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>]</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>V</m:mi><m:mo>−</m:mo><m:mi>n</m:mi><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172101007948">In the limit of low density (small <emphasis effect="italics">n</emphasis>), the <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> terms are negligible, and we have the ideal gas law, as we should for low density. On the other hand, if <m:math><m:mrow><m:mi>V</m:mi><m:mo>−</m:mo><m:mi>n</m:mi><m:mi>b</m:mi></m:mrow></m:math> is small, meaning that the molecules are very close together, the pressure must be higher to give the same <emphasis effect="italics">nRT</emphasis>, as we would expect in the situation of a highly compressed gas. However, the increase in pressure is less than that argument would suggest, because at high density the <m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> term is significant. Since it’s positive, it causes a lower pressure to give the same <emphasis effect="italics">nRT</emphasis>.</para>
+<para id="fs-id1172100922037">The van der Waals equation of state works well for most gases under a wide variety of conditions. As we’ll see in the next module, it even predicts the gas-liquid transition.</para>
+</section>
+<section id="fs-id1172098691757">
+<title><emphasis effect="italics">pV</emphasis> Diagrams</title>
+<para id="fs-id1172100630268">We can examine aspects of the behavior of a substance by plotting a <term><emphasis effect="italics">pV</emphasis> diagram</term>, which is a graph of pressure versus volume. When the substance behaves like an ideal gas, the ideal gas law <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow></m:math> describes the relationship between its pressure and volume. On a <emphasis effect="italics">pV</emphasis> diagram, it’s common to plot an <emphasis effect="italics">isotherm</emphasis>, which is a curve showing <emphasis effect="italics">p</emphasis> as a function of <emphasis effect="italics">V</emphasis> with the number of molecules and the temperature fixed. Then, for an ideal gas, <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext>constant</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> For example, the volume of the gas decreases as the pressure increases. The resulting graph is a hyperbola.</para>
+<para id="fs-id1172100631732">However, if we assume the van der Waals equation of state, the isotherms become more interesting, as shown in <link target-id="CNX_UPhysics_19_01_VanderWaal"/>. At high temperatures, the curves are approximately hyperbolas, representing approximately ideal behavior at various fixed temperatures. At lower temperatures, the curves look less and less like hyperbolas—that is, the gas is not behaving ideally. There is a <term>critical temperature</term> <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> at which the curve has a point with zero slope. Below that temperature, the curves do not decrease monotonically; instead, they each have a “hump,” meaning that for a certain range of volume, increasing the volume increases the pressure.</para>
+<figure id="CNX_UPhysics_19_01_VanderWaal">
+<media id="fs-id1172098777008" alt="The figure is a plot of Pressure, p, on the vertical axis as a function of volume, V, on the horizontal axis, at five different temperatures. The curves all start at high pressures for the lowest volumes and decrease. The upper two curves, in red, decrease monotonically, with gradually decreasing slope. These curves are marked as having T greater than T c. The middle curve, in purple, is marked T c. This curve decreases rapidly, has a saddle point, and then continues to decrease gradually. The lowest two curves, in blue, decrease to a narrow minimum, then increase to a broad maximum, and then decrease gradually. These curves are marked as having T less than T c. The pressure minima of the lower curves occur at volumes slightly lower than the volume at which the T c curve saddle point is found.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_01_VanderWaal.jpg"/>
+</media>
+<caption><emphasis effect="italics">pV</emphasis> diagram for a Van der Waals gas at various temperatures. The red curves are calculated at temperatures above the critical temperature and the blue curves at temperatures below it. The blue curves have an oscillation in which volume (<emphasis effect="italics">V</emphasis>) increases with increasing pressure (<emphasis effect="italics">P</emphasis>), an impossible situation, so they must be corrected as in <link target-id="CNX_UPhysics_19_01_Isotherms"/>. (credit: “Eman”/Wikimedia Commons)</caption>
+</figure>
+<para id="fs-id1172098748691">Such behavior would be completely unphysical. Instead, the curves are understood as describing a liquid-gas <term class="no-emphasis">phase transition</term>. The oscillating part of the curve is replaced by a horizontal line, showing that as the volume increases at constant temperature, the pressure stays constant. That behavior corresponds to boiling and condensation; when a substance is at its boiling temperature for a particular pressure, it can increase in volume as some of the liquid turns to gas, or decrease as some of the gas turns to liquid, without any change in temperature or pressure.</para>
+<para id="fs-id1172098760212"><link target-id="CNX_UPhysics_19_01_Isotherms"/> shows similar isotherms that are more realistic than those based on the van der Waals equation. The steep parts of the curves to the left of the transition region show the liquid phase, which is almost incompressible—a slight decrease in volume requires a large increase in pressure. The flat parts show the liquid-gas transition; the blue regions that they define represent combinations of pressure and volume where liquid and gas can coexist.</para>
+<figure id="CNX_UPhysics_19_01_Isotherms">
+<media id="fs-id1172100575444" alt="The figure has two plots of Pressure, p, on the vertical axis as a function of volume, V, on the horizontal axis, at several different temperatures. Figure a shows six isotherms labeled, from the bottom to top, T 1, T 2, T C, T 3, T 4 and T 5. A note on the graph tells us that these temperatures are also in increasing order. The graphs show that pressure generally decreases with increasing volume for all temperatures, except at low temperatures when pressure is constant as a function of volume during a phase change. The phase change occupies a region in the plot shaded in blue and labeled Liquid-vapor equilibrium region. Figure b is the same plot, zoomed in to show the p V diagram in and around the shaded liquid vapor region. Above the shaded region, the curves decrease monotonically. The curve that is still outside but just touches the peak of the liquid vapor region is labeled as the critical isotherm, T c. The point at which this curve meets the shaded region is labeled the critical point. The region to the left of the shaded region and at pressures lower than the pressure of the critical point is the liquid region. The region to the right of the shaded region is the vapor region. The right edge of the shaded region is the saturation curve. The region above the critical isotherm is labeled as true but not ideal gas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_01_Isotherms.jpg"/>
+</media>
+<caption><emphasis effect="italics">pV</emphasis> diagrams. (a) Each curve (isotherm) represents the relationship between <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">V</emphasis> at a fixed temperature; the upper curves are at higher temperatures. The lower curves are not hyperbolas because the gas is no longer an ideal gas. (b) An expanded portion of the <emphasis effect="italics">pV</emphasis> diagram for low temperatures, where the phase can change from a gas to a liquid. The term “vapor” refers to the gas phase when it exists at a temperature below the boiling temperature.</caption>
+</figure>
+<para id="fs-id1172098272602">The isotherms above <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> do not go through the liquid-gas transition. Therefore, liquid cannot exist above that temperature, which is the critical temperature (described in the chapter on temperature and heat). At sufficiently low pressure above that temperature, the gas has the density of a liquid but will not condense; the gas is said to be <term>supercritical</term>. At higher pressure, it is solid. Carbon dioxide, for example, has no liquid phase at a temperature above <m:math><m:mrow><m:mn>31.0</m:mn><m:mspace width="0.2em"/><m:mtext>ºC</m:mtext></m:mrow></m:math>. The critical pressure is the maximum pressure at which the liquid can exist. The point on the <emphasis effect="italics">pV</emphasis> diagram at the critical pressure and temperature is the critical point (which you learned about in the chapter on temperature and heat). <link target-id="fs-id1172098283068"/> lists representative critical temperatures and pressures.</para>
+<table id="fs-id1172098283068" summary="The table has three columns and 10 rows. The first two rows are header rows with the column heading in the first row and the units in the second. The first column heading is “Substance”. The second column heading is “Critical Temperature”. The column is then divided into two columns, the first for temperature in units of Kelvin and the second in units of degrees Celcius. The third column heading is “Critical pressure.” This column is also divided into two columns, the first in units of Pascals and the second in units of atmospheres. The first data row has Water, 647.4 K, 374.3 Degrees Celcius, 22.12 times 10 to the 6 Pascals, 219.0 atmospheres. The second data row has Sulfur dioxide, 430.7 K, 157.6 Degrees Celcius, 7.88 times 10 to the 6 Pascals, 78.0 atmospheres. The third data row has Ammonia, 405.5 K, 132.4 Degrees Celcius, 11.28 times 10 to the 6 Pascals, 111.7 atmospheres. The fourth data row has Carbon dioxide, 304.2 K, 31.1 Degrees Celcius, 7.39 times 10 to the 6 Pascals, 73.2 atmospheres. The fifth data row has Oxygen, 154.8 K, -118.4 Degrees Celcius, 5.08 times 10 to the 6 Pascals, 50.3 atmospheres. The sixth data row has Nitrogen, 126.2 K, -146.9 Degrees Celcius, 3.39 times 10 to the 6 Pascals, 33.6 atmospheres. The seventh data row has Hydrogen, 33.3 K, -239.9 Degrees Celcius, 1.30 times 10 to the 6 Pascals, 12.9 atmospheres. The eighth data row has Helium, 5.3 K, -267.9 Degrees Celcius, 0.229 times 10 to the 6 Pascals, 2.27 atmospheres.">
+<title>Critical Temperatures and Pressures for Various Substances</title>
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Substance</entry>
+<entry valign="top" align="center" namest="c2" nameend="c3">Critical temperature</entry>
+<entry valign="top" align="center" namest="c4" nameend="c5">Critical pressure</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="center"/>
+<entry valign="top" align="center">K</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>°C</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center">Pa</entry>
+<entry valign="top" align="center">atm</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Water</entry>
+<entry valign="top" align="center">647.4</entry>
+<entry valign="top" align="center">374.3</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>22.12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center">219.0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Sulfur dioxide</entry>
+<entry valign="top" align="center">430.7</entry>
+<entry valign="top" align="center">157.6</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>7.88</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center">78.0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ammonia</entry>
+<entry valign="top" align="center">405.5</entry>
+<entry valign="top" align="center">132.4</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>11.28</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center">111.7</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Carbon dioxide</entry>
+<entry valign="top" align="center">304.2</entry>
+<entry valign="top" align="center">31.1</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>7.39</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center">73.2</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Oxygen</entry>
+<entry valign="top" align="center">154.8</entry>
+<entry valign="top" align="center">–118.4</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>5.08</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center">50.3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Nitrogen</entry>
+<entry valign="top" align="center">126.2</entry>
+<entry valign="top" align="center">–146.9</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3.39</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center">33.6</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hydrogen</entry>
+<entry valign="top" align="center">33.3</entry>
+<entry valign="top" align="center">–239.9</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1.30</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center">12.9</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Helium</entry>
+<entry valign="top" align="center">5.3</entry>
+<entry valign="top" align="center">–267.9</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.229</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center">2.27</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1172098431904" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172098632230" list-type="bulleted" bullet-style="bullet">
+<item>The ideal gas law relates the pressure and volume of a gas to the number of gas molecules and the temperature of the gas.</item>
+<item>A mole of any substance has a number of molecules equal to the number of atoms in a 12-g sample of carbon-12. The number of molecules in a mole is called Avogadro’s number <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math>
+<equation id="fs-id1172100557802" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:mo>=</m:mo><m:mn>6.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mol</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>A mole of any substance has a mass in grams numerically equal to its molecular mass in unified mass units, which can be determined from the periodic table of elements. The ideal gas law can also be written and solved in terms of the number of moles of gas:
+<equation id="fs-id1172098316096" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+where <emphasis effect="italics">n</emphasis> is the number of moles and <emphasis effect="italics">R</emphasis> is the universal gas constant,
+<equation id="fs-id1172098577365" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>8.31</m:mn><m:mspace width="0.2em"/><m:mtext>J/mol</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The ideal gas law is generally valid at temperatures well above the boiling temperature.</item>
+<item>The van der Waals equation of state for gases is valid closer to the boiling point than the ideal gas law.</item>
+<item>Above the critical temperature and pressure for a given substance, the liquid phase does not exist, and the sample is “supercritical.”</item>
+</list>
+</section>
+<section id="fs-id1172098315716" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172100638363">
+<problem id="fs-id1172100638365">
+<para id="fs-id1172100925444">Two <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> molecules can react with one <m:math><m:mrow><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> molecule to produce two <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext></m:mrow></m:math> molecules. How many moles of hydrogen molecules are needed to react with one mole of oxygen molecules?</para>
+</problem>
+<solution id="fs-id1172098266818">
+<para id="fs-id1172098389082">2 moles, as that will contain twice as many molecules as the 1 mole of oxygen</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098585370">
+<problem id="fs-id1172100565624">
+<para id="fs-id1172100565626">Under what circumstances would you expect a gas to behave significantly differently than predicted by the ideal gas law?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101031527">
+<problem id="fs-id1172098422046">
+<para id="fs-id1172098422048">A constant-volume gas thermometer contains a fixed amount of gas. What property of the gas is measured to indicate its temperature?</para>
+</problem>
+<solution id="fs-id1172100560915">
+<para id="fs-id1172100560917">pressure</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098372448">
+<problem id="fs-id1172100497679">
+<para id="fs-id1172100497681">Inflate a balloon at room temperature. Leave the inflated balloon in the refrigerator overnight. What happens to the balloon, and why?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098380828">
+<problem id="fs-id1172098380830">
+<para id="fs-id1172100676496">In the last chapter, free convection was explained as the result of buoyant forces on hot fluids. Explain the upward motion of air in flames based on the ideal gas law.</para>
+</problem>
+<solution id="fs-id1172100615493">
+<para id="fs-id1172100615495">The flame contains hot gas (heated by combustion). The pressure is still atmospheric pressure, in mechanical equilibrium with the air around it (or roughly so). The density of the hot gas is proportional to its number density <emphasis effect="italics">N</emphasis>/<emphasis effect="italics">V</emphasis> (neglecting the difference in composition between the gas in the flame and the surrounding air). At higher temperature than the surrounding air, the ideal gas law says that <m:math><m:mrow><m:mi>N</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mi>B</m:mi></m:msub><m:mi>T</m:mi></m:mrow></m:math> is less than that of the surrounding air. Therefore the hot air has lower density than the surrounding air and is lifted by the buoyant force.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172093797758" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172098500750">
+<problem id="fs-id1172098500752">
+<para id="fs-id1172098316720">The gauge pressure in your car tires is <m:math><m:mrow><m:mn>2.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> at a temperature of <m:math><m:mrow><m:mn>35.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> when you drive it onto a ship in Los Angeles to be sent to Alaska. What is their gauge pressure on a night in Alaska when their temperature has dropped to <m:math><m:mrow><m:mo>−</m:mo><m:mn>40.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>
+? Assume the tires have not gained or lost any air.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100964372">
+<problem id="fs-id1172101038553">
+<para id="fs-id1172101038556">Suppose a gas-filled incandescent light bulb is manufactured so that the gas inside the bulb is at atmospheric pressure when the bulb has a temperature of <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (a) Find the gauge pressure inside such a bulb when it is hot, assuming its average temperature is <m:math><m:mrow><m:mn>60.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (an approximation) and neglecting any change in volume due to thermal expansion or gas leaks. (b) The actual final pressure for the light bulb will be less than calculated in part (a) because the glass bulb will expand. Is this effect significant?</para>
+</problem>
+<solution id="fs-id1172096157690">
+<para id="fs-id1172096178622">a. 0.137 atm; b. <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext><m:mo stretchy="false">)</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Because of the expansion of the glass, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.99973</m:mn></m:mrow></m:math>. Multiplying by that factor does not make any significant difference.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098685486">
+<problem id="fs-id1172098685488">
+<para id="fs-id1172096018659">People buying food in sealed bags at high elevations often notice that the bags are puffed up because the air inside has expanded. A bag of pretzels was packed at a pressure of 1.00 atm and a temperature of <m:math><m:mrow><m:mn>22.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math> When opened at a summer picnic in Santa Fe, New Mexico, at a temperature of <m:math><m:mrow><m:mn>32.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> the volume of the air in the bag is 1.38 times its original volume. What is the pressure of the air?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100986396">
+<problem id="fs-id1172100535805">
+<para id="fs-id1172100535807">How many moles are there in (a) 0.0500 g of <m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> gas <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>28.0</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mo>)</m:mo><m:mtext>?</m:mtext></m:mrow></m:math> (b) 10.0 g of <m:math><m:mrow><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math> gas <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>44.0</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>?</m:mtext></m:mrow></m:math> (c) How many molecules are present in each case?</para>
+</problem>
+<solution id="fs-id1172100528577">
+<para id="fs-id1172101031300">a. <m:math><m:mrow><m:mn>1.79</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>mol;</m:mtext></m:mrow></m:math> b. 0.227 mol; c. <m:math><m:mrow><m:mn>1.08</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:msup></m:mrow></m:math> molecules for the nitrogen, <m:math><m:mrow><m:mn>1.37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup></m:mrow></m:math> molecules for the carbon dioxide</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098271300">
+<problem id="fs-id1172096145815">
+<para id="fs-id1172096145817">A cubic container of volume 2.00 L holds 0.500 mol of nitrogen gas at a temperature of <m:math><m:mrow><m:mn>25.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> What is the net force due to the nitrogen on one wall of the container? Compare that force to the sample’s weight.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100770666">
+<problem id="fs-id1172100770668">
+<para id="fs-id1172100633189">Calculate the number of moles in the 2.00-L volume of air in the lungs of the average person. Note that the air is at <m:math><m:mrow><m:mn>37.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (body temperature) and that the total volume in the lungs is several times the amount inhaled in a typical breath as given in <link target-id="fs-id1172100636938"/>.</para>
+</problem>
+<solution id="fs-id1172096094483">
+<para id="fs-id1172100556216"><m:math><m:mrow><m:mn>7.84</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>mol</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100970688">
+<problem id="fs-id1172100970690">
+<para id="fs-id1172100599456">An airplane passenger has <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> of air in his stomach just before the plane takes off from a sea-level airport. What volume will the air have at cruising altitude if cabin pressure drops to <m:math><m:mrow><m:mn>7.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>
+?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100960057">
+<problem id="fs-id1172100958270">
+<para id="fs-id1172100958272">A company advertises that it delivers helium at a gauge pressure of <m:math><m:mrow><m:mn>1.72</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> in a cylinder of volume 43.8 L. How many balloons can be inflated to a volume of 4.00 L with that amount of helium? Assume the pressure inside the balloons is <m:math><m:mrow><m:mn>1.01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> and the temperature in the cylinder and the balloons is <m:math><m:mrow><m:mn>25.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1172098640743">
+<para id="fs-id1172100556266"><m:math><m:mrow><m:mn>1.87</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101007168">
+<problem id="fs-id1172098449063">
+<para id="fs-id1172098449065">According to http://hyperphysics.phy-astr.gsu.edu/hbase/solar/venusenv.html, the atmosphere of Venus is approximately <m:math><m:mrow><m:mn>96.5</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:mn>3.5</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>N</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math> by volume. On the surface, where the temperature is about 750 K and the pressure is about 90 atm, what is the density of the atmosphere?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098661679">
+<problem id="fs-id1172100652049">
+<para id="fs-id1172100652051">An expensive vacuum system can achieve a pressure as low as <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> at <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> How many molecules are there in a cubic centimeter at this pressure and temperature?</para>
+</problem>
+<solution id="fs-id1172100585305">
+<para id="fs-id1172100762597"><m:math><m:mrow><m:mn>2.47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>molecules</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098441840">
+<problem id="fs-id1172096331613">
+<para id="fs-id1172096331615">The number density <emphasis effect="italics">N</emphasis>/<emphasis effect="italics">V</emphasis> of gas molecules at a certain location in the space above our planet is about <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> and the pressure is <m:math><m:mrow><m:mn>2.75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> in this space. What is the temperature there?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098362491">
+<problem id="fs-id1172098362493">
+<para id="fs-id1172098454280">A bicycle tire contains 2.00 L of gas at an absolute pressure of <m:math><m:mrow><m:mn>7.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and a temperature of <m:math><m:mrow><m:mn>18.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. What will its pressure be if you let out an amount of air that has a volume of <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> at atmospheric pressure? Assume tire temperature and volume remain constant.</para>
+</problem>
+<solution id="fs-id1172100639201">
+<para id="fs-id1172096295884"><m:math><m:mrow><m:mn>6.95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa;</m:mtext></m:mrow></m:math>
+6.86 atm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098561200">
+<problem id="fs-id1172098561203">
+<para id="fs-id1172100491458">In a common demonstration, a bottle is heated and stoppered with a hard-boiled egg that’s a little bigger than the bottle’s neck. When the bottle is cooled, the pressure difference between inside and outside forces the egg into the bottle. Suppose the bottle has a volume of 0.500 L and the temperature inside it is raised to <m:math><m:mrow><m:mn>80.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> while the pressure remains constant at 1.00 atm because the bottle is open. (a) How many moles of air are inside? (b) Now the egg is put in place, sealing the bottle. What is the gauge pressure inside after the air cools back to the ambient temperature of <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> but before the egg is forced into the bottle?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098590341">
+<problem id="fs-id1172100596157">
+<para id="fs-id1172100596159">A high-pressure gas cylinder contains 50.0 L of toxic gas at a pressure of <m:math><m:mrow><m:mn>1.40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and a temperature of <m:math><m:mrow><m:mn>25.0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. The cylinder is cooled to dry ice temperature <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−78.5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to reduce the leak rate and pressure so that it can be safely repaired. (a) What is the final pressure in the tank, assuming a negligible amount of gas leaks while being cooled and that there is no phase change? (b) What is the final pressure if one-tenth of the gas escapes? (c) To what temperature must the tank be cooled to reduce the pressure to 1.00 atm (assuming the gas does not change phase and that there is no leakage during cooling)? (d) Does cooling the tank as in part (c) appear to be a practical solution?</para>
+</problem>
+<solution id="fs-id1172101008092">
+<para id="fs-id1172101008094">a. <m:math><m:mrow><m:mn>9.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa;</m:mtext></m:mrow></m:math> b. <m:math><m:mrow><m:mn>8.22</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa;</m:mtext></m:mrow></m:math> c. 2.15 K; d. no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098646978">
+<problem id="fs-id1172098497523">
+<para id="fs-id1172098497525">Find the number of moles in 2.00 L of gas at <m:math><m:mrow><m:mn>35.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and under <m:math><m:mrow><m:mn>7.41</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> of pressure.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098616844">
+<problem id="fs-id1172098646745">
+<para id="fs-id1172098646747">Calculate the depth to which Avogadro’s number of table tennis balls would cover Earth. Each ball has a diameter of 3.75 cm. Assume the space between balls adds an extra <m:math><m:mrow><m:mn>25.0</m:mn><m:mi>%</m:mi></m:mrow></m:math> to their volume and assume they are not crushed by their own weight.</para>
+</problem>
+<solution id="fs-id1172098691656">
+<para id="fs-id1172098691658">40.7 km</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098287241">
+<problem id="fs-id1172098451517">
+<para id="fs-id1172098451519">(a) What is the gauge pressure in a <m:math><m:mrow><m:mn>25.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> car tire containing 3.60 mol of gas in a 30.0-L volume? (b) What will its gauge pressure be if you add 1.00 L of gas originally at atmospheric pressure and <m:math><m:mrow><m:mn>25.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>
+? Assume the temperature remains at <m:math><m:mrow><m:mn>25.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and the volume remains constant.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172098278252">
+<term>Avogadro’s number</term>
+<meaning id="fs-id1172100624553"><m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> the number of molecules in one mole of a substance; <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:mo>=</m:mo><m:mn>6.02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup></m:mrow></m:math> particles/mole</meaning>
+</definition>
+<definition id="fs-id1172098382752">
+<term>Boltzmann constant</term>
+<meaning id="fs-id1172100553037"><m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> a physical constant that relates energy to temperature and appears in the ideal gas law; <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1172100597258">
+<term>critical temperature</term>
+<meaning id="fs-id1172100972387"><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> at which the isotherm has a point with zero slope</meaning>
+</definition>
+<definition id="fs-id1172101008218">
+<term>ideal gas</term>
+<meaning id="fs-id1172098375062">gas at the limit of low density and high temperature</meaning>
+</definition>
+<definition id="fs-id1172100946234">
+<term>ideal gas law</term>
+<meaning id="fs-id1172100630467">physical law that relates the pressure and volume of a gas, far from liquefaction, to the number of gas molecules or number of moles of gas and the temperature of the gas</meaning>
+</definition>
+<definition id="fs-id1172100992310">
+<term>mole</term>
+<meaning id="fs-id1172101040149">quantity of a substance whose mass (in grams) is equal to its molecular mass</meaning>
+</definition>
+<definition id="fs-id1172100600844">
+<term><emphasis effect="italics">pV</emphasis> diagram</term>
+<meaning id="fs-id1172100716035">graph of pressure vs. volume</meaning>
+</definition>
+<definition id="fs-id1172100670208">
+<term>supercritical</term>
+<meaning id="fs-id1172100950200">condition of a fluid being at such a high temperature and pressure that the liquid phase cannot exist</meaning>
+</definition>
+<definition id="fs-id1172100961606">
+<term>universal gas constant</term>
+<meaning id="fs-id1172100585937"><emphasis effect="italics">R</emphasis>, the constant that appears in the ideal gas law expressed in terms of moles, given by <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:msub><m:msub><m:mi>k</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1172100954211">
+<term>van der Waals equation of state</term>
+<meaning id="fs-id1172098497688">equation, typically approximate, which relates the pressure and volume of a gas to the number of gas molecules or number of moles of gas and the temperature of the gas</meaning>
+</definition>
+</glossary>
+
+</document>

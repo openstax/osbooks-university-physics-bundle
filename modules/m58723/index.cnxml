@@ -1,0 +1,319 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Equipotential Surfaces and Conductors</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58723</md:content-id>
+  <md:title>Equipotential Surfaces and Conductors</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Define equipotential surfaces and equipotential lines</item>
+<item>Explain the relationship between equipotential lines and electric field lines</item>
+<item>Map equipotential lines for one or two point charges</item>
+<item>Describe the potential of a conductor</item>
+<item>Compare and contrast equipotential lines and elevation lines on topographic maps</item></list></md:abstract>
+  <md:uuid>19802801-5205-40c0-8d6f-e043d8b60d32</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167585805430">We can represent electric potentials (voltages) pictorially, just as we drew pictures to illustrate electric fields. This is not surprising, since the two concepts are related. Consider <link target-id="CNX_UPhysics_24_05_PtChg"/>, which shows an isolated positive point charge and its electric field lines, which radiate out from a positive charge and terminate on negative charges. We use red arrows to represent the magnitude and direction of the electric field, and we use black lines to represent places where the electric potential is constant. These are called <term>equipotential surface</term><emphasis effect="bold">s</emphasis> in three dimensions, or <term>equipotential line</term><emphasis effect="bold">s</emphasis> in two dimensions. The term <emphasis effect="italics">equipotential</emphasis> is also used as a noun, referring to an equipotential line or surface. The potential for a point charge is the same anywhere on an imaginary sphere of radius <emphasis effect="italics">r</emphasis> surrounding the charge. This is true because the potential for a point charge is given by <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>q</m:mi><m:mtext>/</m:mtext><m:mi>r</m:mi></m:mrow></m:math> and thus has the same value at any point that is a given distance <emphasis effect="italics">r</emphasis> from the charge. An equipotential sphere is a circle in the two-dimensional view of <link target-id="CNX_UPhysics_24_05_PtChg"/>. Because the electric field lines point radially away from the charge, they are perpendicular to the equipotential lines.</para><figure id="CNX_UPhysics_24_05_PtChg"><media id="fs-id1167585906351" alt="The figure shows a charge Q and radially outward electric field vectors from Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_PtChg.jpg"/>
+</media>
+
+<caption>An isolated point charge <emphasis effect="italics">Q</emphasis> with its electric field lines in red and equipotential lines in black. The potential is the same along each equipotential line, meaning that no work is required to move a charge anywhere along one of those lines. Work is needed to move a charge from one equipotential line to another. Equipotential lines are perpendicular to electric field lines in every case. For a three-dimensional version, explore the first media link.</caption></figure><para id="fs-id1167585971085">It is important to note that <emphasis effect="italics">equipotential lines are always perpendicular to electric field lines</emphasis>. No work is required to move a charge along an equipotential, since <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Thus, the work is</para>
+<equation id="fs-id1167585827016" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>q</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585944676">Work is zero if the direction of the force is perpendicular to the displacement. Force is in the same direction as <emphasis effect="italics">E</emphasis>, so motion along an equipotential must be perpendicular to <emphasis effect="italics">E</emphasis>. More precisely, work is related to the electric field by</para>
+<equation id="fs-id1167585858666" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>⋅</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>d</m:mi><m:mo>→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>q</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>E</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>⋅</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>d</m:mi><m:mo>→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>E</m:mi><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585767979">Note that in this equation, <emphasis effect="italics">E</emphasis> and <emphasis effect="italics">F</emphasis> symbolize the magnitudes of the electric field and force, respectively. Neither <emphasis effect="italics">q</emphasis> nor <emphasis effect="italics">E</emphasis> is zero; <emphasis effect="italics">d</emphasis> is also not zero. So <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> must be 0, meaning <m:math><m:mi>θ</m:mi></m:math> must be <m:math><m:mrow><m:mn>90</m:mn><m:mtext>º</m:mtext></m:mrow></m:math>. In other words, motion along an equipotential is perpendicular to <emphasis effect="italics">E</emphasis>.</para>
+<para id="fs-id1167585873504">One of the rules for static electric fields and conductors is that the electric field must be perpendicular to the surface of any conductor. This implies that a <emphasis effect="italics">conductor is an equipotential surface in static situations</emphasis>. There can be no voltage difference across the surface of a conductor, or charges will flow. One of the uses of this fact is that a conductor can be fixed at what we consider zero volts by connecting it to the earth with a good conductor—a process called <term>grounding</term>. Grounding can be a useful safety tool. For example, grounding the metal case of an electrical appliance ensures that it is at zero volts relative to Earth.</para>
+<para id="fs-id1167585853706">Because a conductor is an equipotential, it can replace any equipotential surface. For example, in <link target-id="CNX_UPhysics_24_05_PtChg"/>, a charged spherical conductor can replace the point charge, and the electric field and potential surfaces outside of it will be unchanged, confirming the contention that a spherical charge distribution is equivalent to a point charge at its center.</para>
+<para id="fs-id1167585860457"><link target-id="CNX_UPhysics_24_05_EqOpp"/> shows the electric field and equipotential lines for two equal and opposite charges. Given the electric field lines, the equipotential lines can be drawn simply by making them perpendicular to the electric field lines. Conversely, given the equipotential lines, as in <link target-id="CNX_UPhysics_24_05_EqSame"/>(a), the electric field lines can be drawn by making them perpendicular to the equipotentials, as in <link target-id="CNX_UPhysics_24_05_EqSame"/>(b).</para>
+<figure id="CNX_UPhysics_24_05_EqOpp">
+<media id="fs-id1167585998229" alt="The figure shows two charges – one positive and one negative and the electric field lines from positive to negative charge.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_EqOpp.jpg"/>
+</media>
+<caption>The electric field lines and equipotential lines for two equal but opposite charges. The equipotential lines can be drawn by making them perpendicular to the electric field lines, if those are known. Note that the potential is greatest (most positive) near the positive charge and least (most negative) near the negative charge. For a three-dimensional version, explore the first media link.</caption>
+</figure>
+<figure id="CNX_UPhysics_24_05_EqSame">
+<media id="fs-id1167585847858" alt="Part a shows equipotential lines around two charges and part b shows two negative charges and their electric field lines.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_EqSame.jpg"/>
+</media>
+<caption>(a) These equipotential lines might be measured with a voltmeter in a laboratory experiment. (b) The corresponding electric field lines are found by drawing them perpendicular to the equipotentials. Note that these fields are consistent with two equal negative charges. For a three-dimensional version, play with the first media link.</caption>
+</figure>
+<para id="fs-id1167586033307">To improve your intuition, we show a three-dimensional variant of the potential in a system with two opposing charges. <link target-id="CNX_UPhysics_24_05_ThreeD"/> displays a three-dimensional map of electric potential, where lines on the map are for equipotential surfaces. The hill is at the positive charge, and the trough is at the negative charge. The potential is zero far away from the charges. Note that the cut off at a particular potential implies that the charges are on conducting spheres with a finite radius.</para>
+<figure id="CNX_UPhysics_24_05_ThreeD">
+<media id="fs-id1167585767463" alt="The illustration shows electric potential map and equipotential lines two charges – one positive and one negative.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_ThreeD.jpg"/>
+</media>
+<caption>Electric potential map of two opposite charges of equal magnitude on conducting spheres. The potential is negative near the negative charge and positive near the positive charge.</caption>
+</figure>
+<para id="fs-id1167585805577">A two-dimensional map of the cross-sectional plane that contains both charges is shown in <link target-id="CNX_UPhysics_24_05_TwoD"/>. The line that is equidistant from the two opposite charges corresponds to zero potential, since at the points on the line, the positive potential from the positive charge cancels the negative potential from the negative charge. Equipotential lines in the cross-sectional plane are closed loops, which are not necessarily circles, since at each point, the net potential is the sum of the potentials from each charge.</para>
+<figure id="CNX_UPhysics_24_05_TwoD">
+<media id="fs-id1167585793830" alt="The graph shows the equipotential lines for two charges – one positive and one negative. Both x-axis and y-axis of the plane run from -4 to 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_TwoD.jpg"/>
+</media>
+<caption>A cross-section of the electric potential map of two opposite charges of equal magnitude. The potential is negative near the negative charge and positive near the positive charge.</caption>
+</figure>
+<note id="fs-id1167585879781" class="media-2">
+<para id="fs-id1167585969826">View this <link url="https://openstax.org/l/21equipsurelec">simulation</link> to observe and modify the equipotential surfaces and electric fields for many standard charge configurations. There’s a lot to explore.</para>
+</note>
+<para id="fs-id1167585772480">One of the most important cases is that of the familiar parallel conducting plates shown in <link target-id="CNX_UPhysics_24_05_ParaPoten"/>. Between the plates, the equipotentials are evenly spaced and parallel. The same field could be maintained by placing conducting plates at the equipotential lines at the potentials shown.</para>
+<figure id="CNX_UPhysics_24_05_ParaPoten">
+<media id="fs-id1167585993580" alt="The figure shows two metal plates and the electric field lines between them. The potential of the left plate is 100V and right plate is 0V and there are equipotential lines of 75V, 50V and 25V between the plates.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_ParaPoten.jpg"/>
+</media>
+<caption>The electric field and equipotential lines between two metal plates. Note that the electric field is perpendicular to the equipotentials and hence normal to the plates at their surface as well as in the center of the region between them.</caption>
+</figure>
+<para id="fs-id1167585758615">Consider the parallel plates in <link target-id="CNX_UPhysics_24_01_PotEnWork" document="m58429"/>. These have equipotential lines that are parallel to the plates in the space between and evenly spaced. An example of this (with sample values) is given in <link target-id="CNX_UPhysics_24_05_ParaPoten"/>. We could draw a similar set of equipotential isolines for gravity on the hill shown in <link target-id="CNX_UPhysics_24_01_PotEnWork" document="m58429"/>. If the hill has any extent at the same slope, the isolines along that extent would be parallel to each other. Furthermore, in regions of constant slope, the isolines would be evenly spaced. An example of real topographic lines is shown in <link target-id="CNX_UPhysics_24_05_Topo"/>.</para>
+<figure id="CNX_UPhysics_24_05_Topo">
+<media id="fs-id1167586180109" alt="Part a shows the top view photo of topographical lines of Devil’s Tower in Wyoming and part b shows the side view of the Tower.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Topo.jpg"/>
+</media>
+<caption>A topographical map along a ridge has roughly parallel elevation lines, similar to the equipotential lines in <link target-id="CNX_UPhysics_24_05_ParaPoten"/>. (a) A topographical map of Devil’s Tower, Wyoming. Lines that are close together indicate very steep terrain. (b) A perspective photo of Devil’s Tower shows just how steep its sides are. Notice the top of the tower has the same shape as the center of the topographical map.</caption>
+</figure>
+<example id="fs-id1167585838718">
+<para id="fs-id1167585825944"><title>Calculating Equipotential Lines</title>
+You have seen the equipotential lines of a point charge in <link target-id="CNX_UPhysics_24_05_PtChg"/>. How do we calculate them? For example, if we have a <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>10</m:mn><m:mtext>-nC</m:mtext></m:mrow></m:math> charge at the origin, what are the equipotential surfaces at which the potential is (a) 100 V, (b) 50 V, (c) 20 V, and (d) 10 V?</para>
+<para id="fs-id1167585861987"><title>Strategy</title>
+Set the equation for the potential of a point charge equal to a constant and solve for the remaining variable(s). Then calculate values as needed.</para>
+<para id="fs-id1167585999238"><title>Solution</title>
+In <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:math>, let <emphasis effect="italics">V</emphasis> be a constant. The only remaining variable is <emphasis effect="italics">r</emphasis>; hence, <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mtext>constant</m:mtext></m:mrow></m:math>. Thus, the equipotential surfaces are spheres about the origin. Their locations are:</para>
+<list id="fs-id1167585848322" list-type="enumerated" number-style="lower-alpha">
+<item><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>Nm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.90</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;</item>
+<item><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>Nm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.8</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;</item>
+<item><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>Nm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;</item>
+<item><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>Nm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>9.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</item>
+</list>
+<para id="fs-id1167586014191"><title>Significance</title>
+This means that equipotential surfaces around a point charge are spheres of constant radius, as shown earlier, with well-defined locations.</para>
+</example>
+<example id="fs-id1167586006424">
+<para id="fs-id1167585753413"><title>Potential Difference between Oppositely Charged Parallel Plates</title>
+Two large conducting plates carry equal and opposite charges, with a surface charge density <m:math><m:mi>σ</m:mi></m:math> of magnitude <m:math><m:mrow><m:mn>6.81</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> as shown in <link target-id="CNX_UPhysics_24_05_OppCharge"/>. The separation between the plates is <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>6.50</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math>. (a) What is the electric field between the plates? (b) What is the potential difference between the plates? (c) What is the distance between equipotential planes which differ by 100 V?</para>
+<figure id="CNX_UPhysics_24_05_OppCharge">
+<media id="fs-id1167585789606" alt="The figure shows two parallel plates with opposite charges – one positive and one negative and the electric field between them. The distance between the plates is l.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_OppCharge.jpg"/>
+</media>
+<caption>The electric field between oppositely charged parallel plates. A portion is released at the positive plate.</caption>
+</figure>
+<para id="fs-id1167585854640"><title>Strategy</title>
+(a) Since the plates are described as “large” and the distance between them is not, we will approximate each of them as an infinite plane, and apply the result from Gauss’s law in the previous chapter.</para>
+<para id="fs-id1167585997083">(b) Use <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>V</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>l</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mrow></m:math>.</para>
+<para id="fs-id1167586017771">(c) Since the electric field is constant, find the ratio of 100 V to the total potential difference; then calculate this fraction of the distance.</para>
+<para id="fs-id1167586027014"><title>Solution</title></para>
+<list id="fs-id1167585867837" list-type="enumerated" number-style="lower-alpha">
+<item>The electric field is directed from the positive to the negative plate as shown in the figure, and its magnitude is given by
+<equation id="fs-id1167585925359" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6.81</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7.69</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>To find the potential difference <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> between the plates, we use a path from the negative to the positive plate that is directed against the field. The displacement vector <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>l</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and the electric field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> are antiparallel so <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>l</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>E</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math> The potential difference between the positive plate and the negative plate is then 
+<equation id="fs-id1167586016211" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>E</m:mi><m:mo>·</m:mo><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7.69</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>The total potential difference is 500 V, so 1/5 of the distance between the plates will be the distance between 100-V potential differences. The distance between the plates is 6.5 mm, so there will be 1.3 mm between 100-V potential differences.</item>
+</list>
+<para id="fs-id1167586011879"><title>Significance</title>
+You have now seen a numerical calculation of the locations of equipotentials between two charged parallel plates.</para>
+</example>
+<note id="fs-id1167586028857" class="check-understanding">
+<exercise id="fs-id1167585868409">
+<problem id="fs-id1167586182465">
+<para id="fs-id1167585980304"><emphasis effect="bold">Check Your Understanding</emphasis> What are the equipotential surfaces for an infinite line charge?</para>
+</problem>
+<solution id="fs-id1167586177968">
+<para id="fs-id1167585862296">infinite cylinders of constant radius, with the line charge as the axis</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167586024048">
+<title>Distribution of Charges on Conductors</title>
+<para id="fs-id1167585925376">In <link target-id="fs-id1167585838718"/> with a point charge, we found that the equipotential surfaces were in the form of spheres, with the point charge at the center. Given that a conducting sphere in electrostatic equilibrium is a spherical equipotential surface, we should expect that we could replace one of the surfaces in <link target-id="fs-id1167585838718"/> with a conducting sphere and have an identical solution outside the sphere. Inside will be rather different, however.</para>
+<figure id="CNX_UPhysics_24_05_Isolate">
+<media id="fs-id1167585807844" alt="The figure shows the Gaussian surface with radius r for a positively charged sphere with radius R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Isolate.jpg"/>
+</media>
+<caption>An isolated conducting sphere.</caption>
+</figure>
+<para id="fs-id1167585949431">To investigate this, consider the isolated conducting sphere of <link target-id="CNX_UPhysics_24_05_Isolate"/> that has a radius <emphasis effect="italics">R</emphasis> and an excess charge <emphasis effect="italics">q</emphasis>. To find the electric field both inside and outside the sphere, note that the sphere is isolated, so its surface change distribution and the electric field of that distribution are spherically symmetric. We can therefore represent the field as <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> To calculate <emphasis effect="italics">E(r)</emphasis>, we apply Gauss’s law over a closed spherical surface <emphasis effect="italics">S</emphasis> of radius <emphasis effect="italics">r</emphasis> that is concentric with the conducting sphere. Since <emphasis effect="italics">r</emphasis> is constant and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> on the sphere,</para>
+<equation id="fs-id1167585949066" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∮</m:mo><m:mi>S</m:mi></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mspace width="0.2em"/><m:mrow><m:mi>d</m:mi><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167586046500">For <m:math><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mo>&lt;</m:mo><m:mspace width="0.2em"/><m:mi>R</m:mi></m:mrow></m:math>, <emphasis effect="italics">S</emphasis> is within the conductor, so recall from our previous study of Gauss’s law that <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and Gauss’s law gives <m:math><m:mrow><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo><m:mi>r</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, as expected inside a conductor at equilibrium. If <m:math><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mo>&gt;</m:mo><m:mspace width="0.2em"/><m:mi>R</m:mi></m:mrow></m:math>, <emphasis effect="italics">S</emphasis> encloses the conductor so <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>q</m:mi><m:mo>.</m:mo></m:mrow></m:math> From Gauss’s law,</para>
+<equation id="fs-id1167585991886" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585954486">The electric field of the sphere may therefore be written as</para>
+<equation id="fs-id1167585858007" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167586018969">As expected, in the region <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> the electric field due to a charge <emphasis effect="italics">q</emphasis> placed on an isolated conducting sphere of radius <emphasis effect="italics">R</emphasis> is identical to the electric field of a point charge <emphasis effect="italics">q</emphasis> located at the center of the sphere.</para>
+<para id="fs-id1167586017319">To find the electric potential inside and outside the sphere, note that for <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> the potential must be the same as that of an isolated point charge <emphasis effect="italics">q</emphasis> located at <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>,</para>
+<equation id="fs-id1167586181446" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation><para id="fs-id1167586179684">simply due to the similarity of the electric field.</para>
+<para id="fs-id1167586179494">For <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi><m:mo>,</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> so <emphasis effect="italics">V</emphasis>(<emphasis effect="italics">r</emphasis>) is constant in this region. Since <m:math><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>q</m:mi><m:mtext>/</m:mtext><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167586218186" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mi>R</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1167585999969">We will use this result to show that</para>
+<equation id="fs-id1167585920762" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167586021931">for two conducting spheres of radii <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, with surface charge densities <m:math><m:mrow><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> respectively, that are connected by a thin wire, as shown in <link target-id="CNX_UPhysics_24_05_WireSphers"/>. The spheres are sufficiently separated so that each can be treated as if it were isolated (aside from the wire). Note that the connection by the wire means that this entire system must be an equipotential.</para>
+<figure id="CNX_UPhysics_24_05_WireSphers">
+<media id="fs-id1167585948845" alt="The figure shows two positively charged spheres with radii R subscript 1 and R subscript 2. The spheres are away from each other and connected by a wire.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_WireSphers.jpg"/>
+</media>
+<caption>Two conducting spheres are connected by a thin conducting wire.</caption>
+</figure>
+<para id="fs-id1167586044908">We have just seen that the electrical potential at the surface of an isolated, charged conducting sphere of radius <emphasis effect="italics">R</emphasis> is</para>
+<equation id="fs-id1167586056055" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1167585953619">Now, the spheres are connected by a conductor and are therefore at the same potential; hence</para>
+<equation id="fs-id1167585998303" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1167586043002">and</para>
+<equation id="fs-id1167586038114" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167586008838">The net charge on a conducting sphere and its surface charge density are related by <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Substituting this equation into the previous one, we find</para>
+<equation id="fs-id1167585926987" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167586180840">Obviously, two spheres connected by a thin wire do not constitute a typical conductor with a variable radius of curvature. Nevertheless, this result does at least provide a qualitative idea of how charge density varies over the surface of a conductor. The equation indicates that where the radius of curvature is large (points <emphasis effect="italics">B</emphasis> and <emphasis effect="italics">D</emphasis> in <link target-id="CNX_UPhysics_24_05_Radii"/>), <m:math><m:mrow><m:mi>σ</m:mi></m:mrow></m:math> and <emphasis effect="italics">E</emphasis> are small.</para>
+<para id="fs-id1167586218885">Similarly, the charges tend to be denser where the curvature of the surface is greater, as demonstrated by the charge distribution on oddly shaped metal (<link target-id="CNX_UPhysics_24_05_Radii"/>). The surface charge density is higher at locations with a small radius of curvature than at locations with a large radius of curvature.</para>
+<figure id="CNX_UPhysics_24_05_Radii">
+<media id="fs-id1167585988566" alt="The figure shows electric charge densities are different regions of an asymmetrical surface.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Radii.jpg"/>
+</media>
+<caption>The surface charge density and the electric field of a conductor are greater at regions with smaller radii of curvature.</caption>
+</figure>
+<para id="fs-id1167586045100">A practical application of this phenomenon is the <term class="no-emphasis">lightning rod</term>, which is simply a grounded metal rod with a sharp end pointing upward. As positive charge accumulates in the ground due to a negatively charged cloud overhead, the electric field around the sharp point gets very large. When the field reaches a value of approximately <m:math><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/C</m:mtext></m:mrow></m:math> (the <term class="no-emphasis"><emphasis effect="italics">dielectric strength</emphasis></term> of the air), the free ions in the air are accelerated to such high energies that their collisions with air molecules actually ionize the molecules. The resulting free electrons in the air then flow through the rod to Earth, thereby neutralizing some of the positive charge. This keeps the electric field between the cloud and the ground from getting large enough to produce a lightning bolt in the region around the rod.</para>
+<para id="fs-id1167586181315">An important application of electric fields and equipotential lines involves the heart. The heart relies on electrical signals to maintain its rhythm. The movement of electrical signals causes the chambers of the heart to contract and relax. When a person has a heart attack, the movement of these electrical signals may be disturbed. An artificial pacemaker and a defibrillator can be used to initiate the rhythm of electrical signals. The equipotential lines around the heart, the thoracic region, and the axis of the heart are useful ways of monitoring the structure and functions of the heart. An electrocardiogram (ECG) measures the small electric signals being generated during the activity of the heart.</para>
+<note id="fs-id1167585868736" class="media-2">
+<para id="fs-id1167585954412">Play around with this <link url="https://openstax.org/l/21pointcharsim">simulation</link> to move point charges around on the playing field and then view the electric field, voltages, equipotential lines, and more.</para>
+</note>
+</section>
+<section id="fs-id1167585999074" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167585955964" list-type="bulleted" bullet-style="bullet">
+<item>An equipotential surface is the collection of points in space that are all at the same potential. Equipotential lines are the two-dimensional representation of equipotential surfaces.</item>
+<item>Equipotential surfaces are always perpendicular to electric field lines.</item>
+<item>Conductors in static equilibrium are equipotential surfaces.</item>
+<item>Topographic maps may be thought of as showing gravitational equipotential lines.</item>
+</list>
+</section>
+<section id="fs-id1167585806394" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167585953699">
+<problem id="fs-id1167585953701">
+<para id="fs-id1167586054470">If two points are at the same potential, are there any electric field lines connecting them?</para>
+</problem>
+<solution id="fs-id1167586056340">
+<para id="fs-id1167586056342">no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585956835">
+<problem id="fs-id1167585956837">
+<para id="fs-id1167586017325">Suppose you have a map of equipotential surfaces spaced 1.0 V apart. What do the distances between the surfaces in a particular region tell you about the strength of the <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> in that region?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167586056196">
+<problem id="fs-id1167586056198">
+<para id="fs-id1167586020641">Is the electric potential necessarily constant over the surface of a conductor?</para>
+</problem>
+<solution id="fs-id1167586176559">
+<para id="fs-id1167586176562">No; it might not be at electrostatic equilibrium.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586027681">
+<problem id="fs-id1167585925581">
+<para id="fs-id1167585925583">Under electrostatic conditions, the excess charge on a conductor resides on its surface. Does this mean that all of the conduction electrons in a conductor are on the surface?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167586014416">
+<problem id="fs-id1167585994905">
+<para id="fs-id1167585994907">Can a positively charged conductor be at a negative potential? Explain.</para>
+</problem>
+<solution id="fs-id1167586054679">
+<para id="fs-id1167585969580">Yes. It depends on where the zero reference for potential is. (Though this might be unusual.)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585995214">
+<problem id="fs-id1167586014331">
+<para id="fs-id1167586014334">Can equipotential surfaces intersect?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167585970051" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167586006001">
+<problem id="fs-id1167586010986">
+<para id="fs-id1167586010989">Two very large metal plates are placed 2.0 cm apart, with a potential difference of 12 V between them. Consider one plate to be at 12 V, and the other at 0 V. (a) Sketch the equipotential surfaces for 0, 4, 8, and 12 V. (b) Next sketch in some electric field lines, and confirm that they are perpendicular to the equipotential lines.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585999037">
+<problem id="fs-id1167585999039">
+<para id="fs-id1167585983317">A very large sheet of insulating material has had an excess of electrons placed on it to a surface charge density of <m:math><m:mrow><m:mn>–3.00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>nC/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. (a) As the distance from the sheet increases, does the potential increase or decrease? Can you explain why without any calculations? Does the location of your reference point matter? (b) What is the shape of the equipotential surfaces? (c) What is the spacing between surfaces that differ by 1.00 V?</para>
+</problem>
+<solution id="fs-id1167586023085">
+<para id="fs-id1167585972858">a. increases; the constant (negative) electric field has this effect, the reference point only matters for magnitude; b. they are planes parallel to the sheet; c. 0.006 m/V</para></solution>
+</exercise>
+<exercise id="fs-id1167586219588">
+<problem id="fs-id1167586017624">
+<para id="fs-id1167586017626">A metallic sphere of radius 2.0 cm is charged with <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>5.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> charge, which spreads on the surface of the sphere uniformly. The metallic sphere stands on an insulated stand and is surrounded by a larger metallic spherical shell, of inner radius 5.0 cm and outer radius 6.0 cm. Now, a charge of <m:math><m:mrow><m:mn>−5.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> is placed on the inside of the spherical shell, which spreads out uniformly on the inside surface of the shell. If potential is zero at infinity, what is the potential of (a) the spherical shell, (b) the sphere, (c) the space between the two, (d) inside the sphere, and (e) outside the shell?</para>
+<media id="fs-id1167586236035" alt="The figure shows two concentric spheres. The inner sphere has radius 2.0cm and charge 5.0µC. The outer sphere is a shell with inner radius 5.0cm and outer radius 6.0cm and charge -5.0µC.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Prob3_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167585957783">
+<problem id="fs-id1167586014657">
+<para id="fs-id1167586014659">Two large charged plates of charge density <m:math><m:mrow><m:mtext>±</m:mtext><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> face each other at a separation of 5.0 mm. (a) Find the electric potential everywhere. (b) An electron is released from rest at the negative plate; with what speed will it strike the positive plate?</para>
+</problem>
+<solution id="fs-id1167586031887">
+<para id="fs-id1167586031889">a. from the previous chapter, the electric field has magnitude <m:math><m:mrow><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math> in the region between the plates and zero outside; defining the negatively charged plate to be at the origin and zero potential, with the positively charged plate located at <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math> in the <emphasis effect="italics">z</emphasis>-direction, <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>1.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> so the potential is 0 for <m:math><m:mrow><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mn>1.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>z</m:mi><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> for <m:math><m:mrow><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>z</m:mi><m:mo>≤</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm,</m:mtext><m:mspace width="0.2em"/><m:mn>1.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> for <m:math><m:mrow><m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm;</m:mtext></m:mrow></m:math><newline/>
+b. <m:math><m:mrow><m:mi>q</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">→</m:mo><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>7.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586176637">
+<problem id="fs-id1167585985559">
+<para id="fs-id1167585985561">A long cylinder of aluminum of radius <emphasis effect="italics">R</emphasis> meters is charged so that it has a uniform charge per unit length on its surface of <m:math><m:mi>λ</m:mi></m:math>.</para>
+<para id="fs-id1167585997773">(a) Find the electric field inside and outside the cylinder. (b) Find the electric potential inside and outside the cylinder. (c) Plot electric field and electric potential as a function of distance from the center of the rod.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167586016324">
+<problem id="fs-id1167586016326">
+<para id="fs-id1167586016328">Two parallel plates 10 cm on a side are given equal and opposite charges of magnitude <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> The plates are 1.5 mm apart. What is the potential difference between the plates?</para>
+</problem>
+<solution id="fs-id1167585972843">
+<para id="fs-id1167585928039"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>85</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586176568">
+<problem id="fs-id1167586176570">
+<para id="fs-id1167585972884">The surface charge density on a long straight metallic pipe is <m:math><m:mi>σ</m:mi></m:math>. What is the electric potential outside and inside the pipe? Assume the pipe has a diameter of 2<emphasis effect="italics">a</emphasis>.</para>
+<media id="fs-id1167586016524" alt="The figure shows surface charge density on an infinitely long straight metallic pipe.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Prob9_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167586038347">
+<problem id="fs-id1167586038349">
+<para id="fs-id1167585969268">Concentric conducting spherical shells carry charges <emphasis effect="italics">Q</emphasis> and –<emphasis effect="italics">Q</emphasis>, respectively. The inner shell has negligible thickness. What is the potential difference between the shells?</para>
+<media id="fs-id1167586013388" alt="The figure shows two concentric spheres. The inner sphere has radius a and charge Q. The outer sphere is a shell with inner radius b and outer radius c and charge -Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Prob10_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167585926018">
+<para id="fs-id1167585917608">In the region <m:math><m:mrow><m:mi>a</m:mi><m:mo>≤</m:mo><m:mi>r</m:mi><m:mo>≤</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, and <emphasis effect="italics">E</emphasis> is zero elsewhere; hence, the potential difference is <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>Q</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586030716">
+<problem id="fs-id1167586030718">
+<para id="fs-id1167586016815">Shown below are two concentric spherical shells of negligible thicknesses and radii <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> The inner and outer shell carry net charges <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectively, where both <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are positive. What is the electric potential in the regions (a) <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and (c) <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167586012959" alt="The figure shows two concentric spheres with radii R subscript 1 and R subscript 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Prob11_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167586025674">
+<problem id="fs-id1167586025676">
+<para id="fs-id1167586025678">A solid cylindrical conductor of radius <emphasis effect="italics">a</emphasis> is surrounded by a concentric cylindrical shell of inner radius <emphasis effect="italics">b</emphasis>. The solid cylinder and the shell carry charges <emphasis effect="italics">Q</emphasis> and –<emphasis effect="italics">Q</emphasis>, respectively. Assuming that the length <emphasis effect="italics">L</emphasis> of both conductors is much greater than <emphasis effect="italics">a</emphasis> or <emphasis effect="italics">b</emphasis>, what is the potential difference between the two conductors?</para>
+</problem>
+<solution id="fs-id1167586180822">
+<para id="fs-id1167586180824">From previous results <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>k</m:mi><m:mi>λ</m:mi><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>s</m:mi><m:mi>P</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>s</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math>, note that <emphasis effect="italics">b</emphasis> is a very convenient location to define the zero level of potential: <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>k</m:mi><m:mfrac><m:mi>Q</m:mi><m:mi>L</m:mi></m:mfrac><m:mtext>ln</m:mtext><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167586056148">
+<term>equipotential line</term>
+<meaning id="fs-id1167585987855">two-dimensional representation of an equipotential surface</meaning>
+</definition>
+<definition id="fs-id1167585927858">
+<term>equipotential surface</term>
+<meaning id="fs-id1167585927864">surface (usually in three dimensions) on which all points are at the same potential</meaning>
+</definition>
+<definition id="fs-id1167585986926">
+<term>grounding</term>
+<meaning id="fs-id1167586036610">process of attaching a conductor to the earth to ensure that there is no potential difference between it and Earth</meaning>
+</definition>
+</glossary>
+
+</document>

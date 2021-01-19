@@ -1,0 +1,334 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>RL Circuits</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58752</md:content-id>
+  <md:title>RL Circuits</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Analyze circuits that have an inductor and resistor in series</item>
+<item>Describe how current and voltage exponentially grow or decay based on the initial conditions</item>
+</list></md:abstract>
+  <md:uuid>bec6f5b3-8d51-4da2-9b66-665910614921</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134531678">A circuit with resistance and self-inductance is known as an <emphasis effect="italics">RL</emphasis> circuit. <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(a) shows an <emphasis effect="italics">RL</emphasis> circuit consisting of a resistor, an inductor, a constant source of emf, and switches <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> When <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> is closed, the circuit is equivalent to a single-loop circuit consisting of a resistor and an inductor connected across a source of emf (<link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b)). When <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> is opened and <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> is closed, the circuit becomes a single-loop circuit with only a resistor and an inductor (<link target-id="CNX_UPhysics_31_04_Indcircuit"/>(c)).</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_31_04_Indcircuit"><media id="fs-id1167131402897" alt="Figure a shows a resistor R and an inductor L connected in series with two switches which are parallel to each other. Both switches are currently open. Closing switch S1 would connect R and L in series with a battery, whose positive terminal is towards L. Closing switch S2 would form a closed loop of R and L, without the battery. Figure b shows a closed circuit with R, L and the battery in series. The side of L towards the battery, is at positive potential. Current flows from the positive end of L, through it, to the negative end. Figure c shows R and L connected in series. The potential across L is reversed, but the current flows in the same direction as in figure b.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Problem13_img_new.jpg"/>
+</media>
+
+<caption>(a) An <emphasis effect="italics">RL</emphasis> circuit with switches <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> (b) The equivalent circuit with <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> closed and <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> open. (c) The equivalent circuit after <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> is opened and <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> is closed.</caption></figure><para id="fs-id1167131218450">We first consider the <emphasis effect="italics">RL</emphasis> circuit of <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b). Once <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> is closed and <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> is open, the source of emf produces a current in the circuit. If there were no self-inductance in the circuit, the current would rise immediately to a steady value of <m:math><m:mrow><m:mrow><m:mtext>ε</m:mtext><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow><m:mo>.</m:mo></m:mrow></m:math> However, from Faraday’s law, the increasing current produces an emf <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:math> across the inductor. In accordance with Lenz’s law, the induced emf counteracts the increase in the current and is directed as shown in the figure. As a result, <emphasis effect="italics">I(t)</emphasis> starts at zero and increases asymptotically to its final value.</para>
+<para id="fs-id1167134517392">Applying Kirchhoff’s loop rule to this circuit, we obtain</para>
+<equation id="fs-id1167131589644"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134962584">which is a first-order differential equation for <emphasis effect="italics">I(t)</emphasis>. Notice its similarity to the equation for a capacitor and resistor in series (See <link document="m58457"><emphasis effect="italics">RC</emphasis> Circuits</link>). Similarly, the solution to <link target-id="fs-id1167131589644"/> can be found by making substitutions in the equations relating the capacitor to the inductor. This gives</para>
+<note id="fs-id1167134888951" class="equation-callout">
+<equation id="fs-id1167131496869"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mtext>ε</m:mtext><m:mi>R</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>R</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mi>L</m:mi></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mtext>ε</m:mtext><m:mi>R</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131459890">where</para>
+<note id="fs-id1167134437216" class="equation-callout">
+<equation id="fs-id1167131314951"><label/><m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131117991">is the <term>inductive time constant</term> of the circuit.</para>
+<para id="fs-id1167134960245">The current <emphasis effect="italics">I(t)</emphasis> is plotted in <link target-id="CNX_UPhysics_31_04_Plots"/>(a). It starts at zero, and as <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>, <emphasis effect="italics">I(t)</emphasis> approaches <m:math><m:mrow><m:mrow><m:mtext>ε</m:mtext><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math> asymptotically. The induced emf <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is directly proportional to <emphasis effect="italics">dI</emphasis>/<emphasis effect="italics">dt</emphasis>, or the slope of the curve. Hence, while at its greatest immediately after the switches are thrown, the induced emf decreases to zero with time as the current approaches its final value of <m:math><m:mrow><m:mrow><m:mtext>ε</m:mtext><m:mtext>/</m:mtext><m:mrow><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> The circuit then becomes equivalent to a resistor connected across a source of emf.</para>
+<figure id="CNX_UPhysics_31_04_Plots">
+<media id="fs-id1167134822255" alt="Figure a shows the graph of electric current I versus time t. Current increases with time in a curve which flattens out at epsilon I R. At t equal to tau subscript L, the value of I is 0.63 epsilon I R. Figure b shows the graph of magnitude of induced voltage, mod V subscript L, versus time t. Mod V subscript L starts at value epsilon and decreases with time till the curve reaches zero. At t equal to tau subscript L, the value of I is 0.37 epsilon.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Plots.jpg"/>
+</media>
+<caption>Time variation of (a) the electric current and (b) the magnitude of the induced voltage across the coil in the circuit of <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b).</caption>
+</figure>
+<para id="fs-id1167134894910">The energy stored in the magnetic field of an inductor is</para>
+<equation id="fs-id1167134659090"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134508832">Thus, as the current approaches the maximum current <m:math><m:mrow><m:mrow><m:mi>ε</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math>, the stored energy in the inductor increases from zero and asymptotically approaches a maximum of <m:math><m:mrow><m:mi>L</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>ε</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167134533464">The time constant <m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:math> tells us how rapidly the current increases to its final value. At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> the current in the circuit is, from <link target-id="fs-id1167131496869"/>,</para>
+<equation id="fs-id1167134715829"><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mtext>ε</m:mtext><m:mi>R</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.63</m:mn><m:mfrac><m:mtext>ε</m:mtext><m:mi>R</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131407672">which is <m:math><m:mrow><m:mn>63</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of the final value <m:math><m:mrow><m:mrow><m:mtext>ε</m:mtext><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math>. The smaller the inductive time constant <m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow><m:mo>,</m:mo></m:mrow></m:math> the more rapidly the current approaches <m:math><m:mrow><m:mrow><m:mtext>ε</m:mtext><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math>.</para>
+<para id="fs-id1167134684663">We can find the time dependence of the induced voltage across the inductor in this circuit by using <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <link target-id="fs-id1167131496869"/>:</para>
+<equation id="fs-id1167131090268"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mtext>ε</m:mtext><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:mrow></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134517028">The magnitude of this function is plotted in <link target-id="CNX_UPhysics_31_04_Plots"/>(b). The greatest value of <m:math><m:mrow><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>is</m:mtext><m:mspace width="0.2em"/><m:mi>ε</m:mi><m:mo>;</m:mo></m:mrow></m:math> it occurs when <emphasis effect="italics">dI/dt</emphasis> is greatest, which is immediately after <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> is closed and <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> is opened. In the approach to steady state, <emphasis effect="italics">dI/dt</emphasis> decreases to zero. As a result, the voltage across the inductor also vanishes as <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167131565017">The time constant <m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:math> also tells us how quickly the induced voltage decays. At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> the magnitude of the induced voltage is</para>
+<equation id="fs-id1167131588954"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>ε</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>0.37</m:mn><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>0.37</m:mn><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134891447">The voltage across the inductor therefore drops to about <m:math><m:mrow><m:mn>37</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its initial value after one time constant. The shorter the time constant <m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> the more rapidly the voltage decreases.</para>
+<para id="fs-id1167131179027">After enough time has elapsed so that the current has essentially reached its final value, the positions of the switches in <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(a) are reversed, giving us the circuit in part (c). At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> the current in the circuit is <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mi>ε</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow><m:mo>.</m:mo></m:mrow></m:math> With Kirchhoff’s loop rule, we obtain</para>
+<equation id="fs-id1167134487294"><m:math><m:mrow><m:mi>I</m:mi><m:mi>R</m:mi><m:mo>+</m:mo><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134913840">The solution to this equation is similar to the solution of the equation for a discharging capacitor, with similar substitutions. The current at time <emphasis effect="italics">t</emphasis> is then</para>
+<equation id="fs-id1167134941615"><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mi>R</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131091260">The current starts at <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>ε</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math> and decreases with time as the energy stored in the inductor is depleted (<link target-id="CNX_UPhysics_31_04_Decay"/>).</para>
+<para id="fs-id1167131566833">The time dependence of the voltage across the inductor can be determined from <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>:</m:mtext></m:mrow></m:math></para>
+<equation id="fs-id1167131423244"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>ε</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mi>τ</m:mi><m:mi>L</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167130227954">This voltage is initially <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>ε</m:mi></m:mrow></m:math>, and it decays to zero like the current. The energy stored in the magnetic field of the inductor, <m:math><m:mrow><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> also decreases exponentially with time, as it is dissipated by Joule heating in the resistance of the circuit.</para>
+<figure id="CNX_UPhysics_31_04_Decay">
+<media id="fs-id1167131445368" alt="The graph of I versus t. The value of I at t equal to 0 is epsilon I R. I decreases with time till the curve reaches 0. At t equal to tau subscript L, the value of I is 0.37 epsilon I R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Decay.jpg"/>
+</media>
+<caption>Time variation of electric current in the <emphasis effect="italics">RL</emphasis> circuit of <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(c). The induced voltage across the coil also decays exponentially.</caption>
+</figure>
+<example id="fs-id1167131475595">
+<para id="fs-id1167134968122"><title>An <emphasis effect="italics">RL</emphasis> Circuit with a Source of emf</title>
+In the circuit of <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(a), let <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mi>V</m:mi><m:mo>,</m:mo><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mtext>.</m:mtext><m:mspace width="0.2em"/></m:mrow></m:math> With <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> closed and <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> open (<link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b)), (a) what is the time constant of the circuit? (b) What are the current in the circuit and the magnitude of the induced emf across the inductor at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>at</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:math>, and as <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>?</para>
+<para id="fs-id1167131084869"><title>Strategy</title>
+The time constant for an inductor and resistor in a series circuit is calculated using <link target-id="fs-id1167131314951"/>. The current through and voltage across the inductor are calculated by the scenarios detailed from <link target-id="fs-id1167131496869"/> and <link target-id="fs-id1167131423244"/>.</para>
+<para id="fs-id1167132418399"><title>Solution</title></para>
+<list id="fs-id1167134486483" list-type="enumerated" number-style="lower-alpha">
+<item>The inductive time constant is
+<equation id="fs-id1167131522221" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>L</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The current in the circuit of <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b) increases according to <link target-id="fs-id1167131496869"/>:
+<equation id="fs-id1167131448246" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mtext>ε</m:mtext><m:mi>R</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math>
+<equation id="fs-id1167131117620" class="unnumbered"><label/><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>so</m:mtext><m:mspace width="0.2em"/><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo></m:mrow></m:math> we have, respectively,
+<equation id="fs-id1167131519240" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mtext>ε</m:mtext><m:mi>R</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−2.0</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.86</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.43</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+and
+<equation id="fs-id1167131332191" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mtext>ε</m:mtext><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+From <link target-id="fs-id1167131423244"/>, the magnitude of the induced emf decays as 
+<equation id="fs-id1167134650626" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>ε</m:mtext><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<m:math><m:mrow><m:mtext>At</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and as</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo></m:mrow></m:math> we obtain
+<equation id="fs-id1167132481384" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−2.0</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>0.27</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mtext>and</m:mtext></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1167131434536"><title>Significance</title>
+If the time of the measurement were much larger than the time constant, we would not see the decay or growth of the voltage across the inductor or resistor. The circuit would quickly reach the asymptotic values for both of these. See <link target-id="CNX_UPhysics_31_04_Scope"/>.</para>
+<figure id="CNX_UPhysics_31_04_Scope">
+<media id="fs-id1167134672600" alt="Figures a, b and c show the oscilloscope traces of voltage versus time of the voltage across source, the voltage across the inductor and the voltage across the resistor respectively. Figure a is a square wave varying from minus 12 volts to plus 12 volts, with a period from minus 10 ms to minus 0.001 ms. Figure b shows a square wave varying from minus 6 volts to plus 6 volts with a spike of 16 volts at the beginning of every crest and a spike of minus 16 volts at the beginning of every trough. The period is the same as that in figure a. Figure c shows a square wave varying from minus 0.3 to plus 0.3 volts, with spikes going out of the trace area in the positive direction at the beginnings of every crest and trough. The period of the wave is from minus 9.985 to plus 0.015 ms.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Scope.jpg"/>
+</media>
+<caption>A generator in an <emphasis effect="italics">RL</emphasis> circuit produces a square-pulse output in which the voltage oscillates between zero and some set value. These oscilloscope traces show (a) the voltage across the source; (b) the voltage across the inductor; (c) the voltage across the resistor.</caption>
+</figure>
+</example>
+<example id="fs-id1167131626450">
+<para id="fs-id1167131498824"><title>An <emphasis effect="italics">RL</emphasis> Circuit without a Source of emf</title>
+After the current in the <emphasis effect="italics">RL</emphasis> circuit of <link target-id="fs-id1167131475595"/> has reached its final value, the positions of the switches are reversed so that the circuit becomes the one shown in <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(c). (a) How long does it take the current to drop to half its initial value? (b) How long does it take before the energy stored in the inductor is reduced to <m:math><m:mrow><m:mn>1.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its maximum value?</para>
+<para id="fs-id1167131567322"><title>Strategy</title>
+The current in the inductor will now decrease as the resistor dissipates this energy. Therefore, the current falls as an exponential decay. We can also use that same relationship as a substitution for the energy in an inductor formula to find how the energy decreases at different time intervals.</para>
+<para id="fs-id1167132344677"><title>Solution</title></para>
+<list id="fs-id1167131216425" list-type="enumerated" number-style="lower-alpha">
+<item>With the switches reversed, the current decreases according to
+<equation id="fs-id1167131496539" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mi>R</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo>=</m:mo><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+At a time <emphasis effect="italics">t</emphasis> when the current is one-half its initial value, we have
+<equation id="fs-id1167131588993" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>so</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+and
+<equation id="fs-id1167130180822" class="unnumbered"><label/><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">[</m:mo><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mn>0.69</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.69</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+where we have used the inductive time constant found in <link target-id="fs-id1167131475595"/>.</item>
+<item>The energy stored in the inductor is given by
+<equation id="fs-id1167131530812" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>ε</m:mi><m:mi>R</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>L</m:mi><m:msup><m:mi>ε</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−2</m:mn><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+If the energy drops to <m:math><m:mrow><m:mn>1.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its initial value at a time <emphasis effect="italics">t</emphasis>, we have
+<equation id="fs-id1167131179187" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.010</m:mn><m:mo stretchy="false">)</m:mo><m:msub><m:mi>U</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>L</m:mi><m:msup><m:mi>ε</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−2</m:mn><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.010</m:mn><m:mo stretchy="false">)</m:mo><m:mfrac><m:mrow><m:mi>L</m:mi><m:msup><m:mi>ε</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Upon canceling terms and taking the natural logarithm of both sides, we obtain
+<equation id="fs-id1167131588555" class="unnumbered"><label/><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi></m:mrow><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0.010</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+so
+<equation id="fs-id1167131220148" class="unnumbered"><label/><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0.010</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+Since <m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>, the time it takes for the energy stored in the inductor to decrease to <m:math><m:mrow><m:mn>1.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its initial value is
+<equation id="fs-id1167131428371" class="unnumbered"><label/><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0.010</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2.3</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167130157416"><title>Significance</title>
+This calculation only works if the circuit is at maximum current in situation (b) prior to this new situation. Otherwise, we start with a lower initial current, which will decay by the same relationship.</para>
+</example>
+<note id="fs-id1167134714495" class="check-understanding">
+<exercise id="fs-id1167131264385">
+<problem id="fs-id1167131264387">
+<para id="fs-id1167131607706"><emphasis effect="bold">Check Your Understanding</emphasis> Verify that <emphasis effect="italics">RC</emphasis> and <emphasis effect="italics">L/R</emphasis> have the dimensions of time.</para>
+</problem>
+</exercise>
+</note>
+<note id="fs-id1167131357958" class="check-understanding">
+<exercise id="fs-id1167131269495">
+<problem id="fs-id1167131269497">
+<para id="fs-id1167131457818"><emphasis effect="bold">Check Your Understanding</emphasis> (a) If the current in the circuit of in <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b) increases to <m:math><m:mrow><m:mn>90</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its final value after 5.0 s, what is the inductive time constant? (b) If <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, what is the value of the self-inductance? (c) If the <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor is replaced with a <m:math><m:mrow><m:mn>100</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resister, what is the time taken for the current to reach <m:math><m:mrow><m:mn>90</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its final value?</para>
+</problem>
+<solution id="fs-id1167131184284">
+<para id="fs-id1167134635330">a. 2.2 s; b. 43 H; c. 1.0 s</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167134939184" class="check-understanding">
+<exercise id="fs-id1167134511833">
+<problem id="fs-id1167131598013">
+<para id="fs-id1167131598015"><emphasis effect="bold">Check Your Understanding</emphasis> For the circuit of in <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b), show that when steady state is reached, the difference in the total energies produced by the battery and dissipated in the resistor is equal to the energy stored in the magnetic field of the coil.</para>
+</problem>
+</exercise>
+</note>
+<section id="fs-id1167134735152" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167131129997" list-type="bulleted" bullet-style="bullet">
+<item>When a series connection of a resistor and an inductor—an <emphasis effect="italics">RL</emphasis> circuit—is connected to a voltage source, the time variation of the current is<newline/>
+<m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mtext>ε</m:mtext><m:mi>R</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>R</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mi>L</m:mi></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mtext>ε</m:mtext><m:mi>R</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math> (turning on),<newline/>
+where the initial current is <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>The characteristic time constant <m:math><m:mi>τ</m:mi></m:math> is <m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">L</emphasis> is the inductance and <emphasis effect="italics">R</emphasis> is the resistance.</item>
+<item>In the first time constant <m:math><m:mrow><m:mi>τ</m:mi><m:mo>,</m:mo></m:mrow></m:math> the current rises from zero to <m:math><m:mrow><m:mn>0.632</m:mn><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and to 0.632 of the remainder in every subsequent time interval <m:math><m:mrow><m:mi>τ</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>When the inductor is shorted through a resistor, current decreases as<newline/>
+<m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mi>R</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup></m:mrow></m:math> (turning off).<newline/>
+Current falls to <m:math><m:mrow><m:mn>0.368</m:mn><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> in the first time interval <m:math><m:mi>τ</m:mi></m:math>, and to 0.368 of the remainder toward zero in each subsequent time <m:math><m:mi>τ</m:mi><m:mo>.</m:mo></m:math></item>
+</list>
+</section>
+<section id="fs-id1167134858899" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167131327855">
+<problem id="fs-id1167134945682">
+<para id="fs-id1167134945684">Use Lenz’s law to explain why the initial current in the <emphasis effect="italics">RL</emphasis> circuit of <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b) is zero.</para>
+</problem>
+<solution id="fs-id1167134916955">
+<para id="fs-id1167134916957">As current flows through the inductor, there is a back current by Lenz’s law that is created to keep the net current at zero amps, the initial current.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131346198">
+<problem id="fs-id1167131346200">
+<para id="fs-id1167131140431">When the current in the <emphasis effect="italics">RL</emphasis> circuit of <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b) reaches its final value <m:math><m:mrow><m:mtext>ε</m:mtext><m:mtext>/</m:mtext><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> what is the voltage across the inductor? Across the resistor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131557379">
+<problem id="fs-id1167131282798">
+<para id="fs-id1167131282800">Does the time required for the current in an <emphasis effect="italics">RL</emphasis> circuit to reach any fraction of its steady-state value depend on the emf of the battery?</para>
+</problem>
+<solution id="fs-id1167134990744">
+<para id="fs-id1167134990746">no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134920645">
+<problem id="fs-id1167131120212">
+<para id="fs-id1167131120214">An inductor is connected across the terminals of a battery. Does the current that eventually flows through the inductor depend on the internal resistance of the battery? Does the time required for the current to reach its final value depend on this resistance?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131199895">
+<problem id="fs-id1167131199897">
+<para id="fs-id1167134928352">At what time is the voltage across the inductor of the <emphasis effect="italics">RL</emphasis> circuit of <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b) a maximum?</para>
+</problem>
+<solution id="fs-id1167131392908">
+<para id="fs-id1167131392910">At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, or when the switch is first thrown.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134562541">
+<problem id="fs-id1167134562543">
+<para id="fs-id1167131222972">In the simple <emphasis effect="italics">RL</emphasis> circuit of <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b), can the emf induced across the inductor ever be greater than the emf of the battery used to produce the current?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131552835">
+<problem id="fs-id1167131386865">
+<para id="fs-id1167131386868">If the emf of the battery of <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(b) is reduced by a factor of 2, by how much does the steady-state energy stored in the magnetic field of the inductor change?</para>
+</problem>
+<solution id="fs-id1167134929705">
+<para id="fs-id1167131128602">1/4</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167129979425">
+<problem id="fs-id1167134632216">
+<para id="fs-id1167134632218">A steady current flows through a circuit with a large inductive time constant. When a switch in the circuit is opened, a large spark occurs across the terminals of the switch. Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134873077">
+<problem id="fs-id1167134873079">
+<para id="fs-id1167131216766">Describe how the currents through <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> shown below vary with time after switch S is closed.</para>
+<media id="fs-id1167134858840" alt="Figure shows a circuit with resistor R1 connected in series with battery epsilon, through open switch S. R1 is parallel to resistor R2 and inductor L.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_Question21_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131114366">
+<para id="fs-id1167131114368">Initially, <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mi>R</m:mi><m:mn>1</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mi>R</m:mi><m:mn>2</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and after a long time has passed, <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mi>R</m:mi><m:mn>1</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mi>R</m:mi><m:mn>2</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131427368">
+<problem id="fs-id1167131427371">
+<para id="fs-id1167131182355">Discuss possible practical applications of <emphasis effect="italics">RL</emphasis> circuits.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167134723627" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167131375381">
+<problem id="fs-id1167131375383">
+<para id="fs-id1167131621728">In <link target-id="CNX_UPhysics_31_04_Indcircuit"/>, <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext></m:mrow></m:math>, and <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. Determine (a) the time constant of the circuit, (b) the initial current through the resistor, (c) the final current through the resistor, (d) the current through the resistor when <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> and (e) the voltages across the inductor and the resistor when <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134891636">
+<problem id="fs-id1167131537304">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167131537306">For the circuit shown below, <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>mH,</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. After steady state is reached with <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> closed and <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> open, <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> is closed and immediately thereafter <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>at</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> is opened. Determine (a) the current through <emphasis effect="italics">L</emphasis> at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, (b) the current through <emphasis effect="italics">L</emphasis> at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>, and (c) the voltages across <emphasis effect="italics">L</emphasis> and <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>. <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mi>R</m:mi></m:mrow></m:math>.</para><media id="fs-id1167134860795" alt="Figure shows a circuit with R and L connected in series with battery epsilon through closed switch S. L is connected in parallel with another resistor R through open switch S2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Problem25_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131223791">
+<para id="fs-id1167131223793">a. 4.0 A; b. 2.4 A; c. on <emphasis effect="italics">R</emphasis>: <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>; on <emphasis effect="italics">L</emphasis>: <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>7.9</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134891288">
+<problem id="fs-id1167134891290">
+<para id="fs-id1167131183756">The current in the <emphasis effect="italics">RL</emphasis> circuit shown here increases to <m:math><m:mrow><m:mn>40</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its steady-state value in 2.0 s. What is the time constant of the circuit?</para>
+<media id="fs-id1167129962407" alt="Figure a shows a resistor R and an inductor L connected in series with two switches which are parallel to each other. Both switches are currently open. Closing switch S1 would connect R and L in series with a battery, whose positive terminal is towards L. Closing switch S2 would form a closed loop of R and L, without the battery. Figure b shows a closed circuit with R, L and the battery in series. The side of L towards the battery, is at positive potential. Current flows from the positive end of L, through it, to the negative end. Figure c shows R and L connected in series. The potential across L is reversed, but the current flows in the same direction as in figure b.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Problem13_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167134488042">
+<problem id="fs-id1167134657915">
+<para id="fs-id1167134657917">How long after switch <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> is thrown does it take the current in the circuit shown to reach half its maximum value? Express your answer in terms of the time constant of the circuit.</para>
+<media id="fs-id1167131398473" alt="Figure shows a circuit with R and L in series with a battery, epsilon and a switch S1 which is open.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Problem15_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131217101">
+<para id="fs-id1167131636733"><m:math><m:mrow><m:mn>0.69</m:mn><m:mi>τ</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131131840">
+<problem id="fs-id1167134858312">
+<para id="fs-id1167134858314">Examine the circuit shown below in part (a). Determine <emphasis effect="italics">dI/dt</emphasis> at the instant after the switch is thrown in the circuit of (a), thereby producing the circuit of (b). Show that if <emphasis effect="italics">I</emphasis> were to continue to increase at this initial rate, it would reach its maximum <m:math><m:mrow><m:mrow><m:mi>ε</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math> in one time constant.</para>
+<media id="fs-id1167134717200" alt="Figure a shows a circuit with R and L in series with a battery, epsilon and a switch S1 which is open. Figure b shows a circuit with R and L in series with a battery, epsilon. The end of L that is connected to the positive terminal of the battery is at positive potential. Current flows through L from the positive end to the negative one.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Problem16_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167131608371">
+<problem id="fs-id1167131343416">
+<para id="fs-id1167131343418">The current in the <emphasis effect="italics">RL</emphasis> circuit shown below reaches half its maximum value in 1.75 ms after the switch <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> is thrown. Determine (a) the time constant of the circuit and (b) the resistance of the circuit if <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>250</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext></m:mrow></m:math>.</para>
+<media id="fs-id1167131500956" alt="Figure shows a circuit with R and L in series with a battery, epsilon and a switch S1 which is open.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Problem17_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131477202">
+<para id="fs-id1167134567189">a. 2.52 ms; b. <m:math><m:mrow><m:mn>99.2</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131544694">
+<problem id="fs-id1167134569055">
+<para id="fs-id1167134569057">Consider the circuit shown below. Find <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>I</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> when (a) the switch S is first closed, (b) after the currents have reached steady-state values, and (c) at the instant the switch is reopened (after being closed for a long time).</para>
+<media id="fs-id1167134567938" alt="Figure shows a circuit with R1 and L connected in series with a battery epsilon and a closed switch S. R2 is connected in parallel with L. The currents through R1, L and R2 are I1, I2 and I3 respectively.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Problem30_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167131567574">
+<problem id="fs-id1167131567576">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134591051">For the circuit shown below, <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω,</m:mtext></m:mrow></m:math>,
+<m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>19.4 Ω,</m:mtext></m:mrow></m:math>, and <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext></m:mrow></m:math>. Find the values of <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> (a) immediately after switch S is closed, (b) a long time after S is closed, (c) immediately after S is reopened, and (d) a long time after S is reopened.</para><media id="fs-id1167131346640" alt="Figure shows a circuit with R1 and R2 connected in series with a battery, epsilon and a closed switch S. R2 is connected in parallel with L and R3. The currents through R1 and R2 are I1 and I2 respectively.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Problem31_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131496232">
+<para id="fs-id1167131586045">a. <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.7</m:mn><m:mspace width="0.2em"/><m:mi>A</m:mi></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.73</m:mn><m:mspace width="0.2em"/><m:mi>A</m:mi><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.36</m:mn><m:mspace width="0.2em"/><m:mi>A</m:mi></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.54</m:mn><m:mspace width="0.2em"/><m:mi>A</m:mi></m:mrow></m:math>; d. <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134911069">
+<problem id="fs-id1167131581623">
+<para id="fs-id1167131581625">For the circuit shown below, find the current through the inductor <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> after the switch is reopened.</para>
+<media id="fs-id1167131405716" alt="Figure shows a circuit with R1 and R2 connected in series with a battery, epsilon and a closed switch S. R2 is connected in parallel with L and R3. The currents through R1 and R2 are I1 and I2 respectively.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Problem18_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167134582200">
+<problem id="fs-id1167134582202">
+<para id="fs-id1167131232270">Show that for the circuit shown below, the initial energy stored in the inductor, <m:math><m:mrow><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>, is equal to the total energy eventually dissipated in the resistor, <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mi>R</m:mi><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math>.</para>
+<media id="fs-id1167130004689" alt="Figure a shows a resistor R and an inductor L connected in series with two switches which are parallel to each other. Both switches are currently open. Closing switch S1 would connect R and L in series with a battery, whose positive terminal is towards L. Closing switch S2 would form a closed loop of R and L, without the battery. Figure b shows a closed circuit with R, L and the battery in series. The side of L towards the battery, is at positive potential. Current flows from the positive end of L, through it, to the negative end. Figure c shows R and L connected in series. The potential across L is reversed, but the current flows in the same direction as in figure b.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Problem19_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131556909">
+<para id="fs-id1167131380813">proof</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131084323">
+<term>inductive time constant</term>
+<meaning id="fs-id1167134899046">denoted by <m:math><m:mi>τ</m:mi></m:math>, the characteristic time given by quantity <emphasis effect="italics">L/R</emphasis> of a particular series <emphasis effect="italics">RL</emphasis> circuit</meaning>
+</definition>
+</glossary>
+</document>

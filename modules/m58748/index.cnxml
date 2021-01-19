@@ -1,0 +1,319 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Self-Inductance and Inductors</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58748</md:content-id>
+  <md:title>Self-Inductance and Inductors</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Correlate the rate of change of current to the induced emf created by that current in the same circuit</item>
+<item>Derive the self-inductance for a cylindrical solenoid</item>
+<item>Derive the self-inductance for a rectangular toroid</item>
+</list></md:abstract>
+  <md:uuid>f483c3c8-6057-4e26-9715-c83b4f1afb0f</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167133465343">Mutual inductance arises when a current in one circuit produces a changing magnetic field that induces an emf in another circuit. But can the magnetic field affect the current in the original circuit that produced the field? The answer is yes, and this is the phenomenon called <emphasis effect="italics">self-inductance</emphasis>.</para>
+<section id="fs-id1167132283212">
+<title>Inductors</title>
+<para id="fs-id1167132606326"><link target-id="CNX_UPhysics_31_02_Circuit"/> shows some of the magnetic field lines due to the current in a circular loop of wire. If the current is constant, the magnetic flux through the loop is also constant. However, if the current <emphasis effect="italics">I</emphasis> were to vary with time—say, immediately after switch S is closed—then the magnetic flux <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> would correspondingly change. Then Faraday’s law tells us that an emf <m:math><m:mi>ε</m:mi></m:math> would be induced in the circuit, where</para>
+<equation id="fs-id1167132299241"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132394304">Since the magnetic field due to a current-carrying wire is directly proportional to the current, the flux due to this field is also proportional to the current; that is,</para>
+<equation id="fs-id1167133366925"><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>∝</m:mo><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_31_02_Circuit">
+<media id="fs-id1167132576465" alt="Figure shows a battery, a resistor, a circular loop of wire and a switch S connected in series with one another, forming a closed circuit. Current I flows through it. Magnetic field lines B are shown going inward around the loop of wire, following the right hand thumb rule.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Circuit.jpg"/>
+</media>
+<caption>A magnetic field is produced by the current <emphasis effect="italics">I</emphasis> in the loop. If <emphasis effect="italics">I</emphasis> were to vary with time, the magnetic flux through the loop would also vary and an emf would be induced in the loop.</caption>
+</figure>
+<para id="fs-id1167133533189">This can also be written as</para>
+<equation id="fs-id1167133366048"><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mi>I</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167133409595">where the constant of proportionality <emphasis effect="italics">L</emphasis> is known as the <term>self-inductance</term> of the wire loop. If the loop has <emphasis effect="italics">N</emphasis> turns, this equation becomes</para>
+<note id="fs-id1167132335938" class="equation-callout">
+<equation id="fs-id1167133805496"><label/><m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167132340403">By convention, the positive sense of the normal to the loop is related to the current by the right-hand rule, so in <link target-id="CNX_UPhysics_31_02_Circuit"/>, the normal points downward. With this convention, <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> is positive in <link target-id="fs-id1167133805496"/>, so <emphasis effect="italics">L always has a positive value</emphasis>.</para>
+<para id="fs-id1167132612397">For a loop with <emphasis effect="italics">N</emphasis> turns, <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>N</m:mi><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> so the induced emf may be written in terms of the self-inductance as</para>
+<note id="fs-id1167132494452" class="equation-callout">
+<equation id="fs-id1167133822340"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133332174">When using this equation to determine <emphasis effect="italics">L</emphasis>, it is easiest to ignore the signs of <m:math><m:mrow><m:mi>ε</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and calculate <emphasis effect="italics">L</emphasis> as</para>
+<equation id="fs-id1167133384280" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>ε</m:mi><m:mo>|</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133451962">Since self-inductance is associated with the magnetic field produced by a current, any configuration of conductors possesses self-inductance. For example, besides the wire loop, a long, straight wire has self-inductance, as does a coaxial cable. A coaxial cable is most commonly used by the cable television industry and may also be found connecting to your cable modem. Coaxial cables are used due to their ability to transmit electrical signals with minimal distortions. Coaxial cables have two long cylindrical conductors that possess current and a self-inductance that may have undesirable effects.</para>
+<para id="fs-id1167133605846">A circuit element used to provide self-inductance is known as an <term>inductor</term>. It is represented by the symbol shown in <link target-id="CNX_UPhysics_31_02_Inductor"/>, which resembles a coil of wire, the basic form of the inductor. <link target-id="CNX_UPhysics_31_02_Examples"/> shows several types of inductors commonly used in circuits.</para>
+<figure id="CNX_UPhysics_31_02_Inductor">
+<media id="fs-id1167132317547" alt="A horizontal line makes four complete loops below its x axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Inductor.jpg"/>
+</media>
+<caption>Symbol used to represent an inductor in a circuit.</caption>
+</figure>
+<figure id="CNX_UPhysics_31_02_Examples">
+<media id="fs-id1167132586654" alt="Photograph of a variety of inductors.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Examples.jpg"/>
+</media>
+<caption>A variety of inductors. Whether they are encapsulated like the top three shown or wound around in a coil like the bottom-most one, each is simply a relatively long coil of wire. (credit: Windell Oskay)</caption>
+</figure>
+<para id="fs-id1167129103256">In accordance with Lenz’s law, the negative sign in <link target-id="fs-id1167133822340"/> indicates that the induced emf across an inductor always has a polarity that <emphasis effect="italics">opposes</emphasis> the change in the current. For example, if the current flowing from <emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis> in <link target-id="CNX_UPhysics_31_02_Current"/>(a) were increasing, the induced emf (represented by the imaginary battery) would have the polarity shown in order to oppose the increase. If the current from <emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis> were decreasing, then the induced emf would have the opposite polarity, again to oppose the change in current (<link target-id="CNX_UPhysics_31_02_Current"/>(b)). Finally, if the current through the inductor were constant, no emf would be induced in the coil.</para>
+<figure id="CNX_UPhysics_31_02_Current">
+<media id="fs-id1167132507892" alt="Figure a shows an increasing current flowing from point A to point B through a coil. An imaginary battery is shown with its positive terminal towards A and negative one towards B. Figure b shows a decreasing current flowing from point A to point B through a coil. An imaginary battery is shown with its negative terminal towards A and positive one towards B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Current.jpg"/>
+</media>
+<caption>The induced emf across an inductor always acts to oppose the change in the current. This can be visualized as an imaginary battery causing current to flow to oppose the change in (a) and reinforce the change in (b).</caption>
+</figure>
+<para id="fs-id1167133698055">One common application of inductance is to allow <term class="no-emphasis">traffic signals</term> to sense when vehicles are waiting at a street intersection. An electrical circuit with an inductor is placed in the road underneath the location where a waiting car will stop. The body of the car increases the inductance and the circuit changes, sending a signal to the traffic lights to change colors. Similarly, <term class="no-emphasis">metal detectors</term> used for airport security employ the same technique. A coil or inductor in the metal detector frame acts as both a transmitter and a receiver. The pulsed signal from the transmitter coil induces a signal in the receiver. The self-inductance of the circuit is affected by any metal object in the path (<link target-id="CNX_UPhysics_31_02_Security"/>). Metal detectors can be adjusted for sensitivity and can also sense the presence of metal on a person.</para>
+<figure id="CNX_UPhysics_31_02_Security">
+<media id="fs-id1167133845972" alt="Photograph of people queued up at a metal detector gate at an airport.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Security.jpg"/>
+</media>
+<caption>The familiar security gate at an airport not only detects metals, but can also indicate their approximate height above the floor. (credit: “Alexbuirds”/Wikimedia Commons)</caption>
+</figure>
+<para id="fs-id1167133675760">Large induced voltages are found in <term class="no-emphasis">camera flashes</term>. Camera flashes use a battery, two inductors that function as a transformer, and a switching system or <emphasis effect="italics">oscillator</emphasis> to induce large voltages. Recall from <link document="m58360">Oscillations</link> on oscillations that “oscillation” is defined as the fluctuation of a quantity, or repeated regular fluctuations of a quantity, between two extreme values around an average value. Also recall (from <link document="m58468">Electromagnetic Induction</link> on electromagnetic induction) that we need a changing magnetic field, brought about by a changing current, to induce a voltage in another coil. The oscillator system does this many times as the battery voltage is boosted to over 1000 volts. (You may hear the high-pitched whine from the transformer as the capacitor is being charged.) A capacitor stores the high voltage for later use in powering the flash.</para>
+<example id="fs-id1167132367239">
+<para id="fs-id1167133613719"><title>Self-Inductance of a Coil</title>
+An induced emf of 20 mV is measured across a coil of 50 closely wound turns while the current through it increases uniformly from 0.0 to 5.0 A in 0.10 s. (a) What is the self-inductance of the coil? (b) With the current at 5.0 A, what is the flux through each turn of the coil?</para>
+<para id="fs-id1167132537172"><title>Strategy</title>
+Both parts of this problem give all the information needed to solve for the self-inductance in part (a) or the flux through each turn of the coil in part (b). The equations needed are <link target-id="fs-id1167133822340"/> for part (a) and <link target-id="fs-id1167133805496"/> for part (b).</para>
+<para id="fs-id1167133613964"><title>Solution</title></para>
+<list id="fs-id1167133863190" list-type="enumerated" number-style="lower-alpha">
+<item>Ignoring the negative sign and using magnitudes, we have, from <link target-id="fs-id1167133822340"/>,
+<equation id="fs-id1167133549484" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>mV</m:mtext></m:mrow><m:mrow><m:mrow><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</item>
+<item>From <link target-id="fs-id1167133805496"/>, the flux is given in terms of the current by <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mrow><m:mi>L</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>N</m:mi></m:mrow><m:mo>,</m:mo></m:mrow></m:math> so
+<equation id="fs-id1167132401200" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>turns</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167133862595"><title>Significance</title>
+The self-inductance and flux calculated in parts (a) and (b) are typical values for coils found in contemporary devices. If the current is not changing over time, the flux is not changing in time, so no emf is induced.</para>
+</example>
+<note id="fs-id1167133321320" class="check-understanding">
+<exercise id="fs-id1167132717173">
+<problem id="fs-id1167132605810">
+<para id="fs-id1167132575349"><emphasis effect="bold">Check Your Understanding</emphasis> Current flows through the inductor in <link target-id="CNX_UPhysics_31_02_Current"/> from <emphasis effect="italics">B</emphasis> to <emphasis effect="italics">A</emphasis> instead of from <emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis> as shown. Is the current increasing or decreasing in order to produce the emf given in diagram (a)? In diagram (b)?</para>
+</problem>
+<solution id="fs-id1167133748122">
+<para id="fs-id1167133349834">a. decreasing; b. increasing; Since the current flows in the opposite direction of the diagram, in order to get a positive emf on the left-hand side of diagram (a), we need to decrease the current to the left, which creates a reinforced emf where the positive end is on the left-hand side. To get a positive emf on the right-hand side of diagram (b), we need to increase the current to the left, which creates a reinforced emf where the positive end is on the right-hand side.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167132467070" class="check-understanding">
+<exercise id="fs-id1167133775357">
+<problem id="fs-id1167132531695">
+<para id="fs-id1167132284221"><emphasis effect="bold">Check Your Understanding</emphasis> A changing current induces an emf of 10 V across a 0.25-H inductor. What is the rate at which the current is changing?</para>
+</problem>
+<solution id="fs-id1167133803113">
+<para id="fs-id1167133871526">40 A/s</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167132301285">A good approach for calculating the self-inductance of an inductor consists of the following steps:</para>
+<note id="fs-id1167132572695" class="problem-solving">
+<title>Self-Inductance</title>
+<list id="fs-id1167132301324" list-type="enumerated" number-style="arabic">
+<item>Assume a current <emphasis effect="italics">I</emphasis> is flowing through the inductor.</item>
+<item>Determine the magnetic field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> produced by the current. If there is appropriate symmetry, you may be able to do this with Ampère’s law.</item>
+<item>Obtain the magnetic flux, <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>With the flux known, the self-inductance can be found from <link target-id="fs-id1167133805496"/>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow></m:math>.</item>
+</list>
+</note>
+<para id="fs-id1167132372616">To demonstrate this procedure, we now calculate the self-inductances of two inductors.</para>
+</section>
+<section id="fs-id1167132501769">
+<title>Cylindrical Solenoid</title>
+<para id="fs-id1167133578592">Consider a long, cylindrical solenoid with length <emphasis effect="italics">l</emphasis>, cross-sectional area <emphasis effect="italics">A</emphasis>, and <emphasis effect="italics">N</emphasis> turns of wire. We assume that the length of the solenoid is so much larger than its diameter that we can take the magnetic field to be <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math> throughout the interior of the solenoid, that is, we ignore end effects in the solenoid. With a current <emphasis effect="italics">I</emphasis> flowing through the coils, the magnetic field produced within the solenoid is</para>
+<equation id="fs-id1167133636610"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>N</m:mi><m:mi>l</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>I</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133687111">so the magnetic flux through one turn is</para>
+<equation id="fs-id1167133796548"><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:mrow><m:mi>l</m:mi></m:mfrac><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133805312">Using <link target-id="fs-id1167133805496"/>, we find for the self-inductance of the solenoid,</para>
+<note id="fs-id1167132311062" class="equation-callout">
+<equation id="fs-id1167132395345"><label/><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>solenoid</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi></m:mrow><m:mi>l</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167132535946">If <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mrow><m:mi>N</m:mi><m:mtext>/</m:mtext><m:mi>l</m:mi></m:mrow></m:mrow></m:math> is the number of turns per unit length of the solenoid, we may write <link target-id="fs-id1167132395345"/> as</para>
+<equation id="fs-id1167132749881"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>N</m:mi><m:mi>l</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mi>A</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>V</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132749797">where <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>l</m:mi></m:mrow></m:math> is the volume of the solenoid. Notice that <emphasis effect="italics">the self-inductance of a long solenoid depends only on its physical properties</emphasis> (such as the number of turns of wire per unit length and the volume), and not on the magnetic field or the current. This is true for inductors in general.</para>
+</section>
+<section id="fs-id1167132290367">
+<title>Rectangular Toroid</title>
+<para id="fs-id1167132706305">A toroid with a rectangular cross-section is shown in <link target-id="CNX_UPhysics_31_02_Toroid"/>. The inner and outer radii of the toroid are <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>h</m:mi></m:mrow></m:math> is the height of the toroid. Applying Ampère’s law in the same manner as we did in <link target-id="fs-id1171241016755" document="m58479"/> for a toroid with a circular cross-section, we find the magnetic field inside a rectangular toroid is also given by</para>
+<equation id="fs-id1167132259531"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132231130">where <emphasis effect="italics">r</emphasis> is the distance from the central axis of the toroid. Because the field changes within the toroid, we must calculate the flux by integrating over the toroid’s cross-section. Using the infinitesimal cross-sectional area element <m:math><m:mrow><m:mi>d</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:math> shown in <link target-id="CNX_UPhysics_31_02_Toroid"/>, we obtain</para>
+<equation id="fs-id1167132200528"><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mi>B</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>h</m:mi><m:mi>d</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>h</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_31_02_Toroid">
+<media id="fs-id1167133698792" alt="Figure shows the cross section of a toroid. The inner radius of the ring is R1 and the outer radius is R2. The height of the rectangular cross section is h. A small section of thickness dr is located at the center of the rectangular cross section. This is at a distance r from the center of the ring. The area within the rectangular cross section with thickness dr and height h is highlighted and labeled da. Field lines and current i flowing through the toroid are shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Toroid.jpg"/>
+</media>
+<caption>Calculating the self-inductance of a rectangular toroid.</caption>
+</figure>
+<para id="fs-id1167132464580">Now from <link target-id="fs-id1167132200528"/>, we obtain for the self-inductance of a rectangular toroid</para>
+<note id="fs-id1167132615660" class="equation-callout">
+<equation id="fs-id1167133510385"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133824873">As expected, the self-inductance is a constant determined by only the physical properties of the toroid.</para>
+<note id="fs-id1167132220801" class="check-understanding">
+<exercise id="fs-id1167132743306">
+<problem id="fs-id1167133562015">
+<para id="fs-id1167132490690"><emphasis effect="bold">Check Your Understanding</emphasis> (a) Calculate the self-inductance of a solenoid that is tightly wound with wire of diameter 0.10 cm, has a cross-sectional area of <m:math><m:mrow><m:msup><m:mrow><m:mn>0.90</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, and is 40 cm long. (b) If the current through the solenoid decreases uniformly from 10 to 0 A in 0.10 s, what is the emf induced between the ends of the solenoid?</para>
+</problem>
+<solution id="fs-id1167132270624">
+<para id="fs-id1167132243315">a. <m:math><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167133534998" class="check-understanding">
+<exercise id="fs-id1167132656703">
+<problem id="fs-id1167132295149">
+<para id="fs-id1167132452911"><emphasis effect="bold">Check Your Understanding</emphasis> (a) What is the magnetic flux through one turn of a solenoid of self-inductance <m:math><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math> when a current of 3.0 A flows through it? Assume that the solenoid has 1000 turns and is wound from wire of diameter 1.0 mm. (b) What is the cross-sectional area of the solenoid?</para>
+</problem>
+<solution id="fs-id1167132286639">
+<para id="fs-id1167132283172">a. <m:math><m:mrow><m:mn>2.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>6.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167132205717" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167132316332" list-type="bulleted" bullet-style="bullet">
+<item>Current changes in a device induce an emf in the device itself, called self-inductance,
+<equation id="fs-id1167132236556" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+where <emphasis effect="italics">L</emphasis> is the self-inductance of the inductor and <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:math> is the rate of change of current through it. The minus sign indicates that emf opposes the change in current, as required by Lenz’s law. The unit of self-inductance and inductance is the henry (H), where <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>.</item>
+<item>The self-inductance of a solenoid is
+<equation id="fs-id1167132385028" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi></m:mrow><m:mi>l</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+where <emphasis effect="italics">N</emphasis> is its number of turns in the solenoid, <emphasis effect="italics">A</emphasis> is its cross-sectional area, <emphasis effect="italics">l</emphasis> is its length, and <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:math> is the permeability of free space.</item>
+<item>The self-inductance of a toroid is
+<equation id="fs-id1167132281563" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+where <emphasis effect="italics">N</emphasis> is its number of turns in the toroid, <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are the inner and outer radii of the toroid, <emphasis effect="italics">h</emphasis> is the height of the toroid, and <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:math> is the permeability of free space.</item>
+</list>
+</section>
+<section id="fs-id1167132736124" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167132371781">
+<problem id="fs-id1167132690052">
+<para id="fs-id1167133358230">Does self-inductance depend on the value of the magnetic flux? Does it depend on the current through the wire? Correlate your answers with the equation <m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167132745650">
+<para id="fs-id1167132287877">Self-inductance is proportional to the magnetic flux and inversely proportional to the current. However, since the magnetic flux depends on the current <emphasis effect="italics">I</emphasis>, these effects cancel out. This means that the self-inductance does not depend on the current. If the emf is induced across an element, it does depend on how the current changes with time.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132422885">
+<problem id="fs-id1167133611311">
+<para id="fs-id1167132528978">Would the self-inductance of a 1.0 m long, tightly wound solenoid differ from the self-inductance per meter of an infinite, but otherwise identical, solenoid?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132372313">
+<problem id="fs-id1167132270474">
+<para id="fs-id1167132344832">Discuss how you might determine the self-inductance per unit length of a long, straight wire.</para>
+</problem>
+<solution id="fs-id1167132282486">
+<para id="fs-id1167133677682">Consider the ends of a wire a part of an <emphasis effect="italics">RL</emphasis> circuit and determine the self-inductance from this circuit.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132526676">
+<problem id="fs-id1167132307110">
+<para id="fs-id1167132415782">The self-inductance of a coil is zero if there is no current passing through the windings. True or false?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133640473">
+<problem id="fs-id1167132625093">
+<para id="fs-id1167132268139">How does the self-inductance per unit length near the center of a solenoid (away from the ends) compare with its value near the end of the solenoid?</para>
+</problem>
+<solution id="fs-id1167132311804">
+<para id="fs-id1167133792617">The magnetic field will flare out at the end of the solenoid so there is less flux through the last turn than through the middle of the solenoid.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167133717187" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167132333188">
+<problem id="fs-id1167133766479">
+<para id="fs-id1167133575950">An emf of 0.40 V is induced across a coil when the current through it changes uniformly from 0.10 to 0.60 A in 0.30 s. What is the self-inductance of the coil?</para>
+</problem>
+<solution id="fs-id1167132305435">
+<para id="fs-id1167133660431">0.24 H</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132505609">
+<problem id="fs-id1167133524752">
+<para id="fs-id1167132466440">The current shown in part (a) below is increasing, whereas that shown in part (b) is decreasing. In each case, determine which end of the inductor is at the higher potential.</para>
+<media id="fs-id1167132307120" alt="Figure a shows current flowing through a coil from left to right. Figure b shows current flowing through a coil from right to left.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Problem09_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167133407919">
+<problem id="fs-id1167133525844">
+<para id="fs-id1167132274652">What is the rate at which the current though a 0.30-H coil is changing if an emf of 0.12 V is induced across the coil?</para>
+</problem>
+<solution id="fs-id1167132230042">
+<para id="fs-id1167132241605">0.4 A/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132602184">
+<problem id="fs-id1167128956190">
+<para id="fs-id1167132281470">When a camera uses a flash, a fully charged capacitor discharges through an inductor. In what time must the 0.100-A current through a 2.00-mH inductor be switched on or off to induce a 500-V emf?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133871022">
+<problem id="fs-id1167133694290">
+<para id="fs-id1167132466244">A coil with a self-inductance of 2.0 H carries a current that varies with time according to <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>120</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math> Find an expression for the emf induced in the coil.</para>
+</problem>
+<solution id="fs-id1167132460816">
+<para id="fs-id1167132267417"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>480</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132559745">
+<problem id="fs-id1167132524604">
+<para id="fs-id1167132753868">A solenoid 50 cm long is wound with 500 turns of wire. The cross-sectional area of the coil is <m:math><m:mrow><m:msup><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> What is the self-inductance of the solenoid?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133845735">
+<problem id="fs-id1167132422781">
+<para id="fs-id1167132617434">A coil with a self-inductance of 3.0 H carries a current that decreases at a uniform rate <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>−0.050</m:mn><m:mspace width="0.2em"/><m:mtext>A/s</m:mtext></m:mrow></m:math>. What is the emf induced in the coil? Describe the polarity of the induced emf.</para>
+</problem>
+<solution id="fs-id1167132487087">
+<para id="fs-id1167132444608">0.15 V. This is the same polarity as the emf driving the current.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132342299">
+<problem id="fs-id1167132217549">
+<para id="fs-id1167133824204">The current <emphasis effect="italics">I(t)</emphasis> through a 5.0-mH inductor varies with time, as shown below. The resistance of the inductor is <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Calculate the voltage across the inductor at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>,</m:mo><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext></m:mrow></m:math>.</para>
+<media id="fs-id1167132326315" alt="The graph of current in amperes versus time in milliseconds. The current starts from 0 at 0 milliseconds, increases with time and reaches just over 6 amperes at roughly 3 milliseconds. It decreases sharply till about 6 milliseconds, then decreases at a slightly slower rate till it reaches 0 at 12 milliseconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Problem14_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167133775680">
+<problem id="fs-id1167132444948">
+<para id="fs-id1167132686452">A long, cylindrical solenoid with 100 turns per centimeter has a radius of 1.5 cm. (a) Neglecting end effects, what is the self-inductance per unit length of the solenoid? (b) If the current through the solenoid changes at the rate 5.0 A/s, what is the emf induced per unit length?</para>
+</problem>
+<solution id="fs-id1167132276189">
+<para id="fs-id1167132458420">a. 0.089 H/m; b. 0.44 V/m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133579828">
+<problem id="fs-id1167133334227">
+<para id="fs-id1167133711199">Suppose that a rectangular toroid has 2000 windings and a self-inductance of 0.040 H. If <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, what is the ratio of its outer radius to its inner radius?</para>
+<media id="fs-id1167132315705" alt="Figure shows the cross section of a toroid. The inner radius of the ring is R1 and the outer radius is R2. The height of the rectangular cross section is h. A small section of thickness dr is located at the center of the rectangular cross section. This is at a distance r from the center of the ring. The area within the rectangular cross section with thickness dr and height h is highlighted and labeled da. Field lines and current i flowing through the toroid are shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Problem16_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167132540818">
+<problem id="fs-id1167133828384">
+<para id="fs-id1167133722347">What is the self-inductance per meter of a coaxial cable whose inner radius is 0.50 mm and whose outer radius is 4.00 mm?</para>
+</problem>
+<solution id="fs-id1167133715817">
+<para id="fs-id1167133635444"><m:math><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>4.16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H/m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167132203243">
+<term>inductor</term>
+<meaning id="fs-id1167133825437">part of an electrical circuit to provide self-inductance, which is symbolized by a coil of wire</meaning>
+</definition>
+<definition id="fs-id1167133334241">
+<term>self-inductance</term>
+<meaning id="fs-id1167132477001">effect of the device inducing emf in itself</meaning>
+</definition>
+</glossary>
+</document>

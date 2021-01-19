@@ -1,0 +1,222 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>The Biot-Savart Law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58460</md:content-id>
+  <md:title>The Biot-Savart Law</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para> 
+<list>
+<item>Explain how to derive a magnetic field from an arbitrary current in a line segment</item>
+<item>Calculate magnetic field from the Biot-Savart law in specific geometries, such as a current in a line and a current in a circular arc</item>
+</list></md:abstract>
+  <md:uuid>761d068c-111d-4d4b-810e-a8bc315446c4</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1166166991968">We have seen that mass produces a gravitational field and also interacts with that field. Charge produces an electric field and also interacts with that field. Since moving charge (that is, current) interacts with a magnetic field, we might expect that it also creates that field—and it does.</para>
+<para id="fs-id1166167055730">The equation used to calculate the magnetic field produced by a current is known as the Biot-Savart law. It is an empirical law named in honor of two scientists who investigated the interaction between a straight, current-carrying wire and a permanent magnet. This law enables us to calculate the magnitude and direction of the magnetic field produced by a current in a wire. The <term>Biot-Savart law</term> states that at any point <emphasis effect="italics">P</emphasis> (<link target-id="CNX_UPhysics_29_01_LineSeg"/>), the magnetic field <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> due to an element <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> of a current-carrying wire is given by</para>
+<equation id="fs-id1166166987338"><m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_29_01_LineSeg">
+<media id="fs-id1166167062746" alt="This figure demonstrates Biot-Savart Law. A current dI flows through a magnetic wire. A point P is located at the distance r from the wire. A vector r to the point P forms an angle theta with the wire. Magnetic field dB exists in the point P.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_01_LineSeg.jpg"/></media>
+<caption>A current element <m:math><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> produces a magnetic field at point <emphasis effect="italics">P</emphasis> given by the Biot-Savart law.</caption>
+</figure>
+<para id="fs-id1166167019446">The constant <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is known as the <term>permeability of free space</term> and is exactly</para>
+<note id="fs-id1168329013869" class="equation-callout">
+<equation id="fs-id1166166991575"><label/><m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−7</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166167055480">in the SI system. The infinitesimal wire segment <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is in the same direction as the current <emphasis effect="italics">I</emphasis> (assumed positive), <emphasis effect="italics">r</emphasis> is the distance from <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> to <emphasis effect="italics">P</emphasis> and <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> is a unit vector that points from <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> to <emphasis effect="italics">P</emphasis>, as shown in the figure.</para>
+<para id="fs-id1166167055326">The direction of <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is determined by applying the right-hand rule to the vector product <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> The magnitude of <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is</para>
+<note id="fs-id1168326822851" class="equation-callout">
+<equation id="fs-id1166167034410"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mi>sin</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>
+</equation>
+</note>
+<para id="fs-id1166167125946">where <m:math><m:mi>θ</m:mi></m:math> is the angle between <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Notice that if <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mn>0</m:mn><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> The field produced by a current element <m:math><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> has no component parallel to <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math>
+</para>
+<para id="fs-id1166167037138">The magnetic field due to a finite length of current-carrying wire is found by integrating <link target-id="fs-id1166167034410"/> along the wire, giving us the usual form of the Biot-Savart law.</para>
+<note id="fs-id1166167080199">
+<title>Biot-Savart law</title>
+<para id="fs-id1166167020469">The magnetic field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> due to an element <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> of a current-carrying wire is given by</para>
+<equation id="fs-id1166167042098"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo stretchy="true">∫</m:mo><m:mrow><m:mtext>wire</m:mtext></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166167062557">Since this is a vector integral, contributions from different current elements may not point in the same direction. Consequently, the integral is often difficult to evaluate, even for fairly simple geometries. The following strategy may be helpful.</para>
+<note id="fs-id1166167062559" class="problem-solving">
+<title>Solving Biot-Savart Problems</title>
+<para id="fs-id1166167048182">To solve Biot-Savart law problems, the following steps are helpful:</para>
+<list id="fs-id1166167120491" list-type="enumerated" number-style="arabic">
+<item>Identify that the Biot-Savart law is the chosen method to solve the given problem. If there is symmetry in the problem comparing <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> Ampère’s law may be the preferred method to solve the question.</item>
+<item>Draw the current element length <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and the unit vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> noting that <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> points in the direction of the current and <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> points from the current element toward the point where the field is desired.</item>
+<item>Calculate the cross product <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> The resultant vector gives the direction of the magnetic field according to the Biot-Savart law.</item>
+<item>Use <link target-id="fs-id1166167042098"/> and substitute all given quantities into the expression to solve for the magnetic field. Note all variables that remain constant over the entire length of the wire may be factored out of the integration.</item>
+<item>Use the right-hand rule to verify the direction of the magnetic field produced from the current or to write down the direction of the magnetic field if only the magnitude was solved for in the previous part.</item>
+</list>
+</note>
+<example id="fs-id1166167048393">
+<para id="fs-id1168329265123"><title>Calculating Magnetic Fields of Short Current Segments</title>
+A short wire of length 1.0 cm carries a current of 2.0 A in the vertical direction (<link target-id="CNX_UPhysics_29_01_LineSeg2"/>). The rest of the wire is shielded so it does not add to the magnetic field produced by the wire. Calculate the magnetic field at point <emphasis effect="italics">P</emphasis>, which is 1 meter from the wire in the <emphasis effect="italics">x</emphasis>-direction.</para>
+<figure id="CNX_UPhysics_29_01_LineSeg2">
+<media id="fs-id1166167034979" alt="This figure shows a wire I with a short unshielded piece dI that carries current. Point P is located at the distance x from the wire. A vector to the point P from dI forms an angle theta with the wire. The length of the vector is the square root of the sums of squares of x and I.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_01_LineSeg2.jpg"/></media>
+<caption>A small line segment carries a current <emphasis effect="italics">I</emphasis> in the vertical direction. What is the magnetic field at a distance <emphasis effect="italics">x</emphasis> from the segment?</caption>
+</figure>
+<para id="fs-id1168326797824"><title>Strategy</title>
+We can determine the magnetic field at point <emphasis effect="italics">P</emphasis> using the Biot-Savart law. Since the current segment is much smaller than the distance <emphasis effect="italics">x</emphasis>, we can drop the integral from the expression. The integration is converted back into a summation, but only for small <emphasis effect="italics">dl</emphasis>, which we now write as <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math> Another way to think about it is that each of the radius values is nearly the same, no matter where the current element is on the line segment, if <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi></m:mrow></m:math> is small compared to <emphasis effect="italics">x</emphasis>. The angle <m:math><m:mi>θ</m:mi></m:math> is calculated using a tangent function. Using the numbers given, we can calculate the magnetic field at <emphasis effect="italics">P</emphasis>.</para>
+<para id="fs-id1168329297195"><title>Solution</title>
+The angle between <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> is calculated from trigonometry, knowing the distances <emphasis effect="italics">l</emphasis> and <emphasis effect="italics">x</emphasis> from the problem:</para>
+<equation id="fs-id1166167064390" class="unnumbered"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>0.01</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>89.4</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167081489">The magnetic field at point <emphasis effect="italics">P</emphasis> is calculated by the Biot-Savart law:</para>
+<equation id="fs-id1166167075876" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>I</m:mi><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0.01</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>89.4</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167128916">From the right-hand rule and the Biot-Savart law, the field is directed into the page.</para>
+<para id="fs-id1168329023098"><title>Significance</title>
+This approximation is only good if the length of the line segment is very small compared to the distance from the current element to the point. If not, the integral form of the Biot-Savart law must be used over the entire line segment to calculate the magnetic field.</para>
+</example>
+<note id="fs-id1166167121799" class="check-understanding">
+<exercise id="fs-id1166167121803">
+<problem id="fs-id1166167121805">
+<para id="fs-id1166167108807"><emphasis effect="bold">Check Your Understanding</emphasis> Using <link target-id="fs-id1166167048393"/>, at what distance would <emphasis effect="italics">P</emphasis> have to be to measure a magnetic field half of the given answer?</para>
+</problem>
+<solution id="fs-id1166167091875">
+<para id="fs-id1166167091877">1.41 meters</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1166167020907">
+<para id="fs-id1168329138688"><title>Calculating Magnetic Field of a Circular Arc of Wire</title>
+A wire carries a current <emphasis effect="italics">I</emphasis> in a circular arc with radius <emphasis effect="italics">R</emphasis> swept through an arbitrary angle <m:math><m:mi>θ</m:mi></m:math> (<link target-id="CNX_UPhysics_29_01_ArcSeg"/>). Calculate the magnetic field at the center of this arc at point <emphasis effect="italics">P</emphasis>.</para>
+<figure id="CNX_UPhysics_29_01_ArcSeg">
+<media id="fs-id1166167041080" alt="This figure shows a piece of wire in the shape of a circular arc with radius R swept through an arbitrary angle theta. Wire carries a current dI. Point P is located at the center. A vector r to the point P is perpendicular to the vector dI.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_01_ArcSeg.jpg"/>
+</media>
+<caption>A wire segment carrying a current <emphasis effect="italics">I</emphasis>. The path <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and radial direction <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> are indicated.</caption>
+</figure>
+<para id="fs-id1168326794340"><title>Strategy</title>
+We can determine the magnetic field at point <emphasis effect="italics">P</emphasis> using the Biot-Savart law. The radial and path length directions are always at a right angle, so the cross product turns into multiplication. We also know that the distance along the path <emphasis effect="italics">dl</emphasis> is related to the radius times the angle <m:math><m:mi>θ</m:mi></m:math> (in radians). Then we can pull all constants out of the integration and solve for the magnetic field.</para>
+<para id="fs-id1168329167072"><title>Solution</title>
+The Biot-Savart law starts with the following equation:</para>
+<equation id="fs-id1166167046877" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mrow><m:mtext>wire</m:mtext></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167079902">As we integrate along the arc, all the contributions to the magnetic field are in the same direction (out of the page), so we can work with the magnitude of the field. The cross product turns into multiplication because the path <emphasis effect="italics">dl</emphasis> and the radial direction are perpendicular. We can also substitute the arc length formula, <m:math><m:mrow><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math>:</para>
+<equation id="fs-id1166167043038" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo stretchy="true">∫</m:mo><m:mrow><m:mtext>wire</m:mtext></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167124731">The current and radius can be pulled out of the integral because they are the same regardless of where we are on the path. This leaves only the integral over the angle,</para>
+<equation id="fs-id1166167124736" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mrow><m:mtext>wire</m:mtext></m:mrow></m:munder><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167091897">The angle varies on the wire from 0 to <m:math><m:mi>θ</m:mi></m:math>; hence, the result is</para>
+<equation id="fs-id1166167088986" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168329265214"><title>Significance</title>
+The direction of the magnetic field at point <emphasis effect="italics">P</emphasis> is determined by the right-hand rule, as shown in the previous chapter. If there are other wires in the diagram along with the arc, and you are asked to find the net magnetic field, find each contribution from a wire or arc and add the results by superposition of vectors. Make sure to pay attention to the direction of each contribution. Also note that in a symmetric situation, like a straight or circular wire, contributions from opposite sides of point <emphasis effect="italics">P</emphasis> cancel each other.</para>
+</example>
+<note id="fs-id1166167040282" class="check-understanding">
+<exercise id="fs-id1166167040286">
+<problem id="fs-id1166167040288">
+<para id="fs-id1166167040290"><emphasis effect="bold">Check Your Understanding</emphasis> The wire loop forms a full circle of radius <emphasis effect="italics">R</emphasis> and current <emphasis effect="italics">I</emphasis>. What is the magnitude of the magnetic field at the center?</para>
+</problem>
+<solution id="fs-id1166167076293">
+<para id="fs-id1166167076295"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1166167108217" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1166167040339" list-type="bulleted" bullet-style="bullet">
+<item>The magnetic field created by a current-carrying wire is found by the Biot-Savart law.</item>
+<item>The current element <m:math><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> produces a magnetic field a distance <emphasis effect="italics">r</emphasis> away.</item>
+</list>
+</section>
+<section id="fs-id1171358168833" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1166167092951">
+<problem id="fs-id1166167092953">
+<para id="fs-id1166167092955">For calculating magnetic fields, what are the advantages and disadvantages of the Biot-Savart law?</para>
+</problem>
+<solution id="fs-id1166167095907">
+<para id="fs-id1166167095909">Biot-Savart law’s advantage is that it works with any magnetic field produced by a current loop. The disadvantage is that it can take a long time.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167095917">
+<problem id="fs-id1166167095920">
+<para id="fs-id1166167050739">Describe the magnetic field due to the current in two wires connected to the two terminals of a source of emf and twisted tightly around each other.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167036448">
+<problem id="fs-id1166167036450">
+<para id="fs-id1166167036453">How can you decide if a wire is infinite?</para>
+</problem>
+<solution id="fs-id1166167036457">
+<para id="fs-id1166167020030">If you were to go to the start of a line segment and calculate the angle <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math> to be approximately <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, the wire can be considered infinite. This judgment is based also on the precision you need in the result.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167085625">
+<problem id="fs-id1166167085627">
+<para id="fs-id1166167085629">Identical currents are carried in two circular loops; however, one loop has twice the diameter as the other loop. Compare the magnetic fields created by the loops at the center of each loop.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1166167104163" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1166167104169">
+<problem id="fs-id1166167104171">
+<para id="fs-id1166167104173">A 10-A current flows through the wire shown. What is the magnitude of the magnetic field due to a 0.5-mm segment of wire as measured at (a) point A and (b) point B?</para>
+<media id="fs-id1166167084939" alt="This figure shows a piece of wire. Point A is located 3 centimeters above the 0.5 mm segment of wire. Point B is located 4 centimeters to the right of point A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr01_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166167043170">
+<problem id="fs-id1166167043172">
+<para id="fs-id1166167043174">Ten amps flow through a square loop where each side is 20 cm in length. At each corner of the loop is a 0.01-cm segment that connects the longer wires as shown. Calculate the magnitude of the magnetic field at the center of the loop.</para>
+<media id="fs-id1166167120308" alt="A square loop is shown with rounded corners. There are no markings.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr02_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166167120319">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166167135241"><m:math><m:mrow><m:mn>5.66</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1166167097421">
+<problem id="fs-id1166167097423">
+<para id="fs-id1166167097425">What is the magnetic field at P due to the current <emphasis effect="italics">I</emphasis> in the wire shown?</para>
+<media id="fs-id1166167092345" alt="This figure shows a current loop consisting of two concentric circular arcs and two parallel radial lines. Outer arc is located at the distance b from the center; inner arc is located at the distance a from the center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr03_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166167100738">
+<problem id="fs-id1166167100740">
+<para id="fs-id1166167100742">The accompanying figure shows a current loop consisting of two concentric circular arcs and two perpendicular radial lines. Determine the magnetic field at point P.</para>
+<media id="fs-id1166167100914" alt="This figure shows a current loop consisting of two concentric circular arcs and two perpendicular radial lines. Outer arc is located at the distance b from the center; inner arc is located at the distance a from the center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr04_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166167100928">
+<para id="fs-id1166167109082"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mn>8</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>−</m:mo><m:mspace width="0.05em"/><m:mfrac><m:mn>1</m:mn><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> out of the page</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167037116">
+<problem id="fs-id1166167037118">
+<para id="fs-id1166167037120">Find the magnetic field at the center C of the rectangular loop of wire shown in the accompanying figure.</para>
+<media id="fs-id1166167037124" alt="This figure shows a rectangular current loop. The length of the short side is b; the length of the long side is a. Point C is a center of the loop.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr14_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166167076307">
+<problem id="fs-id1166167076310">
+<para id="fs-id1166167076312">Two long wires, one of which has a semicircular bend of radius <emphasis effect="italics">R</emphasis>, are positioned as shown in the accompanying figure. If both wires carry a current <emphasis effect="italics">I</emphasis>, how far apart must their parallel sections be so that the net magnetic field at P is zero? Does the current in the straight wire flow up or down?</para>
+<media id="fs-id1166167079101" alt="This figure shows two parallel long wires located at a distance a from each other. One of the wires has a semicircular bend of radius R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr15_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166167079114">
+<para id="fs-id1166167028690"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow><m:mi>π</m:mi></m:mfrac></m:mrow></m:math>; the current in the wire to the right must flow up the page.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1166167093070">
+<term>Biot-Savart law</term>
+<meaning id="fs-id1166167093076">an equation giving the magnetic field at a point produced by a current-carrying wire</meaning>
+</definition>
+<definition id="fs-id1166167093080">
+<term>permeability of free space</term>
+<meaning id="fs-id1166167080668"><m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> measure of the ability of a material, in this case free space, to support a magnetic field
+</meaning>
+</definition>
+</glossary>
+</document>

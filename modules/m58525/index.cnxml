@@ -1,0 +1,587 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Polarization</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58525</md:content-id>
+  <md:title>Polarization</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain the change in intensity as polarized light passes through a polarizing filter</item>
+<item>Calculate the effect of polarization by reflection and Brewster’s angle</item>
+<item>Describe the effect of polarization by scattering</item>
+<item>Explain the use of polarizing materials in devices such as LCDs</item>
+</list></md:abstract>
+  <md:uuid>bddd5452-956b-4e40-8024-1053c5b0988c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172100629808">Polarizing sunglasses are familiar to most of us. They have a special ability to cut the glare of light reflected from water or glass (<link target-id="CNX_UPhysics_34_07_River"/>). They have this ability because of a wave characteristic of light called polarization. What is polarization? How is it produced? What are some of its uses? The answers to these questions are related to the wave character of light.</para>
+<figure id="CNX_UPhysics_34_07_River">
+<media id="fs-id1172098363447" alt="The figure has two photographs of the same part of a river. In figure a, the clouds and sky are reflected in the water, making it hard to see the stones at the bottom of the river. In figure b, the reflection of the sky is absent and the bottom of the river can be seen more clearly.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_River.jpg"/>
+</media>
+<caption>These two photographs of a river show the effect of a polarizing filter in reducing glare in light reflected from the surface of water. Part (b) of this figure was taken with a polarizing filter and part (a) was not. As a result, the reflection of clouds and sky observed in part (a) is not observed in part (b). Polarizing sunglasses are particularly useful on snow and water. (credit a and credit b: modifications of work by “Amithshs”/Wikimedia Commons)</caption>
+</figure>
+<section id="fs-id1172100665277">
+<title>Malus’s Law</title>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172098373712">Light is one type of electromagnetic (EM) wave. As noted in the previous chapter on <link document="m58495">Electromagnetic Waves</link>, EM waves are <emphasis effect="italics">transverse waves</emphasis> consisting of varying electric and magnetic fields that oscillate perpendicular to the direction of propagation (<link target-id="CNX_UPhysics_34_07_EMWave"/>). However, in general, there are no specific directions for the oscillations of the electric and magnetic fields; they vibrate in any randomly oriented plane perpendicular to the direction of propagation. <emphasis effect="bold">Polarization</emphasis> is the attribute that a wave’s oscillations do have a definite direction relative to the direction of propagation of the wave. (This is not the same type of polarization as that discussed for the separation of charges.) Waves having such a direction are said to be <term>polarized</term>. For an EM wave, we define the <term>direction of polarization</term> to be the direction parallel to the electric field. Thus, we can think of the electric field arrows as showing the direction of polarization, as in <link target-id="CNX_UPhysics_34_07_EMWave"/>.</para><figure id="CNX_UPhysics_34_07_EMWave">
+<media id="fs-id1172098479739" alt="A part of an electromagnetic wave moving with velocity c is shown at one instant in time. The two vector components, E and B, are shown and are perpendicular to one another and to the direction of propagation. The vectors representing the magnitude and direction of E, shown as arrows whose tails lie on the line of propagation of the wave, form a sine wave in one plane. Similarly, the B vectors form a sine wave in a plane perpendicular to the E wave. The E and B waves are in phase. The direction of polarization is given by the direction of the E vectors.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_EMWave.jpg"/>
+</media>
+<caption>An EM wave, such as light, is a transverse wave. The electric <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and magnetic <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:math> fields are perpendicular to the direction of propagation. The direction of polarization of the wave is the direction of the electric field.</caption>
+</figure>
+<para id="fs-id1172098377199">To examine this further, consider the transverse waves in the ropes shown in <link target-id="CNX_UPhysics_34_07_TransOsc"/>. The oscillations in one rope are in a vertical plane and are said to be <term>vertically polarized</term>. Those in the other rope are in a horizontal plane and are <term>horizontally polarized</term>. If a vertical slit is placed on the first rope, the waves pass through. However, a vertical slit blocks the horizontally polarized waves. For EM waves, the direction of the electric field is analogous to the disturbances on the ropes.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_34_07_TransOsc"><media id="fs-id1172098407330" alt="Figure a shows waves on a vertically oscillating rope that pass through a vertical slit. The vertical oscillation is the direction of polarization. Figure b shows waves on a horizontally oscillating rope that do not pass through a similar vertical slit. The horizontal oscillation is the direction of polarization.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_TransOsc_New.jpg"/>
+</media>
+
+<caption>The transverse oscillations in one rope (a) are in a vertical plane, and those in the other rope (b) are in a horizontal plane. The first is said to be vertically polarized, and the other is said to be horizontally polarized. Vertical slits pass vertically polarized waves and block horizontally polarized waves.</caption></figure><para id="fs-id1172098696422">The Sun and many other light sources produce waves that have the electric fields in random directions (<link target-id="CNX_UPhysics_34_07_PolFilter"/>(a)). Such light is said to be <term>unpolarized</term>, because it is composed of many waves with all possible directions of polarization. Polaroid materials—which were invented by the founder of the Polaroid Corporation, Edwin Land—act as a polarizing slit for light, allowing only polarization in one direction to pass through. Polarizing filters are composed of long molecules aligned in one direction. If we think of the molecules as many slits, analogous to those for the oscillating ropes, we can understand why only light with a specific polarization can get through. The axis of a polarizing filter is the direction along which the filter passes the electric field of an EM wave.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_34_07_PolFilter"><media id="fs-id1172100971110" alt="Figure a shows a slender blue arrow pointing out of the page and to the right that is labeled direction of ray. Eight red arrows emanate from a point on the ray and are labeled as vectors E. These arrows are all in a plane perpendicular to the ray and are uniformly distributed around the ray. They are labeled as representing a random polarization. In figure b, a similar but longer ray is shown with the same red arrows emanating from a point near the left end of the ray. Farther to the right on the same ray is a thin rectangle with six equally spaced vertical slits. This rectangle is labeled polarizing filter. A vertical double headed arrow on its surface is labeled axis. To the right of the filter, centered on the ray, is a single blue double headed arrow oriented vertically that is labeled E and direction of polarization.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_PolFilter_New.jpg"/>
+</media>
+
+<caption>The slender arrow represents a ray of unpolarized light. The bold arrows represent the direction of polarization of the individual waves composing the ray. (a) If the light is unpolarized, the arrows point in all directions. (b) A polarizing filter has a polarization axis that acts as a slit passing through electric fields parallel to its direction. The direction of polarization of an EM wave is defined to be the direction of its electric field.</caption></figure><para id="fs-id1172100922102"><link target-id="CNX_UPhysics_34_07_RotateFilt"/> shows the effect of two polarizing filters on originally unpolarized light. The first filter polarizes the light along its axis. When the axes of the first and second filters are aligned (parallel), then all of the polarized light passed by the first filter is also passed by the second filter. If the second polarizing filter is rotated, only the component of the light parallel to the second filter’s axis is passed. When the axes are perpendicular, no light is passed by the second filter.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_34_07_RotateFilt"><media id="fs-id1172098319371" alt="This figure shows three illustrations of randomly polarized light passing through two polarizing filters, one after the other, in various orientations. In figure a, the two filters have axes oriented parallel to each other, in b the axis of the second filter is at an intermediate angle, between zero and ninety degrees, to the first’s, and in c the axis of the second filter is perpendicular to the first’s. Figure d is a photograph of the actual result of the first (parallel) and last (perpendicular) arrangements. In all the arrangements, the source light is randomly polarized, indicated by vector E arrows pointing in every direction in a plane perpendicular to the direction of propagation of the ray. In all the arrangements, the light that passed through the first filter, whose axis is oriented vertically, is vertically polarized, indicated by E vector arrows that only point vertically up and down. In figure a, all of the polarized light is passed by the second polarizing filter,  whose axis is parallel to the first, and is still vertically polarized. In figure b, only some of the light is passed by the second polarizing filter,  whose axis is tilted relative to the first. The light that passed the second filter is polarized in the direction of the second filter’s axis, and the magnitude of E is reduced. In figure c, where the filter axes are perpendicular to each other, none of the light passes through the second filter. Figure c shows a photo of three circular optical filters placed over a bright colorful pattern. Two of these filters are place next to each other and the third is placed on top of the other two so that the center of the third is at the point where the edges of the two filters underneath touch. Some light passes through where the upper filter overlaps the left-hand underneath filter. No light passes through where the upper filter overlaps the right-hand lower filter.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_RotateFilt_New.jpg"/>
+</media>
+
+<caption>The effect of rotating two polarizing filters, where the first polarizes the light. (a) All of the polarized light is passed by the second polarizing filter, because its axis is parallel to the first. (b) As the second filter is rotated, only part of the light is passed. (c) When the second filter is perpendicular to the first, no light is passed. (d) In this photograph, a polarizing filter is placed above two others. Its axis is perpendicular to the filter on the right (dark area) and parallel to the filter on the left (lighter area). (credit d: modification of work by P.P. Urone)</caption></figure><para id="fs-id1172098448775">Only the component of the EM wave parallel to the axis of a filter is passed. Let us call the angle between the direction of polarization and the axis of a filter <m:math><m:mi>θ</m:mi></m:math>. If the electric field has an amplitude <emphasis effect="italics">E</emphasis>, then the transmitted part of the wave has an amplitude <m:math><m:mrow><m:mi>E</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> (<link target-id="CNX_UPhysics_34_07_PolFilter2"/>). Since the intensity of a wave is proportional to its amplitude squared, the intensity <emphasis effect="italics">I</emphasis> of the transmitted wave is related to the incident wave by</para>
+<note id="fs-id1172100989017" class="equation-callout">
+<equation id="fs-id1172100999223"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172098377558">where <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the intensity of the polarized wave before passing through the filter. This equation is known as <term>Malus’s law</term>.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_34_07_PolFilter2"><media id="fs-id1172098435845" alt="This figure provides additional details to the schematics of the two previous figures. In this figure, only one of the E vectors of the randomly polarized source light are shown to the left of the vertically oriented polarizing filter, along with the component of that vector parallel to the filter. The vector E is at an angle of theta to the vertical. The vertical component of the E vector is E cosine theta. After passing through the filter, the light has only vertical E, with magnitude E cosine theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_PolFilter2_New.jpg"/>
+</media>
+
+<caption>A polarizing filter transmits only the component of the wave parallel to its axis, reducing the intensity of any light not polarized parallel to its axis.</caption></figure><note id="fs-id1172098460506" class="media-2">
+<para id="fs-id1172100668367">This <link url="https://openstax.org/l/21phyanielefie">Open Source Physics animation</link> helps you visualize the electric field vectors as light encounters a polarizing filter. You can rotate the filter—note that the angle displayed is in radians. You can also rotate the animation for 3D visualization.</para>
+</note>
+<example id="fs-id1172100714884">
+<para id="fs-id1172100536203"><title>Calculating Intensity Reduction by a Polarizing Filter</title>
+What angle is needed between the direction of polarized light and the axis of a polarizing filter to reduce its intensity by <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>?</para>
+<para id="fs-id1172100814638"><title>Strategy</title>
+When the intensity is reduced by <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>, it is <m:math><m:mrow><m:mn>10.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> or 0.100 times its original value. That is, <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>0.100</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Using this information, the equation <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> can be used to solve for the needed angle.</para>
+<para id="fs-id1172100827264"><title>Solution</title>
+Solving the equation <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> for <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> and substituting with the relationship between <emphasis effect="italics">I</emphasis> and <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> gives</para>
+<equation id="fs-id1172100775846" class="unnumbered"><label/><m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>0.100</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>0.3162</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098449926">Solving for <m:math><m:mi>θ</m:mi></m:math> yields</para>
+<equation id="fs-id1172098379559" class="unnumbered"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mn>0.3162</m:mn><m:mo>=</m:mo><m:mn>71.6</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098377209"><title>Significance</title>
+A fairly large angle between the direction of polarization and the filter axis is needed to reduce the intensity to <m:math><m:mrow><m:mn>10.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its original value. This seems reasonable based on experimenting with polarizing films. It is interesting that at an angle of <m:math><m:mrow><m:mn>45</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, the intensity is reduced to <m:math><m:mrow><m:mn>50</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its original value. Note that <m:math><m:mrow><m:mn>71.6</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> is <m:math><m:mrow><m:mn>18.4</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> from reducing the intensity to zero, and that at an angle of <m:math><m:mrow><m:mn>18.4</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, the intensity is reduced to <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its original value, giving evidence of symmetry.</para>
+</example>
+<note id="fs-id1172098574910" class="check-understanding">
+<exercise id="fs-id1172100757932">
+<problem id="fs-id1172100557956">
+<para id="fs-id1172100831171"><emphasis effect="bold">Check Your Understanding</emphasis> Although we did not specify the direction in <link target-id="fs-id1172100714884"/>, let’s say the polarizing filter was rotated clockwise by <m:math><m:mrow><m:mn>71.6</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to reduce the light intensity by <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>. What would be the intensity reduction if the polarizing filter were rotated counterclockwise by <m:math><m:mrow><m:mn>71.6</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172098390808">
+<para id="fs-id1172100532304">also <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1172098375889">
+<title>Polarization by Reflection</title>
+<para id="fs-id1172100528765">By now, you can probably guess that polarizing sunglasses cut the glare in reflected light, because that light is polarized. You can check this for yourself by holding polarizing sunglasses in front of you and rotating them while looking at light reflected from water or glass. As you rotate the sunglasses, you will notice the light gets bright and dim, but not completely black. This implies the reflected light is partially polarized and cannot be completely blocked by a polarizing filter.</para>
+<para id="fs-id1172100781361"><link target-id="CNX_UPhysics_34_07_PolByRef"/> illustrates what happens when unpolarized light is reflected from a surface. Vertically polarized light is preferentially refracted at the surface, so the reflected light is left more horizontally polarized. The reasons for this phenomenon are beyond the scope of this text, but a convenient mnemonic for remembering this is to imagine the polarization direction to be like an arrow. Vertical polarization is like an arrow perpendicular to the surface and is more likely to stick and not be reflected. Horizontal polarization is like an arrow bouncing on its side and is more likely to be reflected. Sunglasses with vertical axes thus block more reflected light than unpolarized light from other sources.</para>
+<figure id="CNX_UPhysics_34_07_PolByRef">
+<media id="fs-id1172100967416" alt="The figure is a diagram that shows a block of glass in air.  The reflecting surface is horizontal. A ray labeled unpolarized light starts at the upper left and hits the center of the block, at an angle theta one to the vertical. Centered on this incident ray is are two double headed arrows, one horizontal and the other vertical. From the point where this ray hits the glass block, two rays emerge. One is the reflected ray that goes up and to the right at an angle of theta one to the vertical, and the second is a refracted ray that goes down and to the right at an angle of theta two to the vertical. The reflected light is labeled as partially polarized parallel to the surface. Two double headed arrows, similar to those on the incident ray, are shown centered on the reflected ray, but the vertical arrow is significantly shorter than the horizontal one. The refracted ray is labeled as partially polarized perpendicular to the surface. Two double headed arrows, similar to those on the incident ray, are shown centered on the reflected ray, but the horizontal arrow is significantly shorter than the vertical one. A note indicates that when theta one equals Brewster’s angle, the angle between the reflected and refracted ray is ninety degrees.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_PolByRef.jpg"/>
+</media>
+<caption>Polarization by reflection. Unpolarized light has equal amounts of vertical and horizontal polarization. After interaction with a surface, the vertical components are preferentially absorbed or refracted, leaving the reflected light more horizontally polarized. This is akin to arrows striking on their sides and bouncing off, whereas arrows striking on their tips go into the surface.</caption>
+</figure>
+<para id="fs-id1172098530951">Since the part of the light that is not reflected is refracted, the amount of polarization depends on the indices of refraction of the media involved. It can be shown that reflected light is completely polarized at an angle of reflection <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math> given by</para>
+<note id="fs-id1172100644222" class="equation-callout">
+<equation id="fs-id1172100841185"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172100513646">where <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the medium in which the incident and reflected light travel and <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is the index of refraction of the medium that forms the interface that reflects the light. This equation is known as <term>Brewster’s law</term> and <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math> is known as <term>Brewster’s angle</term>, named after the nineteenth-century Scottish physicist who discovered them.</para>
+<note id="fs-id1172098486520" class="media-2">
+<para id="fs-id1172100668302">This <link url="https://openstax.org/l/21phyaniincref">Open Source Physics animation</link> shows incident, reflected, and refracted light as rays and EM waves. Try rotating the animation for 3D visualization and also change the angle of incidence. Near Brewster’s angle, the reflected light becomes highly polarized.</para>
+</note>
+<example id="fs-id1172100925296">
+<para id="fs-id1172100912228"><title>Calculating Polarization by Reflection</title>
+(a) At what angle will light traveling in air be completely polarized horizontally when reflected from water? (b) From glass?</para>
+<para id="fs-id1172100490937"><title>Strategy</title>
+All we need to solve these problems are the indices of refraction. Air has <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mo>,</m:mo></m:mrow></m:math> water has <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.333</m:mn><m:mo>,</m:mo></m:mrow></m:math> and crown glass has <m:math><m:mrow><m:msubsup><m:mi>n</m:mi><m:mn>2</m:mn><m:mtext>′</m:mtext></m:msubsup><m:mo>=</m:mo><m:mn>1.520</m:mn><m:mo>.</m:mo></m:mrow></m:math> The equation <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math> can be directly applied to find <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math> in each case.</para>
+<para id="fs-id1172101007884"><title>Solution</title></para>
+<list id="fs-id1172100958116" list-type="enumerated" number-style="lower-alpha">
+<item>Putting the known quantities into the equation
+<equation id="fs-id1172098441154" class="unnumbered"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+gives
+<equation id="fs-id1172100594390" class="unnumbered"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1.333</m:mn></m:mrow><m:mrow><m:mn>1.00</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.333</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+Solving for the angle <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math> yields
+<equation id="fs-id1172100639419" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mn>1.333</m:mn><m:mo>=</m:mo><m:mn>53.1</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Similarly, for crown glass and air,
+<equation id="fs-id1172098265891" class="unnumbered"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msubsup><m:mi>θ</m:mi><m:mtext>b</m:mtext><m:mtext>′</m:mtext></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>n</m:mi><m:mn>2</m:mn><m:mtext>′</m:mtext></m:msubsup></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1.520</m:mn></m:mrow><m:mrow><m:mn>1.00</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.52</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+Thus, 
+<equation id="fs-id1172098390363" class="unnumbered"><label/><m:math><m:mrow><m:msubsup><m:mi>θ</m:mi><m:mtext>b</m:mtext><m:mtext>′</m:mtext></m:msubsup><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mn>1.52</m:mn><m:mo>=</m:mo><m:mn>56.7</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1172100945299"><title>Significance</title>
+Light reflected at these angles could be completely blocked by a good polarizing filter held with its axis vertical. Brewster’s angle for water and air are similar to those for glass and air, so that sunglasses are equally effective for light reflected from either water or glass under similar circumstances. Light that is not reflected is refracted into these media. Therefore, at an incident angle equal to Brewster’s angle, the refracted light is slightly polarized vertically. It is not completely polarized vertically, because only a small fraction of the incident light is reflected, so a significant amount of horizontally polarized light is refracted.</para>
+</example>
+<note id="fs-id1172098322409" class="check-understanding">
+<exercise id="fs-id1172098391712">
+<problem id="fs-id1172100800490">
+<para id="fs-id1172098456401"><emphasis effect="bold">Check Your Understanding</emphasis> What happens at Brewster’s angle if the original incident light is already <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> vertically polarized?</para>
+</problem>
+<solution id="fs-id1172098266479">
+<para id="fs-id1172100854452">There will be only refraction but no reflection.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1172100810889">
+<title>Atomic Explanation of Polarizing Filters</title>
+<para id="fs-id1172100536282">Polarizing filters have a polarization axis that acts as a slit. This slit passes EM waves (often visible light) that have an electric field parallel to the axis. This is accomplished with long molecules aligned perpendicular to the axis, as shown in <link target-id="CNX_UPhysics_34_07_LongMol"/>.</para>
+<figure id="CNX_UPhysics_34_07_LongMol">
+<media id="fs-id1172100636252" alt="The figure shows an illustration of a  stack of long identical horizontal molecules. A vertical axis is drawn over the molecules.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_LongMol.jpg"/>
+</media>
+<caption>Long molecules are aligned perpendicular to the axis of a polarizing filter. In an EM wave, the component of the electric field perpendicular to these molecules passes through the filter, whereas the component parallel to the molecules is absorbed.</caption>
+</figure>
+<para id="fs-id1172100611110"><link target-id="CNX_UPhysics_34_07_ElectrMol"/> illustrates how the component of the electric field parallel to the long molecules is absorbed. An EM wave is composed of oscillating electric and magnetic fields. The electric field is strong compared with the magnetic field and is more effective in exerting force on charges in the molecules. The most affected charged particles are the electrons, since electron masses are small. If an electron is forced to oscillate, it can absorb energy from the EM wave. This reduces the field in the wave and, hence, reduces its intensity. In long molecules, electrons can more easily oscillate parallel to the molecule than in the perpendicular direction. The electrons are bound to the molecule and are more restricted in their movement perpendicular to the molecule. Thus, the electrons can absorb EM waves that have a component of their electric field parallel to the molecule. The electrons are much less responsive to electric fields perpendicular to the molecule and allow these fields to pass. Thus, the axis of the polarizing filter is perpendicular to the length of the molecule.</para>
+<figure id="CNX_UPhysics_34_07_ElectrMol">
+<media id="fs-id1172100626105" alt="Figure a shows a drawing of a long molecule. An electromagnetic wave goes through the molecule. The wave propagation direction is perpendicular to the molecular axis  and the oscillations of the wave are  parallel to the molecular axis. Electrons oscillate parallel to the length of the molecule. After passing the long molecule, the amplitude of the oscillations of the wave is significantly reduced. Figure b shows a similar drawing, except that the wave oscillates perpendicular to the axis of the long molecule. The electrons oscillate weakly perpendicular to the length of the molecule. After passing the long molecule, the magnitude of the oscillation of the EM wave is unchanged.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_ElectrMol.jpg"/>
+</media>
+<caption>Diagram of an electron in a long molecule oscillating parallel to the molecule. The oscillation of the electron absorbs energy and reduces the intensity of the component of the EM wave that is parallel to the molecule.</caption>
+</figure>
+</section>
+<section id="fs-id1172100526505">
+<title>Polarization by Scattering</title>
+<para id="fs-id1172100510937">If you hold your polarizing sunglasses in front of you and rotate them while looking at blue sky, you will see the sky get bright and dim. This is a clear indication that light scattered by air is partially polarized. <link target-id="CNX_UPhysics_34_07_Scattering"/> helps illustrate how this happens. Since light is a transverse EM wave, it vibrates the electrons of air molecules perpendicular to the direction that it is traveling. The electrons then radiate like small antennae. Since they are oscillating perpendicular to the direction of the light ray, they produce EM radiation that is polarized perpendicular to the direction of the ray. When viewing the light along a line perpendicular to the original ray, as in the figure, there can be no polarization in the scattered light parallel to the original ray, because that would require the original ray to be a longitudinal wave. Along other directions, a component of the other polarization can be projected along the line of sight, and the scattered light is only partially polarized. Furthermore, multiple scattering can bring light to your eyes from other directions and can contain different polarizations.</para>
+<figure id="CNX_UPhysics_34_07_Scattering">
+<media id="fs-id1172101028759" alt="The figure illustrates the scattering of unpolarized light by a molecule. As usual, the rays are represented by straight blue arrows and the electric field directions by double headed red arrows. The unpolarized incident light has electric field vectors oscillating in all directions in the plane perpendicular to the direction of the propagation of the light rays. The molecule scatters the light in all directions. Light that is scattered in the same direction as the incident light remains unpolarized. Light scattered in the direction perpendicular to the direction as the incident light is polarized perpendicular to the plane defined by the incident and the scattered rays. Light that is scattered in an intermediate direction is partially polarized. The electric field perpendicular to the plane has a larger amplitude than the field parallel to the incident ray.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_Scattering.jpg"/>
+</media>
+<caption>Polarization by scattering. Unpolarized light scattering from air molecules shakes their electrons perpendicular to the direction of the original ray. The scattered light therefore has a polarization perpendicular to the original direction and none parallel to the original direction.</caption>
+</figure>
+<para id="fs-id1172100939578">Photographs of the sky can be darkened by polarizing filters, a trick used by many photographers to make clouds brighter by contrast. Scattering from other particles, such as smoke or dust, can also polarize light. Detecting polarization in scattered EM waves can be a useful analytical tool in determining the scattering source.</para>
+<para id="fs-id1172098389173">A range of optical effects are used in sunglasses. Besides being polarizing, sunglasses may have colored pigments embedded in them, whereas others use either a nonreflective or reflective coating. A recent development is photochromic lenses, which darken in the sunlight and become clear indoors. Photochromic lenses are embedded with organic microcrystalline molecules that change their properties when exposed to UV in sunlight, but become clear in artificial lighting with no UV.</para>
+</section>
+<section id="fs-id1172098701855">
+<title>Liquid Crystals and Other Polarization Effects in Materials</title>
+<para id="fs-id1172101032824">Although you are undoubtedly aware of <term class="no-emphasis">liquid crystal displays (LCDs)</term> found in watches, calculators, computer screens, cellphones, flat screen televisions, and many other places, you may not be aware that they are based on polarization. Liquid crystals are so named because their molecules can be aligned even though they are in a liquid. Liquid crystals have the property that they can rotate the polarization of light passing through them by <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. Furthermore, this property can be turned off by the application of a voltage, as illustrated in <link target-id="CNX_UPhysics_34_07_Laptop"/>. It is possible to manipulate this characteristic quickly and in small, well-defined regions to create the contrast patterns we see in so many LCD devices.</para>
+<para id="fs-id1172098524793">In flat screen LCD televisions, a large light is generated at the back of the TV. The light travels to the front screen through millions of tiny units called pixels (picture elements). One of these is shown in <link target-id="CNX_UPhysics_34_07_Laptop"/>(a) and (b). Each unit has three cells, with red, blue, or green filters, each controlled independently. When the voltage across a liquid crystal is switched off, the liquid crystal passes the light through the particular filter. We can vary the picture contrast by varying the strength of the voltage applied to the liquid crystal.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_34_07_Laptop"><media id="fs-id1172100969204" alt="Figure a is an illustration of a ray of initially unpolarized light going through a vertical polarizer, then an element labeled L C D no voltage ninety degree rotation, and finally a horizontal polarizer. The initially unpolarized light becomes vertically polarized after the vertical polarizer, then is rotated ninety degrees by the L C D element so that it is horizontally polarized, then it passes through the horizontal polarizer. Figure b is the same except that the L C D element is labeled voltage on, no rotation. The light coming out of the L C D element is thus vertically polarized and does not pass through the horizontal polarizer, making the region at this location dark. Finally, in figure c, a photograph is shown of a laptop computer that is open so that you can see its screen, which is on and has some icons and windows visible.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_Laptop.jpg"/>
+</media>
+
+<caption>(a) Polarized light is rotated <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> by a liquid crystal and then passed by a polarizing filter that has its axis perpendicular to the direction of the original polarization. (b) When a voltage is applied to the liquid crystal, the polarized light is not rotated and is blocked by the filter, making the region dark in comparison with its surroundings. (c) LCDs can be made color specific, small, and fast enough to use in laptop computers and TVs. (credit c: modification of work by Jane Whitney)</caption></figure><para id="fs-id1172098315410">Many crystals and solutions rotate the plane of polarization of light passing through them. Such substances are said to be <term>optically active</term>. Examples include sugar water, insulin, and collagen (<link target-id="CNX_UPhysics_34_07_OptAvail"/>). In addition to depending on the type of substance, the amount and direction of rotation depend on several other factors. Among these is the concentration of the substance, the distance the light travels through it, and the wavelength of light. Optical activity is due to the asymmetrical shape of molecules in the substance, such as being helical. Measurements of the rotation of polarized light passing through substances can thus be used to measure concentrations, a standard technique for sugars. It can also give information on the shapes of molecules, such as proteins, and factors that affect their shapes, such as temperature and pH.</para>
+<figure id="CNX_UPhysics_34_07_OptAvail">
+<media id="fs-id1172098454815" alt="The figure shows an initially unpolarized ray of light that passes through three optical elements. The first is a vertical polarizing filter, so the electric field is vertical after the ray passes through it. Next comes a block that is labeled optically active substance. The electric field comes out of the block rotated by an angle theta with respect to the vertical. Finally, the ray passes through another vertical polarizer that is labeled analyzer. The final electric field is vertically polarized again.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_OptAvail.jpg"/>
+</media>
+<caption>Optical activity is the ability of some substances to rotate the plane of polarization of light passing through them. The rotation is detected with a polarizing filter or analyzer.</caption>
+</figure>
+<para id="fs-id1172100624043">Glass and plastic become optically active when stressed: the greater the stress, the greater the effect. <term class="no-emphasis">Optical stress analysis</term> on complicated shapes can be performed by making plastic models of them and observing them through crossed filters, as seen in <link target-id="CNX_UPhysics_34_07_OptStress"/>. It is apparent that the effect depends on wavelength as well as stress. The wavelength dependence is sometimes also used for artistic purposes.</para>
+<figure id="CNX_UPhysics_34_07_OptStress">
+<media id="fs-id1172100575863" alt="The figure shows a photograph of a plastic lens that is being squeezed by a clamp. Rainbow patterns appear, showing the deformation of the lens. The colored regions are outlined by dark curves connecting the centers of the edges of the lens.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_OptStress.jpg"/>
+</media>
+<caption>Optical stress analysis of a plastic lens placed between crossed polarizers. (credit: “Infopro”/Wikimedia Commons)</caption>
+</figure>
+<para id="fs-id1172098486449">Another interesting phenomenon associated with polarized light is the ability of some crystals to split an unpolarized beam of light into two polarized beams. This occurs because the crystal has one value for the index of refraction of polarized light but a different value for the index of refraction of light polarized in the perpendicular direction, so that each component has its own angle of refraction. Such crystals are said to be <term>birefringent</term>, and, when aligned properly, two perpendicularly polarized beams will emerge from the crystal (<link target-id="CNX_UPhysics_34_07_Birefringe"/>). Birefringent crystals can be used to produce polarized beams from unpolarized light. Some birefringent materials preferentially absorb one of the polarizations. These materials are called dichroic and can produce polarization by this preferential absorption. This is fundamentally how polarizing filters and other polarizers work.</para>
+<figure id="CNX_UPhysics_34_07_Birefringe">
+<media id="fs-id1172098262182" alt="The figure shows a horizontal, unpolarized ray of light incident on a block labeled birefringent crystal. The ray is perpendicular to the face of the crystal where it enters it. The incident ray splits into two rays when it enters the crystal. One part of the ray continues straight on. This ray is horizontally polarized. The other part of the ray propagates at an. This ray is vertically polarized. The second ray refracts upon leaving the crystal such that the two rays are parallel outside the crystal. The rays are labeled as two perpendicularly polarized beams.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_Birefringe.jpg"/>
+</media>
+<caption>Birefringent materials, such as the common mineral calcite, split unpolarized beams of light into two with two different values of index of refraction.</caption>
+</figure>
+</section>
+<section id="fs-id1172100558574" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172100999574" list-type="bulleted" bullet-style="bullet">
+<item>Polarization is the attribute that wave oscillations have a definite direction relative to the direction of propagation of the wave. The direction of polarization is defined to be the direction parallel to the electric field of the EM wave.</item>
+<item>Unpolarized light is composed of many rays having random polarization directions.</item>
+<item>Unpolarized light can be polarized by passing it through a polarizing filter or other polarizing material. The process of polarizing light decreases its intensity by a factor of 2.</item>
+<item>The intensity, <emphasis effect="italics">I</emphasis>, of polarized light after passing through a polarizing filter is <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>, where <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the incident intensity and <m:math><m:mi>θ</m:mi></m:math> is the angle between the direction of polarization and the axis of the filter.</item>
+<item>Polarization is also produced by reflection.</item>
+<item>Brewster’s law states that reflected light is completely polarized at the angle of reflection <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math>, known as Brewster’s angle.</item>
+<item>Polarization can also be produced by scattering.</item>
+<item>Several types of optically active substances rotate the direction of polarization of light passing through them.</item>
+</list>
+</section>
+<section id="fs-id1172098579240" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1172098409992" class="unnumbered unstyled" summary="Seven key equations are given. The first equation is that speed of light c equals 2.99792458 times 10 to the eight meters per second, or about 3.00 times 10 to the eight meters per second. The second equation is the index of refraction n equals c over v. The third equation is The law of reflection which is theta r equals theta i. The fourth equation is The law of refraction, called Snell’s law, which is n one times sine of theta one equals n two times sine of theta two. The fifth equation is the critical angle which is theta c which is equal to the inverse sine of the ratio of n 2 to n 1 for n 1 larger than n 2. The sixth equation is Malus’s law which is that I equals I naught times the square of cosine of theta. The seventh equation is Brewster’s law which is that the tangent of theta b equals n 2 divided by n 1.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Speed of light</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>2.99792458</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>≈</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Index of refraction</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>v</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Law of reflection</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>r</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Law of refraction (Snell’s law)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Critical angle</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mtext>for</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Malus’s law</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Brewster’s law</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1172098312896" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172100563480">
+<problem id="fs-id1172100563482">
+<para id="fs-id1172100563484">Can a sound wave in air be polarized? Explain.</para>
+</problem>
+<solution id="fs-id1172098566216">
+<para id="fs-id1172098566218">No. Sound waves are not transverse waves.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098444519">
+<problem id="fs-id1172098444521">
+<para id="fs-id1172100854720">No light passes through two perfect polarizing filters with perpendicular axes. However, if a third polarizing filter is placed between the original two, some light can pass. Why is this? Under what circumstances does most of the light pass?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100937612">
+<problem id="fs-id1172101004648">
+<para id="fs-id1172101004650">Explain what happens to the energy carried by light that it is dimmed by passing it through two crossed polarizing filters.</para>
+</problem>
+<solution id="fs-id1172098378846">
+<para id="fs-id1172098378848">Energy is absorbed into the filters.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098419614">
+<problem id="fs-id1172098419616">
+<para id="fs-id1172100836743">When particles scattering light are much smaller than its wavelength, the amount of scattering is proportional to <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac></m:mrow></m:math>. Does this mean there is more scattering for small <m:math><m:mi>λ</m:mi></m:math> than large <m:math><m:mi>λ</m:mi></m:math>? How does this relate to the fact that the sky is blue?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098515484">
+<problem id="fs-id1172098515486">
+<para id="fs-id1172098515488">Using the information given in the preceding question, explain why sunsets are red.</para>
+</problem>
+<solution id="fs-id1172101031408">
+<para id="fs-id1172101031410">Sunsets are viewed with light traveling straight from the Sun toward us. When blue light is scattered out of this path, the remaining red light dominates the overall appearance of the setting Sun.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100939538">
+<problem id="fs-id1172101031412">
+<para id="fs-id1172098375700">When light is reflected at Brewster’s angle from a smooth surface, it is <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> polarized parallel to the surface. Part of the light will be refracted into the surface. Describe how you would do an experiment to determine the polarization of the refracted light. What direction would you expect the polarization to have and would you expect it to be <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101006692">
+<problem id="fs-id1172101006694">
+<para id="fs-id1172101006696">If you lie on a beach looking at the water with your head tipped slightly sideways, your polarized sunglasses do not work very well. Why not?</para>
+</problem>
+<solution id="fs-id1172100597205">
+<para id="fs-id1172100597207">The axis of polarization for the sunglasses has been rotated <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172100900223" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172098509539">
+<problem id="fs-id1172098509541">
+<para id="fs-id1172098509543">What angle is needed between the direction of polarized light and the axis of a polarizing filter to cut its intensity in half?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100652283">
+<problem id="fs-id1172100652285">
+<para id="fs-id1172098449543">The angle between the axes of two polarizing filters is <m:math><m:mrow><m:mn>45.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. By how much does the second filter reduce the intensity of the light coming through the first?</para>
+</problem>
+<solution id="fs-id1172101004740">
+<para id="fs-id1172101004742">0.500</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100972697">
+<problem id="fs-id1172100972699">
+<para id="fs-id1172100972701">Two polarizing sheets <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> are placed together with their transmission axes oriented at an angle <m:math><m:mi>θ</m:mi></m:math> to each other. What is <m:math><m:mi>θ</m:mi></m:math> when only <m:math><m:mrow><m:mn>25</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of the maximum transmitted light intensity passes through them?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100831638">
+<problem id="fs-id1172100831640">
+<para id="fs-id1172100831643">Suppose that in the preceding problem the light incident on <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> is unpolarized. At the determined value of <m:math><m:mi>θ</m:mi></m:math>, what fraction of the incident light passes through the combination?</para>
+</problem>
+<solution id="fs-id1172098524565">
+<para id="fs-id1172098524568">0.125 or 1/8</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100883879">
+<problem id="fs-id1172100883882">
+<para id="fs-id1172100883884">If you have completely polarized light of intensity <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, what will its intensity be after passing through a polarizing filter with its axis at an <m:math><m:mrow><m:mn>89.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> angle to the light’s polarization direction?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100965586">
+<problem id="fs-id1172100965588">
+<para id="fs-id1172100965590">What angle would the axis of a polarizing filter need to make with the direction of polarized light of intensity <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kW/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> to reduce the intensity to <m:math><m:mrow><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172100986358">
+<para id="fs-id1172100986360"><m:math><m:mrow><m:mn>84.3</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100878132">
+<problem id="fs-id1172098271698">
+<para id="fs-id1172098271700">At the end of <link target-id="fs-id1172100714884"/>, it was stated that the intensity of polarized light is reduced to <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its original value by passing through a polarizing filter with its axis at an angle of <m:math><m:mrow><m:mn>18.4</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to the direction of polarization. Verify this statement.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098363428">
+<problem id="fs-id1172098363431">
+<para id="fs-id1172098258739">Show that if you have three polarizing filters, with the second at an angle of <m:math><m:mrow><m:mn>45.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to the first and the third at an angle of <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to the first, the intensity of light passed by the first will be reduced to <m:math><m:mrow><m:mn>25.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its value. (This is in contrast to having only the first and third, which reduces the intensity to zero, so that placing the second between them increases the intensity of the transmitted light.)</para>
+</problem>
+<solution id="fs-id1172100560156">
+<para id="fs-id1172100560158"><m:math><m:mrow><m:mn>0.250</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100896541">
+<problem id="fs-id1172100909609">
+<para id="fs-id1172100909611">Three polarizing sheets are placed together such that the transmission axis of the second sheet is oriented at <m:math><m:mrow><m:mn>25.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to the axis of the first, whereas the transmission axis of the third sheet is oriented at <m:math><m:mrow><m:mn>40.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> (in the same sense) to the axis of the first. What fraction of the intensity of an incident unpolarized beam is transmitted by the combination?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098382077">
+<problem id="fs-id1172098382079">
+<para id="fs-id1172098382081">In order to rotate the polarization axis of a beam of linearly polarized light by <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, a student places sheets <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> with their transmission axes at <m:math><m:mrow><m:mn>45.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, respectively, to the beam’s axis of polarization. (a) What fraction of the incident light passes through <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> and (b) through the combination? (c) Repeat your calculations for part (b) for transmission-axis angles of <m:math><m:mrow><m:mn>30.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, respectively.</para>
+</problem>
+<solution id="fs-id1172098265582">
+<para id="fs-id1172098265584">a. 0.500; b. 0.250; c. 0.187</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098265590">
+<problem id="fs-id1172101033453">
+<para id="fs-id1172101033455">It is found that when light traveling in water falls on a plastic block, Brewster’s angle is <m:math><m:mrow><m:mn>50.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. What is the refractive index of the plastic?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098380655">
+<problem id="fs-id1172098380657">
+<para id="fs-id1172098593133">At what angle will light reflected from diamond be completely polarized?</para>
+</problem>
+<solution id="fs-id1172098593137">
+<para id="fs-id1172098593139"><m:math><m:mrow><m:mn>67.54</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100935643">
+<problem id="fs-id1172100935645">
+<para id="fs-id1172100935647">What is Brewster’s angle for light traveling in water that is reflected from crown glass?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100985340">
+<problem id="fs-id1172100985342">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172100969327">A scuba diver sees light reflected from the water’s surface. At what angle relative to the water’s surface will this light be completely polarized?</para></problem>
+<solution id="fs-id1172100969334">
+<para id="fs-id1172100969336"><m:math><m:mrow><m:mn>53.1</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172100987373" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1172100987379">
+<problem id="fs-id1172098434220">
+<para id="fs-id1172098434222">From his measurements, Roemer estimated that it took 22 min for light to travel a distance equal to the diameter of Earth’s orbit around the Sun. (a) Use this estimate along with the known diameter of Earth’s orbit to obtain a rough value of the speed of light. (b) Light actually takes 16.5 min to travel this distance. Use this time to calculate the speed of light.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100950005">
+<problem id="fs-id1172100950007">
+<para id="fs-id1172100950009">Cornu performed Fizeau’s measurement of the speed of light using a wheel of diameter 4.00 cm that contained 180 teeth. The distance from the wheel to the mirror was 22.9 km. Assuming he measured the speed of light accurately, what was the angular velocity of the wheel?</para>
+</problem>
+<solution id="fs-id1172100987541">
+<para id="fs-id1172100987543">114 radian/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100950011">
+<problem id="fs-id1172100905366">
+<para id="fs-id1172100905368">Suppose you have an unknown clear substance immersed in water, and you wish to identify it by finding its index of refraction. You arrange to have a beam of light enter it at an angle of <m:math><m:mrow><m:mn>45.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, and you observe the angle of refraction to be <m:math><m:mrow><m:mn>40.3</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. What is the index of refraction of the substance and its likely identity?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098391417">
+<problem id="fs-id1172098391419">
+<para id="fs-id1172098391421">Shown below is a ray of light going from air through crown glass into water, such as going into a fish tank. Calculate the amount the ray is displaced by the glass <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> given that the incident angle is <m:math><m:mrow><m:mn>40.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> and the glass is 1.00 cm thick.</para>
+<media id="fs-id1172100534700" alt="The figure illustrates refraction occurring when light travels from medium n 1 to n 3 through an intermediate medium n 2. The incident ray makes an angle theta 1 with a perpendicular drawn at the point of incidence at the interface between n 1 and n 2. The light ray entering n 2 bends towards the perpendicular line making an angle theta 2 with it on the n 2 side. The ray arrives at the interface between n 2 and n 3 at an angle of theta 2 to a perpendicular drawn at the point of incidence at this interface, and the transmitted ray bends away from the perpendicular, making an angle of theta three to the perpendicular on the n 3 side. A straight line extrapolation of the original incident ray is shown as a dotted line. This line is parallel to the refracted ray in the third medium, n 3, and is shifted a distance delta x from the refracted ray.  The extrapolated ray is at the same angle theta three to the perpendicular in medium n 3 as the refracted ray.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_03_RayofLight_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100560909">
+<para id="fs-id1172100560911">3.72 mm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100560916">
+<problem id="fs-id1172100560918">
+<para id="fs-id1172100560920">Considering the previous problem, show that <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> is the same as it would be if the second medium were not present.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100953673">
+<problem id="fs-id1172100953675">
+<para id="fs-id1172100953677">At what angle is light inside crown glass completely polarized when reflected from water, as in a fish tank?</para>
+</problem>
+<solution id="fs-id1172100953683">
+<para id="fs-id1172100953685"><m:math><m:mrow><m:mn>41.2</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100530383">
+<problem id="fs-id1172100530386">
+<para id="fs-id1172100530388">Light reflected at <m:math><m:mrow><m:mn>55.6</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> from a window is completely polarized. What is the window’s index of refraction and the likely substance of which it is made?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100935188">
+<problem id="fs-id1172100935190">
+<para id="fs-id1172100935193">(a) Light reflected at <m:math><m:mrow><m:mn>62.5</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> from a gemstone in a ring is completely polarized. Can the gem be a diamond? (b) At what angle would the light be completely polarized if the gem was in water?</para>
+</problem>
+<solution id="fs-id1172100909673">
+<para id="fs-id1172100909676">a. 1.92. The gem is not a diamond (it is zircon). b. <m:math><m:mrow><m:mn>55.2</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098419019">
+<problem id="fs-id1172098419021">
+<para id="fs-id1172098419023">If <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math> is Brewster’s angle for light reflected from the top of an interface between two substances, and <m:math><m:mrow><m:msubsup><m:mi>θ</m:mi><m:mtext>b</m:mtext><m:mtext>′</m:mtext></m:msubsup></m:mrow></m:math> is Brewster’s angle for light reflected from below, prove that <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>+</m:mo><m:msubsup><m:mi>θ</m:mi><m:mtext>b</m:mtext><m:mtext>′</m:mtext></m:msubsup><m:mo>=</m:mo><m:mn>90.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100999154">
+<problem id="fs-id1172100999157">
+<para id="fs-id1172100999159"><emphasis effect="bold">Unreasonable results</emphasis> Suppose light travels from water to another substance, with an angle of incidence of <m:math><m:mrow><m:mn>10.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> and an angle of refraction of <m:math><m:mrow><m:mn>14.9</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. (a) What is the index of refraction of the other substance? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?</para>
+</problem>
+<solution id="fs-id1172098406224">
+<para id="fs-id1172100668145">a. 0.898; b. We cannot have <m:math><m:mrow><m:mi>n</m:mi><m:mo>&lt;</m:mo><m:mn>1.00</m:mn></m:mrow></m:math>, since this would imply a speed greater than <emphasis effect="italics">c</emphasis>. c. The refracted angle is too big relative to the angle of incidence.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100922176">
+<problem id="fs-id1172100922178">
+<para id="fs-id1172100922180"><emphasis effect="bold">Unreasonable results</emphasis> Light traveling from water to a gemstone strikes the surface at an angle of <m:math><m:mrow><m:mn>80.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> and has an angle of refraction of <m:math><m:mrow><m:mn>15.2</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. (a) What is the speed of light in the gemstone? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098429876">
+<problem id="fs-id1172098429878">
+<para id="fs-id1172098429880">If a polarizing filter reduces the intensity of polarized light to <m:math><m:mrow><m:mn>50.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its original value, by how much are the electric and magnetic fields reduced?</para>
+</problem>
+<solution id="fs-id1172098509427">
+<para id="fs-id1172098509429"><m:math><m:mrow><m:mn>0.707</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100676846">
+<problem id="fs-id1172100676848">
+<para id="fs-id1172100676850">Suppose you put on two pairs of polarizing sunglasses with their axes at an angle of <m:math><m:mrow><m:mn>15.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. How much longer will it take the light to deposit a given amount of energy in your eye compared with a single pair of sunglasses? Assume the lenses are clear except for their polarizing characteristics.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100639757">
+<problem id="fs-id1172100676914">
+<para id="fs-id1172100676916">(a) On a day when the intensity of sunlight is <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kW/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, a circular lens 0.200 m in diameter focuses light onto water in a black beaker. Two polarizing sheets of plastic are placed in front of the lens with their axes at an angle of <m:math><m:mrow><m:mn>20.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. Assuming the sunlight is unpolarized and the polarizers are <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> efficient, what is the initial rate of heating of the water in <m:math><m:mrow><m:mtext>°</m:mtext><m:mtext>C/s</m:mtext></m:mrow></m:math>, assuming it is <m:math><m:mrow><m:mn>80.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> absorbed? The aluminum beaker has a mass of 30.0 grams and contains 250 grams of water. (b) Do the polarizing filters get hot? Explain.</para>
+</problem>
+<solution id="fs-id1172098500115">
+<para id="fs-id1172098500117">a. <m:math><m:mrow><m:mn>1.69</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>°</m:mtext><m:mtext>C/s</m:mtext></m:mrow></m:math>; b. yes</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172098319875" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1172100967724">
+<problem id="fs-id1172100967726">
+<para id="fs-id1172100967728">Light shows staged with lasers use moving mirrors to swing beams and create colorful effects. Show that a light ray reflected from a mirror changes direction by <m:math><m:mrow><m:mn>2</m:mn><m:mi>θ</m:mi></m:mrow></m:math> when the mirror is rotated by an angle <m:math><m:mi>θ</m:mi></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098560089">
+<problem id="fs-id1172098560092">
+<para id="fs-id1172098560094">Consider sunlight entering Earth’s atmosphere at sunrise and sunset—that is, at a <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> incident angle. Taking the boundary between nearly empty space and the atmosphere to be sudden, calculate the angle of refraction for sunlight. This lengthens the time the Sun appears to be above the horizon, both at sunrise and sunset. Now construct a problem in which you determine the angle of refraction for different models of the atmosphere, such as various layers of varying density. Your instructor may wish to guide you on the level of complexity to consider and on how the index of refraction varies with air density.</para>
+</problem>
+<solution id="fs-id1172098431972">
+<para id="fs-id1172098431974">First part: <m:math><m:mrow><m:mn>88.6</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. The remainder depends on the complexity of the solution the reader constructs.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100523258">
+<problem id="fs-id1172100523260">
+<para id="fs-id1172098525185">A light ray entering an optical fiber surrounded by air is first refracted and then reflected as shown below. Show that if the fiber is made from crown glass, any incident ray will be totally internally reflected.</para>
+<media id="fs-id1172098525190" alt="The figure shows light traveling from n 1 and incident onto the left face of a rectangular block of material n 2. The ray is incident at an angle of incidence theta 1, measured relative to the normal to the surface where the ray enters. The angle of refraction is theta 2, again, relative to the normal to the surface. The refracted ray falls onto the upper face of the block and gets totally internally reflected with theta 3 as the angle of incidence.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_04_FiberEnd_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172098526741">
+<problem id="fs-id1172098526743">
+<para id="fs-id1172098526745">A light ray falls on the left face of a prism (see below) at the angle of incidence <m:math><m:mi>θ</m:mi></m:math> for which the emerging beam has an angle of refraction <m:math><m:mi>θ</m:mi></m:math> at the right face. Show that the index of refraction <emphasis effect="italics">n</emphasis> of the glass prism is given by</para>
+<para id="fs-id1172098373758"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ϕ</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+<para id="fs-id1172100814342">where <m:math><m:mi>ϕ</m:mi></m:math> is the vertex angle of the prism and <m:math><m:mi>α</m:mi></m:math> is the angle through which the beam has been deviated. If <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>37.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> and the base angles of the prism are each <m:math><m:mrow><m:mn>50.0</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math> what is <emphasis effect="italics">n</emphasis>?</para>
+<media id="fs-id1172098388409" alt="A light ray falls on the left face of a triangular prism whose upper vertex has an angle of phi and whose index of refraction is n. The angle of incidence of the ray relative to the normal to the left face is theta. The ray refracts in the prism. The refracted ray is horizontal, parallel to the base of the prism. The refracted ray reaches the right face of the prism and refracts as it emerges out of the prism. The emerging ray makes an angle of theta with the normal to the right face.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_05_PrismRefr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101009095">
+<para id="fs-id1172101009097">proof; 1.33</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098501758">
+<problem id="fs-id1172098501761">
+<para id="fs-id1172098501763">If the apex angle <m:math><m:mi>ϕ</m:mi></m:math> in the previous problem is <m:math><m:mrow><m:mn>20.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1.50</m:mn></m:mrow></m:math>, what is the value of <m:math><m:mi>α</m:mi></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098410996">
+<problem id="fs-id1172098410998">
+<para id="fs-id1172098411000">The light incident on polarizing sheet <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> is linearly polarized at an angle of <m:math><m:mrow><m:mn>30.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with respect to the transmission axis of <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math>. Sheet <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> is placed so that its axis is parallel to the polarization axis of the incident light, that is, also at <m:math><m:mrow><m:mn>30.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with respect to <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math>. (a) What fraction of the incident light passes through <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math>? (b) What fraction of the incident light is passed by the combination? (c) By rotating <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math>, a maximum in transmitted intensity is obtained. What is the ratio of this maximum intensity to the intensity of transmitted light when <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> is at <m:math><m:mrow><m:mn>30.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with respect to <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172098379450">
+<para id="fs-id1172098379453">a. 0.750; b. 0.563; c. 1.33</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098379458">
+<problem id="fs-id1172098379460">
+<para id="fs-id1172098379462">Prove that if <emphasis effect="italics">I</emphasis> is the intensity of light transmitted by two polarizing filters with axes at an angle <m:math><m:mi>θ</m:mi></m:math> and <m:math><m:mrow><m:mi>I</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> is the intensity when the axes are at an angle <m:math><m:mrow><m:mn>90.0</m:mn><m:mtext>°</m:mtext><m:mo>−</m:mo><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>I</m:mi><m:mo>+</m:mo><m:msup><m:mi>I</m:mi><m:mtext>′</m:mtext></m:msup><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> the original intensity. (<emphasis effect="italics">Hint:</emphasis> Use the trigonometric identities <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mn>90.0</m:mn><m:mtext>°</m:mtext><m:mo>−</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>+</m:mo><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172098451460">
+<term>birefringent</term>
+<meaning id="fs-id1172098451465">refers to crystals that split an unpolarized beam of light into two beams</meaning>
+</definition>
+<definition id="fs-id1172098320034">
+<term>Brewster’s angle</term>
+<meaning id="fs-id1172098320039">angle of incidence at which the reflected light is completely polarized</meaning>
+</definition>
+<definition id="fs-id1172098320044">
+<term>Brewster’s law</term>
+<meaning id="fs-id1172098320049"><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>, where <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the medium in which the incident and reflected light travel and <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is the index of refraction of the medium that forms the interface that reflects the light</meaning>
+</definition>
+<definition id="fs-id1172098406649">
+<term>direction of polarization</term>
+<meaning id="fs-id1172098406655">direction parallel to the electric field for EM waves</meaning>
+</definition>
+<definition id="fs-id1172098406659">
+<term>horizontally polarized</term>
+<meaning id="fs-id1172098406664">oscillations are in a horizontal plane</meaning>
+</definition>
+<definition id="fs-id1172098269312">
+<term>Malus’s law</term>
+<meaning id="fs-id1172098269317">where <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the intensity of the polarized wave before passing through the filter</meaning>
+</definition>
+<definition id="fs-id1172100923666">
+<term>optically active</term>
+<meaning id="fs-id1172100923672">substances that rotate the plane of polarization of light passing through them</meaning>
+</definition>
+<definition id="fs-id1172100923676">
+<term>polarization</term>
+<meaning id="fs-id1172098528169">attribute that wave oscillations have a definite direction relative to the direction of propagation of the wave</meaning>
+</definition>
+<definition id="fs-id1172098528174">
+<term>polarized</term>
+<meaning id="fs-id1172098528180">refers to waves having the electric and magnetic field oscillations in a definite direction</meaning>
+</definition>
+<definition id="fs-id1172100925830">
+<term>unpolarized</term>
+<meaning id="fs-id1172100925835">refers to waves that are randomly polarized</meaning>
+</definition>
+<definition id="fs-id1172100925839">
+<term>vertically polarized</term>
+<meaning id="fs-id1172100897291">oscillations are in a vertical plane</meaning>
+</definition>
+</glossary>
+</document>

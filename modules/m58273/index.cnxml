@@ -1,0 +1,149 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Estimates and Fermi Calculations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58273</md:content-id>
+  <md:title>Estimates and Fermi Calculations</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Estimate the values of physical quantities.</item>
+</list></md:abstract>
+  <md:uuid>76d56392-65be-4090-8b96-10b3b4057815</md:uuid>
+</metadata>
+
+<content>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168329050736">On many occasions, physicists, other scientists, and engineers need to make <emphasis effect="italics">estimates</emphasis> for a particular quantity. Other terms sometimes used are <emphasis effect="italics">guesstimates</emphasis>, <emphasis effect="italics">order-of-magnitude approximations</emphasis>, <emphasis effect="italics">back-of-the-envelope calculations</emphasis>, or <emphasis effect="italics">Fermi calculations</emphasis>. (The physicist Enrico Fermi mentioned earlier was famous for his ability to estimate various kinds of data with surprising precision.) Will that piece of equipment fit in the back of the car or do we need to rent a truck? How long will this download take? About how large a current will there be in this circuit when it is turned on? How many houses could a proposed power plant actually power if it is built? Note that estimating does not mean guessing a number or a formula at random. Rather, <term>estimation</term> means using prior experience and sound physical reasoning to arrive at a rough idea of a quantity’s value. Because the process of determining a reliable approximation usually involves the identification of correct physical principles and a good guess about the relevant variables, estimating is very useful in developing physical intuition. Estimates also allow us to perform “sanity checks” on calculations or policy proposals by helping us rule out certain scenarios or unrealistic numbers. They allow us to challenge others (as well as ourselves) in our efforts to learn truths about the world.</para><para id="fs-id1168326752696">Many estimates are based on formulas in which the input quantities are known only to a limited precision. As you develop physics problem-solving skills (which are applicable to a wide variety of fields), you also will develop skills at estimating. You develop these skills by thinking more quantitatively and by being willing to take risks. As with any skill, experience helps. Familiarity with dimensions (see <link target-id="fs-id1168328269910" document="m58272"/>) and units (see <link target-id="fs-id1168326798535" document="m58270"/> and <link target-id="fs-id1168326843228" document="m58270"/>), and the scales of base quantities (see <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m58269"/>) also helps.</para>
+<para id="fs-id1168329183685">To make some progress in estimating, you need to have some definite ideas about how variables may be related. The following strategies may help you in practicing the art of estimation:</para>
+<list id="fs-id1168329489376" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="italics">Get big lengths from smaller lengths.</emphasis> When estimating lengths, remember that anything can be a ruler. Thus, imagine breaking a big thing into smaller things, estimate the length of one of the smaller things, and multiply to get the length of the big thing. For example, to estimate the height of a building, first count how many floors it has. Then, estimate how big a single floor is by imagining how many people would have to stand on each other’s shoulders to reach the ceiling. Last, estimate the height of a person. The product of these three estimates is your estimate of the height of the building. It helps to have memorized a few length scales relevant to the sorts of problems you find yourself solving. For example, knowing some of the length scales in <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m58269"/> might come in handy. Sometimes it also helps to do this in reverse—that is, to estimate the length of a small thing, imagine a bunch of them making up a bigger thing. For example, to estimate the thickness of a sheet of paper, estimate the thickness of a stack of paper and then divide by the number of pages in the stack. These same strategies of breaking big things into smaller things or aggregating smaller things into a bigger thing can sometimes be used to estimate other physical quantities, such as masses and times.</item>
+<item><emphasis effect="italics">Get areas and volumes from lengths.</emphasis> When dealing with an area or a volume of a complex object, introduce a simple model of the object such as a sphere or a box. Then, estimate the linear dimensions (such as the radius of the sphere or the length, width, and height of the box) first, and use your estimates to obtain the volume or area from standard geometric formulas. If you happen to have an estimate of an object’s area or volume, you can also do the reverse; that is, use standard geometric formulas to get an estimate of its linear dimensions.</item>
+<item><emphasis effect="italics">Get masses from volumes and densities.</emphasis> When estimating masses of objects, it can help first to estimate its volume and then to estimate its mass from a rough estimate of its average density (recall, density has dimension mass over length cubed, so mass is density times volume). For this, it helps to remember that the density of air is around 1 kg/m<sup>3</sup>, the density of water is 10<sup>3</sup> kg/m<sup>3</sup>, and the densest everyday solids max out at around 10<sup>4</sup> kg/m<sup>3</sup>. Asking yourself whether an object floats or sinks in either air or water gets you a ballpark estimate of its density. You can also do this the other way around; if you have an estimate of an object’s mass and its density, you can use them to get an estimate of its volume.</item>
+<item><emphasis effect="italics">If all else fails, bound it.</emphasis> For physical quantities for which you do not have a lot of intuition, sometimes the best you can do is think something like: Well, it must be bigger than this and smaller than that. For example, suppose you need to estimate the mass of a moose. Maybe you have a lot of experience with moose and know their average mass offhand. If so, great. But for most people, the best they can do is to think something like: It must be bigger than a person (of order 10<sup>2</sup> kg) and less than a car (of order 10<sup>3</sup> kg). If you need a single number for a subsequent calculation, you can take the geometric mean of the upper and lower bound—that is, you multiply them together and then take the square root. For the moose mass example, this would be <equation id="fs-id1168326851270" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>0.5</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>2.5</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>0.5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mo>≈</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation> The tighter the bounds, the better. Also, no rules are unbreakable when it comes to estimation. If you think the value of the quantity is likely to be closer to the upper bound than the lower bound, then you may want to bump up your estimate from the geometric mean by an order or two of magnitude.</item>
+<item><emphasis effect="italics">One “sig. fig.” is fine.</emphasis> There is no need to go beyond one significant figure when doing calculations to obtain an estimate. In most cases, the order of magnitude is good enough. The goal is just to get in the ballpark figure, so keep the arithmetic as simple as possible.</item>
+<item><emphasis effect="italics">Ask yourself: Does this make any sense?</emphasis> Last, check to see whether your answer is reasonable. How does it compare with the values of other quantities with the same dimensions that you already know or can look up easily? If you get some wacky answer (for example, if you estimate the mass of the Atlantic Ocean to be bigger than the mass of Earth, or some time span to be longer than the age of the universe), first check to see whether your units are correct. Then, check for arithmetic errors. Then, rethink the logic you used to arrive at your answer. If everything checks out, you may have just proved that some slick new idea is actually bogus.</item>
+</list>
+<example id="fs-id1168329192865">
+<para id="fs-id1168326794609">
+<title>Mass of Earth’s Oceans</title>
+Estimate the total mass of the oceans on Earth.</para>
+<para id="fs-id1168328984206">
+<title>Strategy</title>
+We know the density of water is about 10<sup>3</sup> kg/m<sup>3</sup>, so we start with the advice to “get masses from densities and volumes.” Thus, we need to estimate the volume of the planet’s oceans. Using the advice to “get areas and volumes from lengths,” we can estimate the volume of the oceans as surface area times average depth, or <emphasis effect="italics">V</emphasis> = <emphasis effect="italics">AD</emphasis>. We know the diameter of Earth from <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m58269"/> and we know that most of Earth’s surface is covered in water, so we can estimate the surface area of the oceans as being roughly equal to the surface area of the planet. By following the advice to “get areas and volumes from lengths” again, we can approximate Earth as a sphere and use the formula for the surface area of a sphere of diameter <emphasis effect="italics">d</emphasis>—that is, <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> to estimate the surface area of the oceans. Now we just need to estimate the average depth of the oceans. For this, we use the advice: “If all else fails, bound it.” We happen to know the deepest points in the ocean are around 10 km and that it is not uncommon for the ocean to be deeper than 1 km, so we take the average depth to be around <m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>0.5</m:mn></m:mrow></m:msup><m:mo>≈</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>m.</m:mtext></m:mrow></m:math> Now we just need to put it all together, heeding the advice that “one ‘sig. fig.’ is fine.”</para>
+<para id="fs-id1168329155017">
+<title>Solution</title>
+We estimate the surface area of Earth (and hence the surface area of Earth’s oceans) to be roughly</para>
+<equation id="fs-id1168329418990" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>≈</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168329387106">Next, using our average depth estimate of <m:math><m:mrow><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>m,</m:mtext></m:mrow></m:math> which was obtained by bounding, we estimate the volume of Earth’s oceans to be</para>
+<equation id="fs-id1168326838054" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>D</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168329335642">Last, we estimate the mass of the world’s oceans to be</para>
+<equation id="fs-id1168326823679" class="unnumbered"><label/><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math> </equation>
+<para id="fs-id1168329146055">Thus, we estimate that the order of magnitude of the mass of the planet’s oceans is 10<sup>21</sup> kg.</para>
+<para id="fs-id1168326835535">
+<title>Significance</title>
+To verify our answer to the best of our ability, we first need to answer the question: Does this make any sense? From <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m58269"/>, we see the mass of Earth’s atmosphere is on the order of 10<sup>19</sup> kg and the mass of Earth is on the order of 10<sup>25</sup> kg. It is reassuring that our estimate of 10<sup>21</sup> kg for the mass of Earth’s oceans falls somewhere between these two. So, yes, it does seem to make sense. It just so happens that we did a search on the Web for “mass of oceans” and the top search results all said <m:math><m:mrow><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:msup><m:mtext>kg,</m:mtext></m:mrow></m:math> which is the same order of magnitude as our estimate. Now, rather than having to trust blindly whoever first put that number up on a website (most of the other sites probably just copied it from them, after all), we can have a little more confidence in it.</para>
+</example>
+<note id="fs-id1168329466069" class="check-understanding">
+<exercise id="fs-id1168329067631">
+<problem id="fs-id1168329419070">
+<para id="fs-id1168329007294"><emphasis effect="bold">Check Your Understanding</emphasis> <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m58269"/> says the mass of the atmosphere is 10<sup>19</sup> kg. Assuming the density of the atmosphere is 1 kg/m<sup>3</sup>, estimate the height of Earth’s atmosphere. Do you think your answer is an underestimate or an overestimate? Explain why.</para>
+</problem>
+<solution id="fs-id1168329060483">
+<para id="fs-id1168329007269"><m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> or 30 km. It is probably an underestimate because the density of the atmosphere decreases with altitude. (In fact, 30 km does not even get us out of the stratosphere.)</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168328984109">How many piano tuners are there in New York City? How many leaves are on that tree? If you are studying photosynthesis or thinking of writing a smartphone app for piano tuners, then the answers to these questions might be of great interest to you. Otherwise, you probably couldn’t care less what the answers are. However, these are exactly the sorts of estimation problems that people in various tech industries have been asking potential employees to evaluate their quantitative reasoning skills. If building physical intuition and evaluating quantitative claims do not seem like sufficient reasons for you to practice estimation problems, how about the fact that being good at them just might land you a high-paying job?</para>
+<note id="fs-id1168326871206" class="media-2">
+<para id="fs-id1168329086472">For practice estimating relative lengths, areas, and volumes, check out this <link url="https://openstax.org/l/21lengthgame">PhET</link> simulation, titled “Estimation.”</para>
+</note>
+<section id="fs-id1168329183802" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1168329306130" list-type="bulleted" bullet-style="bullet">
+<item>An estimate is a rough educated guess at the value of a physical quantity based on prior experience and sound physical reasoning. Some strategies that may help when making an estimate are as follows:
+<list id="fs-id1168326787355" list-type="bulleted" bullet-style="bullet">
+<item>Get big lengths from smaller lengths.</item>
+<item>Get areas and volumes from lengths.</item>
+<item>Get masses from volumes and densities.</item>
+<item>If all else fails, bound it.</item>
+<item>One “sig. fig.” is fine.</item>
+<item>Ask yourself: Does this make any sense?</item>
+</list>
+</item>
+</list>
+</section>
+<section id="fs-id1168329454338" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1168329265263">
+<problem id="fs-id1168329117682">
+<para id="fs-id1168328996680">Assuming the human body is made primarily of water, estimate the volume of a person.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329443498">
+<problem id="fs-id1168329020838">
+<para id="fs-id1168329145968">Assuming the human body is primarily made of water, estimate the number of molecules in it. (Note that water has a molecular mass of 18 g/mol and there are roughly 10<sup>24</sup> atoms in a mole.)</para>
+</problem>
+<solution id="fs-id1168329454222">
+<para id="fs-id1168326796481">10<sup>28</sup> atoms</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329174656">
+<problem id="fs-id1168329269081">
+<para id="fs-id1168329084745">Estimate the mass of air in a classroom.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329016670">
+<problem id="fs-id1168329319528">
+<para id="fs-id1168326757878">Estimate the number of molecules that make up Earth, assuming an average molecular mass of 30 g/mol. (Note there are on the order of 10<sup>24</sup> objects per mole.)</para>
+</problem>
+<solution id="fs-id1168329033770">
+<para id="fs-id1168329116574">10<sup>51</sup> molecules</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329013612">
+<problem id="fs-id1168326781263">
+<para id="fs-id1168326860623">Estimate the surface area of a person.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329316890">
+<problem id="fs-id1168329137897">
+<para id="fs-id1168329317321">Roughly how many solar systems would it take to tile the disk of the Milky Way?</para>
+</problem>
+<solution id="fs-id1168326777997">
+<para id="fs-id1168329518503">10<sup>16</sup> solar systems</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329081168">
+<problem id="fs-id1168329046979">
+<para id="fs-id1168329160686">(a) Estimate the density of the Moon. (b) Estimate the diameter of the Moon. (c) Given that the Moon subtends at an angle of about half a degree in the sky, estimate its distance from Earth.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168326860046">
+<problem id="fs-id1168329517467">
+<para id="fs-id1168326776666">The average density of the Sun is on the order 10<sup>3</sup> kg/m<sup>3</sup>. (a) Estimate the diameter of the Sun. (b) Given that the Sun subtends at an angle of about half a degree in the sky, estimate its distance from Earth.</para>
+</problem>
+<solution id="fs-id1168328979226">
+<para id="fs-id1168328982249">a. Volume = 10<sup>27</sup> m<sup>3</sup>, diameter is 10<sup>9</sup> m.; b. 10<sup>11</sup> m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329155412">
+<problem id="fs-id1168329464006">
+<para id="fs-id1168329050600">Estimate the mass of a virus.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168326791766">
+<problem id="fs-id1168329511752">
+<para id="fs-id1168329138592">A floating-point operation is a single arithmetic operation such as addition, subtraction, multiplication, or division. (a) Estimate the maximum number of floating-point operations a human being could possibly perform in a lifetime. (b) How long would it take a supercomputer to perform that many floating-point operations?</para>
+</problem>
+<solution id="fs-id1168329176126">
+<para id="fs-id1168329105506">a. A reasonable estimate might be one operation per second for a total of 10<sup>9</sup> in a lifetime.; b. about (10<sup>9</sup>)(10<sup>–17</sup> s) = 10<sup>–8</sup> s, or about 10 ns</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168329323271">
+<term>estimation</term>
+<meaning id="fs-id1168326843641">using prior experience and sound physical reasoning to arrive at a rough idea of a quantity’s value; sometimes called an “order-of-magnitude approximation,” a “guesstimate,” a “back-of-the-envelope calculation”, or a “Fermi calculation”</meaning>
+</definition>
+</glossary>
+</document>

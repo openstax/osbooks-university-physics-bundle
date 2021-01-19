@@ -1,0 +1,134 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Heat Engines</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58404</md:content-id>
+  <md:title>Heat Engines</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the function and components of a heat engine</item>
+<item>Explain the efficiency of an engine</item>
+<item>Calculate the efficiency of an engine for a given cycle of an ideal gas</item></list></md:abstract>
+  <md:uuid>4af73b8d-8143-4a95-af69-cfc077e093de</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167586268105">A <term>heat engine</term> is a device used to extract heat from a source and then convert it into mechanical work that is used for all sorts of applications. For example, a steam engine on an old-style train can produce the work needed for driving the train. Several questions emerge from the construction and application of heat engines. For example, what is the maximum percentage of the heat extracted that can be used to do work? This turns out to be a question that can only be answered through the second law of thermodynamics.</para>
+<para id="fs-id1167586032431">The second law of thermodynamics can be formally stated in several ways. One statement presented so far is about the direction of spontaneous heat flow, known as the Clausius statement. A couple of other statements are based on heat engines. <emphasis effect="italics">Whenever we consider heat engines and associated devices such as refrigerators and heat pumps, we do not use the normal sign convention for heat and work</emphasis>. For convenience, we assume that the symbols <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> and <emphasis effect="italics">W</emphasis> represent only the amounts of heat transferred and work delivered, regardless what the givers or receivers are. Whether heat is entering or leaving a system and work is done to or by a system are indicated by proper signs in front of the symbols and by the directions of arrows in diagrams.</para>
+<para id="fs-id1167585966477">It turns out that we need more than one heat source/sink to construct a heat engine. We will come back to this point later in the chapter, when we compare different statements of the second law of thermodynamics. For the moment, we assume that a heat engine is constructed between a heat source (high-temperature reservoir or hot reservoir) and a heat sink (low-temperature reservoir or cold reservoir), represented schematically in <link target-id="CNX_UPhysics_21_02_Engine"/>. The engine absorbs heat <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> from a heat source (<term>hot reservoir</term>) of Kelvin temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> uses some of that energy to produce useful work <emphasis effect="italics">W</emphasis>, and then discards the remaining energy as heat <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> into a heat sink (<term>cold reservoir</term>) of Kelvin temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Power plants and internal combustion engines are examples of heat engines. <term class="no-emphasis">Power plants</term> use steam produced at high temperature to drive electric generators, while exhausting heat to the atmosphere or a nearby body of water in the role of the heat sink. In an <term class="no-emphasis">internal combustion engine</term>, a hot gas-air mixture is used to push a piston, and heat is exhausted to the nearby atmosphere in a similar manner.</para>
+<figure id="CNX_UPhysics_21_02_Engine">
+<media id="fs-id1167582396709" alt="The figure shows schematic of an engine with a downward arrow Q subscript h at T subscript h. When this goes through the engine, the arrow splits with a downward arrow Q subscript c at T subscript c and a left arrow W.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_02_Engine.jpg"/>
+</media>
+<caption>A schematic representation of a heat engine. Energy flows from the hot reservoir to the cold reservoir while doing work.</caption>
+</figure>
+<para id="fs-id1167586179099">Actual heat engines have many different designs. Examples include internal combustion engines, such as those used in most cars today, and external combustion engines, such as the steam engines used in old steam-engine trains. <link target-id="CNX_UPhysics_21_02_Reactor"/> shows a photo of a nuclear power plant in operation. The atmosphere around the reactors acts as the cold reservoir, and the heat generated from the nuclear reaction provides the heat from the hot reservoir.</para>
+<figure id="CNX_UPhysics_21_02_Reactor"><media id="fs-id1167586055759" alt="The photo shows gases releasing from a power plant.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_02_Reactor.jpg"/>
+</media>
+
+<caption>The heat exhausted from a nuclear power plant goes to the cooling towers, where it is released into the atmosphere.</caption></figure><para id="fs-id1167582389650">Heat engines operate by carrying a <emphasis effect="italics">working substance</emphasis> through a cycle. In a steam power plant, the <term class="no-emphasis">working substance</term> is water, which starts as a liquid, becomes vaporized, is then used to drive a turbine, and is finally condensed back into the liquid state. As is the case for all working substances in cyclic processes, once the water returns to its initial state, it repeats the same sequence.</para>
+<para id="fs-id1167585860571">For now, we assume that the cycles of heat engines are reversible, so there is no energy loss to friction or other irreversible effects. Suppose that the engine of <link target-id="CNX_UPhysics_21_02_Engine"/> goes through one complete cycle and that <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> and <emphasis effect="italics">W</emphasis> represent the heats exchanged and the work done for that cycle. Since the initial and final states of the system are the same, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> for the cycle. We therefore have from the first law of thermodynamics,</para>
+<equation id="fs-id1167582518199" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167582386259">so that</para>
+<note id="fs-id1167586284710" class="equation-callout">
+<equation id="fs-id1167585933490"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167585804511">The most important measure of a heat engine is its <term>efficiency (<emphasis effect="italics">e</emphasis>)</term>, which is simply “what we get out” divided by “what we put in” during each cycle, as defined by <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167586008613">With a heat engine working between two heat reservoirs, we get out <emphasis effect="italics">W</emphasis> and put in <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> so the efficiency of the engine is</para>
+<note id="fs-id1167586245966" class="equation-callout">
+<equation id="fs-id1167585928177"><label/><m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>W</m:mi><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167586285675">Here, we used <link target-id="fs-id1167585933490"/>, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> in the final step of this expression for the efficiency.</para>
+<example id="fs-id1167586006152">
+<para id="fs-id1167585899958"><title>A Lawn Mower</title>
+A lawn mower is rated to have an efficiency of <m:math><m:mrow><m:mn>25.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> and an average power of 3.00 kW. What are (a) the average work and (b) the minimum heat discharge into the air by the lawn mower in one minute of use?</para>
+<para id="fs-id1167582509920"><title>Strategy</title>
+From the average power—that is, the rate of work production—we can figure out the work done in the given elapsed time. Then, from the efficiency given, we can figure out the minimum heat discharge <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> with <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>+</m:mo><m:mi>W</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167586038077"><title>Solution</title></para>
+<list id="fs-id1167582455785" list-type="enumerated" number-style="lower-alpha">
+<item>The average work delivered by the lawn mower is
+<equation id="fs-id1167582859861" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The minimum heat discharged into the air is given by
+<equation id="fs-id1167585843417" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>+</m:mo><m:mi>W</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+which leads to 
+<equation id="fs-id1167586000635" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>W</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mi>e</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>0.25</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>=</m:mo><m:mn>540</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167582528366"><title>Significance</title>
+As the efficiency rises, the minimum heat discharged falls. This helps our environment and atmosphere by not having as much waste heat expelled.</para>
+</example>
+<section id="fs-id1167586050521" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167586278445" list-type="bulleted" bullet-style="bullet">
+<item>The work done by a heat engine is the difference between the heat absorbed from the hot reservoir and the heat discharged to the cold reservoir, that is, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>The ratio of the work done by the engine and the heat absorbed from the hot reservoir provides the efficiency of the engine, that is, <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mi>W</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1167582672160" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167585821688">
+<problem id="fs-id1167586032056">
+<para id="fs-id1167585824306">Explain in practical terms why efficiency is defined as <m:math><m:mrow><m:mrow><m:mi>W</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167585832637" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167582426530">
+<problem id="fs-id1167585997807">
+<para id="fs-id1167586036662">An engine is found to have an efficiency of 0.40. If it does 200 J of work per cycle, what are the corresponding quantities of heat absorbed and discharged?</para></problem>
+</exercise>
+<exercise id="fs-id1167585748069">
+<problem id="fs-id1167586032488">
+<para id="fs-id1167586007583">In performing 100.0 J of work, an engine discharges 50.0 J of heat. What is the efficiency of the engine?</para></problem>
+<solution id="fs-id1167585853526">
+<para id="fs-id1167585848423">0.667</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167582669088">
+<problem id="fs-id1167582575458">
+<para id="fs-id1167585746468">An engine with an efficiency of 0.30 absorbs 500 J of heat per cycle. (a) How much work does it perform per cycle? (b) How much heat does it discharge per cycle?</para></problem>
+</exercise>
+<exercise id="fs-id1167586035959">
+<problem id="fs-id1167585880945">
+<para id="fs-id1167585918379">It is found that an engine discharges 100.0 J while absorbing 125.0 J each cycle of operation. (a) What is the efficiency of the engine? (b) How much work does it perform per cycle?</para></problem>
+<solution id="fs-id1167586021813">
+<para id="fs-id1167582459417">a. 0.200; b. 25 J</para></solution>
+</exercise>
+<exercise id="fs-id1167585832280">
+<problem id="fs-id1167585823426">
+<para id="fs-id1167585954660">The temperature of the cold reservoir of the engine is 300 K. It has an efficiency of 0.30 and absorbs 500 J of heat per cycle. (a) How much work does it perform per cycle? (b) How much heat does it discharge per cycle?</para></problem>
+</exercise>
+<exercise id="fs-id1167586262884">
+<problem id="fs-id1167586002388">
+<para id="fs-id1167585926010">An engine absorbs three times as much heat as it discharges. The work done by the engine per cycle is 50 J. Calculate (a) the efficiency of the engine, (b) the heat absorbed per cycle, and (c) the heat discharged per cycle.</para></problem>
+<solution id="fs-id1167585776800">
+<para id="fs-id1167585979206">a. 0.67; b. 75 J; c. 25 J</para></solution>
+</exercise>
+<exercise id="fs-id1167585846256">
+<problem id="fs-id1167585771476">
+<para id="fs-id1167585999132">A coal power plant consumes 100,000 kg of coal per hour and produces 500 MW of power. If the heat of combustion of coal is 30 MJ/kg, what is the efficiency of the power plant?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167586284074">
+<term>cold reservoir</term>
+<meaning id="fs-id1167582645344">sink of heat used by a heat engine</meaning>
+</definition>
+<definition id="fs-id1167585844109">
+<term>efficiency (<emphasis effect="italics">e</emphasis>)</term>
+<meaning id="fs-id1167586180439">output work from the engine over the input heat to the engine from the hot reservoir</meaning>
+</definition>
+<definition id="fs-id1167586052936">
+<term>heat engine</term>
+<meaning id="fs-id1167585967050">device that converts heat into work</meaning>
+</definition>
+<definition id="fs-id1167585875419">
+<term>hot reservoir</term>
+<meaning id="fs-id1167585798145">source of heat used by a heat engine</meaning>
+</definition>
+</glossary>
+
+</document>

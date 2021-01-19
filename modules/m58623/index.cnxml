@@ -1,0 +1,154 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Double-Slit Diffraction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58623</md:content-id>
+  <md:title>Double-Slit Diffraction</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the combined effect of interference and diffraction with two slits, each with finite width</item>
+<item>Determine the relative intensities of interference fringes within a diffraction pattern</item>
+<item>Identify missing orders, if any</item></list></md:abstract>
+  <md:uuid>2a354188-dfdd-4691-ad85-29b458156bef</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172102150364">When we studied interference in Young’s double-slit experiment, we ignored the diffraction effect in each slit. We assumed that the slits were so narrow that on the screen you saw only the interference of light from just two point sources. If the slit is smaller than the wavelength, then <link target-id="CNX_UPhysics_37_02_VaryWidth" document="m58544"/>(a) shows that there is just a spreading of light and no peaks or troughs on the screen. Therefore, it was reasonable to leave out the diffraction effect in that chapter. However, if you make the slit wider, <link target-id="CNX_UPhysics_37_02_VaryWidth" document="m58544"/>(b) and (c) show that you cannot ignore diffraction. In this section, we study the complications to the double-slit experiment that arise when you also need to take into account the diffraction effect of each slit.</para>
+<para id="fs-id1172101970859">To calculate the diffraction pattern for two (or any number of) slits, we need to generalize the method we just used for a single slit. That is, across each slit, we place a uniform distribution of point sources that radiate Huygens wavelets, and then we sum the wavelets from all the slits. This gives the intensity at any point on the screen. Although the details of that calculation can be complicated, the final result is quite simple:</para>
+<note id="fs-id1172102134151">
+<title>Two-Slit Diffraction Pattern</title>
+<para id="fs-id1172102124620">The diffraction pattern of two slits of width <emphasis effect="italics">a</emphasis> that are separated by a distance <emphasis effect="italics">d</emphasis> is the interference pattern of two point sources separated by <emphasis effect="italics">d</emphasis> multiplied by the diffraction pattern of a slit of width <emphasis effect="italics">a</emphasis>.</para>
+</note>
+<para id="fs-id1172102109105">In other words, the <emphasis effect="italics">locations</emphasis> of the interference fringes are given by the equation <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow></m:math>, the same as when we considered the slits to be point sources, but the <emphasis effect="italics">intensities</emphasis> of the fringes are now reduced by diffraction effects, according to <link target-id="fs-id1172101777014" document="m58544"/>. [Note that in the chapter on interference, we wrote <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow></m:math> and used the integer <emphasis effect="italics">m</emphasis> to refer to interference fringes. <link target-id="fs-id1172098449014" document="m58543"/> also uses <emphasis effect="italics">m</emphasis>, but this time to refer to diffraction minima. If both equations are used simultaneously, it is good practice to use a different variable (such as <emphasis effect="italics">n</emphasis>) for one of these integers in order to keep them distinct.]</para>
+<para id="fs-id1172101892172">Interference and diffraction effects operate simultaneously and generally produce minima at different angles. This gives rise to a complicated pattern on the screen, in which some of the maxima of interference from the two slits are missing if the maximum of the interference is in the same direction as the minimum of the diffraction. We refer to such a missing peak as a <term>missing order</term>. One example of a diffraction pattern on the screen is shown in <link target-id="CNX_UPhysics_37_03_combined"/>. The solid line with multiple peaks of various heights is the intensity observed on the screen. It is a product of the interference pattern of waves from separate slits and the diffraction of waves from within one slit.</para>
+<figure id="CNX_UPhysics_37_03_combined">
+<media id="fs-id1172101995857" alt="Figure shows a graph of I by I0 versus theta. Three curves are shown on the graph. Interference curve has a smaller wavelength. Diffraction curve has a larger wavelength and a y value of 1 at x equal to 0. Resultant curve has the same wavelength as the interference and its amplitude is modified according to the diffraction curve. Each wave crest of the interference wave is labeled m equal to 1, m equal to 2 and so on. The diffraction wave has a zero at m equal to 3, and theta equal to 30 degrees. Hence, the resultant wave, too, has a zero. This is labeled missing order m equal to 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_03_combined.jpg"/>
+</media>
+<caption>Diffraction from a double slit. The purple line with peaks of the same height are from the interference of the waves from two slits; the blue line with one big hump in the middle is the diffraction of waves from within one slit; and the thick red line is the product of the two, which is the pattern observed on the screen. The plot shows the expected result for a slit width <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext>λ</m:mtext></m:mrow></m:math> and slit separation <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mtext>λ</m:mtext></m:mrow></m:math>. The maximum of <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>3</m:mn></m:mrow></m:math> order for the interference is missing because the minimum of the diffraction occurs in the same direction.</caption>
+</figure>
+<example id="fs-id1172101621172">
+<para id="fs-id1172101758276"><title>Intensity of the Fringes</title>
+<link target-id="CNX_UPhysics_37_03_combined"/> shows that the intensity of the fringe for <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> is zero, but what about the other fringes? Calculate the intensity for the fringe at <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> relative to <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> the intensity of the central peak.</para>
+<para id="fs-id1172101759322"><title>Strategy</title>
+Determine the angle for the double-slit interference fringe, using the equation from <link document="m58536">Interference</link>, then determine the relative intensity in that direction due to diffraction by using <link target-id="fs-id1172101777014" document="m58544"/>.</para>
+<para id="fs-id1172099380450"><title>Solution</title>
+From the chapter on interference, we know that the bright interference fringes occur at <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow></m:math>, or</para>
+<equation id="fs-id1172101781214" class="unnumbered"><label/><m:math><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102055153">From <link target-id="fs-id1172101777014" document="m58544"/>,</para>
+<equation id="fs-id1172101703201" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>β</m:mi></m:mrow><m:mi>β</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ϕ</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mi>λ</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102043710">Substituting from above,</para>
+<equation id="fs-id1172101975944" class="unnumbered"><label/><m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:mi>a</m:mi></m:mrow><m:mi>λ</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>π</m:mi><m:mi>a</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102103059">For <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>λ</m:mi></m:mrow></m:math>, <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>λ</m:mi></m:mrow></m:math>, and <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>,</para>
+<equation id="fs-id1172101928297" class="unnumbered"><label/><m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>λ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>λ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>π</m:mi><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101619309">Then, the intensity is</para>
+<equation id="fs-id1172102025221" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>β</m:mi></m:mrow><m:mi>β</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0.684</m:mn><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101672230"><title>Significance</title>
+Note that this approach is relatively straightforward and gives a result that is almost exactly the same as the more complicated analysis using phasors to work out the intensity values of the double-slit interference (thin line in <link target-id="CNX_UPhysics_37_03_combined"/>). The phasor approach accounts for the downward slope in the diffraction intensity (blue line) so that the peak <emphasis effect="italics">near</emphasis> <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> occurs at a value of <m:math><m:mi>θ</m:mi></m:math> ever so slightly smaller than we have shown here.</para>
+</example>
+<example id="fs-id1172101773826">
+<para id="fs-id1172101764396"><title>Two-Slit Diffraction</title>
+Suppose that in Young’s experiment, slits of width 0.020 mm are separated by 0.20 mm. If the slits are illuminated by monochromatic light of wavelength 500 nm, how many bright fringes are observed in the central peak of the diffraction pattern?</para>
+<para id="fs-id1172101965655"><title>Solution</title>
+From <link target-id="fs-id1172098449014" document="m58543"/>, the angular position of the first diffraction minimum is <m:math><m:mrow><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>λ</m:mi><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172101753307">Using <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow></m:math> for <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math>, we find</para><equation id="fs-id1172102010408" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102020348">which is the maximum interference order that fits inside the central peak. We note that <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>10</m:mn></m:mrow></m:math> are missing orders as <m:math><m:mi>θ</m:mi></m:math> matches exactly. Accordingly, we observe bright fringes for</para>
+<equation id="fs-id1172102032202" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn><m:mo>,</m:mo><m:mn>−8</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1172101988110">for a total of 19 bright fringes.</para>
+</example>
+<note id="fs-id1172101879829" class="check-understanding">
+<exercise id="fs-id1172101673828">
+<problem id="fs-id1172102047896">
+<para id="fs-id1172101751030"><emphasis effect="bold">Check Your Understanding</emphasis> For the experiment in <link target-id="fs-id1172101773826"/>, show that <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> is also a missing order.</para>
+</problem>
+<solution id="fs-id1172102021687">
+<para id="fs-id1172101675536">From <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow></m:math>, the interference maximum occurs at <m:math><m:mrow><m:mn>2.87</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> for <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mo>.</m:mo></m:mrow></m:math> From <link target-id="fs-id1172098449014" document="m58543"/>, this is also the angle for the second diffraction minimum. (<emphasis effect="italics">Note:</emphasis> Both equations use the index <emphasis effect="italics">m</emphasis> but they refer to separate phenomena.)</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1172102032470" class="media-2">
+<para id="fs-id1172101802506">Explore the effects of double-slit diffraction. In <link url="https://openstax.org/l/21doubslitdiff">this simulation</link> written by Fu-Kwun Hwang, select <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> using the slider and see what happens when you control the slit width, slit separation and the wavelength. Can you make an order go “missing?”</para>
+</note>
+<section id="fs-id1172102078583" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172101668239" list-type="bulleted" bullet-style="bullet">
+<item>With real slits with finite widths, the effects of interference and diffraction operate simultaneously to form a complicated intensity pattern.</item>
+<item>Relative intensities of interference fringes within a diffraction pattern can be determined.</item>
+<item>Missing orders occur when an interference maximum and a diffraction minimum are located together.</item>
+</list>
+</section>
+<section id="fs-id1172101737731" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172101652327"><problem id="fs-id1172101906484">
+<para id="fs-id1172101732054">Shown below is the central part of the interference pattern for a pure wavelength of red light projected onto a double slit. The pattern is actually a combination of single- and double-slit interference. Note that the bright spots are evenly spaced. Is this a double- or single-slit characteristic? Note that some of the bright spots are dim on either side of the center. Is this a single- or double-slit characteristic? Which is smaller, the slit width or the separation between slits? Explain your responses.</para>
+<figure id="eip-idm736466464" class="unnumbered"><label/><media id="fs-id1172102067565" alt="Figure is an image showing red interference pattern on a black background. The central part has brighter lines. The lines are cut off at the top and bottom, seemingly enclosed between two sinusoidal waves of opposite phase.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_03_fringe.jpg"/>
+</media><caption>(credit: PASCO)</caption></figure></problem>
+</exercise></section>
+<section id="fs-id1172101676956" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172102052084">
+<problem id="fs-id1172102135096">
+<para id="fs-id1172102053089">Two slits of width <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m,</m:mtext></m:mrow></m:math> each in an opaque material, are separated by a center-to-center distance of <m:math><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> A monochromatic light of wavelength 450 nm is incident on the double-slit. One ﬁnds a combined interference and diffraction pattern on the screen.</para>
+<para id="fs-id1172101700167">(a) How many peaks of the interference will be observed in the central maximum of the diffraction pattern?</para>
+<para id="fs-id1172101985525">(b) How many peaks of the interference will be observed if the slit width is doubled while keeping the distance between the slits same?</para>
+<para id="fs-id1172101644303">(c) How many peaks of interference will be observed if the slits are separated by twice the distance, that is, <m:math><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m,</m:mtext></m:mrow></m:math> while keeping the widths of the slits same?</para>
+<para id="fs-id1172101728260">(d) What will happen in (a) if instead of 450-nm light another light of wavelength 680 nm is used?</para>
+<para id="fs-id1172102032710">(e) What is the value of the ratio of the intensity of the central peak to the intensity of the next bright peak in (a)?</para>
+<para id="fs-id1172099456288">(f) Does this ratio depend on the wavelength of the light?</para>
+<para id="fs-id1172102138297">(g) Does this ratio depend on the width or separation of the slits?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102034039">
+<problem id="fs-id1172102137050">
+<para id="fs-id1172102037232">A double slit produces a diffraction pattern that is a combination of single- and double-slit interference. Find the ratio of the width of the slits to the separation between them, if the first minimum of the single-slit pattern falls on the fifth maximum of the double-slit pattern. (This will greatly reduce the intensity of the fifth maximum.)</para>
+</problem>
+<solution id="fs-id1172101763137">
+<para id="fs-id1172102098242">0.200</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099550367">
+<problem id="fs-id1172102131391">
+<para id="fs-id1172101988304">For a double-slit configuration where the slit separation is four times the slit width, how many interference fringes lie in the central peak of the diffraction pattern?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102028995">
+<problem id="fs-id1172101684993">
+<para id="fs-id1172101774257">Light of wavelength 500 nm falls normally on 50 slits that are <m:math><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math> wide and spaced <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math> apart. How many interference fringes lie in the central peak of the diffraction pattern?</para>
+</problem>
+<solution id="fs-id1172101754243">
+<para id="fs-id1172099500074">3</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101804888">
+<problem id="fs-id1172102117991">
+<para id="fs-id1172101811961">A monochromatic light of wavelength 589 nm incident on a double slit with slit width <m:math><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math> and unknown separation results in a diffraction pattern containing nine interference peaks inside the central maximum. Find the separation of the slits.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102053978">
+<problem id="fs-id1172101698236">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172102066906">When a monochromatic light of wavelength 430 nm incident on a double slit of slit separation <m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math>, there are 11 interference fringes in its central maximum. How many interference fringes will be in the central maximum of a light of the same wavelength and slit widths, but a new slit separation of <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math>?</para></problem>
+<solution id="fs-id1172101852326">
+<para id="fs-id1172101707964">9</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102125533">
+<problem id="fs-id1172101889433">
+<para id="fs-id1172101754392">Determine the intensities of two interference peaks other than the central peak in the central maximum of the diffraction, if possible, when a light of wavelength 628 nm is incident on a double slit of width 500 nm and separation 1500 nm. Use the intensity of the central spot to be <m:math><m:mrow><m:msup><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>mW/cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172101685033">
+<term>missing order</term>
+<meaning id="fs-id1172101793056">interference maximum that is not seen because it coincides with a diffraction minimum</meaning>
+</definition>
+<definition id="fs-id1172101790165">
+<term>two-slit diffraction pattern</term>
+<meaning id="fs-id1172102105173">diffraction pattern of two slits of width <emphasis effect="italics">D</emphasis> that are separated by a distance <emphasis effect="italics">d</emphasis> is the interference pattern of two point sources separated by <emphasis effect="italics">d</emphasis> multiplied by the diffraction pattern of a slit of width <emphasis effect="italics">D</emphasis></meaning>
+</definition>
+</glossary>
+
+
+</document>

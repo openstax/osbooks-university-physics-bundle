@@ -1,0 +1,278 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Explaining Gauss’s Law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58424</md:content-id>
+  <md:title>Explaining Gauss’s Law</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>State Gauss’s law</item>
+<item>Explain the conditions under which Gauss’s law may be used</item>
+<item>Apply Gauss’s law in appropriate systems</item></list></md:abstract>
+  <md:uuid>bf4d4fc5-eda2-4c38-bc8e-c87be535a008</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172098591315">We can now determine the electric flux through an arbitrary closed surface due to an arbitrary charge distribution. We found that if a closed surface does not have any charge inside where an electric field line can terminate, then any electric field line entering the surface at one point must necessarily exit at some other point of the surface. Therefore, if a closed surface does not have any charges inside the enclosed volume, then the electric flux through the surface is zero. Now, what happens to the electric flux if there are some charges inside the enclosed volume? Gauss’s law gives a quantitative answer to this question.</para>
+<para id="fs-id1172098657247">To get a feel for what to expect, let’s calculate the electric flux through a spherical surface around a positive point charge <emphasis effect="italics">q</emphasis>, since we already know the electric field in such a situation. Recall that when we place the point charge at the origin of a coordinate system, the electric field at a point <emphasis effect="italics">P</emphasis> that is at a distance <emphasis effect="italics">r</emphasis> from the charge at the origin is given by</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172098361596" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1172098405621">where <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:math> is the radial vector from the charge at the origin to the point <emphasis effect="italics">P.</emphasis> We can use this electric field to find the flux through the spherical surface of radius <emphasis effect="italics">r</emphasis>, as shown in <link target-id="CNX_UPhysics_23_02_ChargeSphere"/>.</para>
+<figure id="CNX_UPhysics_23_02_ChargeSphere">
+<media id="fs-id1172100754611" alt="A sphere labeled S with radius R is shown. At its center, is a small circle with a plus sign, labeled q. A small patch on the sphere is labeled dA. Two arrows point outward from here, perpendicular to the surface of the sphere. The smaller arrow is labeled n hat equal to r hat. The longer arrow is labeled vector E.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_ChargeSph.jpg"/>
+</media>
+<caption>A closed spherical surface surrounding a point charge <emphasis effect="italics">q</emphasis>.</caption>
+</figure>
+<para id="fs-id1167742832652">Then we apply <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∫</m:mo><m:mi>S</m:mi></m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> to this system and substitute known values. On the sphere, <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>R</m:mi></m:mrow></m:math>, so for an infinitesimal area <emphasis effect="italics">dA</emphasis>,</para>
+<equation id="fs-id1167740844651" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>E</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098403360">We now find the net flux by integrating this flux over the surface of the sphere:</para>
+<equation id="fs-id1172098357924" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mspace width="0.2em"/><m:mrow><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098695802">where the total surface area of the spherical surface is <m:math><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> This gives the flux through the closed spherical surface at radius <emphasis effect="italics">r</emphasis> as</para>
+<equation id="fs-id1172096017111"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100634386">A remarkable fact about this equation is that the flux is independent of the size of the spherical surface. This can be directly attributed to the fact that the electric field of a point charge decreases as <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math> with distance, which just cancels the <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> rate of increase of the surface area.</para>
+<section id="fs-id1172100724076">
+<title>Electric Field Lines Picture</title>
+<para id="fs-id1172096090448">An alternative way to see why the flux through a closed spherical surface is independent of the radius of the surface is to look at the electric field lines. Note that every field line from <emphasis effect="italics">q</emphasis> that pierces the surface at radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> also pierces the surface at <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> (<link target-id="CNX_UPhysics_23_02_FluxSurf"/>).</para>
+<figure id="CNX_UPhysics_23_02_FluxSurf">
+<media id="fs-id1172098795568" alt="Figure shows three concentric circles. The smallest one at the center is labeled q, the middle one has radius R1 and the largest one has radius R2. Eight arrows radiate outward from the center in all eight directions.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_FluxSurf.jpg"/>
+</media>
+<caption>Flux through spherical surfaces of radii <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> enclosing a charge <emphasis effect="italics">q</emphasis> are equal, independent of the size of the surface, since all <emphasis effect="italics">E</emphasis>-field lines that pierce one surface from the inside to outside direction also pierce the other surface in the same direction.</caption>
+</figure>
+<para id="fs-id1172098685971">Therefore, the net number of electric field lines passing through the two surfaces from the inside to outside direction is equal. This net number of electric field lines, which is obtained by subtracting the number of lines in the direction from outside to inside from the number of lines in the direction from inside to outside gives a visual measure of the electric flux through the surfaces.</para>
+<para id="fs-id1172098617689">You can see that if no charges are included within a closed surface, then the electric flux through it must be zero. A typical field line enters the surface at <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and leaves at <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Every line that enters the surface must also leave that surface. Hence the net “flow” of the field lines into or out of the surface is zero (<link target-id="CNX_UPhysics_23_02_FluxLines"/>(a)). The same thing happens if charges of equal and opposite sign are included inside the closed surface, so that the total charge included is zero (part (b)). A surface that includes the same amount of charge has the same number of field lines crossing it, regardless of the shape or size of the surface, as long as the surface encloses the same amount of charge (part (c)).</para>
+<figure id="CNX_UPhysics_23_02_FluxLines">
+<media id="fs-id1172096028560" alt="Figure a shows an irregular 3 dimensional shape labeled S. A small circle with a plus sign, labeled q is outside it. Three arrows labeled vector E originate from q and pass through S. The patches where the arrows pierce the surface of S are highlighted. The patch where one arrow enters the shape is labeled dA1 and the patch where the arrow emerges from the shape is labeled dA2. Figure b shows an oval with two small circles inside it. These are labeled plus and minus. Three arrow from outside the oval point to the circle labeled minus. Three arrows point from plus to minus. Three arrows point from plus to outside the oval. Figure c has an irregular shape labeled S2. Within it is a circle named S1. At its center is a small circle labeled plus. Six arrows radiate outward from here in different directions.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_FluxLines.jpg"/>
+</media>
+<caption>Understanding the flux in terms of field lines. (a) The electric flux through a closed surface due to a charge outside that surface is zero. (b) Charges are enclosed, but because the net charge included is zero, the net flux through the closed surface is also zero. (c) The shape and size of the surfaces that enclose a charge does not matter because all surfaces enclosing the same charge have the same flux.</caption>
+</figure>
+</section>
+<section id="fs-id1172098673604">
+<title>Statement of Gauss’s Law</title>
+<para id="fs-id1172098501263">Gauss’s law generalizes this result to the case of any number of charges and any location of the charges in the space inside the closed surface. According to Gauss’s law, the flux of the electric field <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> through any closed surface, also called a <term>Gaussian surface</term>, is equal to the net charge enclosed <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> divided by the permittivity of free space <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>:</para>
+<equation id="fs-id1172100742195" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mtext>Closed Surface</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172096096446">This equation holds for <emphasis effect="italics">charges of either sign</emphasis>, because we define the area vector of a closed surface to point outward. If the enclosed charge is negative (see <link target-id="CNX_UPhysics_23_02_PosNeg"/>(b)), then the flux through either <m:math><m:mrow><m:mstyle mathvariant="italic" mathsize="normal"><m:mi>S</m:mi></m:mstyle><m:mspace width="0.2em"/><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="italic" mathsize="normal"><m:mi>S</m:mi></m:mstyle><m:mo>'</m:mo></m:mrow></m:math> is negative.</para>
+<figure id="CNX_UPhysics_23_02_PosNeg">
+<media id="fs-id1172096157690" alt="Figure a has an irregular shape labeled S. Within it is a circle labeled S prime. At its center is a small circle labeled plus. Six arrows radiate outward from here in different directions. Figure b has the same irregular shape S and circle S prime. At its center is a small circle labeled minus. Six arrows from different directions radiate inward to minus.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_PosNeg.jpg"/>
+</media>
+<caption>The electric flux through any closed surface surrounding a point charge <emphasis effect="italics">q</emphasis> is given by Gauss’s law. (a) Enclosed charge is positive. (b) Enclosed charge is negative.</caption>
+</figure>
+<para id="fs-id1172100729705">The Gaussian surface does not need to correspond to a real, physical object; indeed, it rarely will. It is a mathematical construct that may be of any shape, provided that it is closed. However, since our goal is to integrate the flux over it, we tend to choose shapes that are highly symmetrical.</para>
+<para id="fs-id1172096194777">If the charges are discrete point charges, then we just add them. If the charge is described by a continuous distribution, then we need to integrate appropriately to find the total charge that resides inside the enclosed volume. For example, the flux through the Gaussian surface <emphasis effect="italics">S</emphasis> of <link target-id="CNX_UPhysics_23_02_MultiCharge"/> is <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>q</m:mi><m:mn>5</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> Note that <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow></m:math> is simply the sum of the point charges. If the charge distribution were continuous, we would need to integrate appropriately to compute the total charge within the Gaussian surface.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_23_02_MultiCharge"><media id="fs-id1172100551468" alt="Figure shows an irregular shape labeled S. Within it are charges labeled positive q1 and negative q2 and q5. Outside S are charges labeled positive q3, q4, q6 and q N minus 1 and negative q7 and q N.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_MultiCharg.jpg"/>
+</media>
+
+<caption>The flux through the Gaussian surface shown, due to the charge distribution, is <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">|</m:mo><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">|</m:mo><m:mo>+</m:mo><m:mo stretchy="false">|</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">|</m:mo><m:mo>+</m:mo><m:mo stretchy="false">|</m:mo><m:msub><m:mi>q</m:mi><m:mn>5</m:mn></m:msub><m:mo stretchy="false">|</m:mo></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math></caption></figure><para id="fs-id1172100731744">Recall that the principle of superposition holds for the electric field. Therefore, the total electric field at any point, including those on the chosen Gaussian surface, is the sum of all the electric fields present at this point. This allows us to write Gauss’s law in terms of the total electric field.</para>
+<note id="fs-id1172098756510">
+<title>Gauss’s Law</title>
+<para id="fs-id1172096342582">The flux <m:math><m:mtext>Φ</m:mtext></m:math> of the electric field <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> through any closed surface <emphasis effect="italics">S</emphasis> (a Gaussian surface) is equal to the net charge enclosed <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> divided by the permittivity of free space <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1172098294896"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172096083512">To use Gauss’s law effectively, you must have a clear understanding of what each term in the equation represents. The field <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> is the <emphasis effect="italics">total electric field</emphasis> at every point on the Gaussian surface. This total field includes contributions from charges both inside and outside the Gaussian surface. However, <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow></m:math> is just the charge <emphasis effect="italics">inside</emphasis> the Gaussian surface. Finally, the Gaussian surface is any closed surface in space. That surface can coincide with the actual surface of a conductor, or it can be an imaginary geometric surface. The only requirement imposed on a Gaussian surface is that it be closed (<link target-id="CNX_UPhysics_23_02_Klein"/>).</para>
+<figure id="CNX_UPhysics_23_02_Klein">
+<media id="fs-id1172098674152" alt="Figure shows a bottle that looks like an upside down flask whose neck is elongated, bent upward, twisted, taken inside the bottle and joined with its base, thus having only one surface.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_Klein.jpg"/>
+</media>
+<caption>A Klein bottle partially filled with a liquid. Could the Klein bottle be used as a Gaussian surface?</caption>
+</figure>
+<example id="fs-id1172098374900">
+<para id="fs-id1172098410503"><title>Electric Flux through Gaussian Surfaces</title>
+Calculate the electric flux through each Gaussian surface shown in <link target-id="CNX_UPhysics_23_02_GauExample"/>.</para>
+<figure id="CNX_UPhysics_23_02_GauExample">
+<media id="fs-id1172098673786" alt="Figures a through d show irregular shapes and figure e shows a cube. Figure a has a charge inside the shape labeled plus 2.0 mu C. Figure b has a charge inside the shape labeled minus 2.0 mu C. Figure c has a charge inside the shape labeled plus 2.0 mu C and two charges outside labeled plus 4 mu C and minus 2.0 mu C. Figure d has three charges inside the shape labeled minus 1.0 mu C, minus 4.0 mu C and plus 6.0 mu C and two charges outside the shape labeled minus 5.0 mu C and plus 4.0 mu C. Figure e has three charges inside labeled plus 4.0 mu C, plus 6.0 mu C and minus 10.0 mu C and two charges outside the cube labeled plus 5.0 mu C and 3.0 mu C.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_GauExample.jpg"/>
+</media>
+<caption>Various Gaussian surfaces and charges.</caption>
+</figure>
+<para id="fs-id1172100622369"><title>Strategy</title>
+From Gauss’s law, the flux through each surface is given by <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the charge enclosed by that surface.</para>
+<para id="fs-id1172096037958"><title>Solution</title>
+For the surfaces and charges shown, we find</para>
+<list id="fs-id1172100699379" list-type="enumerated" number-style="lower-alpha">
+<item><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−2.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>+</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>+</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+<para id="fs-id1172100842015"><title>Significance</title>
+In the special case of a closed surface, the flux calculations become a sum of charges. In the next section, this will allow us to work with more complex systems.</para>
+</example>
+<note id="fs-id1172100730613" class="check-understanding">
+<exercise id="fs-id1172098371394">
+<problem id="fs-id1172096233521">
+<para id="fs-id1172100840658"><emphasis effect="bold">Check Your Understanding</emphasis> Calculate the electric flux through the closed cubical surface for each charge distribution shown in <link target-id="CNX_UPhysics_23_02_CYU"/>.</para>
+<figure id="CNX_UPhysics_23_02_CYU">
+<media id="fs-id1172100589169" alt="Figures a through d show a cuboid with one corner at the origin of the coordinate axes. In figure a, there is a charge plus 3.0 mu C on the surface parallel to the yz plane. In figure b, there is a charge minus 3.0 mu C on the surface parallel to the yz plane. In figure c, there is a charge plus 3.0 mu C on the surface parallel to the yz plane, a charge minus 3.0 mu C on the y axis outside the shape and a charge plus 6.0 mu C outside the shape. In figure d, there is a charge minus 3.0 mu C on the y axis outside the shape and charges plus 3.0 mu C and plus 6.0 mu C outside the shape.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_CYU.jpg"/>
+</media>
+<caption>A cubical Gaussian surface with various charge distributions.</caption>
+</figure>
+</problem>
+<solution id="fs-id1172098549772">
+<para id="fs-id1172100728300">a. <m:math><m:mrow><m:mn>3.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C;</m:mtext></m:mrow></m:math> b. <m:math><m:mrow><m:mn>−3.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C;</m:mtext></m:mrow></m:math> c. <m:math><m:mrow><m:mn>3.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C;</m:mtext></m:mrow></m:math> d. 0</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1172098522322" class="media-2">
+<para id="fs-id1172100904504">Use this <link url="https://openstax.org/l/21gaussimulat">simulation</link> to adjust the magnitude of the charge and the radius of the Gaussian surface around it. See how this affects the total flux and the magnitude of the electric field at the Gaussian surface.</para>
+</note>
+</section>
+<section id="fs-id1172098443383" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172098403304" list-type="bulleted" bullet-style="bullet">
+<item>Gauss’s law relates the electric flux through a closed surface to the net charge within that surface, 
+<equation id="fs-id1172098628943" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+where <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the total charge inside the Gaussian surface <emphasis effect="italics">S</emphasis>.</item>
+<item>All surfaces that include the same amount of charge have the same number of field lines crossing it, regardless of the shape or size of the surface, as long as the surfaces enclose the same amount of charge.</item>
+</list>
+</section>
+<section id="fs-id1172098310042" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172098354685">
+<problem id="fs-id1172100656502">
+<para id="fs-id1172098766160">Two concentric spherical surfaces enclose a point charge <emphasis effect="italics">q</emphasis>. The radius of the outer sphere is twice that of the inner one. Compare the electric fluxes crossing the two surfaces.</para>
+</problem>
+<solution id="fs-id1172098546001">
+<para id="fs-id1172098269671">Since the electric field vector has a <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> dependence, the fluxes are the same since <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100776781">
+<problem id="fs-id1172100857156">
+<para id="fs-id1172100530070">Compare the electric flux through the surface of a cube of side length <emphasis effect="italics">a</emphasis> that has a charge <emphasis effect="italics">q</emphasis> at its center to the flux through a spherical surface of radius <emphasis effect="italics">a</emphasis> with a charge <emphasis effect="italics">q</emphasis> at its center.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172096331478">
+<problem id="fs-id1172100556643">
+<para id="fs-id1172100909345">(a) If the electric flux through a closed surface is zero, is the electric field necessarily zero at all points on the surface? (b) What is the net charge inside the surface?</para>
+</problem>
+<solution id="fs-id1172100921449">
+<para id="fs-id1172100502407">a. no; b. zero</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100854459">
+<problem id="fs-id1172098596320">
+<para id="fs-id1172100665749">Discuss how Gauss’s law would be affected if the electric field of a point charge did not vary as <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098601913">
+<problem id="fs-id1172098293868">
+<para id="fs-id1172096018584">Discuss the similarities and differences between the gravitational field of a point mass <emphasis effect="italics">m</emphasis> and the electric field of a point charge <emphasis effect="italics">q</emphasis>.</para>
+</problem>
+<solution id="fs-id1172100627130">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172100981775">Both fields vary as <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>. Because the gravitational constant is so much smaller than <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>, the gravitational field is orders of magnitude weaker than the electric field. Also, the gravitational flux through a closed surface is zero or positive; however, the electric flux is positive, negative, or zero, depending on the definition of flux for the given situation.</para></solution>
+</exercise>
+<exercise id="fs-id1172100922989">
+<problem id="fs-id1172098719052">
+<para id="fs-id1172100961451">Discuss whether Gauss’s law can be applied to other forces, and if so, which ones.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098510557">
+<problem id="fs-id1172098390664">
+<para id="fs-id1172098756700">Is the term <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>E</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> in Gauss’s law the electric field produced by just the charge inside the Gaussian surface?</para>
+</problem>
+<solution id="fs-id1172100597434">
+<para id="fs-id1172100990389">No, it is produced by all charges both inside and outside the Gaussian surface.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100722399">
+<problem id="fs-id1172098407846">
+<para id="fs-id1172100727340">Reformulate Gauss’s law by choosing the unit normal of the Gaussian surface to be the one directed inward.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172098550148" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172100769466">
+<problem id="fs-id1172100492390">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172100645452">Determine the electric flux through each closed surface where the cross-section inside the surface is shown below.</para><media id="fs-id1172100784380" alt="Figure shows an irregular shape S1. Within it are four irregular shapes labeled S2, S3, S4 and S6 and a quadrilateral labeled S5. All these overlap with one or more of each other. A charge minus 2q is shown in the overlap region of S1, S2 and S4. A charge minus 2q is shown in the overlap region of S1, S4 and S5. A charge plus q is shown in the overlap region of S1 and S3. A charge plus 3q is shown in the overlap region of S1 and S6.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_MultiSurf_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172100745614">
+<problem id="fs-id1172100769348">
+<para id="fs-id1172100598677">Find the electric flux through the closed surface whose cross-sections are shown below.</para>
+<media id="fs-id1172098653978" alt="Figure a shows an irregular shape with a positive charge inside it labeled 3 into 10 to the power minus 8 C. There is a negative charge outside it, labeled minus 2 into 10 to the power 8 C. Figure b shows an irregular shape with three charges outside it. These are plus 4 into 10 to the power minus 6 C, plus 5 into 10 to the power minus 6 C and minus three into 10 to the power minus 6 C. Figure c shows a square with the length of each side equal to a. There is a charge minus 2 into 10 to the power minus 6 C within it. Figure d shows a shaded strip with plus signs near the inside edges. It is labeled conductor. An arrow points outward from either end of the strip. These arrows are labeled infinity. A small rectangle is attached to one side of the strip, covering one plus sign. It is labeled end cap of area, 4 into 10 to the power minus 4 m squared. The strip is labeled sigma equal to 2 into 10 to the power minus 6 C by m squared.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_MultiSyst_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172098549561">
+<para id="fs-id1172100525488">a. <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mn>3.39</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>;<newline/>
+c. <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mn>−2.25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow></m:math>;<newline/>
+d. <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mn>90.4</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098459697">
+<problem id="fs-id1172096232607">
+<para id="fs-id1172100658725">A point charge <emphasis effect="italics">q</emphasis> is located at the center of a cube whose sides are of length <emphasis effect="italics">a</emphasis>. If there are no other charges in this system, what is the electric flux through one face of the cube?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098704098">
+<problem id="fs-id1172101032654">
+<para id="fs-id1172100738792">A point charge of <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> is at an unspecified location inside a cube of side 2 cm. Find the net electric flux though the surfaces of the cube.</para>
+</problem>
+<solution id="fs-id1172098267809">
+<para id="fs-id1172096310891"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mn>1.13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098261743">
+<problem id="fs-id1172100924583">
+<para id="fs-id1172100759838">A net flux of <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext></m:mrow></m:math> passes inward through the surface of a sphere of radius 5 cm. (a) How much charge is inside the sphere? (b) How precisely can we determine the location of the charge from this information?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100493256">
+<problem id="fs-id1172101002526">
+<para id="fs-id1172098515367">A charge <emphasis effect="italics">q</emphasis> is placed at one of the corners of a cube of side <emphasis effect="italics">a</emphasis>, as shown below. Find the magnitude of the electric flux through the shaded face due to <emphasis effect="italics">q</emphasis>. Assume <m:math><m:mrow><m:mi>q</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+<media id="fs-id1172096227716" alt="Figure shows a cube with length of each side equal to a. The back surface of it is shaded. One front corner has a small circle on it labeled q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_Cube_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100742871">
+<para id="fs-id1172098693350">Make a cube with <emphasis effect="italics">q</emphasis> at the center, using the cube of side <emphasis effect="italics">a</emphasis>. This would take four cubes of side <emphasis effect="italics">a</emphasis> to make one side of the large cube. The shaded side of the small cube would be 1/24th of the total area of the large cube; therefore, the flux through the shaded area would be<newline/>
+<m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098642772">
+<problem id="fs-id1172100635034">
+<para id="fs-id1172100895136">The electric flux through a cubical box 8.0 cm on a side is <m:math><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> What is the total charge enclosed by the box?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101032982">
+<problem id="fs-id1172098363006">
+<para id="fs-id1172096089433">The electric flux through a spherical surface is <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> What is the net charge enclosed by the surface?</para>
+</problem>
+<solution id="fs-id1172096016702">
+<para id="fs-id1172098656508"><m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>3.54</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100636024">
+<problem id="fs-id1172101002446">
+<para id="fs-id1172100634884">A cube whose sides are of length <emphasis effect="italics">d</emphasis> is placed in a uniform electric field of magnitude <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N/C</m:mtext></m:mrow></m:math> so that the field is perpendicular to two opposite faces of the cube. What is the net flux through the cube?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101029922">
+<problem id="fs-id1172100636857">
+<para id="fs-id1172100500498">Repeat the previous problem, assuming that the electric field is directed along a body diagonal of the cube.</para>
+</problem>
+<solution id="fs-id1172098567421">
+<para id="fs-id1172100735316">zero, also because flux in equals flux out</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098410689">
+<problem id="fs-id1172096072564">
+<para id="fs-id1172098317904">A total charge <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> is distributed uniformly throughout a cubical volume whose edges are 8.0 cm long. (a) What is the charge density in the cube? (b) What is the electric flux through a cube with 12.0-cm edges that is concentric with the charge distribution? (c) Do the same calculation for cubes whose edges are 10.0 cm long and 5.0 cm long. (d) What is the electric flux through a spherical surface of radius 3.0 cm that is also concentric with the charge distribution?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172100551861">
+<term>Gaussian surface</term>
+<meaning id="fs-id1172093815507">any enclosed (usually imaginary) surface</meaning>
+</definition>
+</glossary>
+
+</document>

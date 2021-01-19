@@ -1,0 +1,198 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>The Heisenberg Uncertainty Principle</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58578</md:content-id>
+  <md:title>The Heisenberg Uncertainty Principle</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the physical meaning of the position-momentum uncertainty relation</item>
+<item>Explain the origins of the uncertainty principle in quantum theory</item>
+<item>Describe the physical meaning of the energy-time uncertainty relation</item>
+</list></md:abstract>
+  <md:uuid>70d7aba6-5e37-4b63-840e-59878c82449b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902853376"><term>Heisenberg’s uncertainty principle</term> is a key principle in quantum mechanics. Very roughly, it states that if we know <emphasis effect="italics">everything</emphasis> about where a particle is located (the uncertainty of position is small), we know <emphasis effect="italics">nothing</emphasis> about its momentum (the uncertainty of momentum is large), and vice versa. Versions of the uncertainty principle also exist for other quantities as well, such as energy and time. We discuss the momentum-position and energy-time uncertainty principles separately.</para>
+<section id="fs-id1170902719055">
+<title>Momentum and Position</title>
+<para id="fs-id1170899455281">To illustrate the momentum-position uncertainty principle, consider a free particle that moves along the <emphasis effect="italics">x</emphasis>-direction. The particle moves with a constant velocity <emphasis effect="italics">u</emphasis> and momentum <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>u</m:mi></m:mrow></m:math>. According to de Broglie’s relations, <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>k</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>ω</m:mi></m:mrow></m:math>. As discussed in the previous section, the wave function for this particle is given by</para>
+<equation id="fs-id1170902751193"><m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mi>k</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:mo stretchy="false">[</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>i</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:msup><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mtext> </m:mtext><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi></m:mrow></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mtext> </m:mtext><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi></m:mrow></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1170901842781">and the probability density <m:math><m:mrow><m:mo>|</m:mo><m:msub><m:mi>ψ</m:mi><m:mi>k</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mo>|</m:mo><m:mrow><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mi>A</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> is <emphasis effect="italics">uniform</emphasis> and independent of time. The particle is equally likely to be found anywhere along the <emphasis effect="italics">x</emphasis>-axis but has definite values of wavelength and wave number, and therefore momentum. The uncertainty of position is infinite (we are completely uncertain about position) and the uncertainty of the momentum is zero (we are completely certain about momentum). This account of a free particle is consistent with Heisenberg’s uncertainty principle.</para>
+<para id="fs-id1170902869050">Similar statements can be made of localized particles. In quantum theory, a localized particle is modeled by a linear superposition of free-particle (or plane-wave) states called a <term>wave packet</term>. An example of a wave packet is shown in <link target-id="CNX_UPhysics_40_02_packet"/>. A wave packet contains many wavelengths and therefore by de Broglie’s relations many momenta—possible in quantum mechanics! This particle also has many values of position, although the particle is confined mostly to the interval <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math>. The particle can be better localized <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> can be decreased) if more plane-wave states of different wavelengths or momenta are added together in the right way <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:math> is increased). According to Heisenberg, these uncertainties obey the following relation.</para>
+<note id="fs-id1170901907360">
+<title>The Heisenberg Uncertainty Principle</title>
+<para id="fs-id1170901766281">The product of the uncertainty in position of a particle and the uncertainty in its momentum can never be less than one-half of the reduced Planck constant:</para>
+<equation id="fs-id1170901907603"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>≥</m:mo><m:mi>ℏ</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170901609020">This relation expresses Heisenberg’s uncertainty principle. It places limits on what we can know about a particle from simultaneous measurements of position and momentum. If <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> is large, <m:math><m:mrow><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:math> is small, and vice versa. <link target-id="fs-id1170901907603"/> can be derived in a more advanced course in modern physics. Reflecting on this relation in his work <emphasis effect="italics">The Physical Principles of the Quantum Theory</emphasis>, Heisenberg wrote “Any use of the words ‘position’ and ‘velocity’ with accuracy exceeding that given by [the relation] is just as meaningless as the use of words whose sense is not defined.”</para>
+<figure id="CNX_UPhysics_40_02_packet">
+<media id="fs-id1170902690528" alt="Several waves are shown, all with equal amplitude but different. The result of adding these to form a wave packet is also shown. The wave packet is an oscillating wave whose amplitude increases to a maximum then decreases, so that its envelope is a pulse of width Delta x.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_40_02_packet.jpg"/>
+</media>
+<caption>Adding together several plane waves of different wavelengths can produce a wave that is relatively localized.</caption>
+</figure>
+<para id="fs-id1170902034620">Note that the uncertainty principle has nothing to do with the precision of an experimental apparatus. Even for perfect measuring devices, these uncertainties would remain because they originate in the wave-like nature of matter. The precise value of the product <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:math> depends on the specific form of the wave function. Interestingly, the Gaussian function (or bell-curve distribution) gives the minimum value of the uncertainty product: <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>=</m:mo><m:mrow><m:mi>ℏ</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1170899361241">
+<para id="fs-id1170902918388"><title>The Uncertainty Principle Large and Small</title>
+Determine the minimum uncertainties in the positions of the following objects if their speeds are known with a precision of <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math>: (a) an electron and (b) a bowling ball of mass 6.0 kg.</para>
+<para id="fs-id1170901922139"><title>Strategy</title>
+Given the uncertainty in speed <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math>, we have to first determine the uncertainty in momentum <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>u</m:mi></m:mrow></m:math> and then invert <link target-id="fs-id1170901907603"/> to find the uncertainty in position <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mrow><m:mi>ℏ</m:mi><m:mtext>/</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:math>.</para>
+<para id="fs-id1170902908721"><title>Solution</title></para>
+<list id="fs-id1170901627145" list-type="enumerated" number-style="lower-alpha">
+<item>For the electron:
+<equation id="fs-id1170901766421" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mtext>Δ</m:mtext><m:mi>u</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>9.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext><m:mtext> </m:mtext><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>5.8</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>For the bowling ball: 
+<equation id="fs-id1170902918463" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mtext>Δ</m:mtext><m:mi>u</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext><m:mtext> </m:mtext><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−33</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1170901501570"><title>Significance</title>
+Unlike the position uncertainty for the electron, the position uncertainty for the bowling ball is immeasurably small. Planck’s constant is very small, so the limitations imposed by the uncertainty principle are not noticeable in macroscopic systems such as a bowling ball.</para>
+</example>
+<example id="fs-id1170899293581">
+<para id="fs-id1170901952013"><title>Uncertainty and the Hydrogen Atom</title>
+Estimate the ground-state energy of a hydrogen atom using Heisenberg’s uncertainty principle. (<emphasis effect="italics">Hint</emphasis>: According to early experiments, the size of a hydrogen atom is approximately 0.1 nm.)</para>
+<para id="fs-id1170902836882"><title>Strategy</title>
+An electron bound to a hydrogen atom can be modeled by a particle bound to a one-dimensional box of length <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0.1</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> The ground-state wave function of this system is a half wave, like that given in <link target-id="fs-id1170902178031" document="m58576"/>. This is the largest wavelength that can “fit” in the box, so the wave function corresponds to the lowest energy state. Note that this function is very similar in shape to a Gaussian (bell curve) function. We can take the average energy of a particle described by this function (<emphasis effect="italics">E</emphasis>) as a good estimate of the ground state energy <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. This average energy of a particle is related to its average of the momentum squared, which is related to its momentum uncertainty.</para>
+<para id="fs-id1170902793158"><title>Solution</title>
+To solve this problem, we must be specific about what is meant by “uncertainty of position” and “uncertainty of momentum.” We identify the uncertainty of position <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> with the standard deviation of position <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, and the uncertainty of momentum <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> with the standard deviation of momentum <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>σ</m:mi><m:mi>p</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. For the Gaussian function, the uncertainty product is</para>
+<equation id="fs-id1170901778980" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub><m:msub><m:mi>σ</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903039023">where</para>
+<equation id="fs-id1170903126328" class="unnumbered"><label/><m:math><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mover accent="true"><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:mtext>and</m:mtext><m:mspace width="0.5em"/><m:msubsup><m:mi>σ</m:mi><m:mi>p</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902687122">The particle is equally likely to be moving left as moving right, so <m:math><m:mrow><m:mover accent="true"><m:mi>p</m:mi><m:mo>–</m:mo></m:mover><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Also, the uncertainty of position is comparable to the size of the box, so <m:math><m:mrow><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mo>.</m:mo></m:mrow></m:math> The estimated ground state energy is therefore</para>
+<equation id="fs-id1170903039426" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Gaussian</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">–</m:mo></m:mover></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mi>p</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903075441">Multiplying numerator and denominator by <m:math><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> gives</para>
+<equation id="fs-id1170901531057" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ℏ</m:mi><m:mtext>c</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>197.3</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>·</m:mo><m:mtext>nm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.511</m:mn><m:mo>·</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.1</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.952</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>≈</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901548781"><title>Significance</title>
+Based on early estimates of the size of a hydrogen atom and the uncertainty principle, the ground-state energy of a hydrogen atom is in the eV range. The ionization energy of an electron in the ground-state energy is approximately 10 eV, so this prediction is roughly confirmed. (<emphasis effect="italics">Note:</emphasis> The product <m:math><m:mrow><m:mi>ℏ</m:mi><m:mi>c</m:mi></m:mrow></m:math> is often a useful value in performing calculations in quantum mechanics.)</para>
+</example>
+</section>
+<section id="fs-id1170903096776">
+<title>Energy and Time</title>
+<para id="fs-id1170902033490">Another kind of uncertainty principle concerns uncertainties in simultaneous measurements of the energy of a quantum state and its lifetime,</para>
+<note id="fs-id1170901641016" class="equation-callout">
+<equation id="fs-id1170901496332"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>≥</m:mo><m:mfrac><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902751144">where <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> is the uncertainty in the energy measurement and <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> is the uncertainty in the lifetime measurement. The <term>energy-time uncertainty principle</term> does not result from a relation of the type expressed by <link target-id="fs-id1170901907603"/> for technical reasons beyond this discussion. Nevertheless, the general meaning of the energy-time principle is that a quantum state that exists for only a short time cannot have a definite energy. The reason is that the frequency of a state is inversely proportional to time and the frequency connects with the energy of the state, so to measure the energy with good precision, the state must be observed for many cycles.</para>
+<para id="fs-id1170903087103">To illustrate, consider the excited states of an atom. The finite lifetimes of these states can be deduced from the shapes of spectral lines observed in atomic emission spectra. Each time an excited state decays, the emitted energy is slightly different and, therefore, the emission line is characterized by a <emphasis effect="italics">distribution</emphasis> of spectral frequencies (or wavelengths) of the emitted photons. As a result, all spectral lines are characterized by spectral widths. The average energy of the emitted photon corresponds to the theoretical energy of the excited state and gives the spectral location of the peak of the emission line. Short-lived states have broad spectral widths and long-lived states have narrow spectral widths.</para>
+<example id="fs-id1170901572148">
+<para id="fs-id1170901503413"><title>Atomic Transitions</title>
+An atom typically exists in an excited state for about <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math>. Estimate the uncertainty <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi></m:mrow></m:math> in the frequency of emitted photons when an atom makes a transition from an excited state with the simultaneous emission of a photon with an average frequency of <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>7.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math>. Is the emitted radiation monochromatic?</para>
+<para id="fs-id1170902897964"><title>Strategy</title>
+We invert <link target-id="fs-id1170901496332"/> to obtain the energy uncertainty <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>≈</m:mo><m:mrow><m:mi>ℏ</m:mi><m:mtext>/</m:mtext><m:mrow><m:mn>2</m:mn><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:math> and combine it with the photon energy <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mtext> </m:mtext><m:mi>f</m:mi></m:mrow></m:math> to obtain <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi></m:mrow></m:math>. To estimate whether or not the emission is monochromatic, we evaluate <m:math><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>f</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>f</m:mi></m:mrow></m:mrow></m:math>.</para>
+<para id="fs-id1170901705276"><title>Solution</title>
+The spread in photon energies is <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mtext> </m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mtext>Δ</m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi></m:mrow></m:math>. Therefore,</para>
+<equation id="fs-id1170902002944" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>h</m:mi><m:mtext>Δ</m:mtext><m:mi>f</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mtext>Δ</m:mtext><m:mi>f</m:mi><m:mo>≈</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mtext>π</m:mtext><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mtext>π</m:mtext><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext><m:mtext>,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>f</m:mi></m:mrow><m:mi>f</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow><m:mrow><m:mn>7.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170903099099"><title>Significance</title>
+Because the emitted photons have their frequencies within <m:math><m:mrow><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math> percent of the average frequency, the emitted radiation can be considered monochromatic.</para>
+</example>
+<note id="fs-id1170899252488" class="check-understanding">
+<exercise id="fs-id1170902741542">
+<problem id="fs-id1170902916137">
+<para id="fs-id1170899246058"><emphasis effect="bold">Check Your Understanding</emphasis> A sodium atom makes a transition from the first excited state to the ground state, emitting a 589.0-nm photon with energy 2.105 eV. If the lifetime of this excited state is <m:math><m:mrow><m:mn>1.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math>, what is the uncertainty in energy of this excited state? What is the width of the corresponding spectral line?</para>
+</problem>
+<solution id="fs-id1170902617297">
+<para id="fs-id1170902788527"><m:math><m:mrow><m:mn>4.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>eV</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>nm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170902720780" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170902957392" list-type="bulleted" bullet-style="bullet">
+<item>The Heisenberg uncertainty principle states that it is impossible to simultaneously measure the <emphasis effect="italics">x</emphasis>-components of position and of momentum of a particle with an arbitrarily high precision. The product of experimental uncertainties is always larger than or equal to <m:math><m:mrow><m:mi>ℏ</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>The limitations of this principle have nothing to do with the quality of the experimental apparatus but originate in the wave-like nature of matter.</item>
+<item>The energy-time uncertainty principle expresses the experimental observation that a quantum state that exists only for a short time cannot have a definite energy.</item>
+</list>
+</section>
+<section id="fs-id1170903064557" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170902924810">
+<problem id="fs-id1170901634580">
+<para id="fs-id1170901481467">If the formalism of quantum mechanics is ‘more exact’ than that of classical mechanics, why don’t we use quantum mechanics to describe the motion of a leaping frog? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902924266">
+<problem id="fs-id1170901595052">
+<para id="fs-id1170902767765">Can the de Broglie wavelength of a particle be known precisely? Can the position of a particle be known precisely?</para>
+</problem>
+<solution id="fs-id1170902871755">
+<para id="fs-id1170903051510">Yes, if its position is completely unknown. Yes, if its momentum is completely unknown.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901755166">
+<problem id="fs-id1170902739558">
+<para id="fs-id1170902865916">Can we measure the energy of a free localized particle with complete precision?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902936328">
+<problem id="fs-id1170902914390">
+<para id="fs-id1170901914538">Can we measure both the position and momentum of a particle with complete precision?</para>
+</problem>
+<solution id="fs-id1170902766265">
+<para id="fs-id1170902685163">No. According to the uncertainty principle, if the uncertainty on the particle’s position is small, the uncertainty on its momentum is large. Similarly, if the uncertainty on the particle’s position is large, the uncertainty on its momentum is small.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170901541994" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170902744334">
+<problem id="fs-id1170901539194">
+<para id="fs-id1170901712064">A velocity measurement of an <m:math><m:mi>α</m:mi></m:math>-particle has been performed with a precision of 0.02 mm/s. What is the minimum uncertainty in its position?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903080757">
+<problem id="fs-id1170902773610">
+<para id="fs-id1170901648918">A gas of helium atoms at 273 K is in a cubical container with 25.0 cm on a side. (a) What is the minimum uncertainty in momentum components of helium atoms? (b) What is the minimum uncertainty in velocity components? (c) Find the ratio of the uncertainties in (b) to the mean speed of an atom in each direction.</para>
+</problem>
+<solution id="fs-id1170901604955">
+<para id="fs-id1170903116922">a. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>2.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mo>≥</m:mo><m:mn>6.31</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msqrt><m:mrow><m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>m</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:mrow></m:mrow></m:msqrt></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>5.94</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901927981">
+<problem id="fs-id1170901704436">
+<para id="fs-id1170902916022">If the uncertainty in the <m:math><m:mi>y</m:mi></m:math>-component of a proton’s position is 2.0 pm, find the minimum uncertainty in the simultaneous measurement of the proton’s <m:math><m:mi>y</m:mi></m:math>-component of velocity. What is the minimum uncertainty in the simultaneous measurement of the proton’s <m:math><m:mi>x</m:mi></m:math>-component of velocity?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902689383">
+<problem id="fs-id1170901927522">
+<para id="fs-id1170903053671">Some unstable elementary particle has a rest energy of 80.41 GeV and an uncertainty in rest energy of 2.06 GeV. Estimate the lifetime of this particle.</para>
+</problem>
+<solution id="fs-id1170903082735">
+<para id="fs-id1170903079703"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>τ</m:mi><m:mo>≥</m:mo><m:mn>1.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903098645">
+<problem id="fs-id1170902789276">
+<para id="fs-id1170901628542">An atom in a metastable state has a lifetime of 5.2 ms. Find the minimum uncertainty in the measurement of energy of the excited state.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902901895">
+<problem id="fs-id1170902860273">
+<para id="fs-id1170901747552">Measurements indicate that an atom remains in an excited state for an average time of 50.0 ns before making a transition to the ground state with the simultaneous emission of a 2.1-eV photon. (a) Estimate the uncertainty in the frequency of the photon. (b) What fraction of the photon’s average frequency is this?</para>
+</problem>
+<solution id="fs-id1170901995477">
+<para id="fs-id1170902924394">a. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>f</m:mi><m:mo>≥</m:mo><m:mn>1.59</m:mn><m:mspace width="0.2em"/><m:mtext>MHz</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>ω</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>3.135</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901699219">
+<problem id="fs-id1170901522481">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170903141728">Suppose an electron is confined to a region of length 0.1 nm (of the order of the size of a hydrogen atom). (a) What is the minimum uncertainty of its momentum? (b) What would the uncertainty in momentum be if the confined length region doubled to 0.2 nm?</para></problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170901497750">
+<term>Heisenberg’s uncertainty principle</term>
+<meaning id="fs-id1170902724074">places limits on what can be known from a simultaneous measurements of position and momentum; states that if the uncertainty on position is small then the uncertainty on momentum is large, and vice versa</meaning>
+</definition>
+<definition id="fs-id1170902750454">
+<term>wave packet</term>
+<meaning id="fs-id1170902951018">superposition of many plane matter waves that can be used to represent a localized particle</meaning>
+</definition>
+<definition id="fs-id1170901603884">
+<term>energy-time uncertainty principle</term>
+<meaning id="fs-id1170899581744">energy-time relation for uncertainties in the simultaneous measurements of the energy of a quantum state and of its lifetime</meaning>
+</definition>
+</glossary>
+</document>

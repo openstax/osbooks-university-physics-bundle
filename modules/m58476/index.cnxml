@@ -1,0 +1,216 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Lenz's Law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58476</md:content-id>
+  <md:title>Lenz's Law</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Use Lenz’s law to determine the direction of induced emf whenever a magnetic flux changes</item>
+<item>Use Faraday’s law with Lenz’s law to determine the induced emf in a coil and in a solenoid</item>
+</list></md:abstract>
+  <md:uuid>64d72376-ecca-4e42-b51e-07c2757ed8dc</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171242345816">The direction in which the induced emf drives current around a wire loop can be found through the negative sign. However, it is usually easier to determine this direction with <term>Lenz’s law</term>, named in honor of its discoverer, Heinrich <term class="no-emphasis">Lenz</term> (1804–1865). (Faraday also discovered this law, independently of Lenz.) We state Lenz’s law as follows:</para>
+<note id="fs-id1171242160295">
+<title>Lenz’s Law</title>
+<para id="fs-id1171242185736">The direction of the induced emf drives current around a wire loop to always <emphasis effect="italics">oppose</emphasis> the change in magnetic flux that causes the emf.</para>
+</note>
+<para id="fs-id1171242186242">Lenz’s law can also be considered in terms of conservation of energy. If pushing a magnet into a coil causes current, the energy in that current must have come from somewhere. If the induced current causes a magnetic field opposing the increase in field of the magnet we pushed in, then the situation is clear. We pushed a magnet against a field and did work on the system, and that showed up as current. If it were not the case that the induced field opposes the change in the flux, the magnet would be pulled in produce a current without anything having done work. Electric potential energy would have been created, violating the conservation of energy.</para>
+<para id="fs-id1171242598108">To determine an induced emf <m:math><m:mi>ε</m:mi></m:math>, you first calculate the magnetic flux <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> and then obtain <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> The magnitude of <m:math><m:mi>ε</m:mi></m:math> is given by <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Finally, you can apply Lenz’s law to determine the sense of <m:math><m:mtext>ε</m:mtext></m:math>. This will be developed through examples that illustrate the following problem-solving strategy.</para>
+<note id="fs-id1171242270572" class="problem-solving">
+<title>Lenz’s Law</title>
+<para id="fs-id1171242312672">To use Lenz’s law to determine the directions of induced magnetic fields, currents, and emfs:</para>
+<list id="fs-id1171242325072" list-type="enumerated" number-style="arabic">
+<item>Make a sketch of the situation for use in visualizing and recording directions.</item>
+<item>Determine the direction of the applied magnetic field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Determine whether its magnetic flux is increasing or decreasing.</item>
+<item>Now determine the direction of the induced magnetic field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> The induced magnetic field tries to reinforce a magnetic flux that is decreasing or opposes a magnetic flux that is increasing. Therefore, the induced magnetic field adds or subtracts to the applied magnetic field, depending on the change in magnetic flux.</item>
+<item>Use <term class="no-emphasis">right-hand rule 2</term> (RHR-2; see <link document="m58737">Magnetic Forces and Fields</link>) to determine the direction of the induced current <emphasis effect="italics">I</emphasis> that is responsible for the induced magnetic field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>The direction (or polarity) of the induced emf can now drive a conventional current in this direction.</item>
+</list>
+</note>
+<para id="fs-id1171242058417">Let’s apply Lenz’s law to the system of <link target-id="CNX_UPhysics_30_02_Flux"/>(a). We designate the “front” of the closed conducting loop as the region containing the approaching bar magnet, and the “back” of the loop as the other region. As the north pole of the magnet moves toward the loop, the flux through the loop due to the field of the magnet increases because the strength of field lines directed from the front to the back of the loop is increasing. A current is therefore induced in the loop. By Lenz’s law, the direction of the induced current must be such that its own magnetic field is directed in a way to <emphasis effect="italics">oppose</emphasis> the changing flux caused by the field of the approaching magnet. Hence, the induced current circulates so that its magnetic field lines through the loop are directed from the back to the front of the loop. By RHR-2, place your thumb pointing against the magnetic field lines, which is toward the bar magnet. Your fingers wrap in a counterclockwise direction as viewed from the bar magnet. Alternatively, we can determine the direction of the induced current by treating the current loop as an electromagnet that <emphasis effect="italics">opposes</emphasis> the approach of the north pole of the bar magnet. This occurs when the induced current flows as shown, for then the face of the loop nearer the approaching magnet is also a north pole.</para>
+<figure id="CNX_UPhysics_30_02_Flux">
+<media id="fs-id1171242084695" alt="Figure A shows a magnet that is moving towards the loop with the North pole facing the loop. The magnetic field lines leave the North pole of the magnet and cause the counterclockwise current flow in the loop. Figure B shows a magnet that is moving towards the loop with the South pole facing the loop. The magnetic field lines enter the South pole of the magnet and cause the clockwise current flow in the loop.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_Flux.jpg"/>
+</media>
+<caption>The change in magnetic flux caused by the approaching magnet induces a current in the loop. (a) An approaching north pole induces a counterclockwise current with respect to the bar magnet. (b) An approaching south pole induces a clockwise current with respect to the bar magnet.</caption>
+</figure>
+<para id="fs-id1171242141114">Part (b) of the figure shows the south pole of a magnet moving toward a conducting loop. In this case, the flux through the loop due to the field of the magnet increases because the number of field lines directed from the back to the front of the loop is increasing. To oppose this change, a current is induced in the loop whose field lines through the loop are directed from the front to the back. Equivalently, we can say that the current flows in a direction so that the face of the loop nearer the approaching magnet is a south pole, which then repels the approaching south pole of the magnet. By RHR-2, your thumb points away from the bar magnet. Your fingers wrap in a clockwise fashion, which is the direction of the induced current.</para>
+<para id="fs-id1171242187185">Another example illustrating the use of Lenz’s law is shown in <link target-id="CNX_UPhysics_30_02_Switch"/>. When the switch is opened, the decrease in current through the <term class="no-emphasis">solenoid</term> causes a decrease in magnetic flux through its coils, which induces an emf in the solenoid. This emf must oppose the change (the termination of the current) causing it. Consequently, the induced emf has the polarity shown and drives in the direction of the original current. This may generate an arc across the terminals of the switch as it is opened.</para>
+<figure id="CNX_UPhysics_30_02_Switch">
+<media id="fs-id1171242088065" alt="Figure A shows a circuit that consists of a solenoid, capacitor, and a closed switch. There is no current flow in the circuit. Figure B shows a circuit that consists of a solenoid, capacitor, and an opening switch. There is a current flow in the circuit. Figure C is a photo of an electrical arc generated between two metal contacts.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_Switch.jpg"/>
+</media>
+<caption>(a) A solenoid connected to a source of emf. (b) Opening switch S terminates the current, which in turn induces an emf in the solenoid. (c) A potential difference between the ends of the sharply pointed rods is produced by inducing an emf in a coil. This potential difference is large enough to produce an arc between the sharp points.</caption>
+</figure>
+<note id="fs-id1171242104175" class="check-understanding">
+<exercise id="fs-id1171242537913">
+<problem id="fs-id1171242609174">
+<para id="fs-id1171242411358"><emphasis effect="bold">Check Your Understanding</emphasis> Find the direction of the induced current in the wire loop shown below as the magnet enters, passes through, and leaves the loop.</para>
+</problem>
+<solution id="fs-id1171242153022">
+<para id="fs-id1171242237594">To the observer shown, the current flows clockwise as the magnet approaches, decreases to zero when the magnet is centered in the plane of the coil, and then flows counterclockwise as the magnet leaves the coil.<newline/>
+<media id="fs-id1171242160143" alt="Figure shows a magnet that is moving into and through the loop with the South pole facing the loop. Position (a) corresponds to magnet approaching the loop; position (b) corresponds to the magnet directly into the loop. Position (c) corresponds to the magnet moving away from the loop.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_Wloop_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171242186795" class="check-understanding">
+<exercise id="fs-id1171242146476">
+<problem id="fs-id1171239841445">
+<para id="fs-id1171242189173"><emphasis effect="bold">Check Your Understanding</emphasis> Verify the directions of the induced currents in <link target-id="CNX_UPhysics_30_01_Circuit" document="m58472"/>.</para>
+</problem>
+</exercise>
+</note>
+<example id="fs-id1171242446729">
+<para id="fs-id1171242239280"><title>A Circular Coil in a Changing Magnetic Field</title>
+A magnetic field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is directed outward perpendicular to the plane of a circular coil of radius <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> (<link target-id="CNX_UPhysics_30_02_Circle"/>). The field is cylindrically symmetrical with respect to the center of the coil, and its magnitude decays exponentially according to <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.5</m:mn><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">B</emphasis> is in teslas and <emphasis effect="italics">t</emphasis> is in seconds. (a) Calculate the emf induced in the coil at the times <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (b) Determine the current in the coil at these three times if its resistance is <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_30_02_Circle">
+<media id="fs-id1171242171296" alt="Figure shows a circular coil of radius r in a decreasing uniform magnetic field.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_Circle.jpg"/>
+</media>
+<caption>A circular coil in a decreasing magnetic field.</caption>
+</figure>
+<para id="fs-id1171242160593"><title>Strategy</title>
+Since the magnetic field is perpendicular to the plane of the coil and constant over each spot in the coil, the dot product of the magnetic field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> and normal to the area unit vector <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo stretchy="true">^</m:mo></m:mover></m:mstyle></m:mrow></m:math> turns into a multiplication. The magnetic field can be pulled out of the integration, leaving the flux as the product of the magnetic field times area. We need to take the time derivative of the exponential function to calculate the emf using Faraday’s law. Then we use Ohm’s law to calculate the current.</para>
+<para id="fs-id1171242160114"><title>Solution</title></para>
+<list id="fs-id1171242156212" list-type="enumerated" number-style="lower-alpha">
+<item>Since <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is perpendicular to the plane of the coil, the magnetic flux is given by
+<equation id="fs-id1171242415681" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.5</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−5.0</m:mn><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1.2</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+From Faraday’s law, the magnitude of the induced emf is
+<equation id="fs-id1171242534591" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mi>m</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1.2</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+Since <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is directed out of the page and is decreasing, the induced current must flow counterclockwise when viewed from above so that the magnetic field it produces through the coil also points out of the page. For all three times, the sense of ε is counterclockwise; its magnitudes are
+<equation id="fs-id1171242563703" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>;</m:mo><m:mspace width="0.5em"/><m:mi>ε</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4.7</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>;</m:mo><m:mspace width="0.5em"/><m:mi>ε</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>3</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.040</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>From Ohm’s law, the respective currents are
+<equation id="fs-id1171242109610" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.60</m:mn><m:mspace width="0.2em"/><m:mtext>A;</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>4.7</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.47</m:mn><m:mspace width="0.2em"/><m:mtext>A;</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+and 
+<equation id="fs-id1171242061934" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>3</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.040</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1171242612340"><title>Significance</title>
+An emf voltage is created by a changing magnetic flux over time. If we know how the magnetic field varies with time over a constant area, we can take its time derivative to calculate the induced emf.</para>
+</example>
+<example id="fs-id1171242354020">
+<para id="fs-id1171242121407"><title>Changing Magnetic Field Inside a Solenoid</title>
+The current through the windings of a solenoid with <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2000</m:mn></m:mrow></m:math> turns per meter is changing at a rate <m:math><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (See <link document="m58459">Sources of Magnetic Fields</link> for a discussion of solenoids.) The solenoid is 50-cm long and has a cross-sectional diameter of 3.0 cm. A small coil consisting of <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> closely wound turns wrapped in a circle of diameter 1.0 cm is placed in the middle of the solenoid such that the plane of the coil is perpendicular to the central axis of the solenoid. Assuming that the infinite-solenoid approximation is valid at the location of the small coil, determine the magnitude of the emf induced in the coil.</para>
+<para id="fs-id1171242428536"><title>Strategy</title>
+The magnetic field in the middle of the solenoid is a uniform value of <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math> This field is producing a maximum magnetic flux through the coil as it is directed along the length of the solenoid. Therefore, the magnetic flux through the coil is the product of the solenoid’s magnetic field times the area of the coil. Faraday’s law involves a time derivative of the magnetic flux. The only quantity varying in time is the current, the rest can be pulled out of the time derivative. Lastly, we include the number of turns in the coil to determine the induced emf in the coil.</para>
+<para id="fs-id1171242188576"><title>Solution</title>
+Since the field of the solenoid is given by <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mo>,</m:mo></m:mrow></m:math> the flux through each turn of the small coil is</para>
+<equation id="fs-id1171242547782" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171239839678">where <emphasis effect="italics">d</emphasis> is the diameter of the coil. Now from Faraday’s law, the magnitude of the emf induced in the coil is</para>
+<equation id="fs-id1171242238732" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>N</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>N</m:mi><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mfrac><m:mrow><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>20</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2000</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mtext>-1</m:mtext></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.010</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>A/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171242501795"><title>Significance</title>
+When the current is turned on in a vertical solenoid, as shown in <link target-id="CNX_UPhysics_30_02_JRing"/>, the ring has an induced emf from the solenoid’s changing magnetic flux that opposes the change. The result is that the ring is fired vertically into the air.</para>
+<figure id="CNX_UPhysics_30_02_JRing">
+<media id="fs-id1171242464680" alt="Figure is a photograph of a thin metal ring levitating above the vertical solenoid.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_JRing.jpg"/>
+</media>
+<caption>The jumping ring. When a current is turned on in the vertical solenoid, a current is induced in the metal ring. The stray field produced by the solenoid causes the ring to jump off the solenoid.</caption>
+</figure>
+</example>
+<note id="fs-id1171242067389" class="media-2">
+<para id="fs-id1171242406394">Visit this <link url="https://openstax.org/l/21flashmagind">website</link> for a demonstration of the jumping ring from MIT.</para>
+</note>
+<section id="fs-id1171242535187" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1171242165014" list-type="bulleted" bullet-style="bullet">
+<item>We can use Lenz’s law to determine the directions of induced magnetic fields, currents, and emfs.</item>
+<item>The direction of an induced emf always opposes the change in magnetic flux that causes the emf, a result known as Lenz’s law.</item>
+</list>
+</section>
+<section id="fs-id1171242424831" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1171242345928">
+<problem id="fs-id1171242528452">
+<para id="fs-id1171242417927">The circular conducting loops shown in the accompanying figure are parallel, perpendicular to the plane of the page, and coaxial. (a) When the switch S is closed, what is the direction of the current induced in <emphasis effect="italics">D</emphasis>? (b) When the switch is opened, what is the direction of the current induced in loop <emphasis effect="italics">D</emphasis>?</para>
+<media id="fs-id1171242155146" alt="Figure shows a circuit that consists of a resistor, capacitor, opened switch and a loop C. A loop D is located next to the loop C.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Q6_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171242227802">
+<para id="fs-id1171242460665">a. CW as viewed from the circuit; b. CCW as viewed from the circuit</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242433255">
+<problem id="fs-id1171242114108">
+<para id="fs-id1171242189532">The north pole of a magnet is moved toward a copper loop, as shown below. If you are looking at the loop from above the magnet, will you say the induced current is circulating clockwise or counterclockwise?</para>
+<media id="fs-id1171242148989" alt="Figure shows a magnet that is moving towards the loop with the North pole facing the loop.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_05_Quest_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171242177075">
+<problem id="fs-id1171242144458">
+<para id="fs-id1171242558097">The accompanying figure shows a conducting ring at various positions as it moves through a magnetic field. What is the sense of the induced emf for each of those positions?</para>
+<media id="fs-id1171242528755" alt="Figure shows the loop that moves through the area with the magnetic field perpendicular to it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_14_Quest_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171242164349">
+<para id="fs-id1171242570760">As the loop enters, the induced emf creates a CCW current while as the loop leaves the induced emf creates a CW current. While the loop is fully inside the magnetic field, there is no flux change and therefore no induced current.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242516855">
+<problem id="fs-id1171242086128">
+<para id="fs-id1171242414349">Show that <m:math><m:mi>ε</m:mi></m:math> and <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math> have the same units.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242504699">
+<problem id="fs-id1171242410956">
+<para id="fs-id1171242147103">State the direction of the induced current for each case shown below, observing from the side of the magnet.</para>
+<media id="fs-id1171242568595" alt="Figure A shows a magnet that is moving towards the loop with the North pole facing the loop. Figure B shows a magnet that is moving away from the loop with the North pole facing the loop. Figure C shows a magnet that is moving towards the loop with the South pole facing the loop. Figure D shows a magnet that is hold constant with the North pole facing the loop. The loop is moving towards the magnet. Figure E shows a magnet that is hold constant with the North pole facing the loop. Loop is moving away from the magnet. Figure F shows a magnet that is hold constant with the North pole facing the loop. Loop is rotating clockwise.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01pr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171239839737">
+<para id="fs-id1171242551322">a. CCW viewed from the magnet; b. CW viewed from the magnet; c. CW viewed from the magnet; d. CCW viewed from the magnet; e. CW viewed from the magnet; f. no current</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1171242122797" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1171242563925">
+<problem id="fs-id1171242085805">
+<para id="fs-id1171242531875">A single-turn circular loop of wire of radius 50 mm lies in a plane perpendicular to a spatially uniform magnetic field. During a 0.10-s time interval, the magnitude of the field increases uniformly from 200 to 300 mT. (a) Determine the emf induced in the loop. (b) If the magnetic field is directed out of the page, what is the direction of the current induced in the loop?</para>
+</problem>
+<solution id="fs-id1171242498425">
+<para id="fs-id1171242453588">a. <m:math><m:mrow><m:mn>7.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>V</m:mtext></m:mrow></m:math>; b. CCW from the same view as the magnetic field</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242577432">
+<problem id="fs-id1171242489021">
+<para id="fs-id1171242406415">When a magnetic field is first turned on, the flux through a 20-turn loop varies with time according to <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mn>5.0</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2.0</m:mn><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> is in milliwebers, <emphasis effect="italics">t</emphasis> is in seconds, and the loop is in the plane of the page with the unit normal pointing outward. (a) What is the emf induced in the loop as a function of time? What is the direction of the induced current at (b) <emphasis effect="italics">t</emphasis> = 0, (c) 0.10, (d) 1.0, and (e) 2.0 s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242190325">
+<problem id="fs-id1171242190327">
+<para id="fs-id1171242185895">The magnetic flux through the loop shown in the accompanying figure varies with time according to <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mn>2.00</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−3</m:mn><m:mi>t</m:mi></m:mrow></m:msup><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> is in milliwebers. What are the direction and magnitude of the current through the <m:math><m:mrow><m:mn>5.00</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor at (a) <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>; (b) <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2.17</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and (c) <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>s?</m:mtext></m:mrow></m:math></para>
+<media id="fs-id1171242079794" alt="Figure shows a loop with the magnetic flux perpendicular to the loop. Loop is connected to a 5 Ohm resistor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_11pr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171242536074">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171242536076">a. 150 A downward through the resistor; b. 46 A upward through the resistor; c. 0.019 A downward through the resistor</para></solution>
+</exercise>
+<exercise id="fs-id1171242570229">
+<problem id="fs-id1171242570231">
+<para id="fs-id1171242546939">Use Lenz’s law to determine the direction of induced current in each case.</para>
+<media id="fs-id1171242139760" alt="Figure A shows a metal bar moving to the left in the perpendicular uniform magnetic field. Figure B shows a loop moving to the right in a parallel uniform magnetic field. Figure C shows a loop moved into a perpendicular uniform magnetic field. Figure D shows a metal bar moving to the right in the perpendicular uniform magnetic field. Figure E shows a loop located into an increasing perpendicular magnetic field. Figure F shows a loop located into a decreasing parallel magnetic field.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_p09_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171242533819">
+<term>Lenz’s law</term>
+<meaning id="fs-id1171242191232">direction of an induced emf opposes the change in magnetic flux that produced it; this is the negative sign in Faraday’s law</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,327 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Average and Instantaneous Acceleration</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58284</md:content-id>
+  <md:title>Average and Instantaneous Acceleration</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Calculate the average acceleration between two points in time.</item>
+<item>Calculate the instantaneous acceleration given the functional form of velocity.</item>
+<item>Explain the vector nature of instantaneous acceleration and velocity.</item>
+<item>Explain the difference between average acceleration and instantaneous acceleration.</item>
+<item>Find instantaneous acceleration at a specified time on a graph of velocity versus time.</item>
+</list></md:abstract>
+  <md:uuid>f6c1853f-e5aa-43a9-95a8-ce02e68536a1</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168328144842">The importance of understanding acceleration spans our day-to-day experience, as well as the vast reaches of outer space and the tiny world of subatomic physics. In everyday conversation, to <emphasis effect="italics">accelerate</emphasis> means to speed up; applying the brake pedal causes a vehicle to slow down. We are familiar with the acceleration of our car, for example. The greater the acceleration, the greater the change in velocity over a given time. Acceleration is widely seen in experimental physics. In linear particle accelerator experiments, for example, subatomic particles are accelerated to very high velocities in collision experiments, which tell us information about the structure of the subatomic world as well as the origin of the universe. In space, cosmic rays are subatomic particles that have been accelerated to very high energies in supernovas (exploding massive stars) and active galactic nuclei. It is important to understand the processes that accelerate cosmic rays because these rays contain highly penetrating radiation that can damage electronics flown on spacecraft, for example.</para>
+<section id="fs-id1168325665216">
+<title>Average Acceleration</title>
+<para id="fs-id1168328367566">The formal definition of acceleration is consistent with these notions just described, but is more inclusive.</para>
+<note id="fs-id1168328013184">
+<title>Average Acceleration</title>
+<para id="fs-id1168328371685">Average acceleration is the rate at which velocity changes:</para>
+<equation id="fs-id1168325782329"><m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168325664233">where <m:math><m:mover accent="true"><m:mi>a</m:mi><m:mtext>−</m:mtext></m:mover></m:math> is <term>average acceleration</term>, <emphasis effect="italics">v</emphasis> is velocity, and <emphasis effect="italics">t</emphasis> is time. (The bar over the <emphasis effect="italics">a</emphasis> means <emphasis effect="italics">average</emphasis> acceleration.)</para>
+</note>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168328298720">Because acceleration is velocity in meters per second divided by time in seconds, the SI units for acceleration are often abbreviated m/s<sup>2</sup>—that is, meters per second squared or meters per second per second. This literally means by how many meters per second the velocity changes every second. Recall that velocity is a vector—it has both magnitude and direction—which means that a change in velocity can be a change in magnitude (or speed), but it can also be a change in direction. For example, if a runner traveling at 10 km/h due east slows to a stop, reverses direction, and continues her run at 10 km/h due west, her velocity has changed as a result of the change in direction, although the <emphasis effect="italics">magnitude</emphasis> of the velocity is the same in both directions. Thus, acceleration occurs when velocity changes in magnitude (an increase or decrease in speed) or in direction, or both.</para><note id="fs-id1168328280276">
+<title>Acceleration as a Vector</title>
+<para id="fs-id1168327924068">Acceleration is a vector in the same direction as the <emphasis effect="italics">change</emphasis> in velocity, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow></m:math>. Since velocity is a vector, it can change in magnitude or in direction, or both. Acceleration is, therefore, a change in speed or direction, or both.</para>
+</note>
+<para id="fs-id1168328362542">Keep in mind that although acceleration is in the direction of the change in velocity, it is not always in the direction of motion. When an object slows down, its acceleration is opposite to the direction of its motion. Although this is commonly referred to as <emphasis effect="italics">deceleration</emphasis> <link target-id="CNX_UPhysics_03_03_SubTrain"/>, we say the train is accelerating in a direction opposite to its direction of motion.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_03_03_SubTrain"><media id="fs-id1168328298217" alt="Picture shows a subway train coming into a station.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_SubTrain.jpg"/>
+</media>
+
+<caption>A subway train in Sao Paulo, Brazil, accelerates opposite to the motion as it comes into a station. It is accelerating in a direction opposite to its direction of motion. (credit: modification of work by Yusuke Kawasaki)</caption></figure><para id="fs-id1168328157284">The term <emphasis effect="italics">deceleration</emphasis> can cause confusion in our analysis because it is not a vector and it does not point to a specific direction with respect to a coordinate system, so we do not use it. Acceleration is a vector, so we must choose the appropriate sign for it in our chosen coordinate system. In the case of the train in <link target-id="CNX_UPhysics_03_03_SubTrain"/>, acceleration is <emphasis effect="italics">in the negative direction in the chosen coordinate system</emphasis>, so we say the train is undergoing negative acceleration.</para>
+<para id="fs-id1168327988419">If an object in motion has a velocity in the positive direction with respect to a chosen origin and it acquires a constant negative acceleration, the object eventually comes to a rest and reverses direction. If we wait long enough, the object passes through the origin going in the opposite direction. This is illustrated in <link target-id="CNX_UPhysics_03_03_NegAcc"/>.</para>
+<figure id="CNX_UPhysics_03_03_NegAcc">
+<media id="fs-id1168325681309" alt="Figure shows three vectors: a directed to the west, vf directed to the west, and vo directed to the east.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_NegAcc.jpg"/>
+</media>
+<caption>An object in motion with a velocity vector toward the east under negative acceleration comes to a rest and reverses direction. It passes the origin going in the opposite direction after a long enough time.</caption>
+</figure>
+<example id="fs-id1168328170060">
+<para id="fs-id1168325634478"><title>Calculating Average Acceleration: A Racehorse Leaves the Gate</title>
+A racehorse coming out of the gate accelerates from rest to a velocity of 15.0 m/s due west in 1.80 s. What is its average acceleration?</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_03_03_RaceHorse"><media id="fs-id1168328364214" alt="Picture shows two racehorses with riders accelerating out of the gate.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_RaceHorse.jpg"/>
+</media>
+
+<caption>Racehorses accelerating out of the gate. (credit: modification of work by Jon Sullivan)</caption></figure><para id="fs-id1168328317120"><title>Strategy</title>
+First we draw a sketch and assign a coordinate system to the problem <link target-id="CNX_UPhysics_03_03_ExGraphs"/>. This is a simple problem, but it always helps to visualize it. Notice that we assign east as positive and west as negative. Thus, in this case, we have negative velocity.</para>
+<figure id="CNX_UPhysics_03_03_ExGraphs">
+<media id="fs-id1168327878077" alt="Figure shows three vectors: a has the unknown value ans is directed to the west, vf is equal to – 15 m/s and is directed to the west, vo is equal to zero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_ExGraphs.jpg"/>
+</media>
+<caption>Identify the coordinate system, the given information, and what you want to determine.</caption>
+</figure>
+<para id="fs-id1168327940361">We can solve this problem by identifying <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> from the given information, and then calculating the average acceleration directly from the equation <m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+<para id="fs-id1168327928019"><title>Solution</title>
+First, identify the knowns: <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−15.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> (the negative sign indicates direction toward the west), Δ<emphasis effect="italics">t</emphasis> = 1.80 s.</para>
+<para id="fs-id1168327988630">Second, find the change in velocity. Since the horse is going from zero to –15.0 m/s, its change in velocity equals its final velocity:</para>
+<equation id="fs-id1168328366020" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−15.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168328070733">Last, substitute the known values (<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>) and solve for the unknown <m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover></m:mrow></m:math>:</para>
+<equation id="fs-id1168327910150" class="unnumbered"><label/><m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−15.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>1.80</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−8.33</m:mn><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168327966646"><title>Significance</title>
+The negative sign for acceleration indicates that acceleration is toward the west. An acceleration of 8.33 m/s<sup>2</sup> due west means the horse increases its velocity by 8.33 m/s due west each second; that is, 8.33 meters per second per second, which we write as 8.33 m/s<sup>2</sup>. This is truly an average acceleration, because the ride is not smooth. We see later that an acceleration of this magnitude would require the rider to hang on with a force nearly equal to his weight.</para>
+</example>
+<note id="fs-id1168328224841" class="check-understanding">
+<exercise id="fs-id1168328242107">
+<problem id="fs-id1168327960274">
+<para id="fs-id1168328277315"><emphasis effect="bold">Check Your Understanding</emphasis> Protons in a linear accelerator are accelerated from rest to <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> in 10<sup>–4</sup> s. What is the average acceleration of the protons?</para>
+</problem>
+<solution id="fs-id1168327875120">
+<para id="fs-id1168328120879">Inserting the knowns, we have<newline/>
+<m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168328222125">
+<title>Instantaneous Acceleration</title>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168327872160">Instantaneous acceleration <emphasis effect="italics">a</emphasis>, or <emphasis effect="italics">acceleration at a specific instant in time</emphasis>, is obtained using the same process discussed for instantaneous velocity. That is, we calculate the average acceleration between two points in time separated by <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> and let <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> approach zero. The result is the derivative of the velocity function <emphasis effect="italics">v</emphasis>(<emphasis effect="italics">t</emphasis>), which is <term>instantaneous acceleration</term> and is expressed mathematically as</para><note id="fs-id1168327967836" class="equation-callout">
+<equation id="fs-id1168327910523"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1168327944154">Thus, similar to velocity being the derivative of the position function, instantaneous acceleration is the derivative of the velocity function. We can show this graphically in the same way as instantaneous velocity. In <link target-id="CNX_UPhysics_03_03_InstAcc"/>, instantaneous acceleration at time <emphasis effect="italics">t</emphasis><sub>0</sub> is the slope of the tangent line to the velocity-versus-time graph at time <emphasis effect="italics">t</emphasis><sub>0</sub>. We see that average acceleration <m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> approaches instantaneous acceleration as <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> approaches zero. Also in part (a) of the figure, we see that velocity has a maximum when its slope is zero. This time corresponds to the zero of the acceleration function. In part (b), instantaneous acceleration at the minimum velocity is shown, which is also zero, since the slope of the curve is zero there, too. Thus, for a given velocity function, the zeros of the acceleration function give either the minimum or the maximum velocity.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_03_03_InstAcc"><media id="fs-id1168328253538" alt="Graph A shows velocity plotted versus time. Velocity increases from t1 to t2 and t3. It reaches maximum at t0. It decreases to t4 and continues to decrease to t5 and t6. The slope of the tangent line at t0 is indicated as the instantaneous velocity. Graph B shows velocity plotted versus time. Velocity decreases from t1 to t2 and t3. It reaches minimum at t0. It increases to t4 and continues to increase to t5 and t6. The slope of the tangent line at t0 is indicated as the instantaneous velocity.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_InstAcc.jpg"/>
+</media>
+
+<caption>In a graph of velocity versus time, instantaneous acceleration is the slope of the tangent line. (a) Shown is average acceleration <m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:math> between times <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>t</m:mi><m:mn>6</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>t</m:mi><m:mn>5</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, and <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>t</m:mi><m:mn>4</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>. When <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the average acceleration approaches instantaneous acceleration at time <emphasis effect="italics">t</emphasis><sub>0</sub>. In view (a), instantaneous acceleration is shown for the point on the velocity curve at maximum velocity. At this point, instantaneous acceleration is the slope of the tangent line, which is zero. At any other time, the slope of the tangent line—and thus instantaneous acceleration—would not be zero. (b) Same as (a) but shown for instantaneous acceleration at minimum velocity.</caption></figure><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168328238462">To illustrate this concept, let’s look at two examples. First, a simple example is shown using <link target-id="CNX_UPhysics_03_02_PosVelSp" document="m58283"/>(b), the velocity-versus-time graph of <link target-id="fs-id1168329085430" document="m58283"/>, to find acceleration graphically. This graph is depicted in <link target-id="CNX_UPhysics_03_03_AccTime"/>(a), which is a straight line. The corresponding graph of acceleration versus time is found from the slope of velocity and is shown in <link target-id="CNX_UPhysics_03_03_AccTime"/>(b). In this example, the velocity function is a straight line with a constant slope, thus acceleration is a constant. In the next example, the velocity function has a more complicated functional dependence on time.</para><figure id="CNX_UPhysics_03_03_AccTime">
+<media id="fs-id1168328322676" alt="Graph A shows velocity in meters per second plotted versus time in seconds. Graph is linear and has a negative constant slope. Graph B shows acceleration in meters per second square plotted versus time in seconds. Graph is linear and has a zero slope with the acceleration being equal to -6.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_AccTime.jpg"/>
+</media>
+<caption>(a, b) The velocity-versus-time graph is linear and has a negative constant slope (a) that is equal to acceleration, shown in (b).</caption>
+</figure>
+<para id="fs-id1168327935060">If we know the functional form of velocity, <emphasis effect="italics">v</emphasis>(<emphasis effect="italics">t</emphasis>), we can calculate instantaneous acceleration <emphasis effect="italics">a</emphasis>(<emphasis effect="italics">t</emphasis>) at any time point in the motion using <link target-id="fs-id1168327910523"/>.</para>
+<example id="fs-id1168328222026">
+<para id="fs-id1168328317291"><title>Calculating Instantaneous Acceleration</title>
+A particle is in motion and is accelerating. The functional form of the velocity is <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>.</para>
+<list id="fs-id1168328308220" list-type="enumerated" number-style="lower-alpha">
+<item>Find the functional form of the acceleration.</item>
+<item>Find the instantaneous velocity at <emphasis effect="italics">t</emphasis> = 1, 2, 3, and 5 s.</item>
+<item>Find the instantaneous acceleration at <emphasis effect="italics">t</emphasis> = 1, 2, 3, and 5 s.</item>
+<item>Interpret the results of (c) in terms of the directions of the acceleration and velocity vectors.</item>
+</list>
+<para id="fs-id1168327920626"><title>Strategy</title>
+We find the functional form of acceleration by taking the derivative of the velocity function. Then, we calculate the values of instantaneous velocity and acceleration from the given functions for each. For part (d), we need to compare the directions of velocity and acceleration at each time.</para>
+<para id="fs-id1168327920526"><title>Solution</title></para>
+<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168328191105" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>20</m:mn><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>t</m:mi><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−25</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext> s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>10</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext> m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, <m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext> s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, <m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext> s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−10</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, <m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−30</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
+<item>At <emphasis effect="italics">t</emphasis> = 1 s, velocity <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>s)</m:mtext><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> is positive and acceleration is positive, so both velocity and acceleration are in the same direction. The particle is moving faster.</item>
+</list><para id="fs-id1168328282997">At <emphasis effect="italics">t</emphasis> = 2 s, velocity has increased to<m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>s)</m:mtext><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, where it is maximum, which corresponds to the time when the acceleration is zero. We see that the maximum velocity occurs when the slope of the velocity function is zero, which is just the zero of the acceleration function.</para>
+<para id="fs-id1168327863611">At <emphasis effect="italics">t</emphasis> = 3 s, velocity is <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>s)</m:mtext><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> and acceleration is negative. The particle has reduced its velocity and the acceleration vector is negative. The particle is slowing down.</para>
+<para id="fs-id1168328289076">At <emphasis effect="italics">t</emphasis> = 5 s, velocity is <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>s)</m:mtext><m:mo>=</m:mo><m:mn>−25</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> and acceleration is increasingly negative. Between the times <emphasis effect="italics">t =</emphasis> 3 s and <emphasis effect="italics">t</emphasis> = 5 s the particle has decreased its velocity to zero and then become negative, thus reversing its direction. The particle is now speeding up again, but in the opposite direction.</para>
+<para id="fs-id1168328279483">We can see these results graphically in <link target-id="CNX_UPhysics_03_03_VelAcc"/>.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_03_03_VelAcc"><media id="fs-id1168328144387" alt="Graph A shows velocity in meters per second plotted versus time in seconds. Velocity starts at zero, increases to 15 at 1 second, and reaches maximum of 20 at 2 seconds. It decreases to 15 at 3 seconds and continues to decrease to -25 at 5 seconds. Graph B shows acceleration in meters per second squared plotted versus time in seconds. Graph is linear and has a negative constant slope. Acceleration starts at 20 when time is zero, decreases to 10 at 1 second, to zero at 2 seconds, to -10 at 3 seconds, and to -30 and 5 seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_VelAcc.jpg"/>
+</media>
+
+<caption>(a) Velocity versus time. Tangent lines are indicated at times 1, 2, and 3 s. The slopes of the tangent lines are the accelerations. At <emphasis effect="italics">t</emphasis> = 3 s, velocity is positive. At <emphasis effect="italics">t</emphasis> = 5 s, velocity is negative, indicating the particle has reversed direction. (b) Acceleration versus time. Comparing the values of accelerations given by the black dots with the corresponding slopes of the tangent lines (slopes of lines through black dots) in (a), we see they are identical.</caption></figure><para id="fs-id1168328202108"><title>Significance</title>
+By doing both a numerical and graphical analysis of velocity and acceleration of the particle, we can learn much about its motion. The numerical analysis complements the graphical analysis in giving a total view of the motion. The zero of the acceleration function corresponds to the maximum of the velocity in this example. Also in this example, when acceleration is positive and in the same direction as velocity, velocity increases. As acceleration tends toward zero, eventually becoming negative, the velocity reaches a maximum, after which it starts decreasing. If we wait long enough, velocity also becomes negative, indicating a reversal of direction. A real-world example of this type of motion is a car with a velocity that is increasing to a maximum, after which it starts slowing down, comes to a stop, then reverses direction.</para>
+</example>
+<note id="fs-id1168327988348" class="check-understanding">
+<exercise id="fs-id1168328320368">
+<problem id="fs-id1168328246386">
+<para id="fs-id1168327921621"><emphasis effect="bold">Check Your Understanding</emphasis> An airplane lands on a runway traveling east. Describe its acceleration.</para>
+</problem>
+<solution id="fs-id1168327963777">
+<para id="fs-id1168327877386">If we take east to be positive, then the airplane has negative acceleration because it is accelerating toward the west. It is also acceleration opposite to the motion; its acceleration is opposite in direction to its velocity.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168327943280">
+<title>Getting a Feel for Acceleration</title>
+<para id="fs-id1168328326412">You are probably used to experiencing acceleration when you step into an elevator, or step on the gas pedal in your car. However, acceleration is happening to many other objects in our universe with which we don’t have direct contact. <link target-id="fs-id1168328304210"/> presents the acceleration of various objects. We can see the magnitudes of the accelerations extend over many orders of magnitude.</para>
+<table id="fs-id1168328304210" summary="This table has two columns and fifteen rows. The first row is a header row and it labels each column: “Acceleration”, “Values in meters per second squared”. Under the “Acceleration”: High-speed train; Elevator; Cheetah; Object in a free fall without air resistance near the surface of Earth; Space shuttle maximum during launch; Parachutist peak during normal opening of parachute; F16 aircraft pulling out of a dive; Explosive seat ejection from aircraft; Sprint missile; Fastest rocket sled peak acceleration; Jumping flea; Baseball struck by a bat; Closing jaws of a trap-jaw ant; Proton in the large Hadron collider; Under the “Values in meters per second squared”: 0.25; 2; 5; 9.8; 29; 59; 79; 147; 982; 1540; 3200; 30,000; 1,000,000; 1.9 multiplied by 10 in the 9 power.">
+<title>Typical Values of Acceleration</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Acceleration</entry>
+<entry valign="top" align="center">Value (m/s<sup>2</sup>)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">High-speed train</entry>
+<entry valign="top" align="center">0.25</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Elevator</entry>
+<entry valign="top" align="center">2</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Cheetah</entry>
+<entry valign="top" align="center">5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Object in a free fall without air resistance near the surface of Earth</entry>
+<entry valign="top" align="center">9.8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Space shuttle maximum during launch</entry>
+<entry valign="top" align="center">29</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Parachutist peak during normal opening of parachute</entry>
+<entry valign="top" align="center">59</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">F16 aircraft pulling out of a dive</entry>
+<entry valign="top" align="center">79</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Explosive seat ejection from aircraft</entry>
+<entry valign="top" align="center">147</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Sprint missile</entry>
+<entry valign="top" align="center">982</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Fastest rocket sled peak acceleration</entry>
+<entry valign="top" align="center">1540</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Jumping flea</entry>
+<entry valign="top" align="center">3200</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Baseball struck by a bat</entry>
+<entry valign="top" align="center">30,000</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Closing jaws of a trap-jaw ant</entry>
+<entry valign="top" align="center">1,000,000</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Proton in the large Hadron collider</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+<caption>(credit: Wikipedia: Orders of Magnitude (acceleration))</caption>
+</table>
+<para id="fs-id1168327944321">In this table, we see that typical accelerations vary widely with different objects and have nothing to do with object size or how massive it is. Acceleration can also vary widely with time during the motion of an object. A drag racer has a large acceleration just after its start, but then it tapers off as the vehicle reaches a constant velocity. Its average acceleration can be quite different from its instantaneous acceleration at a particular time during its motion. <link target-id="CNX_UPhysics_03_03_CompAcc"/> compares graphically average acceleration with instantaneous acceleration for two very different motions.</para>
+<figure id="CNX_UPhysics_03_03_CompAcc">
+<media id="fs-id1168327936263" alt="Graph A shows acceleration in meters per second squared plotted versus time in seconds. Acceleration varies only slightly and is always in the same direction, since it is positive. The average over the interval is nearly the same as the acceleration at any given time. Graph B shows acceleration in meters per second squared plotted versus time in seconds. Acceleration varies greatly: from -4 meters per second squared to 5 meters per second squared.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_CompAcc.jpg"/>
+</media>
+<caption>Graphs of instantaneous acceleration versus time for two different one-dimensional motions. (a) Acceleration varies only slightly and is always in the same direction, since it is positive. The average over the interval is nearly the same as the acceleration at any given time. (b) Acceleration varies greatly, perhaps representing a package on a post office conveyor belt that is accelerated forward and backward as it bumps along. It is necessary to consider small time intervals (such as from 0–1.0 s) with constant or nearly constant acceleration in such a situation.</caption>
+</figure>
+<note id="fs-id1168325673993" class="media-2">
+<para id="fs-id1168325725932">Learn about position, velocity, and acceleration graphs. Move the little man back and forth with a mouse and plot his motion. Set the position, velocity, or acceleration and let the simulation move the man for you. Visit <link url="https://openstax.org/l/21movmansimul">this link</link> to use the moving man simulation.</para>
+</note>
+</section>
+<section id="fs-id1168325927723" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1168328194532" list-type="bulleted" bullet-style="bullet">
+<item>Acceleration is the rate at which velocity changes. Acceleration is a vector; it has both a magnitude and direction. The SI unit for acceleration is meters per second squared.</item>
+<item>Acceleration can be caused by a change in the magnitude or the direction of the velocity, or both.</item>
+<item>Instantaneous acceleration <emphasis effect="italics">a</emphasis>(<emphasis effect="italics">t</emphasis>) is a continuous function of time and gives the acceleration at any specific time during the motion. It is calculated from the derivative of the velocity function. Instantaneous acceleration is the slope of the velocity-versus-time graph.</item>
+<item>Negative acceleration (sometimes called deceleration) is acceleration in the negative direction in the chosen coordinate system.</item>
+</list>
+</section>
+<section id="fs-id1168325703483" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1168325679818">
+<problem id="fs-id1168328329529">
+<para id="fs-id1168328294152">Is it possible for speed to be constant while acceleration is not zero?</para>
+</problem>
+<solution id="fs-id1168328025381">
+<para id="fs-id1168328168345">No, in one dimension constant speed requires zero acceleration.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328064486">
+<problem id="fs-id1168328064488">
+<para id="fs-id1168325626004">Is it possible for velocity to be constant while acceleration is not zero? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328365755">
+<problem id="fs-id1168328365757">
+<para id="fs-id1168328068199">Give an example in which velocity is zero yet acceleration is not.</para>
+</problem>
+<solution id="fs-id1168328292164">
+<para id="fs-id1168328292166">A ball is thrown into the air and its velocity is zero at the apex of the throw, but acceleration is not zero.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328257161">
+<problem id="fs-id1168328257163">
+<para id="fs-id1168328302093">If a subway train is moving to the left (has a negative velocity) and then comes to a stop, what is the direction of its acceleration? Is the acceleration positive or negative?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325735577">
+<problem id="fs-id1168325735579">
+<para id="fs-id1168328228853">Plus and minus signs are used in one-dimensional motion to indicate direction. What is the sign of an acceleration that reduces the magnitude of a negative velocity? Of a positive velocity?</para>
+</problem>
+<solution id="fs-id1168328228855">
+<para id="fs-id1168328199023">Plus, minus</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1166168283351" class="review-problems">
+<exercise id="fs-id1168328303424">
+<problem id="fs-id1168328259483">
+<para id="fs-id1168328259486">A cheetah can accelerate from rest to a speed of 30.0 m/s in 7.00 s. What is its acceleration?</para>
+</problem>
+<solution id="fs-id1168328195958">
+<para id="fs-id1168328330587"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>4.29</m:mn><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328320313">
+<problem id="fs-id1168325722167">
+<para id="fs-id1168325722170">Dr. John Paul Stapp was a U.S. Air Force officer who studied the effects of extreme acceleration on the human body. On December 10, 1954, Stapp rode a rocket sled, accelerating from rest to a top speed of 282 m/s (1015 km/h) in 5.00 s and was brought jarringly back to rest in only 1.40 s. Calculate his (a) acceleration in his direction of motion and (b) acceleration opposite to his direction of motion. Express each in multiples of <emphasis effect="italics">g</emphasis> (9.80 m/s<sup>2</sup>) by taking its ratio to the acceleration of gravity.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325781646">
+<problem id="fs-id1168325860093">
+<para id="fs-id1168325860095">Sketch the acceleration-versus-time graph from the following velocity-versus-time graph.</para>
+<media id="fs-id1168328333275" alt="Graph shows velocity in meters per second plotted versus time in seconds. Velocity is zero and zero seconds, increases to 6 meters per second at 20 seconds, decreases to 2 meters per second at 50 and remains constant until 70 seconds, increases to 4 meters per second at 90 seconds, and decreases to –2 meters per second at 100 seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_Prob8_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1168328190806">
+<para id="fs-id1168327878486"><media id="fs-id1168327878487" alt="Graph shows acceleration in meters per second squared plotted versus time in seconds. Acceleration is 0.3 meters per second squared between 0 and 20 seconds, -0.1 meters per second squared between 20 and 50 seconds, zero between 50 and 70 seconds, -0.6 between 90 and 100 seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_Prob8ans_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325878345">
+<problem id="fs-id1168328298341">
+<para id="fs-id1168328298343">A commuter backs her car out of her garage with an acceleration of 1.40 m/s<sup>2</sup>. (a) How long does it take her to reach a speed of 2.00 m/s? (b) If she then brakes to a stop in 0.800 s, what is her acceleration?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325696669">
+<problem id="fs-id1168325696671">
+<para id="fs-id1168328267882">Assume an intercontinental ballistic missile goes from rest to a suborbital speed of 6.50 km/s in 60.0 s (the actual speed and time are classified). What is its average acceleration in meters per second squared and in multiples of <emphasis effect="italics">g</emphasis> (9.80 m/s<sup>2</sup>)?</para>
+</problem>
+<solution id="fs-id1168325667515">
+<para id="fs-id1168325667517"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>11.1</m:mn><m:mi>g</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327949630">
+<problem id="fs-id1168327949633">
+<para id="fs-id1168327949635">An airplane, starting from rest, moves down the runway at constant acceleration for 18 s and then takes off at a speed of 60 m/s. What is the average acceleration of the plane?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168328300463">
+<term>average acceleration</term>
+<meaning id="fs-id1168328180604">the rate of change in velocity; the change in velocity over time</meaning>
+</definition>
+<definition id="fs-id1168328180609">
+<term>instantaneous acceleration</term>
+<meaning id="fs-id1168328249366">acceleration at a specific point in time</meaning>
+</definition>
+</glossary>
+</document>

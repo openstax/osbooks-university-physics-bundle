@@ -1,0 +1,176 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Electric Field Lines</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58417</md:content-id>
+  <md:title>Electric Field Lines</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain the purpose of an electric field diagram</item>
+<item>Describe the relationship between a vector diagram and a field line diagram</item>
+<item>Explain the rules for creating a field diagram and why these rules make physical sense</item>
+<item>Sketch the field of an arbitrary source charge</item>
+</list></md:abstract>
+  <md:uuid>b76bee34-5936-405e-8043-c7ac343e8ca7</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172099903090">Now that we have some experience calculating electric fields, let’s try to gain some insight into the geometry of electric fields. As mentioned earlier, our model is that the charge on an object (the source charge) alters space in the region around it in such a way that when another charged object (the test charge) is placed in that region of space, that test charge experiences an electric force. The concept of electric <term>field line</term><emphasis effect="bold">s</emphasis>, and of electric field line diagrams, enables us to visualize the way in which the space is altered, allowing us to visualize the field. The purpose of this section is to enable you to create sketches of this geometry, so we will list the specific steps and rules involved in creating an accurate and useful sketch of an electric field.</para>
+<para id="fs-id1172101763733">It is important to remember that electric fields are three-dimensional. Although in this book we include some pseudo-three-dimensional images, several of the diagrams that you’ll see (both here, and in subsequent chapters) will be two-dimensional projections, or cross-sections. Always keep in mind that in fact, you’re looking at a three-dimensional phenomenon.</para>
+<para id="fs-id1172099624189">Our starting point is the physical fact that the electric field of the source charge causes a test charge in that field to experience a force. By definition, electric field vectors point in the same direction as the electric force that a (hypothetical) positive test charge would experience, if placed in the field (<link target-id="CNX_UPhysics_22_06_EPosVect"/>)</para>
+<figure id="CNX_UPhysics_22_06_EPosVect">
+<media id="fs-id1172101945544" alt="The electric field is shown as arrows at test points on a grid. In figure a, the field is shown in the x y plane, with x and y measured in meters and ranging from -4 meters to 4 meters. The arrows point away from the origin, and are largest near the origin, decreasing with distance from the origin. In figure b, a three dimensional vector field is shown. The charge is at the center and, again, the arrows are largest near the origin, decreasing with distance from the origin.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_EPosVect.jpg"/>
+</media>
+<caption>The electric field of a positive point charge. A large number of field vectors are shown. Like all vector arrows, the length of each vector is proportional to the magnitude of the field at each point. (a) Field in two dimensions; (b) field in three dimensions.</caption>
+</figure>
+<para id="fs-id1172097266009">We’ve plotted many field vectors in the figure, which are distributed uniformly around the source charge. Since the electric field is a vector, the arrows that we draw correspond at every point in space to both the magnitude and the direction of the field at that point. As always, the length of the arrow that we draw corresponds to the magnitude of the field vector at that point. For a point source charge, the length decreases by the square of the distance from the source charge. In addition, the direction of the field vector is radially away from the source charge, because the direction of the electric field is defined by the direction of the force that a positive test charge would experience in that field. (Again, keep in mind that the actual field is three-dimensional; there are also field lines pointing out of and into the page.)</para>
+<para id="fs-id1172102141385">This diagram is correct, but it becomes less useful as the source charge distribution becomes more complicated. For example, consider the vector field diagram of a dipole (<link target-id="CNX_UPhysics_22_06_DipoleVect"/>).</para>
+<figure id="CNX_UPhysics_22_06_DipoleVect">
+<media id="fs-id1172099666105" alt="A vector plot of the electric field due to two sources. The sources are not shown. The field is represented by arrows in an x y graph. Both x and y are in meters and both scales are from -2 meters to 4 meters. Near the origin, the arrows are long and point away from it. Near the point at coordinates 2, 0 the arrows are long and point toward the point. The arrows get smaller as we move farther from those two location and point in intermediate directions.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_DipoleVect.jpg"/>
+</media>
+<caption>The vector field of a dipole. Even with just two identical charges, the vector field diagram becomes difficult to understand.</caption>
+</figure>
+<para id="fs-id1172099895293">There is a more useful way to present the same information. Rather than drawing a large number of increasingly smaller vector arrows, we instead connect all of them together, forming continuous lines and curves, as shown in <link target-id="CNX_UPhysics_22_06_FieldPos"/>.</para>
+<figure id="CNX_UPhysics_22_06_FieldPos">
+<media id="fs-id1172097456707" alt="In part a, electric field lines emanating from a positive charge are shown as straight arrows radiating out from the charge in all directions. In part b, a pair of charges is shown, with one positive and the other negative. The field lines are represented by curved arrows. The arrows start from the positive charge, radiating outward but curving to end at the negative charge. The outer field lines extend beyond the drawing region, but follow the same behavior as those that are within the drawing area.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_FieldPos.jpg"/>
+</media>
+<caption>(a) The electric field line diagram of a positive point charge. (b) The field line diagram of a dipole. In both diagrams, the magnitude of the field is indicated by the field line density. The field <emphasis effect="italics">vectors</emphasis> (not shown here) are everywhere tangent to the field lines.</caption>
+</figure>
+<para id="fs-id1172101756863">Although it may not be obvious at first glance, these field diagrams convey the same information about the electric field as do the vector diagrams. First, the direction of the field at every point is simply the direction of the field vector at that same point. In other words, at any point in space, the field vector at each point is tangent to the field line at that same point. The arrowhead placed on a field line indicates its direction.</para>
+<para id="fs-id1172101841004">As for the magnitude of the field, that is indicated by the <term>field line density</term>—that is, the number of field lines per unit area passing through a small cross-sectional area perpendicular to the electric field. This field line density is drawn to be proportional to the magnitude of the field at that cross-section. As a result, if the field lines are close together (that is, the field line density is greater), this indicates that the magnitude of the field is large at that point. If the field lines are far apart at the cross-section, this indicates the magnitude of the field is small. <link target-id="CNX_UPhysics_22_06_FieldAreas"/> shows the idea.</para>
+<figure id="CNX_UPhysics_22_06_FieldAreas">
+<media id="fs-id1172099500973" alt="Seven electric field lines are shown, generally going from bottom left to top right. The field lines get closer together toward the top. Two square areas, perpendicular to the field lines, are shaded. All of the field lines pass through each shaded area. The area toward the top is smaller than the area toward the bottom.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_FieldAreas.jpg"/>
+</media>
+<caption>Electric field lines passing through imaginary areas. Since the number of lines passing through each area is the same, but the areas themselves are different, the field line density is different. This indicates different magnitudes of the electric field at these points.</caption>
+</figure>
+<para id="fs-id1172101807196">In <link target-id="CNX_UPhysics_22_06_FieldAreas"/>, the same number of field lines passes through both surfaces (<emphasis effect="italics">S</emphasis> and <m:math><m:mrow><m:mi>S</m:mi><m:mtext>′</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> but the surface <emphasis effect="italics">S</emphasis> is larger than surface <m:math><m:mrow><m:mi>S</m:mi><m:mtext>′</m:mtext></m:mrow></m:math>. Therefore, the density of field lines (number of lines per unit area) is larger at the location of <m:math><m:mrow><m:mi>S</m:mi><m:mtext>′</m:mtext></m:mrow></m:math>, indicating that the electric field is stronger at the location of <m:math><m:mrow><m:mi>S</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> than at <emphasis effect="italics">S</emphasis>. The rules for creating an electric field diagram are as follows.</para>
+<note id="fs-id1172099693426" class="problem-solving">
+<title>Drawing Electric Field Lines</title>
+<list id="fs-id1172101805974" list-type="enumerated" number-style="arabic">
+<item>Electric field lines either originate on positive charges or come in from infinity, and either terminate on negative charges or extend out to infinity.</item>
+<item>The number of field lines originating or terminating at a charge is proportional to the magnitude of that charge. A charge of 2<emphasis effect="italics">q</emphasis> will have twice as many lines as a charge of <emphasis effect="italics">q</emphasis>.</item>
+<item>At every point in space, the field vector at that point is tangent to the field line at that same point.</item>
+<item>The field line density at any point in space is proportional to (and therefore is representative of) the magnitude of the field at that point in space.</item>
+<item>Field lines can never cross. Since a field line represents the direction of the field at a given point, if two field lines crossed at some point, that would imply that the electric field was pointing in two different directions at a single point. This in turn would suggest that the (net) force on a test charge placed at that point would point in two different directions. Since this is obviously impossible, it follows that field lines must never cross.</item>
+</list>
+</note>
+<para id="fs-id1172102004479">Always keep in mind that field lines serve only as a convenient way to visualize the electric field; they are not physical entities. Although the direction and relative intensity of the electric field can be deduced from a set of field lines, the lines can also be misleading. For example, the field lines drawn to represent the electric field in a region must, by necessity, be discrete. However, the actual electric field in that region exists at every point in space.</para>
+<para id="fs-id1172099544731">Field lines for three groups of discrete charges are shown in <link target-id="CNX_UPhysics_22_06_ThreeDiags"/>. Since the charges in parts (a) and (b) have the same magnitude, the same number of field lines are shown starting from or terminating on each charge. In (c), however, we draw three times as many field lines leaving the <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>3</m:mn><m:mi>q</m:mi></m:mrow></m:math> charge as entering the <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>q</m:mi></m:mrow></m:math>. The field lines that do not terminate at <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>q</m:mi></m:mrow></m:math> emanate outward from the charge configuration, to infinity.</para>
+<figure id="CNX_UPhysics_22_06_ThreeDiags">
+<media id="fs-id1172101658583" alt="Three pairs of charges and their field lines are shown. The charge on the left is positive in each case. In part a, the charge on the right is negative. The field lines are represented by curved arrows starting at the positive charge on the left, curving toward and terminating at the negative charge on the right. Between the charges, the field lines are dense. In part b, the charge on the right is positive. The field lines represented by curved arrows start at each of the positive charges and diverge outward. Between the charges, the field lines are less dense, and there is a black region midway between the charges. In part c, the charge on the right is negative. The field lines start at the positive charge. Some of the lines, those that start closest to the negative charge, curve toward the negative charge and terminate there. Lines that start further from the negative charge curve toward it but then diverge outward. There is an area with very low density of lines to the right of the pair of charges.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_ThreeDiags.jpg"/>
+</media>
+<caption>Three typical electric field diagrams. (a) A dipole. (b) Two identical charges. (c) Two charges with opposite signs and different magnitudes. Can you tell from the diagram which charge has the larger magnitude?</caption>
+</figure>
+<para id="fs-id1172101792451">The ability to construct an accurate electric field diagram is an important, useful skill; it makes it much easier to estimate, predict, and therefore calculate the electric field of a source charge. The best way to develop this skill is with software that allows you to place source charges and then will draw the net field upon request. We strongly urge you to search the Internet for a program. Once you’ve found one you like, run several simulations to get the essential ideas of field diagram construction. Then practice drawing field diagrams, and checking your predictions with the computer-drawn diagrams.</para>
+<note id="fs-id1172099694822" class="media-2">
+<para id="fs-id1172102122891">One example of a <link url="https://openstax.org/l/21fieldlindrapr">field-line drawing program</link> is from the PhET “Charges and Fields” simulation.</para>
+</note>
+<section id="fs-id1172101876872" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172099491798" list-type="bulleted" bullet-style="bullet">
+<item>Electric field diagrams assist in visualizing the field of a source charge.</item>
+<item>The magnitude of the field is proportional to the field line density.</item>
+<item>Field vectors are everywhere tangent to field lines.</item>
+</list>
+</section>
+<section id="fs-id1172099910051" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172099718264">
+<problem id="fs-id1172102121413">
+<para id="fs-id1172102098207">If a point charge is released from rest in a uniform electric field, will it follow a field line? Will it do so if the electric field is not uniform?</para>
+</problem>
+<solution id="fs-id1172101907363">
+<para id="fs-id1172101752489">yes; no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172097162216">
+<problem id="fs-id1172099524520">
+<para id="fs-id1172099416752">Under what conditions, if any, will the trajectory of a charged particle not follow a field line?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101805718">
+<problem id="fs-id1172099537529">
+<para id="fs-id1172101876752">How would you experimentally distinguish an electric field from a gravitational field?</para>
+</problem>
+<solution id="fs-id1172101753244">
+<para id="fs-id1172099382531">At the surface of Earth, the gravitational field is always directed in toward Earth’s center. An electric field could move a charged particle in a different direction than toward the center of Earth. This would indicate an electric field is present.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099511587">
+<problem id="fs-id1172101736558">
+<para id="fs-id1172101920381">A representation of an electric field shows 10 field lines perpendicular to a square plate. How many field lines should pass perpendicularly through the plate to depict a field with twice the magnitude?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099482379">
+<problem id="fs-id1172099515828">
+<para id="fs-id1172102005067">What is the ratio of the number of electric field lines leaving a charge 10<emphasis effect="italics">q</emphasis> and a charge <emphasis effect="italics">q</emphasis>?</para>
+</problem>
+<solution id="fs-id1172099501398">
+<para id="fs-id1172097184589">10</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172099495989" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172099478054">
+<problem id="fs-id1172101766305">
+<para id="fs-id1172099703207">Which of the following electric field lines are incorrect for point charges? Explain why.</para>
+<media id="fs-id1172101838219" alt="Figure a shows field lines pointing away from a positive charge. The lines are uniformly distributed around the charge. Figure b shows field lines pointing away from a negative charge. The lines are uniformly distributed around the charge. Figure c shows field lines pointing away from a positive charge. The lines are denser on the right side of the charge than on the left. Figure d shows field lines pointing toward a positive charge. The lines are uniformly distributed around the charge. Figure e shows field lines pointing toward a negative charge. The lines are uniformly distributed around the charge. Figure f shows two positive charges. Field lines start at each positive charge and point away from each. The lines are uniformly distributed at the charges and bend away from the midline. Some lines intersect each other. Figure g shows a positive 5 micro Coulomb charge and a negative micro Coulomb charge. Several field lines are shown. Long the line connecting the charges is a field line that points away from the positive charge and toward the negative one. Another field line forms an ellipse that starts at the positive charge and ends at the negative charge. Another field line also forms an ellipse that points away from the positive and ends at the negative charge but appears to envelop the charges rather than start and end at the charges.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_EDiags_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172101626222">
+<problem id="fs-id1172099410485">
+<para id="fs-id1172097229977">In this exercise, you will practice drawing electric field lines. Make sure you represent both the magnitude and direction of the electric field adequately. Note that the number of lines into or out of charges is proportional to the charges.</para>
+<para id="fs-id1172099491651">(a) Draw the electric field lines map for two charges <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>−20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> situated 5 cm from each other.</para>
+<para id="fs-id1172099380040">(b) Draw the electric field lines map for two charges <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> situated 5 cm from each other.</para>
+<para id="fs-id1172099538510">(c) Draw the electric field lines map for two charges <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>−30</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> situated 5 cm from each other.</para>
+</problem>
+<solution id="fs-id1172099490504">
+<para id="fs-id1167742716034"><newline/><media id="fs-id1172099643350" alt="Figure a shows a positive 20 micro Coulomb charge on the left, a negative 20 micro Coulomb charge on the right, and the field lines due to the charges. The field lines come out of the positive charge and converge coming into the negative charge. The outer field lines extend beyond the drawing area and so we see them bending to the right, toward the negative charge, but only see part of the line. The density of lines coming out of the positive is the same as the density going into the negative. Figure b shows a positive 20 micro Coulomb charge on the left, a positive 20 micro Coulomb charge on the right, and the field lines due to the charges. The field lines come out of the positive charges and diverge, bending away from the far charge. The density of lines is the same near each of the charges. Figure c shows a positive 20 micro Coulomb charge on the left, a negative 30 micro Coulomb charge on the right, and the field lines due to the charges. The field lines come out of the positive charge. More lines go into the negative 20 micro Coulomb charge than come out of the positive 20 micro Coulomb charge. All of the lines coming out of the positive charge terminate at the negative, while the outer lines going into the negative start at infinity.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_P2ans_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101984629">
+<problem id="fs-id1172102014579">
+<para id="fs-id1172101856148">Draw the electric field for a system of three particles of charges <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mn>−3</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> fixed at the corners of an equilateral triangle of side 2 cm.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099531126">
+<problem id="fs-id1172101755234">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172101965485">Two charges of equal magnitude but opposite sign make up an electric dipole. A quadrupole consists of two electric dipoles that are placed anti-parallel at two edges of a square as shown.</para><media id="fs-id1172099384845" alt="Four charges are shown at the corners of a square. At the top left is positive 10 nano Coulombs. At the top right is negative 10 nano Coulombs. At the bottom left is negative 10 nano Coulombs. At the bottom right is positive 10 nano Coulombs.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_TwoDipoles_img.jpg"/>
+</media>
+<para id="fs-id1172099719139">Draw the electric field of the charge distribution.</para>
+</problem>
+<solution id="fs-id1172099503889">
+<para id="fs-id1167742416311"><newline/><media id="fs-id1172099456161" alt="Four charges are shown at the corners of a square. At the top left is positive 10 nano Coulombs. At the top right is negative 10 nano Coulombs. At the bottom left is negative 10 nano Coulombs. At the bottom right is positive 10 nano Coulombs. The field lines are also shown. They come out of the positive charges and curve toward and end at the negative charges. The lowest density is near the center of the square.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_P4ans_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102000514">
+<problem id="fs-id1172099884110">
+<para id="fs-id1172101949138">Suppose the electric field of an isolated point charge decreased with distance as <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mi>δ</m:mi></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math> rather than as <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>. Show that it is then impossible to draw continous field lines so that their number per unit area is proportional to <emphasis effect="italics">E</emphasis>.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172101884075">
+<term>field line</term>
+<meaning id="fs-id1172099482832">smooth, usually curved line that indicates the direction of the electric field</meaning>
+</definition>
+<definition id="fs-id1172102003446">
+<term>field line density</term>
+<meaning id="fs-id1172099490330">number of field lines per square meter passing through an imaginary area; its purpose is to indicate the field strength at different points in space</meaning>
+</definition>
+</glossary>
+</document>

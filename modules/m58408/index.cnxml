@@ -1,0 +1,539 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Entropy on a Microscopic Scale</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58408</md:content-id>
+  <md:title>Entropy on a Microscopic Scale</md:title>
+  <md:abstract>By the end of this section you will be able to:
+<list>
+<item>Interpret the meaning of entropy at a microscopic scale</item>
+<item>Calculate a change in entropy for an irreversible process of a system and contrast with the change in entropy of the universe</item>
+<item>Explain the third law of thermodynamics</item></list></md:abstract>
+  <md:uuid>1e0e38f6-8bfa-49f7-925c-4ce6b1406305</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167586269296">We have seen how entropy is related to heat exchange at a particular temperature. In this section, we consider entropy from a statistical viewpoint. Although the details of the argument are beyond the scope of this textbook, it turns out that entropy can be related to how disordered or randomized a system is—the more it is disordered, the higher is its entropy. For example, a new deck of cards is very ordered, as the cards are arranged numerically by suit. In shuffling this new deck, we randomize the arrangement of the cards and therefore increase its entropy (<link target-id="CNX_UPhysics_21_07_Shuffle"/>). Thus, by picking one card off the top of the deck, there would be no indication of what the next selected card will be.</para>
+<figure id="CNX_UPhysics_21_07_Shuffle">
+<media id="fs-id1167586144681" alt="The photo shows a person’s hand shuffling a deck of cards.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_07_Shuffle.jpg"/>
+</media>
+<caption>The entropy of a new deck of cards goes up after the dealer shuffles them. (credit: “Rommel SK”/YouTube)</caption>
+</figure>
+<para id="fs-id1167582750511">The second law of thermodynamics requires that the entropy of the universe increase in any irreversible process. Thus, in terms of order, the second law may be stated as follows:</para>
+<para id="fs-id1167582484657"><emphasis effect="italics">In any irreversible process, the universe becomes more disordered</emphasis>. For example, the irreversible free expansion of an ideal gas, shown in <link target-id="CNX_UPhysics_21_01_FreeExpan" document="m58403"/>, results in a larger volume for the gas molecules to occupy. A larger volume means more possible arrangements for the same number of atoms, so disorder is also increased. As a result, the entropy of the gas has gone up. The gas in this case is a closed system, and the process is irreversible. Changes in phase also illustrate the connection between entropy and <term>disorder</term>.</para>
+<example id="fs-id1167586143355">
+<para id="fs-id1167585972807"><title>Entropy Change of the Universe</title>
+Suppose we place 50 g of ice at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> in contact with a heat reservoir at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. Heat spontaneously flows from the reservoir to the ice, which melts and eventually reaches a temperature of <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. Find the change in entropy of (a) the ice and (b) the universe.</para>
+<para id="fs-id1167582479414"><title>Strategy</title>
+Because the entropy of a system is a function of its state, we can imagine two reversible processes for the ice: (1) ice is melted at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mi>A</m:mi></m:msub><m:mo stretchy="false">)</m:mo><m:mo>;</m:mo></m:mrow></m:math> and (2) melted ice (water) is warmed up from <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mi>B</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> under constant pressure. Then, we add the change in entropy of the reservoir when we calculate the change in entropy of the universe.</para>
+<para id="fs-id1167582833098"><title>Solution</title></para>
+<list id="fs-id1167582707683" list-type="enumerated" number-style="lower-alpha">
+<item>From <link target-id="fs-id1167583610032" document="m58407"/>, the increase in entropy of the ice is
+<equation id="fs-id1167585783275" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mn>2</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mi>f</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>335</m:mn></m:mrow><m:mrow><m:mn>273</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>4.19</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:mn>293</m:mn></m:mrow><m:mrow><m:mn>273</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>76.3</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>During this transition, the reservoir gives the ice an amount of heat equal to<newline/>
+<equation id="fs-id1167586143723" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>Q</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mi>f</m:mi></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mi>A</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>335</m:mn><m:mo>+</m:mo><m:mn>4.19</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>2.10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1167582458367">This leads to a change (decrease) in entropy of the reservoir:</para>
+<equation id="fs-id1167585878432" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>reservoir</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−71.7</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585926786">The increase in entropy of the universe is therefore</para>
+<equation id="fs-id1167582691169" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>universe</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>76.3</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>−</m:mo><m:mn>71.7</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>=</m:mo><m:mn>4.6</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167586153310"><title>Significance</title>
+The entropy of the universe therefore is greater than zero since the ice gains more entropy than the reservoir loses. If we considered only the phase change of the ice into water and not the temperature increase, the entropy change of the ice and reservoir would be the same, resulting in the universe gaining no entropy.</para>
+</example>
+<para id="fs-id1167582560917">This process also results in a more disordered universe. The ice changes from a solid with molecules located at specific sites to a liquid whose molecules are much freer to move. The molecular arrangement has therefore become more randomized. Although the change in average kinetic energy of the molecules of the heat reservoir is negligible, there is nevertheless a significant decrease in the entropy of the reservoir because it has many more molecules than the melted ice cube. However, the reservoir’s decrease in entropy is still not as large as the increase in entropy of the ice. The increased disorder of the ice more than compensates for the increased order of the reservoir, and the entropy of the universe increases by 4.6 J/K.</para>
+<para id="fs-id1167582493275">You might suspect that the growth of different forms of life might be a net ordering process and therefore a violation of the second law. After all, a single cell gathers molecules and eventually becomes a highly structured organism, such as a human being. However, this ordering process is more than compensated for by the disordering of the rest of the universe. The net result is an increase in entropy and an increase in the disorder of the universe.</para>
+<note id="fs-id1167582564498" class="check-understanding">
+<exercise id="fs-id1167582422661">
+<problem id="fs-id1167585920770">
+<para id="fs-id1167585900153"><emphasis effect="bold">Check Your Understanding</emphasis> In <link target-id="fs-id1167586143355"/>, the spontaneous flow of heat from a hot object to a cold object results in a net increase in entropy of the universe. Discuss how this result can be related to an increase in disorder of the system.</para>
+</problem>
+<solution id="fs-id1167582664516">
+<para id="fs-id1167586038130">When heat flows from the reservoir to the ice, the internal (mainly kinetic) energy of the ice goes up, resulting in a higher average speed and thus an average greater position variance of the molecules in the ice. The reservoir does become more ordered, but due to its much larger amount of molecules, it does not offset the change in entropy in the system.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167582782756">The second law of thermodynamics makes clear that the entropy of the universe never decreases during any thermodynamic process. For any other thermodynamic system, when the process is reversible, the change of the entropy is given by <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>T</m:mi></m:mrow></m:math>. But what happens if the temperature goes to zero, <m:math><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:math>? It turns out this is not a question that can be answered by the second law.</para>
+<para id="fs-id1167585934681">A fundamental issue still remains: Is it possible to cool a system all the way down to zero kelvin? We understand that the system must be at its lowest energy state because lowering temperature reduces the kinetic energy of the constituents in the system. What happens to the entropy of a system at the absolute zero temperature? It turns out the absolute zero temperature is not reachable—at least, not though a finite number of cooling steps. This is a statement of the <term>third law of thermodynamics</term>, whose proof requires quantum mechanics that we do not present here. In actual experiments, physicists have continuously pushed that limit downward, with the lowest temperature achieved at about <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> in a low-temperature lab at the Helsinki University of Technology in 2008.</para>
+<para id="fs-id1167586059811">Like the second law of thermodynamics, the third law of thermodynamics can be stated in different ways. One of the common statements of the third law of thermodynamics is: <emphasis effect="italics">The absolute zero temperature cannot be reached through any finite number of cooling steps</emphasis>.</para>
+<para id="fs-id1167586218625">In other words, the temperature of any given physical system must be finite, that is, <m:math><m:mrow><m:mi>T</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>. This produces a very interesting question in physics: Do we know how a system would behave if it were at the absolute zero temperature?</para>
+<para id="fs-id1167586151300">The reason a system is unable to reach 0 K is fundamental and requires quantum mechanics to fully understand its origin. But we can certainly ask what happens to the entropy of a system when we try to cool it down to 0 K. Because the amount of heat that can be removed from the system becomes vanishingly small, we expect that the change in entropy of the system along an isotherm approaches zero, that is,</para>
+<note id="fs-id1167586041492" class="equation-callout">
+<equation id="fs-id1167582665519"><label/><m:math><m:mrow><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:munder><m:msub><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167582775804">This can be viewed as another statement of the third law, with all the isotherms becoming <term>isentropic</term>, or into a reversible ideal adiabat. We can put this expression in words: <emphasis effect="italics">A system becomes perfectly ordered when its temperature approaches absolute zero and its entropy approaches its absolute minimum</emphasis>.</para>
+<para id="fs-id1167582454413">The third law of thermodynamics puts another limit on what can be done when we look for energy resources. If there could be a reservoir at the absolute zero temperature, we could have engines with efficiency of <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>, which would, of course, violate the second law of thermodynamics.</para>
+<example id="fs-id1167582522263">
+<para id="fs-id1167586142612"><title>Entropy Change of an Ideal Gas in Free Expansion</title>
+An ideal gas occupies a partitioned volume <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> inside a box whose walls are thermally insulating, as shown in <link target-id="CNX_UPhysics_21_07_Expansion"/>(a). When the partition is removed, the gas expands and fills the entire volume <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> of the box, as shown in part (b). What is the entropy change of the universe (the system plus its environment)?</para>
+<figure id="CNX_UPhysics_21_07_Expansion">
+<media id="fs-id1167585977833" alt="Part a of the figure shows a container which has gas of volume V subscript 1 on the left side and nothing on the right side. Part b shows a container which is completely filled with gas of volume V subscript 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_07_Expansion.jpg"/>
+</media>
+<caption>The adiabatic free expansion of an ideal gas from volume <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> to volume <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1167585990458"><title>Strategy</title>
+The adiabatic free expansion of an ideal gas is an irreversible process. There is no change in the internal energy (and hence temperature) of the gas in such an expansion because no work or heat transfer has happened. Thus, a convenient reversible path connecting the same two equilibrium states is a slow, isothermal expansion from <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> to <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. In this process, the gas could be expanding against a piston while in thermal contact with a heat reservoir, as in step 1 of the Carnot cycle.</para>
+<para id="fs-id1167582524984"><title>Solution</title>
+Since the temperature is constant, the entropy change is given by <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>,</m:mo></m:mrow></m:math> where</para>
+<equation id="fs-id1167582550863" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1167582449426">because <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> Now, with the help of the ideal gas law, we have</para>
+<equation id="fs-id1167582395650" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1167582398731">so the change in entropy of the gas is</para>
+<equation id="fs-id1167585911298" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>T</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585879150">Because <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi></m:mrow></m:math> is positive, and the entropy of the gas has gone up during the free expansion.</para>
+<para id="fs-id1167585873975"><title>Significance</title>
+What about the environment? The walls of the container are thermally insulating, so no heat exchange takes place between the gas and its surroundings. The entropy of the environment is therefore constant during the expansion. The net entropy change of the universe is then simply the entropy change of the gas. Since this is positive, the entropy of the universe increases in the free expansion of the gas.</para>
+</example>
+<example id="fs-id1167582419373">
+<para id="fs-id1167586234032"><title>Entropy Change during Heat Transfer</title>
+Heat flows from a steel object of mass 4.00 kg whose temperature is 400 K to an identical object at 300 K. Assuming that the objects are thermally isolated from the environment, what is the net entropy change of the universe after thermal equilibrium has been reached?</para>
+<para id="fs-id1167586179330"><title>Strategy</title>
+Since the objects are identical, their common temperature at equilibrium is 350 K. To calculate the entropy changes associated with their transitions, we substitute the irreversible process of the heat transfer by two isobaric, reversible processes, one for each of the two objects. The entropy change for each object is then given by <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mi>B</m:mi></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mi>A</m:mi></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167585991364"><title>Solution</title>
+Using <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>450</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:math>, the specific heat of steel, we have for the hotter object</para>
+<equation id="fs-id1167582563793" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mtext>h</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>450</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:mn>350</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mrow><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−240</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167582498862">Similarly, the entropy change of the cooler object is</para>
+<equation id="fs-id1167586050306" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>450</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:mn>350</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>277</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585880046">The net entropy change of the two objects during the heat transfer is then</para>
+<equation id="fs-id1167585773303" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>37</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585879752"><title>Significance</title>
+The objects are thermally isolated from the environment, so its entropy must remain constant. Thus, the entropy of the universe also increases by 37 J/K.</para>
+</example>
+<note id="fs-id1167585830958" class="check-understanding">
+<exercise id="fs-id1167585926010">
+<problem id="fs-id1167585771541">
+<para id="fs-id1167585845457"><emphasis effect="bold">Check Your Understanding</emphasis> A quantity of heat <emphasis effect="italics">Q</emphasis> is absorbed from a reservoir at a temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> by a cooler reservoir at a temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> What is the entropy change of the hot reservoir, the cold reservoir, and the universe?</para>
+</problem>
+<solution id="fs-id1167582738451">
+<para id="fs-id1167586027592"><m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math>; <m:math><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math>; and <m:math><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167585846328" class="check-understanding">
+<exercise id="fs-id1167582476748">
+<problem id="fs-id1167582859818">
+<para id="fs-id1167582409821"><emphasis effect="bold">Check Your Understanding</emphasis> A 50-g copper piece at a temperature of <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> is placed into a large insulated vat of water at <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. (a) What is the entropy change of the copper piece when it reaches thermal equilibrium with the water? (b) What is the entropy change of the water? (c) What is the entropy change of the universe?</para>
+</problem>
+<solution id="fs-id1167585833582">
+<para id="fs-id1167585881812">a. 4.71 J/K; b. −4.18 J/K; c. 0.53 J/K</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167582437665" class="media-2">
+<para id="fs-id1167585746717">View this <link url="https://openstax.org/l/21reversereact">site</link> to learn about entropy and microstates. Start with a large barrier in the middle and 1000 molecules in only the left chamber. What is the total entropy of the system? Now remove the barrier and let the molecules travel from the left to the right hand side? What is the total entropy of the system now? Lastly, add heat and note what happens to the temperature. Did this increase entropy of the system?</para>
+</note>
+<section id="fs-id1167586014778" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167585877285" list-type="bulleted" bullet-style="bullet">
+<item>Entropy can be related to how disordered a system is—the more it is disordered, the higher is its entropy. In any irreversible process, the universe becomes more disordered.</item>
+<item>According to the third law of thermodynamics, absolute zero temperature is unreachable.</item>
+</list>
+</section>
+<section id="fs-id1167585805381" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1167585748069" summary="The table has two columns and twelve rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Result of energy conservation” and “W equals Q subscript h minus Q subscript c”. The second row contains “Efficiency of a heat engine” and “e equals W divided by Q subscript h equals 1 minus Q subscript c divided by Q subscript h”. The third row contains “Coefficient of performance of a refrigerator” and “K subscript R equals Q subscript c divided by W equals Q subscript c divided by Q subscript h minus Q subscript c”. The fourth row contains “Coefficient of performance of a heat pump” and “K subscript P equals Q subscript h divided by W equals Q subscript h divided by Q subscript h minus Q subscript c”. The fifth row contains “Resulting efficiency of a Carnot cycle” and “e  equals 1 minus T subscript c divided by T subscript h”. The sixth row contains “Performance coefficient of a reversible refrigerator” and “K subscript R equals T subscript c divided by T subscript h minus T subscript c”. The seventh row contains “Performance coefficient of a reversible heat pump” and “K subscript P equals T subscript h divided by T subscript h minus T subscript c”. The eighth row contains “Entropy of a system undergoing a reversible process at a constant temperature” and “delta S equals Q divided by T”. The ninth row contains “Change of entropy of a system under a reversible process” and “delta S equals S subscript B minus S subscript A equals integration from A to B dQ divided by T”. The tenth row contains “Entropy of a system undergoing any complete reversible cyclic process” and “closed loop integral dS equals closed loop integral dQ divided by T equals 0”. The eleventh row contains “Change of entropy of a closed system under an irreversible process” and “delta S greater than equal to 0”. The twelfth row contains “Change in entropy of the system along an isotherm” and “limit T to 0 opening parenthesis delta S closing parenthesis subscript T equals 0”." class="unnumbered unstyled">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Result of energy conservation</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Efficiency of a heat engine</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>W</m:mi><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Coefficient of performance of a refrigerator 	</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mi>W</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Coefficient of performance of a heat pump</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mi>W</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Resulting efficiency of a Carnot cycle</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Performance coefficient of a reversible refrigerator</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Performance coefficient of a reversible heat pump</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Entropy of a system undergoing a reversible process at a constant temperature</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>T</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Change of entropy of a system under a reversible process</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:msub><m:mi>S</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>S</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>T</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Entropy of a system undergoing any complete reversible cyclic process</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>d</m:mi><m:mi>S</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Change of entropy of a closed system under an irreversible process</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Change in entropy of the system along an isotherm</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:munder><m:msub><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167585823985" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167582534404">
+<problem id="fs-id1167585860241">
+<para id="fs-id1167582471509">Are the entropy changes of the <emphasis effect="italics">systems</emphasis> in the following processes positive or negative? (a) <emphasis effect="italics">water vapor</emphasis> that condenses on a cold surface; (b) gas in a container that leaks into the surrounding atmosphere; (c) an <emphasis effect="italics">ice cube</emphasis> that melts in a glass of lukewarm water; (d) the <emphasis effect="italics">lukewarm water</emphasis> of part (c); (e) a <emphasis effect="italics">real heat engine</emphasis> performing a cycle; (f) <emphasis effect="italics">food</emphasis> cooled in a refrigerator.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167586027961">
+<problem id="fs-id1167586284986">
+<para id="fs-id1167585955763">Discuss the entropy changes in the systems of Question 21.10 in terms of disorder.</para>
+</problem>
+<solution id="fs-id1167586253065">
+<para id="fs-id1167582410008">Entropy is a function of disorder, so all the answers apply here as well.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167586181087" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167582426896">
+<problem id="fs-id1167582550267">
+<para id="fs-id1167586181674">A copper rod of cross-sectional area <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and length 5.0 m conducts heat from a heat reservoir at 373 K to one at 273 K. What is the time rate of change of the universe’s entropy for this process?</para>
+</problem>
+<solution id="fs-id1167582471164">
+<para id="fs-id1167582673668"><m:math><m:mrow><m:mn>3.78</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>W/K</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167582534790">
+<problem id="fs-id1167582770935">
+<para id="fs-id1167585912299">Fifty grams of water at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> is heated until it becomes vapor at <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. Calculate the change in entropy of the water in this process.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167586013308">
+<problem id="fs-id1167585986356">
+<para id="fs-id1167585991538">Fifty grams of water at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> are changed into vapor at <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. What is the change in entropy of the water in this process?</para>
+</problem>
+<solution id="fs-id1167586282049">
+<para id="fs-id1167586235933">430 J/K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586023914">
+<problem id="fs-id1167586014208">
+<para id="fs-id1167585997169">In an isochoric process, heat is added to 10 mol of monoatomic ideal gas whose temperature increases from 273 to 373 K. What is the entropy change of the gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585797641">
+<problem id="fs-id1167585971310">
+<para id="fs-id1167585845291">Two hundred grams of water at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> is brought into contact with a heat reservoir at <m:math><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. After thermal equilibrium is reached, what is the temperature of the water? Of the reservoir? How much heat has been transferred in the process? What is the entropy change of the water? Of the reservoir? What is the entropy change of the universe?</para>
+</problem>
+<solution id="fs-id1167585797992">
+<para id="fs-id1167585777338"><m:math><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mn>6.70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>, 215 J/K, –190 J/K, 25 J/K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586044863">
+<problem id="fs-id1167586233706">
+<para id="fs-id1167585805882">Suppose that the temperature of the water in the previous problem is raised by first bringing it to thermal equilibrium with a reservoir at a temperature of <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and then with a reservoir at <m:math><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. Calculate the entropy changes of (a) each reservoir, (b) of the water, and (c) of the universe.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585881977">
+<problem id="fs-id1167586233466">
+<para id="fs-id1167585967767">Two hundred grams of water at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> is brought into contact into thermal equilibrium successively with reservoirs at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, and <m:math><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. (a) What is the entropy change of the water? (b) Of the reservoir? (c) What is the entropy change of the universe?</para>
+</problem>
+<solution id="fs-id1167586010831">
+<para id="fs-id1167582426957"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>215</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−208</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>S</m:mi><m:mtext>U</m:mtext></m:msub><m:mo>=</m:mo><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585853923">
+<problem id="fs-id1167586007235">
+<para id="fs-id1167585942385">(a) Ten grams of <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext></m:mrow></m:math> starts as ice at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. The ice absorbs heat from the air (just above <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>) until all of it melts. Calculate the entropy change of the <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext></m:mrow></m:math>, of the air, and of the universe. (b) Suppose that the air in part (a) is at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> rather than <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> and that the ice absorbs heat until it becomes water at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. Calculate the entropy change of the <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext></m:mrow></m:math>, of the air, and of the universe. (c) Is either of these processes reversible?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167582880993">
+<problem id="fs-id1167585905729">
+<para id="fs-id1167586180108">The Carnot cycle is represented by the temperature-entropy diagram shown below. (a) How much heat is absorbed per cycle at the high-temperature reservoir? (b) How much heat is exhausted per cycle at the low-temperature reservoir? (c) How much work is done per cycle by the engine? (d) What is the efficiency of the engine?</para>
+<media id="fs-id1167586267143" alt="The figure shows a graph with x-axis S in J divided by K and y-axis T in K. The four points A (2.0, 600), B (4.0, 600), C (4.0, 300) ad D (2.0, 300) are connected to form a closed loop.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_07_SM21-43_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167582575444">
+<para id="fs-id1167582750661">a. 1200 J; b. 600 J; c. 600 J; d. 0.50</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585858106">
+<problem id="fs-id1167585967724">
+<para id="fs-id1167585965748">A Carnot engine operating between heat reservoirs at 500 and 300 K absorbs 1500 J per cycle at the high-temperature reservoir. (a) Represent the engine’s cycle on a temperature-entropy diagram. (b) How much work per cycle is done by the engine?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585905508">
+<problem id="fs-id1167586179175">
+<para id="fs-id1167586032824">A monoatomic ideal gas (<emphasis effect="italics">n</emphasis> moles) goes through a cyclic process shown below. Find the change in entropy of the gas in each step and the total entropy change over the entire cycle.</para>
+<media id="fs-id1167586053910" alt="The figure shows a closed loop graph with three points 1, 2 and 3. The x-axis is V and y-axis is p. The value of V at 1 and 2 is equal and the value of p at 2 and 3 is equal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_07_entropyprb_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167586040218">
+<para id="fs-id1167582774416"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>n</m:mi><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mn>3</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585991821">
+<problem id="fs-id1167585986729">
+<para id="fs-id1167586179937">A Carnot engine has an efficiency of 0.60. When the temperature of its cold reservoir changes, the efficiency drops to 0.55. If initially <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, determine (a) the constant value of <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> and (b) the final value of <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167582428430">
+<problem id="fs-id1167582771735">
+<para id="fs-id1167586296765">A Carnot engine performs 100 J of work while discharging 200 J of heat each cycle. After the temperature of the hot reservoir only is adjusted, it is found that the engine now does 130 J of work while discarding the same quantity of heat. (a) What are the initial and final efficiencies of the engine? (b) What is the fractional change in the temperature of the hot reservoir?</para></problem>
+<solution id="fs-id1167585867451">
+<para id="fs-id1167582451184">a. 0.33, 0.39; b. 0.91</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586273778">
+<problem id="fs-id1167582691442">
+<para id="fs-id1167582804301">A Carnot refrigerator exhausts heat to the air, which is at a temperature of <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. How much power is used by the refrigerator if it freezes 1.5 g of water per second? Assume the water is at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167582805142" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1167586058916">
+<problem id="fs-id1167585954102">
+<para id="fs-id1167586020618">A 300-W heat pump operates between the ground, whose temperature is <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, and the interior of a house at <m:math><m:mrow><m:mn>22</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. What is the maximum amount of heat per hour that the heat pump can supply to the house?</para>
+</problem>
+<solution id="fs-id1167582385706">
+<para id="fs-id1167586030893"><m:math><m:mrow><m:mn>1.45</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585970258">
+<problem id="fs-id1167585968473">
+<para id="fs-id1167585994910">An engineer must design a refrigerator that does 300 J of work per cycle to extract 2100 J of heat per cycle from a freezer whose temperature is <m:math><m:mrow><m:mn>−10</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. What is the maximum air temperature for which this condition can be met? Is this a reasonable condition to impose on the design?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167582881338">
+<problem id="fs-id1167582857430">
+<para id="fs-id1167585925609">A Carnot engine employs 1.5 mol of nitrogen gas as a working substance, which is considered as an ideal diatomic gas with <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>/</m:mo><m:mn>5</m:mn></m:mrow></m:math> at the working temperatures of the engine. The Carnot cycle goes in the cycle <emphasis effect="italics">ABCDA</emphasis> with <emphasis effect="italics">AB</emphasis> being an isothermal expansion. The volume at points <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">C</emphasis> of the cycle are <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math> and 0.15 L, respectively. The engine operates between two thermal baths of temperature 500 K and 300 K. (a) Find the values of volume at <emphasis effect="italics">B</emphasis> and <emphasis effect="italics">D</emphasis>. (b) How much heat is absorbed by the gas in the <emphasis effect="italics">AB</emphasis> isothermal expansion? (c) How much work is done by the gas in the <emphasis effect="italics">AB</emphasis> isothermal expansion? (d) How much heat is given up by the gas in the <emphasis effect="italics">CD</emphasis> isothermal expansion? (e) How much work is done by the gas in the <emphasis effect="italics">CD</emphasis> isothermal compression? (f) How much work is done by the gas in the <emphasis effect="italics">BC</emphasis> adiabatic expansion? (g) How much work is done by the gas in the <emphasis effect="italics">DA</emphasis> adiabatic compression? (h) Find the value of efficiency of the engine based on the net work and heat input. Compare this value to the efficiency of a Carnot engine based on the temperatures of the two baths.</para>
+</problem>
+<solution id="fs-id1167582782997">
+<para id="fs-id1167585857408">a. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>0.042</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mi>D</m:mi></m:msub><m:mo>=</m:mo><m:mn>0.018</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> b. 13,000 J; c. 13,000 J; d. –8,000 J; e. –8,000 J; f. 6200 J; g. –6200 J; h. <m:math><m:mrow><m:mn>39</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>; with temperatures efficiency is <m:math><m:mrow><m:mn>40</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>, which is off likely by rounding errors.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585926522">
+<problem id="fs-id1167585760108">
+<para id="fs-id1167585881158">A 5.0-kg wood block starts with an initial speed of 8.0 m/s and slides across the floor until friction stops it. Estimate the resulting change in entropy of the universe. Assume that everything stays at a room temperature of <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167586262160">
+<problem id="fs-id1167586054185">
+<para id="fs-id1167582479424">A system consisting of 20.0 mol of a monoatomic ideal gas is cooled at constant pressure from a volume of 50.0 L to 10.0 L. The initial temperature was 300 K. What is the change in entropy of the gas?</para>
+</problem>
+<solution id="fs-id1167585898373">
+<para id="fs-id1167586010182">–670 J/K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167582472726">
+<problem id="fs-id1167586029595">
+<para id="fs-id1167585994164">A glass beaker of mass 400 g contains 500 g of water at <m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. The beaker is heated reversibly so that the temperature of the beaker and water rise gradually to <m:math><m:mrow><m:mn>57</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Find the change in entropy of the beaker and water together.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167582435665">
+<problem id="fs-id1167585900288">
+<para id="fs-id1167586218952">A Carnot engine operates between <m:math><m:mrow><m:mn>550</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> baths and produces 300 kJ of energy in each cycle. Find the change in entropy of the (a) hot bath and (b) cold bath, in each Carnot cycle?</para>
+</problem>
+<solution id="fs-id1167582670129">
+<para id="fs-id1167585860150">a. –570 J/K; b. 570 J/K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585942207">
+<problem id="fs-id1167585991325">
+<para id="fs-id1167582668407">An ideal gas at temperature <emphasis effect="italics">T</emphasis> is stored in the left half of an insulating container of volume <emphasis effect="italics">V</emphasis> using a partition of negligible volume (see below). What is the entropy change per mole of the gas in each of the following cases? (a) The partition is suddenly removed and the gas quickly fills the entire container. (b) A tiny hole is punctured in the partition and after a long period, the gas reaches an equilibrium state such that there is no net flow through the hole. (c) The partition is moved very slowly and adiabatically all the way to the right wall so that the gas finally fills the entire container.</para>
+<media id="fs-id1167582425512" alt="The figure shows a container which is filled with gas on the left half and is empty on the right half.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_07_SM21-48_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167582457899">
+<problem id="fs-id1167586038781">
+<para id="fs-id1167585933558">A 0.50-kg piece of aluminum at <m:math><m:mrow><m:mn>250</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is dropped into 1.0 kg of water at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. After equilibrium is reached, what is the net entropy change of the system?</para>
+</problem>
+<solution id="fs-id1167582561019">
+<para id="fs-id1167585900295">82 J/K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167582485628">
+<problem id="fs-id1167582425331">
+<para id="fs-id1167585798613">Suppose 20 g of ice at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is added to 300 g of water at <m:math><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. What is the total change in entropy of the mixture after it reaches thermal equilibrium?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585905550">
+<problem id="fs-id1167586246318">
+<para id="fs-id1167586271105">A heat engine operates between two temperatures such that the working substance of the engine absorbs 5000 J of heat from the high-temperature bath and discharges 3000 J to the low-temperature bath. The rest of the energy is converted into mechanical energy of the turbine. Find (a) the amount of work produced by the engine and (b) the efficiency of the engine.</para></problem>
+<solution id="fs-id1167585913962">
+<para id="fs-id1167585967212">a. 2000 J; b. <m:math><m:mrow><m:mn>40</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167582498858">
+<problem id="fs-id1167582456246">
+<para id="fs-id1167582926661">A thermal engine produces 4 MJ of electrical energy while operating between two thermal baths of different temperatures. The working substance of the engine discharges 5 MJ of heat to the cold temperature bath. What is the efficiency of the engine?</para></problem>
+</exercise>
+<exercise id="fs-id1167585789606">
+<problem id="fs-id1167582534193">
+<para id="fs-id1167586280802">A coal power plant consumes 100,000 kg of coal per hour and produces 500 MW of power. If the heat of combustion of coal is 30 MJ/kg, what is the efficiency of the power plant?</para>
+</problem>
+<solution id="fs-id1167585988584">
+<para id="fs-id1167582824017"><m:math><m:mrow><m:mn>60</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167582484922">
+<problem id="fs-id1167586000411">
+<para id="fs-id1167586271876">A Carnot engine operates in a Carnot cycle between a heat source at <m:math><m:mrow><m:mn>550</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and a heat sink at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Find the efficiency of the Carnot engine.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585900179">
+<problem id="fs-id1167585807221">
+<para id="fs-id1167582525159">A Carnot engine working between two heat baths of temperatures 600 K and 273 K completes each cycle in 5 sec. In each cycle, the engine absorbs 10 kJ of heat. Find the power of the engine.</para>
+</problem>
+<solution id="fs-id1167586251235">
+<para id="fs-id1167585868115"><m:math><m:mrow><m:mn>64.4</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586016235">
+<problem id="fs-id1167586284373">
+<para id="fs-id1167586219040">A Carnot cycle working between <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is used to drive a refrigerator between <m:math><m:mrow><m:mn>−10</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math> How much energy must the Carnot engine produce per second so that the refrigerator is able to discard 10 J of energy per second?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167582454004" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1167585900858">
+<problem id="fs-id1167582754264">
+<para id="fs-id1167585966417">(a) An infinitesimal amount of heat is added reversibly to a system. By combining the first and second laws, show that <m:math><m:mrow><m:mi>d</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>T</m:mi><m:mi>d</m:mi><m:mi>S</m:mi><m:mo>−</m:mo><m:mi>d</m:mi><m:mi>W</m:mi></m:mrow></m:math>. (b) When heat is added to an ideal gas, its temperature and volume change from <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Show that the entropy change of <emphasis effect="italics">n</emphasis> moles of the gas is given by</para>
+<para id="fs-id1167585839614"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>C</m:mi><m:mi>v</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167586169038">
+<para id="fs-id1167582483104">derive</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586012285">
+<problem id="fs-id1167586245997">
+<para id="fs-id1167585909880">Using the result of the preceding problem, show that for an ideal gas undergoing an adiabatic process, <m:math><m:mrow><m:mi>T</m:mi><m:msup><m:mi>V</m:mi><m:mrow><m:mtext>γ</m:mtext><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math> is constant.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167586017865">
+<problem id="fs-id1167586017867">
+<para id="fs-id1167582524401">With the help of the two preceding problems, show that <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi></m:mrow></m:math> between states 1 and 2 of <emphasis effect="italics">n</emphasis> moles an ideal gas is given by</para>
+<para id="fs-id1167586000210"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167585831851">
+<para id="fs-id1167586012915">derive</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167582486397">
+<problem id="fs-id1167582486399">
+<para id="fs-id1167585822229">A cylinder contains 500 g of helium at 120 atm and <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. The valve is leaky, and all the gas slowly escapes isothermally into the atmosphere. Use the results of the preceding problem to determine the resulting change in entropy of the universe.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167582385545">
+<problem id="fs-id1167582385547">
+<para id="fs-id1167585949271">A diatomic ideal gas is brought from an initial equilibrium state at <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> to a final stage with <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Use the results of the previous problem to determine the entropy change per mole of the gas.</para>
+</problem>
+<solution id="fs-id1167582459212">
+<para id="fs-id1167585876448">18 J/K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586246702">
+<problem id="fs-id1167586246704">
+<para id="fs-id1167586022379">The gasoline internal combustion engine operates in a cycle consisting of six parts. Four of these parts involve, among other things, friction, heat exchange through finite temperature differences, and accelerations of the piston; it is irreversible. Nevertheless, it is represented by the ideal reversible <emphasis effect="italics">Otto cycle</emphasis>, which is illustrated below. The working substance of the cycle is assumed to be air. The six steps of the <term class="no-emphasis">Otto cycle</term> are as follows:</para>
+<list id="fs-id1167582671176" list-type="enumerated" number-style="lower-roman">
+<item>Isobaric intake stroke (<emphasis effect="italics">OA</emphasis>). A mixture of gasoline and air is drawn into the combustion chamber at atmospheric pressure <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> as the piston expands, increasing the volume of the cylinder from zero to <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math>.</item>
+<item>Adiabatic compression stroke (<emphasis effect="italics">AB</emphasis>). The temperature of the mixture rises as the piston compresses it adiabatically from a volume <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>A</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math>.</item>
+<item>Ignition at constant volume (<emphasis effect="italics">BC</emphasis>). The mixture is ignited by a spark. The combustion happens so fast that there is essentially no motion of the piston. During this process, the added heat <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> causes the pressure to increase from <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mi>B</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>p</m:mi><m:mi>C</m:mi></m:msub></m:mrow></m:math> at the constant volume <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>B</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mtext>C</m:mtext></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
+<item>Adiabatic expansion (<emphasis effect="italics">CD</emphasis>). The heated mixture of gasoline and air expands against the piston, increasing the volume from <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>C</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mi>D</m:mi></m:msub></m:mrow></m:math>. This is called the <emphasis effect="italics">power stroke</emphasis>, as it is the part of the cycle that delivers most of the power to the crankshaft.</item>
+<item>Constant-volume exhaust (<emphasis effect="italics">DA</emphasis>). When the exhaust valve opens, some of the combustion products escape. There is almost no movement of the piston during this part of the cycle, so the volume remains constant at <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>A</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mi>D</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Most of the available energy is lost here, as represented by the heat exhaust <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</item>
+<item>Isobaric compression (<emphasis effect="italics">AO</emphasis>). The exhaust valve remains open, and the compression from <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math> to zero drives out the remaining combustion products.</item>
+</list>
+<para id="fs-id1167582752836">(a) Using (<emphasis effect="italics">i</emphasis>) <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mrow><m:mi>W</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math>; (<emphasis effect="italics">ii</emphasis>) <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>; and (<emphasis effect="italics">iii</emphasis>) <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>C</m:mi><m:mi>v</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mi>C</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mi>B</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>C</m:mi><m:mi>v</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mi>D</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mi>A</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, show that</para>
+<para id="fs-id1167586009459"><m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mi>D</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mi>C</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+<para id="fs-id1167582397992">(b) Use the fact that steps (ii) and (iv) are adiabatic to show that</para>
+<para id="fs-id1167582387135"><m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math>,</para>
+<para id="fs-id1167585949118">where <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>V</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:mrow></m:mrow></m:math>. The quantity <emphasis effect="italics">r</emphasis> is called the <emphasis effect="italics">compression ratio</emphasis> of the engine.</para>
+<para id="fs-id1167585934161">(c) In practice, <emphasis effect="italics">r</emphasis> is kept less than around 7. For larger values, the gasoline-air mixture is compressed to temperatures so high that it explodes before the finely timed spark is delivered. This <emphasis effect="italics">preignition</emphasis> causes engine knock and loss of power. Show that for <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>1.4</m:mn></m:mrow></m:math> (the value for air), <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>0.51</m:mn></m:mrow></m:math>, or an efficiency of <m:math><m:mrow><m:mn>51</m:mn><m:mtext>%</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Because of the many irreversible processes, an actual internal combustion engine has an efficiency much less than this ideal value. A typical efficiency for a tuned engine is about <m:math><m:mrow><m:mn>25</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:mn>30</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>.</para>
+<media id="fs-id1167582860421" alt="The figure shows a closed loop graph with four points A, B, C and D. The x-axis is V and y-axis is p. The value of V at A and D is equal and at B and C is equal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_07_SM21-57_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167582438580">
+<problem id="fs-id1167582438582">
+<para id="fs-id1167586178186">An ideal <term class="no-emphasis"><emphasis effect="italics">diesel</emphasis> cycle</term> is shown below. This cycle consists of five strokes. In this case, only air is drawn into the chamber during the intake stroke <emphasis effect="italics">OA</emphasis>. The air is then compressed adiabatically from state <emphasis effect="italics">A</emphasis> to state <emphasis effect="italics">B</emphasis>, raising its temperature high enough so that when fuel is added during the power stroke <emphasis effect="italics">BC</emphasis>, it ignites. After ignition ends at <emphasis effect="italics">C</emphasis>, there is a further adiabatic power stroke <emphasis effect="italics">CD</emphasis>. Finally, there is an exhaust at constant volume as the pressure drops from <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mi>D</m:mi></m:msub></m:mrow></m:math> to <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math>, followed by a further exhaust when the piston compresses the chamber volume to zero.</para>
+<para id="fs-id1167585900628">(a) Use <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mi>C</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mi>B</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, and <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>C</m:mi><m:mi>v</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mi>D</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mi>A</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to show that <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>W</m:mi><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mi>D</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mi>C</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mi>B</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+<para id="fs-id1167586025859">(b) Use the fact that <m:math><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">→</m:mo><m:mi>B</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">→</m:mo><m:mi>D</m:mi></m:mrow></m:math> are adiabatic to show that</para>
+<para id="fs-id1167582419820"><m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>γ</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>C</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>D</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>γ</m:mi></m:msup><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>B</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>γ</m:mi></m:msup></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>C</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>D</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>B</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+<para id="fs-id1167582471185">(c) Since there is no preignition (remember, the chamber does not contain any fuel during the compression), the compression ratio can be larger than that for a gasoline engine. Typically, <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>V</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:mrow><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>D</m:mi></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>V</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:math>. For these values and <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>1.4</m:mn><m:mo>,</m:mo></m:mrow></m:math> show that <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>0.56</m:mn></m:mrow></m:math>, or an efficiency of <m:math><m:mrow><m:mn>56</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>. Diesel engines actually operate at an efficiency of about <m:math><m:mrow><m:mn>30</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:mn>35</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> compared with <m:math><m:mrow><m:mn>25</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:mn>30</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> for gasoline engines.</para>
+<media id="fs-id1167582472004" alt="The figure shows a closed loop graph with four points A, B, C and D. The x-axis is V and y-axis is p. The value of V at A and D is equal and the value of p at B and C is equal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_07_SM21-58_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167582527976">
+<para id="fs-id1167582527978">proof</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167582521736">
+<problem id="fs-id1167582521738">
+<para id="fs-id1167586037627">Consider an ideal gas Joule cycle, also called the Brayton cycle, shown below. Find the formula for efficiency of the engine using this cycle in terms of <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, and <m:math><m:mi>γ</m:mi></m:math>.</para>
+<media id="fs-id1167586014626" alt="The figure shows a closed loop graph with four points 1, 2, 3 and 4. The x-axis is V and y-axis is p. The value of p at 1 and 4 is equal and at 2 and 3 is equal">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_08_Brayton_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167582750784">
+<problem id="fs-id1167582576842">
+<para id="fs-id1167582576844">Derive a formula for the coefficient of performance of a refrigerator using an ideal gas as a working substance operating in the cycle shown below in terms of the properties of the three states labeled 1, 2, and 3.</para>
+<media id="fs-id1167582859853" alt="The figure shows a closed loop graph with three points 1, 2 and 3. The x-axis is V and y-axis is p. The value of V at 1 and 2 is equal and the value of p at 2 and 3 is equal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_07_entropyprb_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167585853148">
+<para id="fs-id1167585853150"><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>5</m:mn><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>−</m:mo><m:mn>3</m:mn><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586291900">
+<problem id="fs-id1167586291902">
+<para id="fs-id1167585844447">Two moles of nitrogen gas, with <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mtext>/</m:mtext><m:mn>5</m:mn></m:mrow></m:math> for ideal diatomic gases, occupies a volume of <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math> in an insulated cylinder at temperature 300 K. The gas is adiabatically and reversibly compressed to a volume of 5 L. The piston of the cylinder is locked in its place, and the insulation around the cylinder is removed. The heat-conducting cylinder is then placed in a 300-K bath. Heat from the compressed gas leaves the gas, and the temperature of the gas becomes 300 K again. The gas is then slowly expanded at the fixed temperature 300 K until the volume of the gas becomes <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math>, thus making a complete cycle for the gas. For the entire cycle, calculate (a) the work done by the gas, (b) the heat into or out of the gas, (c) the change in the internal energy of the gas, and (d) the change in entropy of the gas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167582665070">
+<problem id="fs-id1167582665072">
+<para id="fs-id1167582665074">A Carnot refrigerator, working between <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is used to cool a bucket of water containing <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math> of water at <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> in 2 hours. Find the total amount of work needed.</para>
+</problem>
+<solution id="fs-id1167582452057">
+<para id="fs-id1167582452059"><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>110,000</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167582457532">
+<term>disorder</term>
+<meaning id="fs-id1167586052488">measure of order in a system; the greater the disorder is, the higher the entropy</meaning>
+</definition>
+<definition id="fs-id1167586052492">
+<term>isentropic</term>
+<meaning id="fs-id1167585914137">reversible adiabatic process where the process is frictionless and no heat is transferred</meaning>
+</definition>
+<definition id="fs-id1167586049479">
+<term>third law of thermodynamics</term>
+<meaning id="fs-id1167585949850">absolute zero temperature cannot be reached through any finite number of cooling steps</meaning>
+</definition>
+</glossary>
+
+</document>

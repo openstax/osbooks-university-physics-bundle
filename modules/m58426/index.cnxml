@@ -1,0 +1,573 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Conductors in Electrostatic Equilibrium</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58426</md:content-id>
+  <md:title>Conductors in Electrostatic Equilibrium</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para> 
+<list>
+<item>Describe the electric field within a conductor at equilibrium</item>
+<item>Describe the electric field immediately outside the surface of a charged conductor at equilibrium</item>
+<item>Explain why if the field is not as described in the first two objectives, the conductor is not at equilibrium</item></list></md:abstract>
+  <md:uuid>1d0ed2df-6f68-4481-889e-6fe583792c2c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172098770469">So far, we have generally been working with charges occupying a volume within an insulator. We now study what happens when free charges are placed on a conductor. Generally, in the presence of a (generally external) electric field, the free charge in a conductor redistributes and very quickly reaches electrostatic equilibrium. The resulting charge distribution and its electric field have many interesting properties, which we can investigate with the help of Gauss’s law and the concept of electric potential.</para>
+<section id="fs-id1172098517728">
+<title>The Electric Field inside a Conductor Vanishes</title>
+<para id="fs-id1172098272587">If an electric field is present inside a conductor, it exerts forces on the <term>free electrons</term> (also called conduction electrons), which are electrons in the material that are not bound to an atom. These free electrons then accelerate. However, moving charges by definition means nonstatic conditions, contrary to our assumption. Therefore, when electrostatic equilibrium is reached, the charge is distributed in such a way that the electric field inside the conductor vanishes.</para>
+<para id="fs-id1172100964615">If you place a piece of a metal near a positive charge, the free electrons in the metal are attracted to the external positive charge and migrate freely toward that region. The region the electrons move to then has an excess of electrons over the protons in the atoms and the region from where the electrons have migrated has more protons than electrons. Consequently, the metal develops a negative region near the charge and a positive region at the far end (<link target-id="CNX_UPhysics_23_04_Polarize"/>). As we saw in the preceding chapter, this separation of equal magnitude and opposite type of electric charge is called <term class="no-emphasis">polarization</term>. If you remove the external charge, the electrons migrate back and neutralize the positive region.</para>
+<figure id="CNX_UPhysics_23_04_Polarize">
+<media id="fs-id1172100746881" alt="Figure shows a sphere and a positive charge q some distance away from it. The side of the sphere facing q is labeled A and the opposite side is labeled B. Minus signs and plus signs are shown at the inner surfaces of the sphere on sides A and B respectively. These are labeled minus sigma A and plus sigma B respectively.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_Polarize.jpg"/>
+</media>
+<caption>Polarization of a metallic sphere by an external point charge <m:math><m:mrow><m:mtext>+</m:mtext><m:mi>q</m:mi></m:mrow></m:math>. The near side of the metal has an opposite surface charge compared to the far side of the metal. The sphere is said to be polarized. When you remove the external charge, the polarization of the metal also disappears.</caption>
+</figure>
+<para id="fs-id1172098423859">The polarization of the metal happens only in the presence of external charges. You can think of this in terms of electric fields. The external charge creates an external electric field. When the metal is placed in the region of this electric field, the electrons and protons of the metal experience electric forces due to this external electric field, but only the conduction electrons are free to move in the metal over macroscopic distances. The movement of the conduction electrons leads to the polarization, which creates an induced electric field in addition to the external electric field (<link target-id="CNX_UPhysics_23_04_PolEField"/>). The net electric field is a vector sum of the fields of <m:math><m:mrow><m:mtext>+</m:mtext><m:mi>q</m:mi></m:mrow></m:math> and the surface charge densities <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>σ</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:mo>+</m:mo><m:msub><m:mi>σ</m:mi><m:mi>B</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> This means that the net field inside the conductor is different from the field outside the conductor.</para>
+<figure id="CNX_UPhysics_23_04_PolEField">
+<media id="fs-id1172100528493" alt="Figure shows a sphere and a charge q some distance away from it. The side of the sphere facing q is labeled A and the opposite side is labeled B. The inner surfaces of the sphere on sides A and B are labeled minus sigma A and plus sigma B respectively. A point P is on the sphere. Two arrows originate from P. They are labeled vector E subscript A and vector E subscript B. A dotted line bisects the angle formed by the two and connects P to q. A third arrow originates from P and points in the direction opposite to q. This is labeled vector E subscript q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_PolEField.jpg"/>
+</media>
+<caption>In the presence of an external charge <emphasis effect="italics">q</emphasis>, the charges in a metal redistribute. The electric field at any point has three contributions, from <m:math><m:mrow><m:mtext>+</m:mtext><m:mi>q</m:mi></m:mrow></m:math> and the induced charges <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>σ</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:mo>+</m:mo><m:msub><m:mi>σ</m:mi><m:mi>B</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Note that the surface charge distribution will not be uniform in this case.</caption>
+</figure>
+<para id="fs-id1172098768519">The redistribution of charges is such that the sum of the three contributions at any point <emphasis effect="italics">P</emphasis> inside the conductor is</para>
+<equation id="fs-id1172096058165" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>q</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>B</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mn>0</m:mn><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098460801">Now, thanks to Gauss’s law, we know that there is no net charge enclosed by a Gaussian surface that is solely within the volume of the conductor at equilibrium. That is, <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and hence</para>
+<equation id="fs-id1172096094453"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mn>0</m:mn><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mtext>at points inside a conductor</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</section>
+<section id="fs-id1172096082423">
+<title>Charge on a Conductor</title>
+<para id="fs-id1172098721143">An interesting property of a conductor in static equilibrium is that extra charges on the conductor end up on the outer surface of the conductor, regardless of where they originate. <link target-id="CNX_UPhysics_23_04_InsideSurf"/> illustrates a system in which we bring an external positive charge inside the cavity of a metal and then touch it to the inside surface. Initially, the inside surface of the cavity is negatively charged and the outside surface of the conductor is positively charged. When we touch the inside surface of the cavity, the induced charge is neutralized, leaving the outside surface and the whole metal charged with a net positive charge.</para>
+<figure id="CNX_UPhysics_23_04_InsideSurf">
+<media id="fs-id1172098464102" alt="A figure on the left shows a shaded circle with a cavity in it. A rod with a ball at the end is inserted in the cavity in such a way that it does not touch the shaded circle. The ball has a plus sign on it. The cavity has minus signs around it. The shaded circle has plus signs outside it. An arrow points from this figure to a figure on the right. The arrow is labeled touch inside cavity. The figure on the right is similar to the figure on the left, except that the ball is touching the edge of the cavity. There are no signs on the ball or around the cavity. The outside of the shaded circle has plus signs.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_InsideSurf.jpg"/>
+</media>
+<caption>Electric charges on a conductor migrate to the outside surface no matter where you put them initially.</caption>
+</figure>
+<para id="fs-id1172098401584">To see why this happens, note that the Gaussian surface in <link target-id="CNX_UPhysics_23_04_Gausurface"/> (the dashed line) follows the contour of the actual surface of the conductor and is located an infinitesimal distance <emphasis effect="italics">within</emphasis> it. Since <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> everywhere inside a conductor,</para>
+<equation id="fs-id1172098677904" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>s</m:mi></m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172100757668">Thus, from Gauss’s law, there is no net charge inside the Gaussian surface. But the Gaussian surface lies just below the actual surface of the conductor; consequently, there is no net charge inside the conductor. Any excess charge must lie on its surface.</para><figure id="CNX_UPhysics_23_04_Gausurface">
+<media id="fs-id1172100760732" alt="Figure shows an irregular shape. A dotted line is shown just inside the outline of the shape.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_Gausurface.jpg"/>
+</media>
+<caption>The dashed line represents a Gaussian surface that is just beneath the actual surface of the conductor.</caption>
+</figure>
+<para id="fs-id1172096082694">This particular property of conductors is the basis for an extremely accurate method developed by Plimpton and Lawton in 1936 to verify Gauss’s law and, correspondingly, Coulomb’s law. A sketch of their apparatus is shown in <link target-id="CNX_UPhysics_23_04_Trancharge"/>. Two spherical shells are connected to one another through an electrometer E, a device that can detect a very slight amount of charge flowing from one shell to the other. When switch S is thrown to the left, charge is placed on the outer shell by the battery B. Will charge flow through the electrometer to the inner shell?</para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172098362378">No. Doing so would mean a violation of Gauss’s law. Plimpton and Lawton did not detect any flow and, knowing the sensitivity of their electrometer, concluded that if the radial dependence in Coulomb’s law were <m:math><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:msup><m:mi>r</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mi>δ</m:mi><m:mo>)</m:mo></m:mrow></m:msup></m:mrow></m:math>, <m:math><m:mi>δ</m:mi></m:math> would be less than <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup></m:mrow></m:math><footnote id="fs-id1167582803639">S. Plimpton and W. Lawton. 1936. “A Very Accurate Test of Coulomb’s Law of Force between Charges.” <emphasis effect="italics">Physical Review</emphasis> 50, No. 11: 1066, doi:10.1103/PhysRev.50.1066</footnote>. More recent measurements place <m:math><m:mi>δ</m:mi></m:math> at less than <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−16</m:mn></m:mrow></m:msup></m:mrow></m:math><footnote id="fs-id1167582672665">E. Williams, J. Faller, and H. Hill. 1971. “New Experimental Test of Coulomb’s Law: A Laboratory Upper Limit on the Photon Rest Mass.” <emphasis effect="italics">Physical Review Letters</emphasis> 26 , No. 12: 721, doi:10.1103/PhysRevLett.26.721</footnote>, a number so small that the validity of Coulomb’s law seems indisputable.</para><figure id="CNX_UPhysics_23_04_Trancharge">
+<media id="fs-id1172100909376" alt="Figure shows a circle labeled E. It is surrounded by two concentric circles with slits in them. These are labeled two concentric conducting spheres. Two terminals of E are connected, one to each circle. The outer circle is connected to a switch S, which switches between two terminals of a battery. There is a slanted plate at the top of the circles labeled mirror for viewing the electrometer. A person views the mirror through a scope. The line of view is reflected from the mirror to E.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_Trancharge.jpg"/>
+</media>
+<caption>A representation of the apparatus used by Plimpton and Lawton. Any transfer of charge between the spheres is detected by the electrometer E.</caption>
+</figure>
+</section>
+<section id="fs-id1172096157782">
+<title>The Electric Field at the Surface of a Conductor</title>
+<para id="fs-id1172096288028">If the electric field had a component parallel to the surface of a conductor, free charges on the surface would move, a situation contrary to the assumption of electrostatic equilibrium. Therefore, the electric field is always perpendicular to the surface of a conductor.</para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172100648269">At any point just above the surface of a conductor, the surface charge density <m:math><m:mi>σ</m:mi></m:math> and the magnitude of the electric field <emphasis effect="italics">E</emphasis> are related by</para><note id="fs-id1172098410845" class="equation-callout">
+<equation id="fs-id1172100583917"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172096082038">To see this, consider an infinitesimally small Gaussian cylinder that surrounds a point on the surface of the conductor, as in <link target-id="CNX_UPhysics_23_04_Infinite"/>. The cylinder has one end face inside and one end face outside the surface. The height and cross-sectional area of the cylinder are <m:math><m:mi>δ</m:mi></m:math> and <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow></m:math>, respectively. The cylinder’s sides are perpendicular to the surface of the conductor, and its end faces are parallel to the surface. Because the cylinder is infinitesimally small, the charge density <m:math><m:mi>σ</m:mi></m:math> is essentially constant over the surface enclosed, so the total charge inside the Gaussian cylinder is <m:math><m:mrow><m:mi>σ</m:mi><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow></m:math>. Now <emphasis effect="italics">E</emphasis> is perpendicular to the surface of the conductor outside the conductor and vanishes within it, because otherwise, the charges would accelerate, and we would not be in equilibrium. Electric flux therefore crosses only the outer end face of the Gaussian surface and may be written as <m:math><m:mrow><m:mi>E</m:mi><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow></m:math>, since the cylinder is assumed to be small enough that <emphasis effect="italics">E</emphasis> is approximately constant over that area. From Gauss’ law,</para>
+<equation id="fs-id1172098601455" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mtext>Δ</m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172096297420">Thus,</para>
+<equation id="fs-id1172100517064" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_23_04_Infinite">
+<media id="fs-id1172098419712" alt="A surface labeled sigma has plus signs on it. A point P on the surface forms the center of a cylinder. An arrow labeled vector E is along the axis of the cylinder and emerges from its top surface. The top surface of the cylinder is labeled delta A and the bottom surface is labeled vector E equal to zero. These are parallel to the surface sigma. The length of the cylinder is labeled sigma.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_Infinite.jpg"/>
+</media>
+<caption>An infinitesimally small cylindrical Gaussian surface surrounds point <emphasis effect="italics">P</emphasis>, which is on the surface of the conductor. The field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is perpendicular to the surface of the conductor outside the conductor and vanishes within it.</caption>
+</figure>
+<example id="fs-id1172098354573">
+<para id="fs-id1172098747744"><title>Electric Field of a Conducting Plate</title>
+The infinite conducting plate in <link target-id="CNX_UPhysics_23_04_SideView"/> has a uniform surface charge density <m:math><m:mi>σ</m:mi></m:math>. Use Gauss’ law to find the electric field outside the plate. Compare this result with that previously calculated directly.</para>
+<figure id="CNX_UPhysics_23_04_SideView">
+<media id="fs-id1172100944421" alt="A shaded strip labeled E equal to zero has plus signs on both its inner edges. A rectangle labeled A is shown on the right of the strip such that it encloses two plus signs. Two arrows within this are perpendicular to the length of the strip and point right. These are labeled vector E.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_SideView.jpg"/>
+</media>
+<caption>A side view of an infinite conducting plate and Gaussian cylinder with cross-sectional area <emphasis effect="italics">A</emphasis>.</caption>
+</figure>
+<para id="fs-id1172098376092"><title>Strategy</title>
+For this case, we use a cylindrical Gaussian surface, a side view of which is shown.</para>
+<para id="fs-id1172098723111"><title>Solution</title>
+The flux calculation is similar to that for an infinite sheet of charge from the previous chapter with one major exception: The left face of the Gaussian surface is inside the conductor where <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>E</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mn>0</m:mn><m:mo>→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> so the total flux through the Gaussian surface is <emphasis effect="italics">EA</emphasis> rather than 2<emphasis effect="italics">EA</emphasis>. Then from Gauss’ law,</para>
+<equation id="fs-id1172098377354" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi><m:mi>A</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1172101029742">and the electric field outside the plate is</para>
+<equation id="fs-id1172098592167" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100753065"><title>Significance</title>
+This result is in agreement with the result from the previous section, and consistent with the rule stated above.</para>
+</example>
+<example id="fs-id1172098703893">
+<para id="fs-id1172100586038"><title>Electric Field between Oppositely Charged Parallel Plates</title>
+Two large conducting plates carry equal and opposite charges, with a surface charge density <m:math><m:mi>σ</m:mi></m:math> of magnitude <m:math><m:mrow><m:mn>6.81</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> as shown in <link target-id="CNX_UPhysics_23_04_Oppcharge"/>. The separation between the plates is <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>6.50</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math>. What is the electric field between the plates?</para>
+<figure id="CNX_UPhysics_23_04_Oppcharge">
+<media id="fs-id1172098454617" alt="Two parallel plates are shown, a distance l apart. The left one has plus signs on the inside of its right surface. the right plate has minus signs on the inside of its left surface. Arrows from the left plate to the right plate are labeled vector E. A positive charge between the plates has an arrow from it, pointing right.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_OppCharge.jpg"/>
+</media>
+<caption>The electric field between oppositely charged parallel plates. A test charge is released at the positive plate.</caption>
+</figure>
+<para id="fs-id1172101007536"><title>Strategy</title>
+Note that the electric field at the surface of one plate only depends on the charge on that plate. Thus, apply <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> with the given values.</para>
+<para id="fs-id1172098408646"><title>Solution</title>
+The electric field is directed from the positive to the negative plate, as shown in the figure, and its magnitude is given by</para>
+<equation id="fs-id1172098407988" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6.81</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/N m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7.69</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172098314122"><title>Significance</title>
+This formula is applicable to more than just a plate. Furthermore, two-plate systems will be important later.</para>
+</example>
+<example id="fs-id1172096215540">
+<para id="fs-id1172096037218"><title>A Conducting Sphere</title>
+The isolated conducting sphere (<link target-id="CNX_UPhysics_23_04_Isolate"/>) has a radius <emphasis effect="italics">R</emphasis> and an excess charge <emphasis effect="italics">q</emphasis>. What is the electric field both inside and outside the sphere?</para>
+<figure id="CNX_UPhysics_23_04_Isolate">
+<media id="fs-id1172100976604" alt="Two concentric circles are shown. The smaller one, with radius R, has plus signs around the inside of it. The bigger one, with radius r is shown with a dotted line and labeled S, Gaussian surface.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_Isolate.jpg"/>
+</media>
+<caption>An isolated conducting sphere.</caption>
+</figure>
+<para id="fs-id1172096097143"><title>Strategy</title>
+The sphere is isolated, so its surface change distribution and the electric field of that distribution are spherically symmetrical. We can therefore represent the field as <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>. To calculate <emphasis effect="italics">E</emphasis>(<emphasis effect="italics">r</emphasis>), we apply Gauss’s law over a closed spherical surface <emphasis effect="italics">S</emphasis> of radius <emphasis effect="italics">r</emphasis> that is concentric with the conducting sphere.</para>
+<para id="fs-id1172098766160"><title>Solution</title>
+Since <emphasis effect="italics">r</emphasis> is constant and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> on the sphere,</para>
+<equation id="fs-id1172098674211" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mspace width="0.2em"/><m:mrow><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172096294384">For <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi></m:mrow></m:math>, <emphasis effect="italics">S</emphasis> is within the conductor, so <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and Gauss’s law gives</para>
+<equation id="fs-id1172096212116" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo><m:mi>r</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172096499078">as expected inside a conductor. If <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>R</m:mi></m:mrow></m:math>, <emphasis effect="italics">S</emphasis> encloses the conductor so <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>q</m:mi><m:mo>.</m:mo></m:mrow></m:math> From Gauss’s law,</para>
+<equation id="fs-id1172100716239" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100525893">The electric field of the sphere may therefore be written as</para>
+<equation id="fs-id1172098406250" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mn>0</m:mn><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1172098258757"><title>Significance</title>
+Notice that in the region <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi></m:mrow></m:math>, the electric field due to a charge <emphasis effect="italics">q</emphasis> placed on an isolated conducting sphere of radius <emphasis effect="italics">R</emphasis> is identical to the electric field of a point charge <emphasis effect="italics">q</emphasis> located at the center of the sphere. The difference between the charged metal and a point charge occurs only at the space points inside the conductor. For a point charge placed at the center of the sphere, the electric field is not zero at points of space occupied by the sphere, but a conductor with the same amount of charge has a zero electric field at those points (<link target-id="CNX_UPhysics_23_04_SphField"/>). However, there is no distinction at the outside points in space where <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>R</m:mi></m:mrow></m:math>, and we can replace the isolated charged spherical conductor by a point charge at its center with impunity.</para>
+<figure id="CNX_UPhysics_23_04_SphField">
+<media id="fs-id1172100647841" alt="A circle labeled vector E subscript in equal to zero is shown. Arrows around it radiate outwards. These are labeled vector E subscript out.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_SphField.jpg"/>
+</media>
+<caption>Electric field of a positively charged metal sphere. The electric field inside is zero, and the electric field outside is same as the electric field of a point charge at the center, although the charge on the metal sphere is at the surface.</caption>
+</figure>
+</example>
+<note id="fs-id1172100670588" class="check-understanding">
+<exercise id="fs-id1172100984041">
+<problem id="fs-id1172098421666">
+<para id="fs-id1172100945737"><emphasis effect="bold">Check Your Understanding</emphasis> How will the system above change if there are charged objects external to the sphere?</para>
+</problem>
+<solution id="fs-id1172098755733">
+<para id="fs-id1172098283230">If there are other charged objects around, then the charges on the surface of the sphere will not necessarily be spherically symmetrical; there will be more in certain direction than in other directions.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1172098284874">For a conductor with a cavity, if we put a charge <m:math><m:mrow><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> inside the cavity, then the charge separation takes place in the conductor, with <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>q</m:mi></m:mrow></m:math> amount of charge on the inside surface and a <m:math><m:mrow><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> amount of charge at the outside surface (<link target-id="CNX_UPhysics_23_04_ChargeIn"/>(a)). For the same conductor with a charge <m:math><m:mrow><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> outside it, there is no excess charge on the inside surface; both the positive and negative induced charges reside on the outside surface (<link target-id="CNX_UPhysics_23_04_ChargeIn"/>(b)).</para>
+<figure id="CNX_UPhysics_23_04_ChargeIn">
+<media id="fs-id1172100905816" alt="Figure a shows a metal sphere with a cavity within it. The sphere is labeled vector E equal to zero. It has plus signs around it. The cavity has minus signs around it. A positive charge plus q is within the cavity. Figure b shows the same metal sphere with a cavity in it. The sphere is labeled vector E equal to zero. There is nothing within the cavity. A positive charge labeled plus q is outside the sphere. The side of the sphere facing q has minus signs on it. The opposite side has plus signs on it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_ChargeIn.jpg"/>
+</media>
+<caption>(a) A charge inside a cavity in a metal. The distribution of charges at the outer surface does not depend on how the charges are distributed at the inner surface, since the <emphasis effect="italics">E</emphasis>-field inside the body of the metal is zero. That magnitude of the charge on the outer surface does depend on the magnitude of the charge inside, however. (b) A charge outside a conductor containing an inner cavity. The cavity remains free of charge. The polarization of charges on the conductor happens at the surface.</caption>
+</figure>
+<para id="fs-id1172096393671">If a conductor has two cavities, one of them having a charge <m:math><m:mrow><m:mo>+</m:mo><m:msub><m:mi>q</m:mi><m:mi>a</m:mi></m:msub></m:mrow></m:math> inside it and the other a charge <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>q</m:mi><m:mi>b</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> the polarization of the conductor results in <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>q</m:mi><m:mi>a</m:mi></m:msub></m:mrow></m:math> on the inside surface of the cavity <emphasis effect="italics">a</emphasis>, <m:math><m:mrow><m:mo>+</m:mo><m:msub><m:mi>q</m:mi><m:mi>b</m:mi></m:msub></m:mrow></m:math> on the inside surface of the cavity <emphasis effect="italics">b</emphasis>, and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mi>a</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>q</m:mi><m:mi>b</m:mi></m:msub></m:mrow></m:math> on the outside surface (<link target-id="CNX_UPhysics_23_04_DoublCharge"/>). The charges on the surfaces may not be uniformly spread out; their spread depends upon the geometry. The only rule obeyed is that when the equilibrium has been reached, the charge distribution in a conductor is such that the electric field by the charge distribution in the conductor cancels the electric field of the external charges at all space points inside the body of the conductor.</para>
+<figure id="CNX_UPhysics_23_04_DoublCharge">
+<media id="fs-id1172096230122" alt="Figure shows a flattened sphere, labeled vector E equal to zero. It has two spherical cavities within it. Its outer surface of the flattened sphere is labeled no induced charge outside. The left cavity has a negative charge q inside it, on the left. The left surface of this cavity has many plus signs on it and the right surface has a single plus sign on it. The right cavity has a positive charge q inside it, on the right. The right surface of this cavity has many minus signs on it and the left surface has a single minus sign on it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_DoublCharg.jpg"/>
+</media>
+<caption>The charges induced by two equal and opposite charges in two separate cavities of a conductor. If the net charge on the cavity is nonzero, the external surface becomes charged to the amount of the net charge.</caption>
+</figure>
+</section>
+<section id="fs-id1172096565613" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172100953486" list-type="bulleted" bullet-style="bullet">
+<item>The electric field inside a conductor vanishes.</item>
+<item>Any excess charge placed on a conductor resides entirely on the surface of the conductor.</item>
+<item>The electric field is perpendicular to the surface of a conductor everywhere on that surface.</item>
+<item>The magnitude of the electric field just above the surface of a conductor is given by <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>.</item>
+</list>
+</section>
+<section id="fs-id1172098464245" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1172100985908" summary="Key equations: Definition of electric flux, for uniform electric field is phi equal to vector E dot vector A implies EA cos theta. Electric flux through an open surface is phi equal to integration from S of vector E dot n hat dA equal to integration from S of vector E dot d vector A. Electric flux through a closed surface is phi equal to closed line integral from S of vector E dot n hat dA equal to closed line integral from S of vector E dot d vector A. Gauss’s law is phi equal to closed line integral from S of vector E dot n hat dA equal to q subscript enc by epsilon zero. Gauss’s Law for systems with symmetry is phi equal to closed line integral from S of vector E dot n hat dA equal to E closed line integral from S of dA equal to EA equal to q subscript enc by epsilon zero.The magnitude of the electric field just outside the surface of a conductor is E equal to sigma by epsilon zero." class="unnumbered unstyled">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Definition of electric flux, for uniform electric field</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>A</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo stretchy="false">→</m:mo><m:mi>E</m:mi><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Electric flux through an open surface</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∫</m:mo><m:mi>S</m:mi></m:msub><m:mspace width="0.2em"/><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∫</m:mo><m:mi>S</m:mi></m:msub><m:mspace width="0.2em"/><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mi>d</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>A</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Electric flux through a closed surface</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mspace width="0.2em"/><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mspace width="0.2em"/><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mi>d</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>A</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Gauss’s law</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mspace width="0.2em"/><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Gauss’s Law for systems with symmetry</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mspace width="0.2em"/><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>E</m:mi></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mspace width="0.2em"/><m:mrow><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>E</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The magnitude of the electric field just outside the surface of a conductor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1172100983959" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172100923976">
+<problem id="fs-id1172098277826">
+<para id="fs-id1172098420668">Is the electric field inside a metal always zero?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098383188">
+<problem id="fs-id1172100962178">
+<para id="fs-id1172098460428">Under electrostatic conditions, the excess charge on a conductor resides on its surface. Does this mean that all the conduction electrons in a conductor are on the surface?</para>
+</problem>
+<solution id="fs-id1172100517659">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172100650130">No. If a metal was in a region of zero electric field, all the conduction electrons would be distributed uniformly throughout the metal.</para></solution>
+</exercise>
+<exercise id="fs-id1172100751564">
+<problem id="fs-id1172098648229">
+<para id="fs-id1172098699673">A charge <emphasis effect="italics">q</emphasis> is placed in the cavity of a conductor as shown below. Will a charge outside the conductor experience an electric field due to the presence of <emphasis effect="italics">q</emphasis>?</para>
+<media id="fs-id1172096287755" alt="Figure shows an egg shape with an oval cavity within it. The cavity is surrounded by a dotted line just outside it. This is labeled S. There is a positive charge labeled q within the cavity.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_ChgCav_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172100952742">
+<problem id="fs-id1172096291013">
+<para id="fs-id1172100677450">The conductor in the preceding figure has an excess charge of <m:math><m:mrow><m:mo>–</m:mo><m:mn>5.</m:mn><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mi>µ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math>. If a <m:math><m:mrow><m:mn>2.0</m:mn><m:mtext>-</m:mtext><m:mi>µ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> point charge is placed in the cavity, what is the net charge on the surface of the cavity and on the outer surface of the conductor?</para>
+</problem>
+<solution id="fs-id1172098418612">
+<para id="fs-id1172098615681">Since the electric field is zero inside a conductor, a charge of <m:math><m:mrow><m:mn>−2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> is induced on the inside surface of the cavity. This will put a charge of <m:math><m:mrow><m:mo>+</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mi>C</m:mi></m:mrow></m:math> on the outside surface leaving a net charge of <m:math><m:mrow><m:mn>−3.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> on the surface.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172100895266" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172100661076">
+<problem id="fs-id1172100937105">
+<para id="fs-id1172100926042">An uncharged conductor with an internal cavity is shown in the following figure. Use the closed surface <emphasis effect="italics">S</emphasis> along with Gauss’ law to show that when a charge <emphasis effect="italics">q</emphasis> is placed in the cavity a total charge –<emphasis effect="italics">q</emphasis> is induced on the inner surface of the conductor. What is the charge on the outer surface of the conductor?</para>
+<figure id="CNX_UPhysics_23_04_Hollow_img">
+<media id="fs-id1172100549271" alt="A metal sphere with a cavity is shown. It is labeled vector E equal to zero. There are plus signs surrounding it. There is a positive charge labeled plus q within the cavity. The cavity is surrounded by minus signs.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_Hollow_img.jpg"/>
+</media>
+<caption>A charge inside a cavity of a metal. Charges at the outer surface do not depend on how the charges are distributed at the inner surface since E field inside the body of the metal is zero.</caption>
+</figure>
+</problem>
+</exercise>
+<exercise id="fs-id1172098282048">
+<problem id="fs-id1172096227717">
+<para id="fs-id1172098675914">An uncharged spherical conductor <emphasis effect="italics">S</emphasis> of radius <emphasis effect="italics">R</emphasis> has two spherical cavities A and B of radii <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>, respectively as shown below. Two point charges <m:math><m:mrow><m:mo>+</m:mo><m:msub><m:mi>q</m:mi><m:mi>a</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:mo>+</m:mo><m:msub><m:mi>q</m:mi><m:mi>b</m:mi></m:msub></m:mrow></m:math> are placed at the center of the two cavities by using non-conducting supports. In addition, a point charge <m:math><m:mrow><m:mo>+</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is placed outside at a distance <emphasis effect="italics">r</emphasis> from the center of the sphere. (a) Draw approximate charge distributions in the metal although metal sphere has no net charge. (b) Draw electric field lines. Draw enough lines to represent all distinctly different places.</para>
+<media id="fs-id1172100535544" alt="Figure shows a sphere with two cavities. A positive charge qa is in one cavity and a positive charge qb is in the other cavity. A positive charge q0 is outside the sphere at a distance r from its center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_TwoCharge_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172098498044">
+<para id="fs-id1167582826746"><newline/><media id="fs-id1172100976791" alt="Figure shows a sphere with two cavities. A positive charge qa is in one cavity and a positive charge qb is in the other cavity. A positive charge q0 is outside the sphere at a distance r from its center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_TwoChrgans_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098523535">
+<problem id="fs-id1172096216680">
+<para id="fs-id1172100840609">A positive point charge is placed at the angle bisector of two uncharged plane conductors that make an angle of <m:math><m:mrow><m:mn>45</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math> See below. Draw the electric field lines.</para>
+<media id="fs-id1172098393910" alt="An acute angle is shown. Its bisector is a dotted line. A positive charge q is shown on the dotted line.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_Angle_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172096211842">
+<problem id="fs-id1172100548613">
+<para id="fs-id1172098310235">A long cylinder of copper of radius 3 cm is charged so that it has a uniform charge per unit length on its surface of 3 C/m. (a) Find the electric field inside and outside the cylinder. (b) Draw electric field lines in a plane perpendicular to the rod.</para>
+</problem>
+<solution id="fs-id1172100531550">
+<para id="fs-id1172098455185">a. Outside: <m:math><m:mrow><m:mi>E</m:mi><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>λ</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>C</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math>; Inside <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>; b.<newline/>
+<media id="fs-id1172098446794" alt="A shaded circle is shown with plus signs around its edge. Arrows from the circle radiate outwards.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_CopCyl_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098376747">
+<problem id="fs-id1172100670401">
+<para id="fs-id1172100546861">An aluminum spherical ball of radius 4 cm is charged with <m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> of charge. A copper spherical shell of inner radius 6 cm and outer radius 8 cm surrounds it. A total charge of <m:math><m:mrow><m:mn>−8</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> is put on the copper shell. (a) Find the electric field at all points in space, including points inside the aluminum and copper shell when copper shell and aluminum sphere are concentric. (b) Find the electric field at all points in space, including points inside the aluminum and copper shell when the centers of copper shell and aluminum sphere are 1 cm apart.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100726926">
+<problem id="fs-id1172100938692">
+<para id="fs-id1172098544794">A long cylinder of aluminum of radius <emphasis effect="italics">R</emphasis> meters is charged so that it has a uniform charge per unit length on its surface of <m:math><m:mi>λ</m:mi></m:math>. (a) Find the electric field inside and outside the cylinder. (b) Plot electric field as a function of distance from the center of the rod.</para>
+</problem>
+<solution id="fs-id1172100675522">
+<para id="fs-id1172100751843">a. <m:math><m:mrow><m:mi>E</m:mi><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>λ</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>λ</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi></m:mrow></m:math> <emphasis effect="italics">E</emphasis> inside equals 0; b.<newline/>
+<media id="fs-id1172100932052" alt="A graph of E versus r is shown.  The curve rises up in a vertical line from a point R on the x axis. It then drops gradually and evens out just above the x axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_Prob6Plot_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100946378">
+<problem id="fs-id1172098423713">
+<para id="fs-id1172100584762">At the surface of any conductor in electrostatic equilibrium, <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Show that this equation is consistent with the fact that <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>q</m:mi><m:mtext>/</m:mtext><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> at the surface of a spherical conductor.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100905093">
+<problem id="fs-id1172098262372">
+<para id="fs-id1172100549456">Two parallel plates 10 cm on a side are given equal and opposite charges of magnitude <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> The plates are 1.5 mm apart. What is the electric field at the center of the region between the plates?</para>
+</problem>
+<solution id="fs-id1172100966032">
+<para id="fs-id1172096069195"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>5.65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>N</m:mtext><m:mtext>/</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100562401">
+<problem id="fs-id1172098276676">
+<para id="fs-id1172098256256">Two parallel conducting plates, each of cross-sectional area <m:math><m:mrow><m:msup><m:mrow><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, are 2.0 cm apart and uncharged. If <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:math> electrons are transferred from one plate to the other, what are (a) the charge density on each plate? (b) The electric field between the plates?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100576943">
+<problem id="fs-id1172098319467">
+<para id="fs-id1172100803901">The surface charge density on a long straight metallic pipe is <m:math><m:mi>σ</m:mi></m:math>. What is the electric field outside and inside the pipe? Assume the pipe has a diameter of 2<emphasis effect="italics">a</emphasis>.</para>
+<media id="fs-id1172100985166" alt="Figure shows a pipe, with a cylindrical section highlighted. An arrow pointing up and one pointing down along the pipe from the cylinder are labeled infinity. There are plus signs inside the walls of the cylinder.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_ex10_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172098271662">
+<para id="fs-id1172100960766"><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>λ</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mi>σ</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>a</m:mi></m:mrow></m:math>, <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> inside since <m:math><m:mrow><m:mi>q</m:mi><m:mspace width="0.2em"/><m:mtext>enclosed</m:mtext><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100951069">
+<problem id="fs-id1172098807467">
+<para id="fs-id1172100742264">A point charge <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>−5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> is placed at the center of a spherical conducting shell of inner radius 3.5 cm and outer radius 4.0 cm. The electric field just above the surface of the conductor is directed radially outward and has magnitude 8.0 N/C. (a) What is the charge density on the inner surface of the shell? (b) What is the charge density on the outer surface of the shell? (c) What is the net charge on the conductor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100746272">
+<problem id="fs-id1172100789890">
+<para id="fs-id1172096028385">A solid cylindrical conductor of radius <emphasis effect="italics">a</emphasis> is surrounded by a concentric cylindrical shell of inner radius <emphasis effect="italics">b</emphasis>. The solid cylinder and the shell carry charges +<emphasis effect="italics">Q</emphasis> and –<emphasis effect="italics">Q</emphasis>, respectively. Assuming that the length <emphasis effect="italics">L</emphasis> of both conductors is much greater than <emphasis effect="italics">a</emphasis> or <emphasis effect="italics">b</emphasis>, determine the electric field as a function of <emphasis effect="italics">r</emphasis>, the distance from the common central axis of the cylinders, for (a) <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>;</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>;</m:mo></m:mrow></m:math> and (c)<m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1172101004255">
+<para id="fs-id1172100500296">a. <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>E</m:mi><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>r</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:math>; c. <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> since <emphasis effect="italics">r</emphasis> would be either inside the second shell or if outside then <emphasis effect="italics">q</emphasis> enclosed equals 0.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172096092037" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1172100667514">
+<problem id="fs-id1172098582059">
+<para id="fs-id1172098652773">A vector field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> (not necessarily an electric field; note units) is given by <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>k</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Calculate <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∫</m:mo><m:mi>S</m:mi></m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> where <emphasis effect="italics">S</emphasis> is the area shown below. Assume that <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>k</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172101006829" alt="A square S with length of each side equal to a is shown in the xy plane.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_01_VectorF_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172098566063">
+<problem id="fs-id1172098393376">
+<para id="fs-id1172100635477">Repeat the preceding problem, with <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>k</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1172100564071">
+<para id="fs-id1172098643646"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098748041">
+<problem id="fs-id1172100938489">
+<para id="fs-id1172100791483">A circular area <emphasis effect="italics">S</emphasis> is concentric with the origin, has radius <emphasis effect="italics">a</emphasis>, and lies in the <emphasis effect="italics">yz</emphasis>-plane. Calculate <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∫</m:mo><m:mi>S</m:mi></m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> for <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1172096168759">
+<problem id="fs-id1172100894102">
+<para id="fs-id1172101036878">(a) Calculate the electric flux through the open hemispherical surface due to the electric field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>k</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> (see below). (b) If the hemisphere is rotated by <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> around the <emphasis effect="italics">x</emphasis>-axis, what is the flux through it?</para>
+<media id="fs-id1172100980361" alt="A hemisphere with radius R is shown with its base in the xy plane and center of base at the origin. An arrow is shown beside it, labeled vector E equal to E0 k hat.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_01_Hemisphere_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100584896">
+<para id="fs-id1172098405634">a. <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>π</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math>; b. zero, since the flux through the upper half cancels the flux through the lower half of the sphere</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098310066">
+<problem id="fs-id1172100854302">
+<para id="fs-id1172098374537">Suppose that the electric field of an isolated point charge were proportional to <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mi>σ</m:mi></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math> rather than <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Determine the flux that passes through the surface of a sphere of radius <emphasis effect="italics">R</emphasis> centered at the charge. Would Gauss’s law remain valid?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172096212139">
+<problem id="fs-id1172100761761">
+<para id="fs-id1172096330556">The electric field in a region is given by <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mi>a</m:mi><m:mtext>/</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m/C,</m:mtext></m:mrow></m:math><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mo>.</m:mo></m:mrow></m:math> What is the net charge enclosed by the shaded volume shown below?</para>
+<media id="fs-id1172100957963" alt="Figure shows a cuboid with one corner on the origin of the coordinate axes. Its length along the x axis is 2 m, along y axis is 1.5 m and along z axis is 1 m. An arrow outside the cuboid points along the x axis. It is labeled vector E.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_Rectangle_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172096294222">
+<para id="fs-id1172100613350"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>; There are two contributions to the surface integral: one at the side of the rectangle at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and the other at the side at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;<newline/>
+<m:math><m:mrow><m:mo>−</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">[</m:mo><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">]</m:mo><m:mo>+</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">[</m:mo><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−100</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:msup><m:mrow><m:mtext>Nm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow></m:math><newline/>
+where the minus sign indicates that at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the electric field is along positive <emphasis effect="italics">x</emphasis> and the unit normal is along negative <emphasis effect="italics">x</emphasis>. At <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, the unit normal and the electric field vector are in the same direction: <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mn>−8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100969049">
+<problem id="fs-id1172100716084">
+<para id="fs-id1172100931553">Two equal and opposite charges of magnitude <emphasis effect="italics">Q</emphasis> are located on the <emphasis effect="italics">x</emphasis>-axis at the points +<emphasis effect="italics">a</emphasis> and –<emphasis effect="italics">a</emphasis>, as shown below. What is the net flux due to these charges through a square surface of side 2<emphasis effect="italics">a</emphasis> that lies in the <emphasis effect="italics">yz</emphasis>-plane and is centered at the origin? (<emphasis effect="italics">Hint:</emphasis> Determine the flux due to each charge separately, then use the principle of superposition. You may be able to make a symmetry argument.)</para>
+<media id="fs-id1172100629820" alt="A shaded square is shown in the yz plane with its center at the origin. Its side parallel to z axis is labeled to be of length 2a. A charge labeled plus Q is shown on the positive x axis at a distance a from the origin. A charge labeled minus Q is shown on the negative x axis at a distance a from the origin.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_01_TwoCharge_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172100790790">
+<problem id="fs-id1172100765776">
+<para id="fs-id1172100546720">A fellow student calculated the flux through the square for the system in the preceding problem and got 0. What went wrong?</para>
+</problem>
+<solution id="fs-id1172098589528">
+<para id="fs-id1172098277230">didn’t keep consistent directions for the area vectors, or the electric fields</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100746229">
+<problem id="fs-id1172100882968">
+<para id="fs-id1172101038704">A <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> piece of aluminum foil of 0.1 mm thickness has a charge of <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> that spreads on both wide side surfaces evenly. You may ignore the charges on the thin sides of the edges. (a) Find the charge density. (b) Find the electric field 1 cm from the center, assuming approximate planar symmetry.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100633367">
+<problem id="fs-id1172100597210">
+<para id="fs-id1172098285199">Two <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> pieces of aluminum foil of thickness 0.1 mm face each other with a separation of 5 mm. One of the foils has a charge of <m:math><m:mrow><m:mtext>+30</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> and the other has <m:math><m:mrow><m:mtext>−</m:mtext><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math>. (a) Find the charge density at all surfaces, i.e., on those facing each other and those facing away. (b) Find the electric field between the plates near the center assuming planar symmetry.</para>
+</problem>
+<solution id="fs-id1172100811185">
+<para id="fs-id1172098288220">a. <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>C</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>, <m:math><m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> on one and <m:math><m:mrow><m:mn>−3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> on the other; b. <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>3.39</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>N</m:mtext><m:mtext>/</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100640130">
+<problem id="fs-id1172100882129">
+<para id="fs-id1172096288237">Two large copper plates facing each other have charge densities <m:math><m:mrow><m:mo>±</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> on the surface facing the other plate, and zero in between the plates. Find the electric flux through a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> rectangular area between the plates, as shown below, for the following orientations of the area. (a) If the area is parallel to the plates, and (b) if the area is tilted <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> from the parallel direction. Note, this angle can also be <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>180</m:mn><m:mtext>°</m:mtext><m:mo>+</m:mo><m:mn>30</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172098794035" alt="Figure shows two parallel plates and a dotted line exactly between the two, parallel to them. A third plate forms an angle theta with the dotted line.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_03_TwoPlates_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172098464488">
+<problem id="fs-id1172096228717">
+<para id="fs-id1172100742243">The infinite slab between the planes defined by <m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mrow><m:mi>a</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mrow><m:mi>a</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math> contains a uniform volume charge density <m:math><m:mi>ρ</m:mi></m:math> (see below). What is the electric field produced by this charge distribution, both inside and outside the distribution?</para>
+<media id="fs-id1172098523121" alt="Figure shows a cuboid with its center at the origin of the coordinate axes. Arrows perpendicular to the surfaces of the cuboid point outward. The arrows along positive x and y axes are labeled infinity and the arrows along the negative x and y axes are labeled minus infinity. The cuboid is labeled rho. Its top surface is labeled z equal to plus a by 2 and its bottom surface is labeled z equal to minus a by 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_03_Box_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100845519">
+<para id="fs-id1172098410407">Construct a Gaussian cylinder along the <emphasis effect="italics">z</emphasis>-axis with cross-sectional area <emphasis effect="italics">A</emphasis>.<newline/>
+<m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>z</m:mi><m:mo>|</m:mo></m:mrow><m:mo>≥</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mi>a</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mi>a</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ρ</m:mi><m:mi>a</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>z</m:mi><m:mo>|</m:mo></m:mrow><m:mo>≤</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>A</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mn>2</m:mn><m:mi>z</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ρ</m:mi><m:mi>z</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100747500">
+<problem id="fs-id1172100938052">
+<para id="fs-id1172100965895">A total charge <emphasis effect="italics">Q</emphasis> is distributed uniformly throughout a spherical volume that is centered at <m:math><m:mrow><m:msub><m:mi>O</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and has a radius <emphasis effect="italics">R</emphasis>. Without disturbing the charge remaining, charge is removed from the spherical volume that is centered at <m:math><m:mrow><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> (see below). Show that the electric field everywhere in the empty region is given by</para>
+<para id="fs-id1172098311750"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>Q</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>R</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172098394911">where <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is the displacement vector directed from <m:math><m:mrow><m:msub><m:mi>O</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172100577738" alt="Figure shows a circle with center O1 and radius R. Another smaller circle with center O2 is shown within it. An arrow from O1 to O2 is labeled vector r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_03_SphereHole_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172098390529">
+<problem id="fs-id1172100757656">
+<para id="fs-id1172098426490">A non-conducting spherical shell of inner radius <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and outer radius <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is uniformly charged with charged density <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> inside another non-conducting spherical shell of inner radius <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> and outer radius <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> that is also uniformly charged with charge density <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. See below. Find the electric field at space point <emphasis effect="italics">P</emphasis> at a distance <emphasis effect="italics">r</emphasis> from the common center such that (a) <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> (c) <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> (d) <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and (e) <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>.</para>
+<media id="fs-id1172100758756" alt="Figure shows two concentric circular shells. The inner and outer radii of the inner shell are a1 and a2 respectively. The inner and outer radii of the outer shell are a2 and b2 respectively. The distance from the center to a point P between the two shells is labeled r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_03_ConcenShel_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172098748355">
+<para id="fs-id1172096196375">a. <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mi>E</m:mi><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>π</m:mi><m:mo stretchy="false">[</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>b</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>b</m:mi><m:mn>2</m:mn><m:mn>3</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>2</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>b</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>b</m:mi><m:mn>2</m:mn><m:mn>3</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>2</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>  </m:mtext><m:mspace width="0.2em"/><m:mi>E</m:mi><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>π</m:mi><m:mo stretchy="false">[</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>b</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>2</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>b</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>2</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>;<newline/>
+c. <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>  </m:mtext><m:mspace width="0.2em"/><m:mi>E</m:mi><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>π</m:mi><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>b</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>b</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>;<newline/>
+d. <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>  </m:mtext><m:mspace width="0.2em"/><m:mi>E</m:mi><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>π</m:mi><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>; e. 0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100715459">
+<problem id="fs-id1172100985957">
+<para id="fs-id1172100754139">Two non-conducting spheres of radii <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are uniformly charged with charge densities <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectively. They are separated at center-to-center distance <emphasis effect="italics">a</emphasis> (see below). Find the electric field at point <emphasis effect="italics">P</emphasis> located at a distance <emphasis effect="italics">r</emphasis> from the center of sphere 1 and is in the direction <m:math><m:mi>θ</m:mi></m:math> from the line joining the two spheres assuming their charge densities are not affected by the presence of the other sphere. (<emphasis effect="italics">Hint:</emphasis> Work one sphere at a time and use the superposition principle.)</para>
+<media id="fs-id1172100897140" alt="Two circles are shown side by side with the distance between their centers being a. The bigger circle has radius R1 and the smaller one has radius R2. An arrow r is shown from the center of the bigger circle to a point P outside the circles. r forms an angle theta with a.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_03_TwoSphere_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172100528917">
+<problem id="fs-id1172100951472">
+<para id="fs-id1172098379548">A disk of radius <emphasis effect="italics">R</emphasis> is cut in a non-conducting large plate that is uniformly charged with charge density <emphasis effect="italics"><m:math><m:mi>σ</m:mi></m:math>
+</emphasis> (coulomb per square meter). See below. Find the electric field at a height <emphasis effect="italics">h</emphasis> above the center of the disk. <m:math><m:mrow><m:mtext>(</m:mtext><m:mi>h</m:mi><m:mspace width="0.2em"/><m:mo>&gt;</m:mo><m:mo>&gt;</m:mo><m:mspace width="0.2em"/><m:mi>R</m:mi><m:mo>,</m:mo><m:mi>h</m:mi><m:mspace width="0.2em"/><m:mo>&lt;</m:mo><m:mo>&lt;</m:mo><m:mspace width="0.2em"/><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mi>w</m:mi><m:mtext>).</m:mtext></m:mrow></m:math> (<emphasis effect="italics">Hint:</emphasis> Fill the hole with <m:math><m:mrow><m:mo>±</m:mo><m:mi>σ</m:mi><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172100945766" alt="A plate with length l and width w has a hole in the center. A point P above the plate is at a distance h from its center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_03_HolePlane_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100882148">
+<para id="fs-id1172098266105">Electric field due to plate without hole: <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>.<newline/>
+Electric field of just hole filled with <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>σ</m:mi><m:mspace width="0.2em"/><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>σ</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mi>z</m:mi><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.<newline/>
+Thus, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>net</m:mtext></m:mstyle></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>h</m:mi><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172096214254">
+<problem id="fs-id1172096068824">
+<para id="fs-id1172100881955">Concentric conducting spherical shells carry charges <emphasis effect="italics">Q</emphasis> and –<emphasis effect="italics">Q</emphasis>, respectively (see below). The inner shell has negligible thickness. Determine the electric field for (a) <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>;</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>;</m:mo></m:mrow></m:math> (c) <m:math><m:mrow><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>c</m:mi><m:mo>;</m:mo></m:mrow></m:math> and (d) <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172100595536" alt="Section of two concentric spherical shells is shown. The inner shell has a radius a. It is labeled Q and has plus signs around it. The outer shell has an inner radius b and an outer radius c. It is labeled minus Q and has minus signs around it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_ex12_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172100586354">
+<problem id="fs-id1172096211296">
+<para id="fs-id1172100715320">Shown below are two concentric conducting spherical shells of radii <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, each of finite thickness much less than either radius. The inner and outer shell carry net charges <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectively, where both <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are positive. What is the electric field for (a) <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo></m:mrow></m:math> and (c) <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>?</m:mo></m:mrow></m:math> (d) What is the net charge on the inner surface of the inner shell, the outer surface of the inner shell, the inner surface of the outer shell, and the outer surface of the outer shell?</para>
+<media id="fs-id1172100528260" alt="Figure shows section of two concentric spherical shells. The inner one has radius R1 and the outer one has radius R2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_ex13_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100631413">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172100638364">a. <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>; c. <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>; d. <m:math><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:mo>−</m:mo><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172098757407">
+<problem id="fs-id1172100962066">
+<para id="fs-id1172100532162">A point charge of <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> is placed at the center of an uncharged spherical conducting shell of inner radius 6.0 cm and outer radius 9.0 cm. Find the electric field at (a) <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, (b) <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, and (c) <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>. (d) What are the charges induced on the inner and outer surfaces of the shell?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172100982405" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1172100745559">
+<problem id="fs-id1172101037119">
+<para id="fs-id1172100835254">The Hubble Space Telescope can measure the energy flux from distant objects such as supernovae and stars. Scientists then use this data to calculate the energy emitted by that object. Choose an interstellar object which scientists have observed the flux at the Hubble with (for example, Vega<footnote id="fs-id1172100561452">http://adsabs.harvard.edu/abs/2004AJ....127.3508B</footnote>), find the distance to that object and the size of Hubble’s primary mirror, and calculate the total energy flux. (<emphasis effect="italics">Hint:</emphasis> The Hubble intercepts only a small part of the total flux.)</para>
+</problem>
+<solution id="fs-id1172100881625">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172096092662">Given the referenced link, using a distance to Vega of <m:math><m:mrow><m:mn>237</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow></m:math> m<footnote id="fs-id1167742516713">http://webviz.u-strasbg.fr/viz-bin/VizieR-5?-source=I/311&amp;HIP=91262</footnote> and a diameter of 2.4 m for the primary mirror,<footnote id="fs-id1167742516718">http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19910003124.pdf</footnote> we find that at a wavelength of 555.6 nm, Vega is emitting <m:math><m:mrow><m:mn>2.44</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext></m:mrow></m:math> at that wavelength. Note that the flux through the mirror is essentially constant.</para></solution>
+</exercise>
+<exercise id="fs-id1172098586260">
+<problem id="fs-id1172100757892">
+<para id="fs-id1172098546223">Re-derive Gauss’s law for the gravitational field, with <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> directed positively outward.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098316639">
+<problem id="fs-id1172100595084">
+<para id="fs-id1172100758414">An infinite plate sheet of charge of surface charge density <m:math><m:mi>σ</m:mi></m:math> is shown below. What is the electric field at a distance <emphasis effect="italics">x</emphasis> from the sheet? Compare the result of this calculation with that of worked out in the text.</para>
+<media id="fs-id1172100992405" alt="Figure shows a plane with plus signs on it. It goes through a cylinder S perpendicularly at the center, dividing the cylinder into two halves of length x each. The top surface of the cylinder is labeled A. Arrows labeled E emerge from both ends of the cylinder, along its axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_03_Challenge_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172098459226">
+<para id="fs-id1172098530261">The symmetry of the system forces <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> to be perpendicular to the sheet and constant over any plane parallel to the sheet. To calculate the electric field, we choose the cylindrical Gaussian surface shown. The cross-section area and the height of the cylinder are <emphasis effect="italics">A</emphasis> and 2<emphasis effect="italics">x</emphasis>, respectively, and the cylinder is positioned so that it is bisected by the plane sheet. Since <emphasis effect="italics">E</emphasis> is perpendicular to each end and parallel to the side of the cylinder, we have <emphasis effect="italics">EA</emphasis> as the flux through each end and there is no flux through the side. The charge enclosed by the cylinder is <m:math><m:mrow><m:mi>σ</m:mi><m:mi>A</m:mi><m:mo>,</m:mo></m:mrow></m:math> so from Gauss’s law, <m:math><m:mrow><m:mn>2</m:mn><m:mi>E</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi><m:mi>A</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> and the electric field of an infinite sheet of charge is<newline/>
+<m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> in agreement with the calculation of in the text.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100729940">
+<problem id="fs-id1172100493907">
+<para id="fs-id1172100746370">A spherical rubber balloon carries a total charge <emphasis effect="italics">Q</emphasis> distributed uniformly over its surface. At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the radius of the balloon is <emphasis effect="italics">R</emphasis>. The balloon is then slowly inflated until its radius reaches 2<emphasis effect="italics">R</emphasis> at the time <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Determine the electric field due to this charge as a function of time (a) at the surface of the balloon, (b) at the surface of radius <emphasis effect="italics">R</emphasis>, and (c) at the surface of radius 2<emphasis effect="italics">R</emphasis>. Ignore any effect on the electric field due to the material of the balloon and assume that the radius increases uniformly with time.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172096385840">
+<problem id="fs-id1172100575049">
+<para id="fs-id1172098699195">Find the electric field of a large conducting plate containing a net charge <emphasis effect="italics">q</emphasis>. Let <emphasis effect="italics">A</emphasis> be area of one side of the plate and <emphasis effect="italics">h</emphasis> the thickness of the plate (see below). The charge on the metal plate will distribute mostly on the two planar sides and very little on the edges if the plate is thin.</para>
+<media id="fs-id1172100952225" alt="A cylinder goes through a hole at the center of a plate of thickness h. The plate has plus signs on its edge. The cylinder is labeled Gaussian pill box. The portion of the cylinder on the right side of the plate is of length z. Two arrows from its flat surface point outward, perpendicular to the surface. These are labeled vector E subscript P and delta vector A. The flat surface of the cylinder to the left of the plate has two arrows perpendicular to it, pointing outward. These are labeled mod vector E equal to mod vector E subscript P and delta vector A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_04_Challenge_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100813999">
+<para id="fs-id1172100814001">There is <emphasis effect="italics">Q</emphasis>/2 on each side of the plate since the net charge is <emphasis effect="italics">Q</emphasis>: <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∮</m:mo><m:mi>S</m:mi></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo></m:mrow></m:mrow></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>σ</m:mi><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>E</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mn>2</m:mn><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172100667579">
+<term>free electrons</term>
+<meaning id="fs-id1172098660308">also called conduction electrons, these are the electrons in a conductor that are not bound to any particular atom, and hence are free to move around</meaning>
+</definition>
+</glossary>
+
+</document>

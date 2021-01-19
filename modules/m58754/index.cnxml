@@ -1,0 +1,187 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Oscillations in an LC Circuit</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58754</md:content-id>
+  <md:title>Oscillations in an LC Circuit</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain why charge or current oscillates between a capacitor and inductor, respectively, when wired in series</item>
+<item>Describe the relationship between the charge and current oscillating between a capacitor and inductor wired in series</item>
+</list></md:abstract>
+  <md:uuid>b489589c-ae70-46ab-803e-bddae783ef69</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167133346999">It is worth noting that both capacitors and inductors store energy, in their electric and magnetic fields, respectively. A circuit containing both an inductor (<emphasis effect="italics">L</emphasis>) and a capacitor (<emphasis effect="italics">C</emphasis>) can oscillate without a source of emf by shifting the energy stored in the circuit between the electric and magnetic fields. Thus, the concepts we develop in this section are directly applicable to the exchange of energy between the electric and magnetic fields in electromagnetic waves, or light. We start with an idealized circuit of zero resistance that contains an inductor and a capacitor, an <term><emphasis effect="italics">LC</emphasis> circuit</term>.</para>
+<para id="fs-id1167133465099">An <emphasis effect="italics">LC</emphasis> circuit is shown in <link target-id="CNX_UPhysics_31_05_LC"/>. If the capacitor contains a charge <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> before the switch is closed, then all the energy of the circuit is initially stored in the electric field of the capacitor (<link target-id="CNX_UPhysics_31_05_LC"/>(a)). This energy is</para>
+<equation id="fs-id1167132742438"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>q</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133845972">When the switch is closed, the capacitor begins to discharge, producing a current in the circuit. The current, in turn, creates a magnetic field in the inductor. The net effect of this process is a transfer of energy from the capacitor, with its diminishing electric field, to the inductor, with its increasing magnetic field.</para>
+<figure id="CNX_UPhysics_31_05_LC">
+<media id="fs-id1167132547754" alt="Figures a through d show an inductor connected to a capacitor. Figure a is labeled t = 0, T. The upper plate of the capacitor is positive. No current flows through the circuit. Figure b is labeled t = T by 4. The capacitor discharged. Current I0 flows from the upper plate. Figure c is labeled t = T by 2. The polarity of the capacitor is reversed, with the lower plate being charged positive. No current flows through the circuit. Figure d is labeled 3T by 4. The capacitor is discharged. Current I0 flows from the lower plate. Figure e shows two sine waves. One of them, q0, has highest points of the crest at t = 0 and t = T. It crosses the axis at t = T by 4 and t = 3T by 4. It has the lowest point of the trough at t = T by 2. The second wave, I0 has a smaller amplitude than q0. The highest point of its crest is at t = 3T by 4. The lowest point of its trough is at t = T by 4. It crosses the axis at t = T by 2 and t = T.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_05_LC.jpg"/>
+</media>
+<caption>(a–d) The oscillation of charge storage with changing directions of current in an <emphasis effect="italics">LC</emphasis> circuit. (e) The graphs show the distribution of charge and current between the capacitor and inductor.</caption>
+</figure>
+<para id="fs-id1167132594036">In <link target-id="CNX_UPhysics_31_05_LC"/>(b), the capacitor is completely discharged and all the energy is stored in the magnetic field of the inductor. At this instant, the current is at its maximum value <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> and the energy in the inductor is</para>
+<equation id="fs-id1167133525527"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msubsup><m:mi>I</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133542500">Since there is no resistance in the circuit, no energy is lost through Joule heating; thus, the maximum energy stored in the capacitor is equal to the maximum energy stored at a later time in the inductor:</para>
+<equation id="fs-id1167132412442"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>q</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msubsup><m:mi>I</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132245395">At an arbitrary time when the capacitor charge is <emphasis effect="italics">q(t)</emphasis> and the current is <emphasis effect="italics">i(t)</emphasis>, the total energy <emphasis effect="italics">U</emphasis> in the circuit is given by</para>
+<equation id="fs-id1167133316005" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>C</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>L</m:mi><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133686174">Because there is no energy dissipation,</para>
+<equation id="fs-id1167132685109"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>q</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msubsup><m:mi>I</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132621233">After reaching its maximum <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> the current <emphasis effect="italics">i(t)</emphasis> continues to transport charge between the capacitor plates, thereby recharging the capacitor. Since the inductor resists a change in current, current continues to flow, even though the capacitor is discharged. This continued current causes the capacitor to charge with opposite polarity. The electric field of the capacitor increases while the magnetic field of the inductor diminishes, and the overall effect is a transfer of energy from the inductor <emphasis effect="italics">back</emphasis> to the capacitor. From the law of energy conservation, the maximum charge that the capacitor re-acquires is <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> However, as <link target-id="CNX_UPhysics_31_05_LC"/>(c) shows, the capacitor plates are charged <emphasis effect="italics">opposite</emphasis> to what they were initially.</para>
+<para id="fs-id1167133384863">When fully charged, the capacitor once again transfers its energy to the inductor until it is again completely discharged, as shown in <link target-id="CNX_UPhysics_31_05_LC"/>(d). Then, in the last part of this cyclic process, energy flows back to the capacitor, and the initial state of the circuit is restored.</para>
+<para id="fs-id1167133685544">We have followed the circuit through one complete cycle. Its electromagnetic oscillations are analogous to the mechanical oscillations of a mass at the end of a spring. In this latter case, energy is transferred back and forth between the mass, which has kinetic energy <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>, and the spring, which has potential energy <m:math><m:mrow><m:mi>k</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>. With the absence of friction in the mass-spring system, the oscillations would continue indefinitely. Similarly, the oscillations of an <emphasis effect="italics">LC</emphasis> circuit with no resistance would continue forever if undisturbed; however, this ideal zero-resistance <emphasis effect="italics">LC</emphasis> circuit is not practical, and any <emphasis effect="italics">LC</emphasis> circuit will have at least a small resistance, which will radiate and lose energy over time.</para>
+<para id="fs-id1167133377088">The frequency of the oscillations in a resistance-free <emphasis effect="italics">LC</emphasis> circuit may be found by analogy with the mass-spring system. For the circuit, <m:math><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math>, the total electromagnetic energy <emphasis effect="italics">U</emphasis> is</para>
+<equation id="fs-id1167132371846"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133766536">For the mass-spring system, <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math>, the total mechanical energy <emphasis effect="italics">E</emphasis> is</para>
+<equation id="fs-id1167132372122"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132496930">The equivalence of the two systems is clear. To go from the mechanical to the electromagnetic system, we simply replace <emphasis effect="italics">m</emphasis> by <emphasis effect="italics">L</emphasis>, <emphasis effect="italics">v</emphasis> by <emphasis effect="italics">i</emphasis>, <emphasis effect="italics">k</emphasis> by 1/<emphasis effect="italics">C</emphasis>, and <emphasis effect="italics">x</emphasis> by <emphasis effect="italics">q</emphasis>. Now <emphasis effect="italics">x(t)</emphasis> is given by</para>
+<equation id="fs-id1167132536142"><m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133825438">where <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>k</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> Hence, the charge on the capacitor in an <emphasis effect="italics">LC</emphasis> circuit is given by</para>
+<note id="fs-id1167132370322" class="equation-callout">
+<equation id="fs-id1167133773273"><label/><m:math><m:mrow><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133685929">where the angular frequency of the oscillations in the circuit is</para>
+<note id="fs-id1167133805662" class="equation-callout">
+<equation id="fs-id1167132310896"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167128854514">Finally, the current in the <emphasis effect="italics">LC</emphasis> circuit is found by taking the time derivative of <emphasis effect="italics">q(t)</emphasis>:</para>
+<note id="fs-id1167132416621" class="equation-callout">
+<equation id="fs-id1167132466244"><label/><m:math><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>ω</m:mi><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167132372615">The time variations of <emphasis effect="italics">q</emphasis> and <emphasis effect="italics">I</emphasis> are shown in <link target-id="CNX_UPhysics_31_05_LC"/>(e) for <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+<example id="fs-id1167132727094">
+<para id="fs-id1167132287012"><title>An <emphasis effect="italics">LC</emphasis> Circuit</title>
+In an <emphasis effect="italics">LC</emphasis> circuit, the self-inductance is <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup></m:mrow></m:math> H and the capacitance is <m:math><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math> F. At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> all of the energy is stored in the capacitor, which has charge <m:math><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math> C. (a) What is the angular frequency of the oscillations in the circuit? (b) What is the maximum current flowing through circuit? (c) How long does it take the capacitor to become completely discharged? (d) Find an equation that represents <emphasis effect="italics">q(t)</emphasis>.</para>
+<para id="fs-id1167133871879"><title>Strategy</title>
+The angular frequency of the <emphasis effect="italics">LC</emphasis> circuit is given by <link target-id="fs-id1167132310896"/>. To find the maximum current, the maximum energy in the capacitor is set equal to the maximum energy in the inductor. The time for the capacitor to become discharged if it is initially charged is a quarter of the period of the cycle, so if we calculate the period of the oscillation, we can find out what a quarter of that is to find this time. Lastly, knowing the initial charge and angular frequency, we can set up a cosine equation to find <emphasis effect="italics">q</emphasis>(<emphasis effect="italics">t</emphasis>).</para>
+<para id="fs-id1167133660352"><title>Solution</title></para>
+<list id="fs-id1167132466462" list-type="enumerated" number-style="lower-alpha">
+<item>From <link target-id="fs-id1167132310896"/>, the angular frequency of the oscillations is
+<equation id="fs-id1167132526531" class="unnumbered"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The current is at its maximum <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> when all the energy is stored in the inductor. From the law of energy conservation,
+<equation id="fs-id1167133830104" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msubsup><m:mi>I</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>q</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+so
+<equation id="fs-id1167132239774" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+This result can also be found by an analogy to simple harmonic motion, where current and charge are the velocity and position of an oscillator.</item>
+<item>The capacitor becomes completely discharged in one-fourth of a cycle, or during a time <emphasis effect="italics">T</emphasis>/4, where <emphasis effect="italics">T</emphasis> is the period of the oscillations. Since
+<equation id="fs-id1167133790065" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>ω</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+the time taken for the capacitor to become fully discharged is <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>6.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>The capacitor is completely charged at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> so <m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Using <link document="m58751" target-id="fs-id1167134972198"/>, we obtain
+<equation id="fs-id1167132623847" class="unnumbered"><label/><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Thus, <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and
+<equation id="fs-id1167132344809" class="unnumbered"><label/><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167132231468"><title>Significance</title>
+The energy relationship set up in part (b) is not the only way we can equate energies. At most times, some energy is stored in the capacitor and some energy is stored in the inductor. We can put both terms on each side of the equation. By examining the circuit only when there is no charge on the capacitor or no current in the inductor, we simplify the energy equation.</para>
+</example>
+<note id="fs-id1167132270475" class="check-understanding">
+<exercise id="fs-id1167132486921">
+<problem id="fs-id1167133473115">
+<para id="fs-id1167132490607"><emphasis effect="bold">Check Your Understanding</emphasis> The angular frequency of the oscillations in an <emphasis effect="italics">LC</emphasis> circuit is <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> rad/s. (a) If <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math>, what is <emphasis effect="italics">C</emphasis>? (b) Suppose that at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> all the energy is stored in the inductor. What is the value of <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>?</m:mo></m:mrow></m:math> (c) A second identical capacitor is connected in parallel with the original capacitor. What is the angular frequency of this circuit?</para>
+</problem>
+<solution id="fs-id1167132243145">
+<para id="fs-id1167133538204">a. <m:math><m:mrow><m:mn>2.5</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>rad or</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167132349905" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167133486260" list-type="bulleted" bullet-style="bullet">
+<item>The energy transferred in an oscillatory manner between the capacitor and inductor in an <emphasis effect="italics">LC</emphasis> circuit occurs at an angular frequency <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>.</item>
+<item>The charge and current in the circuit are given by 
+<equation id="fs-id1167132497514" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>ω</m:mi><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></item>
+</list>
+</section>
+<section id="fs-id1167133784333" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167132530025">
+<problem id="fs-id1167132709415">
+<para id="fs-id1167133843924">Do Kirchhoff’s rules apply to circuits that contain inductors and capacitors?</para>
+</problem>
+<solution id="fs-id1167132240773">
+<para id="fs-id1167132573160">yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133796283">
+<problem id="fs-id1167132446014">
+<para id="fs-id1167132502662">Can a circuit element have both capacitance and inductance?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132415789">
+<problem id="fs-id1167132297708">
+<para id="fs-id1167132709847">In an <emphasis effect="italics">LC</emphasis> circuit, what determines the frequency and the amplitude of the energy oscillations in either the inductor or capacitor?</para>
+</problem>
+<solution id="fs-id1167132466257">
+<para id="fs-id1167132328788">The amplitude of energy oscillations depend on the initial energy of the system. The frequency in a <emphasis effect="italics">LC</emphasis> circuit depends on the values of inductance and capacitance.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167132334898" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167133784076">
+<problem id="fs-id1167132454891">
+<para id="fs-id1167132366243">A 5000-pF capacitor is charged to 100 V and then quickly connected to an 80-mH inductor. Determine (a) the maximum energy stored in the magnetic field of the inductor, (b) the peak value of the current, and (c) the frequency of oscillation of the circuit.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132331638">
+<problem id="fs-id1167132412637">
+<para id="fs-id1167133541116">The self-inductance and capacitance of an <emphasis effect="italics">LC</emphasis> circuit are 0.20 mH and 5.0 pF. What is the angular frequency at which the circuit oscillates?</para>
+</problem>
+<solution id="fs-id1167133636640">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167132410820"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>3.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167132456168">
+<problem id="fs-id1167132376686">
+<para id="fs-id1167132487087">What is the self-inductance of an <emphasis effect="italics">LC</emphasis> circuit that oscillates at 60 Hz when the capacitance is <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133861502">
+<problem id="fs-id1167132276029">
+<para id="fs-id1167132397571">In an oscillating <emphasis effect="italics">LC</emphasis> circuit, the maximum charge on the capacitor is <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> and the maximum current through the inductor is 8.0 mA. (a) What is the period of the oscillations? (b) How much time elapses between an instant when the capacitor is uncharged and the next instant when it is fully charged?</para>
+</problem>
+<solution id="fs-id1167132342787">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167132671199">a. <m:math><m:mrow><m:mn>1.57</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>3.93</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167132528979">
+<problem id="fs-id1167132606842">
+<para id="fs-id1167133694337">The self-inductance and capacitance of an oscillating <emphasis effect="italics">LC</emphasis> circuit are <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>mH and</m:mtext><m:mspace width="0.2em"/><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo></m:mrow></m:math> respectively. (a) What is the frequency of the oscillations? (b) If the maximum potential difference between the plates of the capacitor is 50 V, what is the maximum current in the circuit?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132245866">
+<problem id="fs-id1167132283111">
+<para id="fs-id1167133407679">In an oscillating <emphasis effect="italics">LC</emphasis> circuit, the maximum charge on the capacitor is <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mi>m</m:mi></m:msub></m:mrow></m:math>. Determine the charge on the capacitor and the current through the inductor when energy is shared equally between the electric and magnetic fields. Express your answer in terms of <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mi>m</m:mi></m:msub></m:mrow></m:math>, <emphasis effect="italics">L</emphasis>, and <emphasis effect="italics">C</emphasis>.</para>
+</problem>
+<solution id="fs-id1167132460815">
+<para id="fs-id1167132373241"><m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>m</m:mi></m:msub></m:mrow><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>m</m:mi></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132550783">
+<problem id="fs-id1167132750290">
+<para id="fs-id1167132201982">In the circuit shown below, <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> is opened and <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> is closed simultaneously. Determine (a) the frequency of the resulting oscillations, (b) the maximum charge on the capacitor, (c) the maximum current through the inductor, and (d) the electromagnetic energy of the oscillating circuit.</para>
+<media id="fs-id1167133862963" alt="A 12 volt battery is connected to a 4 microfarad capacitor and a 100 millihenry inductor which are both connected in parallel with each other. There are two switches in the circuit. Switch S1 is closed. If opened, it would open the whole circuit. Switch S2 is open and hence the inductor is currently disconnected.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_05_Problem40_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167132617434">
+<problem id="fs-id1167132372080">
+<para id="fs-id1167132499608">An <emphasis effect="italics">LC</emphasis> circuit in an AM tuner (in a car stereo) uses a coil with an inductance of 2.5 mH and a variable capacitor. If the natural frequency of the circuit is to be adjustable over the range 540 to 1600 kHz (the AM broadcast band), what range of capacitance is required?</para>
+</problem>
+<solution id="fs-id1167132540126">
+<para id="fs-id1167133873158"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>C</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>f</m:mi><m:mn>2</m:mn></m:msup><m:mi>L</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>540</m:mn><m:mspace width="0.2em"/><m:mtext>Hz;</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>f</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1600</m:mn><m:mspace width="0.2em"/><m:mtext>Hz;</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167132282493">
+<term><emphasis effect="italics">LC</emphasis> circuit</term>
+<meaning id="fs-id1167132222338">circuit composed of an ac source, inductor, and capacitor</meaning>
+</definition>
+</glossary>
+</document>

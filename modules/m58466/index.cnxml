@@ -1,0 +1,217 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>Solenoids and Toroids</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58466</md:content-id>
+  <md:title>Solenoids and Toroids</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Establish a relationship for how the magnetic field of a solenoid varies with distance and current by using both the Biot-Savart law and Ampère’s law</item>
+<item>Establish a relationship for how the magnetic field of a toroid varies with distance and current by using Ampère’s law</item>
+</list></md:abstract>
+  <md:uuid>5f1fe50e-d50b-444c-9bbd-48a543af0861</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1166167102424">Two of the most common and useful electromagnetic devices are called solenoids and toroids. In one form or another, they are part of numerous instruments, both large and small. In this section, we examine the magnetic field typical of these devices.</para>
+<section id="fs-id1166166091145">
+<title>Solenoids</title>
+<para id="fs-id1166166964752">A long wire wound in the form of a helical coil is known as a <term>solenoid</term>. Solenoids are commonly used in experimental research requiring magnetic fields. A solenoid is generally easy to wind, and near its center, its magnetic field is quite uniform and directly proportional to the current in the wire.</para>
+<para id="fs-id1166167291735"><link target-id="CNX_UPhysics_29_06_Solenoid"/> shows a solenoid consisting of <emphasis effect="italics">N</emphasis> turns of wire tightly wound over a length <emphasis effect="italics">L</emphasis>. A current <emphasis effect="italics">I</emphasis> is flowing along the wire of the solenoid. The number of turns per unit length is <emphasis effect="italics">N</emphasis>/<emphasis effect="italics">L</emphasis>; therefore, the number of turns in an infinitesimal length <emphasis effect="italics">dy</emphasis> are (<emphasis effect="italics">N</emphasis>/<emphasis effect="italics">L</emphasis>)<emphasis effect="italics">dy</emphasis> turns. This produces a current</para>
+<equation id="fs-id1166167126253"><m:math><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mi>L</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167289670">We first calculate the magnetic field at the point <emphasis effect="italics">P</emphasis> of <link target-id="CNX_UPhysics_29_06_Solenoid"/>. This point is on the central axis of the solenoid. We are basically cutting the solenoid into thin slices that are <emphasis effect="italics">dy</emphasis> thick and treating each as a current loop. Thus, <emphasis effect="italics">dI</emphasis> is the current through each slice. The magnetic field <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> due to the current <emphasis effect="italics">dI</emphasis> in <emphasis effect="italics">dy</emphasis> can be found with the help of <link document="m58464" target-id="fs-id1166167108123"/> and <link target-id="fs-id1166167126253"/>:</para>
+<equation id="fs-id1166167132433"><m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mi>N</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1166167131929">where we used <link target-id="fs-id1166167126253"/> to replace <emphasis effect="italics">dI</emphasis>. The resultant field at <emphasis effect="italics">P</emphasis> is found by integrating <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> along the entire length of the solenoid. It’s easiest to evaluate this integral by changing the independent variable from <emphasis effect="italics">y</emphasis> to <m:math><m:mi>θ</m:mi><m:mo>.</m:mo></m:math> From inspection of <link target-id="CNX_UPhysics_29_06_Solenoid"/>, we have:</para>
+<equation id="fs-id1166167105673"><m:math><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>y</m:mi><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_29_06_Solenoid">
+<media id="fs-id1166167047822" alt="Figure A is a drawing of a solenoid that is a long wire wound in the shape of a helix. Figure B shows that the magnetic field at the point P on the axis of the solenoid is the net field due to all of the current loops.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_06_Solenoid.jpg"/>
+</media>
+<caption>(a) A solenoid is a long wire wound in the shape of a helix. (b) The magnetic field at the point <emphasis effect="italics">P</emphasis> on the axis of the solenoid is the net field due to all of the current loops.</caption>
+</figure>
+<para id="fs-id1166167125300">Taking the differential of both sides of this equation, we obtain</para>
+<equation id="fs-id1166167124660" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>θ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mo>−</m:mo><m:mspace width="0.05em"/><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1166167132239">When this is substituted into the equation for <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> we have</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166166970572"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mi>N</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:munderover><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mi>I</m:mi></m:mrow><m:mi>N</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1166167062073">which is the magnetic field along the central axis of a finite solenoid.</para>
+<para id="fs-id1166165865893">Of special interest is the infinitely long solenoid, for which <m:math><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>.</m:mo></m:mrow></m:math> From a practical point of view, the infinite solenoid is one whose length is much larger than its radius <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>L</m:mi><m:mo>≫</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> In this case, <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>π</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>π</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Then from <link target-id="fs-id1166166970572"/>, the magnetic field along the central axis of an infinite solenoid is</para>
+<equation id="fs-id1166167127506" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mrow><m:mi>μ</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi><m:mi>N</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mrow><m:mo>[</m:mo><m:mrow><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mrow><m:mi>μ</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi><m:mi>N</m:mi></m:mrow><m:mi>L</m:mi></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1166166020859">or</para>
+<equation id="fs-id1166167134612"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mrow><m:mi>μ</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167375088">where <emphasis effect="italics">n</emphasis> is the number of turns per unit length. You can find the direction of <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> with a right-hand rule: Curl your fingers in the direction of the current, and your thumb points along the magnetic field in the interior of the solenoid.</para>
+<para id="fs-id1166167034515">We now use these properties, along with Ampère’s law, to calculate the magnitude of the magnetic field at any location inside the infinite solenoid. Consider the closed path of <link target-id="CNX_UPhysics_29_06_InsideSol"/>. Along segment 1, <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is uniform and parallel to the path. Along segments 2 and 4, <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is perpendicular to part of the path and vanishes over the rest of it. Therefore, segments 2 and 4 do not contribute to the line integral in Ampère’s law. Along segment 3, <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> because the magnetic field is zero outside the solenoid. If you consider an Ampère’s law loop outside of the solenoid, the current flows in opposite directions on different segments of wire. Therefore, there is no enclosed current and no magnetic field according to Ampère’s law. Thus, there is no contribution to the line integral from segment 3. As a result, we find</para>
+<equation id="fs-id1166167379468"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∫</m:mo><m:mn>1</m:mn></m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_29_06_InsideSol">
+<media id="fs-id1166167134042" alt="Figure shows the closed rectangular path and the infinite solenoid. Segment 1 is inside the solenoid and is parallel to the path. Segments 2 and 4 are perpendicular to the path. Segment 3 is outside the solenoid.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_06_InsideSol.jpg"/>
+</media>
+<caption>The path of integration used in Ampère’s law to evaluate the magnetic field of an infinite solenoid.</caption>
+</figure>
+<para id="fs-id1166167091392">The solenoid has <emphasis effect="italics">n</emphasis> turns per unit length, so the current that passes through the surface enclosed by the path is <emphasis effect="italics">nlI</emphasis>. Therefore, from Ampère’s law,</para>
+<equation id="fs-id1166167200343" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>I</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1166167122202">and</para>
+<note id="fs-id1168329158981" class="equation-callout">
+<equation id="fs-id1166166975561"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166167293946">within the solenoid. This agrees with what we found earlier for <emphasis effect="italics">B</emphasis> on the central axis of the solenoid. Here, however, the location of segment 1 is arbitrary, so we have found that this equation gives the magnetic field everywhere inside the infinite solenoid.</para>
+<para id="fs-id1166167448283">Outside the solenoid, one can draw an Ampère’s law loop around the entire solenoid. This would enclose current flowing in both directions. Therefore, the net current inside the loop is zero. According to Ampère’s law, if the net current is zero, the magnetic field must be zero. Therefore, for locations outside of the solenoid’s radius, the magnetic field is zero.</para>
+<para id="fs-id1166165855053">When a patient undergoes a <term class="no-emphasis">magnetic resonance imaging</term> (MRI) scan, the person lies down on a table that is moved into the center of a large solenoid that can generate very large magnetic fields. The solenoid is capable of these high fields from high currents flowing through superconducting wires. The large magnetic field is used to change the spin of protons in the patient’s body. The time it takes for the spins to align or relax (return to original orientation) is a signature of different tissues that can be analyzed to see if the structures of the tissues is normal (<link target-id="CNX_UPhysics_29_06_MRI"/>).</para>
+<figure id="CNX_UPhysics_29_06_MRI">
+<media id="fs-id1166167041985" alt="Photo shows an MRI system. It consists of the cylindrical solenoid that is used to generate a large magnetic field.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_06_MRI.jpg"/>
+</media>
+<caption>In an MRI machine, a large magnetic field is generated by the cylindrical solenoid surrounding the patient. (credit: Liz West)</caption>
+</figure>
+<example id="fs-id1166166959786">
+<para id="fs-id1168329084833"><title>Magnetic Field Inside a Solenoid</title>
+A solenoid has 300 turns wound around a cylinder of diameter 1.20 cm and length 14.0 cm. If the current through the coils is 0.410 A, what is the magnitude of the magnetic field inside and near the middle of the solenoid?</para>
+<para id="fs-id1168329050572"><title>Strategy</title>
+We are given the number of turns and the length of the solenoid so we can find the number of turns per unit length. Therefore, the magnetic field inside and near the middle of the solenoid is given by <link target-id="fs-id1166166975561"/>. Outside the solenoid, the magnetic field is zero.</para>
+<para id="fs-id1168329057799"><title>Solution</title>
+The number of turns per unit length is</para>
+<equation id="fs-id1166167344311" class="unnumbered"><label/><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>turns</m:mtext></m:mrow><m:mrow><m:mn>0.140</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>turns/m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167388587">The magnetic field produced inside the solenoid is</para>
+<equation id="fs-id1166167427879" class="unnumbered"><label/><m:math><m:mtable columnalign="right"><m:mtr><m:mtd><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mtext>turns/m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.410</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1.10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168329155423"><title>Significance</title>
+This solution is valid only if the length of the solenoid is reasonably large compared with its diameter. This example is a case where this is valid.</para>
+</example>
+<note id="fs-id1166167290790" class="check-understanding">
+<exercise id="fs-id1166166949167">
+<problem id="fs-id1166167120018">
+<para id="fs-id1166167089259"><emphasis effect="bold">Check Your Understanding</emphasis> What is the ratio of the magnetic field produced from using a finite formula over the infinite approximation for an angle <m:math><m:mi>θ</m:mi></m:math> of (a) <m:math><m:mrow><m:mn>85</m:mn><m:mtext>°</m:mtext><m:mtext>?</m:mtext></m:mrow></m:math> (b) <m:math><m:mrow><m:mn>89</m:mn><m:mtext>°</m:mtext><m:mtext>?</m:mtext></m:mrow></m:math> The solenoid has 1000 turns in 50 cm with a current of 1.0 A flowing through the coils</para>
+</problem>
+<solution id="fs-id1166167044492">
+<para id="fs-id1166167378950">a. 1.00382; b. 1.00015</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1166167001467">
+<title>Toroids</title>
+<para id="fs-id1166167311570">A toroid is a donut-shaped coil closely wound with one continuous wire, as illustrated in part (a) of <link target-id="CNX_UPhysics_29_06_Toroid"/>. If the toroid has <emphasis effect="italics">N</emphasis> windings and the current in the wire is <emphasis effect="italics">I</emphasis>, what is the magnetic field both inside and outside the toroid?</para>
+<figure id="CNX_UPhysics_29_06_Toroid">
+<media id="fs-id1166167242794" alt="Figure A shows a toroid that is a coil wound into a donut-shaped object. Figure B shows a loosely wound toroid that does not have cylindrical symmetry. Figure C shows a tightly wound toroid with the symmetry that is very close to the cylindrical. Figure D shows several paths. Paths D1 and D3 are external to the toroid. Path D2 lies within the toroid.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_06_Toroid.jpg"/>
+</media>
+<caption>(a) A toroid is a coil wound into a donut-shaped object. (b) A loosely wound toroid does not have cylindrical symmetry. (c) In a tightly wound toroid, cylindrical symmetry is a very good approximation. (d) Several paths of integration for Ampère’s law.</caption>
+</figure>
+<para id="fs-id1166167134785">We begin by assuming cylindrical symmetry around the axis <emphasis effect="italics">OO</emphasis>’. Actually, this assumption is not precisely correct, for as part (b) of <link target-id="CNX_UPhysics_29_06_Toroid"/> shows, the view of the toroidal coil varies from point to point (for example, <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>) on a circular path centered around <emphasis effect="italics">OO</emphasis>’. However, if the toroid is tightly wound, all points on the circle become essentially equivalent [part (c) of <link target-id="CNX_UPhysics_29_06_Toroid"/>], and cylindrical symmetry is an accurate approximation.</para>
+<para id="fs-id1166166202986">With this symmetry, the magnetic field must be tangent to and constant in magnitude along any circular path centered on <emphasis effect="italics">OO</emphasis>’. This allows us to write for each of the paths <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>D</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> shown in part (d) of <link target-id="CNX_UPhysics_29_06_Toroid"/>,</para>
+<equation id="fs-id1166167107434"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167123212">Ampère’s law relates this integral to the net current passing through any surface bounded by the path of integration. For a path that is external to the toroid, either no current passes through the enclosing surface (path <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>), or the current passing through the surface in one direction is exactly balanced by the current passing through it in the opposite direction <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>path</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>D</m:mi><m:mn>3</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> In either case, there is no net current passing through the surface, so</para>
+<equation id="fs-id1166165865830" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1166167132275">and</para>
+<equation id="fs-id1166167100065"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="1em"/><m:mrow><m:mtext>(outside the toroid)</m:mtext><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1166167078779">The turns of a toroid form a helix, rather than circular loops. As a result, there is a small field external to the coil; however, the derivation above holds if the coils were circular.</para>
+<para id="fs-id1166167277065">For a circular path within the toroid (path <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>), the current in the wire cuts the surface <emphasis effect="italics">N</emphasis> times, resulting in a net current <emphasis effect="italics">NI</emphasis> through the surface. We now find with Ampère’s law,</para>
+<equation id="fs-id1166167109033" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1166167270212">and</para>
+<note id="fs-id1168329308671" class="equation-callout">
+<equation id="fs-id1166167025500"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="1em"/><m:mrow><m:mtext>(within the toroid)</m:mtext><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166167109110">The magnetic field is directed in the counterclockwise direction for the windings shown. When the current in the coils is reversed, the direction of the magnetic field also reverses.</para>
+<para id="fs-id1166166988127">The magnetic field inside a toroid is not uniform, as it varies inversely with the distance <emphasis effect="italics">r</emphasis> from the axis <emphasis effect="italics">OO</emphasis>’. However, if the central radius <emphasis effect="italics">R</emphasis> (the radius midway between the inner and outer radii of the toroid) is much larger than the cross-sectional diameter of the coils <emphasis effect="italics">r</emphasis>, the variation is fairly small, and the magnitude of the magnetic field may be calculated by <link target-id="fs-id1166167025500"/> where <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</section>
+<section id="fs-id1166167427241" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1166167448382" list-type="bulleted" bullet-style="bullet">
+<item>The magnetic field strength inside a solenoid is
+<equation id="fs-id1166167099887" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mspace width="1em"/><m:mtext>(inside a solenoid)</m:mtext></m:mrow></m:math></equation>
+where <emphasis effect="italics">n</emphasis> is the number of loops per unit length of the solenoid. The field inside is very uniform in magnitude and direction.</item>
+<item>The magnetic field strength inside a toroid is 
+<equation id="fs-id1166167117250" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="1em"/><m:mtext>(within the toroid)</m:mtext></m:mrow></m:math></equation>
+where <emphasis effect="italics">N</emphasis> is the number of windings. The field inside a toroid is not uniform and varies with the distance as 1/<emphasis effect="italics">r</emphasis>.</item>
+</list>
+</section>
+<section id="fs-id1166167126195" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1166167089697">
+<problem id="fs-id1166167416478">
+<para id="fs-id1166166093775">Is the magnetic field inside a toroid completely uniform? Almost uniform?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167369188">
+<problem id="fs-id1166167415714">
+<para id="fs-id1166167132427">Explain why <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:math> inside a long, hollow copper pipe that is carrying an electric current parallel to the axis. Is <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:math> outside the pipe?</para>
+</problem>
+<solution id="fs-id1166166061389">
+<para id="fs-id1166167376981">If there is no current inside the loop, there is no magnetic field (see Ampère’s law). Outside the pipe, there may be an enclosed current through the copper pipe, so the magnetic field may not be zero outside the pipe.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1166167155605" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1166165854949">
+<problem id="fs-id1166167127077">
+<para id="fs-id1166166020748">A solenoid is wound with 2000 turns per meter. When the current is 5.2 A, what is the magnetic field within the solenoid?</para>
+</problem>
+<solution id="fs-id1166167103019">
+<para id="fs-id1166167099849"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167416515">
+<problem id="fs-id1166167344409">
+<para id="fs-id1166167074508">A solenoid has 12 turns per centimeter. What current will produce a magnetic field of <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> within the solenoid?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166166092478">
+<problem id="fs-id1166167425431">
+<para id="fs-id1166167131416">If a current is 2.0 A, how many turns per centimeter must be wound on a solenoid in order to produce a magnetic field of <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> within it?</para>
+</problem>
+<solution id="fs-id1166167019343">
+<para id="fs-id1166167085962">roughly eight turns per cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167293535">
+<problem id="fs-id1166167207617">
+<para id="fs-id1166167243190">A solenoid is 40 cm long, has a diameter of 3.0 cm, and is wound with 500 turns. If the current through the windings is 4.0 A, what is the magnetic field at a point on the axis of the solenoid that is (a) at the center of the solenoid, (b) 10.0 cm from one end of the solenoid, and (c) 5.0 cm from one end of the solenoid? (d) Compare these answers with the infinite-solenoid case.</para>
+<media id="fs-id1166167048226" alt="Figure A is a cross section of a solenoid that shows three windings. The distance from the center to the winding is 1.5 centimeters. The distance between the windings is 20 centimeters. The point is located at the center axis of the solenoid, opposite to the second winding. Figure B is a cross section of a solenoid that shows three windings. The distance from the center to the winding is 1.5 centimeters. The distance between the windings is 20 centimeters. The point is located at the center axis of the solenoid, between the first and the second winding. Figure C is a cross section of a solenoid that shows three windings. The distance from the center to the winding is 1.5 centimeters. The distance between the windings is 20 centimeters. The point is located at the center axis of the solenoid, five centimeters below the first winding.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr40ans_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166166206996">
+<problem id="fs-id1166166206998">
+<para id="fs-id1166166208442">Determine the magnetic field on the central axis at the opening of a semi-infinite solenoid. (That is, take the opening to be at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and the other end to be at<newline/><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>∞</m:mi><m:mo>.</m:mo></m:mrow></m:math>)</para>
+</problem>
+<solution id="fs-id1166166203005">
+<para id="fs-id1166166203007"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167416540">
+<problem id="fs-id1166167093129">
+<para id="fs-id1166167093131">By how much is the approximation <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math> in error at the center of a solenoid that is 15.0 cm long, has a diameter of 4.0 cm, is wrapped with <emphasis effect="italics">n</emphasis> turns per meter, and carries a current <emphasis effect="italics">I</emphasis>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167085033">
+<problem id="fs-id1166167085035">
+<para id="fs-id1166167085037">A solenoid with 25 turns per centimeter carries a current <emphasis effect="italics">I</emphasis>. An electron moves within the solenoid in a circle that has a radius of 2.0 cm and is perpendicular to the axis of the solenoid. If the speed of the electron is <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m/s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> what is <emphasis effect="italics">I</emphasis>?</para>
+</problem>
+<solution id="fs-id1166167223188">
+<para id="fs-id1166167223190">0.0181 A</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167388851">
+<problem id="fs-id1166167388854">
+<para id="fs-id1166167275127">A toroid has 250 turns of wire and carries a current of 20 A. Its inner and outer radii are 8.0 and 9.0 cm. What are the values of its magnetic field at <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>8.1</m:mn><m:mo>,</m:mo><m:mn>8.5</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mn>8.9</m:mn><m:mspace width="0.2em"/><m:mtext>cm?</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167106300">
+<problem id="fs-id1166167106302">
+<para id="fs-id1166167106304">A toroid with a square cross section 3.0 cm <m:math><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/></m:math> 3.0 cm has an inner radius of 25.0 cm. It is wound with 500 turns of wire, and it carries a current of 2.0 A. What is the strength of the magnetic field at the center of the square cross section?</para>
+</problem>
+<solution id="fs-id1166166202860">
+<para id="fs-id1166166205461">0.0008 T</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1166167375969">
+<term>solenoid</term>
+<meaning id="fs-id1166167106191">thin wire wound into a coil that produces a magnetic field when an electric current is passed through it</meaning>
+</definition>
+<definition id="fs-id1166167100678">
+<term>toroid</term>
+<meaning id="fs-id1166165864964">donut-shaped coil closely wound around that is one continuous wire</meaning>
+</definition>
+</glossary>
+</document>

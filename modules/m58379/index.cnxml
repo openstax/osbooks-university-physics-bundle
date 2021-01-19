@@ -1,0 +1,202 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Sources of Musical Sound</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58379</md:content-id>
+  <md:title>Sources of Musical Sound</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the resonant frequencies in instruments that can be modeled as a tube with symmetrical boundary conditions</item>
+<item>Describe the resonant frequencies in instruments that can be modeled as a tube with anti-symmetrical boundary conditions</item>
+</list></md:abstract>
+  <md:uuid>c7bf59ac-6c0e-447a-b41b-c2d3273e8e29</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165037977399">Some musical instruments, such as woodwinds, brass, and pipe organs, can be modeled as <term class="no-emphasis">tubes with symmetrical boundary conditions</term>, that is, either open at both ends or closed at both ends (<link target-id="CNX_UPhysics_17_05_OpenOpen"/>). Other instruments can be modeled as <term class="no-emphasis">tubes with anti-symmetrical boundary conditions</term>, such as a tube with one end open and the other end closed (<link target-id="CNX_UPhysics_17_05_OpenClosed"/>).</para>
+<figure id="CNX_UPhysics_17_05_OpenOpen">
+<media id="fs-id1165037047442" alt="Picture is a diagram of the fundamental and three lowest overtones for a tube closed at one end. Fundamental has half of its wavelength in a tube. First overtone has one of its wavelength in a tube, second overtone has one and a half of its wavelength in a tube, third overtone has two of its wavelength in a tube. All have maximum air displacements at both ends of a tube.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_05_OpenOpen.jpg"/>
+</media>
+<caption>Some musical instruments can be modeled as a pipe open at both ends.</caption>
+</figure>
+<figure id="CNX_UPhysics_17_05_OpenClosed">
+<media id="fs-id1165037061472" alt="Picture is a diagram of the fundamental and three lowest overtones for a tube closed at one end. Fundamental has quarter of its wavelength in a tube. First overtone has three-quarters of its wavelength in a tube, second overtone has five fourths of its wavelength in a tube, third overtone has seven fourths of its wavelength in a tube. All have maximum air displacements one end and none at the closed end.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_05_OpenClosed.jpg"/>
+</media>
+<caption>Some musical instruments can be modeled as a pipe closed at one end.</caption>
+</figure>
+<para id="fs-id1165038026908">Resonant frequencies are produced by longitudinal waves that travel down the tubes and interfere with the reflected waves traveling in the opposite direction. A pipe organ is manufactured with various tubes of fixed lengths to produce different frequencies. The waves are the result of compressed air allowed to expand in the tubes. Even in open tubes, some reflection occurs due to the constraints of the sides of the tubes and the atmospheric pressure outside the open tube.</para>
+<para id="fs-id1165038251128">The antinodes do not occur at the opening of the tube, but rather depend on the radius of the tube. The waves do not fully expand until they are outside the open end of a tube, and for a thin-walled tube, an <emphasis effect="italics">end correction</emphasis> should be added. This end correction is approximately 0.6 times the radius of the tube and should be added to the length of the tube.</para>
+<para id="fs-id1165036896033">Players of instruments such as the flute or oboe vary the length of the tube by opening and closing finger holes. On a trombone, you change the tube length by using a sliding tube. Bugles have a fixed length and can produce only a limited range of frequencies.</para>
+<para id="fs-id1165037212538">The fundamental and overtones can be present simultaneously in a variety of combinations. For example, middle C on a trumpet sounds distinctively different from middle C on a clarinet, although both instruments are modified versions of a tube closed at one end. The fundamental frequency is the same (and usually the most intense), but the overtones and their mix of intensities are different and subject to shading by the musician. This mix is what gives various musical instruments (and human voices) their distinctive characteristics, whether they have air columns, strings, sounding boxes, or drumheads. In fact, much of our speech is determined by shaping the cavity formed by the throat and mouth, and positioning the tongue to adjust the fundamental and combination of overtones. For example, simple <term class="no-emphasis">resonant cavities</term> can be made to resonate with the sound of the vowels (<link target-id="CNX_UPhysics_17_05_Larynx"/>). In boys at puberty, the larynx grows and the shape of the resonant cavity changes, giving rise to the difference in predominant frequencies in speech between men and women.</para>
+<figure id="CNX_UPhysics_17_05_Larynx">
+<media id="fs-id1165038329057" alt="Picture is a schematic diagram of the mouth and a throat system. Air travels from trachea to the larynx, pharynx, and mouth. Vocal cord is located between larynx and pharynx. Epiglottis is located above pharynx. Tongue is located in the mouth. Soft palate tops the mouth. Hard palate separates mouth from the nasal cavity.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_05_Larynx.jpg"/>
+</media>
+<caption>The throat and mouth form an air column closed at one end that resonates in response to vibrations in the voice box. The spectrum of overtones and their intensities vary with mouth shaping and tongue position to form different sounds. The voice box can be replaced with a mechanical vibrator, and understandable speech is still possible. Variations in basic shapes make different voices recognizable.</caption>
+</figure>
+<example id="fs-id1165037007600">
+<para id="fs-id1165038010173"><title>Finding the Length of a Tube with a 128-Hz Fundamental</title>
+(a) What length should a tube closed at one end have on a day when the air temperature is</para>
+<para id="fs-id1165036851558"><m:math><m:mrow><m:mn>22.0</m:mn><m:mtext>°C</m:mtext></m:mrow></m:math> if its fundamental frequency is to be 128 Hz (C below middle C)?</para>
+<para id="fs-id1165037059427">(b) What is the frequency of its fourth overtone?</para>
+<para id="fs-id1165036876059"><title>Strategy</title>
+The length <emphasis effect="italics">L</emphasis> can be found from the relationship <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, but we first need to find the speed of sound <emphasis effect="italics">v</emphasis>.</para>
+<para id="fs-id1165037062660"><title>Solution</title></para>
+<list id="fs-id1165038042715" list-type="enumerated" number-style="lower-alpha">
+<item>Identify knowns: The fundamental frequency is 128 Hz, and the air temperature is <m:math><m:mrow><m:mn>22.0</m:mn><m:mtext>°C</m:mtext></m:mrow></m:math>.<newline/>
+Use <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:math> to find the fundamental frequency (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>),
+<equation id="fs-id1165037262497" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Solve this equation for length,
+<equation id="fs-id1165037219892" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Find the speed of sound using <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>331</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>T</m:mi><m:mrow><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>,
+<equation id="fs-id1165038218932" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>331</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mtext>295 K</m:mtext></m:mrow><m:mrow><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>344</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+Enter the values of the speed of sound and frequency into the expression for <emphasis effect="italics">L</emphasis>.
+<equation id="fs-id1165037264333" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>344</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>128</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.672</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></equation></item>
+<item>Identify knowns: The first overtone has <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, the second overtone has <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>, the third overtone has <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math>, and the fourth overtone has <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math>.<newline/>
+Enter the value for the fourth overtone into <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> 
+<equation id="fs-id1165037064622" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>9</m:mn></m:msub><m:mo>=</m:mo><m:mn>9</m:mn><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>9</m:mn><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.15</m:mn><m:mspace width="0.2em"/><m:mtext>kHz</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1165037227462"><title>Significance</title>
+Many wind instruments are modified tubes that have finger holes, valves, and other devices for changing the length of the resonating air column and hence, the frequency of the note played. Horns producing very low frequencies require tubes so long that they are coiled into loops. An example is the tuba. Whether an overtone occurs in a simple tube or a musical instrument depends on how it is stimulated to vibrate and the details of its shape. The trombone, for example, does not produce its fundamental frequency and only makes overtones.</para>
+</example>
+<para id="fs-id1165037209048">If you have two tubes with the same fundamental frequency, but one is open at both ends and the other is closed at one end, they would sound different when played because they have different overtones. Middle C, for example, would sound richer played on an open tube, because it has even multiples of the fundamental as well as odd. A closed tube has only odd multiples.</para>
+<section id="fs-id1165037181888">
+<title>Resonance</title>
+<para id="fs-id1165037078706">Resonance occurs in many different systems, including strings, air columns, and atoms. As we discussed in earlier chapters, resonance is the driven or forced oscillation of a system at its natural frequency. At resonance, energy is transferred rapidly to the oscillating system, and the amplitude of its oscillations grows until the system can no longer be described by Hooke’s law. An example of this is the distorted sound intentionally produced in certain types of rock music.</para>
+<para id="fs-id1165036820775">Wind instruments use resonance in air columns to amplify tones made by lips or vibrating reeds. Other instruments also use air resonance in clever ways to amplify sound. <link target-id="CNX_UPhysics_17_05_StringIns"/> shows a violin and a guitar, both of which have sounding boxes but with different shapes, resulting in different overtone structures. The vibrating string creates a sound that resonates in the sounding box, greatly amplifying the sound and creating overtones that give the instrument its characteristic timbre. The more complex the shape of the sounding box, the greater its ability to resonate over a wide range of frequencies. The marimba, like the one shown in <link target-id="CNX_UPhysics_17_05_Marimba"/>, uses pots or gourds below the wooden slats to amplify their tones. The resonance of the pot can be adjusted by adding water.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_17_05_StringIns"><media id="fs-id1165036894262" alt="Picture A is a close up photograph of violin. Picture B is a photograph of a person playing the guitar.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_05_StringIns.jpg"/>
+</media>
+
+<caption>String instruments such as (a) violins and (b) guitars use resonance in their sounding boxes to amplify and enrich the sound created by their vibrating strings. The bridge and supports couple the string vibrations to the sounding boxes and air within. (credit a: modification of work by Feliciano Guimarães; credit b: modification of work by Steve Snodgrass)</caption></figure><figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_17_05_Marimba"><media id="fs-id1165038031857" alt="Photograph of two musicians playing on a marimba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_05_Marimba.jpg"/>
+</media>
+
+<caption>This marimba uses gourds as resonance chambers to amplify its sound. (credit: “APC Events”/Flickr)</caption></figure><para id="fs-id1165037213394">We have emphasized sound applications in our discussions of resonance and standing waves, but these ideas apply to any system that has wave characteristics. Vibrating strings, for example, are actually resonating and have fundamentals and overtones similar to those for air columns. More subtle are the resonances in atoms due to the wave character of their electrons. Their orbitals can be viewed as standing waves, which have a fundamental (ground state) and overtones (excited states). It is fascinating that wave characteristics apply to such a wide range of physical systems.</para>
+</section>
+<section id="fs-id1165037052303" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1165037232975" list-type="bulleted" bullet-style="bullet">
+<item>Some musical instruments can be modeled as pipes that have symmetrical boundary conditions: open at both ends or closed at both ends. Other musical instruments can be modeled as pipes that have anti-symmetrical boundary conditions: closed at one end and open at the other.</item>
+<item>Some instruments, such as the pipe organ, have several tubes with different lengths. Instruments such as the flute vary the length of the tube by closing the holes along the tube. The trombone varies the length of the tube using a sliding bar.</item>
+<item>String instruments produce sound using a vibrating string with nodes at each end. The air around the string oscillates at the frequency of the string. The relationship for the frequencies for the string is the same as for the symmetrical boundary conditions of the pipe, with the length of the pipe replaced by the length of the string and the velocity replaced by <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1165038376057" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1165038163299">
+<problem id="fs-id1165037171533">
+<para id="fs-id1165036883835">How does an unamplified guitar produce sounds so much more intense than those of a plucked string held taut by a simple stick?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036853852">
+<problem id="fs-id1165037162128">
+<para id="fs-id1165038025011">Consider three pipes of the same length (<emphasis effect="italics">L</emphasis>). Pipe <emphasis effect="italics">A</emphasis> is open at both ends, pipe <emphasis effect="italics">B</emphasis> is closed at both ends, and pipe <emphasis effect="italics">C</emphasis> has one open end and one closed end. If the velocity of sound is the same in each of the three tubes, in which of the tubes could the lowest fundamental frequency be produced? In which of the tubes could the highest fundamental frequency be produced?</para>
+</problem>
+<solution id="fs-id1165036884340">
+<para id="fs-id1165037231419">When resonating at the fundamental frequency, the wavelength for pipe <emphasis effect="italics">C</emphasis> is 4<emphasis effect="italics">L</emphasis>, and for pipes <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> is 2<emphasis effect="italics">L</emphasis>. The frequency is equal to <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mtext>/</m:mtext><m:mi>λ</m:mi><m:mo>.</m:mo></m:mrow></m:math> Pipe <emphasis effect="italics">C</emphasis> has the lowest frequency and pipes <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> have equal frequencies, higher than the one in pipe <emphasis effect="italics">C</emphasis>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037199877">
+<problem id="fs-id1165037030546">
+<para id="fs-id1165038007007">Pipe <emphasis effect="italics">A</emphasis> has a length <emphasis effect="italics">L</emphasis> and is open at both ends. Pipe <emphasis effect="italics">B</emphasis> has a length <emphasis effect="italics">L</emphasis>/2 and has one open end and one closed end. Assume the speed of sound to be the same in both tubes. Which of the harmonics in each tube would be equal?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038314232">
+<problem id="fs-id1165036853231">
+<para id="fs-id1165037037115">A string is tied between two lab posts a distance <emphasis effect="italics">L</emphasis> apart. The tension in the string and the linear mass density is such that the speed of a wave on the string is <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>343</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> A tube with symmetric boundary conditions has a length <emphasis effect="italics">L</emphasis> and the speed of sound in the tube is <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>343</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> What could be said about the frequencies of the harmonics in the string and the tube? What if the velocity in the string were <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>686</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1165036754158">
+<para id="fs-id1165037171204">Since the boundary conditions are both symmetric, the frequencies are<m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Since the speed is the same in each, the frequencies are the same. If the wave speed were doubled in the string, the frequencies in the string would be twice the frequencies in the tube.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1165037170209" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1165037062173">
+<problem id="fs-id1165037940451">
+<para id="fs-id1165037986973">If a wind instrument, such as a tuba, has a fundamental frequency of 32.0 Hz, what are its first three overtones? It is closed at one end. (The overtones of a real tuba are more complex than this example, because it is a tapered tube.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038012846">
+<problem id="fs-id1165037157062">
+<para id="fs-id1165036755891">What are the first three overtones of a bassoon that has a fundamental frequency of 90.0 Hz? It is open at both ends. (The overtones of a real bassoon are more complex than this example, because its double reed makes it act more like a tube closed at one end.)</para>
+</problem>
+<solution id="fs-id1165036967898">
+<para id="fs-id1165038329140"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>first overtone</m:mtext><m:mo>=</m:mo><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mtext>Hz;</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>second overtone</m:mtext><m:mo>=</m:mo><m:mn>270</m:mn><m:mspace width="0.2em"/><m:mtext>Hz;</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>third overtone</m:mtext><m:mo>=</m:mo><m:mn>360</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036980427">
+<problem id="fs-id1165037060837">
+<para id="fs-id1165037037132">How long must a flute be in order to have a fundamental frequency of 262 Hz (this frequency corresponds to middle C on the evenly tempered chromatic scale) on a day when air temperature is <m:math><m:mrow><m:mn>20.0</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? It is open at both ends.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036883287">
+<problem id="fs-id1165038341653">
+<para id="fs-id1165036900733">What length should an oboe have to produce a fundamental frequency of 110 Hz on a day when the speed of sound is 343 m/s? It is open at both ends.</para>
+</problem>
+<solution id="fs-id1165038039783">
+<para id="fs-id1165037202930">1.56 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038056597">
+<problem id="fs-id1165037842417">
+<para id="fs-id1165038292516">(a) Find the length of an organ pipe closed at one end that produces a fundamental frequency of 256 Hz when air temperature is <m:math><m:mrow><m:mn>18.0</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (b) What is its fundamental frequency at <m:math><m:mrow><m:mn>25.0</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037223150">
+<problem id="fs-id1165038157506">
+<para id="fs-id1165038275861">An organ pipe <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is closed at both ends. Compute the wavelengths and frequencies of the first three modes of resonance. Assume the speed of sound is<m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>343.00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1165037059047">
+<para id="fs-id1165038369617">The pipe has symmetrical boundary conditions;<newline/>
+<m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>λ</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>n</m:mi></m:mfrac><m:mi>L</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>f</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>λ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>6.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>λ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>λ</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>57.17</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>f</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>114.33</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>171.50</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038337969">
+<problem id="fs-id1165037885721">
+<para id="fs-id1165038045995">An organ pipe <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is closed at one end. Compute the wavelengths and frequencies of the first three modes of resonance. Assume the speed of sound is<m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>343.00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036763039">
+<problem id="fs-id1165037190231">
+<para id="fs-id1165037083715">A sound wave of a frequency of 2.00 kHz is produced by a string oscillating in the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> mode. The linear mass density of the string is <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0.0065</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow></m:math> and the length of the string is 1.50 m. What is the tension in the string?</para>
+</problem>
+<solution id="fs-id1165037975569">
+<para id="fs-id1165038027361"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>λ</m:mi><m:mn>6</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>1000</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mn>6500</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037948836">
+<problem id="fs-id1165038282742">
+<para id="fs-id1165036872778">Consider the sound created by resonating the tube shown below. The air temperature is <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>C</m:mtext></m:msub><m:mo>=</m:mo><m:mn>30.00</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. What are the wavelength, wave speed, and frequency of the sound produced?</para>
+<media id="fs-id1165038058618" alt="Picture is a diagram of the wave in the 60 centimeter long tube. There are two wavelengths in a tube. The maximum air displacements are at the ends of the tube.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_05_12_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165038008382">
+<problem id="fs-id1165037166786">
+<para id="fs-id1165038308533">A student holds an 80.00-cm lab pole one quarter of the length from the end of the pole. The lab pole is made of aluminum. The student strikes the lab pole with a hammer. The pole resonates at the lowest possible frequency. What is that frequency?</para>
+</problem>
+<solution id="fs-id1165037032889">
+<para id="fs-id1165038164770"><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>6.40</m:mn><m:mspace width="0.2em"/><m:mtext>kHz</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038340395">
+<problem id="fs-id1165037987067">
+<para id="fs-id1165037189788">A string on the violin has a length of 24.00 cm and a mass of 0.860 g. The fundamental frequency of the string is 1.00 kHz. (a) What is the speed of the wave on the string? (b) What is the tension in the string?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037206125">
+<problem id="fs-id1165038016677">
+<para id="fs-id1165037084857">By what fraction will the frequencies produced by a wind instrument change when air temperature goes from <m:math><m:mrow><m:mn>10.0</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>30.0</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? That is, find the ratio of the frequencies at those temperatures.</para>
+</problem>
+<solution id="fs-id1165036890473">
+<para id="fs-id1165036730932">1.03 or <m:math><m:mrow><m:mn>3</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+</document>

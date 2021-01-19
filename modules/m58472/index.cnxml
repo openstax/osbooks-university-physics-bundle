@@ -1,0 +1,260 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Faraday’s Law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58472</md:content-id>
+  <md:title>Faraday’s Law</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Determine the magnetic flux through a surface, knowing the strength of the magnetic field, the surface area, and the angle between the normal to the surface and the magnetic field</item>
+<item>Use Faraday’s law to determine the magnitude of induced emf in a closed loop due to changing magnetic flux through the loop</item>
+</list></md:abstract>
+  <md:uuid>053645ea-f5f8-4208-9f36-1abc34ff85ee</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171241328495">The first productive experiments concerning the effects of time-varying magnetic fields were performed by Michael <term class="no-emphasis">Faraday</term> in 1831. One of his early experiments is represented in <link target-id="CNX_UPhysics_30_01_GalvMag"/>. An <term class="no-emphasis">emf</term> is induced when the magnetic field in the coil is changed by pushing a bar magnet into or out of the coil. Emfs of opposite signs are produced by motion in opposite directions, and the directions of emfs are also reversed by reversing poles. The same results are produced if the coil is moved rather than the magnet—it is the relative motion that is important. The faster the motion, the greater the emf, and there is no emf when the magnet is stationary relative to the coil.</para>
+<figure id="CNX_UPhysics_30_01_GalvMag">
+<media id="fs-id1171241053605" alt="Figure A shows the magnet with the North pole facing up moved into the coil. Figure B shows the magnet with the North pole facing up moved out of the coil. Figure C shows the magnet with the South pole facing up moved into the coil. Figure D shows the magnet with the South pole facing up moved out of the coil. Figure E shows the magnet with the North pole facing up hold stationary in the coil.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_GalvMag.jpg"/>
+</media>
+<caption>Movement of a magnet relative to a coil produces emfs as shown (a–d). The same emfs are produced if the coil is moved relative to the magnet. This short-lived emf is only present during the motion. The greater the speed, the greater the magnitude of the emf, and the emf is zero when there is no motion, as shown in (e).</caption>
+</figure>
+<para id="fs-id1171241238691">Faraday also discovered that a similar effect can be produced using two circuits—a changing current in one circuit induces a current in a second, nearby circuit. For example, when the switch is closed in circuit 1 of <link target-id="CNX_UPhysics_30_01_Circuit"/>(a), the ammeter needle of circuit 2 momentarily deflects, indicating that a short-lived current surge has been induced in that circuit. The ammeter needle quickly returns to its original position, where it remains. However, if the switch of circuit 1 is now suddenly opened, another short-lived current surge in the direction opposite from before is observed in circuit 2.</para>
+<figure id="CNX_UPhysics_30_01_Circuit">
+<media id="fs-id1171241145827" alt="Figure A shows the circuit in which switch is getting closed causing current to flow clockwise through it. Figure B shows the circuit in which switch is kept closed. There is no current in the circuit. Figure C shows the circuit in which switch is getting opened causing current to flow counter clockwise through it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Circuit.jpg"/>
+</media>
+<caption>(a) Closing the switch of circuit 1 produces a short-lived current surge in circuit 2. (b) If the switch remains closed, no current is observed in circuit 2. (c) Opening the switch again produces a short-lived current in circuit 2 but in the opposite direction from before.</caption>
+</figure>
+<para id="fs-id1171241150285">Faraday realized that in both experiments, a current flowed in the circuit containing the ammeter only when the magnetic field in the region occupied by that circuit was <emphasis effect="italics">changing</emphasis>. As the magnet of the figure was moved, the strength of its magnetic field at the loop changed; and when the current in circuit 1 was turned on or off, the strength of its magnetic field at circuit 2 changed. Faraday was eventually able to interpret these and all other experiments involving magnetic fields that vary with time in terms of the following law:</para>
+<note id="fs-id1171241132764">
+<title>Faraday’s Law</title>
+<para id="fs-id1171241136854">The emf <m:math><m:mi>ε</m:mi></m:math> induced is the negative change in the magnetic flux <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> per unit time. Any change in the magnetic field or change in orientation of the area of the coil with respect to the magnetic field induces a voltage (emf).</para>
+</note>
+<para id="fs-id1171241123715">The <term>magnetic flux</term> is a measurement of the amount of magnetic field lines through a given surface area, as seen in <link target-id="CNX_UPhysics_30_01_Magflux"/>. This definition is similar to the electric flux studied earlier. This means that if we have</para>
+<note id="fs-id1171241051586" class="equation-callout">
+<equation id="fs-id1171240989377"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mi>S</m:mi></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>,</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171241122178">then the <term>induced emf</term> or the voltage generated by a conductor or coil moving in a magnetic field is</para>
+<equation id="fs-id1171241192361"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mi>S</m:mi></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241323591">The negative sign describes the direction in which the induced emf drives current around a circuit. However, that direction is most easily determined with a rule known as Lenz’s law, which we will discuss shortly.</para>
+<figure id="CNX_UPhysics_30_01_Magflux">
+<media id="fs-id1171241141534" alt="Figure shows a uniform magnetic field B cutting through a surface area A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Magflux.jpg"/>
+</media>
+<caption>The magnetic flux is the amount of magnetic field lines cutting through a surface area <emphasis effect="italics">A</emphasis> defined by the unit area vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> If the angle between the unit area <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> and magnetic field vector <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> are parallel or antiparallel, as shown in the diagram, the magnetic flux is the highest possible value given the values of area and magnetic field.</caption>
+</figure>
+<para id="fs-id1171241151837">Part (a) of <link target-id="CNX_UPhysics_30_01_Surface"/> depicts a circuit and an arbitrary surface <emphasis effect="italics">S</emphasis> that it bounds. Notice that <emphasis effect="italics">S</emphasis> is an <emphasis effect="italics">open surface</emphasis>. It can be shown that <emphasis effect="italics">any</emphasis> open surface bounded by the circuit in question can be used to evaluate <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> For example, <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> is the same for the various surfaces <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>S</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math> of part (b) of the figure.</para>
+<figure id="CNX_UPhysics_30_01_Surface">
+<media id="fs-id1171241189703" alt="Figure A shows the circuit bounding an arbitrary open surface S. The planar area bounded by the circuit is not part of S. Figure B shows three arbitrary open surfaces S1, S2, and S3 bounded by the same circuit.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Surface.jpg"/>
+</media>
+<caption>(a) A circuit bounding an arbitrary open surface <emphasis effect="italics">S</emphasis>. The planar area bounded by the circuit is not part of <emphasis effect="italics">S</emphasis>. (b) Three arbitrary open surfaces bounded by the same circuit. The value of <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> is the same for all these surfaces.</caption>
+</figure>
+<para id="fs-id1171241345086">The SI unit for magnetic flux is the <term class="no-emphasis">weber</term> (Wb),</para>
+<equation id="fs-id1171241097128" class="unnumbered"><label/><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241203963">Occasionally, the magnetic field unit is expressed as webers per square meter (<m:math><m:mrow><m:msup><m:mrow><m:mtext>Wb/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) instead of teslas, based on this definition. In many practical applications, the circuit of interest consists of a number <emphasis effect="italics">N</emphasis> of tightly wound turns (see <link target-id="CNX_UPhysics_30_01_Wire"/>). Each turn experiences the same magnetic flux. Therefore, the net magnetic flux through the circuits is <emphasis effect="italics">N</emphasis> times the flux through one turn, and Faraday’s law is written as</para>
+<note id="fs-id1171241241136" class="equation-callout">
+<equation id="fs-id1171241164885"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>N</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1171241149519">
+<para id="fs-id1171241148164"><title>A Square Coil in a Changing Magnetic Field</title>
+The square coil of <link target-id="CNX_UPhysics_30_01_Wire"/> has sides <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> long and is tightly wound with <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>200</m:mn></m:mrow></m:math> turns of wire. The resistance of the coil is <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> The coil is placed in a spatially uniform magnetic field that is directed perpendicular to the face of the coil and whose magnitude is decreasing at a rate <m:math><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>−0.040</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) What is the magnitude of the emf induced in the coil? (b) What is the magnitude of the current circulating through the coil?</para>
+<figure id="CNX_UPhysics_30_01_Wire">
+<media id="fs-id1171240990882" alt="Figure shows a square coil of the side length l with N turns of wire. A uniform magnetic field B is directed in the downward direction, perpendicular to the coil.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Wire.jpg"/>
+</media>
+<caption>A square coil with <emphasis effect="italics">N</emphasis> turns of wire with uniform magnetic field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> directed in the downward direction, perpendicular to the coil.</caption>
+</figure>
+<para id="fs-id1171241066334"><title>Strategy</title>
+The area vector, or <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> direction, is perpendicular to area covering the loop. We will choose this to be pointing downward so that <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is parallel to <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> and that the flux turns into multiplication of magnetic field times area. The area of the loop is not changing in time, so it can be factored out of the time derivative, leaving the magnetic field as the only quantity varying in time. Lastly, we can apply Ohm’s law once we know the induced emf to find the current in the loop.</para>
+<para id="fs-id1171241092551"><title>Solution</title></para>
+<list id="fs-id1171240994354" list-type="enumerated" number-style="lower-alpha">
+<item>The flux through one turn is
+<equation id="fs-id1171241201226" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:msup><m:mi>l</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+so we can calculate the magnitude of the emf from Faraday’s law. The sign of the emf will be discussed in the next section, on Lenz’s law:
+<equation id="fs-id1171241114112" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mi>ε</m:mi><m:mo>|</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>N</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>N</m:mi><m:msup><m:mi>l</m:mi><m:mn>2</m:mn></m:msup><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>200</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mn>0.040</m:mn><m:mspace width="0.2em"/><m:mtext>T/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>The magnitude of the current induced in the coil is 
+<equation id="fs-id1171241158470" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1171241122795"><title>Significance</title>
+If the area of the loop were changing in time, we would not be able to pull it out of the time derivative. Since the loop is a closed path, the result of this current would be a small amount of heating of the wires until the magnetic field stops changing. This may increase the area of the loop slightly as the wires are heated.</para>
+</example>
+<note id="fs-id1171241241645" class="check-understanding">
+<exercise id="fs-id1171240969671">
+<problem id="fs-id1171240984994">
+<para id="fs-id1171241057880"><emphasis effect="bold">Check Your Understanding</emphasis> A closely wound coil has a radius of 4.0 cm, 50 turns, and a total resistance of <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. At what rate must a magnetic field perpendicular to the face of the coil change in order to produce Joule heating in the coil at a rate of 2.0 mW?</para>
+</problem>
+<solution id="fs-id1171241153595">
+<para id="fs-id1171241258119">1.1 T/s</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1171241202797" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1171241046046" list-type="bulleted" bullet-style="bullet">
+<item>The magnetic flux through an enclosed area is defined as the amount of field lines cutting through a surface area <emphasis effect="italics">A</emphasis> defined by the unit area vector.</item>
+<item>The units for magnetic flux are webers, where <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>The induced emf in a closed loop due to a change in magnetic flux through the loop is known as Faraday’s law. If there is no change in magnetic flux, no induced emf is created.</item>
+</list>
+</section>
+<section id="fs-id1171240985619" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1171241111872">
+<problem id="fs-id1171241122272">
+<para id="fs-id1171241124858">A stationary coil is in a magnetic field that is changing with time. Does the emf induced in the coil depend on the actual values of the magnetic field?</para>
+</problem>
+<solution id="fs-id1171241093655">
+<para id="fs-id1171241238616">The emf depends on the rate of change of the magnetic field.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241199946">
+<problem id="fs-id1171241154720">
+<para id="fs-id1171241010757">In Faraday’s experiments, what would be the advantage of using coils with many turns?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241129335">
+<problem id="fs-id1171241034073">
+<para id="fs-id1171241131403">A copper ring and a wooden ring of the same dimensions are placed in magnetic fields so that there is the same change in magnetic flux through them. Compare the induced electric fields and currents in the rings.</para>
+</problem>
+<solution id="fs-id1171241134668">
+<para id="fs-id1171241410991">Both have the same induced electric fields; however, the copper ring has a much higher induced emf because it conducts electricity better than the wooden ring.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241015574">
+<problem id="fs-id1171241095130">
+<para id="fs-id1171241116641">Discuss the factors determining the induced emf in a closed loop of wire.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241021120">
+<problem id="fs-id1171241255681">
+<para id="fs-id1171240959297">(a) Does the induced emf in a circuit depend on the resistance of the circuit? (b) Does the induced current depend on the resistance of the circuit?</para>
+</problem>
+<solution id="fs-id1171240977887">
+<para id="fs-id1171240994206">a. no; b. yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241257120">
+<problem id="fs-id1171241149792">
+<para id="fs-id1171241118200">How would changing the radius of loop <emphasis effect="italics">D</emphasis> shown below affect its emf, assuming <emphasis effect="italics">C</emphasis> and <emphasis effect="italics">D</emphasis> are much closer together compared to their radii?</para>
+<media id="fs-id1171241113119" alt="Figure shows a circuit that consists of a resistor, capacitor, opened switch and a loop C. A loop D is located next to the loop C.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Q6_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171241154414">
+<problem id="fs-id1171241113085">
+<para id="fs-id1171241098594">Can there be an induced emf in a circuit at an instant when the magnetic flux through the circuit is zero?</para>
+</problem>
+<solution id="fs-id1171240974661">
+<para id="fs-id1171241098737">As long as the magnetic flux is changing from positive to negative or negative to positive, there could be an induced emf.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241200352">
+<problem id="fs-id1171241111695">
+<para id="fs-id1171241320795">Does the induced emf always act to decrease the magnetic flux through a circuit?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241079729">
+<problem id="fs-id1171241112518">
+<para id="fs-id1171241141057">How would you position a flat loop of wire in a changing magnetic field so that there is no induced emf in the loop?</para>
+</problem>
+<solution id="fs-id1171241334922">
+<para id="fs-id1171240969518">Position the loop so that the field lines run perpendicular to the area vector or parallel to the surface.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241013268">
+<problem id="fs-id1171240969875">
+<para id="fs-id1171240948512">The normal to the plane of a single-turn conducting loop is directed at an angle <m:math><m:mi>θ</m:mi></m:math> to a spatially uniform magnetic field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> It has a fixed area and orientation relative to the magnetic field. Show that the emf induced in the loop is given by <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>B</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">A</emphasis> is the area of the loop.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1171241052712" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1171241201416">
+<problem id="fs-id1171241320118">
+<para id="fs-id1171241139459">A 50-turn coil has a diameter of 15 cm. The coil is placed in a spatially uniform magnetic field of magnitude 0.50 T so that the face of the coil and the magnetic field are perpendicular. Find the magnitude of the emf induced in the coil if the magnetic field is reduced to zero uniformly in (a) 0.10 s, (b) 1.0 s, and (c) 60 s.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171240940944">
+<problem id="fs-id1171241095026">
+<para id="fs-id1171240994352">Repeat your calculations of the preceding problem’s time of 0.1 s with the plane of the coil making an angle of (a) <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:mn>60</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and (c) <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with the magnetic field.</para>
+</problem>
+<solution id="fs-id1171240989056">
+<para id="fs-id1171240965796">a. 3.8 V; b. 2.2 V; c. 0 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241208588">
+<problem id="fs-id1171241071527">
+<para id="fs-id1171241141782">A square loop whose sides are 6.0-cm long is made with copper wire of radius 1.0 mm. If a magnetic field perpendicular to the loop is changing at a rate of 5.0 mT/s, what is the current in the loop?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171240945851">
+<problem id="fs-id1171241114217">
+<para id="fs-id1171241144021">The magnetic field through a circular loop of radius 10.0 cm varies with time as shown below. The field is perpendicular to the loop. Plot the magnitude of the induced emf in the loop as a function of time.</para>
+<media id="fs-id1171241022691" alt="Figure shows the magnetic field in milliTesla plotted as a function of time in ms. Magnetic field is zero when the time is equal to zero. It increases linearly with time reaching 3 milliTesla and 2 ms. It remains the same till 5 ms and then decreases linearly to 0 and 6 ms.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_p14_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171241142217">
+<para id="fs-id1171241162903"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1.5</m:mn><m:mi>t</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>t</m:mi><m:mo>&lt;</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>,</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>mT</m:mtext><m:mo>,</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>≤</m:mo><m:mi>t</m:mi><m:mo>≤</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−3.0</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mtext>mT</m:mtext><m:mo>,</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>&lt;</m:mo><m:mi>t</m:mi><m:mo>≤</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>B</m:mi><m:mi>A</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>A</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>π</m:mi><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.100</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mtext>T/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−47</m:mn><m:mspace width="0.2em"/><m:mtext>mV</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>t</m:mi><m:mo>&lt;</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>π</m:mi><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.100</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>≤</m:mo><m:mi>t</m:mi><m:mo>≤</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>π</m:mi><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.100</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3.0</m:mn><m:mspace width="0.2em"/><m:mtext>T/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>94</m:mn><m:mspace width="0.2em"/><m:mtext>mV</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>&lt;</m:mo><m:mi>t</m:mi><m:mo>&lt;</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math><newline/>
+<media id="fs-id1171241192145" alt="Figure shows the Emf in mV plotted as a function of time in ms. Emf is equal to -47 mV when the time is equal to zero. It increases in a step fashion to 0 when the time reaches 2 ms. Emf remains the same till 5 ms and then increases in a step fashion to 94 mV. It stays constant till time reaches 6 ms.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_p14ans_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241320383">
+<problem id="fs-id1171241320385">
+<para id="fs-id1171241320387">The accompanying figure shows a single-turn rectangular coil that has a resistance of <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> The magnetic field at all points inside the coil varies according to <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the current induced in the coil at (a) <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0.001</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>, (b) 0.002 s, (c) 2.0 s?</para>
+<media id="fs-id1171241248243" alt="Figure shows a square coil with the sides of 2.0 and 5.0 cm. A uniform magnetic field B is directed perpendicular to the coil.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_09pr_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171241116310">
+<problem id="fs-id1171241166254">
+<para id="fs-id1171241166257">How would the answers to the preceding problem change if the coil consisted of 20 closely spaced turns?</para>
+</problem>
+<solution id="fs-id1171241186066">
+<para id="fs-id1171241186068">Each answer is 20 times the previously given answers.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241110023">
+<problem id="fs-id1171241110025">
+<para id="fs-id1171241109269">A long solenoid with <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math> turns per centimeter has a cross-sectional area of <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and carries a current of 0.25 A. A coil with five turns encircles the solenoid. When the current through the solenoid is turned off, it decreases to zero in 0.050 s. What is the average emf induced in the coil?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241116228">
+<problem id="fs-id1171241330993">
+<para id="fs-id1171241330995">A rectangular wire loop with length <emphasis effect="italics">a</emphasis> and width <emphasis effect="italics">b</emphasis> lies in the <emphasis effect="italics">xy</emphasis>-plane, as shown below. Within the loop there is a time-dependent magnetic field given by <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, with <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> in tesla. Determine the emf induced in the loop as a function of time.</para>
+<media id="fs-id1171241092049" alt="Figure shows a rectangular wire loop with length a and width b lies in the xy-plane.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_13pr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171241197547">
+<para id="fs-id1171241197549"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>C</m:mtext><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>C</m:mi><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>C</m:mi><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171240988352">
+<problem id="fs-id1171241054526">
+<para id="fs-id1171241054529">The magnetic field perpendicular to a single wire loop of diameter 10.0 cm decreases from 0.50 T to zero. The wire is made of copper and has a diameter of 2.0 mm and length 1.0 cm. How much charge moves through the wire while the field is changing?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171241204212">
+<term>Faraday’s law</term>
+<meaning id="fs-id1171241238556">induced emf is created in a closed loop due to a change in magnetic flux through the loop</meaning>
+</definition>
+<definition id="fs-id1171241238561">
+<term>induced emf</term>
+<meaning id="fs-id1171241244736">short-lived voltage generated by a conductor or coil moving in a magnetic field</meaning>
+</definition>
+<definition id="fs-id1171241244740">
+<term>magnetic flux</term>
+<meaning id="fs-id1171241253695">measurement of the amount of magnetic field lines through a given area</meaning>
+</definition>
+</glossary>
+</document>

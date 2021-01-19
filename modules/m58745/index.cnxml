@@ -1,0 +1,583 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>Applications of Magnetic Forces and Fields</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58745</md:content-id>
+  <md:title>Applications of Magnetic Forces and Fields</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain how a mass spectrometer works to separate charges</item>
+<item>Explain how a cyclotron works</item>
+</list></md:abstract>
+  <md:uuid>00c31c97-7fea-47b5-b0ac-e1354ce02bbd</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171361646227">Being able to manipulate and sort charged particles allows deeper experimentation to understand what matter is made of. We first look at a mass spectrometer to see how we can separate ions by their charge-to-mass ratio. Then we discuss cyclotrons as a method to accelerate charges to very high energies.</para>
+<section id="fs-id1171361412342">
+<title>Mass Spectrometer</title>
+<para id="fs-id1171361315100">The <term>mass spectrometer</term> is a device that separates ions according to their charge-to-mass ratios. One particular version, the Bainbridge mass spectrometer, is illustrated in <link target-id="CNX_UPhysics_28_07_Mass-spec"/>. Ions produced at a source are first sent through a velocity selector, where the magnetic force is equally balanced with the electric force. These ions all emerge with the same speed <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mtext>/</m:mtext><m:mi>B</m:mi></m:mrow></m:math> since any ion with a different velocity is deflected preferentially by either the electric or magnetic force, and ultimately blocked from the next stage. They then enter a uniform magnetic field <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> where they travel in a circular path whose radius <emphasis effect="italics">R</emphasis> is given by <link target-id="fs-id1171358170598" document="m58739"/>. The radius is measured by a particle detector located as shown in the figure.</para>
+<figure id="CNX_UPhysics_28_07_Mass-spec">
+<media id="fs-id1171361420042" alt="A schematic of the Bainbridge mass spectrometer. Charged particles moving down enter a region with electric field E pointing to the left and magnetic field B pointing into the page. The particle path continues in a straight line until it enters a region with no electric field. The magnetic field here is uniform, into the page, and magnitude B naught. The particle path in this region curves in a counterclockwise circle of radius R until it hits a particle detector.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_mass-spec.jpg"/>
+</media>
+<caption>A schematic of the Bainbridge mass spectrometer, showing charged particles leaving a source, followed by a velocity selector where the electric and magnetic forces are balanced, followed by a region of uniform magnetic field where the particle is ultimately detected.</caption>
+</figure>
+<para id="fs-id1171361338598">The relationship between the charge-to-mass ratio <emphasis effect="italics">q</emphasis>/<emphasis effect="italics">m</emphasis> and the radius <emphasis effect="italics">R</emphasis> is determined by combining <link target-id="fs-id1171358170598" document="m58739"/> and <link target-id="fs-id1171360336437" document="m58744"/>:</para>
+<note id="fs-id1163709714343" class="equation-callout">
+<equation id="fs-id1171357884629"><label/><m:math><m:mrow><m:mfrac><m:mi>q</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mrow><m:mi>B</m:mi><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171361359763">Since most ions are singly charged <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> measured values of <emphasis effect="italics">R</emphasis> can be used with this equation to determine the mass of ions. With modern instruments, masses can be determined to one part in <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1171361607280">An interesting use of a spectrometer is as part of a system for detecting very small leaks in a research apparatus. In low-temperature physics laboratories, a device known as a dilution refrigerator uses a mixture of He-3, He-4, and other cryogens to reach temperatures well below 1 K. The performance of the refrigerator is severely hampered if even a minute leak between its various components occurs. Consequently, before it is cooled down to the desired temperature, the refrigerator is subjected to a leak test. A small quantity of gaseous helium is injected into one of its compartments, while an adjacent, but supposedly isolated, compartment is connected to a high-vacuum pump to which a mass spectrometer is attached. A heated filament ionizes any helium atoms evacuated by the pump. The detection of these ions by the spectrometer then indicates a leak between the two compartments of the dilution refrigerator.</para>
+<para id="fs-id1171358169245">In conjunction with gas chromatography, mass spectrometers are used widely to identify unknown substances. While the gas chromatography portion breaks down the substance, the mass spectrometer separates the resulting ionized molecules. This technique is used with fire debris to ascertain the cause, in law enforcement to identify illegal drugs, in security to identify explosives, and in many medicinal applications.</para>
+</section>
+<section id="fs-id1171361247283">
+<title>Cyclotron</title>
+<para id="fs-id1171361306305">The <term>cyclotron</term> was developed by E.O. Lawrence to accelerate charged particles (usually protons, deuterons, or alpha-particles) to large kinetic energies. These particles are then used for nuclear-collision experiments to produce radioactive isotopes. A cyclotron is illustrated in <link target-id="CNX_UPhysics_28_07_Cyclo"/>. The particles move between two flat, semi-cylindrical metallic containers D1 and D2, called <term>dees</term>. The dees are enclosed in a larger metal container, and the apparatus is placed between the poles of an electromagnet that provides a uniform magnetic field. Air is removed from the large container so that the particles neither lose energy nor are deflected because of collisions with air molecules. The dees are connected to a high-frequency voltage source that provides an alternating electric field in the small region between them. Because the dees are made of metal, their interiors are shielded from the electric field.</para>
+<figure id="CNX_UPhysics_28_07_Cyclo">
+<media id="fs-id1171358170709" alt="The path of ions in a cyclotron is illustrated. The dees are two halves of a circle, slightly separated from each other to form a gap. A high frequency voltage source connects the dees across the gap. The particles are generated by an ion source near the center and spiral outward. The magnetic field is perpendicular to the plane of the motion.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_cyclo.jpg"/>
+</media>
+<caption>The inside of a cyclotron. A uniform magnetic field is applied as circulating protons travel through the dees, gaining energy as they traverse through the gap between the dees.</caption>
+</figure>
+<para id="fs-id1171361378789">Suppose a positively charged particle is injected into the gap between the dees when D2 is at a positive potential relative to D1. The particle is then accelerated across the gap and enters D1 after gaining kinetic energy <emphasis effect="italics">qV</emphasis>, where <emphasis effect="italics">V</emphasis> is the average potential difference the particle experiences between the dees. When the particle is inside D1, only the uniform magnetic field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> of the electromagnet acts on it, so the particle moves in a circle of radius</para>
+<equation id="fs-id1171361372719"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1171358146082">with a period of</para>
+<equation id="fs-id1171361635290"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171358066750">The period of the alternating voltage course is set at <emphasis effect="italics">T</emphasis>, so while the particle is inside D1, moving along its semicircular orbit in a time <emphasis effect="italics">T</emphasis>/2, the polarity of the dees is reversed. When the particle reenters the gap, D1 is positive with respect to D2, and the particle is again accelerated across the gap, thereby gaining a kinetic energy <emphasis effect="italics">qV</emphasis>. The particle then enters D2, circulates in a slightly larger circle, and emerges from D2 after spending a time <emphasis effect="italics">T</emphasis>/2 in this dee. This process repeats until the orbit of the particle reaches the boundary of the dees. At that point, the particle (actually, a beam of particles) is extracted from the cyclotron and used for some experimental purpose.</para>
+<para id="fs-id1171361333281">The operation of the cyclotron depends on the fact that, in a uniform magnetic field, a particle’s orbital period is independent of its radius and its kinetic energy. Consequently, the period of the alternating voltage source need only be set at the one value given by <link target-id="fs-id1171361635290"/>. With that setting, the electric field accelerates particles every time they are between the dees.</para>
+<para id="fs-id1171361435647">If the maximum orbital radius in the cyclotron is <emphasis effect="italics">R</emphasis>, then from <link target-id="fs-id1171361372719"/>, the maximum speed of a circulating particle of mass <emphasis effect="italics">m</emphasis> and charge <emphasis effect="italics">q</emphasis> is</para>
+<note id="fs-id1163713278051" class="equation-callout">
+<equation id="fs-id1171361282158"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi><m:mi>R</m:mi></m:mrow><m:mi>m</m:mi><m:mo>.</m:mo></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171361604704">Thus, its kinetic energy when ejected from the cyclotron is</para>
+<equation id="fs-id1171361658078"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171361461880">The maximum kinetic energy attainable with this type of cyclotron is approximately 30 MeV. Above this energy, relativistic effects become important, which causes the orbital period to increase with the radius. Up to energies of several hundred MeV, the relativistic effects can be compensated for by making the magnetic field gradually increase with the radius of the orbit. However, for higher energies, much more elaborate methods must be used to accelerate particles.</para>
+<para id="fs-id1171361372294">Particles are accelerated to very high energies with either linear accelerators or synchrotrons. The linear accelerator accelerates particles continuously with the electric field of an electromagnetic wave that travels down a long evacuated tube. The Stanford Linear Accelerator (SLAC) is about 3.3 km long and accelerates electrons and positrons (positively charged electrons) to energies of 50 GeV. The synchrotron is constructed so that its bending magnetic field increases with particle speed in such a way that the particles stay in an orbit of fixed radius. The world’s highest-energy synchrotron is located at CERN, which is on the Swiss-French border near Geneva. CERN has been of recent interest with the verified discovery of the Higgs Boson (see <link document="m58767">Particle Physics and Cosmology</link>). This synchrotron can accelerate beams of approximately <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:math> protons to energies of about <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> GeV.</para>
+<example id="fs-id1171361461865">
+<para id="fs-id1171361380630"><title>Accelerating Alpha-Particles in a Cyclotron</title>
+A cyclotron used to accelerate alpha-particles (<m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>6.64</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>3.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math>) has a radius of 0.50 m and a magnetic field of 1.8 T. (a) What is the period of revolution of the alpha-particles? (b) What is their maximum kinetic energy?</para>
+<para id="fs-id1167585978844"><title>Strategy</title></para>
+<list id="fs-id1171361258152" list-type="enumerated" number-style="lower-alpha">
+<item>The period of revolution is approximately the distance traveled in a circle divided by the speed. Identifying that the magnetic force applied is the centripetal force, we can derive the period formula.</item>
+<item>The kinetic energy can be found from the maximum speed of the beam, corresponding to the maximum radius within the cyclotron.</item>
+</list>
+<para id="fs-id1167585956086"><title>Solution</title></para>
+<list id="fs-id1171361186280" list-type="enumerated" number-style="lower-alpha">
+<item>By identifying the mass, charge, and magnetic field in the problem, we can calculate the period:
+<equation id="fs-id1171361483463" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.64</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−27</m:mn></m:msup><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.8</m:mn><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s.</m:mtext></m:mrow></m:math></equation></item>
+<item>By identifying the charge, magnetic field, radius of path, and the mass, we can calculate the maximum kinetic energy:
+<equation id="fs-id1171361465463" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.8</m:mn><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>6.65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>39</m:mn><m:mtext>MeV.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+</example>
+<note id="fs-id1171361233164" class="check-understanding">
+<exercise id="fs-id1171361374539">
+<problem id="fs-id1171361213917">
+<para id="fs-id1171361650192"><emphasis effect="bold">Check Your Understanding</emphasis> A cyclotron is to be designed to accelerate protons to kinetic energies of 20 MeV using a magnetic field of 2.0 T. What is the required radius of the cyclotron?</para>
+</problem>
+<solution id="fs-id1171361431421">
+<para id="fs-id1171361710079">0.32 m</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1171358086471" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1171361268776" list-type="bulleted" bullet-style="bullet">
+<item>A mass spectrometer is a device that separates ions according to their charge-to-mass ratios by first sending them through a velocity selector, then a uniform magnetic field.</item>
+<item>Cyclotrons are used to accelerate charged particles to large kinetic energies through applied electric and magnetic fields.</item>
+</list>
+</section>
+<section id="fs-id1171361422680" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1167582745303" summary="The table has two columns and thirteen rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Force on a charge in a magnetic field” and “vector F equals q vector v cross product vector B”. The second row contains “Magnitude of magnetic force” and “F equals q v B sine theta”. The third row contains “Radius of a particle’s path in a magnetic field” and “r equals numerator m v divided by denominator q B”. The fourth row contains “Period of a particle’s motion in a magnetic field” and “T equals numerator 2 pi m divided by denominator q B”. The fifth row contains “Force on a current-carrying wire in a uniform magnetic field” and “vector F equals I vector I cross product vector B”. The sixth row contains “Magnetic dipole moment” and “vector mu equals N I A unit vector n”. The seventh row contains “Torque on a current loop” and “vector tau equals vector mu cross product vector B”. The eighth row contains “Energy of a magnetic dipole” and “U equals minus vector mu dot product vector B”. The ninth row contains “Drift velocity in crossed electric and magnetic fields” and “v subscript d equals E divided by B”. The tenth row contains “Hall potential” and “V equals numerator I B l divided by denominator n e A”. The eleventh row contains “Hall potential in terms of drift velocity” and “V equals B l v subscript d”. The twelfth row contains “Charge-to-mass ratio in a mass spectrometer” and “q divided by m equals E divided by B B subscript o R”. The thirteenth row contains “Maximum speed of a particle in a cyclotron” and “v subscript max equals q B R divided by m”." class="unnumbered unstyled">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Force on a charge in a magnetic field</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>q</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnitude of magnetic force</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Radius of a particle’s path in a magnetic field</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Period of a particle’s motion in a magnetic field</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Force on a current-carrying wire in a uniform magnetic field</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mi>I</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>l</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>B</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnetic dipole moment</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>μ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>I</m:mi><m:mi>A</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Torque on a current loop</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>μ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energy of a magnetic dipole</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>μ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Drift velocity in crossed electric and magnetic fields</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hall potential</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>e</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hall potential in terms of drift velocity</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Charge-to-mass ratio in a mass spectrometer</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mi>q</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mrow><m:mi>B</m:mi><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Maximum speed of a particle in a cyclotron</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi><m:mi>R</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1171361427782" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1171361396276">
+<problem id="fs-id1171361401004">
+<para id="fs-id1171361425287">Describe the primary function of the electric field and the magnetic field in a cyclotron.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1171361666729" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1171361260039">
+<problem id="fs-id1171361380472">
+<para id="fs-id1171358163537">A physicist is designing a cyclotron to accelerate protons to one-tenth the speed of light. The magnetic field will have a strength of 1.5 T. Determine (a) the rotational period of the circulating protons and (b) the maximum radius of the protons’ orbit.</para>
+</problem>
+<solution id="fs-id1171361471236">
+<para id="fs-id1171361305782">a. <m:math><m:mrow><m:mn>4.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. 0.21 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171357939996">
+<problem id="fs-id1171361308364">
+<para id="fs-id1171357839002">The strengths of the fields in the velocity selector of a Bainbridge mass spectrometer are <emphasis effect="italics">B</emphasis> = 0.500 T and <emphasis effect="italics">E</emphasis> = <m:math><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and the strength of the magnetic field that separates the ions is <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>o</m:mi></m:msub><m:mo>=</m:mo><m:mn>0.750</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> A stream of singly charged Li ions is found to bend in a circular arc of radius 2.32 cm. What is the mass of the Li ions?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361411190">
+<problem id="fs-id1171361484419">
+<para id="fs-id1171361707177">The magnetic field in a cyclotron is 1.25 T, and the maximum orbital radius of the circulating protons is 0.40 m. (a) What is the kinetic energy of the protons when they are ejected from the cyclotron? (b) What is this energy in MeV? (c) Through what potential difference would a proton have to be accelerated to acquire this kinetic energy? (d) What is the period of the voltage source used to accelerate the protons? (e) Repeat the calculations for alpha-particles.</para>
+</problem>
+<solution id="fs-id1171357982677">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171361490021">a. <m:math><m:mrow><m:mn>1.92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>;</m:mo></m:mrow></m:math>
+b. 12 MeV;
+c. 12 MV;
+d. <m:math><m:mrow><m:mn>5.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>;</m:mo></m:mrow></m:math>
+e. <m:math><m:mrow><m:mn>1.92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>,</m:mo></m:mrow></m:math> 12 MeV, 12 V, <m:math><m:mrow><m:mn>10.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1171361413437">
+<problem id="fs-id1171361308959">
+<para id="fs-id1171361410900">A mass spectrometer is being used to separate common oxygen-16 from the much rarer oxygen-18, taken from a sample of old glacial ice. (The relative abundance of these oxygen isotopes is related to climatic temperature at the time the ice was deposited.) The ratio of the masses of these two ions is 16 to 18, the mass of oxygen-16 is <m:math><m:mrow><m:mn>2.66</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−26</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and they are singly charged and travel at <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> in a 1.20-T magnetic field. What is the separation between their paths when they hit a target after traversing a semicircle?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361694828">
+<problem id="fs-id1171361496005">
+<para id="fs-id1171357879678">(a) Triply charged uranium-235 and uranium-238 ions are being separated in a mass spectrometer. (The much rarer uranium-235 is used as reactor fuel.) The masses of the ions are <m:math><m:mrow/></m:math><m:math><m:mrow><m:mn>3.90</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>3.95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>,</m:mo></m:mrow></m:math> respectively, and they travel at <m:math><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> in a 0.250-T field. What is the separation between their paths when they hit a target after traversing a semicircle? (b) Discuss whether this distance between their paths seems to be big enough to be practical in the separation of uranium-235 from uranium-238.</para>
+</problem>
+<solution id="fs-id1171361722308">
+<para id="fs-id1171358067948">a. <m:math><m:mrow><m:mn>2.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. Yes, this distance between their paths is clearly big enough to separate the U-235 from the U-238, since it is a distance of 2.5 cm.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167582830382" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1171361209797">
+<problem id="fs-id1171358059996">
+<para id="fs-id1171361380161">Calculate the magnetic force on a hypothetical particle of charge <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> moving with a velocity of <m:math><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext>m/s</m:mtext></m:mrow></m:math> in a magnetic field of <m:math><m:mrow><m:mn>1.2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361409502">
+<problem id="fs-id1171361260718">
+<para id="fs-id1171361285972">Repeat the previous problem with a new magnetic field of <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.4</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>1.2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1171361449806">
+<para id="fs-id1171361667574"><m:math><m:mrow><m:mn>−7.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361339066">
+<problem id="fs-id1171361652516">
+<para id="fs-id1171361407997">An electron is projected into a uniform magnetic field <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>0.8</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mtext>T</m:mtext></m:mrow></m:math> with a velocity of <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the magnetic force on the electron?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171358045270">
+<problem id="fs-id1171361372044">
+<para id="fs-id1171361430598">The mass and charge of a water droplet are <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>g</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> respectively. If the droplet is given an initial horizontal velocity of <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext>m/s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> what magnetic field will keep it moving in this direction? Why must gravity be considered here?</para>
+</problem>
+<solution id="fs-id1171361614978">
+<para id="fs-id1171361613332"><m:math><m:mrow><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext>T</m:mtext><m:mo>;</m:mo></m:mrow></m:math> the magnetic and gravitational forces must balance to maintain dynamic equilibrium</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171357912934">
+<problem id="fs-id1171361691320">
+<para id="fs-id1171361351913">Four different proton velocities are given. For each case, determine the magnetic force on the proton in terms of e, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1171361336383" alt="B = B naught k hat. v 1 = v naught k hat. v 2 = v naught I hat. v 3 = v naught j hat. v 4 = v naught times (one half I hat plus one half root 3 j hat)">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_02_4protnCase.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171358064883">
+<problem id="fs-id1171361452368">
+<para id="fs-id1171358056297">An electron of kinetic energy 2000 eV passes between parallel plates that are 1.0 cm apart and kept at a potential difference of 300 V. What is the strength of the uniform magnetic field B that will allow the electron to travel undeflected through the plates? Assume E and B are perpendicular.</para>
+</problem>
+<solution id="fs-id1171358224080">
+<para id="fs-id1171361698384"><m:math><m:mrow><m:mn>1.13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−3</m:mn></m:msup><m:mtext>T</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361306607">
+<problem id="fs-id1171357835847">
+<para id="fs-id1171361472098">An alpha-particle <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>6.64</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math> <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>3.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo>)</m:mo></m:mrow></m:math> moving with a velocity <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> enters a region where <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the initial force on it?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361420460">
+<problem id="fs-id1171361493139">
+<para id="fs-id1171361371543">An electron moving with a velocity <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>3.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> enters a region where there is a uniform electric field and a uniform magnetic field. The magnetic field is given by <m:math><m:mrow><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> If the electron travels through a region without being deflected, what is the electric field?</para>
+</problem>
+<solution id="fs-id1171358026679">
+<para id="fs-id1171361667483"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.6</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>1.4</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>1.1</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361304332">
+<problem id="fs-id1171361415727">
+<para id="fs-id1171361644794">At a particular instant, an electron is traveling west to east with a kinetic energy of 10 keV. Earth’s magnetic field has a horizontal component of <m:math><m:mrow><m:mn>1.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> north and a vertical component of <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> down. (a) What is the path of the electron? (b) What is the radius of curvature of the path?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171357994279">
+<problem id="fs-id1171361459599">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171361433819">What is the (a) path of a proton and (b) the magnetic force on the proton that is traveling west to east with a kinetic energy of 10 keV in Earth’s magnetic field that has a horizontal component of 1.8 x 10<sup>–5</sup> T north and a vertical component of 5.0 x 10<sup>–5</sup> T down?</para></problem>
+<solution id="fs-id1171361282166">
+<para id="fs-id1171361280696">a. circular motion in a north, down plane; b. <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.61</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>0.58</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361554382">
+<problem id="fs-id1171361458689">
+<para id="fs-id1171361254729">What magnetic field is required in order to confine a proton moving with a speed of <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> to a circular orbit of radius 10 cm?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361471251">
+<problem id="fs-id1171361303443">
+<para id="fs-id1171361404212">An electron and a proton move with the same speed in a plane perpendicular to a uniform magnetic field. Compare the radii and periods of their orbits.</para>
+</problem>
+<solution id="fs-id1171361258484">
+<para id="fs-id1171361352404">The proton has more mass than the electron; therefore, its radius and period will be larger.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361261063">
+<problem id="fs-id1171361223055">
+<para id="fs-id1171361379896">A proton and an alpha-particle have the same kinetic energy and both move in a plane perpendicular to a uniform magnetic field. Compare the periods of their orbits.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171357996987">
+<problem id="fs-id1171358221562">
+<para id="fs-id1171357879779">A singly charged ion takes <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math> to complete eight revolutions in a uniform magnetic field of magnitude <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the mass of the ion?</para>
+</problem>
+<solution id="fs-id1171361254435">
+<para id="fs-id1171361224902"><m:math><m:mrow><m:mn>1.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361237011">
+<problem id="fs-id1171361540887">
+<para id="fs-id1171361731570">A particle moving downward at a speed of <m:math><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> enters a uniform magnetic field that is horizontal and directed from east to west. (a) If the particle is deflected initially to the north in a circular arc, is its charge positive or negative? (b) If <emphasis effect="italics">B</emphasis> = 0.25 T and the charge-to-mass ratio (<emphasis effect="italics">q/m</emphasis>) of the particle is <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>C/kg</m:mtext><m:mo>,</m:mo></m:mrow></m:math> what is the radius of the path? (c) What is the speed of the particle after it has moved in the field for <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>?</m:mo></m:mrow></m:math> for 2.0 s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361641923">
+<problem id="fs-id1171361333816">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171361444684">A proton, deuteron, and an alpha-particle are all accelerated from rest through the same potential difference. They then enter the same magnetic field, moving perpendicular to it. Compute the ratios of the radii of their circular paths. Assume that <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>m</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>α</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:msub><m:mi>m</m:mi><m:mi>p</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1171361389399">
+<para id="fs-id1171361400383">1:0.707:1</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361352126">
+<problem id="fs-id1171361645134">
+<para id="fs-id1171361489386">A singly charged ion is moving in a uniform magnetic field of <m:math><m:mrow><m:mn>7.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> completes 10 revolutions in <m:math><m:mrow><m:mn>3.47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Identify the ion.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361477681">
+<problem id="fs-id1171361477683">
+<para id="fs-id1171361409466">Two particles have the same linear momentum, but particle A has four times the charge of particle B. If both particles move in a plane perpendicular to a uniform magnetic field, what is the ratio <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mi>A</m:mi></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>R</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:math> of the radii of their circular orbits?</para>
+</problem>
+<solution id="fs-id1171361648486">
+<para id="fs-id1171361224611">1/4</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361652067">
+<problem id="fs-id1171361603999">
+<para id="fs-id1171358210276">A uniform magnetic field of magnitude <m:math><m:mi>B</m:mi></m:math> is directed parallel to the <emphasis effect="italics">z</emphasis>-axis. A proton enters the field with a velocity <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>3</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> and travels in a helical path with a radius of 5.0 cm. (a) What is the value of <m:math><m:mi>B</m:mi></m:math>? (b) What is the time required for one trip around the helix? (c) Where is the proton <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math> after entering the field?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361258474">
+<problem id="fs-id1171361464852">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171361492796">An electron moving along the +<emphasis effect="italics">x</emphasis> -axis at <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> enters a magnetic field that makes a <m:math><m:mrow><m:msup><m:mrow><m:mn>75</m:mn></m:mrow><m:mtext>o</m:mtext></m:msup></m:mrow></m:math> angle with the <emphasis effect="italics">x</emphasis>-axis of magnitude 0.20 T. Calculate the (a) pitch and (b) radius of the trajectory.</para></problem>
+<solution id="fs-id1171361435026">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171357943715">a. <m:math><m:mrow><m:mn>2.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>1.37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1171361494745">
+<problem id="fs-id1171361400488">
+<para id="fs-id1171361667593">(a) A 0.750-m-long section of cable carrying current to a car starter motor makes an angle of 60º with Earth’s <m:math><m:mrow><m:mn>5.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> field. What is the current when the wire experiences a force of <m:math><m:mrow><m:mn>7.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext><m:mo>?</m:mo></m:mrow></m:math> (b) If you run the wire between the poles of a strong horseshoe magnet, subjecting 5.00 cm of it to a 1.75-T field, what force is exerted on this segment of wire?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171358206593">
+<problem id="fs-id1171357854276">
+<para id="fs-id1171357854278">(a) What is the angle between a wire carrying an 8.00-A current and the 1.20-T field it is in if 50.0 cm of the wire experiences a magnetic force of 2.40 N? (b) What is the force on the wire if it is rotated to make an angle of 90º with the field?</para>
+</problem>
+<solution id="fs-id1171358226728">
+<para id="fs-id1171358226730">a. <m:math><m:mrow><m:mn>30.0</m:mn><m:mtext>°</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. 4.80 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361663412">
+<problem id="fs-id1171361662643">
+<para id="fs-id1171361662645">A 1.0-m-long segment of wire lies along the <emphasis effect="italics">x</emphasis>-axis and carries a current of 2.0 A in the positive <emphasis effect="italics">x</emphasis>-direction. Around the wire is the magnetic field of <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Find the magnetic force on this segment.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361652170">
+<problem id="fs-id1171361652172">
+<para id="fs-id1171361602219">A 5.0-m section of a long, straight wire carries a current of 10 A while in a uniform magnetic field of magnitude <m:math><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Calculate the magnitude of the force on the section if the angle between the field and the direction of the current is (a) 45°; (b) 90°; (c) 0°; or (d) 180°.</para>
+</problem>
+<solution id="fs-id1171361639446">
+<para id="fs-id1171361639449">a. 0.283 N; b. 0.4 N; c. 0 N; d. 0 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361357750">
+<problem id="fs-id1171361274328">
+<para id="fs-id1171361274330">An electromagnet produces a magnetic field of magnitude 1.5 T throughout a cylindrical region of radius 6.0 cm. A straight wire carrying a current of 25 A passes through the field as shown in the accompanying figure. What is the magnetic force on the wire?</para>
+<media id="fs-id1171361357200" alt="The field in the vertical gap of an electromagnet points down. The gap is 12.0 cm wide. A horizontal wire passes through the gap and carries a current of 25 A, flowing to the right.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_04_exerwire.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171361424258">
+<problem id="fs-id1171361424260">
+<para id="fs-id1171361667307">The current loop shown in the accompanying figure lies in the plane of the page, as does the magnetic field. Determine the net force and the net torque on the loop if <emphasis effect="italics">I</emphasis> = 10 A and <emphasis effect="italics">B</emphasis> = 1.5 T.</para>
+<media id="fs-id1171361346104" alt="The current loop forms a parallelogram: the top and bottom are horizontal and 10 cm long, the sides are tilted at an angle of 60 degrees up from the +x direction and are 8.0 cm long. A current of 20 A flows counterclockwise. The magnetic field is up.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_05_recttorque.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171361385971">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171361385973">0 N and 0.012 Nm</para></solution>
+</exercise>
+<exercise id="fs-id1171361314191">
+<problem id="fs-id1171361426555">
+<para id="fs-id1171361426557">A circular coil of radius 5.0 cm is wound with five turns and carries a current of 5.0 A. If the coil is placed in a uniform magnetic field of strength 5.0 T, what is the maximum torque on it?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171357997039">
+<problem id="fs-id1171361308690">
+<para id="fs-id1171358225964">A circular coil of wire of radius 5.0 cm has 20 turns and carries a current of 2.0 A. The coil lies in a magnetic field of magnitude 0.50 T that is directed parallel to the plane of the coil. (a) What is the magnetic dipole moment of the coil? (b) What is the torque on the coil?</para>
+</problem>
+<solution id="fs-id1171361447536">
+<para id="fs-id1171361447538">a. <m:math><m:mrow><m:mn>0.31</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>Am</m:mtext><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> b. 0.16 Nm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361308469">
+<problem id="fs-id1171361707024">
+<para id="fs-id1171361707026">A current-carrying coil in a magnetic field experiences a torque that is 75% of the maximum possible torque. What is the angle between the magnetic field and the normal to the plane of the coil?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361429819">
+<problem id="fs-id1171361429821">
+<para id="fs-id1171361642835">A 4.0-cm by 6.0-cm rectangular current loop carries a current of 10 A. What is the magnetic dipole moment of the loop?</para>
+</problem>
+<solution id="fs-id1171357878142">
+<para id="fs-id1171357878144"><m:math><m:mrow><m:mn>0.024</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>Am</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171357994484">
+<problem id="fs-id1171361663631">
+<para id="fs-id1171361663633">A circular coil with 200 turns has a radius of 2.0 cm. (a) What current through the coil results in a magnetic dipole moment of 3.0 Am<sup>2</sup>? (b) What is the maximum torque that the coil will experience in a uniform field of strength <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>?</m:mo></m:mrow></m:math> (c) If the angle between <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">B</emphasis> is 45°, what is the magnitude of the torque on the coil? (d) What is the magnetic potential energy of coil for this orientation?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361254764">
+<problem id="fs-id1171361254766">
+<para id="fs-id1171361254768">The current through a circular wire loop of radius 10 cm is 5.0 A. (a) Calculate the magnetic dipole moment of the loop. (b) What is the torque on the loop if it is in a uniform 0.20-T magnetic field such that <m:math><m:mi>μ</m:mi></m:math> and B are directed at <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to each other? (c) For this position, what is the potential energy of the dipole?</para>
+</problem>
+<solution id="fs-id1171361407529">
+<para id="fs-id1171361407531">a. <m:math><m:mrow><m:mn>0.16</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>Am</m:mtext><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> b. 0.016 Nm; c. 0.028 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361651905">
+<problem id="fs-id1171361651907">
+<para id="fs-id1171361488086">A wire of length 1.0 m is wound into a single-turn planar loop. The loop carries a current of 5.0 A, and it is placed in a uniform magnetic field of strength 0.25 T. (a) What is the maximum torque that the loop will experience if it is square? (b) If it is circular? (c) At what angle relative to <emphasis effect="italics">B</emphasis> would the normal to the circular coil have to be oriented so that the torque on it would be the same as the maximum torque on the square coil?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361374215">
+<problem id="fs-id1171361374217">
+<para id="fs-id1171361374220">Consider an electron rotating in a circular orbit of radius r. Show that the magnitudes of the magnetic dipole moment μ and the angular momentum <emphasis effect="italics">L</emphasis> of the electron are related by:</para>
+<equation id="fs-id1171358212247" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>μ</m:mi><m:mi>L</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>e</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</problem>
+<solution id="fs-id1163713088788">
+<para id="fs-id1163713088790">(Proof)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361396268">
+<problem id="fs-id1171361396270">
+<para id="fs-id1171361396272">The Hall effect is to be used to find the sign of charge carriers in a semiconductor sample. The probe is placed between the poles of a magnet so that magnetic field is pointed up. A current is passed through a rectangular sample placed horizontally. As current is passed through the sample in the east direction, the north side of the sample is found to be at a higher potential than the south side. Decide if the number density of charge carriers is positively or negatively charged.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361511611">
+<problem id="fs-id1171361511613">
+<para id="fs-id1171361258683">The density of charge carriers for copper is <m:math><m:mrow><m:mn>8.47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup></m:mrow></m:math> electrons per cubic meter. What will be the Hall voltage reading from a probe made up of <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>2 cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>1 cm</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>L</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> copper plate when a current of 1.5 A is passed through it in a magnetic field of 2.5 T perpendicular to the <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>2 cm</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1171361237898">
+<para id="fs-id1171361237900"><m:math><m:mrow><m:mn>4.65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361258579">
+<problem id="fs-id1171361258582">
+<para id="fs-id1171361285398">The Hall effect is to be used to find the density of charge carriers in an unknown material. A Hall voltage 40 <m:math><m:mrow><m:mtext>μV</m:mtext></m:mrow></m:math> for 3-A current is observed in a 3-T magnetic field for a rectangular sample with length 2 cm, width 1.5 cm, and height 0.4 cm. Determine the density of the charge carriers.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361430124">
+<problem id="fs-id1171361430126">
+<para id="fs-id1171361386142">Show that the Hall voltage across wires made of the same material, carrying identical currents, and subjected to the same magnetic field is inversely proportional to their diameters. (Hint: Consider how drift velocity depends on wire diameter.)</para>
+</problem>
+<solution id="fs-id1171361325633">
+<para id="fs-id1171361325635">Since <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> where the width is twice the radius, <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>r</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>A</m:mi><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>d</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> so <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mtext>I</m:mtext><m:mrow><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>I</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>π</m:mi><m:mi> </m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>∝</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mo>∝</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>d</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+The Hall voltage is inversely proportional to the diameter of the wire.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361254790">
+<problem id="fs-id1171361254792">
+<para id="fs-id1171361427568">A velocity selector in a mass spectrometer uses a 0.100-T magnetic field. (a) What electric field strength is needed to select a speed of <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext><m:mo>?</m:mo></m:mrow></m:math> (b) What is the voltage between the plates if they are separated by 1.00 cm?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361422338">
+<problem id="fs-id1171361422340">
+<para id="fs-id1171357854709">Find the radius of curvature of the path of a 25.0-MeV proton moving perpendicularly to the 1.20-T field of a cyclotron.</para>
+</problem>
+<solution id="fs-id1171357854714">
+<para id="fs-id1171361468088"><m:math><m:mrow><m:mn>6.92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>;</m:mo></m:mrow></m:math> 0.602 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361254445">
+<problem id="fs-id1171361254448">
+<para id="fs-id1171361259234"><emphasis effect="bold">Unreasonable results</emphasis> To construct a non-mechanical water meter, a 0.500-T magnetic field is placed across the supply water pipe to a home and the Hall voltage is recorded. (a) Find the flow rate through a 3.00-cm-diameter pipe if the Hall voltage is 60.0 mV. (b) What would the Hall voltage be for the same flow rate through a 10.0-cm-diameter pipe with the same field applied?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171358210451">
+<problem id="fs-id1171358210453">
+<para id="fs-id1171358210455"><emphasis effect="bold">Unreasonable results</emphasis> A charged particle having mass <m:math><m:mrow><m:mn>6.64</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:math> (that of a helium atom) moving at <m:math><m:mrow><m:mn>8.70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> perpendicular to a 1.50-T magnetic field travels in a circular path of radius 16.0 mm. (a) What is the charge of the particle? (b) What is unreasonable about this result? (c) Which assumptions are responsible?</para>
+</problem>
+<solution id="fs-id1171361257916">
+<para id="fs-id1171361257918">a. <m:math><m:mrow><m:mn>2.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. not an integer multiple of e; c. need to assume all charges have multiples of e, could be other forces not accounted for</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361540249">
+<problem id="fs-id1171361540251">
+<para id="fs-id1171361540254"><emphasis effect="bold">Unreasonable results</emphasis> An inventor wants to generate 120-V power by moving a 1.00-m-long wire perpendicular to Earth’s <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math> field. (a) Find the speed with which the wire must move. (b) What is unreasonable about this result? (c) Which assumption is responsible?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361680743">
+<problem id="fs-id1171361680745">
+<para id="fs-id1171358052265"><emphasis effect="bold">Unreasonable results</emphasis> Frustrated by the small Hall voltage obtained in blood flow measurements, a medical physicist decides to increase the applied magnetic field strength to get a 0.500-V output for blood moving at 30.0 cm/s in a 1.50-cm-diameter vessel. (a) What magnetic field strength is needed? (b) What is unreasonable about this result? (c) Which premise is responsible?</para>
+</problem>
+<solution id="fs-id1171361431585">
+<para id="fs-id1171361431587">a. B = 5 T; b. very large magnet; c. applying such a large voltage</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1171361260950" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1171361427079">
+<problem id="fs-id1171361427081">
+<para id="fs-id1171361427083">A particle of charge +<emphasis effect="italics">q</emphasis> and mass <emphasis effect="italics">m</emphasis> moves with velocity <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> pointed in the +<emphasis effect="italics">y</emphasis>-direction as it crosses the <emphasis effect="italics">x</emphasis>-axis at <emphasis effect="italics">x</emphasis> = <emphasis effect="italics">R</emphasis> at a particular time. There is a negative charge –<emphasis effect="italics">Q</emphasis> fixed at the origin, and there exists a uniform magnetic field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> pointed in the +<emphasis effect="italics">z</emphasis>-direction. It is found that the particle describes a circle of radius <emphasis effect="italics">R</emphasis> about –<emphasis effect="italics">Q</emphasis>. Find <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> in terms of the given quantities.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361646329">
+<problem id="fs-id1171361646331">
+<para id="fs-id1171361402585">A proton of speed <emphasis effect="italics">v</emphasis> = <m:math><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> enters a region of uniform magnetic field of <emphasis effect="italics">B</emphasis> = 0.5 T at an angle of <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to the magnetic field. In the region of magnetic field proton describes a helical path with radius <emphasis effect="italics">R</emphasis> and pitch <emphasis effect="italics">p</emphasis> (distance between loops). Find <emphasis effect="italics">R</emphasis> and <emphasis effect="italics">p</emphasis>.</para>
+</problem>
+<solution id="fs-id1171361408787">
+<para id="fs-id1171361408789"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mi>v</m:mi><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mi>q</m:mi><m:mi>B</m:mi><m:mo>;</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>e</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>v</m:mi><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361726426">
+<problem id="fs-id1171361726428">
+<para id="fs-id1171361726430">A particle’s path is bent when it passes through a region of non-zero magnetic field although its speed remains unchanged. This is very useful for “beam steering” in particle accelerators. Consider a proton of speed <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> entering a region of uniform magnetic field 0.2 T over a 5-cm-wide region. Magnetic field is perpendicular to the velocity of the particle. By how much angle will the path of the proton be bent? (Hint: The particle comes out tangent to a circle.)</para>
+<media id="fs-id1171358226174" alt="The particle enters the region with field from the left with a horizontal velocity to the right. It exits at an angle theta above the horizontal (right) direction. The region with field is 5 cm wide.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_challenge3.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171361260055">
+<problem id="fs-id1171361260057">
+<para id="fs-id1171361260059">In a region a non-uniform magnetic field exists such that <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msub><m:mi>B</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mi>n</m:mi><m:mi>d</m:mi><m:mspace width="0.2em"/><m:msub><m:mi>B</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">a</emphasis> is a constant. At some time <emphasis effect="italics">t</emphasis>, a wire of length <emphasis effect="italics">L</emphasis> is carrying a current <emphasis effect="italics">I</emphasis> is located along the <emphasis effect="italics">x</emphasis>-axis from origin to <emphasis effect="italics">x</emphasis> = <emphasis effect="italics">L</emphasis>. Find the magnetic force on the wire at this instant in time.</para>
+</problem>
+<solution id="fs-id1171361694843">
+<para id="fs-id1171361468450"><m:math><m:mrow><m:mi>I</m:mi><m:mi>a</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361261560">
+<problem id="fs-id1171361261562">
+<para id="fs-id1171361259162">A copper rod of mass <emphasis effect="italics">m</emphasis> and length <emphasis effect="italics">L</emphasis> is hung from the ceiling using two springs of spring constant <emphasis effect="italics">k</emphasis>. A uniform magnetic field of magnitude <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> pointing perpendicular to the rod and spring (coming into the page in the figure) exists in a region of space covering a length <emphasis effect="italics">w</emphasis> of the copper rod. The ends of the rod are then connected by flexible copper wire across the terminals of a battery of voltage <emphasis effect="italics">V</emphasis>. Determine the change in the length of the springs when <emphasis effect="italics">a</emphasis> current <emphasis effect="italics">I</emphasis> runs through the copper rod in the direction shown in figure. (Ignore any force by the flexible wire.)</para>
+<media id="fs-id1171361248351" alt="An illustration of the problem. The copper rod is horizontal and hangs from springs at either end. A current I flows to the right through the rod. A field B points into the page in a region width w.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_challenge5.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171361421930">
+<problem id="fs-id1171361421932">
+<para id="fs-id1171361421935">The accompanied figure shows an arrangement for measuring mass of ions by an instrument called the mass spectrometer. An ion of mass <emphasis effect="italics">m</emphasis> and charge +<emphasis effect="italics">q</emphasis> is produced essentially at rest in source <emphasis effect="italics">S</emphasis>, a chamber in which a gas discharge is taking place. The ion is accelerated by a potential difference <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>acc</m:mtext></m:mrow></m:msub></m:mrow></m:math> and allowed to enter a region of constant magnetic field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> In the uniform magnetic field region, the ion moves in a semicircular path striking a photographic plate at a distance <emphasis effect="italics">x</emphasis> from the entry point. Derive a formula for mass m in terms of <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> <emphasis effect="italics">q</emphasis>, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>acc</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> and <emphasis effect="italics">x</emphasis>.</para>
+<media id="fs-id1171361260095" alt="A schematic of the mass spectrometer. The source is at the bottom. Particles are accelerated by the potential difference V acc, then enter a region in which there is only a uniform magnetic field B naught. In that region, the particles follow a clockwise semicircular trajectory of diameter x.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_challenge6.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171361419720">
+<para id="fs-id1171361419722"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>q</m:mi><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>acc</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361438650">
+<problem id="fs-id1171361438652">
+<para id="fs-id1171361438654">A wire is made into a circular shape of radius <emphasis effect="italics">R</emphasis> and pivoted along a central support. The two ends of the wire are touching a brush that is connected to a dc power source. The structure is between the poles of a magnet such that we can assume there is a uniform magnetic field on the wire. In terms of a coordinate system with origin at the center of the ring, magnetic field is <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>B</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and the ring rotates about the <emphasis effect="italics">z</emphasis>-axis. Find the torque on the ring when it is not in the <emphasis effect="italics">xz</emphasis>-plane.</para>
+<media id="fs-id1171361438492" alt="A circular, vertical loop with current flowing in it is between the poles of a magnet with a horizontal gap.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_challenge7.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171361420475">
+<problem id="fs-id1171361420477">
+<para id="fs-id1171361389271">A long-rigid wire lies along the <emphasis effect="italics">x</emphasis>-axis and carries a current of 2.5 A in the positive <emphasis effect="italics">x</emphasis>-direction. Around the wire is the magnetic field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>5.0</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> with <emphasis effect="italics">x</emphasis> in meters and <emphasis effect="italics">B</emphasis> in millitesla. Calculate the magnetic force on the segment of wire between <emphasis effect="italics">x</emphasis> = 2.0 m and <emphasis effect="italics">x</emphasis> = 4.0 m.</para>
+</problem>
+<solution id="fs-id1171361460280">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1171361460282">0.23 N</para></solution>
+</exercise>
+<exercise id="fs-id1171361439092">
+<problem id="fs-id1171361439094">
+<para id="fs-id1171361439096">A circular loop of wire of area 10 cm<sup>2</sup> carries a current of 25 A. At a particular instant, the loop lies in the <emphasis effect="italics">xy</emphasis>-plane and is subjected to a magnetic field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>6.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>8.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> As viewed from above the <emphasis effect="italics">xy</emphasis>-plane, the current is circulating clockwise. (a) What is the magnetic dipole moment of the current loop? (b) At this instant, what is the magnetic torque on the loop?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171357887811">
+<term>cyclotron</term>
+<meaning id="fs-id1171357887816">device used to accelerate charged particles to large kinetic energies</meaning>
+</definition>
+<definition id="fs-id1171361255504">
+<term>dees</term>
+<meaning id="fs-id1171361248385">large metal containers used in cyclotrons that serve contain a stream of charged particles as their speed is increased</meaning>
+</definition>
+<definition id="fs-id1171361248391">
+<term>mass spectrometer</term>
+<meaning id="fs-id1171361259986">device that separates ions according to their charge-to-mass ratios</meaning>
+</definition>
+</glossary>
+</document>

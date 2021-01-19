@@ -1,0 +1,186 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Mutual Inductance</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58747</md:content-id>
+  <md:title>Mutual Inductance</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Correlate two nearby circuits that carry time-varying currents with the emf induced in each circuit</item>
+<item>Describe examples in which mutual inductance may or may not be desirable</item>
+</list></md:abstract>
+  <md:uuid>1fc4ba74-d518-4c78-a98b-61dfe442867b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131102547"><term>Inductance</term> is the property of a device that tells us how effectively it induces an emf in another device. In other words, it is a physical quantity that expresses the effectiveness of a given device.</para>
+<para id="fs-id1167134822276">When two circuits carrying time-varying currents are close to one another, the magnetic flux through each circuit varies because of the changing current <emphasis effect="italics">I</emphasis> in the other circuit. Consequently, an emf is induced in each circuit by the changing current in the other. This type of emf is therefore called a <emphasis effect="italics">mutually induced emf</emphasis>, and the phenomenon that occurs is known as <term>mutual inductance (<emphasis effect="italics">M</emphasis>)</term>. As an example, let’s consider two tightly wound coils (<link target-id="CNX_UPhysics_31_01_2wires"/>). Coils 1 and 2 have <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> turns and carry currents <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectively. The flux through a single turn of coil 2 produced by the magnetic field of the current in coil 1 is <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> whereas the flux through a single turn of coil 1 due to the magnetic field of <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_31_01_2wires">
+<media id="fs-id1167131142220" alt="Figure shows the cross sections of two coils. In each one, the cross sections of the wire of the coil are shown as two circles, one at the top and the other at the bottom. Dots in the upper circles and crosses in the lower ones indicate the direction of flow of current. Coil 1 has field lines labeled B1 passing from between the two circles, going right. Some of these pass through coil 2, which is smaller than coil 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_01_2wires.jpg"/>
+</media>
+<caption>Some of the magnetic field lines produced by the current in coil 1 pass through coil 2.</caption>
+</figure>
+<para id="fs-id1167131513701">The mutual inductance <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow></m:math> of coil 2 with respect to coil 1 is the ratio of the flux through the <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> turns of coil 2 produced by the magnetic field of the current in coil 1, divided by that current, that is,</para>
+<equation id="fs-id1167131173130"><m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131488251">Similarly, the mutual inductance of coil 1 with respect to coil 2 is</para>
+<equation id="fs-id1167134666031"><m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167130056939">Like capacitance, mutual inductance is a geometric quantity. It depends on the shapes and relative positions of the two coils, and it is independent of the currents in the coils. The SI unit for mutual inductance <emphasis effect="italics">M</emphasis> is called the <term>henry (H)</term> in honor of Joseph <term class="no-emphasis">Henry</term> (1799–1878), an American scientist who discovered induced emf independently of Faraday. Thus, we have <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>·</m:mo><m:mtext>s/A</m:mtext></m:mrow></m:math>. From <link target-id="fs-id1167131173130"/> and <link target-id="fs-id1167134666031"/>, we can show that <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>M</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> so we usually drop the subscripts associated with mutual inductance and write</para>
+<note id="fs-id1167132499552" class="equation-callout">
+<equation id="fs-id1167134883251"><label/><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131162662">The emf developed in either coil is found by combining <term class="no-emphasis">Faraday’s law</term> and the definition of mutual inductance. Since <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow></m:math> is the total flux through coil 2 due to <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, we obtain</para>
+<equation id="fs-id1167131582770"><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167134586219">where we have used the fact that <emphasis effect="italics">M</emphasis> is a time-independent constant because the geometry is time-independent. Similarly, we have</para>
+<note id="fs-id1167133441624" class="equation-callout">
+<equation id="fs-id1167134958975"><label/><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134793676">In <link target-id="fs-id1167134958975"/>, we can see the significance of the earlier description of mutual inductance (<emphasis effect="italics">M</emphasis>) as a geometric quantity. The value of <emphasis effect="italics">M</emphasis> neatly encapsulates the physical properties of circuit elements and allows us to separate the physical layout of the circuit from the dynamic quantities, such as the emf and the current. <link target-id="fs-id1167134958975"/> defines the mutual inductance in terms of properties in the circuit, whereas the previous definition of mutual inductance in <link target-id="fs-id1167131173130"/> is defined in terms of the magnetic flux experienced, regardless of circuit elements. You should be careful when using <link target-id="fs-id1167131582770"/> and <link target-id="fs-id1167134958975"/> because <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>ε</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> do not necessarily represent the total emfs in the respective coils. Each coil can also have an emf induced in it because of its <emphasis effect="italics">self-inductance</emphasis> (self-inductance will be discussed in more detail in a later section).</para>
+<para id="fs-id1167131402921">A large mutual inductance <emphasis effect="italics">M</emphasis> may or may not be desirable. We want a transformer to have a large mutual inductance. But an appliance, such as an electric clothes dryer, can induce a dangerous emf on its metal case if the mutual inductance between its coils and the case is large. One way to reduce mutual inductance is to counter-wind coils to cancel the magnetic field produced (<link target-id="CNX_UPhysics_31_01_HeatCoils"/>).</para>
+<figure id="CNX_UPhysics_31_01_HeatCoils">
+<media id="fs-id1167131181886" alt="Figure a shows a heating coil within a metal case of a clothes dryer. Figure b shows the same coil, enlarged. The coil is wound on a cylinder in such a way that one wire is wound all the way to the other side, twisted around and wound all the way back. Thus, two adjacent windings have current flowing in opposite directions.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_01_HeatCoils.jpg"/>
+</media>
+<caption>The heating coils of an electric clothes dryer can be counter-wound so that their magnetic fields cancel one another, greatly reducing the mutual inductance with the case of the dryer.</caption>
+</figure>
+<para id="fs-id1167131514888"><term class="no-emphasis">Digital signal processing</term> is another example in which mutual inductance is reduced by counter-winding coils. The rapid on/off emf representing 1s and 0s in a digital circuit creates a complex time-dependent magnetic field. An emf can be generated in neighboring conductors. If that conductor is also carrying a digital signal, the induced emf may be large enough to switch 1s and 0s, with consequences ranging from inconvenient to disastrous.</para>
+<example id="fs-id1167131445111">
+<para id="fs-id1167131392659"><title>Mutual Inductance</title>
+<link target-id="CNX_UPhysics_31_01_MutualL"/> shows a coil of <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> turns and radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> surrounding a long solenoid of length <m:math><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> turns. (a) What is the mutual inductance of the two coils? (b) If <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>turns</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>turns</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3.10</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>75.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, and the current in the solenoid is changing at a rate of 200 A/s, what is the emf induced in the surrounding coil?</para>
+<figure id="CNX_UPhysics_31_01_MutualL">
+<media id="fs-id1167131392775" alt="Figure shows a solenoid, in the form of a long coil with a small diameter, that is concentrically arranged with another, bigger coil. The radius of the solenoid is R1 and that of the coil is R2. The length of the solenoid is l1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_01_MutualL.jpg"/>
+</media>
+<caption>A solenoid surrounded by a coil.</caption>
+</figure>
+<para id="fs-id1167131261131"><title>Strategy</title>
+There is no magnetic field outside the solenoid, and the field inside has magnitude <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and is directed parallel to the solenoid’s axis. We can use this magnetic field to find the magnetic flux through the surrounding coil and then use this flux to calculate the mutual inductance for part (a), using <link target-id="fs-id1167134883251"/>. We solve part (b) by calculating the mutual inductance from the given quantities and using <link target-id="fs-id1167131582770"/> to calculate the induced emf.</para>
+<para id="fs-id1167133570529"><title>Solution</title></para>
+<list id="fs-id1167131524949" list-type="enumerated" number-style="lower-alpha">
+<item>The magnetic flux <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow></m:math> through the surrounding coil is
+<equation id="fs-id1167134867213" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Now from <link target-id="fs-id1167134883251"/>, the mutual inductance is
+<equation id="fs-id1167131395894" class="unnumbered"><label/><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Using the previous expression and the given values, the mutual inductance is
+<equation id="fs-id1167131457079" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>M</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>500</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.0310</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>0.750</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>2.53</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+Thus, from <link target-id="fs-id1167131582770"/>, the emf induced in the surrounding coil is
+<equation id="fs-id1167131427316" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>ε</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2.53</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>A/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>−5.06</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1167134943842"><title>Significance</title>
+Notice that <emphasis effect="italics">M</emphasis> in part (a) is independent of the radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> of the surrounding coil because the solenoid’s magnetic field is confined to its interior. In principle, we can also calculate <emphasis effect="italics">M</emphasis> by finding the magnetic flux through the solenoid produced by the current in the surrounding coil. This approach is much more difficult because <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:math> is so complicated. However, since <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>M</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> we do know the result of this calculation.</para>
+</example>
+<note id="fs-id1167134562544" class="check-understanding">
+<exercise id="fs-id1167134951191">
+<problem id="fs-id1167130208713">
+<para id="fs-id1167131112772"><emphasis effect="bold">Check Your Understanding</emphasis> A current <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">(</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> flows through the solenoid of part (b) of <link target-id="fs-id1167131445111"/>. What is the maximum emf induced in the surrounding coil?</para>
+</problem>
+<solution id="fs-id1167131098483">
+<para id="fs-id1167131524835"><m:math><m:mrow><m:mn>4.77</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167134869174" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167134668439" list-type="bulleted" bullet-style="bullet">
+<item>Inductance is the property of a device that expresses how effectively it induces an emf in another device.</item>
+<item>Mutual inductance is the effect of two devices inducing emfs in each other.</item>
+<item>A change in current <m:math><m:mrow><m:msub><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mn>1</m:mn></m:msub><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math> in one circuit induces an emf <m:math><m:mrow><m:mo>(</m:mo><m:msub><m:mi>ε</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> in the second:
+<equation id="fs-id1167131433204" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+where <emphasis effect="italics">M</emphasis> is defined to be the mutual inductance between the two circuits and the minus sign is due to Lenz’s law.</item>
+<item>Symmetrically, a change in current <m:math><m:mrow><m:msub><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mn>2</m:mn></m:msub><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math> through the second circuit induces an emf <m:math><m:mrow><m:mo>(</m:mo><m:msub><m:mi>ε</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> in the first: 
+<equation id="fs-id1167131460527" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+where <emphasis effect="italics">M</emphasis> is the same mutual inductance as in the reverse process.</item>
+</list>
+</section>
+<section id="fs-id1167131218034" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167130304073">
+<problem id="fs-id1167131180112">
+<para id="fs-id1167134925832">Show that <m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>ε</m:mi><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> which are both expressions for self-inductance, have the same units.</para>
+</problem>
+<solution id="fs-id1167134664949">
+<para id="fs-id1167129980786"><m:math><m:mrow><m:mfrac><m:mrow><m:mtext>Wb</m:mtext></m:mrow><m:mtext>A</m:mtext></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>T</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>A</m:mtext></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>V</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow><m:mtext>A</m:mtext></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mtext>V</m:mtext><m:mrow><m:mtext>A/s</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131220991">
+<problem id="fs-id1167131199871">
+<para id="fs-id1167131516088">A 10-H inductor carries a current of 20 A. Describe how a 50-V emf can be induced across it.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131459938">
+<problem id="fs-id1167134684663">
+<para id="fs-id1167131080091">The ignition circuit of an automobile is powered by a 12-V battery. How are we able to generate large voltages with this power source?</para>
+</problem>
+<solution id="fs-id1167131459891">
+<para id="fs-id1167134879512">The induced current from the 12-V battery goes through an inductor, generating a large voltage.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134780610">
+<problem id="fs-id1167129962561">
+<para id="fs-id1167134533591">When the current through a large inductor is interrupted with a switch, an arc appears across the open terminals of the switch. Explain.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167134528568" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167134492663">
+<problem id="fs-id1167131263545">
+<para id="fs-id1167131267288">When the current in one coil changes at a rate of 5.6 A/s, an emf of <m:math><m:mrow><m:mn>6.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> is induced in a second, nearby coil. What is the mutual inductance of the two coils?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134964077">
+<problem id="fs-id1167134486356">
+<para id="fs-id1167134941083">An emf of <m:math><m:mrow><m:mn>9.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> is induced in a coil while the current in a nearby coil is decreasing at a rate of 2.7 A/s. What is the mutual inductance of the two coils?</para>
+</problem>
+<solution id="fs-id1167134916934">
+<para id="fs-id1167131346579"><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>3.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131581569">
+<problem id="fs-id1167131126766">
+<para id="fs-id1167131362275">Two coils close to each other have a mutual inductance of 32 mH. If the current in one coil decays according to <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math>, where <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> what is the emf induced in the second coil immediately after the current starts to decay? At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134873988">
+<problem id="fs-id1167131581364">
+<para id="fs-id1167131363127">A coil of 40 turns is wrapped around a long solenoid of cross-sectional area <m:math><m:mrow><m:mn>7.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> The solenoid is 0.50 m long and has 500 turns. (a) What is the mutual inductance of this system? (b) The outer coil is replaced by a coil of 40 turns whose radius is three times that of the solenoid. What is the mutual inductance of this configuration?</para>
+</problem>
+<solution id="fs-id1167131167270">
+<para id="fs-id1167131269230">a. <m:math><m:mrow><m:mn>3.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>3.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131606004">
+<problem id="fs-id1167131606006">
+<para id="fs-id1167131590750">A 600-turn solenoid is 0.55 m long and 4.2 cm in diameter. Inside the solenoid, a small <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> single-turn rectangular coil is fixed in place with its face perpendicular to the long axis of the solenoid. What is the mutual inductance of this system?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131168748">
+<problem id="fs-id1167134873530">
+<para id="fs-id1167131365430">A toroidal coil has a mean radius of 16 cm and a cross-sectional area of <m:math><m:mrow><m:msup><m:mrow><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; it is wound uniformly with 1000 turns. A second toroidal coil of 750 turns is wound uniformly over the first coil. Ignoring the variation of the magnetic field within a toroid, determine the mutual inductance of the two coils.</para>
+</problem>
+<solution id="fs-id1167131591561">
+<para id="fs-id1167131502891"><m:math><m:msub><m:mi>M</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134927814">
+<problem id="fs-id1167134927816">
+<para id="fs-id1167131534423">A solenoid of <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> turns has length <m:math><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and a second smaller solenoid of <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> turns has length <m:math><m:mrow><m:msub><m:mi>l</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> and radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. The smaller solenoid is placed completely inside the larger solenoid so that their long axes coincide. What is the mutual inductance of the two solenoids?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134468806">
+<term>henry (H)</term>
+<meaning id="fs-id1167134991822">unit of inductance, <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>; it is also expressed as a volt second per ampere</meaning>
+</definition>
+<definition id="fs-id1167134588330">
+<term>inductance</term>
+<meaning id="fs-id1167130027871">property of a device that tells how effectively it induces an emf in another device</meaning>
+</definition>
+<definition id="fs-id1167131237741">
+<term>mutual inductance</term>
+<meaning id="fs-id1167131363298">geometric quantity that expresses how effective two devices are at inducing emfs in one another</meaning>
+</definition>
+</glossary>
+</document>

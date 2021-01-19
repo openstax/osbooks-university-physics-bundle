@@ -1,0 +1,317 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Moment of Inertia and Rotational Kinetic Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58329</md:content-id>
+  <md:title>Moment of Inertia and Rotational Kinetic Energy</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the differences between rotational and translational kinetic energy</item>
+<item>Define the physical concept of moment of inertia in terms of the mass distribution from the rotational axis</item>
+<item>Explain how the moment of inertia of rigid bodies affects their rotational kinetic energy</item>
+<item>Use conservation of mechanical energy to analyze systems undergoing both rotation and translation</item>
+<item>Calculate the angular velocity of a rotating system when there are energy losses due to nonconservative forces</item>
+</list></md:abstract>
+  <md:uuid>1b0f645a-e293-4925-9c9b-1dfc7a29ab03</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167133803097">So far in this chapter, we have been working with rotational kinematics: the description of motion for a rotating rigid body with a fixed axis of rotation. In this section, we define two new quantities that are helpful for analyzing properties of rotating objects: moment of inertia and rotational kinetic energy. With these properties defined, we will have two important tools we need for analyzing rotational dynamics.</para>
+<section id="fs-id1167133665168">
+<title>Rotational Kinetic Energy</title>
+<para id="fs-id1167133317220">Any moving object has kinetic energy. We know how to calculate this for a body undergoing translational motion, but how about for a rigid body undergoing rotation? This might seem complicated because each point on the rigid body has a different velocity. However, we can make use of angular velocity—which is the same for the entire rigid body—to express the kinetic energy for a rotating object. <link target-id="CNX_UPhysics_10_04_Motor"/> shows an example of a very energetic rotating body: an electric grindstone propelled by a motor. Sparks are flying, and noise and vibration are generated as the grindstone does its work. This system has considerable energy, some of it in the form of heat, light, sound, and vibration. However, most of this energy is in the form of <term>rotational kinetic energy</term>.</para>
+<figure id="CNX_UPhysics_10_04_Motor">
+<media id="fs-id1167133455977" alt="Figure is a photo of a man sharpening a piece of metal on the rotating grindstone. Sparks from the grindstone are clearly evident.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_Motor.jpg"/>
+</media>
+<caption>The rotational kinetic energy of the grindstone is converted to heat, light, sound, and vibration. (credit: Zachary David Bell, US Navy)</caption>
+</figure>
+<para id="fs-id1167133826446">Energy in rotational motion is not a new form of energy; rather, it is the energy associated with rotational motion, the same as kinetic energy in translational motion. However, because kinetic energy is given by <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, and velocity is a quantity that is different for every point on a rotating body about an axis, it makes sense to find a way to write kinetic energy in terms of the variable <m:math><m:mrow><m:mi>ω</m:mi></m:mrow></m:math>, which is the same for all points on a rigid rotating body. For a single particle rotating around a fixed axis, this is straightforward to calculate. We can relate the angular velocity to the magnitude of the translational velocity using the relation <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub><m:mo>=</m:mo><m:mi>ω</m:mi><m:mi>r</m:mi></m:mrow></m:math>, where <emphasis effect="italics">r</emphasis> is the distance of the particle from the axis of rotation and <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow></m:math> is its tangential speed. Substituting into the equation for kinetic energy, we find</para>
+<equation id="fs-id1167133524308" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mtext>t</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133862890">In the case of a rigid rotating body, we can divide up any body into a large number of smaller masses, each with a mass <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math> and distance to the axis of rotation <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math>, such that the total mass of the body is equal to the sum of the individual masses: <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle></m:mrow></m:math>. Each smaller mass has tangential speed <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math>, where we have dropped the subscript <emphasis effect="italics">t</emphasis> for the moment. The total kinetic energy of the rigid rotating body is</para>
+<equation id="fs-id1167133358611" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>v</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>r</m:mi><m:mi>j</m:mi></m:msub><m:msub><m:mi>ω</m:mi><m:mi>j</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1167133358290">and since <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>j</m:mi></m:msub><m:mo>=</m:mo><m:mi>ω</m:mi></m:mrow></m:math> for all masses,</para>
+<note id="fs-id1167133567128" class="equation-callout">
+<equation id="fs-id1167133826374"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133319266">The units of <link target-id="fs-id1167133826374"/> are joules (J). The equation in this form is complete, but awkward; we need to find a way to generalize it.</para>
+</section>
+<section id="fs-id1167133345938">
+<title>Moment of Inertia</title>
+<para id="fs-id1167133530188">If we compare <link target-id="fs-id1167133826374"/> to the way we wrote kinetic energy in <link document="m58307">Work and Kinetic Energy</link>, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, this suggests we have a new rotational variable to add to our list of our relations between rotational and translational variables. The quantity <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow></m:math> is the counterpart for mass in the equation for rotational kinetic energy. This is an important new term for rotational motion. This quantity is called the <term>moment of inertia</term> <emphasis effect="italics">I</emphasis>, with units of <m:math><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>:</para>
+<note id="fs-id1167133613872" class="equation-callout">
+<equation id="fs-id1167133439500"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133517642">For now, we leave the expression in summation form, representing the moment of inertia of a system of point particles rotating about a fixed axis. We note that the moment of inertia of a single point particle about a fixed axis is simply <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, with <emphasis effect="italics">r</emphasis> being the distance from the point particle to the axis of rotation. In the next section, we explore the integral form of this equation, which can be used to calculate the moment of inertia of some regular-shaped rigid bodies.</para>
+<para id="fs-id1167133665443">The moment of inertia is the quantitative measure of rotational inertia, just as in translational motion, and mass is the quantitative measure of linear inertia—that is, the more massive an object is, the more inertia it has, and the greater is its resistance to change in linear velocity. Similarly, the greater the moment of inertia of a rigid body or system of particles, the greater is its resistance to change in angular velocity about a fixed axis of rotation. It is interesting to see how the moment of inertia varies with <emphasis effect="italics">r,</emphasis> the distance to the axis of rotation of the mass particles in <link target-id="fs-id1167133439500"/>. Rigid bodies and systems of particles with more mass concentrated at a greater distance from the axis of rotation have greater moments of inertia than bodies and systems of the same mass, but concentrated near the axis of rotation. In this way, we can see that a hollow cylinder has more rotational inertia than a solid cylinder of the same mass when rotating about an axis through the center. Substituting <link target-id="fs-id1167133439500"/> into <link target-id="fs-id1167133826374"/>, the expression for the kinetic energy of a rotating rigid body becomes</para>
+<note id="fs-id1167133455622" class="equation-callout">
+<equation id="fs-id1167133565679"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133534266">We see from this equation that the kinetic energy of a rotating rigid body is directly proportional to the moment of inertia and the square of the angular velocity. This is exploited in <term class="no-emphasis">flywheel</term> energy-storage devices, which are designed to store large amounts of rotational kinetic energy. Many carmakers are now testing flywheel energy storage devices in their automobiles, such as the flywheel, or kinetic energy recovery system, shown in <link target-id="CNX_UPhysics_10_04_KERS"/>.</para>
+<figure id="CNX_UPhysics_10_04_KERS">
+<media id="fs-id1167133558891" alt="Figure is a photo of a kinetic energy recovery system flywheel installed next to the driver’s seat in a car.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_KERS.jpg"/>
+</media>
+<caption>A KERS (kinetic energy recovery system) flywheel used in cars. (credit: “cmonville”/Flickr)</caption>
+</figure>
+<para id="fs-id1167133446421">The rotational and translational quantities for kinetic energy and inertia are summarized in <link target-id="fs-id1167133375236"/>. The relationship column is not included because a constant doesn’t exist by which we could multiply the rotational quantity to get the translational quantity, as can be done for the variables in <link target-id="fs-id1167134477583" document="m58328"/>.</para>
+<table id="fs-id1167133375236" summary="This table consists of two columns and three rows. The first row contains headings: ‘Rotational’; ‘Translational’. In the column under the ‘Rotational’: I is equal to the sum of products mj and rj squared for all j; K is equal to the half of product of I and omega squared. In the column under the ‘Translational’: m; K is equal to the half of product of m and v squared.">
+<title>Rotational and Translational Kinetic Energies and Inertia</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Rotational</entry>
+<entry valign="top" align="left">Translational</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mi>m</m:mi></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<example id="fs-id1167133565706">
+<para id="fs-id1167133473126"><title>Moment of Inertia of a System of Particles</title>
+Six small washers are spaced 10 cm apart on a rod of negligible mass and 0.5 m in length. The mass of each washer is 20 g. The rod rotates about an axis located at 25 cm, as shown in <link target-id="CNX_UPhysics_10_04_SysPart"/>. (a) What is the moment of inertia of the system? (b) If the two washers closest to the axis are removed, what is the moment of inertia of the remaining four washers? (c) If the system with six washers rotates at 5 rev/s, what is its rotational kinetic energy?</para>
+<figure id="CNX_UPhysics_10_04_SysPart">
+<media id="fs-id1167133822890" alt="Figure shows six washers spaced 10 cm apart on a rod rotating about a vertical axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_SysPart.jpg"/>
+</media>
+<caption>Six washers are spaced 10 cm apart on a rod of negligible mass and rotating about a vertical axis.</caption>
+</figure>
+<para id="fs-id1167133473202"><title>Strategy</title></para>
+<list id="fs-id1167133467676" list-type="enumerated" number-style="lower-alpha">
+<item>We use the definition for moment of inertia for a system of particles and perform the summation to evaluate this quantity. The masses are all the same so we can pull that quantity in front of the summation symbol.</item>
+<item>We do a similar calculation.</item>
+<item>We insert the result from (a) into the expression for rotational kinetic energy.</item>
+</list>
+<para id="fs-id1167133677768"><title>Solution</title></para>
+<list id="fs-id1167133697931" list-type="enumerated" number-style="lower-alpha">
+<item><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.02</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.15</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.05</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.0035</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</item>
+<item><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.02</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.15</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.0034</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</item>
+<item><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>0.0035</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>1.73</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>.</item>
+</list>
+<para id="fs-id1167133326272"><title>Significance</title>
+We can see the individual contributions to the moment of inertia. The masses close to the axis of rotation have a very small contribution. When we removed them, it had a very small effect on the moment of inertia.</para>
+</example>
+<para id="fs-id1167133464006">In the next section, we generalize the summation equation for point particles and develop a method to calculate moments of inertia for rigid bodies. For now, though, <link target-id="CNX_UPhysics_10_04_RotInertia"/> gives values of rotational inertia for common object shapes around specified axes.</para>
+<figure id="CNX_UPhysics_10_04_RotInertia">
+<media id="fs-id1167133398687" alt="Figure shows ten rotating objects. These are hoop rotating about cylinder axis, solid cylinder or disk rotating about cylinder axis, thin rod rotating about axis through center solid sphere rotating about diameter, hoop rotating about diameter, annular cylinder rotating about cylinder axis, solid cylinder or disk rotating about central diameter, thin road rotating about the axis through one end perpendicular to the length, thin spherical shell about any diameter, slab about perpendicular axis through center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_RotInertia.jpg"/>
+</media>
+<caption>Values of rotational inertia for common shapes of objects.</caption>
+</figure>
+</section>
+<section id="fs-id1167133533766">
+<title>Applying Rotational Kinetic Energy</title>
+<para id="fs-id1167133858335">Now let’s apply the ideas of rotational kinetic energy and the moment of inertia table to get a feeling for the energy associated with a few rotating objects. The following examples will also help get you comfortable using these equations. First, let’s look at a general problem-solving strategy for rotational energy.</para>
+<note id="fs-id1167132287720" class="problem-solving">
+<title>Rotational Energy</title>
+<list id="fs-id1167132204443" list-type="enumerated" number-style="arabic">
+<item>Determine that energy or work is involved in the rotation.</item>
+<item>Determine the system of interest. A sketch usually helps.</item>
+<item>Analyze the situation to determine the types of work and energy involved.</item>
+<item>If there are no losses of energy due to friction and other nonconservative forces, mechanical energy is conserved, that is, <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math>.</item>
+<item>If nonconservative forces are present, mechanical energy is not conserved, and other forms of energy, such as heat and light, may enter or leave the system. Determine what they are and calculate them as necessary.</item>
+<item>Eliminate terms wherever possible to simplify the algebra.</item>
+<item>Evaluate the numerical solution to see if it makes sense in the physical situation presented in the wording of the problem.</item>
+</list>
+</note>
+<example id="fs-id1167133355217">
+<para id="fs-id1167133398560"><title>Calculating Helicopter Energies</title>
+A typical small rescue <term class="no-emphasis">helicopter</term> has four blades: Each is 4.00 m long and has a mass of 50.0 kg (<link target-id="CNX_UPhysics_10_04_Heli"/>). The blades can be approximated as thin rods that rotate about one end of an axis perpendicular to their length. The helicopter has a total loaded mass of 1000 kg. (a) Calculate the rotational kinetic energy in the blades when they rotate at 300 rpm. (b) Calculate the translational kinetic energy of the helicopter when it flies at 20.0 m/s, and compare it with the rotational energy in the blades.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_10_04_Heli"><media id="fs-id1167133396132" alt="Figure A is a sketch of a four-blade helicopter with 4.0 meter blades spinning counterclockwise. Figure B is a photo of a water rescue operation featuring a helicopter.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_Heli.jpg"/>
+</media>
+
+<caption>(a) Sketch of a four-blade helicopter. (b) A water rescue operation featuring a helicopter from the Auckland Westpac Rescue Helicopter Service. (credit b: modification of work by “111 Emergency”/Flickr)</caption></figure><para id="fs-id1167133521334"><title>Strategy</title>
+Rotational and translational kinetic energies can be calculated from their definitions. The wording of the problem gives all the necessary constants to evaluate the expressions for the rotational and translational kinetic energies.</para>
+<para id="fs-id1167133612297"><title>Solution</title></para>
+<list id="fs-id1167133395999" list-type="enumerated" number-style="lower-alpha">
+<item>The rotational kinetic energy is
+<equation id="fs-id1167133395100" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+We must convert the angular velocity to radians per second and calculate the moment of inertia before we can find <emphasis effect="italics">K</emphasis>. The angular velocity <m:math><m:mi>ω</m:mi></m:math> is
+<equation id="fs-id1167133365814" class="unnumbered"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>rev</m:mtext></m:mrow><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>min</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow><m:mrow><m:mtext>1 rev</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>min</m:mtext></m:mrow><m:mrow><m:mn>60.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>31.4</m:mn><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+The moment of inertia of one blade is that of a thin rod rotated about its end, listed in <link target-id="CNX_UPhysics_10_04_RotInertia"/>. The total <emphasis effect="italics">I</emphasis> is four times this moment of inertia because there are four blades. Thus,
+<equation id="fs-id1167132282573" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mfrac><m:mrow><m:mi>M</m:mi><m:msup><m:mi>l</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>50.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1067.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Entering <m:math><m:mi>ω</m:mi></m:math> and <emphasis effect="italics">I</emphasis> into the expression for rotational kinetic energy gives
+<equation id="fs-id1167133521632" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1067</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mtext>(31.4 rad/s)</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5.26</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>Entering the given values into the equation for translational kinetic energy, we obtain
+<equation id="fs-id1167133795143" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1000.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+To compare kinetic energies, we take the ratio of translational kinetic energy to rotational kinetic energy. This ratio is
+<equation id="fs-id1167133550294" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>5.26</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.380</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</item>
+</list>
+<para id="fs-id1167133549687"><title>Significance</title>
+The ratio of translational energy to rotational kinetic energy is only 0.380. This ratio tells us that most of the kinetic energy of the helicopter is in its spinning blades.</para>
+</example>
+<example id="fs-id1167133361011">
+<para id="fs-id1167133536707"><title>Energy in a Boomerang</title>
+A person hurls a <term class="no-emphasis">boomerang</term> into the air with a velocity of 30.0 m/s at an angle of <m:math><m:mrow><m:mn>40.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with respect to the horizontal (<link target-id="CNX_UPhysics_10_04_Boom"/>). It has a mass of 1.0 kg and is rotating at 10.0 rev/s. The moment of inertia of the boomerang is given as <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> where <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0.7</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. (a) What is the total energy of the boomerang when it leaves the hand? (b) How high does the boomerang go from the elevation of the hand, neglecting air resistance?</para>
+<figure id="CNX_UPhysics_10_04_Boom">
+<media id="fs-id1167133549484" alt="Figure is a sketch of a man throwing a boomerang in the air at a 40 degree angle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_Boom.jpg"/>
+</media>
+<caption>A boomerang is hurled into the air at an initial angle of <m:math><m:mrow><m:mn>40</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1167133407070"><title>Strategy</title>
+We use the definitions of rotational and linear kinetic energy to find the total energy of the system. The problem states to neglect air resistance, so we don’t have to worry about energy loss. In part (b), we use conservation of mechanical energy to find the maximum height of the boomerang.</para>
+<para id="fs-id1167133384915"><title>Solution</title></para>
+<list id="fs-id1167132201423" list-type="enumerated" number-style="lower-alpha">
+<item>Moment of inertia: <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.7</m:mn><m:msup><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0.041</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.<newline/>
+Angular velocity: <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>62.83</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math>.<newline/>
+The rotational kinetic energy is therefore
+<equation id="fs-id1167133357725" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>0.041</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>62.83</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>80.93</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+The translational kinetic energy is
+<equation id="fs-id1167132288115" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>30.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>450.0</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Thus, the total energy in the boomerang is
+<equation id="fs-id1167133858465" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>K</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mn>80.93</m:mn><m:mo>+</m:mo><m:mn>450.0</m:mn><m:mo>=</m:mo><m:mn>530.93</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>We use conservation of mechanical energy. Since the boomerang is launched at an angle, we need to write the total energies of the system in terms of its linear kinetic energies using the velocity in the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-directions. The total energy when the boomerang leaves the hand is
+<equation id="fs-id1167133465238" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Before</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+The total energy at maximum height is
+<equation id="fs-id1167133822152" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Final</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+By conservation of mechanical energy, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Before</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Final</m:mtext></m:mrow></m:msub></m:mrow></m:math> so we have, after canceling like terms,
+<equation id="fs-id1167133325875" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Since <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mn>30.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mn>40</m:mn></m:mrow><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>19.28</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>, we find 
+<equation id="fs-id1167133795233" class="unnumbered"><label/><m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>19.28</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>18.97</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167133326017"><title>Significance</title>
+In part (b), the solution demonstrates how energy conservation is an alternative method to solve a problem that normally would be solved using kinematics. In the absence of air resistance, the rotational kinetic energy was not a factor in the solution for the maximum height.</para>
+</example>
+<note id="fs-id1167133326026" class="check-understanding">
+<exercise id="fs-id1167133326029">
+<problem id="fs-id1167133326032">
+<para id="fs-id1167133326034"><emphasis effect="bold">Check Your Understanding</emphasis> A nuclear submarine propeller has a moment of inertia of <m:math><m:mrow><m:mn>800.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>. If the submerged propeller has a rotation rate of 4.0 rev/s when the engine is cut, what is the rotation rate of the propeller after 5.0 s when water resistance has taken 50,000 J out of the system?</para>
+</problem>
+<solution id="fs-id1167133407380">
+<para id="fs-id1167133407382">The initial rotational kinetic energy of the propeller is<newline/>
+<m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>800.0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>2.53</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>.<newline/>
+At 5.0 s the new rotational kinetic energy of the propeller is<newline/>
+<m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>2.03</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>.<newline/>
+and the new angular velocity is<newline/>
+<m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2.03</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>800.0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>22.53</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math><newline/>
+which is 3.58 rev/s.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167133868705" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167133868711" list-type="bulleted" bullet-style="bullet">
+<item>The rotational kinetic energy is the kinetic energy of rotation of a rotating rigid body or system of particles, and is given by <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, where <emphasis effect="italics">I</emphasis> is the moment of inertia, or “rotational mass” of the rigid body or system of particles.</item>
+<item>The moment of inertia for a system of point particles rotating about a fixed axis is <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow></m:math>, where <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math> is the mass of the point particle and <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math> is the distance of the point particle to the rotation axis. Because of the <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> term, the moment of inertia increases as the square of the distance to the fixed rotational axis. The moment of inertia is the rotational counterpart to the mass in linear motion.</item>
+<item>In systems that are both rotating and translating, conservation of mechanical energy can be used if there are no nonconservative forces at work. The total mechanical energy is then conserved and is the sum of the rotational and translational kinetic energies, and the gravitational potential energy.</item>
+</list>
+</section>
+<section id="fs-id1167132278518" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167132278524">
+<problem id="fs-id1167132278526">
+<para id="fs-id1167132278528">What if another planet the same size as Earth were put into orbit around the Sun along with Earth. Would the moment of inertia of the system increase, decrease, or stay the same?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132278543">
+<problem id="fs-id1167132278545">
+<para id="fs-id1167132278547">A solid sphere is rotating about an axis through its center at a constant rotation rate. Another hollow sphere of the same mass and radius is rotating about its axis through the center at the same rotation rate. Which sphere has a greater rotational kinetic energy?</para>
+</problem>
+<solution id="fs-id1167133686306">
+<para id="fs-id1167133686308">The hollow sphere, since the mass is distributed further away from the rotation axis.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167133686314" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167133686321">
+<problem id="fs-id1167133686323">
+<para id="fs-id1167133686325">A system of point particles is shown in the following figure. Each particle has mass 0.3 kg and they all lie in the same plane. (a) What is the moment of inertia of the system about the given axis? (b) If the system rotates at 5 rev/s, what is its rotational kinetic energy?</para>
+<media id="fs-id1167133686331" alt="Figure shows an XYZ coordinate system. Three particles are located on the X axis at 20 cm from the center, at an Y axis at 60 centimeters from the center and at a Z axis at 40 centimeters from the center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_PoinPar_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167133871945">
+<problem id="fs-id1167133871947">
+<para id="fs-id1167133871949">(a) Calculate the rotational kinetic energy of Earth on its axis. (b) What is the rotational kinetic energy of Earth in its orbit around the Sun?</para>
+</problem>
+<solution id="fs-id1167133871955">
+<para id="fs-id1167133871957">a. <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>2.56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>29</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J;</m:mtext></m:mrow></m:math><newline/>
+b. <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>2.68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>33</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132282314">
+<problem id="fs-id1167132282316">
+<para id="fs-id1167132282318">Calculate the rotational kinetic energy of a 12-kg motorcycle wheel if its angular velocity is 120 rad/s and its inner radius is 0.280 m and outer radius 0.330 m.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133328918">
+<problem id="fs-id1167133328920">
+<para id="fs-id1167133328922">A baseball pitcher throws the ball in a motion where there is rotation of the forearm about the elbow joint as well as other movements. If the linear velocity of the ball relative to the elbow joint is 20.0 m/s at a distance of 0.480 m from the joint and the moment of inertia of the forearm is <m:math><m:mrow><m:mn>0.500</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, what is the rotational kinetic energy of the forearm?</para>
+</problem>
+<solution id="fs-id1167133328943">
+<para id="fs-id1167133328945"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>434.0</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132288041">
+<problem id="fs-id1167132288044">
+<para id="fs-id1167132288046">A diver goes into a somersault during a dive by tucking her limbs. If her rotational kinetic energy is 100 J and her moment of inertia in the tuck is <m:math><m:mrow><m:mn>9.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>, what is her rotational rate during the somersault?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132283944">
+<problem id="fs-id1167132283947">
+<para id="fs-id1167132283949">An aircraft is coming in for a landing at 300 meters height when the propeller falls off. The aircraft is flying at 40.0 m/s horizontally. The propeller has a rotation rate of 20 rev/s, a moment of inertia of <m:math><m:mrow><m:mn>70.0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, and a mass of 200 kg. Neglect air resistance. (a) With what translational velocity does the propeller hit the ground? (b) What is the rotation rate of the propeller at impact?</para>
+</problem>
+<solution id="fs-id1167132287070">
+<para id="fs-id1167132287072">a. <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>86.5</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>;<newline/>
+b. The rotational rate of the propeller stays the same at 20 rev/s.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132283454">
+<problem id="fs-id1167132283456">
+<para id="fs-id1167132283459">If air resistance is present in the preceding problem and reduces the propeller’s rotational kinetic energy at impact by 30%, what is the propeller’s rotation rate at impact?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132279446">
+<problem id="fs-id1167132279448">
+<para id="fs-id1167132279450">A neutron star of mass <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and radius 10 km rotates with a period of 0.02 seconds. What is its rotational kinetic energy?</para>
+</problem>
+<solution id="fs-id1167132279482">
+<para id="fs-id1167132279484"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>3.95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>42</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132207267">
+<problem id="fs-id1167132207269">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167132207272">An electric sander consisting of a rotating disk of mass 0.7 kg and radius 10 cm rotates at 15 rev/s. When applied to a rough wooden wall the rotation rate decreases by 20%. (a) What is the final rotational kinetic energy of the rotating disk? (b) How much has its rotational kinetic energy decreased?</para></problem>
+</exercise>
+<exercise id="fs-id1167132282082">
+<problem id="fs-id1167132282084">
+<para id="fs-id1167132282086">A system consists of a disk of mass 2.0 kg and radius 50 cm upon which is mounted an annular cylinder of mass 1.0 kg with inner radius 20 cm and outer radius 30 cm (see below). The system rotates about an axis through the center of the disk and annular cylinder at 10 rev/s. (a) What is the moment of inertia of the system? (b) What is its rotational kinetic energy?</para>
+<media id="fs-id1167132282093" alt="Figure shows a disk of radius 50 cm upon which is mounted an annular cylinder with inner radius 20 cm and outer radius 30 cm">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_AnnCyl_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167132282106">
+<para id="fs-id1167132282108">a. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>0.315</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>621.8</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167132283419">
+<term>moment of inertia</term>
+<meaning id="fs-id1167132283425">rotational mass of rigid bodies that relates to how easy or hard it will be to change the angular velocity of the rotating rigid body</meaning>
+</definition>
+<definition id="fs-id1167132283430">
+<term>rotational kinetic energy</term>
+<meaning id="fs-id1167132205291">kinetic energy due to the rotation of an object; this is part of its total kinetic energy</meaning>
+</definition>
+</glossary>
+</document>

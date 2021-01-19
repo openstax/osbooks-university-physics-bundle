@@ -1,0 +1,184 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Measuring Pressure</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58354</md:content-id>
+  <md:title>Measuring Pressure</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Define gauge pressure and absolute pressure</item>
+<item>Explain various methods for measuring pressure</item>
+<item>Understand the working of open-tube barometers</item>
+<item>Describe in detail how manometers and barometers operate</item>
+</list></md:abstract>
+  <md:uuid>25b67b0f-55b3-42e7-9632-fc7e83ab47c2</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170958521761">In the preceding section, we derived a formula for calculating the variation in pressure for a fluid in hydrostatic equilibrium. As it turns out, this is a very useful calculation. Measurements of pressure are important in daily life as well as in science and engineering applications. In this section, we discuss different ways that pressure can be reported and measured.</para>
+<section id="fs-id1170959033707">
+<title>Gauge Pressure vs. Absolute Pressure</title>
+<para id="fs-id1170958010984">Suppose the pressure gauge on a full scuba tank reads 3000 psi, which is approximately 207 atmospheres. When the valve is opened, air begins to escape because the pressure inside the tank is greater than the atmospheric pressure outside the tank. Air continues to escape from the tank until the pressure inside the tank equals the pressure of the atmosphere outside the tank. At this point, the pressure gauge on the tank reads zero, even though the pressure inside the tank is actually 1 atmosphere—the same as the air pressure outside the tank.</para>
+<para id="fs-id1170958944826">Most pressure gauges, like the one on the scuba tank, are calibrated to read zero at atmospheric pressure. Pressure readings from such gauges are called <term>gauge pressure</term>, which is the pressure relative to the atmospheric pressure. When the pressure inside the tank is greater than atmospheric pressure, the gauge reports a positive value.</para>
+<para id="fs-id1170958744683">Some gauges are designed to measure negative pressure. For example, many physics experiments must take place in a vacuum chamber, a rigid chamber from which some of the air is pumped out. The pressure inside the vacuum chamber is less than atmospheric pressure, so the pressure gauge on the chamber reads a negative value.</para>
+<para id="fs-id1170958708380">Unlike gauge pressure, <term>absolute pressure</term> accounts for <term class="no-emphasis">atmospheric pressure</term>, which in effect adds to the pressure in any fluid not enclosed in a rigid container.</para>
+<note id="fs-id1170958657525">
+<title>Absolute Pressure</title>
+<para id="fs-id1170958980701">The absolute pressure, or total pressure, is the sum of gauge pressure and atmospheric pressure:</para>
+<equation id="fs-id1170959047990"><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:math></equation>
+<para id="fs-id1170959040965">where <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> is absolute pressure, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub></m:mrow></m:math> is gauge pressure, and <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:math> is atmospheric pressure.</para>
+</note>
+<para id="fs-id1170958679191">For example, if a tire gauge reads 34 psi, then the absolute pressure is 34 psi plus 14.7 psi (<m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:math> in psi), or 48.7 psi (equivalent to 336 kPa).</para>
+<para id="fs-id1170958997292">In most cases, the absolute pressure in fluids cannot be negative. Fluids push rather than pull, so the smallest absolute pressure in a fluid is zero (a negative absolute pressure is a pull). Thus, the smallest possible gauge pressure is <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:math> (which makes <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> zero). There is no theoretical limit to how large a gauge pressure can be.</para>
+</section>
+<section id="fs-id1170958881874">
+<title>Measuring Pressure</title>
+<para id="fs-id1170958022891">A host of devices are used for measuring pressure, ranging from tire gauges to blood pressure monitors. Many other types of pressure gauges are commonly used to test the pressure of fluids, such as mechanical pressure gauges. We will explore some of these in this section.</para>
+<para id="fs-id1170959041845">Any property that changes with pressure in a known way can be used to construct a pressure gauge. Some of the most common types include strain gauges, which use the change in the shape of a material with pressure; capacitance pressure gauges, which use the change in electric capacitance due to shape change with pressure; piezoelectric pressure gauges, which generate a voltage difference across a piezoelectric material under a pressure difference between the two sides; and ion gauges, which measure pressure by ionizing molecules in highly evacuated chambers. Different pressure gauges are useful in different pressure ranges and under different physical situations. Some examples are shown in <link target-id="CNX_UPhysics_Figure_14_02_GaugeTyp"/>.</para>
+<figure id="CNX_UPhysics_Figure_14_02_GaugeTyp">
+<media id="fs-id1170958010765" alt="Figure A is a photo of a gauge used to monitor the pressure in gas cylinders. Figure B is a photo of a tire gauge. Figure C is a photo of an ionization gauge used to monitor pressure in vacuum systems.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_02_GaugeTyp.jpg"/>
+</media>
+<caption>(a) Gauges are used to measure and monitor pressure in gas cylinders. Compressed gases are used in many industrial as well as medical applications. (b) Tire pressure gauges come in many different models, but all are meant for the same purpose: to measure the internal pressure of the tire. This enables the driver to keep the tires inflated at optimal pressure for load weight and driving conditions. (c) An ionization gauge is a high-sensitivity device used to monitor the pressure of gases in an enclosed system. Neutral gas molecules are ionized by the release of electrons, and the current is translated into a pressure reading. Ionization gauges are commonly used in industrial applications that rely on vacuum systems.</caption>
+</figure>
+<section id="fs-id1170958991725">
+<title>Manometers</title>
+<para id="fs-id1170958767582">One of the most important classes of pressure gauges applies the property that pressure due to the weight of a fluid of constant density is given by <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math>. The U-shaped tube shown in <link target-id="CNX_UPhysics_Figure_14_02_Manometers"/> is an example of a <term class="no-emphasis"><emphasis effect="italics">manometer</emphasis></term>; in part (a), both sides of the tube are open to the atmosphere, allowing atmospheric pressure to push down on each side equally so that its effects cancel.</para>
+<para id="fs-id1170958760985">A manometer with only one side open to the atmosphere is an ideal device for measuring gauge pressures. The gauge pressure is <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math> and is found by measuring <emphasis effect="italics">h</emphasis>. For example, suppose one side of the U-tube is connected to some source of pressure <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> such as the balloon in part (b) of the figure or the vacuum-packed peanut jar shown in part (c). Pressure is transmitted undiminished to the manometer, and the fluid levels are no longer equal. In part (b), <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> is greater than atmospheric pressure, whereas in part (c), <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> is less than atmospheric pressure. In both cases, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> differs from atmospheric pressure by an amount <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mi>ρ</m:mi></m:math> is the density of the fluid in the manometer. In part (b), <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> can support a column of fluid of height <emphasis effect="italics">h</emphasis>, so it must exert a pressure <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math> greater than atmospheric pressure (the gauge pressure <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub></m:mrow></m:math> is positive). In part (c), atmospheric pressure can support a column of fluid of height <emphasis effect="italics">h</emphasis>, so <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> is less than atmospheric pressure by an amount <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math> (the gauge pressure <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub></m:mrow></m:math> is negative).</para>
+<figure id="CNX_UPhysics_Figure_14_02_Manometers">
+<media id="fs-id1170958874200" alt="Figure A is a schematic drawing of an open-tube manometer that has both sides open to the atmosphere. Water level is at an identical height on both sides. Figure B is a schematic drawing of an open-tube manometer that has one side open to the atmosphere and the second side connected to the air balloon. Water level is higher at the side opened to the atmosphere. Figure C is a schematic drawing of an open-tube manometer that has one side open to the atmosphere and the second side connected to a can of vacuum packed peanuts. Water level is lower at the side opened to the atmosphere.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_02_Manometers.jpg"/>
+</media>
+<caption>An open-tube manometer has one side open to the atmosphere. (a) Fluid depth must be the same on both sides, or the pressure each side exerts at the bottom will be unequal and liquid will flow from the deeper side. (b) A positive gauge pressure <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math> transmitted to one side of the manometer can support a column of fluid of height <emphasis effect="italics">h</emphasis>. (c) Similarly, atmospheric pressure is greater than a negative gauge pressure <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub></m:mrow></m:math> by an amount <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math>. The jar’s rigidity prevents atmospheric pressure from being transmitted to the peanuts.</caption>
+</figure>
+</section>
+<section id="fs-id1170958682722">
+<title>Barometers</title>
+<para id="fs-id1170958709166">Manometers typically use a U-shaped tube of a fluid (often mercury) to measure pressure. A <term class="no-emphasis"><emphasis effect="italics">barometer</emphasis></term> (see <link target-id="CNX_UPhysics_Figure_14_02_Barometers"/>) is a device that typically uses a single column of mercury to measure atmospheric pressure. The barometer, invented by the Italian mathematician and physicist Evangelista <term class="no-emphasis">Torricelli</term> (1608–1647) in 1643, is constructed from a glass tube closed at one end and filled with mercury. The tube is then inverted and placed in a pool of mercury. This device measures atmospheric pressure, rather than gauge pressure, because there is a nearly pure vacuum above the mercury in the tube. The height of the mercury is such that <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:math>. When atmospheric pressure varies, the mercury rises or falls.</para>
+<para id="fs-id1170958649032">Weather forecasters closely monitor changes in atmospheric pressure (often reported as barometric pressure), as rising mercury typically signals improving weather and falling mercury indicates deteriorating weather. The barometer can also be used as an altimeter, since average atmospheric pressure varies with altitude. Mercury barometers and manometers are so common that units of mm Hg are often quoted for atmospheric pressure and blood pressures.</para>
+<figure id="CNX_UPhysics_Figure_14_02_Barometers">
+<media id="fs-id1170958891020" alt="A schematic drawing of a mercury barometer. The atmosphere is able to force mercury in the tube to a height h because the pressure above the mercury is zero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_02_Barometers.jpg"/>
+</media>
+<caption>A mercury barometer measures atmospheric pressure. The pressure due to the mercury’s weight, <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math>, equals atmospheric pressure. The atmosphere is able to force mercury in the tube to a height <emphasis effect="italics">h</emphasis> because the pressure above the mercury is zero.</caption>
+</figure>
+<example id="fs-id1170959039409">
+<para id="fs-id1170958684958"><title>Fluid Heights in an Open U-Tube</title>
+A U-tube with both ends open is filled with a liquid of density <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> to a height <emphasis effect="italics">h</emphasis> on both sides (<link target-id="CNX_UPhysics_Figure_14_02_UtubeTwoDe"/>). A liquid of density <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is poured into one side and Liquid 2 settles on top of Liquid 1. The heights on the two sides are different. The height to the top of Liquid 2 from the interface is <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> and the height to the top of Liquid 1 from the level of the interface is <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>. Derive a formula for the height difference.</para>
+<figure id="CNX_UPhysics_Figure_14_02_UtubeTwoDe">
+<media id="fs-id1170958022463" alt="Left figure shows a U-tube filled with a liquid. The liquid is at the same height at both sides of the U-tube. Right figure shows a U-tube filled with two liquids of different densities. The liquids are at different heights on both sides of the U-tube.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_02_UtubeTwoDe.jpg"/>
+</media>
+<caption>Two liquids of different densities are shown in a U-tube.</caption>
+</figure>
+<para id="fs-id1170958943522"><title>Strategy</title>
+The pressure at points at the same height on the two sides of a U-tube must be the same as long as the two points are in the same liquid. Therefore, we consider two points at the same level in the two arms of the tube: One point is the interface on the side of the Liquid 2 and the other is a point in the arm with Liquid 1 that is at the same level as the interface in the other arm. The pressure at each point is due to atmospheric pressure plus the weight of the liquid above it.</para>
+<equation id="fs-id1170958710369" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>Pressure on the side with Liquid 1</m:mtext><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>Pressure on the side with Liquid 2</m:mtext><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1170958801913"><title>Solution</title>
+Since the two points are in Liquid 1 and are at the same height, the pressure at the two points must be the same. Therefore, we have</para>
+<equation id="fs-id1170958906278" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958900531">Hence,</para>
+<equation id="fs-id1170958814435" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958627161">This means that the difference in heights on the two sides of the U-tube is</para>
+<equation id="fs-id1170958617734" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170958989525">The result makes sense if we set <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> which gives <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> If the two sides have the same density, they have the same height.</para></example>
+<note id="fs-id1170958004310" class="check-understanding">
+<exercise id="fs-id1170958860785">
+<problem id="fs-id1170958643644">
+<para id="fs-id1170958906535"><emphasis effect="bold">Check Your Understanding</emphasis> Mercury is a hazardous substance. Why do you suppose mercury is typically used in barometers instead of a safer fluid such as water?</para>
+</problem>
+<solution id="fs-id1170958618402">
+<para id="fs-id1170958767690">The density of mercury is 13.6 times greater than the density of water. It takes approximately 76 cm (29.9 in.) of mercury to measure the pressure of the atmosphere, whereas it would take approximately 10 m (34 ft.) of water.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170958701894">
+<title>Units of pressure</title>
+<para id="fs-id1170958911820">As stated earlier, the SI unit for pressure is the <term class="no-emphasis">pascal</term> (Pa), where</para>
+<equation id="fs-id1170958994385" class="unnumbered"><label/><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170958539227">In addition to the pascal, many other units for pressure are in common use (<link target-id="fs-id1170958992606"/>). In meteorology, atmospheric pressure is often described in the unit of millibars (mbar), where</para><equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170958586846" class="unnumbered"><label/><m:math><m:mrow><m:mn>1000</m:mn><m:mspace width="0.2em"/><m:mtext>mbar</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170958655376">The millibar is a convenient unit for meteorologists because the average atmospheric pressure at sea level on Earth is <m:math><m:mrow><m:mn>1.013</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mn>1013</m:mn><m:mspace width="0.2em"/><m:mtext>mbar</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext></m:mrow></m:math>. Using the equations derived when considering pressure at a depth in a fluid, pressure can also be measured as millimeters or inches of mercury. The pressure at the bottom of a 760-mm column of mercury at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> in a container where the top part is evacuated is equal to the atmospheric pressure. Thus, 760 mm Hg is also used in place of 1 atmosphere of pressure. In vacuum physics labs, scientists often use another unit called the <term class="no-emphasis">torr,</term> named after Torricelli, who, as we have just seen, invented the mercury manometer for measuring pressure. One torr is equal to a pressure of 1 mm Hg.</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170958992606" summary="A two column table is shown. The headers for each column are “Unit” and “Definition.” The first row contains “SI unit: the Pascal” and “1 P a equals 1 N over m squared.” The second row contains “English unit: pounds per square inch (pound over inch squared or p s i)” and “1 p s i equals 7.015 times 10 to the third P a.” The third row contains “Other units of pressure” and “1 a t m equals 760 m m H g equals 1.013 times 10 to the fifth P a equals 14.7 p s i equals 29.9 inches of H g equals 1013 m b. 1 bar equals 10 to the fifth P a. 1 torr equals 1 m m h g equals 122.39 P a."><title>Summary of the Units of Pressure</title><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Unit</entry>
+<entry valign="top" align="left">Definition</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">SI unit: the Pascal</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">English unit: pounds per square inch (<m:math><m:mrow><m:msup><m:mrow><m:mtext>lb/in.</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math> or psi)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>psi</m:mtext><m:mo>=</m:mo><m:mn>6.895</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" morerows="3">Other units of pressure</entry>
+<entry valign="top" align="left"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>760</m:mn><m:mspace width="0.2em"/><m:mtext>mmHg</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1.013</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>14.7</m:mn><m:mspace width="0.2em"/><m:mtext>psi</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>29.9</m:mn><m:mspace width="0.2em"/><m:mtext>inches of Hg</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1013</m:mn><m:mspace width="0.2em"/><m:mtext>mbar</m:mtext></m:mtd></m:mtr></m:mtable></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>bar</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>torr</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>mm Hg</m:mtext><m:mo>=</m:mo><m:mn>133.3</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></section>
+</section>
+<section id="fs-id1170958683323" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170958014561" list-type="bulleted" bullet-style="bullet">
+<item>Gauge pressure is the pressure relative to atmospheric pressure.</item>
+<item>Absolute pressure is the sum of gauge pressure and atmospheric pressure.</item>
+<item>Open-tube manometers have U-shaped tubes and one end is always open. They are used to measure pressure. A mercury barometer is a device that measures atmospheric pressure.</item>
+<item>The SI unit of pressure is the pascal (Pa), but several other units are commonly used.</item>
+</list>
+</section>
+<section id="fs-id1170958907439" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170958967082">
+<problem id="fs-id1170958667243">
+<para id="fs-id1170958655368">Explain why the fluid reaches equal levels on either side of a manometer if both sides are open to the atmosphere, even if the tubes are of different diameters.</para>
+</problem>
+<solution id="fs-id1170958874517">
+<para id="fs-id1170958961680">The pressure of the atmosphere is due to the weight of the air above. The pressure, force per area, on the manometer will be the same at the same depth of the atmosphere.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170958954268" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170958864727">
+<problem id="fs-id1170958709279">
+<para id="fs-id1170959051429">Find the gauge and absolute pressures in the balloon and peanut jar shown in <link target-id="CNX_UPhysics_Figure_14_02_Manometers"/>, assuming the manometer connected to the balloon uses water and the manometer connected to the jar contains mercury. Express in units of centimeters of water for the balloon and millimeters of mercury for the jar, taking <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0.0500</m:mn><m:mtext>m</m:mtext></m:mrow></m:math> for each.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959033299">
+<problem id="fs-id1170958876014">
+<para id="fs-id1170958809423">How tall must a water-filled manometer be to measure blood pressure as high as 300 mm Hg?</para>
+</problem>
+<solution id="fs-id1170958563199">
+<para id="fs-id1170958073168">4.08 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958010822">
+<problem id="fs-id1170958072541">
+<para id="fs-id1170958944072">Assuming bicycle tires are perfectly flexible and support the weight of bicycle and rider by pressure alone, calculate the total area of the tires in contact with the ground if a bicycle and rider have a total mass of 80.0 kg, and the gauge pressure in the tires is <m:math><m:mrow><m:mn>3.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170958987897">
+<term>absolute pressure</term>
+<meaning id="fs-id1170958656151">sum of gauge pressure and atmospheric pressure</meaning>
+</definition>
+<definition id="fs-id1170958584649">
+<term>gauge pressure</term>
+<meaning id="fs-id1170958583906">pressure relative to atmospheric pressure</meaning>
+</definition>
+</glossary>
+</document>

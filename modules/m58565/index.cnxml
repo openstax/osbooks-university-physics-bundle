@@ -1,0 +1,204 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>Length Contraction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58565</md:content-id>
+  <md:title>Length Contraction</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain how simultaneity and length contraction are related.</item>
+<item>Describe the relation between length contraction and time dilation and use it to derive the length-contraction equation.</item>
+</list></md:abstract>
+  <md:uuid>f84d5d66-c070-42a6-be41-e5b36c74e250</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167794214324">The length of the train car in <link target-id="CNX_UPhysics_38_04_SpeedTrain"/> is the same for all the passengers. All of them would agree on the simultaneous location of the two ends of the car and obtain the same result for the distance between them. But simultaneous events in one inertial frame need not be simultaneous in another. If the train could travel at relativistic speeds, an observer on the ground would see the simultaneous locations of the two endpoints of the car at a different distance apart than observers inside the car. Measured distances need not be the same for different observers when relativistic speeds are involved.</para>
+<figure id="CNX_UPhysics_38_04_SpeedTrain">
+<media id="fs-id1167794226878" alt="A photo of a TGV high speed train">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_04_SpeedTrain.jpg"/>
+</media>
+<caption>People might describe distances differently, but at relativistic speeds, the distances really are different. (credit: “russavia”/Flickr)</caption>
+</figure>
+<section id="fs-id1167794022125">
+<title>Proper Length</title>
+<para id="fs-id1167794180518">Two observers passing each other always see the same value of their relative speed. Even though time dilation implies that the train passenger and the observer standing alongside the tracks measure different times for the train to pass, they still agree that relative speed, which is distance divided by elapsed time, is the same. If an observer on the ground and one on the train measure a different time for the length of the train to pass the ground observer, agreeing on their relative speed means they must also see different distances traveled.</para>
+<para id="fs-id1167794021647">The muon discussed in <link target-id="fs-id1167793912924" document="m58563"/> illustrates this concept (<link target-id="CNX_UPhysics_38_04_CloudMuon"/>). To an observer on Earth, the muon travels at 0.950<emphasis effect="italics">c</emphasis> for 7.05 μs from the time it is produced until it decays. Therefore, it travels a distance relative to Earth of:</para>
+<equation id="fs-id1167793610926" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>v</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.950</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7.05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2.01</m:mn><m:mspace width="0.2em"/><m:mtext>km.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167793442203">In the muon frame, the lifetime of the muon is 2.20 μs. In this frame of reference, the Earth, air, and ground have only enough time to travel:</para>
+<equation id="fs-id1167793612580" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mtext>Δ</m:mtext><m:mi>τ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.950</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>=</m:mo><m:mn>0.627</m:mn><m:mspace width="0.2em"/><m:mtext>km.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167794330364">The distance between the same two events (production and decay of a muon) depends on who measures it and how they are moving relative to it.</para>
+<note id="fs-id1167793566829">
+<title>Proper Length</title>
+<para id="fs-id1167793750922"><term>Proper length</term> <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the distance between two points measured by an observer who is at rest relative to both of the points.</para>
+</note>
+<para id="fs-id1167793928024">The earthbound observer measures the proper length <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> because the points at which the muon is produced and decays are stationary relative to Earth. To the muon, Earth, air, and clouds are moving, so the distance <emphasis effect="italics">L</emphasis> it sees is not the proper length.</para>
+<figure id="CNX_UPhysics_38_04_CloudMuon">
+<media id="fs-id1167793372555" alt="Figure a shows a stationary observer on the ground looking at a muon that is moving to the right with speed v between two clouds that are separated by 2.01 km. Figure b shows the observer, the ground, and the clouds all moving to the left with speed v. The muon is stationary. The clouds are contracted horizontally and the distance between the clouds is 0.627 km.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_04_CloudMuon.jpg"/>
+</media>
+<caption>(a) The earthbound observer sees the muon travel 2.01 km. (b) The same path has length 0.627 km seen from the muon’s frame of reference. The Earth, air, and clouds are moving relative to the muon in its frame, and have smaller lengths along the direction of travel.</caption>
+</figure>
+</section>
+<section id="fs-id1167793948102">
+<title>Length Contraction</title>
+<para id="fs-id1167793985095">To relate distances measured by different observers, note that the velocity relative to the earthbound observer in our muon example is given by</para>
+<equation id="fs-id1167793502025" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167794070138">The time relative to the earthbound observer is <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> because the object being timed is moving relative to this observer. The velocity relative to the moving observer is given by</para>
+<equation id="fs-id1167793787649" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>L</m:mi><m:mrow><m:mtext>Δ</m:mtext><m:mi>τ</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167794139835">The moving observer travels with the muon and therefore observes the proper time <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>τ</m:mi><m:mo>.</m:mo></m:mrow></m:math> The two velocities are identical; thus,</para>
+<equation id="fs-id1167793633032" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>L</m:mi><m:mrow><m:mtext>Δ</m:mtext><m:mi>τ</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167793936099">We know that <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mtext>Δ</m:mtext><m:mi>τ</m:mi><m:mo>.</m:mo></m:mrow></m:math> Substituting this equation into the relationship above gives</para>
+<equation id="fs-id1167793878910"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>γ</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167794330511">Substituting for <m:math><m:mi>γ</m:mi></m:math> gives an equation relating the distances measured by different observers.</para>
+<note id="fs-id1167794324446">
+<title>Length Contraction</title>
+<para id="fs-id1167794072104"><term>Length contraction</term> is the decrease in the measured length of an object from its proper length when measured in a reference frame that is moving with respect to the object:</para>
+<equation id="fs-id1167793849579"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></equation>
+<para id="fs-id1167794070988">where <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the length of the object in its rest frame, and <emphasis effect="italics">L</emphasis> is the length in the frame moving with velocity <emphasis effect="italics">v</emphasis>.</para>
+</note>
+<para id="fs-id1167793722741">If we measure the length of anything moving relative to our frame, we find its length <emphasis effect="italics">L</emphasis> to be smaller than the proper length <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> that would be measured if the object were stationary. For example, in the muon’s rest frame, the distance Earth moves between where the muon was produced and where it decayed is shorter than the distance traveled as seen from the Earth’s frame. Those points are fixed relative to Earth but are moving relative to the muon. Clouds and other objects are also contracted along the direction of motion as seen from muon’s rest frame.</para>
+<para id="fs-id1167793953801">Thus, two observers measure different distances along their direction of relative motion, depending on which one is measuring distances between objects at rest.</para>
+<para id="fs-id1167793397790">But what about distances measured in a direction perpendicular to the relative motion? Imagine two observers moving along their <emphasis effect="italics">x</emphasis>-axes and passing each other while holding meter sticks vertically in the <emphasis effect="italics">y</emphasis>-direction. <link target-id="CNX_UPhysics_38_04_Msticks"/> shows two meter sticks M and <m:math><m:mtext>M</m:mtext><m:mo>′</m:mo></m:math> that are at rest in the reference frames of two boys S and <m:math><m:mrow><m:mtext>S</m:mtext><m:mo>′</m:mo><m:mo>,</m:mo></m:mrow></m:math> respectively. A small paintbrush is attached to the top (the 100-cm mark) of stick <m:math><m:mrow><m:mtext>M</m:mtext><m:mo>′</m:mo><m:mtext>.</m:mtext></m:mrow></m:math> Suppose that <m:math><m:mtext>S</m:mtext><m:mo>′</m:mo></m:math> is moving to the right at a very high speed <emphasis effect="italics">v</emphasis> relative to S, and the sticks are oriented so that they are perpendicular, or transverse, to their relative velocity vector. The sticks are held so that as they pass each other, their lower ends (the 0-cm marks) coincide. Assume that when S looks at his stick M afterwards, he finds a line painted on it, just below the top of the stick. Because the brush is attached to the top of the other boy’s stick <m:math><m:mrow><m:mtext>M</m:mtext><m:mo>′</m:mo><m:mtext>,</m:mtext></m:mrow></m:math> S can only conclude that stick <m:math><m:mtext>M</m:mtext><m:mo>′</m:mo></m:math> is less than 1.0 m long.</para>
+<figure id="CNX_UPhysics_38_04_Msticks">
+<media id="fs-id1167793245738" alt="A skateboarder moving to the right with velocity v is holding a ruler vertically. The bottom of the ruler is labeled as zero, and its top as 100 cm. A paintbrush is attached to the upper end of the ruler. The skateboarder is labeled S prime and his ruler is labeled M prime. To the skateboarder’s right stands a boy holding a vertical 100 cm ruler at the same height as the skateboarder’s ruler. The stationary boy is labeled S and his ruler is labeled M.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_04_Msticks.jpg"/>
+</media>
+<caption>Meter sticks M and <m:math><m:mtext>M</m:mtext><m:mo>′</m:mo></m:math> are stationary in the reference frames of observers S and <m:math><m:mrow><m:mtext>S</m:mtext><m:mo>′</m:mo><m:mo>,</m:mo></m:mrow></m:math> respectively. As the sticks pass, a small brush attached to the 100-cm mark of <m:math><m:mtext>M</m:mtext><m:mo>′</m:mo></m:math> paints a line on M.</caption>
+</figure>
+<para id="fs-id1167793261807">Now when the boys approach each other, <m:math><m:mrow><m:mtext>S</m:mtext><m:mo>′</m:mo><m:mtext>,</m:mtext></m:mrow></m:math> like S, sees a meter stick moving toward him with speed <emphasis effect="italics">v</emphasis>. Because their situations are symmetric, each boy must make the same measurement of the stick in the other frame. So, if S measures stick <m:math><m:mtext>M</m:mtext><m:mo>′</m:mo></m:math> to be less than 1.0 m long, <m:math><m:mtext>S</m:mtext><m:mo>′</m:mo></m:math> must measure stick M to be also less than 1.0 m long, and <m:math><m:mtext>S</m:mtext><m:mo>′</m:mo></m:math> must see his paintbrush pass over the top of stick M and not paint a line on it. In other words, after the same event, one boy sees a painted line on a stick, while the other does not see such a line on that same stick!</para>
+<para id="fs-id1167793786300">Einstein’s first postulate requires that the laws of physics (as, for example, applied to painting) predict that S and <m:math><m:mrow><m:mtext>S</m:mtext><m:mo>′</m:mo><m:mtext>,</m:mtext></m:mrow></m:math> who are both in inertial frames, make the same observations; that is, S and <m:math><m:mtext>S</m:mtext><m:mo>′</m:mo></m:math> must either both see a line painted on stick M, or both not see that line. We are therefore forced to conclude our original assumption that S saw a line painted below the top of his stick was wrong! Instead, S finds the line painted right at the 100-cm mark on M. Then both boys will agree that a line is painted on M, and they will also agree that both sticks are exactly 1 m long. We conclude then that measurements of a transverse <emphasis effect="italics">length must be the same</emphasis> <emphasis effect="italics">in different inertial frames</emphasis>.</para>
+<example id="fs-id1167793997754">
+<para id="fs-id1167793370739"><title>Calculating Length Contraction</title>
+Suppose an astronaut, such as the twin in the twin paradox discussion, travels so fast that <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>30.00</m:mn><m:mo>.</m:mo></m:mrow></m:math> (a) The astronaut travels from Earth to the nearest star system, Alpha Centauri, 4.300 light years (ly) away as measured by an earthbound observer. How far apart are Earth and Alpha Centauri as measured by the astronaut? (b) In terms of <emphasis effect="italics">c</emphasis>, what is the astronaut’s velocity relative to Earth? You may neglect the motion of Earth relative to the sun (<link target-id="CNX_UPhysics_38_04_StarTravel"/>).</para>
+<figure id="CNX_UPhysics_38_04_StarTravel">
+<media id="fs-id1167793261023" alt="In figure a, the earth and Alpha Centauri are shown as separated by a distance L naught and the earth’s clock shows a time delta t. A horizontally contracted space ship is moving to the right with velocity v. We are given the equation v = L naught / Delta t. In figure b, the earth and Alpha Centauri are shown as separated by a distance L. Both the earth and Alpha Centauri are moving to the left with velocity v and are contracted horizontally. The spaceship is stationary and not contracted. The ship’s clock shows a time delta tau. We are given the equation v = L / Delta tau.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_04_StarTravel.jpg"/>
+</media>
+<caption>(a) The earthbound observer measures the proper distance between Earth and Alpha Centauri. (b) The astronaut observes a length contraction because Earth and Alpha Centauri move relative to her ship. She can travel this shorter distance in a smaller time (her proper time) without exceeding the speed of light.</caption>
+</figure>
+<para id="fs-id1167793787639"><title>Strategy</title>
+First, note that a light year (ly) is a convenient unit of distance on an astronomical scale—it is the distance light travels in a year. For part (a), the 4.300-ly distance between Alpha Centauri and Earth is the proper distance <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> because it is measured by an earthbound observer to whom both stars are (approximately) stationary. To the astronaut, Earth and Alpha Centauri are moving past at the same velocity, so the distance between them is the contracted length <emphasis effect="italics">L</emphasis>. In part (b), we are given <m:math><m:mrow><m:mi>γ</m:mi><m:mo>,</m:mo></m:mrow></m:math> so we can find <emphasis effect="italics">v</emphasis> by rearranging the definition of <m:math><m:mi>γ</m:mi></m:math> to express <emphasis effect="italics">v</emphasis> in terms of <emphasis effect="italics">c</emphasis>.</para>
+<para id="fs-id1163712177016"><title>Solution for (a)</title>
+For part (a):</para>
+<list id="fs-id1167793985723" list-type="enumerated" number-style="lower-alpha">
+<item>Identify the knowns: <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.300</m:mn><m:mspace width="0.2em"/><m:mtext>ly;</m:mtext><m:mspace width="0.2em"/><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>30.00</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Identify the unknown: <emphasis effect="italics">L</emphasis>.</item>
+<item>Express the answer as an equation: <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>γ</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Do the calculation:
+<equation id="fs-id1167793897478" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>L</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>γ</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4.300</m:mn><m:mspace width="0.2em"/><m:mtext>ly</m:mtext></m:mrow><m:mrow><m:mn>30.00</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0.1433</m:mn><m:mspace width="0.2em"/><m:mtext>ly.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1163710844888"><title>Solution for (b)</title>
+For part (b):</para>
+<list id="fs-id1167793991435" list-type="enumerated" number-style="lower-alpha">
+<item>Identify the known: <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>30.00</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Identify the unknown: <emphasis effect="italics">v</emphasis> in terms of <emphasis effect="italics">c</emphasis>.</item>
+<item>Express the answer as an equation. Start with:
+<equation id="fs-id1167793450740" class="unnumbered"><label/><m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Then solve for the unknown <emphasis effect="italics">v/c</emphasis> by first squaring both sides and then rearranging:
+<equation id="fs-id1167793877466" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>γ</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>γ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>γ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Do the calculation:
+<equation id="fs-id1167794226690" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>γ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>30.00</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0.99944</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+or 
+<equation id="fs-id1163723960934" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0.9994</m:mn><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167794167669"><title>Significance</title>
+Remember not to round off calculations until the final answer, or you could get erroneous results. This is especially true for special relativity calculations, where the differences might only be revealed after several decimal places. The relativistic effect is large here <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>30.00</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and we see that <emphasis effect="italics">v</emphasis> is approaching (not equaling) the speed of light. Because the distance as measured by the astronaut is so much smaller, the astronaut can travel it in much less time in her frame.</para>
+</example>
+<para id="fs-id1167794032610">People traveling at extremely high velocities could cover very large distances (thousands or even millions of light years) and age only a few years on the way. However, like emigrants in past centuries who left their home, these people would leave the Earth they know forever. Even if they returned, thousands to millions of years would have passed on Earth, obliterating most of what now exists. There is also a more serious practical obstacle to traveling at such velocities; immensely greater energies would be needed to achieve such high velocities than classical physics predicts can be attained. This will be discussed later in the chapter.</para>
+<para id="fs-id1167794030788">Why don’t we notice length contraction in everyday life? The distance to the grocery store does not seem to depend on whether we are moving or not. Examining the equation <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> we see that at low velocities <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mtext>&lt;</m:mtext><m:mtext>&lt;</m:mtext><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> the lengths are nearly equal, which is the classical expectation. But length contraction is real, if not commonly experienced. For example, a charged particle such as an electron traveling at relativistic velocity has electric field lines that are compressed along the direction of motion as seen by a stationary observer (<link target-id="CNX_UPhysics_38_04_BeamTube"/>). As the electron passes a detector, such as a coil of wire, its field interacts much more briefly, an effect observed at particle accelerators such as the 3-km-long Stanford Linear Accelerator (SLAC). In fact, to an electron traveling down the beam pipe at SLAC, the accelerator and Earth are all moving by and are length contracted. The relativistic effect is so great that the accelerator is only 0.5 m long to the electron. It is actually easier to get the electron beam down the pipe, because the beam does not have to be as precisely aimed to get down a short pipe as it would to get down a pipe 3 km long. This, again, is an experimental verification of the special theory of relativity.</para>
+<figure id="CNX_UPhysics_38_04_BeamTube">
+<media id="fs-id1167793950021" alt="An electron is shown traveling with a horizontal velocity v in a tube. The electric field lines point toward the electron, but are compressed into a cone above and below the electron.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_04_BeamTube.jpg"/>
+</media>
+<caption>The electric field lines of a high-velocity charged particle are compressed along the direction of motion by length contraction, producing an observably different signal as the particle goes through a coil.</caption>
+</figure>
+<note id="fs-id1167794064721" class="check-understanding">
+<exercise id="fs-id1167794027162">
+<problem id="fs-id1167793366723">
+<para id="fs-id1167793259734"><emphasis effect="bold">Check Your Understanding</emphasis> A particle is traveling through Earth’s atmosphere at a speed of 0.750<emphasis effect="italics">c</emphasis>. To an earthbound observer, the distance it travels is 2.50 km. How far does the particle travel as viewed from the particle’s reference frame?</para>
+</problem>
+<solution id="fs-id1167794128197">
+<para id="fs-id1167794128199"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.50</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo stretchy="false">)</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.750</m:mn><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>1.65</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167793466427" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167793301194" list-type="bulleted" bullet-style="bullet">
+<item>All observers agree upon relative speed.</item>
+<item>Distance depends on an observer’s motion. Proper length <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the distance between two points measured by an observer who is at rest relative to both of the points.</item>
+<item>Length contraction is the decrease in observed length of an object from its proper length <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> to length <emphasis effect="italics">L</emphasis> when its length is observed in a reference frame where it is traveling at speed <emphasis effect="italics">v</emphasis>.</item>
+<item>The proper length is the longest measurement of any length interval. Any observer who is moving relative to the system being observed measures a length shorter than the proper length.</item>
+</list>
+</section>
+<section id="fs-id1167793299668" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167793362235">
+<problem id="fs-id1167793362237">
+<para id="fs-id1167793280699">To whom does an object seem greater in length, an observer moving with the object or an observer moving relative to the object? Which observer measures the object’s proper length?</para>
+</problem>
+<solution id="fs-id1167793280702">
+<para id="fs-id1167793924776">The length of an object is greatest to an observer who is moving with the object, and therefore measures its proper length.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167794090542">
+<problem id="fs-id1167793926426">
+<para id="fs-id1167793926428">Relativistic effects such as time dilation and length contraction are present for cars and airplanes. Why do these effects seem strange to us?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793441636">
+<problem id="fs-id1167793441638">
+<para id="fs-id1167794296704">Suppose an astronaut is moving relative to Earth at a significant fraction of the speed of light. (a) Does he observe the rate of his clocks to have slowed? (b) What change in the rate of earthbound clocks does he see? (c) Does his ship seem to him to shorten? (d) What about the distance between two stars that lie in the direction of his motion? (e) Do he and an earthbound observer agree on his velocity relative to Earth?</para>
+</problem>
+<solution id="fs-id1167794296707">
+<para id="fs-id1167793316056">a. No, not within the astronaut’s own frame of reference. b. He sees Earth clocks to be in their rest frame moving by him, and therefore sees them slowed. c. No, not within the astronaut’s own frame of reference. d. Yes, he measures the distance between the two stars to be shorter. e. The two observers agree on their relative speed.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167794071932" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167793543353">
+<problem id="fs-id1167793268123">
+<para id="fs-id1167793268125">A spaceship, 200 m long as seen on board, moves by the Earth at 0.970<emphasis effect="italics">c</emphasis>. What is its length as measured by an earthbound observer?</para>
+</problem>
+<solution id="fs-id1167793713111">
+<para id="fs-id1167794049092">48.6 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793638126">
+<problem id="fs-id1167793638128">
+<para id="fs-id1167793638130">How fast would a 6.0 m-long sports car have to be going past you in order for it to appear only 5.5 m long?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793377362">
+<problem id="fs-id1167793377364">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167793377366">(a) How far does the muon in <link target-id="fs-id1167793912924" document="m58563"/> travel according to the earthbound observer? (b) How far does it travel as viewed by an observer moving with it? Base your calculation on its velocity relative to the Earth and the time it lives (proper time). (c) Verify that these two distances are related through length contraction <m:math><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>3.20</m:mn></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1167793918524">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167793918526">Using the values given in <link target-id="fs-id1167793912924" document="m58563"/>: a. 0.627 km; b. 2.00 km; c. 2.00 km</para></solution>
+</exercise>
+<exercise id="fs-id1167793432903">
+<problem id="fs-id1167793432905">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167794095197">(a) How long would the muon in <link target-id="fs-id1167793912924" document="m58563"/> have lived as observed on Earth if its velocity was <m:math><m:mrow><m:mn>0.0500</m:mn><m:mi>c</m:mi><m:mo>?</m:mo></m:mrow></m:math> (b) How far would it have traveled as observed on Earth? (c) What distance is this in the muon’s frame?</para></problem>
+</exercise>
+<exercise id="fs-id1167793363299">
+<problem id="fs-id1167793363301">
+<para id="fs-id1167793960774"><emphasis effect="bold">Unreasonable Results</emphasis> A spaceship is heading directly toward Earth at a velocity of 0.800<emphasis effect="italics">c</emphasis>. The astronaut on board claims that he can send a canister toward the Earth at 1.20<emphasis effect="italics">c</emphasis> relative to Earth. (a) Calculate the velocity the canister must have relative to the spaceship. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?</para>
+</problem>
+<solution id="fs-id1167793503253">
+<para id="fs-id1167793503255">a. 10.0<emphasis effect="italics">c</emphasis>; b. The resulting speed of the canister is greater than c, an impossibility. c. It is unreasonable to assume that the canister will move toward the earth at 1.20<emphasis effect="italics">c</emphasis>.</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167794058670">
+<term>length contraction</term>
+<meaning id="fs-id1167793692944">decrease in observed length of an object from its proper length <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> to length <emphasis effect="italics">L</emphasis> when its length is observed in a reference frame where it is traveling at speed <emphasis effect="italics">v</emphasis></meaning>
+</definition>
+<definition id="fs-id1167793933707">
+<term>proper length</term>
+<meaning id="fs-id1167793278452"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>;</m:mo></m:mrow></m:math> the distance between two points measured by an observer who is at rest relative to both of the points; for example, earthbound observers measure proper length when measuring the distance between two points that are stationary relative to Earth</meaning>
+</definition>
+</glossary>
+</document>

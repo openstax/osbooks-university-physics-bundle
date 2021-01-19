@@ -1,0 +1,311 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Normal Modes of a Standing Sound Wave</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58378</md:content-id>
+  <md:title>Normal Modes of a Standing Sound Wave</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain the mechanism behind sound-reducing headphones</item>
+<item>Describe resonance in a tube closed at one end and open at the other end</item>
+<item>Describe resonance in a tube open at both ends</item>
+</list></md:abstract>
+  <md:uuid>5c59c0fa-1b74-419a-b83b-76f77cdc54d8</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165039115780">Interference is the hallmark of waves, all of which exhibit constructive and destructive interference exactly analogous to that seen for water waves. In fact, one way to prove something “is a wave” is to observe interference effects. Since sound is a wave, we expect it to exhibit interference.</para>
+<section id="fs-id1165039109735">
+<title>Interference of Sound Waves</title>
+<para id="fs-id1165039124159">In <link document="m58367">Waves</link>, we discussed the interference of wave functions that differ only in a phase shift. We found that the wave function resulting from the superposition of <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is</para>
+<equation id="fs-id1165039093143" class="unnumbered"><label/><m:math><m:mrow><m:mi>y</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>2</m:mn><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>ϕ</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>ϕ</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039448121">One way for two identical waves that are initially in phase to become out of phase with one another is to have the waves travel different distances; that is, they have different path lengths. Sound waves provide an excellent example of a phase shift due to a path difference. As we have discussed, sound waves can basically be modeled as longitudinal waves, where the molecules of the medium oscillate around an equilibrium position, or as pressure waves.</para>
+<para id="fs-id1165039302539">When the waves leave the speakers, they move out as spherical waves (<link target-id="CNX_UPhysics_17_04_SpeakInt"/>). The waves interfere; constructive inference is produced by the combination of two crests or two troughs, as shown. Destructive interference is produced by the combination of a trough and a crest.</para>
+<figure id="CNX_UPhysics_17_04_SpeakInt">
+<media id="fs-id1165039445140" alt="A drawing of two speakers that act as sources of the same frequency sound waves. Points of high-intensity sound which result from two crests (compression) or two troughs (rarefaction) overlapping are shown. In addition, points of constructive interference are indicated.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_SpeakInt.jpg"/>
+</media>
+<caption>When sound waves are produced by a speaker, they travel at the speed of sound and move out as spherical waves. Here, two speakers produce the same steady tone (frequency). The result is points of high-intensity sound (highlighted), which result from two crests (compression) or two troughs (rarefaction) overlapping. Destructive interference results from a crest and trough overlapping. The points where there is constructive interference in the figure occur because the two waves are in phase at those points. Points of destructive interference (<link target-id="CNX_UPhysics_17_04_SpeakInt2"/>) are the result of the two waves being out of phase.</caption>
+</figure>
+<figure id="CNX_UPhysics_17_04_SpeakInt2">
+<media id="fs-id1165039510564" alt="Top picture is a drawing of two speakers being driven by a single signal generator. The sound waves produced by the speakers are in phase and are of a single frequency. The constructive interference is marked by the red and blue dots, the destructive interference is marked by black dots. Figure A corresponds to the situation when difference in the path lengths is one wavelength, resulting in total constructive interference and a resulting amplitude equal to twice the original amplitude.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_SpeakInt2.jpg"/>
+</media>
+<caption>Two speakers being driven by a single signal generator. The sound waves produced by the speakers are in phase and are of a single frequency. The sound waves interfere with each other. When two crests or two troughs coincide, there is constructive interference, marked by the red and blue dots. When a trough and a crest coincide, destructive interference occurs, marked by black dots. The phase difference is due to the path lengths traveled by the individual waves. Two identical waves travel two different path lengths to a point <emphasis effect="italics">P</emphasis>. (a) The difference in the path lengths is one wavelength, resulting in total constructive interference and a resulting amplitude equal to twice the original amplitude. (b) The difference in the path lengths is less than one wavelength but greater than one half a wavelength, resulting in an amplitude greater than zero and less than twice the original amplitude. (c) The difference in the path lengths is one half of a wavelength, resulting in total destructive interference and a resulting amplitude of zero.</caption>
+</figure>
+<para id="fs-id1165039106401">The phase difference at each point is due to the different path lengths traveled by each wave. When the difference in the path lengths is an integer multiple of a wavelength,</para>
+<equation id="fs-id1165039422766" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>λ</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mtext>,…,</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165039195192">the waves are in phase and there is constructive interference. When the difference in path lengths is an odd multiple of a half wavelength,</para>
+<equation id="fs-id1165039187199" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac><m:mi>λ</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mtext>,…,</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165039073932">the waves are <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> out of phase and the result is destructive interference. These points can be located with a sound-level intensity meter.</para>
+<example id="fs-id1165039086446">
+<para id="fs-id1165039052066"><title>Interference of Sound Waves</title>
+Two speakers are separated by 5.00 m and are being driven by a signal generator at an unknown frequency. A student with a sound-level meter walks out 6.00 m and down 2.00 m, and finds the first minimum intensity, as shown below. What is the frequency supplied by the signal generator? Assume the wave speed of sound is <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>343.00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<media id="fs-id1165035635203" alt="Picture is a drawing of two speakers placed 5 meters apart that are driven by a single signal generator. The sound waves produced by the speakers meet at the point that is 6 meters away from the top speaker and 2 meters below it. The distance from the top speaker to the point is r1; the distance from the bottom speaker to the point is r2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Ex160501.jpg"/>
+</media>
+<para id="fs-id1165039297484"><title>Strategy</title>
+The wave velocity is equal to <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>λ</m:mi><m:mi>T</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>λ</m:mi><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow></m:math> The frequency is then <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>λ</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> A minimum intensity indicates destructive interference and the first such point occurs where there is path difference of <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>λ</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> which can be found from the geometry.</para>
+<para id="fs-id1165039090123"><title>Solution</title></para>
+<list id="fs-id1165039080129" list-type="enumerated" number-style="arabic">
+<item>Find the path length to the minimum point from each speaker.<newline/>
+<media id="fs-id1165039349554" alt="Picture shows a triangle with two sides of r1 and 2. The height of a triangle is 6 meters. The altitude to the base of the triangle splits base into two parts that are 2 meters and 3 meters long.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Ex160501An_img.jpg"/>
+</media>
+<equation id="fs-id1165039123489" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>6.32</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>6.71</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></equation>
+</item>
+<item>Use the difference in the path length to find the wavelength.
+<equation id="fs-id1165039271472" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>6.71</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>−</m:mo><m:mn>6.32</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.39</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></equation>
+<equation id="fs-id1165039115536" class="unnumbered"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.39</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.78</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></equation>
+</item>
+<item>Find the frequency. 
+<equation id="fs-id1165035651051" class="unnumbered"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>343.00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>0.78</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>439.74</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math></equation>
+</item>
+</list>
+<para id="fs-id1165039003298"><title>Significance</title>
+If point <emphasis effect="italics">P</emphasis> were a point of maximum intensity, then the path length would be an integer multiple of the wavelength.</para>
+</example>
+<note id="fs-id1165039426433" class="check-understanding">
+<exercise id="fs-id1165039088286">
+<problem id="fs-id1165039297371">
+<para id="fs-id1165039119204"><emphasis effect="bold">Check Your Understanding</emphasis> If you walk around two speakers playing music, how come you do not notice places where the music is very loud or very soft, that is, where there is constructive and destructive interference?</para>
+</problem>
+<solution id="fs-id1165039108271">
+<para id="fs-id1165039078377">In the example, the two speakers were producing sound at a single frequency. Music has various frequencies and wavelengths.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165039398235">The concept of a phase shift due to a difference in path length is very important. You will use this concept again in <link document="m58536">Interference</link> and <link document="m58757">Photons and Matter Waves</link>, where we discuss how Thomas Young used this method in his famous double-slit experiment to provide evidence that light has wavelike properties.</para>
+</section>
+<section id="fs-id1165038994178">
+<title>Noise Reduction through Destructive Interference</title>
+<para id="fs-id1165039108577"><link target-id="CNX_UPhysics_17_04_HPDesign"/> shows a clever use of sound interference to cancel noise. Larger-scale applications of active <term class="no-emphasis">noise reduction</term> by destructive interference have been proposed for entire passenger compartments in commercial aircraft. To obtain destructive interference, a fast electronic analysis is performed, and a second sound is introduced <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> out of phase with the original sound, with its maxima and minima exactly reversed from the incoming noise. Sound waves in fluids are pressure waves and are consistent with Pascal’s principle; that is, pressures from two different sources add and subtract like simple numbers. Therefore, positive and negative gauge pressures add to a much smaller pressure, producing a lower-intensity sound. Although completely destructive interference is possible only under the simplest conditions, it is possible to reduce noise levels by 30 dB or more using this technique.</para>
+<figure id="CNX_UPhysics_17_04_HPDesign">
+<media id="fs-id1165039079396" alt="Top picture is a drawing of the headphone that consists of a speaker surrounded by the noise cancellation circuitry and a microphone next to it. Bottom picture shows a sinusoidal wave of the incoming noise that destructively overlaps with the second sound wave resulting in silence.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_HPDesign.jpg"/>
+</media>
+<caption>Headphones designed to cancel noise with destructive interference create a sound wave exactly opposite to the incoming sound. These headphones can be more effective than the simple passive attenuation used in most ear protection. Such headphones were used on the record-setting, around-the-world nonstop flight of the <emphasis effect="italics">Voyager</emphasis> aircraft in 1986 to protect the pilots’ hearing from engine noise.</caption>
+</figure>
+<note id="fs-id1165039270571" class="check-understanding">
+<exercise id="fs-id1165039072188">
+<problem id="fs-id1165039084283">
+<para id="fs-id1165039119181"><emphasis effect="bold">Check Your Understanding</emphasis> Describe how noise-canceling headphones differ from standard headphones used to block outside sounds.</para>
+</problem>
+<solution id="fs-id1165039111305">
+<para id="fs-id1165038974677">Regular headphones only block sound waves with a physical barrier. Noise-canceling headphones use destructive interference to reduce the loudness of outside sounds.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165035634536">Where else can we observe sound interference? All sound resonances, such as in musical instruments, are due to constructive and destructive interference. Only the resonant frequencies interfere constructively to form standing waves, whereas others interfere destructively and are absent.</para>
+</section>
+<section id="fs-id1165039454380">
+<title>Resonance in a Tube Closed at one End</title>
+<para id="fs-id1165039419225">As we discussed in <link document="m58367">Waves</link>, <term class="no-emphasis"><emphasis effect="italics">standing waves</emphasis></term> are formed by two waves moving in opposite directions. When two identical sinusoidal waves move in opposite directions, the waves may be modeled as</para>
+<equation id="fs-id1165035709978" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039276503">When these two waves interfere, the resultant wave is a standing wave:</para>
+<equation id="fs-id1165039315151" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mtext>R</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>2</m:mn><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039087188"><term class="no-emphasis">Resonance</term> can be produced due to the boundary conditions imposed on a wave. In <link document="m58367">Waves</link>, we showed that resonance could be produced in a string under tension that had symmetrical boundary conditions, specifically, a node at each end. We defined a node as a fixed point where the string did not move. We found that the symmetrical boundary conditions resulted in some frequencies resonating and producing standing waves, while other frequencies interfere destructively. Sound waves can resonate in a hollow tube, and the frequencies of the sound waves that resonate depend on the boundary conditions.</para>
+<para id="fs-id1165039482230">Suppose we have a tube that is closed at one end and open at the other. If we hold a vibrating <term class="no-emphasis">tuning fork</term> near the open end of the tube, an incident sound wave travels through the tube and reflects off the closed end. The reflected sound has the same frequency and wavelength as the incident sound wave, but is traveling in the opposite direction. At the closed end of the tube, the molecules of air have very little freedom to oscillate, and a node arises. At the open end, the molecules are free to move, and at the right frequency, an antinode occurs. Unlike the symmetrical boundary conditions for the standing waves on the string, the boundary conditions for a tube open at one end and closed at the other end are anti-symmetrical: a node at the closed end and an antinode at the open end.</para>
+<para id="fs-id1165039107955">If the tuning fork has just the right frequency, the air column in the tube resonates loudly, but at most frequencies it vibrates very little. This observation just means that the air column has only certain natural frequencies. Consider the lowest frequency that will cause the tube to resonate, producing a loud sound. There will be a node at the closed end and an antinode at the open end, as shown in <link target-id="CNX_UPhysics_17_04_Fork"/>.</para>
+<figure id="CNX_UPhysics_17_04_Fork">
+<media id="fs-id1165039412832" alt="Picture shows the resonance of air in a tube closed at one end. There is maximum displacement at the closed end and no displacement at the open end. Resonance is caused by a tuning fork placed next to the tube.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Fork.jpg"/>
+</media>
+<caption>Resonance of air in a tube closed at one end, caused by a tuning fork that vibrates at the lowest frequency that can produce resonance (the fundamental frequency). A node exists at the closed end and an antinode at the open end.</caption>
+</figure>
+<para id="fs-id1165038974738">The standing wave formed in the tube has an antinode at the open end and a node at the closed end. The distance from a node to an antinode is one-fourth of a wavelength, and this equals the length of the tube; thus, <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>L</m:mi><m:mo>.</m:mo></m:mrow></m:math> This same resonance can be produced by a vibration introduced at or near the closed end of the tube (<link target-id="CNX_UPhysics_17_04_Tube"/>). It is best to consider this a natural vibration of the air column, independently of how it is induced.</para>
+<figure id="CNX_UPhysics_17_04_Tube">
+<media id="fs-id1165039272793" alt="Picture is a diagram of the standing wave that is created in the tube by a vibration introduced near its closed end. The standing wave has three-fourths of its wavelength in the tube.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Tube.jpg"/>
+</media>
+<caption>The same standing wave is created in the tube by a vibration introduced near its closed end.</caption>
+</figure>
+
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1165038973832">Given that maximum air displacements are possible at the open end and none at the closed end, other shorter wavelengths can resonate in the tube, such as the one shown in <link target-id="CNX_UPhysics_17_04_Tube2"/>. Here the standing wave has three-fourths of its wavelength in the tube, or <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:msub><m:mi>λ</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mo>,</m:mo></m:mrow></m:math> so that <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>L</m:mi><m:mo>.</m:mo></m:mrow></m:math> Continuing this process reveals a whole series of shorter-wavelength and higher-frequency sounds that resonate in the tube. We use specific terms for the resonances in any system. The lowest resonant frequency is called the <term>fundamental</term>, while all higher resonant frequencies are called <term>overtones</term>. The resonant frequencies that are integral multiples of the fundamental are collectively called <term>harmonics</term>. The fundamental is the first harmonic, the second harmonic is twice the frequency of the first harmonic, and so on. Some of these harmonics may not exist for a given scenario. <link target-id="CNX_UPhysics_17_04_Tube3"/> shows the fundamental and the first three overtones (or the first, third, fifth, and seventh harmonics) in a tube closed at one end.</para><figure id="CNX_UPhysics_17_04_Tube2">
+<media id="fs-id1165039512958" alt="Picture is a diagram of the resonance for a tube closed at one end. The standing wave has maximum air displacement at the open end and none at the closed end. The standing wave has three-fourths of its wavelength in the tube.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Tube2.jpg"/>
+</media>
+<caption>Another resonance for a tube closed at one end. This standing wave has maximum air displacement at the open end and none at the closed end. The wavelength is shorter, with three-fourths <m:math><m:mrow><m:mi>λ</m:mi><m:mo>′</m:mo></m:mrow></m:math> equaling the length of the tube, so that <m:math><m:mrow><m:mi>λ</m:mi><m:mo>′</m:mo><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math>. This higher-frequency vibration is the first overtone.</caption>
+</figure>
+<figure id="CNX_UPhysics_17_04_Tube3">
+<media id="fs-id1165039105059" alt="Picture is a diagram of the fundamental and three lowest overtones for a tube closed at one end. Fundamental has one-fourth of its wavelength in a tube. First overtone has three-fourth of its wavelength in a tube, second overtone has five-fourth of its wavelength in a tube, third overtone has seven-fourth of its wavelength in a tube. All have maximum air displacements at the open end and none at the closed end.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Tube3.jpg"/>
+</media>
+<caption>The fundamental and three lowest overtones for a tube closed at one end. All have maximum air displacements at the open end and none at the closed end.</caption>
+</figure>
+<para id="fs-id1165039328687">The relationship for the resonant wavelengths of a tube closed at one end is</para>
+<note id="fs-id1165039066504" class="equation-callout">
+<equation id="fs-id1165039098927"><label/><m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mi>n</m:mi></m:mfrac><m:mi>L</m:mi><m:mspace width="0.5em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>..</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039298243">Now let us look for a pattern in the resonant frequencies for a simple tube that is closed at one end. The fundamental has <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>L</m:mi><m:mo>,</m:mo></m:mrow></m:math> and frequency is related to wavelength and the speed of sound as given by</para>
+<para id="fs-id1165039124360"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1165035686979">Solving for <emphasis effect="italics">f</emphasis> in this equation gives</para>
+<equation id="fs-id1165039248879" class="unnumbered"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039336738">where <emphasis effect="italics">v</emphasis> is the speed of sound in air. Similarly, the first overtone has <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math> (see <link target-id="CNX_UPhysics_17_04_Tube3"/>), so that</para>
+<equation id="fs-id1165035733233" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3</m:mn><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039346339">Because <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> we call the first overtone the third harmonic. Continuing this process, we see a pattern that can be generalized in a single expression. The resonant frequencies of a tube closed at one end are</para>
+<note id="fs-id1165035645591" class="equation-callout">
+<equation id="fs-id1165039448025"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039110977">where <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the fundamental, <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> is the first overtone, and so on. It is interesting that the resonant frequencies depend on the speed of sound and, hence, on temperature. This dependence poses a noticeable problem for organs in old unheated cathedrals, and it is also the reason why musicians commonly bring their wind instruments to room temperature before playing them.</para>
+</section>
+<section id="fs-id1165039290155">
+<title>Resonance in a Tube Open at Both Ends</title>
+<para id="fs-id1165039257375">Another source of standing waves is a tube that is open at both ends. In this case, the boundary conditions are symmetrical: an antinode at each end. The resonances of tubes open at both ends can be analyzed in a very similar fashion to those for tubes closed at one end. The air columns in tubes open at both ends have maximum air displacements at both ends (<link target-id="CNX_UPhysics_17_04_Tube4"/>). Standing waves form as shown.</para>
+<figure id="CNX_UPhysics_17_04_Tube4">
+<media id="fs-id1165038975896" alt="Picture is a diagram of the fundamental and three lowest overtones for a tube closed at one end. Fundamental has half of its wavelength in a tube. First overtone has one of its wavelength in a tube, second overtone has one and a half of its wavelength in a tube, third overtone has two of its wavelength in a tube. All have maximum air displacements at both ends of a tube.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Tube4.jpg"/>
+</media>
+<caption>The resonant frequencies of a tube open at both ends, including the fundamental and the first three overtones. In all cases, the maximum air displacements occur at both ends of the tube, giving it different natural frequencies than a tube closed at one end.</caption>
+</figure>
+<para id="fs-id1165039044607">The relationship for the resonant wavelengths of a tube open at both ends is</para>
+<note id="fs-id1165039051755" class="equation-callout">
+<equation id="fs-id1165039103925"><label/><m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>n</m:mi></m:mfrac><m:mi>L</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mtext>,...</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039464215">Based on the fact that a tube open at both ends has maximum air displacements at both ends, and using <link target-id="CNX_UPhysics_17_04_Tube4"/> as a guide, we can see that the resonant frequencies of a tube open at both ends are</para>
+<note id="fs-id1165039110965" class="equation-callout">
+<equation id="fs-id1165035678125"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3...</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039108636">where <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the fundamental, <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is the first overtone, <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> is the second overtone, and so on. Note that a tube open at both ends has a fundamental frequency twice what it would have if closed at one end. It also has a different spectrum of overtones than a tube closed at one end.</para>
+<para id="fs-id1165039483547">Note that a tube open at both ends has symmetrical boundary conditions, similar to the string fixed at both ends discussed in <link document="m58367">Waves</link>. The relationships for the wavelengths and frequencies of a stringed instrument are the same as given in <link target-id="fs-id1165039103925"/> and <link target-id="fs-id1165035678125"/>. The speed of the wave on the string (from <link document="m58367">Waves</link>) is <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> The air around the string vibrates at the same frequency as the string, producing sound of the same frequency. The sound wave moves at the speed of sound and the wavelength can be found using <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>λ</m:mi><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1165035676619" class="check-understanding">
+<exercise id="fs-id1165039110152">
+<problem id="fs-id1165038978258">
+<para id="fs-id1165039466243"><emphasis effect="bold">Check Your Understanding</emphasis> How is it possible to use a standing wave’s node and antinode to determine the length of a closed-end tube?</para>
+</problem>
+<solution id="fs-id1165039463928">
+<para id="fs-id1165039334881">When the tube resonates at its natural frequency, the wave’s node is located at the closed end of the tube, and the antinode is located at the open end. The length of the tube is equal to one-fourth of the wavelength of this wave. Thus, if we know the wavelength of the wave, we can determine the length of the tube.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1165039045771" class="media-2">
+<para id="fs-id1165039111695">This <link url="https://openstax.org/l/21soundwaves">video</link> lets you visualize sound waves.</para>
+</note>
+<note id="fs-id1165039112923" class="check-understanding">
+<exercise id="fs-id1165039005492">
+<problem id="fs-id1165039426452">
+<para id="fs-id1165039112563"><emphasis effect="bold">Check Your Understanding</emphasis> You observe two musical instruments that you cannot identify. One plays high-pitched sounds and the other plays low-pitched sounds. How could you determine which is which without hearing either of them play?</para>
+</problem>
+<solution id="fs-id1165039454657">
+<para id="fs-id1165039123072">Compare their sizes. High-pitch instruments are generally smaller than low-pitch instruments because they generate a smaller wavelength.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1165039090372" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1165039315644" list-type="bulleted" bullet-style="bullet">
+<item>Unwanted sound can be reduced using destructive interference.</item>
+<item>Sound has the same properties of interference and resonance as defined for all waves.</item>
+<item>In air columns, the lowest-frequency resonance is called the fundamental, whereas all higher resonant frequencies are called overtones. Collectively, they are called harmonics.</item>
+</list>
+</section>
+<section id="fs-id1165035719532" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1165039112298">
+<problem id="fs-id1165039295857">
+<para id="fs-id1165039284905">You are given two wind instruments of identical length. One is open at both ends, whereas the other is closed at one end. Which is able to produce the lowest frequency?</para>
+</problem>
+<solution id="fs-id1165039454608">
+<para id="fs-id1165039391225">The fundamental wavelength of a tube open at each end is 2<emphasis effect="italics">L</emphasis>, where the wavelength of a tube open at one end and closed at one end is 4<emphasis effect="italics">L</emphasis>. The tube open at one end has the lower fundamental frequency, assuming the speed of sound is the same in both tubes.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039054649">
+<problem id="fs-id1165039232521">
+<para id="fs-id1165035671900">What is the difference between an overtone and a harmonic? Are all harmonics overtones? Are all overtones harmonics?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039288240">
+<problem id="fs-id1165039302285">
+<para id="fs-id1165038979849">Two identical columns, open at both ends, are in separate rooms. In room <emphasis effect="italics">A</emphasis>, the temperature is <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and in room <emphasis effect="italics">B</emphasis>, the temperature is <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>25</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. A speaker is attached to the end of each tube, causing the tubes to resonate at the fundamental frequency. Is the frequency the same for both tubes? Which has the higher frequency?</para>
+</problem>
+<solution id="fs-id1165039295509">
+<para id="fs-id1165039087903">The wavelength in each is twice the length of the tube. The frequency depends on the wavelength and the speed of the sound waves. The frequency in room <emphasis effect="italics">B</emphasis> is higher because the speed of sound is higher where the temperature is higher.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1165039370885" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1165039299082">
+<problem id="fs-id1165039326294">
+<para id="fs-id1165039421501">(a) What is the fundamental frequency of a 0.672-m-long tube, open at both ends, on a day when the speed of sound is 344 m/s? (b) What is the frequency of its second harmonic?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039302309">
+<problem id="fs-id1165035615208">
+<para id="fs-id1165039384720">What is the length of a tube that has a fundamental frequency of 176 Hz and a first overtone of 352 Hz if the speed of sound is 343 m/s?</para>
+</problem>
+<solution id="fs-id1165039392029">
+<para id="fs-id1165039079351">0.974 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038961287">
+<problem id="fs-id1165039305782">
+<para id="fs-id1165039263700">The ear canal resonates like a tube closed at one end. (See [link]Figure 17_03_HumEar[/link].) If ear canals range in length from 1.80 to 2.60 cm in an average population, what is the range of fundamental resonant frequencies? Take air temperature to be <m:math><m:mrow><m:mn>37.0</m:mn><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> which is the same as body temperature.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035616312">
+<problem id="fs-id1165039312661">
+<para id="fs-id1165039045472">Calculate the first overtone in an ear canal, which resonates like a 2.40-cm-long tube closed at one end, by taking air temperature to be <m:math><m:mrow><m:mn>37.0</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Is the ear particularly sensitive to such a frequency? (The resonances of the ear canal are complicated by its nonuniform shape, which we shall ignore.)</para>
+</problem>
+<solution id="fs-id1165039440515">
+<para id="fs-id1165039425561">11.0 kHz; The ear is not particularly sensitive to this frequency, so we don’t hear overtones due to the ear canal.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035618576">
+<problem id="fs-id1165035610642">
+<para id="fs-id1165039333575">A crude approximation of voice production is to consider the breathing passages and mouth to be a resonating tube closed at one end. (a) What is the fundamental frequency if the tube is 0.240 m long, by taking air temperature to be <m:math><m:mrow><m:mn>37.0</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (b) What would this frequency become if the person replaced the air with helium? Assume the same temperature dependence for helium as for air.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039076126">
+<problem id="fs-id1165035669542">
+<para id="fs-id1165039341560">A 4.0-m-long pipe, open at one end and closed at one end, is in a room where the temperature is <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>22</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> A speaker capable of producing variable frequencies is placed at the open end and is used to cause the tube to resonate. (a) What is the wavelength and the frequency of the fundamental frequency? (b) What is the frequency and wavelength of the first overtone?</para>
+</problem>
+<solution id="fs-id1165039512488">
+<para id="fs-id1165039306804">a. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>344.08</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>λ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>16.00</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>21.51</m:mn><m:mspace width="0.2em"/><m:mtext>Hz;</m:mtext></m:mrow></m:math><newline/>
+b. <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>5.33</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>64.56</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039105168">
+<problem id="fs-id1165035742651">
+<para id="fs-id1165039050583">A 4.0-m-long pipe, open at both ends, is placed in a room where the temperature is<m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>25</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> A speaker capable of producing variable frequencies is placed at the open end and is used to cause the tube to resonate. (a) What are the wavelength and the frequency of the fundamental frequency? (b) What are the frequency and wavelength of the first overtone?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039086014">
+<problem id="fs-id1165039075835">
+<para id="fs-id1165035614301">A nylon guitar string is fixed between two lab posts 2.00 m apart. The string has a linear mass density of <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>7.20</m:mn><m:mspace width="0.2em"/><m:mtext>g/m</m:mtext></m:mrow></m:math> and is placed under a tension of 160.00 N. The string is placed next to a tube, open at both ends, of length <emphasis effect="italics">L</emphasis>. The string is plucked and the tube resonates at the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> mode. The speed of sound is 343 m/s. What is the length of the tube?</para>
+</problem>
+<solution id="fs-id1165038998068">
+<para id="fs-id1165039016135"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>string</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>149.07</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>λ</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.33</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>112.08</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>λ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>1.53</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039367998">
+<problem id="fs-id1165039368000">
+<para id="fs-id1165039266854">A 512-Hz tuning fork is struck and placed next to a tube with a movable piston, creating a tube with a variable length. The piston is slid down the pipe and resonance is reached when the piston is 115.50 cm from the open end. The next resonance is reached when the piston is 82.50 cm from the open end. (a) What is the speed of sound in the tube? (b) How far from the open end will the piston cause the next mode of resonance?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039276789">
+<problem id="fs-id1165039107265">
+<para id="fs-id1165039107267">Students in a physics lab are asked to find the length of an air column in a tube closed at one end that has a fundamental frequency of 256 Hz. They hold the tube vertically and fill it with water to the top, then lower the water while a 256-Hz tuning fork is rung and listen for the first resonance. (a) What is the air temperature if the resonance occurs for a length of 0.336 m? (b) At what length will they observe the second resonance (first overtone)?</para>
+</problem>
+<solution id="fs-id1165039269401">
+<para id="fs-id1165039020892">a. <m:math><m:mrow><m:mn>22.0</m:mn><m:mtext>°C</m:mtext></m:mrow></m:math>; b. 1.01 m</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165039353779">
+<term>fundamental</term>
+<meaning id="fs-id1165035634488">the lowest-frequency resonance</meaning>
+</definition>
+<definition id="fs-id1165035638490">
+<term>harmonics</term>
+<meaning id="fs-id1165039107239">the term used to refer collectively to the fundamental and its overtones</meaning>
+</definition>
+<definition id="fs-id1165039123159">
+<term>overtones</term>
+<meaning id="fs-id1165038989750">all resonant frequencies higher than the fundamental</meaning>
+</definition>
+</glossary>
+</document>

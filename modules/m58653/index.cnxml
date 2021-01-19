@@ -1,0 +1,108 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Refrigerators and Heat Pumps</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58653</md:content-id>
+  <md:title>Refrigerators and Heat Pumps</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe a refrigerator and a heat pump and list their differences</item>
+<item>Calculate the performance coefficients of simple refrigerators and heat pumps</item></list></md:abstract>
+  <md:uuid>95f89bee-9d25-40db-87de-728c493cb54b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167586011511">The cycles we used to describe the engine in the preceding section are all reversible, so each sequence of steps can just as easily be performed in the opposite direction. In this case, the engine is known as a refrigerator or a heat pump, depending on what is the focus: the heat removed from the cold reservoir or the heat dumped to the hot reservoir. Either a refrigerator or a heat pump is an engine running in reverse. For a <term>refrigerator</term>, the focus is on removing heat from a specific area. For a <term>heat pump</term>, the focus is on dumping heat to a specific area.</para>
+<para id="fs-id1167585759744">We first consider a refrigerator (<link target-id="CNX_UPhysics_21_03_Fridge"/>). The purpose of this engine is to remove heat from the cold reservoir, which is the space inside the refrigerator for an actual household refrigerator or the space inside a building for an air-conditioning unit.</para>
+<figure id="CNX_UPhysics_21_03_Fridge">
+<media id="fs-id1167582411296" alt="The figure shows schematic of a refrigerator or heat pump with an upward arrow Q subscript c at T subscript c. When this goes through the refrigerator or pump, an arrow W is added from right and the resultant upward arrow is Q subscript h at T subscript h.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_03_Fridge.jpg"/>
+</media>
+<caption>A schematic representation of a refrigerator (or a heat pump). The arrow next to work (<emphasis effect="italics">W</emphasis>) indicates work being put into the system.</caption>
+</figure>
+<para id="fs-id1167585971853">A refrigerator (or heat pump) absorbs heat <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> from the cold reservoir at Kelvin temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> and discards heat <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> to the hot reservoir at Kelvin temperature <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> while work <emphasis effect="italics">W</emphasis> is done on the engine’s working substance, as shown by the arrow pointing toward the system in the figure. A household refrigerator removes heat from the food within it while exhausting heat to the surrounding air. The required work, for which we pay in our electricity bill, is performed by the motor that moves a coolant through the coils. A schematic sketch of a household refrigerator is given in <link target-id="CNX_UPhysics_21_03_FridgeDiag"/>.</para>
+<figure id="CNX_UPhysics_21_03_FridgeDiag">
+<media id="fs-id1167585858767" alt="The figure shows schematic diagram and working of a refrigerator.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_03_FridgeDiag.jpg"/>
+</media>
+<caption>A schematic diagram of a household refrigerator. A coolant with a boiling temperature below the freezing point of water is sent through the cycle (clockwise in this diagram). The coolant extracts heat from the refrigerator at the evaporator, causing coolant to vaporize. It is then compressed and sent through the condenser, where it exhausts heat to the outside.</caption>
+</figure>
+<para id="fs-id1167582414256">The effectiveness or <term>coefficient of performance</term> <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub></m:mrow></m:math> of a refrigerator is measured by the heat removed from the cold reservoir divided by the work done by the working substance cycle by cycle:</para>
+<note id="fs-id1167582669004" class="equation-callout">
+<equation id="fs-id1167582858331"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mi>W</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167586033077">Note that we have used the condition of energy conservation, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> in the final step of this expression.</para>
+<para id="fs-id1167585842715">The effectiveness or coefficient of performance <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math> of a heat pump is measured by the heat dumped to the hot reservoir divided by the work done to the engine on the working substance cycle by cycle:</para>
+<note id="fs-id1167586282348" class="equation-callout">
+<equation id="fs-id1167586292005"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mi>W</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167582388524">Once again, we use the energy conservation condition <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> to obtain the final step of this expression.</para>
+<section id="fs-id1167585844105" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167582521993" list-type="bulleted" bullet-style="bullet">
+<item>A refrigerator or a heat pump is a heat engine run in reverse.</item>
+<item>The focus of a refrigerator is on removing heat from the cold reservoir with a coefficient of performance <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>The focus of a heat pump is on dumping heat to the hot reservoir with a coefficient of performance <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1167585877724" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167585859215">
+<problem id="fs-id1167586273993">
+<para id="fs-id1167585980637">If the refrigerator door is left open, what happens to the temperature of the kitchen?</para>
+</problem>
+<solution id="fs-id1167582425884">
+<para id="fs-id1167582812079">The temperature increases since the heat output behind the refrigerator is greater than the cooling from the inside of the refrigerator.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585909829">
+<problem id="fs-id1167586176358">
+<para id="fs-id1167585956250">Is it possible for the efficiency of a reversible engine to be greater than 1.0? Is it possible for the coefficient of performance of a reversible refrigerator to be less than 1.0?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167586225195" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167586291839">
+<problem id="fs-id1167582453251">
+<para id="fs-id1167582424407">A refrigerator has a coefficient of performance of 3.0. (a) If it requires 200 J of work per cycle, how much heat per cycle does it remove the cold reservoir? (b) How much heat per cycle is discarded to the hot reservoir?</para>
+</problem>
+<solution id="fs-id1167586219600">
+<para id="fs-id1167582451611">a. 600 J; b. 800 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585991364">
+<problem id="fs-id1167586235935">
+<para id="fs-id1167585907037">During one cycle, a refrigerator removes 500 J from a cold reservoir and discharges 800 J to its hot reservoir. (a) What is its coefficient of performance? (b) How much work per cycle does it require to operate?</para></problem>
+</exercise>
+<exercise id="fs-id1167585966299">
+<problem id="fs-id1167586143856">
+<para id="fs-id1167585767578">If a refrigerator discards 80 J of heat per cycle and its coefficient of performance is 6.0, what are (a) the quantity off heat it removes per cycle from a cold reservoir and (b) the amount of work per cycle required for its operation?</para>
+</problem>
+<solution id="fs-id1167582460583">
+<para id="fs-id1167582673486">a. 69 J; b. 11 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585956347">
+<problem id="fs-id1167585942354">
+<para id="fs-id1167585843116">A refrigerator has a coefficient of performance of 3.0. (a) If it requires 200 J of work per cycle, how much heat per cycle does it remove the cold reservoir? (b) How much heat per cycle is discarded to the hot reservoir?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167585852490">
+<term>coefficient of performance</term>
+<meaning id="fs-id1167585746122">measure of effectiveness of a refrigerator or heat pump</meaning>
+</definition>
+<definition id="fs-id1167585948347">
+<term>heat pump</term>
+<meaning id="fs-id1167585881536">device that delivers heat to a hot reservoir</meaning>
+</definition>
+<definition id="fs-id1167582450297">
+<term>refrigerator</term>
+<meaning id="fs-id1167585854223">device that removes heat from a cold reservoir</meaning>
+</definition>
+</glossary>
+
+</document>

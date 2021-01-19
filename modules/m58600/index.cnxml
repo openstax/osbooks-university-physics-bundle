@@ -1,0 +1,184 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Semiconductors and Doping</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58600</md:content-id>
+  <md:title>Semiconductors and Doping</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe changes to the energy structure of a semiconductor due to doping</item>
+<item>Distinguish between an n-type and p-type semiconductor</item>
+<item>Describe the Hall effect and explain its significance</item>
+<item>Calculate the charge, drift velocity, and charge carrier number density of a semiconductor using information from a Hall effect experiment</item></list></md:abstract>
+  <md:uuid>dfccac24-aad2-4043-acd9-f6aef3331970</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172098618359">In the preceding section, we considered only the contribution to the electric current due to electrons occupying states in the conduction band. However, moving an electron from the valence band to the conduction band leaves an unoccupied state or <term>hole</term> in the energy structure of the valence band, which a nearby electron can move into. As these holes are filled by other electrons, new holes are created. The electric current associated with this filling can be viewed as the collective motion of many negatively charged electrons or the motion of the positively charged electron holes.</para>
+<para id="fs-id1172100633528">To illustrate, consider the one-dimensional lattice in <link target-id="CNX_UPhysics_42_06_Holes"/>. Assume that each lattice atom contributes one valence electron to the current. As the hole on the right is filled, this hole moves to the left. The current can be interpreted as the flow of positive charge to the left. The density of holes, or the number of holes per unit volume, is represented by <emphasis effect="italics">p</emphasis>. Each electron that transitions into the conduction band leaves behind a hole. If the conduction band is originally empty, the conduction electron density <emphasis effect="italics">p</emphasis> is equal to the hole density, that is, <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>p</m:mi></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_42_06_Holes">
+<media id="fs-id1172098600993" alt="Figure shows four pairs of rows. Each pair has a top row of minus signs and a bottom row of circles with plus signs in them. An arrow labeled flow of positive charge points left. In the second row of minus signs, the last minus sign is missing. The empty space is labeled electron hole. In the third row of minus signs, the second to last minus sign is missing. An arrow is shown from here to the last minus sign. This is labeled electron fills hole. Similarly, in the fourth row of minus signs, the third from last minus sign is missing. An arrow is shown from here to the second to last minus sign. This is also labeled electron fills hole.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_06_Holes.jpg"/>
+</media>
+<caption>The motion of holes in a crystal lattice. As electrons shift to the right, an electron hole moves to the left.</caption>
+</figure>
+<para id="fs-id1172098528088">As mentioned, a semiconductor is a material with a filled valence band, an unfilled conduction band, and a relatively small energy gap between the bands. Excess electrons or holes can be introduced into the material by the substitution into the crystal lattice of an <term>impurity atom</term>, which is an atom of a slightly different valence number. This process is known as <term>doping</term>. For example, suppose we add an arsenic atom to a crystal of silicon (<link target-id="CNX_UPhysics_42_06_Impurities"/>(a)).</para>
+<figure id="CNX_UPhysics_42_06_Impurities">
+<media id="fs-id1172098317873" alt="Figure a shows a grid with circles marked silicon atoms on each junction. On one junction, is a different colored circle labeled arsenic atom. A small circle is shown in between the silicon atoms. This is labeled extra electron from arsenic atom. Figure b shows a grid with circles marked silicon atoms on each junction. On one junction, is a different colored circle labeled aluminum atom. A small circle is shown in between the silicon atoms. This is labeled hole.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_06_Impurities.jpg"/>
+</media>
+<caption>(a) A donor impurity and (b) an acceptor impurity. The introduction to impurities and acceptors into a semiconductor significantly changes the electronic properties of this material.</caption>
+</figure>
+<para id="fs-id1172100991668">Arsenic has five valence electrons, whereas silicon has only four. This extra electron must therefore go into the conduction band, since there is no room in the valence band. The arsenic ion left behind has a net positive charge that weakly binds the delocalized electron. The binding is weak because the surrounding atomic lattice shields the ion’s electric field. As a result, the binding energy of the extra electron is only about 0.02 eV. In other words, the energy level of the impurity electron is in the band gap below the conduction band by 0.02 eV, a much smaller value than the energy of the gap, 1.14 eV. At room temperature, this impurity electron is easily excited into the conduction band and therefore contributes to the conductivity (<link target-id="CNX_UPhysics_42_06_ExtraElect"/>(a)). An impurity with an extra electron is known as a <term>donor impurity</term>, and the doped semiconductor is called an <term><emphasis effect="italics">n</emphasis>-type semiconductor</term> because the primary carriers of charge (electrons) are negative.</para>
+<figure id="CNX_UPhysics_42_06_ExtraElect">
+<media id="fs-id1172100961147" alt="Figure a shows a shaded rectangle at the bottom labeled valance band and a line at the top labeled conduction band. The separation is labeled E subscript g. There is an electron at the top of the conduction band and a short line is below it. Figure b is similar but with many electrons above the conduction band and many short lines below the band forming a dotted line. The dotted line is labeled impurity band.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_06_ExtraElect.jpg"/>
+</media>
+<caption>(a) The extra electron from a donor impurity is excited into the conduction band; (b) formation of an impurity band in an <emphasis effect="italics">n</emphasis>-type semiconductor.</caption>
+</figure>
+<para id="fs-id1172100638917">By adding more donor impurities, we can create an <term>impurity band</term>, a new energy band created by semiconductor doping, as shown in <link target-id="CNX_UPhysics_42_06_ExtraElect"/>(b). The Fermi level is now between this band and the conduction band. At room temperature, many impurity electrons are thermally excited into the conduction band and contribute to the conductivity. Conduction can then also occur in the impurity band as vacancies are created there. Note that changes in the energy of an electron correspond to a change in the motion (velocities or kinetic energy) of these charge carriers with the semiconductor, but not the bulk motion of the semiconductor itself.</para>
+<para id="fs-id1172098618759">Doping can also be accomplished using impurity atoms that typically have one <emphasis effect="italics">fewer</emphasis> valence electron than the semiconductor atoms. For example, Al, which has three valence electrons, can be substituted for Si, as shown in <link target-id="CNX_UPhysics_42_06_Impurities"/>(b). Such an impurity is known as an <term>acceptor impurity</term>, and the doped semiconductor is called a <term><emphasis effect="italics">p</emphasis>-type semiconductor</term>, because the primary carriers of charge (holes) are positive. If a hole is treated as a positive particle weakly bound to the impurity site, then an empty electron state is created in the band gap just above the valence band. When this state is filled by an electron thermally excited from the valence band (<link target-id="CNX_UPhysics_42_06_Excited"/>(a)), a mobile hole is created in the valence band. By adding more acceptor impurities, we can create an impurity band, as shown in <link target-id="CNX_UPhysics_42_06_Excited"/>(b).</para>
+<figure id="CNX_UPhysics_42_06_Excited">
+<media id="fs-id1172098453018" alt="Figure a shows a shaded rectangle at the bottom labeled valance band and a line at the top labeled conduction band. The separation is labeled E subscript g. There is an electron at the top of the valence band with a short line below it. There is a hole in the valence band right below the electron. Figure b is similar but with many electrons above the valance band and many short lines below the electrons, forming a dotted line. The dotted line is labeled impurity band. Below each electron is a hole in the valence band.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_06_Excited.jpg"/>
+</media>
+<caption>(a) An electron from the conduction band is excited into the empty state resulting from the acceptor impurity; (b) formation of an impurity band in a <emphasis effect="italics">p</emphasis>-type semiconductor.</caption>
+</figure>
+<para id="fs-id1172098382391">The electric current of a doped semiconductor can be due to the motion of a <term>majority carrier</term>, in which holes are contributed by an impurity atom, or due to a <term>minority carrier</term>, in which holes are contributed purely by thermal excitations of electrons across the energy gap. In an <emphasis effect="italics">n</emphasis>-type semiconductor, majority carriers are free electrons contributed by impurity atoms, and minority carriers are free electrons produced by thermal excitations from the valence to the conduction band. In a <emphasis effect="italics">p</emphasis>-type semiconductor, the majority carriers are free holes contributed by impurity atoms, and minority carriers are free holes left by the filling of states due to thermal excitation of electrons across the gap. In general, the number of majority carriers far exceeds the minority carriers. The concept of a majority and minority carriers will be used in the next section to explain the operation of diodes and transistors.</para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172098709482">In studying <emphasis effect="italics">p</emphasis>- and <emphasis effect="italics">n</emphasis>-type doping, it is natural to ask: Do “electron holes” really act like particles? The existence of holes in a doped <emphasis effect="italics">p</emphasis>-type semiconductor is demonstrated by the Hall effect. The Hall effect is the production of a potential difference due to the motion of a conductor through an external magnetic field (see <link document="m58744">The Hall Effect</link>). A schematic of the Hall effect is shown in <link target-id="CNX_UPhysics_42_06_HallEffect"/>(a). A semiconductor strip is bathed in a uniform magnetic field (which points into the paper). As the electron holes move from left to right through the semiconductor, a Lorentz force drives these charges toward the upper end of the strip. (Recall that the motion of the positively charged carriers is determined by the right-hand rule.) Positive charge continues to collect on the upper edge of the strip until the force associated with the downward electric field between the upper and lower edges of the strip <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>F</m:mi><m:mi>E</m:mi></m:msub><m:mo>=</m:mo><m:mi>E</m:mi><m:mi>q</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> just balances the upward magnetic force <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>F</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Setting these forces equal to each other, we have <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>B</m:mi></m:mrow></m:math>. The voltage that develops across the strip is therefore</para><note id="fs-id1172098255866" class="equation-callout">
+<equation id="fs-id1172100574901"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>H</m:mtext></m:msub><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>B</m:mi><m:mi>w</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172098692218">where <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>H</m:mtext></m:msub></m:mrow></m:math> is the Hall voltage; <emphasis effect="italics">v</emphasis> is the hole’s <term>drift velocity</term>, or average velocity of a particle that moves in a partially random fashion; <emphasis effect="italics">B</emphasis> is the magnetic field strength; and <emphasis effect="italics">w</emphasis> is the width of the strip. Note that the Hall voltage is transverse to the voltage that initially produces current through the material. A measurement of the sign of this voltage (or potential difference) confirms the collection of holes on the top side of the strip. The magnitude of the Hall voltage yields the drift velocity (<emphasis effect="italics">v</emphasis>) of the majority carriers.</para>
+<para id="fs-id1172100952875">Additional information can also be extracted from the Hall voltage. Note that the electron current density (the amount of current per unit cross-sectional area of the semiconductor strip) is</para>
+<equation id="fs-id1172098585408"><m:math><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101028703">where <emphasis effect="italics">q</emphasis> is the magnitude of the charge, <emphasis effect="italics">n</emphasis> is the number of charge carriers per unit volume, and <emphasis effect="italics">v</emphasis> is the drift velocity. The current density is easily determined by dividing the total current by the cross-sectional area of the strip, <emphasis effect="italics">q</emphasis> is charge of the hole (the magnitude of the charge of a single electron), and <emphasis effect="italics">u</emphasis> is determined by the Hall effect <link target-id="fs-id1172098585408"/>. Hence, the above expression for the electron current density gives the number of charge carriers per unit volume, <emphasis effect="italics">n</emphasis>. A similar analysis can be conducted for negatively charged carriers in an <emphasis effect="italics">n</emphasis>-type material (see <link target-id="CNX_UPhysics_42_06_HallEffect"/>).</para>
+<figure id="CNX_UPhysics_42_06_HallEffect">
+<media id="fs-id1172101038158" alt="Figure a shows a plate of length L, width W and thickness t. A voltage source VX is connected across its length. The current in the loop, I is in the clockwise direction. A voltage source VH is connected across the width of the plate. The current in the loop, BZ, is anticlockwise. An arrow on the plate is labeled E. It points right. Figure b is similar to figure a, except that the polarities of VX and VH are reversed and the directions of I, BZ and E are also reversed.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_06_HallEffect.jpg"/>
+</media>
+<caption>The Hall effect. (a) Positively charged electron holes are drawn to the left by a uniform magnetic field that points downward. An electric field is generated to the right. (b) Negative charged electrons are drawn to the left by a magnetic field that points up. An electric field is generated to the left.</caption>
+</figure>
+<section id="fs-id1172100883951" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172098526939" list-type="bulleted" bullet-style="bullet">
+<item>The energy structure of a semiconductor can be altered by substituting one type of atom with another (doping).</item>
+<item>Semiconductor <emphasis effect="italics">n</emphasis>-type doping creates and fills new energy levels just below the conduction band.</item>
+<item>Semiconductor <emphasis effect="italics">p</emphasis>-type doping creates new energy levels just above the valence band.</item>
+<item>The Hall effect can be used to determine charge, drift velocity, and charge carrier number density of a semiconductor.</item>
+</list>
+</section>
+<section id="fs-id1172098616494" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172100719463">
+<problem id="fs-id1172100896656">
+<para id="fs-id1172100924636">What kind of semiconductor is produced if germanium is doped with (a) arsenic, and (b) gallium?</para>
+</problem>
+<solution id="fs-id1172098396192">
+<para id="fs-id1172098544678">a. Germanium has four valence electrons. If germanium doped with <emphasis effect="italics">arsenic</emphasis> (five valence electrons), four are used in bonding and one electron will be left for conduction. This produces an <emphasis effect="italics">n</emphasis>-type material. b. If germanium is doped with <emphasis effect="italics">gallium</emphasis> (three valence electrons), all three electrons are used in bonding, leaving one hole for conduction. This results in a <emphasis effect="italics">p</emphasis>-type material.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098479783">
+<problem id="fs-id1172100664832">
+<para id="fs-id1172100999885">What kind of semiconductor is produced if silicon is doped with (a) phosphorus, and (b) indium?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100736890">
+<problem id="fs-id1172098582155">
+<para id="fs-id1172100620337">What is the Hall effect and what is it used for?</para>
+</problem>
+<solution id="fs-id1172098692244">
+<para id="fs-id1172098749800">The Hall effect is the production of a potential difference due to motion of a conductor through an external magnetic field. This effect can be used to determine the drift velocity of the charge carriers (electrons or hole). If the current density is measured, this effect can also determine the number of charge carriers per unit volume.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098352391">
+<problem id="fs-id1172098453743">
+<para id="fs-id1172098396068">For an <emphasis effect="italics">n</emphasis>-type semiconductor, how do impurity atoms alter the energy structure of the solid?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100777031">
+<problem id="fs-id1172098312979">
+<para id="fs-id1172098643860">For a <emphasis effect="italics">p</emphasis>-type semiconductor, how do impurity atoms alter the energy structure of the solid?</para>
+</problem>
+<solution id="fs-id1172098410134">
+<para id="fs-id1172100895918">It produces new unfilled energy levels just above the filled valence band. These levels accept electrons from the valence band.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172098636725" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172098616180">
+<problem id="fs-id1172098762520">
+<para id="fs-id1172100896782">An experiment is performed to demonstrate the Hall effect. A thin rectangular strip of semiconductor with width 10 cm and length 30 cm is attached to a battery and immersed in a 1.50-<emphasis effect="italics">T</emphasis> field perpendicular to its surface. This produced a Hall voltage of 12 V. What is the drift velocity of the charge carriers?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098583315">
+<problem id="fs-id1172098320962">
+<para id="fs-id1172100977170">Suppose that the cross-sectional area of the strip (the area of the face perpendicular to the electric current) presented to the in the preceding problem is <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and the current is independently measured to be 2 mA. What is the number density of the charge carriers?</para>
+</problem>
+<solution id="fs-id1172100657944">
+<para id="fs-id1172098461930"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1.56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>holes/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098316203">
+<problem id="fs-id1172098396030">
+<para id="fs-id1172100904647">A current-carrying copper wire with cross-section <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> has a drift velocity of 0.02 cm/s. Find the total current running through the wire.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098626545">
+<problem id="fs-id1172100585790">
+<para id="fs-id1172098618468">The Hall effect is demonstrated in the laboratory. A thin rectangular strip of semiconductor with width 5 cm and cross-sectional area <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> is attached to a battery and immersed in a field perpendicular to its surface. The Hall voltage reads 12.5 V and the measured drift velocity is 50 m/s. What is the magnetic field?</para>
+</problem>
+<solution id="fs-id1172098646490">
+<para id="fs-id1172100652571">5 T</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172100950511">
+<term>acceptor impurity</term>
+<meaning id="fs-id1172098591331">atom substituted for another in a semiconductor that results in a free electron</meaning>
+</definition>
+<definition id="fs-id1172098464068">
+<term>donor impurity</term>
+<meaning id="fs-id1172098694815">atom substituted for another in a semiconductor that results in a free electron hole</meaning>
+</definition>
+<definition id="fs-id1172098389313">
+<term>doping</term>
+<meaning id="fs-id1172096062939">alteration of a semiconductor by the substitution of one type of atom with another</meaning>
+</definition>
+<definition id="fs-id1172098594697">
+<term>drift velocity</term>
+<meaning id="fs-id1172100575348">average velocity of a randomly moving particle</meaning>
+</definition>
+<definition id="fs-id1172096188454">
+<term>hole</term>
+<meaning id="fs-id1172098361688">unoccupied states in an energy band</meaning>
+</definition>
+<definition id="fs-id1172098500576">
+<term>impurity atom</term>
+<meaning id="fs-id1172098447481">acceptor or donor impurity atom</meaning>
+</definition>
+<definition id="fs-id1172098529090">
+<term>impurity band</term>
+<meaning id="fs-id1172098409585">new energy band create by semiconductor doping</meaning>
+</definition>
+<definition id="fs-id1172101010613">
+<term>majority carrier</term>
+<meaning id="fs-id1172098643396">free electrons (or holes) contributed by impurity atoms</meaning>
+</definition>
+<definition id="fs-id1172100595362">
+<term>minority carrier</term>
+<meaning id="fs-id1172098592136">free electrons (or holes) produced by thermal excitations across the energy gap</meaning>
+</definition>
+<definition id="fs-id1172098524589">
+<term><emphasis effect="italics">n</emphasis>-type semiconductor</term>
+<meaning id="fs-id1172098419284">doped semiconductor that conducts electrons</meaning>
+</definition>
+<definition id="fs-id1172096216106">
+<term><emphasis effect="italics">p</emphasis>-type semiconductor</term>
+<meaning id="fs-id1172098392100">doped semiconductor that conducts holes</meaning>
+</definition>
+</glossary>
+
+</document>

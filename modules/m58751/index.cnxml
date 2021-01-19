@@ -1,0 +1,134 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Energy in a Magnetic Field</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58751</md:content-id>
+  <md:title>Energy in a Magnetic Field</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain how energy can be stored in a magnetic field</item>
+<item>Derive the equation for energy stored in a coaxial cable given the magnetic energy density</item>
+</list></md:abstract>
+  <md:uuid>80f57dc6-5f6e-4de8-85e8-1faea71dc250</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134926105">The energy of a capacitor is stored in the electric field between its plates. Similarly, an inductor has the capability to store energy, but in its magnetic field. This energy can be found by integrating the <term>magnetic energy density</term>,</para>
+<equation id="fs-id1167131263823"><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167131168311">over the appropriate volume. To understand where this formula comes from, let’s consider the long, cylindrical solenoid of the previous section. Again using the infinite solenoid approximation, we can assume that the magnetic field is essentially constant and given by <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math> everywhere inside the solenoid. Thus, the energy stored in a solenoid or the magnetic energy density times volume is equivalent to</para>
+<equation id="fs-id1167134963649"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:msub><m:mi>u</m:mi><m:mtext>m</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>V</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi><m:mi>l</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134569155">With the substitution of <link document="m58748" target-id="fs-id1167132749881"/>, this becomes</para>
+<note id="fs-id1167134676595" class="equation-callout">
+<equation id="fs-id1167134972198"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167131393957">Although derived for a special case, this equation gives the energy stored in the magnetic field of <emphasis effect="italics">any</emphasis> inductor. We can see this by considering an arbitrary inductor through which a changing current is passing. At any instant, the magnitude of the induced emf is <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>i</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>i</m:mi></m:mrow></m:math> is the induced current at that instance. Therefore, the power absorbed by the inductor is</para><equation id="fs-id1167134962440"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>ε</m:mi><m:mi>i</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>i</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mi>i</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131632316">The total energy stored in the magnetic field when the current increases from 0 to <emphasis effect="italics">I</emphasis> in a time interval from 0 to <emphasis effect="italics">t</emphasis> can be determined by integrating this expression:</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134890851"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mi>P</m:mi><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>i</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:mfrac><m:mi>i</m:mi><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mi>L</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mn>0</m:mn><m:mi>I</m:mi></m:msubsup><m:mrow><m:mi>i</m:mi><m:mi>d</m:mi><m:mi>i</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation><example id="fs-id1167134942443">
+<para id="fs-id1167134882334"><title>Self-Inductance of a Coaxial Cable</title>
+<link target-id="CNX_UPhysics_31_03_Cylindrical"/> shows two long, concentric cylindrical shells of radii <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> As discussed in <link document="m58447">Capacitance</link> on capacitance, this configuration is a simplified representation of a <term class="no-emphasis">coaxial cable</term>. The capacitance per unit length of the cable has already been calculated. Now (a) determine the magnetic energy stored per unit length of the coaxial cable and (b) use this result to find the self-inductance per unit length of the cable.</para>
+<figure id="CNX_UPhysics_31_03_Cylindrical">
+<media id="fs-id1167129973114" alt="Figure a shows two concentrically arranged hollow cylinders. The radius of the inner one is R1 and that of the outer one is R2. Figure 2 shows a dotted circle with radius r in between the two cylinders. Figure c shows a cylinder of length and radius r in between the two cylinders. Its thickness is dr.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_03_cylindrical.jpg"/>
+</media>
+<caption>(a) A coaxial cable is represented here by two hollow, concentric cylindrical conductors along which electric current flows in opposite directions. (b) The magnetic field between the conductors can be found by applying Ampère’s law to the dashed path. (c) The cylindrical shell is used to find the magnetic energy stored in a length <emphasis effect="italics">l</emphasis> of the cable.</caption>
+</figure>
+<para id="fs-id1167134520405"><title>Strategy</title>
+The magnetic field both inside and outside the coaxial cable is determined by Ampère’s law. Based on this magnetic field, we can use <link target-id="fs-id1167134890851"/> to calculate the energy density of the magnetic field. The magnetic energy is calculated by an integral of the magnetic energy density times the differential volume over the cylindrical shell. After the integration is carried out, we have a closed-form solution for part (a). The self-inductance per unit length is determined based on this result and <link target-id="fs-id1167134890851"/>.</para>
+<para id="fs-id1167134911819"><title>Solution</title></para>
+<list id="fs-id1167131456776" list-type="enumerated" number-style="lower-alpha">
+<item>We determine the magnetic field between the conductors by applying Ampère’s law to the dashed circular path shown in <link target-id="CNX_UPhysics_31_03_Cylindrical"/>(b). Because of the cylindrical symmetry, <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is constant along the path, and
+<equation id="fs-id1167134643369" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo stretchy="false">∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+This gives us
+<equation id="fs-id1167131205788" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+In the region outside the cable, a similar application of Ampère’s law shows that <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, since no net current crosses the area bounded by a circular path where <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> This argument also holds when <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo></m:mrow></m:math> that is, in the region within the inner cylinder. All the magnetic energy of the cable is therefore stored between the two conductors. Since the energy density of the magnetic field is
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134676288" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+the energy stored in a cylindrical shell of inner radius <emphasis effect="italics">r</emphasis>, outer radius <m:math><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>,</m:mo></m:mrow></m:math> and length <emphasis effect="italics">l</emphasis> (see part (c) of the figure) is
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134468112" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Thus, the total energy of the magnetic field in a length <emphasis effect="italics">l</emphasis> of the cable is
+<equation id="fs-id1167134939398" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>U</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>l</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+and the energy per unit length is <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
+<item>From <link target-id="fs-id1167134890851"/>,
+<equation id="fs-id1167131395038" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+where <emphasis effect="italics">L</emphasis> is the self-inductance of a length <emphasis effect="italics">l</emphasis> of the coaxial cable. Equating the previous two equations, we find that the self-inductance per unit length of the cable is
+<equation id="fs-id1167131615698" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167131472554"><title>Significance</title>
+The inductance per unit length depends only on the inner and outer radii as seen in the result. To increase the inductance, we could either increase the outer radius <m:math><m:mrow><m:mo>(</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> or decrease the inner radius <m:math><m:mrow><m:mo>(</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>. In the limit as the two radii become equal, the inductance goes to zero. In this limit, there is no coaxial cable. Also, the magnetic energy per unit length from part (a) is proportional to the square of the current.</para>
+</example>
+<note id="fs-id1167131495742" class="check-understanding">
+<exercise id="fs-id1167131102226">
+<problem id="fs-id1167131541586">
+<para id="fs-id1167134686534"><emphasis effect="bold">Check Your Understanding</emphasis> How much energy is stored in the inductor of <link document="m58748" target-id="fs-id1167132367239"/> after the current reaches its maximum value?</para>
+</problem>
+<solution id="fs-id1167134531745">
+<para id="fs-id1167134531747">0.50 J</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131201117" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167130004532" list-type="bulleted" bullet-style="bullet">
+<item>The energy stored in an inductor <emphasis effect="italics">U</emphasis> is
+<equation id="fs-id1167134678384" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The self-inductance per unit length of coaxial cable is 
+<equation id="fs-id1167131335266" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+</section>
+<section id="fs-id1167131499014" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167131420660">
+<problem id="fs-id1167134435973">
+<para id="fs-id1167134435975">Show that <m:math><m:mrow><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math> has units of energy.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167134962692" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167131117623">
+<problem id="fs-id1167134916936">
+<para id="fs-id1167134916938">At the instant a current of 0.20 A is flowing through a coil of wire, the energy stored in its magnetic field is <m:math><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the self-inductance of the coil?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131631271">
+<problem id="fs-id1167131614626">
+<para id="fs-id1167131614628">Suppose that a rectangular toroid has 2000 windings and a self-inductance of 0.040 H. If <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, what is the current flowing through a rectangular toroid when the energy in its magnetic field is <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167130245953">
+<para id="fs-id1167129963748">0.01 A</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131179186">
+<problem id="fs-id1167131179188">
+<para id="fs-id1167131116426">Solenoid <emphasis effect="italics">A</emphasis> is tightly wound while solenoid <emphasis effect="italics">B</emphasis> has windings that are evenly spaced with a gap equal to the diameter of the wire. The solenoids are otherwise identical. Determine the ratio of the energies stored per unit length of these solenoids when the same current flows through each.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131259494">
+<problem id="fs-id1167131259497">
+<para id="fs-id1167131548422">A 10-H inductor carries a current of 20 A. How much ice at <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> could be melted by the energy stored in the magnetic field of the inductor? (<emphasis effect="italics">Hint</emphasis>: Use the value <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>334</m:mn><m:mspace width="0.2em"/><m:mtext>J/g</m:mtext></m:mrow></m:math> for ice.)</para>
+</problem>
+<solution id="fs-id1167129964908">
+<para id="fs-id1167131428371">6.0 g</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167129962406">
+<problem id="fs-id1167131561274">
+<para id="fs-id1167131561276">A coil with a self-inductance of 3.0 H and a resistance of <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> carries a steady current of 2.0 A. (a) What is the energy stored in the magnetic field of the coil? (b) What is the energy per second dissipated in the resistance of the coil?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131475301">
+<problem id="fs-id1167131475304">
+<para id="fs-id1167134970149">A current of 1.2 A is flowing in a coaxial cable whose outer radius is five times its inner radius. What is the magnetic field energy stored in a 3.0-m length of the cable?</para>
+</problem>
+<solution id="fs-id1167129968165">
+<para id="fs-id1167129968167"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mn>7.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131173333">
+<term>magnetic energy density</term>
+<meaning id="fs-id1167131394102">energy stored per volume in a magnetic field</meaning>
+</definition>
+</glossary>
+</document>

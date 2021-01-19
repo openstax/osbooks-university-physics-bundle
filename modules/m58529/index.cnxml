@@ -1,0 +1,183 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Images Formed by Refraction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58529</md:content-id>
+  <md:title>Images Formed by Refraction</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe image formation by a single refracting surface</item>
+<item>Determine the location of an image and calculate its properties by using a ray diagram</item>
+<item>Determine the location of an image and calculate its properties by using the equation for a single refracting surface</item>
+</list></md:abstract>
+  <md:uuid>579977ed-990b-4e1d-9507-971b25710b78</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167132438916">When rays of light propagate from one medium to another, these rays undergo refraction, which is when light waves are bent at the interface between two media. The refracting surface can form an image in a similar fashion to a reflecting surface, except that the law of refraction (Snell’s law) is at the heart of the process instead of the law of reflection.</para>
+<section id="fs-id1167132438970">
+<title>Refraction at a Plane Interface—Apparent Depth</title>
+<para id="fs-id1167133774305">If you look at a straight rod partially submerged in water, it appears to bend at the surface (<link target-id="CNX_UPhysics_35_03_36.13_Sami"/>). The reason behind this curious effect is that the image of the rod inside the water forms a little closer to the surface than the actual position of the rod, so it does not line up with the part of the rod that is above the water. The same phenomenon explains why a fish in water appears to be closer to the surface than it actually is.</para>
+<figure id="CNX_UPhysics_35_03_36.13_Sami">
+<media id="fs-id1167133402848" alt="Figure depicts the side view of a rod dipped in water. A lighter line labeled image of rod is shown in such a way that it appears as if the rod is bent at the junction of air and water. Point P is on the rod and point Q is on the image of rod. A dotted line PQ is shown perpendicular to the surface of the water. Two rays originate from P, travel upwards to the surface of the water, bend at an angle and reach the eye of the observer. The back extensions of the bent rays seem to originate from point Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_03_36.13_Sami.jpg"/>
+</media>
+<caption>Bending of a rod at a water-air interface. Point <emphasis effect="italics">P</emphasis> on the rod appears to be at point <emphasis effect="italics">Q</emphasis>, which is where the image of point <emphasis effect="italics">P</emphasis> forms due to refraction at the air-water interface.</caption>
+</figure>
+<para id="fs-id1167132505011">To study image formation as a result of refraction, consider the following questions:</para>
+<list id="fs-id1167132413386" list-type="enumerated" number-style="arabic">
+<item>What happens to the rays of light when they enter or pass through a different medium?</item>
+<item>Do the refracted rays originating from a single point meet at some point or diverge away from each other?</item>
+</list>
+<para id="fs-id1167133871900">To be concrete, we consider a simple system consisting of two media separated by a plane interface (<link target-id="CNX_UPhysics_35_03_appdepth"/>). The object is in one medium and the observer is in the other. For instance, when you look at a fish from above the water surface, the fish is in medium 1 (the water) with refractive index 1.33, and your eye is in medium 2 (the air) with refractive index 1.00, and the surface of the water is the interface. The depth that you “see” is the image height <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> and is called the <term>apparent depth</term>. The actual depth of the fish is the object height <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_35_03_appdepth">
+<media id="fs-id1167132499768" alt="Figure shows the side view of some quantity of water. Point P lies within it. Two rays originate from point P, bend at the surface of the water and reach the eye of the observer. The back extensions of these refracted rays intersect at point Q. PQ is perpendicular to the surface of the water and intersects it at point O. Distance OP is labeled h subscript o and distance OQ is labeled h subscript i. The angle formed by the refracted ray with a line perpendicular to the surface of the water is labeled theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_03_appdepth.jpg"/>
+</media>
+<caption>Apparent depth due to refraction. The real object at point <emphasis effect="italics">P</emphasis> creates an image at point <emphasis effect="italics">Q</emphasis>. The image is not at the same depth as the object, so the observer sees the image at an “apparent depth.”</caption>
+</figure>
+<para id="fs-id1167133830315">The apparent depth <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> depends on the angle at which you view the image. For a view from above (the so-called “normal” view), we can approximate the refraction angle <m:math><m:mi>θ</m:mi></m:math> to be small, and replace sin <m:math><m:mi>θ</m:mi></m:math> in Snell’s law by tan <m:math><m:mi>θ</m:mi></m:math>. With this approximation, you can use the triangles <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>O</m:mi><m:mi>P</m:mi><m:mi>R</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>O</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math> to show that the apparent depth is given by</para>
+<note id="fs-id1167132418430" class="equation-callout">
+<equation id="fs-id1167132418431"><label/><m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167132379971">The derivation of this result is left as an exercise. Thus, a fish appears at 3/4 of the real depth when viewed from above.</para>
+</section>
+<section id="fs-id1167133536355">
+<title>Refraction at a Spherical Interface</title>
+<para id="fs-id1167133522397">Spherical shapes play an important role in optics primarily because high-quality spherical shapes are far easier to manufacture than other curved surfaces. To study refraction at a single spherical surface, we assume that the medium with the spherical surface at one end continues indefinitely (a “semi-infinite” medium).</para>
+<section id="fs-id1167133364974">
+<title>Refraction at a convex surface</title>
+<para id="fs-id1167132503070">Consider a point source of light at point <emphasis effect="italics">P</emphasis> in front of a convex surface made of glass (see <link target-id="CNX_UPhysics_35_03_refrconv"/>). Let <emphasis effect="italics">R</emphasis> be the radius of curvature, <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> be the refractive index of the medium in which object point <emphasis effect="italics">P</emphasis> is located, and <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> be the refractive index of the medium with the spherical surface. We want to know what happens as a result of refraction at this interface.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_35_03_refrconv"><media id="fs-id1167132485423" alt="Figure shows a section of a sphere. The refractive index of air is n subscript 1 and that of the sphere is n subscript 2. Centre of the sphere is C and radius is R. A ray originating from point P on the optical axis outside the sphere strikes the convex surface of the sphere and is refracted within it. It intersects the axis at point P prime within the sphere, on the other side of the center. A dotted line labeled normal to interface connects the center of the sphere to the point of incidence. It makes an angle phi with the optical axis. The incident and refracted rays make angles alpha and beta respectively with the optical axis and angles theta 1 and theta 2 respectively with the normal to interface.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_03_refrconv_New.jpg"/>
+</media>
+
+<caption>Refraction at a convex surface <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</caption></figure><para id="fs-id1167133826900">Because of the symmetry involved, it is sufficient to examine rays in only one plane. The figure shows a ray of light that starts at the object point <emphasis effect="italics">P</emphasis>, refracts at the interface, and goes through the image point <m:math><m:mrow><m:msup><m:mi>P</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>. We derive a formula relating the object distance <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>, the image distance <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>, and the radius of curvature <emphasis effect="italics">R</emphasis>.</para>
+<para id="fs-id1167132322294">Applying Snell’s law to the ray emanating from point <emphasis effect="italics">P</emphasis> gives <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. We work in the small-angle approximation, so <m:math><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math> and Snell’s law then takes the form</para>
+<equation id="fs-id1167132682518" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≈</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133717887">From the geometry of the figure, we see that</para>
+<equation id="fs-id1167133358960" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo>,</m:mo><m:mspace width="0.6em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mi>ϕ</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132375206">Inserting these expressions into Snell’s law gives</para>
+<equation id="fs-id1167133647644" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>≈</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>ϕ</m:mi><m:mo>−</m:mo><m:mi>β</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133835012">Using the diagram, we calculate the tangent of the angles <m:math><m:mrow><m:mi>α</m:mi><m:mo>,</m:mo><m:mi>β</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi></m:mrow></m:math>:</para>
+<equation id="fs-id1167133553660" class="unnumbered"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>α</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>β</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132287653">Again using the small-angle approximation, we find that <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math>, so the above relationships become</para>
+<equation id="fs-id1167133555075" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mi>β</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mi>ϕ</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132395007">Putting these angles into Snell’s law gives</para>
+<equation id="fs-id1167133560282" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>R</m:mi></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mi>h</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132683269">We can write this more conveniently as</para>
+<note id="fs-id1167133545800" class="equation-callout">
+<equation id="fs-id1167133545801"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133774292">If the object is placed at a special point called the <term>first focus</term>, or the <term>object focus</term> <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, then the image is formed at infinity, as shown in part (a) of <link target-id="CNX_UPhysics_35_03_refrobj"/>.</para>
+<figure id="CNX_UPhysics_35_03_refrobj">
+<media id="fs-id1167133365425" alt="Figure a shows a section of a sphere and a point F1 outside it, on the optical axis. Rays originating from F1 strike the convex surface and are refracted within the sphere as parallel rays. The distance of F1 from the surface is f subscript 1. Figure b shows rays parallel to the optical axis striking the convex surface and being refracted. They converge at point F2 within the sphere. F2 lies on the optical axis between the surface and the center of the sphere. The distance of F2 from the surface is f subscript 2. In both figures the refractive index of air is n1 and that of the sphere is n2 greater than n1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_03_refrobj.jpg"/>
+</media>
+<caption>(a) First focus (called the “object focus”) for refraction at a convex surface. (b) Second focus (called “image focus”) for refraction at a convex surface.</caption>
+</figure>
+<para id="fs-id1167133521784">We can find the location <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> of the first focus <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> by setting <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>∞</m:mtext></m:mrow></m:math> in the preceding equation.</para>
+<equation id="fs-id1167133523353"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>∞</m:mtext></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math></equation>
+<equation id="fs-id1167132530480"><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mi>R</m:mi></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167132297585">Similarly, we can define a <term>second focus</term> or <term>image focus</term> <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> where the image is formed for an object that is far away [part (b)]. The location of the second focus <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is obtained from <link target-id="fs-id1167133545801"/> by setting <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>∞</m:mtext></m:mrow></m:math>:</para>
+<equation id="fs-id1167133525687" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mtext>∞</m:mtext></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math></equation>
+<equation id="fs-id1167133568747" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mi>R</m:mi></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133873301">Note that the object focus is at a different distance from the vertex than the image focus because <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</para>
+</section>
+<section id="fs-id1167132499414">
+<title>Sign convention for single refracting surfaces</title>
+<para id="fs-id1167132227871">Although we derived this equation for refraction at a convex surface, the same expression holds for a concave surface, provided we use the following sign convention:</para>
+<list id="fs-id1167133858380" list-type="enumerated" number-style="arabic">
+<item><m:math><m:mrow><m:mi>R</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> if surface is convex toward object; otherwise, <m:math><m:mrow><m:mi>R</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> if image is real and on opposite side from the object; otherwise, <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+</section>
+<section id="fs-id1167132286832" class="key-concepts">
+<title>Summary</title>
+<para id="fs-id1167133546294">This section explains how a single refracting interface forms images.</para>
+<list id="fs-id1167133825982">
+<item>When an object is observed through a plane interface between two media, then it appears at an apparent distance <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> that differs from the actual distance <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>: <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>.</item>
+<item>An image is formed by the refraction of light at a spherical interface between two media of indices of refraction <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</item>
+<item>Image distance depends on the radius of curvature of the interface, location of the object, and the indices of refraction of the media.</item>
+</list>
+</section>
+<section id="fs-id1167132275907" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167133454715">
+<problem id="fs-id1167132689420">
+<para id="fs-id1167133464526">Derive the formula for the apparent depth of a fish in a fish tank using Snell’s law.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133540802">
+<problem id="fs-id1167133683400">
+<para id="fs-id1167132223120">Use a ruler and a protractor to find the image by refraction in the following cases. Assume an air-glass interface. Use a refractive index of 1 for air and of 1.5 for glass. (<emphasis effect="italics">Hint</emphasis>: Use Snell’s law at the interface.)</para>
+<para id="fs-id1167133319443">(a) A point object located on the axis of a concave interface located at a point within the focal length from the vertex.</para>
+<para id="fs-id1167133497682">(b) A point object located on the axis of a concave interface located at a point farther than the focal length from the vertex.</para>
+<para id="fs-id1167132331669">(c) A point object located on the axis of a convex interface located at a point within the focal length from the vertex.</para>
+<para id="fs-id1167133395446">(d) A point object located on the axis of a convex interface located at a point farther than the focal length from the vertex.</para>
+<para id="fs-id1167133361235">(e) Repeat (a)–(d) for a point object off the axis.</para>
+</problem>
+<solution id="fs-id1167133679118">
+<para id="fs-id1167132520312">answers may vary</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167132414848" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167133397384">
+<problem id="fs-id1167133558554">
+<para id="fs-id1167133854996">An object is located in air 30 cm from the vertex of a concave surface made of glass with a radius of curvature 10 cm. Where does the image by refraction form and what is its magnification? Use <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>air</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>glass</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1.5</m:mn></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133398197">
+<problem id="fs-id1167133410174">
+<para id="fs-id1167133537166">An object is located in air 30 cm from the vertex of a convex surface made of glass with a radius of curvature 80 cm. Where does the image by refraction form and what is its magnification?</para>
+</problem>
+<solution id="fs-id1167133698413">
+<para id="fs-id1167132201544"><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−55</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>1.8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133465541">
+<problem id="fs-id1167132220724">
+<para id="fs-id1167133741079">An object is located in water 15 cm from the vertex of a concave surface made of glass with a radius of curvature 10 cm. Where does the image by refraction form and what is its magnification? Use <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>water</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>glass</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1.5</m:mn></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132201554">
+<problem id="fs-id1167132216588">
+<para id="fs-id1167132235828">An object is located in water 30 cm from the vertex of a convex surface made of Plexiglas with a radius of curvature of 80 cm. Where does the image form by refraction and what is its magnification? <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>water</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>Plexiglas</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1.65</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167132238190">
+<para id="fs-id1167133824474"><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−41</m:mn><m:mspace width="0.2em"/><m:mtext>cm,</m:mtext><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1.4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132528588">
+<problem id="fs-id1167132575481">
+<para id="fs-id1167132614771">An object is located in air 5 cm from the vertex of a concave surface made of glass with a radius of curvature 20 cm. Where does the image form by refraction and what is its magnification? Use <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>air</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>glass</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1.5</m:mn></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133417586">
+<problem id="fs-id1167133871696">
+<para id="fs-id1167133647681">Derive the spherical interface equation for refraction at a concave surface. (<emphasis effect="italics">Hint</emphasis>: Follow the derivation in the text for the convex surface.)</para>
+</problem>
+<solution id="fs-id1167133353150">
+<para id="fs-id1167133536891">proof</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167132379531">
+<term>apparent depth</term>
+<meaning id="fs-id1167133514028">depth at which an object is perceived to be located with respect to an interface between two media</meaning>
+</definition>
+<definition id="fs-id1167132416881">
+<term>first focus or object focus</term>
+<meaning id="fs-id1167133606608">object located at this point will result in an image created at infinity on the opposite side of a spherical interface between two media</meaning>
+</definition>
+<definition id="fs-id1167133397421">
+<term>second focus or image focus</term>
+<meaning id="fs-id1167132376642">for a converging interface, the point where a bundle of parallel rays refracting at a spherical interface; for a diverging interface, the point at which the backward continuation of the refracted rays will converge between two media will focus</meaning>
+</definition>
+</glossary>
+</document>

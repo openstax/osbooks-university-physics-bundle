@@ -1,0 +1,166 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>Magnetic Field Due to a Thin Straight Wire</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58461</md:content-id>
+  <md:title>Magnetic Field Due to a Thin Straight Wire</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para> 
+<list>
+<item>Explain how the Biot-Savart law is used to determine the magnetic field due to a thin, straight wire.</item>
+<item>Determine the dependence of the magnetic field from a thin, straight wire based on the distance from it and the current flowing in the wire.</item>
+<item>Sketch the magnetic field created from a thin, straight wire by using the second right-hand rule.</item>
+</list></md:abstract>
+  <md:uuid>96d184da-45c6-4833-862e-f7c4256e40d4</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1166168109021">How much current is needed to produce a significant magnetic field, perhaps as strong as Earth’s field? Surveyors will tell you that overhead electric power lines create magnetic fields that interfere with their compass readings. Indeed, when Oersted discovered in 1820 that a current in a wire affected a compass needle, he was not dealing with extremely large currents. How does the shape of wires carrying current affect the shape of the magnetic field created? We noted in Chapter 28 that a current loop created a magnetic field similar to that of a bar magnet, but what about a straight wire? We can use the Biot-Savart law to answer all of these questions, including determining the magnetic field of a long straight wire.</para>
+<para id="fs-id1166168173733"><link target-id="CNX_UPhysics_29_02_WireB"/> shows a section of an infinitely long, straight wire that carries a current <emphasis effect="italics">I</emphasis>. What is the magnetic field at a point <emphasis effect="italics">P</emphasis>, located a distance <emphasis effect="italics">R</emphasis> from the wire?</para>
+<figure id="CNX_UPhysics_29_02_WireB">
+<media id="fs-id1166168077322" alt="This figure shows a section of a thin, straight current-carrying wire. Point P is located at distance R from the center of the wire O and at distance r from the piece of the wire dX. Vector r from the piece of the wire dX to the point P forms an angle theta with the wire. ">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_02_WireB.jpg"/>
+</media>
+<caption>A section of a thin, straight current-carrying wire. The independent variable <m:math><m:mi>θ</m:mi></m:math> has the limits <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1166168094294">Let’s begin by considering the magnetic field due to the current element <m:math><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> located at the position <emphasis effect="italics">x</emphasis>. Using the right-hand rule 1 from the previous chapter, <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> points out of the page for any element along the wire. At point <emphasis effect="italics">P</emphasis>, therefore, the magnetic fields due to all current elements have the same direction. This means that we can calculate the net field there by evaluating the scalar sum of the contributions of the elements. With <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> we have from the Biot-Savart law</para>
+<equation id="fs-id1166168185043"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo stretchy="true">∫</m:mo><m:mrow><m:mtext>wire</m:mtext></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>sin</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mspace width="0.1em"/><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168109757">The wire is symmetrical about point <emphasis effect="italics">O</emphasis>, so we can set the limits of the integration from zero to infinity and double the answer, rather than integrate from negative infinity to positive infinity. Based on the picture and geometry, we can write expressions for <emphasis effect="italics">r</emphasis> and <m:math><m:mrow><m:mi>sin</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:math> in terms of <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">R</emphasis>, namely:</para>
+<equation id="fs-id1166168189127" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>sin</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>R</m:mi><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1166168153705">Substituting these expressions into <link target-id="fs-id1166168185043"/>, the magnetic field integration becomes</para>
+<equation id="fs-id1166168188727"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>R</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168124999">Evaluating the integral yields</para>
+<equation id="fs-id1166168126499"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:msubsup><m:mrow><m:mrow><m:mo>[</m:mo> <m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168152890">Substituting the limits gives us the solution</para>
+<note id="fs-id1168329046988" class="equation-callout">
+<equation id="fs-id1166168121933"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166168203050">The magnetic field lines of the infinite wire are circular and centered at the wire (<link target-id="CNX_UPhysics_29_02_Bsketch"/>), and they are identical in every plane perpendicular to the wire. Since the field decreases with distance from the wire, the spacing of the field lines must increase correspondingly with distance. The direction of this magnetic field may be found with a second form of the <term class="no-emphasis">right-hand rule</term> (illustrated in <link target-id="CNX_UPhysics_29_02_Bsketch"/>). If you hold the wire with your right hand so that your thumb points along the current, then your fingers wrap around the wire in the same sense as <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_29_02_Bsketch">
+<media id="fs-id1166168078688" alt="This figure demonstrates the right-hand rule. The wire is held with the right hand so that the thumb points along the current. The fingers wrap around the wire in the same sense as the magnetic field.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_02_Bsketch.jpg"/>
+</media>
+<caption>Some magnetic field lines of an infinite wire. The direction of <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> can be found with a form of the right-hand rule.</caption>
+</figure>
+<para id="fs-id1166168075188">The direction of the field lines can be observed experimentally by placing several small compass needles on a circle near the wire, as illustrated in <link target-id="CNX_UPhysics_29_02_IronFiling"/>. When there is no current in the wire, the needles align with Earth’s magnetic field. However, when a large current is sent through the wire, the compass needles all point tangent to the circle. Iron filings sprinkled on a horizontal surface also delineate the field lines, as shown in <link target-id="CNX_UPhysics_29_02_IronFiling"/>.</para>
+<figure id="CNX_UPhysics_29_02_IronFiling">
+<media id="fs-id1166168218609" alt="Figure A shows a circle formed by the small compass needles aligned with Earth’s magnetic field. Figure B shows that iron filings sprinkled on a horizontal surface around a long wire delineate the field lines.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_02_IronFiling.jpg"/>
+</media>
+<caption>The shape of the magnetic field lines of a long wire can be seen using (a) small compass needles and (b) iron filings.</caption>
+</figure>
+<example id="fs-id1166168128319">
+<para id="fs-id1168329042254"><title>Calculating Magnetic Field Due to Three Wires</title>
+Three wires sit at the corners of a square, all carrying currents of 2 amps into the page as shown in <link target-id="CNX_UPhysics_29_02_3wires"/>. Calculate the magnitude of the magnetic field at the other corner of the square, point <emphasis effect="italics">P</emphasis>, if the length of each side of the square is 1 cm.</para>
+<figure id="CNX_UPhysics_29_02_3wires">
+<media id="fs-id1166168191359" alt="Figure shows three wires I1, I2, and I3 with current flowing into the page. Wires form three corners of a square. The magnetic field is determined at the fourth corner of the square that is labeled P.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_02_3wires.jpg"/>
+</media>
+<caption>Three wires have current flowing into the page. The magnetic field is determined at the fourth corner of the square.</caption>
+</figure>
+<para id="fs-id1168329043271"><title>Strategy</title>
+The magnetic field due to each wire at the desired point is calculated. The diagonal distance is calculated using the Pythagorean theorem. Next, the direction of each magnetic field’s contribution is determined by drawing a circle centered at the point of the wire and out toward the desired point. The direction of the magnetic field contribution from that wire is tangential to the curve. Lastly, working with these vectors, the resultant is calculated.</para>
+<para id="fs-id1168329033150"><title>Solution</title>
+Wires 1 and 3 both have the same magnitude of magnetic field contribution at point <emphasis effect="italics">P</emphasis>:</para>
+<equation id="fs-id1166168101374" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−7</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.01</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168185335">Wire 2 has a longer distance and a magnetic field contribution at point <emphasis effect="italics">P</emphasis> of:</para>
+<equation id="fs-id1166168176600" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−7</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.01414</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168119698">The vectors for each of these magnetic field contributions are shown.</para>
+<media id="fs-id1166168123402" alt="Figure shows three wires I1, I2, and I3 with current flowing into the page. Wires form three corners of a square. The magnetic field is determined at the fourth corner of the square that is labeled P. Vector B3 is directed from the point P towards the wire I1. Vector B1 is the continuation of the line from the wire I3 to the point P. Vector B2 lies between vectors B1 and B3.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_02_3wiresAns_img.jpg"/>
+</media>
+<para id="fs-id1166168202136">The magnetic field in the <emphasis effect="italics">x</emphasis>-direction has contributions from wire 3 and the <emphasis effect="italics">x</emphasis>-component of wire 2:</para>
+<equation id="fs-id1166168215700" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>net</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−4</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>−</m:mo><m:mn>2.83</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mspace width="0.2em"/><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>45</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−6</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168120389">The <emphasis effect="italics">y</emphasis>-component is similarly the contributions from wire 1 and the <emphasis effect="italics">y</emphasis>-component of wire 2:</para>
+<equation id="fs-id1166168121966" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>net</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−4</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>−</m:mo><m:mn>2.83</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>45</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−6</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168126756">Therefore, the net magnetic field is the resultant of these two components:</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166168125108" class="unnumbered"><label/><m:math><m:mtable columnalign="left"><m:mtr/><m:mtr/><m:mtr><m:mtd><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>B</m:mi><m:mrow><m:mtext>net</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>B</m:mi><m:mrow><m:mtext>net</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−6</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−6</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><para id="fs-id1168329150757"><title>Significance</title>
+The geometry in this problem results in the magnetic field contributions in the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-directions having the same magnitude. This is not necessarily the case if the currents were different values or if the wires were located in different positions. Regardless of the numerical results, working on the components of the vectors will yield the resulting magnetic field at the point in need.</para>
+</example>
+<note id="fs-id1166168217434" class="check-understanding">
+<exercise id="fs-id1166168186062">
+<problem id="fs-id1166168186064">
+<para id="fs-id1166168186066"><emphasis effect="bold">Check Your Understanding</emphasis> Using <link target-id="fs-id1166168128319"/>, keeping the currents the same in wires 1 and 3, what should the current be in wire 2 to counteract the magnetic fields from wires 1 and 3 so that there is no net magnetic field at point P?</para>
+</problem>
+<solution id="fs-id1166168173302">
+<para id="fs-id1166168173304">4 amps flowing out of the page</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1166168249383" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1166168249390" list-type="bulleted" bullet-style="bullet">
+<item>The strength of the magnetic field created by current in a long straight wire is given by <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math> (long straight wire) where <emphasis effect="italics">I</emphasis> is the current, <emphasis effect="italics">R</emphasis> is the shortest distance to the wire, and the constant <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−7</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:math> is the permeability of free space.</item>
+<item>The direction of the magnetic field created by a long straight wire is given by right-hand rule 2 (RHR-2): Point the thumb of the right hand in the direction of current, and the fingers curl in the direction of the magnetic field loops created by it.</item>
+</list>
+</section>
+<section id="fs-id1166168176953" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1166168182740">
+<problem id="fs-id1166168182742">
+<para id="fs-id1166168182744">How would you orient two long, straight, current-carrying wires so that there is no net magnetic force between them? (<emphasis effect="italics">Hint</emphasis>: What orientation would lead to one wire not experiencing a magnetic field from the other?)</para>
+</problem>
+<solution id="fs-id1166168323168">
+<para id="fs-id1166168323170">You would make sure the currents flow perpendicular to one another.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1166168324349" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1166168324356">
+<problem id="fs-id1166168324358">
+<para id="fs-id1166168322947">A typical current in a lightning bolt is <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> A. Estimate the magnetic field 1 m from the bolt.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168231458">
+<problem id="fs-id1166168231460">
+<para id="fs-id1166168231462">The magnitude of the magnetic field 50 cm from a long, thin, straight wire is <m:math><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>μT</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the current through the long wire?</para>
+</problem>
+<solution id="fs-id1166168189277">
+<para id="fs-id1166168189280">20 A</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168173407">
+<problem id="fs-id1166168173409">
+<para id="fs-id1166168173411">A transmission line strung 7.0 m above the ground carries a current of 500 A. What is the magnetic field on the ground directly below the wire? Compare your answer with the magnetic field of Earth.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168204152">
+<problem id="fs-id1166168204154">
+<para id="fs-id1166168204156">A long, straight, horizontal wire carries a left-to-right current of 20 A. If the wire is placed in a uniform magnetic field of magnitude <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> that is directed vertically downward, what is the resultant magnitude of the magnetic field 20 cm above the wire? 20 cm below the wire?</para>
+</problem>
+<solution id="fs-id1166168246053">
+<para id="fs-id1166168075373">Both answers have the magnitude of magnetic field of <m:math><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168319660">
+<problem id="fs-id1166168319662">
+<para id="fs-id1166168319664">The two long, parallel wires shown in the accompanying figure carry currents in the same direction. If <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>10 A</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo></m:mrow></m:math> what is the magnetic field at point P?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168182798">
+<problem id="fs-id1166168182800">
+<para id="fs-id1166168182802">The accompanying figure shows two long, straight, horizontal
+wires that are parallel and a distance 2<emphasis effect="italics">a</emphasis> apart. If both wires carry current <emphasis effect="italics">I</emphasis> in the same direction, (a) what is the magnetic field at <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>?</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1166168322689" alt="Figure shows two long parallel wires that are distance 2a apart. Current flows through the wires in the same direction. Point P1 is located between the wires at a distance a from each. Point P2 is located at a distance 2 a outside the wires.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr10_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168185308">
+<para id="fs-id1166168185310">At P1, the net magnetic field is zero. At P2, <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>π</m:mi><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math> into the page.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168195940">
+<problem id="fs-id1166168195943">
+<para id="fs-id1166168195945">Repeat the calculations of the preceding problem with the direction of the current in the lower wire reversed.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168197681">
+<problem id="fs-id1166168197683">
+<para id="fs-id1166168197685">Consider the area between the wires of the preceding problem. At what distance from the top wire is the net magnetic field a minimum? Assume that the currents are equal and flow in opposite directions.</para>
+</problem>
+<solution id="fs-id1166168197692">
+<para id="fs-id1166168227088">The magnetic field is at a minimum at distance <emphasis effect="italics">a</emphasis> from the top wire, or half-way between the wires.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+</document>

@@ -1,0 +1,264 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Significant Figures</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58274</md:content-id>
+  <md:title>Significant Figures</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Determine the correct number of significant figures for the result of a computation.</item>
+<item>Describe the relationship between the concepts of accuracy, precision, uncertainty, and discrepancy.</item>
+<item>Calculate the percent uncertainty of a measurement, given its value and its uncertainty.</item>
+<item>Determine the uncertainty of the result of a computation involving quantities with given uncertainties.</item>
+</list></md:abstract>
+  <md:uuid>0bd0d1a2-b9b3-4d4b-b20a-9c562995525b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168325678215"><link target-id="CNX_UPhysics_01_06_Balance"/> shows two instruments used to measure the mass of an object. The digital scale has mostly replaced the double-pan balance in physics labs because it gives more accurate and precise measurements. But what exactly do we mean by <emphasis effect="italics">accurate</emphasis> and <emphasis effect="italics">precise</emphasis>? Aren’t they the same thing? In this section we examine in detail the process of making and reporting a measurement.</para>
+<figure id="CNX_UPhysics_01_06_Balance">
+<media id="fs-id1168328247494" alt="Figure a shows an old rusted double-pan balance with a standard mass on one pan. Figure b shows a modern digital analytical balance.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_01_06_Balance.jpg"/>
+</media>
+<caption>(a) A double-pan mechanical balance is used to compare different masses. Usually an object with unknown mass is placed in one pan and objects of known mass are placed in the other pan. When the bar that connects the two pans is horizontal, then the masses in both pans are equal. The “known masses” are typically metal cylinders of standard mass such as 1 g, 10 g, and 100 g. (b) Many mechanical balances, such as double-pan balances, have been replaced by digital scales, which can typically measure the mass of an object more precisely. A mechanical balance may read only the mass of an object to the nearest tenth of a gram, but many digital scales can measure the mass of an object up to the nearest thousandth of a gram. (credit a: modification of work by Serge Melki; credit b: modification of work by Karel Jakubec)</caption>
+</figure>
+<section id="fs-id1168328303418">
+<title>Accuracy and Precision of a Measurement</title>
+<para id="fs-id1168327922756">Science is based on observation and experiment—that is, on measurements. <emphasis effect="bold">Accuracy</emphasis> is how close a measurement is to the accepted reference value for that measurement. For example, let’s say we want to measure the length of standard printer paper. The packaging in which we purchased the paper states that it is 11.0 in. long. We then measure the length of the paper three times and obtain the following measurements: 11.1 in., 11.2 in., and 10.9 in. These measurements are quite accurate because they are very close to the reference value of 11.0 in. In contrast, if we had obtained a measurement of 12 in., our measurement would not be very accurate. Notice that the concept of <term class="no-emphasis">accuracy</term> requires that an accepted reference value be given.</para>
+<para id="fs-id1168327967767">The <term>precision</term> of measurements refers to how close the agreement is between repeated independent measurements (which are repeated under the same conditions). Consider the example of the paper measurements. The precision of the measurements refers to the spread of the measured values. One way to analyze the precision of the measurements is to determine the range, or difference, between the lowest and the highest measured values. In this case, the lowest value was 10.9 in. and the highest value was 11.2 in. Thus, the measured values deviated from each other by, at most, 0.3 in. These measurements were relatively precise because they did not vary too much in value. However, if the measured values had been 10.9 in., 11.1 in., and 11.9 in., then the measurements would not be very precise because there would be significant variation from one measurement to another. Notice that the concept of precision depends only on the actual measurements acquired and does not depend on an accepted reference value.</para>
+<para id="fs-id1168328285619">The measurements in the paper example are both accurate and precise, but in some cases, measurements are accurate but not precise, or they are precise but not accurate. Let’s consider an example of a GPS attempting to locate the position of a restaurant in a city. Think of the restaurant location as existing at the center of a bull’s-eye target and think of each GPS attempt to locate the restaurant as a black dot. In <link target-id="CNX_UPhysics_01_06_Target"/>(a), we see the GPS measurements are spread out far apart from each other, but they are all relatively close to the actual location of the restaurant at the center of the target. This indicates a low-precision, high-accuracy measuring system. However, in <link target-id="CNX_UPhysics_01_06_Target"/>(b), the GPS measurements are concentrated quite closely to one another, but they are far away from the target location. This indicates a high-precision, low-accuracy measuring system.</para>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_01_06_Target"><media id="fs-id1168327956371" alt="Two target patterns, each consisting of three white concentric rings on a red background. Figure a, labeled “High accuracy, low precision,” shows four black points, spread out along the circumference of the innermost circle. Figure b, labeled “Low accuracy, high precision,” shows four black points all clustered very near each other between the middle and outer circles.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_01_06_Target.jpg"/>
+</media>
+
+<caption>A GPS attempts to locate a restaurant at the center of the bull’s-eye. The black dots represent each attempt to pinpoint the location of the restaurant. (a) The dots are spread out quite far apart from one another, indicating low precision, but they are each rather close to the actual location of the restaurant, indicating high accuracy. (b) The dots are concentrated rather closely to one another, indicating high precision, but they are rather far away from the actual location of the restaurant, indicating low accuracy. (credit a and credit b: modification of works by "DarkEvil"/Wikimedia Commons)</caption></figure></section>
+<section id="fs-id1168328178931">
+<title>Accuracy, Precision, Uncertainty, and Discrepancy</title>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168327908843">The precision of a measuring system is related to the <term>uncertainty</term> in the measurements whereas the accuracy is related to the <term>discrepancy</term> from the accepted reference value. Uncertainty is a quantitative measure of how much your measured values deviate from one another. There are many different methods of calculating uncertainty, each of which is appropriate to different situations. Some examples include taking the range (that is, the biggest less the smallest) or finding the standard deviation of the measurements. Discrepancy (or “measurement error”) is the difference between the measured value and a given standard or expected value. If the measurements are not very precise, then the uncertainty of the values is high. If the measurements are not very accurate, then the discrepancy of the values is high.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168327854645">Recall our example of measuring paper length; we obtained measurements of 11.1 in., 11.2 in., and 10.9 in., and the accepted value was 11.0 in. We might average the three measurements to say our best guess is 11.1 in.; in this case, our discrepancy is 11.1 – 11.0 = 0.1 in., which provides a quantitative measure of accuracy. We might calculate the uncertainty in our best guess by using half of the range of our measured values: 0.15 in. Then we would say the length of the paper is 11.1 in. plus or minus 0.15 in. The uncertainty in a measurement, <emphasis effect="italics">A</emphasis>, is often denoted as <emphasis effect="italics">δA</emphasis> (read “delta <emphasis effect="italics">A</emphasis>”), so the measurement result would be recorded as <emphasis effect="italics">A</emphasis> ± <emphasis effect="italics">δA</emphasis>. Returning to our paper example, the measured length of the paper could be expressed as 11.1 ± 0.15 in. Since the discrepancy of 0.1 in. is less than the uncertainty of 0.15 in., we might say the measured value agrees with the accepted reference value to within experimental uncertainty.</para><para id="fs-id1168327948810">Some factors that contribute to uncertainty in a measurement include the following:</para>
+<list id="fs-id1168328196584" list-type="bulleted" bullet-style="bullet">
+<item>Limitations of the measuring device</item>
+<item>The skill of the person taking the measurement</item>
+<item>Irregularities in the object being measured</item>
+<item>Any other factors that affect the outcome (highly dependent on the situation)</item>
+</list>
+<para id="fs-id1168327924918">In our example, such factors contributing to the uncertainty could be the smallest division on the ruler is 1/16 in., the person using the ruler has bad eyesight, the ruler is worn down on one end, or one side of the paper is slightly longer than the other. At any rate, the uncertainty in a measurement must be calculated to quantify its precision. If a reference value is known, it makes sense to calculate the discrepancy as well to quantify its accuracy.</para>
+<section id="fs-id1168327944324">
+<title>Percent uncertainty</title>
+<para id="fs-id1168327991650">Another method of expressing uncertainty is as a percent of the measured value. If a measurement <emphasis effect="italics">A</emphasis> is expressed with uncertainty <emphasis effect="italics">δA</emphasis>, the <term>percent uncertainty</term> is defined as</para>
+<equation id="fs-id1168328214545" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Percent uncertainty</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<example id="fs-id1168328260761">
+<para id="fs-id1168327986964">
+<title>Calculating Percent Uncertainty: A Bag of Apples</title>
+A grocery store sells 5-lb bags of apples. Let’s say we purchase four bags during the course of a month and weigh the bags each time. We obtain the following measurements:</para>
+<list id="fs-id1168328289500" list-type="bulleted" bullet-style="bullet">
+<item>Week 1 weight: 4.8 lb</item>
+<item>Week 2 weight: 5.3 lb</item>
+<item>Week 3 weight: 4.9 lb</item>
+<item>Week 4 weight: 5.4 lb</item>
+</list>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168327869229">We then determine the average weight of the 5-lb bag of apples is 5.1 ± 0.3 lb from using half of the range. What is the percent uncertainty of the bag’s weight?</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168327942231"><title>Strategy</title>First, observe that the average value of the bag’s weight, <emphasis effect="italics">A</emphasis>, is 5.1 lb. The uncertainty in this value, <m:math><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi><m:mo>,</m:mo></m:mrow></m:math> is 0.3 lb. We can use the following equation to determine the percent uncertainty of the weight:</para><note id="fs-id1168327873248" class="equation-callout">
+<equation id="fs-id1168327916436"><m:math><m:mrow><m:mtext>Percent uncertainty</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1168328063119">
+<title>Solution</title>
+Substitute the values into the equation:</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168328294056" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Percent uncertainty</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.3</m:mn><m:mspace width="0.2em"/><m:mtext>lb</m:mtext></m:mrow><m:mrow><m:mn>5.1</m:mn><m:mspace width="0.2em"/><m:mtext>lb</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>=</m:mo><m:mn>5.9</m:mn><m:mi>%</m:mi><m:mo>≈</m:mo><m:mn>6</m:mn><m:mi>%</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168328178160"><title>Significance</title>We can conclude the average weight of a bag of apples from this store is 5.1 lb ± 6%. Notice the percent uncertainty is dimensionless because the units of weight in <m:math><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0.2</m:mn></m:mrow></m:math> lb canceled those in <emphasis effect="italics">A</emphasis> = 5.1 lb when we took the ratio.</para></example>
+<note id="fs-id1168328179945" class="check-understanding">
+<exercise id="fs-id1168328204614">
+<problem id="fs-id1168327886179">
+<para id="fs-id1168328214242"><emphasis effect="bold">Check Your Understanding</emphasis> A high school track coach has just purchased a new stopwatch. The stopwatch manual states the stopwatch has an uncertainty of ±0.05 s. Runners on the track coach’s team regularly clock 100-m sprints of 11.49 s to 15.01 s. At the school’s last track meet, the first-place sprinter came in at 12.04 s and the second-place sprinter came in at 12.07 s. Will the coach’s new stopwatch be helpful in timing the sprint team? Why or why not?</para>
+</problem>
+<solution id="fs-id1168328204335">
+<para id="fs-id1168328222976">No, the coach’s new stopwatch will not be helpful. The uncertainty in the stopwatch is too great to differentiate between the sprint times effectively.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168328203147">
+<title>Uncertainties in calculations</title>
+<para id="fs-id1168327869120">Uncertainty exists in anything calculated from measured quantities. For example, the area of a floor calculated from measurements of its length and width has an uncertainty because the length and width have uncertainties. How big is the uncertainty in something you calculate by multiplication or division? If the measurements going into the calculation have small uncertainties (a few percent or less), then the <term>method of adding percents</term> can be used for multiplication or division. This method states <emphasis effect="italics">the percent uncertainty in a quantity calculated by multiplication or division is the sum of the percent uncertainties in the items used to make the calculation</emphasis>. For example, if a floor has a length of 4.00 m and a width of 3.00 m, with uncertainties of 2% and 1%, respectively, then the area of the floor is 12.0 m<sup>2</sup> and has an uncertainty of 3%. (Expressed as an area, this is 0.36 m<sup>2</sup> [<m:math><m:mrow><m:mn>12.0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>0.03</m:mn></m:mrow></m:math>], which we round to 0.4 m<sup>2</sup> since the area of the floor is given to a tenth of a square meter.)</para>
+</section>
+</section>
+<section id="fs-id1168328203265">
+<title>Precision of Measuring Tools and Significant Figures</title>
+<para id="fs-id1168327960157">An important factor in the precision of measurements involves the precision of the measuring tool. In general, a precise measuring tool is one that can measure values in very small increments. For example, a standard ruler can measure length to the nearest millimeter whereas a caliper can measure length to the nearest 0.01 mm. The caliper is a more precise measuring tool because it can measure extremely small differences in length. The more precise the measuring tool, the more precise the measurements.</para>
+<para id="fs-id1168328065844">When we express measured values, we can only list as many digits as we measured initially with our measuring tool. For example, if we use a standard ruler to measure the length of a stick, we may measure it to be 36.7 cm. We can’t express this value as 36.71 cm because our measuring tool is not precise enough to measure a hundredth of a centimeter. It should be noted that the last digit in a measured value has been estimated in some way by the person performing the measurement. For example, the person measuring the length of a stick with a ruler notices the stick length seems to be somewhere in between 36.6 cm and 36.7 cm, and he or she must estimate the value of the last digit. Using the method of <term>significant figures</term>, the rule is that <emphasis effect="italics">the last digit written down in a measurement is the first digit with some uncertainty</emphasis>. To determine the number of significant digits in a value, start with the first measured value at the left and count the number of digits through the last digit written on the right. For example, the measured value 36.7 cm has three digits, or three significant figures. Significant figures indicate the precision of the measuring tool used to measure a value.</para>
+<section id="fs-id1168328361496">
+<title>Zeros</title>
+<para id="fs-id1168325631408">Special consideration is given to zeros when counting significant figures. The zeros in 0.053 are not significant because they are placeholders that locate the decimal point. There are two significant figures in 0.053. The zeros in 10.053 are not placeholders; they are significant. This number has five significant figures. The zeros in 1300 may or may not be significant, depending on the style of writing numbers. They could mean the number is known to the last digit or they could be placeholders. So 1300 could have two, three, or four significant figures. To avoid this ambiguity, we should write 1300 in scientific notation as <m:math><m:mrow><m:mn>1.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mn>1.30</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> or <m:math><m:mrow><m:mn>1.300</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> depending on whether it has two, three, or four significant figures. <emphasis effect="italics">Zeros are significant except when they serve only as placeholders</emphasis>.</para>
+</section>
+<section id="fs-id1168328242879">
+<title>Significant figures in calculations</title>
+<para id="fs-id1168327954787">When combining measurements with different degrees of precision, <emphasis effect="italics">the number of significant digits in the final answer can be no greater than the number of significant digits in the least-precise measured value</emphasis>. There are two different rules, one for multiplication and division and the other for addition and subtraction.</para>
+<list id="fs-id1168327965135" list-type="enumerated" number-style="arabic">
+<item><emphasis effect="italics">For multiplication and division, the result should have the same number of significant figures as the quantity with the least number of significant figures entering into the calculation</emphasis>. For example, the area of a circle can be calculated from its radius using <emphasis effect="italics">A</emphasis> = <emphasis effect="italics">πr</emphasis><sup>2</sup>. Let’s see how many significant figures the area has if the radius has only two—say, <emphasis effect="italics">r</emphasis> = 1.2 m. Using a calculator with an eight-digit output, we would calculate <equation id="fs-id1168327920583" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3.1415927</m:mn><m:mtext>…</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4.5238934</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation> But because the radius has only two significant figures, it limits the calculated quantity to two significant figures, or <equation id="fs-id1168327874061" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>4.5</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation> although <emphasis effect="italics">π</emphasis> is good to at least eight digits.</item>
+<item><emphasis effect="italics">For addition and subtraction, the answer can contain no more decimal places than the least-precise measurement.</emphasis> Suppose we buy 7.56 kg of potatoes in a grocery store as measured with a scale with precision 0.01 kg, then we drop off 6.052 kg of potatoes at your laboratory as measured by a scale with precision 0.001 kg. Then, we go home and add 13.7 kg of potatoes as measured by a bathroom scale with precision 0.1 kg. How many kilograms of potatoes do we now have and how many significant figures are appropriate in the answer? The mass is found by simple addition and subtraction: <equation id="fs-id1168328171097" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="1.2em"/><m:mn>7.56</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>6.052</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mspace width="0.2em"/><m:mo>+</m:mo><m:mn>13.7</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:mn>15.208</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>15.2</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation> Next, we identify the least-precise measurement: 13.7 kg. This measurement is expressed to the 0.1 decimal place, so our final answer must also be expressed to the 0.1 decimal place. Thus, the answer is rounded to the tenths place, giving us 15.2 kg.</item>
+</list>
+</section>
+<section id="fs-id1168328059075">
+<title>Significant figures in this text</title>
+<para id="fs-id1168328071559">In this text, most numbers are assumed to have three significant figures. Furthermore, consistent numbers of significant figures are used in all worked examples. An answer given to three digits is based on input good to at least three digits, for example. If the input has fewer significant figures, the answer will also have fewer significant figures. Care is also taken that the number of significant figures is reasonable for the situation posed. In some topics, particularly in optics, more accurate numbers are needed and we use more than three significant figures. Finally, if a number is <emphasis effect="italics">exact</emphasis>, such as the two in the formula for the circumference of a circle, <emphasis effect="italics">C</emphasis> = 2π<emphasis effect="italics">r</emphasis>, it does not affect the number of significant figures in a calculation. Likewise, conversion factors such as 100 cm/1 m are considered exact and do not affect the number of significant figures in a calculation.</para>
+</section>
+</section>
+<section id="fs-id1168327942183" class="key-concepts">
+<title>Summary</title>
+<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1168328287488" list-type="bulleted" bullet-style="bullet"><item>Accuracy of a measured value refers to how close a measurement is to an accepted reference value. The discrepancy in a measurement is the amount by which the measurement result differs from this value.</item>
+<item>Precision of measured values refers to how close the agreement is between repeated measurements. The uncertainty of a measurement is a quantification of this.</item>
+<item>The precision of a measuring tool is related to the size of its measurement increments. The smaller the measurement increment, the more precise the tool.</item>
+<item>Significant figures express the precision of a measuring tool.</item>
+<item>When multiplying or dividing measured values, the final answer can contain only as many significant figures as the value with the least number of significant figures.</item>
+<item>When adding or subtracting measured values, the final answer cannot contain more decimal places than the least-precise value.</item>
+</list></section>
+<section id="fs-id1168327957009" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1171240074559" class="unnumbered unstyled" summary="This table gives the formula for percent uncertainty. Percent uncertainty is equal to delta A upon A into 100 percent.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Percent uncertainty</entry>
+<entry align="left"><m:math><m:mrow><m:mtext>Percent uncertainty</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1168328294544" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1168327923331">
+<problem id="fs-id1168327954045">
+<para id="fs-id1168328365189">(a) What is the relationship between the precision and the uncertainty of a measurement? (b) What is the relationship between the accuracy and the discrepancy of a measurement?</para>
+</problem>
+<solution id="fs-id1168328247310">
+<para id="fs-id1168327948438">a. Uncertainty is a quantitative measure of precision. b. Discrepancy is a quantitative measure of accuracy.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1168325631295" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1168327949034">
+<problem id="fs-id1168328229974">
+<para id="fs-id1168327924163">Consider the equation 4000/400 = 10.0. Assuming the number of significant figures in the answer is correct, what can you say about the number of significant figures in 4000 and 400?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328286258">
+<problem id="fs-id1168328327887">
+<para id="fs-id1168327966053">Suppose your bathroom scale reads your mass as 65 kg with a 3% uncertainty. What is the uncertainty in your mass (in kilograms)?</para>
+</problem>
+<solution id="fs-id1168328204121">
+<para id="fs-id1168327909173">2 kg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328242872">
+<problem id="fs-id1168327945421">
+<para id="fs-id1168327958874">A good-quality measuring tape can be off by 0.50 cm over a distance of 20 m. What is its percent uncertainty?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328329316">
+<problem id="fs-id1168325667956">
+<para id="fs-id1168328361965">An infant’s pulse rate is measured to be 130 ± 5 beats/min. What is the percent uncertainty in this measurement?</para>
+</problem>
+<solution id="fs-id1168327876346">
+<para id="fs-id1168327878251">4%</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328196830">
+<problem id="fs-id1168328260685">
+<para id="fs-id1168327911517">(a) Suppose that a person has an average heart rate of 72.0 beats/min. How many beats does he or she have in 2.0 years? (b) In 2.00 years? (c) In 2.000 years?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328064091">
+<problem id="fs-id1168328071200">
+<para id="fs-id1168328064572">A can contains 375 mL of soda. How much is left after 308 mL is removed?</para>
+</problem>
+<solution id="fs-id1168328295068">
+<para id="fs-id1168328197692">67 mL</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328167911">
+<problem id="fs-id1168327928014">
+<para id="fs-id1168328260650">State how many significant figures are proper in the results of the following calculations: (a) <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>106.7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>98.2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>/</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>46.210</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.01</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>18.7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> (c) <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3712</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168327943766">
+<problem id="fs-id1168327957081">
+<para id="fs-id1168328229273">(a) How many significant figures are in the numbers 99 and 100.? (b) If the uncertainty in each number is 1, what is the percent uncertainty in each? (c) Which is a more meaningful way to express the accuracy of these two numbers: significant figures or percent uncertainties?</para>
+</problem>
+<solution id="fs-id1168327948324">
+<para id="fs-id1168328214735">a. The number 99 has 2 significant figures; 100. has 3 significant figures. b. 1.00%; c. percent uncertainties</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328311438">
+<problem id="fs-id1168328311640">
+<para id="fs-id1168328329336">(a) If your speedometer has an uncertainty of 2.0 km/h at a speed of 90 km/h, what is the percent uncertainty? (b) If it has the same percent uncertainty when it reads 60 km/h, what is the range of speeds you could be going?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168327942624">
+<problem id="fs-id1168328226916">
+<para id="fs-id1168328205320">(a) A person’s blood pressure is measured to be <m:math><m:mrow><m:mn>120</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>mm Hg</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is its percent uncertainty? (b) Assuming the same percent uncertainty, what is the uncertainty in a blood pressure measurement of 80 mm Hg?</para>
+</problem>
+<solution id="fs-id1168328222883">
+<para id="fs-id1168328329673">a. 2%; b. 1 mm Hg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328171083">
+<problem id="fs-id1168327869727">
+<para id="fs-id1168328295934">A person measures his or her heart rate by counting the number of beats in 30 s. If 40 ± 1 beats are counted in 30.0 ± 0.5 s, what is the heart rate and its uncertainty in beats per minute?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328267903">
+<problem id="fs-id1168328187317">
+<para id="fs-id1168328245345">What is the area of a circle 3.102 cm in diameter?</para>
+</problem>
+<solution id="fs-id1168328249411">
+<para id="fs-id1168328189782">7.557 cm<sup>2</sup></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328222416">
+<problem id="fs-id1168328260134">
+<para id="fs-id1168328323688">Determine the number of significant figures in the following measurements: (a) 0.0009, (b) 15,450.0, (c) 6×10<sup>3</sup>, (d) 87.990, and (e) 30.42.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328229571">
+<problem id="fs-id1168327988158">
+<para id="fs-id1168327958204">Perform the following calculations and express your answer using the correct number of significant digits. (a) A woman has two bags weighing 13.5 lb and one bag with a weight of 10.2 lb. What is the total weight of the bags? (b) The force <emphasis effect="italics">F</emphasis> on an object is equal to its mass <emphasis effect="italics">m</emphasis> multiplied by its acceleration <emphasis effect="italics">a</emphasis>. If a wagon with mass 55 kg accelerates at a rate of 0.0255 m/s<sup>2</sup>, what is the force on the wagon? (The unit of force is called the <emphasis effect="italics">newton</emphasis> and it is expressed with the symbol N.)</para>
+</problem>
+<solution id="fs-id1168328280169">
+<para id="fs-id1168328362071">a. 37.2 lb; because the number of bags is an exact value, it is not considered in the significant figures; b. 1.4 N; because the value 55 kg has only two significant figures, the final value must also contain two significant figures</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168328355532">
+<term>accuracy</term>
+<meaning id="fs-id1168328238378">the degree to which a measured value agrees with an accepted reference value for that measurement</meaning>
+</definition>
+<definition id="fs-id1168328328497">
+<term>discrepancy</term>
+<meaning id="fs-id1168327873821">the difference between the measured value and a given standard or expected value</meaning>
+</definition>
+<definition id="fs-id1168328237292">
+<term>method of adding percents</term>
+<meaning id="fs-id1168327931285">the percent uncertainty in a quantity calculated by multiplication or division is the sum of the percent uncertainties in the items used to make the calculation.</meaning>
+</definition>
+<definition id="fs-id1168327927708">
+<term>percent uncertainty</term>
+<meaning id="fs-id1168328290905">the ratio of the uncertainty of a measurement to the measured value, expressed as a percentage</meaning>
+</definition>
+<definition id="fs-id1168328286055">
+<term>precision</term>
+<meaning id="fs-id1168328357317">the degree to which repeated measurements agree with each other</meaning>
+</definition>
+<definition id="fs-id1168327925704">
+<term>significant figures</term>
+<meaning id="fs-id1168328367297">used to express the precision of a measuring tool used to measure a value</meaning>
+</definition>
+<definition id="fs-id1168328241816">
+<term>uncertainty</term>
+<meaning id="fs-id1168328329079">a quantitative measure of how much measured values deviate from one another</meaning>
+</definition>
+</glossary>
+</document>

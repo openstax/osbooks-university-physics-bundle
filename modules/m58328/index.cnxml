@@ -1,0 +1,298 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Relating Angular and Translational Quantities</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58328</md:content-id>
+  <md:title>Relating Angular and Translational Quantities</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para> 
+<list>
+<item>Given the linear kinematic equation, write the corresponding rotational kinematic equation</item>
+<item>Calculate the linear distances, velocities, and accelerations of points on a rotating system given the angular velocities and accelerations</item>
+</list></md:abstract>
+  <md:uuid>57b16bf8-010f-48a9-b86d-d8a4bbcff7cc</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134822340">In this section, we relate each of the rotational variables to the translational variables defined in <link document="m58281">Motion Along a Straight Line</link> and <link document="m58288">Motion in Two and Three Dimensions</link>. This will complete our ability to describe rigid-body rotations.</para>
+<section id="fs-id1167134896279">
+<title>Angular vs. Linear Variables</title>
+<para id="fs-id1167134666142">In <link document="m58326">Rotational Variables</link>, we introduced angular variables. If we compare the rotational definitions with the definitions of linear kinematic variables from <link document="m58281">Motion Along a Straight Line</link> and <link document="m58288">Motion in Two and Three Dimensions</link>, we find that there is a mapping of the linear variables to the rotational ones. Linear position, velocity, and acceleration have their rotational counterparts, as we can see when we write them side by side:</para>
+<table id="fs-id1167134892588" summary="This table consists of three columns and four rows. The first row contains headings: ‘No heading’; ‘Linear’; ‘Rotational’. In the column with no heading: Position; Velocity; Acceleration. In the column under the ‘Linear’: x; v is equal dx divided by dt; alpha is equal dv divided by dt. In the column under the ‘Rotational’: Theta; omega is equal dtheta divided by dt; alpha is equal domega divided by dt." class="unnumbered">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<thead>
+<row valign="top">
+<entry/>
+<entry valign="top" align="left">Linear</entry>
+<entry valign="top" align="left">Rotational</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Position</entry>
+<entry valign="top" align="left"><emphasis effect="italics">x</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mi>θ</m:mi></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocity</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Acceleration</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>ω</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167134564750">Let’s compare the linear and rotational variables individually. The linear variable of position has physical units of meters, whereas the angular position variable has dimensionless units of radians, as can be seen from the definition of <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:math>, which is the ratio of two lengths. The linear velocity has units of m/s, and its counterpart, the angular velocity, has units of rad/s. In <link document="m58326">Rotational Variables</link>, we saw in the case of circular motion that the linear tangential speed of a particle at a radius <emphasis effect="italics">r</emphasis> from the axis of rotation is related to the angular velocity by the relation <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi></m:mrow></m:math>. This could also apply to points on a rigid body rotating about a fixed axis. Here, we consider only circular motion. In circular motion, both uniform and nonuniform, there exists a centripetal acceleration (<link document="m58288">Motion in Two and Three Dimensions</link>). The <term class="no-emphasis">centripetal acceleration</term> vector points inward from the particle executing circular motion toward the axis of rotation. The derivation of the magnitude of the centripetal acceleration is given in <link document="m58288">Motion in Two and Three Dimensions</link>. From that derivation, the magnitude of the centripetal acceleration was found to be</para>
+<equation id="fs-id1167134491870"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>v</m:mi><m:mtext>t</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134537887">where <emphasis effect="italics">r</emphasis> is the radius of the circle.</para>
+<para id="fs-id1167134566099">Thus, in uniform circular motion when the angular velocity is constant and the angular acceleration is zero, we have a linear acceleration—that is, centripetal acceleration—since the tangential speed in <link target-id="fs-id1167134491870"/> is a constant. If nonuniform circular motion is present, the rotating system has an angular acceleration, and we have both a linear centripetal acceleration that is changing (because <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow></m:math> is changing) as well as a linear <term class="no-emphasis">tangential acceleration</term>. These relationships are shown in <link target-id="CNX_UPhysics_10_03_Cent"/>, where we show the centripetal and tangential accelerations for uniform and nonuniform circular motion.</para>
+<figure id="CNX_UPhysics_10_03_Cent">
+<media id="fs-id1167134946160" alt="Figure A illustrates uniform circular motion. The centripetal acceleration ac has its vector inward toward the axis of rotation. There is no tangential acceleration and v2 is equivalent to v1. Figure A illustrates nonuniform circular motion. The centripetal acceleration ac has its vector inward toward the axis of rotation. Tangential acceleration at is present and v2 is larger than v1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_03_Cent.jpg"/>
+</media>
+<caption>(a) Uniform circular motion: The centripetal acceleration <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> has its vector inward toward the axis of rotation. There is no tangential acceleration. (b) Nonuniform circular motion: An angular acceleration produces an inward centripetal acceleration that is changing in magnitude, plus a tangential acceleration <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1167134562076">The centripetal acceleration is due to the change in the direction of tangential velocity, whereas the tangential acceleration is due to any change in the magnitude of the tangential velocity. The tangential and centripetal acceleration vectors <m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mtext>t</m:mtext></m:mrow></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:math> are always perpendicular to each other, as seen in <link target-id="CNX_UPhysics_10_03_Cent"/>. To complete this description, we can assign a <term>total linear acceleration</term> vector to a point on a rotating rigid body or a particle executing circular motion at a radius <emphasis effect="italics">r</emphasis> from a fixed axis. The total linear acceleration vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is the vector sum of the centripetal and tangential accelerations,</para>
+<note id="fs-id1167134867303" class="equation-callout">
+<equation id="fs-id1167134832091"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mtext>t</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134439710">The total linear acceleration vector in the case of nonuniform circular motion points at an angle between the centripetal and tangential acceleration vectors, as shown in <link target-id="CNX_UPhysics_10_03_TotAcc"/>. Since <m:math><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo>⊥</m:mo><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mtext>t</m:mtext></m:mrow></m:msub></m:mrow></m:math>, the magnitude of the total linear acceleration is</para>
+<equation id="fs-id1167134712088" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>a</m:mi><m:mtext>c</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>a</m:mi><m:mtext>t</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134717859">Note that if the angular acceleration is zero, the total linear acceleration is equal to the centripetal acceleration.</para>
+<figure id="CNX_UPhysics_10_03_TotAcc">
+<media id="fs-id1167134674871" alt="Figure shows a particle executing circular motion. The vector ac is at an angle between the vectors a and at.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_03_TotAcc.jpg"/>
+</media>
+<caption>A particle is executing circular motion and has an angular acceleration. The total linear acceleration of the particle is the vector sum of the centripetal acceleration and tangential acceleration vectors. The total linear acceleration vector is at an angle in between the centripetal and tangential accelerations.</caption>
+</figure>
+</section>
+<section id="fs-id1167134642294">
+<title>Relationships between Rotational and Translational Motion</title>
+<para id="fs-id1167134458257">We can look at two relationships between rotational and translational motion.</para>
+<list id="fs-id1167134451842" list-type="enumerated" number-style="arabic">
+<item>Generally speaking, the linear kinematic equations have their rotational counterparts. <link target-id="fs-id1167134644463"/> lists the four linear kinematic equations and the corresponding rotational counterpart. The two sets of equations look similar to each other, but describe two different physical situations, that is, rotation and translation.<newline/>
+<table id="fs-id1167134644463" summary="A table with two columns and 5 rows is shown. The first column has a header row that says “Rotational” and rows two through five contain “theta subscript f equals theta subscript 0 plus omega t,” “omega subscript f equals omega subscript 0 plus alpha t,” “theta subscript f equals theta subscript 0 plus omega subscript 0 times t plus one half alpha t squared,” and “omega subscript f superscript 2 equals omega subscript 0 superscript 2 plus 2 alpha times delta theta.” The second column contains a header row that says “Translational” and rows two through five contain “x equals x subscript 0 plus v bar t,” “v subscript f equals v subscript 0 plus a t,” “x subscript f equals x subscript 0 plus v subscript zero t plus one half a t squared,” and “v subscript f superscript 2 equals v subscript zero superscript 2 plus 2 a times delta x.”">
+<title>Rotational and Translational Kinematic Equations</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Rotational</entry>
+<entry valign="top" align="left">Translational</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mover accent="true"><m:mi>ω</m:mi><m:mo>–</m:mo></m:mover><m:mi>t</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mo>–</m:mo></m:mover><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>α</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msubsup><m:mi>v</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></item>
+<item>The second correspondence has to do with relating linear and rotational variables in the special case of circular motion. This is shown in <link target-id="fs-id1167134477583"/>, where in the third column, we have listed the connecting equation that relates the linear variable to the rotational variable. The rotational variables of angular velocity and acceleration have subscripts that indicate their definition in circular motion.<newline/>
+<table id="fs-id1167134477583" summary="This table consists of three columns and five rows. The first row contains headings: ‘Rotational’; ‘Translational’; Relationship with r standing for radius’. In the column under the ‘Rotational’: theta; omega; alpha. In the column under the ‘Translational’: s; vt; alphat; alphac. In the column under the ‘Relationship’: Theta is equal to s divided by r; Omega is equal to vt divided by r; Alpha is equal to alphat divided by r; alphac is equal to vt squared divided by r.">
+<title>Rotational and Translational Quantities: Circular Motion</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Rotational</entry>
+<entry valign="top" align="left">Translational</entry>
+<entry valign="top" align="left">Relationship (<m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mtext>radius</m:mtext></m:mrow></m:math>)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>θ</m:mi></m:math></entry>
+<entry valign="top" align="left"><emphasis effect="italics">s</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>ω</m:mi></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>α</m:mi></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"> </entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>v</m:mi><m:mtext>t</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></item>
+</list>
+<example id="fs-id1167134780548">
+<para id="fs-id1167134871885"><title>Linear Acceleration of a Centrifuge</title>
+A centrifuge has a radius of 20 cm and accelerates from a maximum rotation rate of 10,000 rpm to rest in 30 seconds under a constant angular acceleration. It is rotating counterclockwise. What is the magnitude of the total acceleration of a point at the tip of the centrifuge at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>29.0</m:mn><m:mtext>s?</m:mtext></m:mrow></m:math> What is the direction of the total acceleration vector?</para>
+<para id="fs-id1167134944382"><title>Strategy</title>
+With the information given, we can calculate the angular acceleration, which then will allow us to find the tangential acceleration. We can find the centripetal acceleration at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by calculating the tangential speed at this time. With the magnitudes of the accelerations, we can calculate the total linear acceleration. From the description of the rotation in the problem, we can sketch the direction of the total acceleration vector.</para>
+<para id="fs-id1167134867992"><title>Solution</title>
+The angular acceleration is</para>
+<equation id="fs-id1167134652348" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ω</m:mi><m:mo>−</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0</m:mn><m:mo>−</m:mo><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mn>60.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>30.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−34.9</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134951015">Therefore, the tangential acceleration is</para>
+<equation id="fs-id1167134627352" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>0.2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>−34.9</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−7.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134715038">The angular velocity at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>29.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> is</para>
+<equation id="fs-id1167134657371" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>ω</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>60.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−34.9</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>29.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1047.2</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>−</m:mo><m:mn>1012.71</m:mn><m:mo>=</m:mo><m:mn>35.1</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167134563118">Thus, the tangential speed at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>29.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> is</para>
+<equation id="fs-id1167134817881" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>0.2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>35.1</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>7.0</m:mn><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134915809">We can now calculate the centripetal acceleration at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>29.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>:</para>
+<equation id="fs-id1167134633121" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>0.2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>245.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134919602">Since the two acceleration vectors are perpendicular to each other, the magnitude of the total linear acceleration is</para>
+<equation id="fs-id1167134531792" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>a</m:mi><m:mtext>c</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>a</m:mi><m:mtext>t</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>245.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−7.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>245.1</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134913744">Since the centrifuge has a negative angular acceleration, it is slowing down. The total acceleration vector is as shown in <link target-id="CNX_UPhysics_10_03_Centrif"/>. The angle with respect to the centripetal acceleration vector is</para>
+<equation id="fs-id1167134940130" class="unnumbered"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mfrac><m:mrow><m:mn>−7.0</m:mn></m:mrow><m:mrow><m:mn>245.0</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−1.6</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134863111">The negative sign means that the total acceleration vector is angled toward the clockwise direction.</para>
+<figure id="CNX_UPhysics_10_03_Centrif">
+<media id="fs-id1167134533459" alt="Figure shows a particle executing circular motion in the counterclockwise direction. The vector a t is pointed clockwise. Vectors a and a c point toward the center of the circle, and the label “direction of motion” points in the opposite direction of vector a t.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_03_Centrif.jpg"/>
+</media>
+<caption>The centripetal, tangential, and total acceleration vectors. The centrifuge is slowing down, so the tangential acceleration is clockwise, opposite the direction of rotation (counterclockwise).</caption>
+</figure>
+<para id="fs-id1167134860964"><title>Significance</title>
+From <link target-id="CNX_UPhysics_10_03_Centrif"/>, we see that the tangential acceleration vector is opposite the direction of rotation. The magnitude of the tangential acceleration is much smaller than the centripetal acceleration, so the total linear acceleration vector will make a very small angle with respect to the centripetal acceleration vector.</para>
+</example>
+<note id="fs-id1167134865401" class="check-understanding">
+<exercise id="fs-id1167134567679">
+<problem id="fs-id1167134897209">
+<para id="fs-id1167134947451"><emphasis effect="bold">Check Your Understanding</emphasis> A boy jumps on a merry-go-round with a radius of 5 m that is at rest. It starts accelerating at a constant rate up to an angular velocity of 5 rad/s in 20 seconds. What is the distance travelled by the boy?</para>
+</problem>
+<solution id="fs-id1167134512901">
+<para id="fs-id1167134861532">The angular acceleration is <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mo>−</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>. Therefore, the total angle that the boy passes through is<newline/>
+<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>α</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0.25</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math>.<newline/>
+Thus, we calculate<newline/>
+<m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>50.0</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>250.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167134862420" class="media-2">
+<para id="fs-id1167134515616">Check out this <link url="https://openstax.org/l/21rotatingdisk">PhET simulation</link> to change the parameters of a rotating disk (the initial angle, angular velocity, and angular acceleration), and place bugs at different radial distances from the axis. The simulation then lets you explore how circular motion relates to the bugs’ <emphasis effect="italics">xy</emphasis>-position, velocity, and acceleration using vectors or graphs.</para>
+</note>
+</section>
+<section id="fs-id1167134591258" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167134567854" list-type="bulleted" bullet-style="bullet">
+<item>The linear kinematic equations have their rotational counterparts such that there is a mapping <m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>θ</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo><m:mi>ω</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo><m:mi>α</m:mi></m:mrow></m:math>.</item>
+<item>A system undergoing uniform circular motion has a constant angular velocity, but points at a distance <emphasis effect="italics">r</emphasis> from the rotation axis have a linear centripetal acceleration.</item>
+<item>A system undergoing nonuniform circular motion has an angular acceleration and therefore has both a linear centripetal and linear tangential acceleration at a point a distance <emphasis effect="italics">r</emphasis> from the axis of rotation.</item>
+<item>The total linear acceleration is the vector sum of the centripetal acceleration vector and the tangential acceleration vector. Since the centripetal and tangential acceleration vectors are perpendicular to each other for circular motion, the magnitude of the total linear acceleration is <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>a</m:mi><m:mtext>c</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>a</m:mi><m:mtext>t</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt></m:mrow></m:math>.</item>
+</list>
+</section>
+<section id="fs-id1167134468393" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167134677721">
+<problem id="fs-id1167131105899">
+<para id="fs-id1167134540252">Explain why centripetal acceleration changes the direction of velocity in circular motion but not its magnitude.</para>
+</problem>
+<solution id="fs-id1167131112530">
+<para id="fs-id1167134915932">The centripetal acceleration vector is perpendicular to the velocity vector.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131117323">
+<problem id="fs-id1167134682824">
+<para id="fs-id1167134638786">In circular motion, a tangential acceleration can change the magnitude of the velocity but not its direction. Explain your answer.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134564878">
+<problem id="fs-id1167134760397">
+<para id="fs-id1167134896188">Suppose a piece of food is on the edge of a rotating microwave oven plate. Does it experience nonzero tangential acceleration, centripetal acceleration, or both when: (a) the plate starts to spin faster? (b) The plate rotates at constant angular velocity? (c) The plate slows to a halt?</para>
+</problem>
+<solution id="fs-id1167134669434">
+<para id="fs-id1167134671683">a. both; b. nonzero centripetal acceleration; c. both</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167134535510" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167134682233">
+<problem id="fs-id1167131109272">
+<para id="fs-id1167131109275">At its peak, a tornado is 60.0 m in diameter and carries 500 km/h winds. What is its angular velocity in revolutions per second?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134566767">
+<problem id="fs-id1167134566769">
+<para id="fs-id1167134671229">A man stands on a merry-go-round that is rotating at 2.5 rad/s. If the coefficient of static friction between the man’s shoes and the merry-go-round is <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0.5</m:mn></m:mrow></m:math>, how far from the axis of rotation can he stand without sliding?</para>
+</problem>
+<solution id="fs-id1167134681427">
+<para id="fs-id1167134914615"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.78</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131114098">
+<problem id="fs-id1167131114100">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134645798">An ultracentrifuge accelerates from rest to 100,000 rpm in 2.00 min. (a) What is the average angular acceleration in <m:math><m:mrow><m:msup><m:mrow><m:mtext>rad/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>? (b) What is the tangential acceleration of a point 9.50 cm from the axis of rotation? (c) What is the centripetal acceleration in <m:math><m:mrow><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and multiples of <emphasis effect="italics">g</emphasis> of this point at full rpm? (d) What is the total distance traveled during the acceleration by a point 9.5 cm from the axis of rotation of the ultracentrifuge?</para></problem>
+</exercise>
+<exercise id="fs-id1167134566456">
+<problem id="fs-id1167134862344">
+<para id="fs-id1167134862346">A wind turbine is rotating counterclockwise at 0.5 rev/s and slows to a stop in 10 s. Its blades are 20 m in length. (a) What is the angular acceleration of the turbine? (b) What is the centripetal acceleration of the tip of the blades at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>s?</m:mtext></m:mrow></m:math> (c) What is the magnitude and direction of the total linear acceleration of the tip of the blades at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>s?</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167134816610">
+<para id="fs-id1167131106678">a. <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>−0.314</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>,<newline/>
+b. <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>197.4</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>; c. <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>a</m:mi><m:mtext>c</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>a</m:mi><m:mtext>t</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mn>197.4</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−6.28</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>197.5</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mfrac><m:mrow><m:mn>−6.28</m:mn></m:mrow><m:mrow><m:mn>197.4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−1.8</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> in the clockwise direction from the centripetal acceleration vector</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134437169">
+<problem id="fs-id1167134437172">
+<para id="fs-id1167134942944">What is (a) the angular speed and (b) the linear speed of a point on Earth’s surface at latitude <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> N. Take the radius of the Earth to be 6309 km. (c) At what latitude would your linear speed be 10 m/s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134920568">
+<problem id="fs-id1167134920571">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134920573">A child with mass 40 kg sits on the edge of a merry-go-round at a distance of 3.0 m from its axis of rotation. The merry-go-round accelerates from rest up to 0.4 rev/s in 10 s. If the coefficient of static friction between the child and the surface of the merry-go-round is 0.6, does the child fall off before 5 s?</para></problem>
+<solution id="fs-id1167131110526">
+<para id="fs-id1167131110528"><m:math><m:mrow><m:mi>m</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>40.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5.1</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>204.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math><newline/>
+The maximum friction force is <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>S</m:mtext></m:msub><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>0.6</m:mn><m:mo stretchy="false">(</m:mo><m:mn>40.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>235.2</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:mrow></m:mrow></m:math> so the child does not fall off yet.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134535678">
+<problem id="fs-id1167134535680">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134535682">A bicycle wheel with radius 0.3 m rotates from rest to 3 rev/s in 5 s. What is the magnitude and direction of the total acceleration vector at the edge of the wheel at 1.0 s?</para></problem>
+</exercise>
+<exercise id="fs-id1167131117417">
+<problem id="fs-id1167134914674">
+<para id="fs-id1167134914676">The angular velocity of a flywheel with radius 1.0 m varies according to <m:math><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mi>t</m:mi></m:mrow></m:math>. Plot <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> from <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mtext>0 to 3.0 s</m:mtext></m:mrow></m:math> for <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. Analyze these results to explain when <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>≫</m:mo><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow></m:math> and when <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>≪</m:mo><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow></m:math> for a point on the flywheel at a radius of 1.0 m.</para>
+</problem>
+<solution id="fs-id1167134967072">
+<para id="fs-id1167134967074"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>r</m:mi><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>t</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4.0</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>r</m:mi><m:mi>α</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>r</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>ω</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math><newline/>
+Plotting both accelerations gives<newline/>
+<media id="fs-id1167131105742" alt="Figure shows a linear acceleration in meters per second squared plotted as a function of time in seconds. Centripetal starts at the origin of the coordinate system and grows exponentially with time. Tangential is positive and remains constant with time">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_03_Prob9_img.jpg"/>
+</media><newline/>
+The tangential acceleration is constant, while the centripetal acceleration is time dependent, and increases with time to values much greater than the tangential acceleration after <emphasis effect="italics">t</emphasis> = 1s. For times less than 0.7 s and approaching zero the centripetal acceleration is much less than the tangential acceleration.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134659633">
+<term>total linear acceleration</term>
+<meaning id="fs-id1167134659638">vector sum of the centripetal acceleration vector and the tangential acceleration vector</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,95 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>AC Sources</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58484</md:content-id>
+  <md:title>AC Sources</md:title>
+  <md:abstract>By the end of the section, you will be able to:
+<list>
+<item>Explain the differences between direct current (dc) and alternating current (ac)</item>
+<item>Define characteristic features of alternating current and voltage, such as the amplitude or peak and the frequency</item>
+</list></md:abstract>
+  <md:uuid>6907b470-a301-4b23-9d15-9e58cb799e8a</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101747831">Most examples dealt with so far in this book, particularly those using batteries, have constant-voltage sources. Thus, once the current is established, it is constant. <term>Direct current (dc)</term> is the flow of electric charge in only one direction. It is the steady state of a constant-voltage circuit.</para>
+<para id="fs-id1172101904658">Most well-known applications, however, use a time-varying voltage source. <term>Alternating current (ac)</term> is the flow of electric charge that periodically reverses direction. An ac is produced by an alternating emf, which is generated in a power plant, as described in <link document="m58479">Induced Electric Fields</link>. If the ac source varies periodically, particularly sinusoidally, the circuit is known as an ac circuit. Examples include the commercial and residential power that serves so many of our needs.</para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172101787952">The ac voltages and frequencies commonly used in businesses and homes vary around the world. In a typical house, the potential difference between the two sides of an electrical outlet alternates sinusoidally with a frequency of 60 or 50 Hz and an amplitude of 170 or 311 V, depending on whether you live in the United States or Europe, respectively. Most people know the potential difference for electrical outlets is 120 V or 220 V in the US or Europe, but as explained later in the chapter, these voltages are not the peak values given here but rather are related to the common voltages we see in our electrical outlets. <link target-id="CNX_UPhysics_32_01_DcAcPower"/> shows graphs of voltage and current versus time for typical dc and ac power in the United States.</para><figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_32_01_DcAcPower"><media id="fs-id1172101783477" alt="Figures a and b show graphs of voltage and current versus time. Figure a shows direct voltage and direct current as horizontal lines on the graph, with positive y values. Current has a lower y-value than voltage. Figure b shows alternating voltage and alternating current as sinusoidal waves on the graph, with voltage having a greater amplitude than current. They have the same wavelength. Half-wavelength has an x-value of 8.33 and one wavelength has an x-value of 16.6. The maximum y-values of voltage and current are marked V0 and I0 respectively and the minimum y-values are marked minus V0 and minus I0 respectively.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_01_DcAcPower.jpg"/>
+</media>
+
+<caption>(a) The dc voltage and current are constant in time, once the current is established. (b) The voltage and current versus time are quite different for ac power. In this example, which shows 60-Hz ac power and time <emphasis effect="italics">t</emphasis> in milliseconds, voltage and current are sinusoidal and are in phase for a simple resistance circuit. The frequencies and peak voltages of ac sources differ greatly.</caption></figure><para id="fs-id1172101910311">Suppose we hook up a resistor to an ac voltage source and determine how the voltage and current vary in time across the resistor. <link target-id="CNX_UPhysics_32_01_SimpleCir"/> shows a schematic of a simple circuit with an ac voltage source. The voltage fluctuates sinusoidally with time at a fixed frequency, as shown, on either the battery terminals or the resistor. Therefore, the <term>ac voltage</term>, or the “voltage at a plug,” can be given by</para>
+<note id="fs-id1172101775485" class="equation-callout">
+<equation id="fs-id1172101898257"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mtext>ω</m:mtext><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1172101884424">where <emphasis effect="italics">v</emphasis> is the voltage at time <emphasis effect="italics">t</emphasis>, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the peak voltage, and <m:math><m:mtext>ω</m:mtext></m:math> is the angular frequency in radians per second. For a typical house in the United States, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>170</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mtext>ω</m:mtext><m:mo>=</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow></m:math>, whereas in Europe, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>311</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mtext>ω</m:mtext><m:mo>=</m:mo><m:mn>100</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para><para id="fs-id1172101633667">For this simple resistance circuit, <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mo>/</m:mo><m:mi>R</m:mi></m:mrow></m:math>, so the <term>ac current</term>, meaning the current that fluctuates sinusoidally with time at a fixed frequency, is</para>
+<note id="fs-id1172101614892" class="equation-callout">
+<equation id="fs-id1172101613871"><label/><m:math><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mtext>ω</m:mtext><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172101756397">where <emphasis effect="italics">i</emphasis> is the current at time <emphasis effect="italics">t</emphasis> and <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the peak current and is equal to <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math>. For this example, the voltage and current are said to be in phase, meaning that their sinusoidal functional forms have peaks, troughs, and nodes in the same place. They oscillate in sync with each other, as shown in <link target-id="CNX_UPhysics_32_01_DcAcPower"/>(b). In these equations, and throughout this chapter, we use lowercase letters (such as <emphasis effect="italics">i</emphasis>) to indicate instantaneous values and capital letters (such as <emphasis effect="italics">I</emphasis>) to indicate maximum, or peak, values.</para>
+<figure id="CNX_UPhysics_32_01_SimpleCir">
+<media id="fs-id1172101655670" alt="Figure shows an AC sine wave. A circuit is shown at the top, pointing to the wave. It is labeled V source and has an AC voltage source connected to a resistor. The source is marked positive on one side and negative on the other. A circuit at the bottom, labeled V resistor, also points to the wave. It is similar to the top circuit but with the polarity of the source reversed.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_01_SimpleCir.jpg"/>
+</media>
+<caption>The potential difference <emphasis effect="italics">V</emphasis> between the terminals of an ac voltage source fluctuates, so the source and the resistor have ac sine waves on top of each other. The mathematical expression for <emphasis effect="italics">v</emphasis> is given by <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mtext>ω</m:mtext><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1172101777629">Current in the resistor alternates back and forth just like the driving voltage, since <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math>. If the resistor is a fluorescent light bulb, for example, it brightens and dims 120 times per second as the current repeatedly goes through zero. A 120-Hz flicker is too rapid for your eyes to detect, but if you wave your hand back and forth between your face and a fluorescent light, you will see the stroboscopic effect of ac.</para>
+<note id="fs-id1172101694734" class="check-understanding">
+<exercise id="fs-id1172101776132">
+<problem id="fs-id1172101794957">
+<para id="fs-id1172101643454"><emphasis effect="bold">Check Your Understanding</emphasis> If a European ac voltage source is considered, what is the time difference between the zero crossings on an ac voltage-versus-time graph?</para>
+</problem>
+<solution id="fs-id1172101897637">
+<para id="fs-id1172101731865">10 ms</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1172101907358" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172101761267" list-type="bulleted" bullet-style="bullet">
+<item>Direct current (dc) refers to systems in which the source voltage is constant.</item>
+<item>Alternating current (ac) refers to systems in which the source voltage varies periodically, particularly sinusoidally.</item>
+<item>The voltage source of an ac system puts out a voltage that is calculated from the time, the peak voltage, and the angular frequency.</item>
+<item>In a simple circuit, the current is found by dividing the voltage by the resistance. An ac current is calculated using the peak current (determined by dividing the peak voltage by the resistance), the angular frequency, and the time.</item>
+</list>
+</section>
+<section id="fs-id1172101919675" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172101789897">
+<problem id="fs-id1172101692634">
+<para id="fs-id1172101651578">What is the relationship between frequency and angular frequency?</para>
+</problem>
+<solution id="fs-id1172101910780">
+<para id="fs-id1172101665559">Angular frequency is <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:math> times frequency.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172101634448" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172101611322">
+<problem id="fs-id1172101703123">
+<para id="fs-id1172101693132">Write an expression for the output voltage of an ac source that has an amplitude of 12 V and a frequency of 200 Hz.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172101970229">
+<term>ac current</term>
+<meaning id="fs-id1172101715211">current that fluctuates sinusoidally with time at a fixed frequency</meaning>
+</definition>
+<definition id="fs-id1172101649529">
+<term>ac voltage</term>
+<meaning id="fs-id1172101789997">voltage that fluctuates sinusoidally with time at a fixed frequency</meaning>
+</definition>
+<definition id="fs-id1172101760792">
+<term>alternating current (ac)</term>
+<meaning id="fs-id1172101785587">flow of electric charge that periodically reverses direction</meaning>
+</definition>
+<definition id="fs-id1172101646991">
+<term>direct current (dc)</term>
+<meaning id="fs-id1172101736024">flow of electric charge in only one direction</meaning>
+</definition>
+</glossary>
+</document>

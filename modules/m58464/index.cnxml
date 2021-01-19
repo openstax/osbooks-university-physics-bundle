@@ -1,0 +1,146 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>Magnetic Field of a Current Loop</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58464</md:content-id>
+  <md:title>Magnetic Field of a Current Loop</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para> 
+<list>
+<item>Explain how the Biot-Savart law is used to determine the magnetic field due to a current in a loop of wire at a point along a line perpendicular to the plane of the loop.</item>
+<item>Determine the magnetic field of an arc of current.</item>
+</list></md:abstract>
+  <md:uuid>03a02a18-018d-43e7-934e-12d01292ae6d</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1166167317599">The circular loop of <link target-id="CNX_UPhysics_29_04_Icircle"/> has a radius <emphasis effect="italics">R</emphasis>, carries a current <emphasis effect="italics">I</emphasis>, and lies in the <emphasis effect="italics">xz</emphasis>-plane. What is the magnetic field due to the current at an arbitrary point <emphasis effect="italics">P</emphasis> along the axis of the loop?</para>
+<figure id="CNX_UPhysics_29_04_Icircle">
+<media id="fs-id1166167107317" alt="Figure shows a circular loop of radius R that carries a current I and lies in the xz-plane. Point P is located above the center of the loop. Theta is the angle formed by a vector from the loop to the point P and the plane of the loop. It is equivalent to the angle formed by the vector dB from the point P and the y axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_04_Icircle.jpg"/>
+</media>
+<caption>Determining the magnetic field at point <emphasis effect="italics">P</emphasis> along the axis of a current-carrying loop of wire.</caption>
+</figure>
+<para id="fs-id1166167087488">We can use the Biot-Savart law to find the magnetic field due to a current. We first consider arbitrary segments on opposite sides of the loop to qualitatively show by the vector results that the net magnetic field direction is along the central axis from the loop. From there, we can use the Biot-Savart law to derive the expression for magnetic field.</para>
+<para id="fs-id1166167292332">Let <emphasis effect="italics">P</emphasis> be a distance <emphasis effect="italics">y</emphasis> from the center of the loop. From the right-hand rule, the magnetic field <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> at <emphasis effect="italics">P</emphasis>, produced by the current element <m:math><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> is directed at an angle <m:math><m:mi>θ</m:mi></m:math> above the <emphasis effect="italics">y</emphasis>-axis as shown. Since <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is parallel along the <emphasis effect="italics">x</emphasis>-axis and <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> is in the <emphasis effect="italics">yz</emphasis>-plane, the two vectors are perpendicular, so we have</para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166167223300"><m:math><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mi>sin</m:mi><m:mspace width="0.1em"/><m:mi>π</m:mi><m:mn>/2</m:mn></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></equation><para id="fs-id1166167329104">where we have used <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1166167055621">Now consider the magnetic field <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>′</m:mo></m:msup></m:mstyle></m:mrow></m:math> due to the current element <m:math><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>′</m:mo></m:msup></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> which is directly opposite <m:math><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> on the loop. The magnitude of <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>′</m:mo></m:msup></m:mstyle></m:mrow></m:math> is also given by <link target-id="fs-id1166167223300"/>, but it is directed at an angle <m:math><m:mi>θ</m:mi></m:math> below the <emphasis effect="italics">y</emphasis>-axis. The components of <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>′</m:mo></m:msup></m:mstyle></m:mrow></m:math> perpendicular to the <emphasis effect="italics">y</emphasis>-axis therefore cancel, and in calculating the net magnetic field, only the components along the <emphasis effect="italics">y</emphasis>-axis need to be considered. The components perpendicular to the axis of the loop sum to zero in pairs. Hence at point <emphasis effect="italics">P</emphasis>:</para>
+<equation id="fs-id1166167417118"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mrow><m:mtext>loop</m:mtext></m:mrow></m:munder><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mspace width="0.2em"/><m:mi>cos</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo stretchy="true">∫</m:mo><m:mrow><m:mtext>loop</m:mtext></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>cos</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167049734">For all elements <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> on the wire, <emphasis effect="italics">y</emphasis>, <emphasis effect="italics">R</emphasis>, and <m:math><m:mrow><m:mi>cos</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:math> are constant and are related by</para>
+<equation id="fs-id1166167411922" class="unnumbered"><label/><m:math><m:mrow><m:mi>cos</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>R</m:mi><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167339360">Now from <link target-id="fs-id1166167417118"/>, the magnetic field at <emphasis effect="italics">P</emphasis> is</para>
+<equation id="fs-id1166167108123"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mrow><m:mtext>loop</m:mtext></m:mrow></m:munder><m:mrow><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1166167331403">where we have used <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mrow><m:mtext>loop</m:mtext></m:mrow></m:munder><m:mrow><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math> As discussed in the previous chapter, the closed current loop is a magnetic dipole of moment <m:math><m:mrow><m:mover accent="true"><m:mi>μ</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>A</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> For this example, <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> so the magnetic field at <emphasis effect="italics">P</emphasis> can also be written as</para>
+<equation id="fs-id1166167274964"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>μ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167124801">By setting <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> in <link target-id="fs-id1166167274964"/>, we obtain the magnetic field at the center of the loop:</para>
+<note id="fs-id1168327884554" class="equation-callout">
+<equation id="fs-id1166167119917"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166167290789">This equation becomes <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mo>/</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for a flat coil of <emphasis effect="italics">n</emphasis> loops per length. It can also be expressed as</para>
+<equation id="fs-id1166167345513"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mover accent="true"><m:mi>μ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167090210">If we consider <m:math><m:mrow><m:mi>y</m:mi><m:mo>≫</m:mo><m:mi>R</m:mi></m:mrow></m:math> in <link target-id="fs-id1166167274964"/>, the expression reduces to an expression known as the magnetic field from a dipole:</para>
+<equation id="fs-id1166167427646"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mover accent="true"><m:mi>μ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167237078">The calculation of the magnetic field due to the circular current loop at points off-axis requires rather complex mathematics, so we’ll just look at the results. The magnetic field lines are shaped as shown in <link target-id="CNX_UPhysics_29_04_Magloop"/>. Notice that one field line follows the axis of the loop. This is the field line we just found. Also, very close to the wire, the field lines are almost circular, like the lines of a long straight wire.</para>
+<figure id="CNX_UPhysics_29_04_Magloop">
+<media id="fs-id1166167120227" alt="Figure shows the magnetic field lines of a circular current loop. One field line follows the axis of the loop. Very close to the wire, the field lines are almost circular, like the lines of a long straight wire.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_04_Magloop.jpg"/>
+</media>
+<caption>Sketch of the magnetic field lines of a circular current loop.</caption>
+</figure>
+<example id="fs-id1166167121700">
+<para id="fs-id1168327919837"><title>Magnetic Field between Two Loops </title>
+Two loops of wire carry the same current of 10 mA, but flow in opposite directions as seen in <link target-id="CNX_UPhysics_29_04_2loops"/>. One loop is measured to have a radius of <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> while the other loop has a radius of <m:math><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>.</m:mo></m:mrow></m:math> The distance from the first loop to the point where the magnetic field is measured is 0.25 m, and the distance from that point to the second loop is 0.75 m. What is the magnitude of the net magnetic field at point <emphasis effect="italics">P</emphasis>?</para>
+<figure id="CNX_UPhysics_29_04_2loops">
+<media id="fs-id1166167061921" alt="Figure shows two loops of radii R and 2R with the same current but flowing in opposite directions. Point P is located between the centers of the loops, at a distance 0.25 meters from the center of the smaller loop and 0.75 meters from the center of the larger loop.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_04_2loops.jpg"/>
+</media>
+<caption>Two loops of different radii have the same current but flowing in opposite directions. The magnetic field at point <emphasis effect="italics">P</emphasis> is measured to be zero.</caption>
+</figure>
+<para id="fs-id1168327988358"><title>Strategy</title>
+The magnetic field at point <emphasis effect="italics">P</emphasis> has been determined in <link target-id="fs-id1166167108123"/>. Since the currents are flowing in opposite directions, the net magnetic field is the difference between the two fields generated by the coils. Using the given quantities in the problem, the net magnetic field is then calculated.</para>
+<para id="fs-id1168327989355"><title>Solution</title>
+Solving for the net magnetic field using <link target-id="fs-id1166167108123"/> and the given quantities in the problem yields</para>
+<equation id="fs-id1166167406077" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mspace width="0.05em"/><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−7</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.010</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mspace width="0.05em"/><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−7</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.010</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.75</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5.77</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−9</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mspace width="0.2em"/><m:mtext>to the right</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1168327923822"><title>Significance</title>
+Helmholtz coils typically have loops with equal radii with current flowing in the same direction to have a strong uniform field at the midpoint between the loops. A similar application of the magnetic field distribution created by Helmholtz coils is found in a magnetic bottle that can temporarily trap charged particles. See <link document="m58737">Magnetic Forces and Fields</link> for a discussion on this.</para>
+</example>
+<note id="fs-id1166167371372" class="check-understanding">
+<exercise id="fs-id1166166092915">
+<problem id="fs-id1166167028586">
+<para id="fs-id1166165866395"><emphasis effect="bold">Check Your Understanding</emphasis> Using <link target-id="fs-id1166167121700"/>, at what distance would you have to move the first coil to have zero measurable magnetic field at point <emphasis effect="italics">P</emphasis>?</para>
+</problem>
+<solution id="fs-id1166167107434">
+<para id="fs-id1166167082285">0.608 meters</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1166167389021" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1166167133910" list-type="bulleted" bullet-style="bullet">
+<item>The magnetic field strength at the center of a circular loop is given by <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>(at center of loop)</m:mtext><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">R</emphasis> is the radius of the loop. RHR-2 gives the direction of the field about the loop.</item>
+</list>
+</section>
+<section id="fs-id1166165866327" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1166167127076">
+<problem id="fs-id1166167267640">
+<para id="fs-id1166167109338">Is the magnetic field of a current loop uniform?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166166959619">
+<problem id="fs-id1166167371105">
+<para id="fs-id1166165866245">What happens to the length of a suspended spring when a current passes through it?</para>
+</problem>
+<solution id="fs-id1166167291705">
+<para id="fs-id1166167126193">The spring reduces in length since each coil with have a north pole-produced magnetic field next to a south pole of the next coil.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167132538">
+<problem id="fs-id1166167329732">
+<para id="fs-id1166167112668">Two concentric circular wires with different diameters carry currents in the same direction. Describe the force on the inner wire.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1166166022536" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1166166959689">
+<problem id="fs-id1166167034373">
+<para id="fs-id1166167418482">When the current through a circular loop is 6.0 A, the magnetic field at its center is <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−4</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the radius of the loop?</para>
+</problem>
+<solution id="fs-id1166167122675">
+<para id="fs-id1166167087618">0.019 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167426734">
+<problem id="fs-id1166167426736">
+<para id="fs-id1166167126160">How many turns must be wound on a flat, circular coil of radius 20 cm in order to produce a magnetic field of magnitude <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> at the center of the coil when the current through it is 0.85 A?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167096467">
+<problem id="fs-id1166167339107">
+<para id="fs-id1166167339109">A flat, circular loop has 20 turns. The radius of the loop is 10.0 cm and the current through the wire is 0.50 A. Determine the magnitude of the magnetic field at the center of the loop.</para>
+</problem>
+<solution id="fs-id1166167372953">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1166167372956"><m:math><m:mtext>N</m:mtext><m:mo>×</m:mo><m:mrow><m:mn>6.28</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math>
+</para></solution>
+</exercise>
+<exercise id="fs-id1166166970111">
+<problem id="fs-id1166166970113">
+<para id="fs-id1166167099153">A circular loop of radius <emphasis effect="italics">R</emphasis> carries a current <emphasis effect="italics">I</emphasis>. At what distance along the axis of the loop is the magnetic field one-half its value at the center of the loop?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167277513">
+<problem id="fs-id1166166022223">
+<para id="fs-id1166166022225">Two flat, circular coils, each with a radius <emphasis effect="italics">R</emphasis> and wound with <emphasis effect="italics">N</emphasis> turns, are mounted along the same axis so that they are parallel a distance <emphasis effect="italics">d</emphasis> apart. What is the magnetic field at the midpoint of the common axis if a current <emphasis effect="italics">I</emphasis> flows in the same direction through each coil?</para>
+</problem>
+<solution id="fs-id1166167390141">
+<para id="fs-id1166167390144"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166165888147">
+<problem id="fs-id1166165888149">
+<para id="fs-id1166167096737">For the coils in the preceding problem, what is the magnetic field at the center of either coil?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+</document>

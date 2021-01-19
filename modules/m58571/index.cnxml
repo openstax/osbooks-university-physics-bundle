@@ -1,0 +1,131 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>Relativistic Momentum</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58571</md:content-id>
+  <md:title>Relativistic Momentum</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Define relativistic momentum in terms of mass and velocity</item>
+<item>Show how relativistic momentum relates to classical momentum</item>
+<item>Show how conservation of relativistic momentum limits objects with mass to speeds less than <m:math><m:mi>c</m:mi></m:math></item>
+</list></md:abstract>
+  <md:uuid>caa0db63-4a8d-49a8-b66b-c9bf8ee1522b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167794146152">Momentum is a central concept in physics. The broadest form of Newton’s second law is stated in terms of momentum. Momentum is conserved whenever the net external force on a system is zero. This makes momentum conservation a fundamental tool for analyzing collisions (<link target-id="CNX_UPhysics_38_08_Football"/>). Much of what we know about subatomic structure comes from the analysis of collisions of accelerator-produced relativistic particles, and momentum conservation plays a crucial role in this analysis.</para>
+<figure id="CNX_UPhysics_38_08_Football">
+<media id="fs-id1167793245750" alt="A photo of a football player tackling an opponent.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_08_Football.jpg"/>
+</media>
+<caption>Momentum is an important concept for these football players from the University of California at Berkeley and the University of California at Davis. A player with the same velocity but greater mass collides with greater impact because his momentum is greater. For objects moving at relativistic speeds, the effect is even greater.</caption>
+</figure>
+<para id="fs-id1167793831509">The first postulate of relativity states that the laws of physics are the same in all inertial frames. Does the law of conservation of momentum survive this requirement at high velocities? It can be shown that the momentum calculated as merely <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> even if it is conserved in one frame of reference, may not be conserved in another after applying the Lorentz transformation to the velocities. The correct equation for momentum can be shown, instead, to be the classical expression in terms of the increment <m:math><m:mrow><m:mi>d</m:mi><m:mi>τ</m:mi></m:mrow></m:math> of proper time of the particle, observed in the particle’s rest frame:</para>
+<equation id="fs-id1167793992249" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>τ</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mspace width="0.1em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>τ</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<note id="fs-id1167793977878">
+<title>Relativistic Momentum</title>
+<para id="fs-id1167793259931"><term>Relativistic momentum</term> <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is classical momentum multiplied by the relativistic factor <emphasis effect="italics">γ</emphasis>:</para>
+<equation id="fs-id1167793953179"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1167793926547">where <emphasis effect="italics">m</emphasis> is the <term>rest mass</term> of the object, <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is its velocity relative to an observer, and γ is the relativistic factor:</para>
+<equation id="fs-id1167793937616"><m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167793581660">Note that we use <emphasis effect="italics">u</emphasis> for velocity here to distinguish it from relative velocity <emphasis effect="italics">v</emphasis> between observers. The factor <m:math><m:mi>γ</m:mi></m:math> that occurs here has the same form as the previous relativistic factor <m:math><m:mi>γ</m:mi></m:math> except that it is now in terms of the velocity of the particle <emphasis effect="italics">u</emphasis> instead of the relative velocity <emphasis effect="italics">v</emphasis> of two frames of reference.</para>
+<para id="fs-id1167793240641">With <emphasis effect="italics">p</emphasis> expressed in this way, total momentum <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow></m:math> is conserved whenever the net external force is zero, just as in classical physics. Again we see that the relativistic quantity becomes virtually the same as the classical quantity at low velocities, where <emphasis effect="italics">u</emphasis>/<emphasis effect="italics">c</emphasis> is small and <m:math><m:mi>γ</m:mi></m:math> is very nearly equal to 1. Relativistic momentum has the same intuitive role as classical momentum. It is greatest for large masses moving at high velocities, but because of the factor <m:math><m:mi>γ</m:mi><m:mo>,</m:mo></m:math> relativistic momentum approaches infinity as <emphasis effect="italics">u</emphasis> approaches <emphasis effect="italics">c</emphasis> (<link target-id="CNX_UPhysics_38_08_Momentum"/>). This is another indication that an object with mass cannot reach the speed of light. If it did, its momentum would become infinite—an unreasonable value.</para>
+<figure id="CNX_UPhysics_38_08_Momentum">
+<media id="fs-id1167793363106" alt="This is a graph of the relativistic momentum as a function of speed. The function and its slope are zero at u=0, both increase with u, and the function has a vertical asymptote at u=1.0 c">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_08_Momentum.jpg"/>
+</media>
+<caption>Relativistic momentum approaches infinity as the velocity of an object approaches the speed of light.</caption>
+</figure>
+<para id="fs-id1167794037195">The relativistically correct definition of momentum as <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mi>u</m:mi></m:mrow></m:math> is sometimes taken to imply that mass varies with velocity: <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>var</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mo>,</m:mo></m:mrow></m:math> particularly in older textbooks. However, note that <emphasis effect="italics">m</emphasis> is the mass of the object as measured by a person at rest relative to the object. Thus, <emphasis effect="italics">m</emphasis> is defined to be the rest mass, which could be measured at rest, perhaps using gravity. When a mass is moving relative to an observer, the only way that its mass can be determined is through collisions or other means involving momentum. Because the mass of a moving object cannot be determined independently of momentum, the only meaningful mass is rest mass. Therefore, when we use the term “mass,” assume it to be identical to “rest mass.”</para>
+<para id="fs-id1167794060648">Relativistic momentum is defined in such a way that conservation of momentum holds in all inertial frames. Whenever the net external force on a system is zero, relativistic momentum is conserved, just as is the case for classical momentum. This has been verified in numerous experiments.</para>
+<note id="fs-id1167793750802" class="check-understanding">
+<exercise id="fs-id1167794142452">
+<problem id="fs-id1167793291718">
+<para id="fs-id1167793366413"><emphasis effect="bold">Check Your Understanding</emphasis> What is the momentum of an electron traveling at a speed 0.985<emphasis effect="italics">c</emphasis>? The rest mass of the electron is <m:math><m:mrow><m:mn>9.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167793378548">
+<para id="fs-id1167793260795">Substitute the data into the given equation:<newline/>
+<m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mi>u</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>9.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.985</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.985</m:mn><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg-m/s.</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167794051790" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167793976155" list-type="bulleted" bullet-style="bullet">
+<item>The law of conservation of momentum is valid for relativistic momentum whenever the net external force is zero. The relativistic momentum is <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mi>u</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">m</emphasis> is the rest mass of the object, <emphasis effect="italics">u</emphasis> is its velocity relative to an observer, and the relativistic factor is <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>At low velocities, relativistic momentum is equivalent to classical momentum.</item>
+<item>Relativistic momentum approaches infinity as <emphasis effect="italics">u</emphasis> approaches <emphasis effect="italics">c</emphasis>. This implies that an object with mass cannot reach the speed of light.</item>
+</list>
+</section>
+<section id="fs-id1167793435694" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167793629296">
+<problem id="fs-id1167793237831">
+<para id="fs-id1167793938240">How does modern relativity modify the law of conservation of momentum?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167794326162">
+<problem id="fs-id1167793985685">
+<para id="fs-id1167794210766">Is it possible for an external force to be acting on a system and relativistic momentum to be conserved? Explain.</para>
+</problem>
+<solution id="fs-id1167794002783">
+<para id="fs-id1167794216236">Yes. This can happen if the external force is balanced by other externally applied forces, so that the net external force is zero.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167793999292" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167794170660">
+<problem id="fs-id1167793290850">
+<para id="fs-id1167794027273">Find the momentum of a helium nucleus having a mass of <m:math><m:mrow><m:mn>6.68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> that is moving at 0.200<emphasis effect="italics">c</emphasis>.</para>
+</problem>
+<solution id="fs-id1167793238015">
+<para id="fs-id1167793913215"><m:math><m:mrow><m:mn>4.09</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793219303">
+<problem id="fs-id1167793442787">
+<para id="fs-id1167794169326">What is the momentum of an electron traveling at 0.980<emphasis effect="italics">c</emphasis>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793931807">
+<problem id="fs-id1167794328891">
+<para id="fs-id1167794284915">(a) Find the momentum of a <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mtext>-kg</m:mtext></m:mrow></m:math> asteroid heading towards Earth at 30.0 km/s. (b) Find the ratio of this momentum to the classical momentum. (Hint: Use the approximation that <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> at low velocities.)</para>
+</problem>
+<solution id="fs-id1167793818543">
+<para id="fs-id1167793852850">a. <m:math><m:mrow><m:mn>3.000000015</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s;</m:mtext></m:mrow></m:math> b. 1.000000005</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167794039506">
+<problem id="fs-id1167793376189">
+<para id="fs-id1167793495147">(a) What is the momentum of a 2000-kg satellite orbiting at 4.00 km/s? (b) Find the ratio of this momentum to the classical momentum. (Hint: Use the approximation that <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> at low velocities.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167794026700">
+<problem id="fs-id1167794071266">
+<para id="fs-id1167793848355">What is the velocity of an electron that has a momentum of <m:math><m:mrow><m:mn>3.04</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:math>
+? Note that you must calculate the velocity to at least four digits to see the difference from <emphasis effect="italics">c</emphasis>.</para>
+</problem>
+<solution id="fs-id1167794137364">
+<para id="fs-id1167793949778"><m:math><m:mrow><m:mn>2.988</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793933416">
+<problem id="fs-id1167794135652">
+<para id="fs-id1167793637938">Find the velocity of a proton that has a momentum of <m:math><m:mrow><m:mn>4.48</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167794041889">
+<term>relativistic momentum</term>
+<meaning id="fs-id1167793887875"><m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:math> the momentum of an object moving at relativistic velocity; <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1167793881872">
+<term>rest mass</term>
+<meaning id="fs-id1167793510596">mass of an object as measured by an observer at rest relative to the object</meaning>
+</definition>
+</glossary>
+</document>

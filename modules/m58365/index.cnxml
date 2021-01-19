@@ -1,0 +1,146 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Damped Oscillations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m58365</md:content-id>
+  <md:title>Damped Oscillations</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the motion of damped harmonic motion</item>
+<item>Write the equations of motion for damped harmonic oscillations</item>
+<item>Describe the motion of driven, or forced, damped harmonic motion</item>
+<item>Write the equations of motion for forced, damped harmonic motion</item>
+</list></md:abstract>
+  <md:uuid>ffd9e0b7-b2ac-495e-b20b-e2a4a3444150</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131080334">In the real world, oscillations seldom follow true SHM. Friction of some sort usually acts to dampen the motion so it dies away, or needs more force to continue. In this section, we examine some examples of <term class="no-emphasis">damped harmonic motion</term> and see how to modify the equations of motion to describe this more general case.</para>
+<para id="fs-id1167134593364">A guitar string stops oscillating a few seconds after being plucked. To keep swinging on a playground swing, you must keep pushing (<link target-id="CNX_UPhysics_15_06_Swing"/>). Although we can often make friction and other nonconservative forces small or negligible, completely undamped motion is rare. In fact, we may even want to damp oscillations, such as with car shock absorbers.</para>
+<figure id="CNX_UPhysics_15_06_Swing">
+<media id="fs-id1167134458597" alt="A photo of a person on a swing">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_06_Swing.jpg"/>
+</media>
+<caption>To counteract dampening forces, you need to keep pumping a swing. (credit: Bob Mical)</caption>
+</figure>
+<para id="fs-id1167131181569"><link target-id="CNX_UPhysics_15_06_DampedOsci"/> shows a mass <emphasis effect="italics">m</emphasis> attached to a spring with a force constant <m:math><m:mrow><m:mi>k</m:mi><m:mo>.</m:mo></m:mrow></m:math> The mass is raised to a position <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, the initial amplitude, and then released. The mass oscillates around the equilibrium position in a fluid with viscosity but the amplitude decreases for each oscillation. For a system that has a small amount of damping, the period and frequency are constant and are nearly the same as for SHM, but the amplitude gradually decreases as shown. This occurs because the non-conservative damping force removes energy from the system, usually in the form of thermal energy.</para>
+<figure id="CNX_UPhysics_15_06_DampedOsci">
+<media id="fs-id1167129981857" alt="A mass m is suspended from a vertical spring and immersed in a fluid that has viscosity eta. A graph of the damped oscillation shows the displacement x in meters on the vertical axis as a function of time in seconds on the horizontal axis. The range of x is from minus A sub zero to plus A sub zero. The time scale is from zero to 7 T, with tics at increments of T. The displacement is plus A sub zero at time zero and oscillates between positive maxima and negative minima, with each full cycle taking the same time T but the amplitude of the oscillations decreasing with time.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_06_DampedOsci.jpg"/>
+</media>
+<caption>For a mass on a spring oscillating in a viscous fluid, the period remains constant, but the amplitudes of the oscillations decrease due to the damping caused by the fluid.</caption>
+</figure>
+<para id="fs-id1167129966801">Consider the forces acting on the mass. Note that the only contribution of the weight is to change the equilibrium position, as discussed earlier in the chapter. Therefore, the net force is equal to the force of the spring and the damping force <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mi>D</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. If the magnitude of the velocity is small, meaning the mass oscillates slowly, the damping force is proportional to the velocity and acts against the direction of motion <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mi>D</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. The net force on the mass is therefore</para>
+<equation id="fs-id1167134887400" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>−</m:mo><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131201320">Writing this as a differential equation in <emphasis effect="italics">x</emphasis>, we obtain</para>
+<note id="fs-id1167131345696" class="equation-callout">
+<equation id="fs-id1167131231570"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>b</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131498071">To determine the solution to this equation, consider the plot of position versus time shown in <link target-id="CNX_UPhysics_15_06_DampedOscX"/>. The curve resembles a cosine curve oscillating in the envelope of an exponential function <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> where <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow></m:math>. The solution is</para>
+<note id="fs-id1167134722670" class="equation-callout">
+<equation id="fs-id1167134928721"><label/><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mi>t</m:mi></m:mrow></m:msup><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131363125">It is left as an exercise to prove that this is, in fact, the solution. To prove that it is the right solution, take the first and second derivatives with respect to time and substitute them into <link target-id="fs-id1167131231570"/>. It is found that <link target-id="fs-id1167134928721"/> is the solution if</para>
+<equation id="fs-id1167131432113" class="unnumbered"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131406299">Recall that the angular frequency of a mass undergoing SHM is equal to the square root of the force constant divided by the mass. This is often referred to as the <term>natural angular frequency</term>, which is represented as</para>
+<note id="fs-id1167131154142" class="equation-callout">
+<equation id="fs-id1167131161057"><label/><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134812855">The angular frequency for damped harmonic motion becomes</para>
+<note id="fs-id1167131621821" class="equation-callout">
+<equation id="fs-id1167131503225"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_15_06_DampedOscX">
+<media id="fs-id1167131281519" alt="The figure shows a graph of displacement, x in meters, along the vertical axis, versus time in seconds along the horizontal axis. The displacement ranges from minus A sub zero to plus A sub zero and the time ranges from 0 to 10 T. The displacement, shown by a blue curve, oscillates between positive maxima and negative minima, forming a wave whose amplitude is decreasing gradually as we move far from t=0. The time, T, between adjacent crests remains the same throughout. The envelope, the smooth curve that connects the crests and another smooth curve that connects the troughs of the oscillations, is shown as a pair of dashed red lines. The upper curve connecting the crests is labeled as plus A sub zero times e to the quantity minus b t over 2 m. The lower curve connecting the troughs is labeled as minus A sub zero times e to the quantity minus b t over 2 m.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_06_DampedOscX.jpg"/>
+</media>
+<caption>Position versus time for the mass oscillating on a spring in a viscous fluid. Notice that the curve appears to be a cosine function inside an exponential envelope.</caption>
+</figure>
+<para id="fs-id1167134883275">Recall that when we began this description of damped harmonic motion, we stated that the damping must be small. Two questions come to mind. Why must the damping be small? And how small is small? If you gradually <emphasis effect="italics">increase</emphasis> the amount of damping in a system, the period and frequency begin to be affected, because damping opposes and hence slows the back and forth motion. (The net force is smaller in both directions.) If there is very large damping, the system does not even oscillate—it slowly moves toward equilibrium. The angular frequency is equal to</para>
+<equation id="fs-id1167131164435" class="unnumbered"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134678379">As <emphasis effect="italics">b</emphasis> increases, <m:math><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> becomes smaller and eventually reaches zero when <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow></m:math>. If <emphasis effect="italics">b</emphasis> becomes any larger, <m:math><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> becomes a negative number and <m:math><m:mrow><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math> is a complex number.</para>
+<para id="fs-id1167131215180"><link target-id="CNX_UPhysics_15_06_DampedOscB"/> shows the displacement of a harmonic oscillator for different amounts of damping. When the damping constant is small, <m:math><m:mrow><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow></m:math>, the system oscillates while the amplitude of the motion decays exponentially. This system is said to be <term>underdamped</term>, as in curve (a). Many systems are underdamped, and oscillate while the amplitude decreases exponentially, such as the mass oscillating on a spring. The damping may be quite small, but eventually the mass comes to rest. If the damping constant is <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow></m:math>, the system is said to be <term>critically damped</term>, as in curve (b). An example of a critically damped system is the shock absorbers in a car. It is advantageous to have the oscillations decay as fast as possible. Here, the system does not oscillate, but asymptotically approaches the equilibrium condition as quickly as possible. Curve (c) in <link target-id="CNX_UPhysics_15_06_DampedOscB"/> represents an <term>overdamped</term> system where <m:math><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> An overdamped system will approach equilibrium over a longer period of time.</para>
+<figure id="CNX_UPhysics_15_06_DampedOscB">
+<media id="fs-id1167131502315" alt="The position, x in meters on the vertical axis, versus time in seconds on the horizontal axis, with varying degrees of damping. No scale is given for either axis. All three curves start at the same positive position at time zero. Blue curve a, labeled with b squared is less than 4 m k, undergoes a little over two and a quarter oscillations of decreasing amplitude and constant period. Red curve b, labeled with b squared is equal to 4 m k, decreases at t=0 less rapidly than the blue curve, but does not oscillate. The red curve approaches x=0 asymptotically, and is nearly zero within one oscillation of the blue curve. Green curve c, labeled with b squared is greater than 4 m k, decreases at t=0 less rapidly than the red curve, and does not oscillate. The green curve approaches x=0 asymptotically, but is still noticeably above zero at the end of the graph, after more than two oscillations of the blue curve.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_06_DampedOscB.jpg"/>
+</media>
+<caption>The position versus time for three systems consisting of a mass and a spring in a viscous fluid. (a) If the damping is small <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, the mass oscillates, slowly losing amplitude as the energy is dissipated by the non-conservative force(s). The limiting case is (b) where the damping is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. (c) If the damping is very large <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, the mass does not oscillate when displaced, but attempts to return to the equilibrium position.</caption>
+</figure>
+<para id="fs-id1167131503759">Critical damping is often desired, because such a system returns to equilibrium rapidly and remains at equilibrium as well. In addition, a constant force applied to a critically damped system moves the system to a new equilibrium position in the shortest time possible without overshooting or oscillating about the new position.</para>
+<note id="fs-id1167134781058" class="check-understanding">
+<exercise id="fs-id1167134562163">
+<problem id="fs-id1167134882302">
+<para id="fs-id1167131119648"><emphasis effect="bold">Check Your Understanding</emphasis> Why are completely undamped harmonic oscillators so rare?</para>
+</problem>
+<solution id="fs-id1167134541830">
+<para id="fs-id1167129968201">Friction often comes into play whenever an object is moving. Friction causes damping in a harmonic oscillator.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131420681" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167131395544" list-type="bulleted" bullet-style="bullet">
+<item>Damped harmonic oscillators have non-conservative forces that dissipate their energy.</item>
+<item>Critical damping returns the system to equilibrium as fast as possible without overshooting.</item>
+<item>An underdamped system will oscillate through the equilibrium position.</item>
+<item>An overdamped system moves more slowly toward equilibrium than one that is critically damped.</item>
+</list>
+</section>
+<section id="fs-id1167134653363" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167131216072">
+<problem id="fs-id1167131360745">
+<para id="fs-id1167131359766">Give an example of a damped harmonic oscillator. (They are more common than undamped or simple harmonic oscillators.)</para>
+</problem>
+<solution id="fs-id1167134989944">
+<para id="fs-id1167131216679">A car shock absorber.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131162178">
+<problem id="fs-id1167131143061">
+<para id="fs-id1167134960494">How would a car bounce after a bump under each of these conditions?</para>
+<para id="fs-id1167134911846">(a) overdamping</para>
+<para id="fs-id1167131399549">(b) underdamping</para>
+<para id="fs-id1167134648584">(c) critical damping</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134817328">
+<problem id="fs-id1167134872904">
+<para id="fs-id1167131561284">Most harmonic oscillators are damped and, if undriven, eventually come to a stop. Why?</para>
+</problem>
+<solution id="fs-id1167134724463">
+<para id="fs-id1167134671552">The second law of thermodynamics states that perpetual motion machines are impossible. Eventually the ordered motion of the system decreases and returns to equilibrium.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167134514126" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167131136928">
+<problem id="fs-id1167134666935">
+<para id="fs-id1167131483625">The amplitude of a lightly damped oscillator decreases by <m:math><m:mrow><m:mn>3.0</m:mn><m:mi>%</m:mi></m:mrow></m:math> during each cycle. What percentage of the mechanical energy of the oscillator is lost in each cycle?</para>
+</problem>
+<solution id="fs-id1167134928633">
+<para id="fs-id1167134834992">6%</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131256031">
+<term>critically damped</term>
+<meaning id="fs-id1167130035193">condition in which the damping of an oscillator causes it to return as quickly as possible to its equilibrium position without oscillating back and forth about this position</meaning>
+</definition>
+<definition id="fs-id1167131178689">
+<term>natural angular frequency</term>
+<meaning id="fs-id1167131567542">angular frequency of a system oscillating in SHM</meaning>
+</definition>
+<definition id="fs-id1167134687928">
+<term>overdamped</term>
+<meaning id="fs-id1167131364306">condition in which damping of an oscillator causes it to return to equilibrium without oscillating; oscillator moves more slowly toward equilibrium than in the critically damped system</meaning>
+</definition>
+<definition id="fs-id1167131406610">
+<term>underdamped</term>
+<meaning id="fs-id1167131266887">condition in which damping of an oscillator causes the amplitude of oscillations of a damped harmonic oscillator to decrease over time, eventually approaching zero</meaning>
+</definition>
+</glossary>
+</document>
