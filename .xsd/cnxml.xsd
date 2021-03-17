@@ -1,0 +1,3511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://cnx.rice.edu/cnxml" xmlns:s="http://cnx.rice.edu/system-info" xmlns:cnxml="http://cnx.rice.edu/cnxml" xmlns:ns1="http://bibtexml.sf.net/" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:qml="http://cnx.rice.edu/qml/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mdml="http://cnx.rice.edu/mdml">
+  <xs:import namespace="http://bibtexml.sf.net/" schemaLocation="ns1.xsd"/>
+  <xs:import namespace="http://cnx.rice.edu/mdml" schemaLocation="mdml.xsd"/>
+  <xs:import namespace="http://cnx.rice.edu/qml/1.0" schemaLocation="qml.xsd"/>
+  <xs:import namespace="http://cnx.rice.edu/system-info" schemaLocation="s.xsd"/>
+  <xs:import namespace="http://www.w3.org/1998/Math/MathML" schemaLocation="mathml.xsd"/>
+  <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:group ref="mathml:title"/>
+        <xs:element minOccurs="0" ref="cnxml:metadata"/>
+        <xs:element minOccurs="0" ref="cnxml:featured-links"/>
+        <xs:element ref="cnxml:content"/>
+        <xs:element minOccurs="0" ref="cnxml:glossary"/>
+        <xs:element minOccurs="0" ref="ns1:file"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="cnxml-version" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="0.7"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="module-id" use="required"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="title">
+    <xs:sequence>
+      <xs:element name="title">
+        <xs:complexType mixed="true">
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="metadata">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="mdml:content-id"/>
+        <xs:element ref="mdml:repository"/>
+        <xs:element ref="mdml:content-url"/>
+        <xs:element ref="mdml:title"/>
+        <xs:element ref="mdml:short-title"/>
+        <xs:element ref="mdml:subtitle"/>
+        <xs:element ref="mdml:version"/>
+        <xs:element ref="mdml:created"/>
+        <xs:element ref="mdml:revised"/>
+        <xs:element ref="mdml:actors"/>
+        <xs:element ref="mdml:roles"/>
+        <xs:element ref="mdml:license"/>
+        <xs:element ref="mdml:extended-attribution"/>
+        <xs:element ref="mdml:derived-from"/>
+        <xs:element ref="mdml:keywordlist"/>
+        <xs:element ref="mdml:subjectlist"/>
+        <xs:element ref="mdml:education-levellist"/>
+        <xs:element ref="mdml:abstract"/>
+        <xs:element ref="mdml:language"/>
+        <xs:element ref="mdml:objectives"/>
+        <xs:element ref="mdml:homepage"/>
+        <xs:element ref="mdml:institution"/>
+        <xs:element ref="mdml:course-code"/>
+        <xs:element ref="mdml:instructor"/>
+        <xs:element ref="mdml:uuid"/>
+        <xs:element ref="mdml:canonical-book-uuid"/>
+        <xs:element ref="mdml:slug"/>
+      </xs:choice>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="mdml-version" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="0.5"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="featured-links">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="cnxml:link-group"/>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="content">
+    <xs:complexType>
+      <xs:choice>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="cnxml:section"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+          <xs:group ref="mathml:para"/>
+        </xs:choice>
+        <xs:element ref="qml:problemset"/>
+      </xs:choice>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="glossary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="cnxml:definition"/>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="link-group">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:element maxOccurs="unbounded" ref="cnxml:link"/>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="type" use="required"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="section">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="cnxml:section"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+          <xs:group ref="mathml:para"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="div">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="mathml:para"/>
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:element ref="cnxml:footnote"/>
+          <xs:element ref="cnxml:link"/>
+          <xs:element ref="cnxml:newline"/>
+          <xs:element ref="cnxml:space"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="definition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group ref="mathml:term_2"/>
+        <xs:choice>
+          <xs:element ref="cnxml:seealso"/>
+          <xs:sequence>
+            <xs:sequence maxOccurs="unbounded">
+              <xs:element ref="cnxml:meaning"/>
+              <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:example"/>
+            </xs:sequence>
+            <xs:element minOccurs="0" ref="cnxml:seealso"/>
+          </xs:sequence>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="example">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="cnxml:section"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+          <xs:group ref="mathml:para"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="figure">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice>
+          <xs:element ref="cnxml:media"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:code"/>
+          <xs:sequence>
+            <xs:element ref="cnxml:subfigure"/>
+            <xs:element maxOccurs="unbounded" ref="cnxml:subfigure"/>
+          </xs:sequence>
+        </xs:choice>
+        <xs:element minOccurs="0" ref="cnxml:caption"/>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="orient">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="horizontal"/>
+            <xs:enumeration value="vertical"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="code">
+    <xs:sequence>
+      <xs:element name="code">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="cnxml:label"/>
+            <xs:group minOccurs="0" ref="mathml:title_3"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element ref="mathml:math"/>
+              <xs:group ref="mathml:span_2"/>
+              <xs:group ref="mathml:term_2"/>
+              <xs:group ref="mathml:cite_2"/>
+              <xs:element ref="cnxml:cite-title"/>
+              <xs:group ref="mathml:foreign_2"/>
+              <xs:group ref="mathml:emphasis_2"/>
+              <xs:group ref="mathml:sub_2"/>
+              <xs:group ref="mathml:sup_2"/>
+              <xs:group ref="mathml:code_3"/>
+              <xs:group ref="mathml:preformat_3"/>
+              <xs:group ref="mathml:quote_3"/>
+              <xs:group ref="mathml:note_2"/>
+              <xs:group ref="mathml:list"/>
+              <xs:element ref="cnxml:media"/>
+              <xs:element ref="cnxml:footnote"/>
+              <xs:element ref="cnxml:link"/>
+              <xs:element ref="cnxml:newline"/>
+              <xs:element ref="cnxml:space"/>
+            </xs:choice>
+            <xs:element minOccurs="0" ref="cnxml:caption"/>
+          </xs:sequence>
+          <xs:attribute name="display" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="block"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" use="required" type="xs:ID"/>
+          <xs:attribute name="lang"/>
+          <xs:attribute name="type"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="preformat">
+    <xs:sequence>
+      <xs:element name="preformat">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:group minOccurs="0" ref="mathml:title_3"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:group ref="mathml:para"/>
+              <xs:element ref="mathml:math"/>
+              <xs:group ref="mathml:span_2"/>
+              <xs:group ref="mathml:term_2"/>
+              <xs:group ref="mathml:cite_2"/>
+              <xs:element ref="cnxml:cite-title"/>
+              <xs:group ref="mathml:foreign_2"/>
+              <xs:group ref="mathml:emphasis_2"/>
+              <xs:group ref="mathml:sub_2"/>
+              <xs:group ref="mathml:sup_2"/>
+              <xs:group ref="mathml:code_3"/>
+              <xs:group ref="mathml:preformat_3"/>
+              <xs:group ref="mathml:quote_3"/>
+              <xs:group ref="mathml:note_2"/>
+              <xs:group ref="mathml:list"/>
+              <xs:element ref="cnxml:media"/>
+              <xs:element ref="cnxml:footnote"/>
+              <xs:element ref="cnxml:link"/>
+              <xs:element ref="cnxml:newline"/>
+              <xs:element ref="cnxml:space"/>
+              <xs:element ref="cnxml:div"/>
+              <xs:element ref="cnxml:definition"/>
+              <xs:element ref="cnxml:example"/>
+              <xs:element ref="cnxml:figure"/>
+              <xs:group ref="mathml:code"/>
+              <xs:group ref="mathml:preformat"/>
+              <xs:group ref="mathml:quote"/>
+              <xs:group ref="mathml:note"/>
+              <xs:element ref="cnxml:media"/>
+              <xs:group ref="mathml:list"/>
+              <xs:element ref="cnxml:table"/>
+              <xs:element ref="cnxml:rule"/>
+              <xs:element ref="cnxml:equation"/>
+              <xs:element ref="cnxml:exercise"/>
+            </xs:choice>
+          </xs:sequence>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" use="required" type="xs:ID"/>
+          <xs:attribute name="display">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="block"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="quote">
+    <xs:sequence>
+      <xs:element name="quote">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="cnxml:label"/>
+            <xs:group minOccurs="0" ref="mathml:title_3"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:group ref="mathml:para"/>
+              <xs:element ref="mathml:math"/>
+              <xs:group ref="mathml:span_2"/>
+              <xs:group ref="mathml:term_2"/>
+              <xs:group ref="mathml:cite_2"/>
+              <xs:element ref="cnxml:cite-title"/>
+              <xs:group ref="mathml:foreign_2"/>
+              <xs:group ref="mathml:emphasis_2"/>
+              <xs:group ref="mathml:sub_2"/>
+              <xs:group ref="mathml:sup_2"/>
+              <xs:group ref="mathml:code_3"/>
+              <xs:group ref="mathml:preformat_3"/>
+              <xs:group ref="mathml:quote_3"/>
+              <xs:group ref="mathml:note_2"/>
+              <xs:group ref="mathml:list"/>
+              <xs:element ref="cnxml:media"/>
+              <xs:element ref="cnxml:footnote"/>
+              <xs:element ref="cnxml:link"/>
+              <xs:element ref="cnxml:newline"/>
+              <xs:element ref="cnxml:space"/>
+              <xs:element ref="cnxml:div"/>
+              <xs:element ref="cnxml:definition"/>
+              <xs:element ref="cnxml:example"/>
+              <xs:element ref="cnxml:figure"/>
+              <xs:group ref="mathml:code"/>
+              <xs:group ref="mathml:preformat"/>
+              <xs:group ref="mathml:quote"/>
+              <xs:group ref="mathml:note"/>
+              <xs:element ref="cnxml:media"/>
+              <xs:group ref="mathml:list"/>
+              <xs:element ref="cnxml:table"/>
+              <xs:element ref="cnxml:rule"/>
+              <xs:element ref="cnxml:equation"/>
+              <xs:element ref="cnxml:exercise"/>
+            </xs:choice>
+          </xs:sequence>
+          <xs:attribute name="display">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="block"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" use="required" type="xs:ID"/>
+          <xs:attribute name="type"/>
+          <xs:attribute name="window">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="replace"/>
+                <xs:enumeration value="new"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="url"/>
+          <xs:attribute name="document"/>
+          <xs:attribute name="version"/>
+          <xs:attribute name="target-id"/>
+          <xs:attribute name="resource"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="note">
+    <xs:sequence>
+      <xs:element name="note">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="cnxml:label"/>
+            <xs:group minOccurs="0" ref="mathml:title_3"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:group ref="mathml:para"/>
+              <xs:element ref="mathml:math"/>
+              <xs:group ref="mathml:span_2"/>
+              <xs:group ref="mathml:term_2"/>
+              <xs:group ref="mathml:cite_2"/>
+              <xs:element ref="cnxml:cite-title"/>
+              <xs:group ref="mathml:foreign_2"/>
+              <xs:group ref="mathml:emphasis_2"/>
+              <xs:group ref="mathml:sub_2"/>
+              <xs:group ref="mathml:sup_2"/>
+              <xs:group ref="mathml:code_3"/>
+              <xs:group ref="mathml:preformat_3"/>
+              <xs:group ref="mathml:quote_3"/>
+              <xs:group ref="mathml:note_2"/>
+              <xs:group ref="mathml:list"/>
+              <xs:element ref="cnxml:media"/>
+              <xs:element ref="cnxml:footnote"/>
+              <xs:element ref="cnxml:link"/>
+              <xs:element ref="cnxml:newline"/>
+              <xs:element ref="cnxml:space"/>
+              <xs:element ref="cnxml:div"/>
+              <xs:element ref="cnxml:definition"/>
+              <xs:element ref="cnxml:example"/>
+              <xs:element ref="cnxml:figure"/>
+              <xs:group ref="mathml:code"/>
+              <xs:group ref="mathml:preformat"/>
+              <xs:group ref="mathml:quote"/>
+              <xs:group ref="mathml:note"/>
+              <xs:element ref="cnxml:media"/>
+              <xs:group ref="mathml:list"/>
+              <xs:element ref="cnxml:table"/>
+              <xs:element ref="cnxml:rule"/>
+              <xs:element ref="cnxml:equation"/>
+              <xs:element ref="cnxml:exercise"/>
+            </xs:choice>
+          </xs:sequence>
+          <xs:attribute name="display">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="block"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" use="required" type="xs:ID"/>
+          <xs:attribute name="type">
+            <xs:simpleType>
+              <xs:union memberTypes="xs:token">
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="note"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="aside"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="warning"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="tip"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="important"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:union>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="media">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:longdesc"/>
+        <xs:choice>
+          <xs:element ref="cnxml:object"/>
+          <xs:element ref="cnxml:image"/>
+          <xs:element ref="cnxml:audio"/>
+          <xs:element ref="cnxml:video"/>
+          <xs:element ref="cnxml:java-applet"/>
+          <xs:element ref="cnxml:flash"/>
+          <xs:element ref="cnxml:iframe"/>
+          <xs:element ref="cnxml:labview"/>
+          <xs:element ref="cnxml:text"/>
+          <xs:element ref="cnxml:download"/>
+        </xs:choice>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="cnxml:object"/>
+          <xs:element ref="cnxml:image"/>
+          <xs:element ref="cnxml:audio"/>
+          <xs:element ref="cnxml:video"/>
+          <xs:element ref="cnxml:java-applet"/>
+          <xs:element ref="cnxml:flash"/>
+          <xs:element ref="cnxml:iframe"/>
+          <xs:element ref="cnxml:labview"/>
+          <xs:element ref="cnxml:text"/>
+          <xs:element ref="cnxml:download"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="display">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="inline"/>
+            <xs:enumeration value="none"/>
+            <xs:enumeration value="block"/>
+            <xs:enumeration value="inline"/>
+            <xs:enumeration value="none"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="alt" use="required"/>
+      <xs:attribute name="longdesc"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="list">
+    <xs:sequence>
+      <xs:element name="list">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="cnxml:label"/>
+            <xs:group minOccurs="0" ref="mathml:title_3"/>
+            <xs:group maxOccurs="unbounded" ref="mathml:item"/>
+          </xs:sequence>
+          <xs:attribute name="list-type">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="bulleted"/>
+                <xs:enumeration value="enumerated"/>
+                <xs:enumeration value="labeled-item"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="mark-suffix"/>
+          <xs:attribute name="bullet-style"/>
+          <xs:attribute name="number-style">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="arabic"/>
+                <xs:enumeration value="upper-alpha"/>
+                <xs:enumeration value="lower-alpha"/>
+                <xs:enumeration value="upper-roman"/>
+                <xs:enumeration value="lower-roman"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="start-value">
+            <xs:simpleType>
+              <xs:restriction base="xs:integer">
+                <xs:minInclusive value="1"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="mark-prefix"/>
+          <xs:attribute name="type"/>
+          <xs:attribute name="display">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="block"/>
+                <xs:enumeration value="none"/>
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:attribute name="item-sep"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="table">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:element maxOccurs="unbounded" ref="cnxml:tgroup"/>
+        <xs:element minOccurs="0" ref="cnxml:caption"/>
+      </xs:sequence>
+      <xs:attribute name="frame">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="top"/>
+            <xs:enumeration value="bottom"/>
+            <xs:enumeration value="topbot"/>
+            <xs:enumeration value="all"/>
+            <xs:enumeration value="sides"/>
+            <xs:enumeration value="none"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="summary" use="required"/>
+      <xs:attribute name="colsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="rowsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="tabstyle"/>
+      <xs:attribute name="tocentry">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="shortentry">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="orient">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="port"/>
+            <xs:enumeration value="land"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="pgwide">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="type"/>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="rule">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:element maxOccurs="unbounded" ref="cnxml:statement"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="cnxml:proof"/>
+          <xs:element ref="cnxml:example"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="equation">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice minOccurs="0">
+          <xs:element ref="cnxml:media"/>
+          <xs:element ref="mathml:math"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="exercise">
+    <xs:complexType>
+      <xs:choice>
+        <xs:sequence>
+          <xs:element minOccurs="0" ref="cnxml:label"/>
+          <xs:group minOccurs="0" ref="mathml:title_3"/>
+          <xs:element ref="cnxml:problem"/>
+          <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:solution"/>
+          <xs:element minOccurs="0" ref="cnxml:commentary"/>
+        </xs:sequence>
+        <xs:element ref="qml:item"/>
+      </xs:choice>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="print-placement">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="here"/>
+            <xs:enumeration value="end"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="para">
+    <xs:sequence>
+      <xs:element name="para">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:group minOccurs="0" ref="mathml:title_3"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element ref="mathml:math"/>
+              <xs:group ref="mathml:span_2"/>
+              <xs:group ref="mathml:term_2"/>
+              <xs:group ref="mathml:cite_2"/>
+              <xs:element ref="cnxml:cite-title"/>
+              <xs:group ref="mathml:foreign_2"/>
+              <xs:group ref="mathml:emphasis_2"/>
+              <xs:group ref="mathml:sub_2"/>
+              <xs:group ref="mathml:sup_2"/>
+              <xs:group ref="mathml:code_3"/>
+              <xs:group ref="mathml:preformat_3"/>
+              <xs:group ref="mathml:quote_3"/>
+              <xs:group ref="mathml:note_2"/>
+              <xs:group ref="mathml:list"/>
+              <xs:element ref="cnxml:media"/>
+              <xs:element ref="cnxml:footnote"/>
+              <xs:element ref="cnxml:link"/>
+              <xs:element ref="cnxml:newline"/>
+              <xs:element ref="cnxml:space"/>
+              <xs:element ref="cnxml:div"/>
+              <xs:element ref="cnxml:definition"/>
+              <xs:element ref="cnxml:example"/>
+              <xs:element ref="cnxml:figure"/>
+              <xs:group ref="mathml:code"/>
+              <xs:group ref="mathml:preformat"/>
+              <xs:group ref="mathml:quote"/>
+              <xs:group ref="mathml:note"/>
+              <xs:element ref="cnxml:media"/>
+              <xs:group ref="mathml:list"/>
+              <xs:element ref="cnxml:table"/>
+              <xs:element ref="cnxml:rule"/>
+              <xs:element ref="cnxml:equation"/>
+              <xs:element ref="cnxml:exercise"/>
+            </xs:choice>
+          </xs:sequence>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" use="required" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="para1">
+    <xs:sequence>
+      <xs:element name="para">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="mathml:emphasis"/>
+            <xs:group ref="mathml:term"/>
+            <xs:group ref="mathml:foreign"/>
+            <xs:group ref="mathml:cite"/>
+            <xs:group ref="mathml:span"/>
+            <xs:group ref="mathml:sup"/>
+            <xs:group ref="mathml:sub"/>
+            <xs:group ref="mathml:code_2"/>
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:quote_2"/>
+            <xs:group ref="mathml:preformat_2"/>
+            <xs:group ref="mathml:list_2"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="emphasis">
+    <xs:sequence>
+      <xs:element name="emphasis">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="mathml:emphasis"/>
+            <xs:group ref="mathml:term"/>
+            <xs:group ref="mathml:foreign"/>
+            <xs:group ref="mathml:cite"/>
+            <xs:group ref="mathml:span"/>
+            <xs:group ref="mathml:sup"/>
+            <xs:group ref="mathml:sub"/>
+            <xs:group ref="mathml:code_2"/>
+            <xs:element ref="mathml:math"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="term">
+    <xs:sequence>
+      <xs:element name="term">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="mathml:emphasis"/>
+            <xs:group ref="mathml:term"/>
+            <xs:group ref="mathml:foreign"/>
+            <xs:group ref="mathml:cite"/>
+            <xs:group ref="mathml:span"/>
+            <xs:group ref="mathml:sup"/>
+            <xs:group ref="mathml:sub"/>
+            <xs:group ref="mathml:code_2"/>
+            <xs:element ref="mathml:math"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="foreign">
+    <xs:sequence>
+      <xs:element name="foreign">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="mathml:emphasis"/>
+            <xs:group ref="mathml:term"/>
+            <xs:group ref="mathml:foreign"/>
+            <xs:group ref="mathml:cite"/>
+            <xs:group ref="mathml:span"/>
+            <xs:group ref="mathml:sup"/>
+            <xs:group ref="mathml:sub"/>
+            <xs:group ref="mathml:code_2"/>
+            <xs:element ref="mathml:math"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="cite">
+    <xs:sequence>
+      <xs:element name="cite">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="mathml:emphasis"/>
+            <xs:group ref="mathml:term"/>
+            <xs:group ref="mathml:foreign"/>
+            <xs:group ref="mathml:cite"/>
+            <xs:group ref="mathml:span"/>
+            <xs:group ref="mathml:sup"/>
+            <xs:group ref="mathml:sub"/>
+            <xs:group ref="mathml:code_2"/>
+            <xs:element ref="mathml:math"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="span">
+    <xs:sequence>
+      <xs:element name="span">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="mathml:emphasis"/>
+            <xs:group ref="mathml:term"/>
+            <xs:group ref="mathml:foreign"/>
+            <xs:group ref="mathml:cite"/>
+            <xs:group ref="mathml:span"/>
+            <xs:group ref="mathml:sup"/>
+            <xs:group ref="mathml:sub"/>
+            <xs:group ref="mathml:code_2"/>
+            <xs:element ref="mathml:math"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="sup">
+    <xs:sequence>
+      <xs:element name="sup">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="mathml:emphasis"/>
+            <xs:group ref="mathml:term"/>
+            <xs:group ref="mathml:foreign"/>
+            <xs:group ref="mathml:cite"/>
+            <xs:group ref="mathml:span"/>
+            <xs:group ref="mathml:sup"/>
+            <xs:group ref="mathml:sub"/>
+            <xs:group ref="mathml:code_2"/>
+            <xs:element ref="mathml:math"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="sub">
+    <xs:sequence>
+      <xs:element name="sub">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="mathml:emphasis"/>
+            <xs:group ref="mathml:term"/>
+            <xs:group ref="mathml:foreign"/>
+            <xs:group ref="mathml:cite"/>
+            <xs:group ref="mathml:span"/>
+            <xs:group ref="mathml:sup"/>
+            <xs:group ref="mathml:sub"/>
+            <xs:group ref="mathml:code_2"/>
+            <xs:element ref="mathml:math"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="code1">
+    <xs:sequence>
+      <xs:element name="code">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="mathml:emphasis"/>
+            <xs:group ref="mathml:term"/>
+            <xs:group ref="mathml:foreign"/>
+            <xs:group ref="mathml:cite"/>
+            <xs:group ref="mathml:span"/>
+            <xs:group ref="mathml:sup"/>
+            <xs:group ref="mathml:sub"/>
+            <xs:group ref="mathml:code_2"/>
+            <xs:element ref="mathml:math"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="display">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="block"/>
+                <xs:enumeration value="none"/>
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="quote1">
+    <xs:sequence>
+      <xs:element name="quote">
+        <xs:complexType mixed="true">
+          <xs:choice maxOccurs="unbounded">
+            <xs:group ref="mathml:para_2"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:group ref="mathml:emphasis"/>
+              <xs:group ref="mathml:term"/>
+              <xs:group ref="mathml:foreign"/>
+              <xs:group ref="mathml:cite"/>
+              <xs:group ref="mathml:span"/>
+              <xs:group ref="mathml:sup"/>
+              <xs:group ref="mathml:sub"/>
+              <xs:group ref="mathml:code_2"/>
+              <xs:element ref="mathml:math"/>
+              <xs:group ref="mathml:quote_2"/>
+              <xs:group ref="mathml:preformat_2"/>
+              <xs:group ref="mathml:list_2"/>
+            </xs:choice>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="display">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="block"/>
+                <xs:enumeration value="none"/>
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="preformat1">
+    <xs:sequence>
+      <xs:element name="preformat">
+        <xs:complexType mixed="true">
+          <xs:choice maxOccurs="unbounded">
+            <xs:group ref="mathml:para_2"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:group ref="mathml:emphasis"/>
+              <xs:group ref="mathml:term"/>
+              <xs:group ref="mathml:foreign"/>
+              <xs:group ref="mathml:cite"/>
+              <xs:group ref="mathml:span"/>
+              <xs:group ref="mathml:sup"/>
+              <xs:group ref="mathml:sub"/>
+              <xs:group ref="mathml:code_2"/>
+              <xs:element ref="mathml:math"/>
+              <xs:group ref="mathml:quote_2"/>
+              <xs:group ref="mathml:preformat_2"/>
+              <xs:group ref="mathml:list_2"/>
+            </xs:choice>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="display">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="block"/>
+                <xs:enumeration value="none"/>
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="list1">
+    <xs:sequence>
+      <xs:element name="list">
+        <xs:complexType>
+          <xs:group maxOccurs="unbounded" ref="mathml:item_3"/>
+          <xs:attribute name="list-type">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="bulleted"/>
+                <xs:enumeration value="enumerated"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="display">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="block"/>
+                <xs:enumeration value="none"/>
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute ref="xml:lang"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="label">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="mathml:math"/>
+        <xs:group ref="mathml:span_2"/>
+        <xs:group ref="mathml:term_2"/>
+        <xs:group ref="mathml:cite_2"/>
+        <xs:element ref="cnxml:cite-title"/>
+        <xs:group ref="mathml:foreign_2"/>
+        <xs:group ref="mathml:emphasis_2"/>
+        <xs:group ref="mathml:sub_2"/>
+        <xs:group ref="mathml:sup_2"/>
+        <xs:group ref="mathml:code_3"/>
+        <xs:group ref="mathml:preformat_3"/>
+        <xs:group ref="mathml:quote_3"/>
+        <xs:group ref="mathml:note_2"/>
+        <xs:group ref="mathml:list"/>
+        <xs:element ref="cnxml:media"/>
+        <xs:element ref="cnxml:footnote"/>
+        <xs:element ref="cnxml:link"/>
+        <xs:element ref="cnxml:newline"/>
+        <xs:element ref="cnxml:space"/>
+      </xs:choice>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="link">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="mathml:math"/>
+        <xs:group ref="mathml:span_2"/>
+        <xs:group ref="mathml:term_2"/>
+        <xs:group ref="mathml:cite_2"/>
+        <xs:element ref="cnxml:cite-title"/>
+        <xs:group ref="mathml:foreign_2"/>
+        <xs:group ref="mathml:emphasis_2"/>
+        <xs:group ref="mathml:sub_2"/>
+        <xs:group ref="mathml:sup_2"/>
+        <xs:group ref="mathml:code_3"/>
+        <xs:group ref="mathml:preformat_3"/>
+        <xs:group ref="mathml:quote_3"/>
+        <xs:group ref="mathml:note_2"/>
+        <xs:group ref="mathml:list"/>
+        <xs:element ref="cnxml:media"/>
+        <xs:element ref="cnxml:footnote"/>
+        <xs:element ref="cnxml:link"/>
+        <xs:element ref="cnxml:newline"/>
+        <xs:element ref="cnxml:space"/>
+      </xs:choice>
+      <xs:attribute name="strength">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="1"/>
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="3"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="window">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="replace"/>
+            <xs:enumeration value="new"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="url"/>
+      <xs:attribute name="document"/>
+      <xs:attribute name="version"/>
+      <xs:attribute name="target-id"/>
+      <xs:attribute name="resource"/>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="title1">
+    <xs:sequence>
+      <xs:element name="title">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code_3"/>
+            <xs:group ref="mathml:preformat_3"/>
+            <xs:group ref="mathml:quote_3"/>
+            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="span1">
+    <xs:sequence>
+      <xs:element name="span">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code_3"/>
+            <xs:group ref="mathml:preformat_3"/>
+            <xs:group ref="mathml:quote_3"/>
+            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+          </xs:choice>
+          <xs:attribute name="effect">
+            <xs:simpleType>
+              <xs:union memberTypes="xs:NMTOKEN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="bold"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="italics"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="underline"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="normal"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="smallcaps"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:union>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="term1">
+    <xs:sequence>
+      <xs:element name="term">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code_3"/>
+            <xs:group ref="mathml:preformat_3"/>
+            <xs:group ref="mathml:quote_3"/>
+            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+          </xs:choice>
+          <xs:attribute name="window">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="replace"/>
+                <xs:enumeration value="new"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="url"/>
+          <xs:attribute name="document"/>
+          <xs:attribute name="version"/>
+          <xs:attribute name="target-id"/>
+          <xs:attribute name="resource"/>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="cite1">
+    <xs:sequence>
+      <xs:element name="cite">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code_3"/>
+            <xs:group ref="mathml:preformat_3"/>
+            <xs:group ref="mathml:quote_3"/>
+            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+          </xs:choice>
+          <xs:attribute name="window">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="replace"/>
+                <xs:enumeration value="new"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="url"/>
+          <xs:attribute name="document"/>
+          <xs:attribute name="version"/>
+          <xs:attribute name="target-id"/>
+          <xs:attribute name="resource"/>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="cite-title">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="mathml:math"/>
+        <xs:group ref="mathml:span_2"/>
+        <xs:group ref="mathml:term_2"/>
+        <xs:group ref="mathml:cite_2"/>
+        <xs:element ref="cnxml:cite-title"/>
+        <xs:group ref="mathml:foreign_2"/>
+        <xs:group ref="mathml:emphasis_2"/>
+        <xs:group ref="mathml:sub_2"/>
+        <xs:group ref="mathml:sup_2"/>
+        <xs:group ref="mathml:code_3"/>
+        <xs:group ref="mathml:preformat_3"/>
+        <xs:group ref="mathml:quote_3"/>
+        <xs:group ref="mathml:note_2"/>
+        <xs:group ref="mathml:list"/>
+        <xs:element ref="cnxml:media"/>
+        <xs:element ref="cnxml:footnote"/>
+        <xs:element ref="cnxml:link"/>
+        <xs:element ref="cnxml:newline"/>
+        <xs:element ref="cnxml:space"/>
+      </xs:choice>
+      <xs:attribute name="pub-type">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="article"/>
+            <xs:enumeration value="book"/>
+            <xs:enumeration value="booklet"/>
+            <xs:enumeration value="conference"/>
+            <xs:enumeration value="inbook"/>
+            <xs:enumeration value="incollection"/>
+            <xs:enumeration value="inproceedings"/>
+            <xs:enumeration value="manual"/>
+            <xs:enumeration value="mastersthesis"/>
+            <xs:enumeration value="misc"/>
+            <xs:enumeration value="phdthesis"/>
+            <xs:enumeration value="proceedings"/>
+            <xs:enumeration value="techreport"/>
+            <xs:enumeration value="unpublished"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="foreign1">
+    <xs:sequence>
+      <xs:element name="foreign">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code_3"/>
+            <xs:group ref="mathml:preformat_3"/>
+            <xs:group ref="mathml:quote_3"/>
+            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+          </xs:choice>
+          <xs:attribute name="window">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="replace"/>
+                <xs:enumeration value="new"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="url"/>
+          <xs:attribute name="document"/>
+          <xs:attribute name="version"/>
+          <xs:attribute name="target-id"/>
+          <xs:attribute name="resource"/>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="emphasis1">
+    <xs:sequence>
+      <xs:element name="emphasis">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code_3"/>
+            <xs:group ref="mathml:preformat_3"/>
+            <xs:group ref="mathml:quote_3"/>
+            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+          </xs:choice>
+          <xs:attribute name="effect">
+            <xs:simpleType>
+              <xs:union memberTypes="xs:NMTOKEN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="bold"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="italics"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="underline"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="normal"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="smallcaps"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:union>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="sub1">
+    <xs:sequence>
+      <xs:element name="sub">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code_3"/>
+            <xs:group ref="mathml:preformat_3"/>
+            <xs:group ref="mathml:quote_3"/>
+            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="sup1">
+    <xs:sequence>
+      <xs:element name="sup">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code_3"/>
+            <xs:group ref="mathml:preformat_3"/>
+            <xs:group ref="mathml:quote_3"/>
+            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="code2">
+    <xs:sequence>
+      <xs:element name="code">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code_3"/>
+            <xs:group ref="mathml:preformat_3"/>
+            <xs:group ref="mathml:quote_3"/>
+            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+          </xs:choice>
+          <xs:attribute name="display">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="lang"/>
+          <xs:attribute name="type"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="preformat2">
+    <xs:sequence>
+      <xs:element name="preformat">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code_3"/>
+            <xs:group ref="mathml:preformat_3"/>
+            <xs:group ref="mathml:quote_3"/>
+            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+          </xs:choice>
+          <xs:attribute name="display" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="quote2">
+    <xs:sequence>
+      <xs:element name="quote">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="cnxml:label"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element ref="mathml:math"/>
+              <xs:group ref="mathml:span_2"/>
+              <xs:group ref="mathml:term_2"/>
+              <xs:group ref="mathml:cite_2"/>
+              <xs:element ref="cnxml:cite-title"/>
+              <xs:group ref="mathml:foreign_2"/>
+              <xs:group ref="mathml:emphasis_2"/>
+              <xs:group ref="mathml:sub_2"/>
+              <xs:group ref="mathml:sup_2"/>
+              <xs:group ref="mathml:code_3"/>
+              <xs:group ref="mathml:preformat_3"/>
+              <xs:group ref="mathml:quote_3"/>
+              <xs:group ref="mathml:note_2"/>
+              <xs:group ref="mathml:list"/>
+              <xs:element ref="cnxml:media"/>
+              <xs:element ref="cnxml:footnote"/>
+              <xs:element ref="cnxml:link"/>
+              <xs:element ref="cnxml:newline"/>
+              <xs:element ref="cnxml:space"/>
+            </xs:choice>
+          </xs:sequence>
+          <xs:attribute name="display" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="window">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="replace"/>
+                <xs:enumeration value="new"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="url"/>
+          <xs:attribute name="document"/>
+          <xs:attribute name="version"/>
+          <xs:attribute name="target-id"/>
+          <xs:attribute name="resource"/>
+          <xs:attribute name="type"/>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="note1">
+    <xs:sequence>
+      <xs:element name="note">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="cnxml:label"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element ref="mathml:math"/>
+              <xs:group ref="mathml:span_2"/>
+              <xs:group ref="mathml:term_2"/>
+              <xs:group ref="mathml:cite_2"/>
+              <xs:element ref="cnxml:cite-title"/>
+              <xs:group ref="mathml:foreign_2"/>
+              <xs:group ref="mathml:emphasis_2"/>
+              <xs:group ref="mathml:sub_2"/>
+              <xs:group ref="mathml:sup_2"/>
+              <xs:group ref="mathml:code_3"/>
+              <xs:group ref="mathml:preformat_3"/>
+              <xs:group ref="mathml:quote_3"/>
+              <xs:group ref="mathml:note_2"/>
+              <xs:group ref="mathml:list"/>
+              <xs:element ref="cnxml:media"/>
+              <xs:element ref="cnxml:footnote"/>
+              <xs:element ref="cnxml:link"/>
+              <xs:element ref="cnxml:newline"/>
+              <xs:element ref="cnxml:space"/>
+            </xs:choice>
+          </xs:sequence>
+          <xs:attribute name="display" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="type">
+            <xs:simpleType>
+              <xs:union memberTypes="xs:token">
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="note"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="aside"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="warning"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="tip"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="important"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:union>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="footnote">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="mathml:para"/>
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:element ref="cnxml:footnote"/>
+          <xs:element ref="cnxml:link"/>
+          <xs:element ref="cnxml:newline"/>
+          <xs:element ref="cnxml:space"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="newline">
+    <xs:complexType>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="count">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="effect">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:NMTOKEN">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="bold"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="italics"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="underline"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="normal"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="smallcaps"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="space">
+    <xs:complexType>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="count">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="effect">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:NMTOKEN">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="bold"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="italics"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="underline"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="normal"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="smallcaps"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="seealso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group maxOccurs="unbounded" ref="mathml:term_2"/>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="meaning">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="mathml:para"/>
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:element ref="cnxml:footnote"/>
+          <xs:element ref="cnxml:link"/>
+          <xs:element ref="cnxml:newline"/>
+          <xs:element ref="cnxml:space"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="subfigure">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice>
+          <xs:element ref="cnxml:media"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:code"/>
+        </xs:choice>
+        <xs:element minOccurs="0" ref="cnxml:caption"/>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="caption">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="mathml:math"/>
+        <xs:group ref="mathml:span_2"/>
+        <xs:group ref="mathml:term_2"/>
+        <xs:group ref="mathml:cite_2"/>
+        <xs:element ref="cnxml:cite-title"/>
+        <xs:group ref="mathml:foreign_2"/>
+        <xs:group ref="mathml:emphasis_2"/>
+        <xs:group ref="mathml:sub_2"/>
+        <xs:group ref="mathml:sup_2"/>
+        <xs:group ref="mathml:code_3"/>
+        <xs:group ref="mathml:preformat_3"/>
+        <xs:group ref="mathml:quote_3"/>
+        <xs:group ref="mathml:note_2"/>
+        <xs:group ref="mathml:list"/>
+        <xs:element ref="cnxml:media"/>
+        <xs:element ref="cnxml:footnote"/>
+        <xs:element ref="cnxml:link"/>
+        <xs:element ref="cnxml:newline"/>
+        <xs:element ref="cnxml:space"/>
+      </xs:choice>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="longdesc">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="mathml:para"/>
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:element ref="cnxml:footnote"/>
+          <xs:element ref="cnxml:link"/>
+          <xs:element ref="cnxml:newline"/>
+          <xs:element ref="cnxml:space"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="object">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:longdesc"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:param"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:object"/>
+          <xs:element ref="cnxml:image"/>
+          <xs:element ref="cnxml:audio"/>
+          <xs:element ref="cnxml:video"/>
+          <xs:element ref="cnxml:java-applet"/>
+          <xs:element ref="cnxml:flash"/>
+          <xs:element ref="cnxml:iframe"/>
+          <xs:element ref="cnxml:labview"/>
+          <xs:element ref="cnxml:text"/>
+          <xs:element ref="cnxml:download"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="height"/>
+      <xs:attribute name="width"/>
+      <xs:attribute name="mime-type" use="required"/>
+      <xs:attribute name="for">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:NMTOKEN">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="online"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="pdf"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="longdesc"/>
+      <xs:attribute name="src" use="required"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="image">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:longdesc"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:param"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:object"/>
+          <xs:element ref="cnxml:image"/>
+          <xs:element ref="cnxml:audio"/>
+          <xs:element ref="cnxml:video"/>
+          <xs:element ref="cnxml:java-applet"/>
+          <xs:element ref="cnxml:flash"/>
+          <xs:element ref="cnxml:iframe"/>
+          <xs:element ref="cnxml:labview"/>
+          <xs:element ref="cnxml:text"/>
+          <xs:element ref="cnxml:download"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="height"/>
+      <xs:attribute name="width"/>
+      <xs:attribute name="mime-type" use="required"/>
+      <xs:attribute name="for">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:NMTOKEN">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="online"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="pdf"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="longdesc"/>
+      <xs:attribute name="src" use="required"/>
+      <xs:attribute name="print-width"/>
+      <xs:attribute name="thumbnail"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="audio">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:longdesc"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:param"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:object"/>
+          <xs:element ref="cnxml:image"/>
+          <xs:element ref="cnxml:audio"/>
+          <xs:element ref="cnxml:video"/>
+          <xs:element ref="cnxml:java-applet"/>
+          <xs:element ref="cnxml:flash"/>
+          <xs:element ref="cnxml:iframe"/>
+          <xs:element ref="cnxml:labview"/>
+          <xs:element ref="cnxml:text"/>
+          <xs:element ref="cnxml:download"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="height"/>
+      <xs:attribute name="width"/>
+      <xs:attribute name="mime-type" use="required"/>
+      <xs:attribute name="for">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:NMTOKEN">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="online"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="pdf"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="longdesc"/>
+      <xs:attribute name="src" use="required"/>
+      <xs:attribute name="standby"/>
+      <xs:attribute name="autoplay">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="loop">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="controller">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="volume">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="100"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="video">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:longdesc"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:param"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:object"/>
+          <xs:element ref="cnxml:image"/>
+          <xs:element ref="cnxml:audio"/>
+          <xs:element ref="cnxml:video"/>
+          <xs:element ref="cnxml:java-applet"/>
+          <xs:element ref="cnxml:flash"/>
+          <xs:element ref="cnxml:iframe"/>
+          <xs:element ref="cnxml:labview"/>
+          <xs:element ref="cnxml:text"/>
+          <xs:element ref="cnxml:download"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="height"/>
+      <xs:attribute name="width"/>
+      <xs:attribute name="mime-type" use="required"/>
+      <xs:attribute name="for">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:NMTOKEN">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="online"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="pdf"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="longdesc"/>
+      <xs:attribute name="src" use="required"/>
+      <xs:attribute name="standby"/>
+      <xs:attribute name="autoplay">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="loop">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="controller">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="volume">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="100"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="java-applet">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:longdesc"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:param"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:object"/>
+          <xs:element ref="cnxml:image"/>
+          <xs:element ref="cnxml:audio"/>
+          <xs:element ref="cnxml:video"/>
+          <xs:element ref="cnxml:java-applet"/>
+          <xs:element ref="cnxml:flash"/>
+          <xs:element ref="cnxml:iframe"/>
+          <xs:element ref="cnxml:labview"/>
+          <xs:element ref="cnxml:text"/>
+          <xs:element ref="cnxml:download"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="height"/>
+      <xs:attribute name="width"/>
+      <xs:attribute name="mime-type" use="required"/>
+      <xs:attribute name="for">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:NMTOKEN">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="online"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="pdf"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="longdesc"/>
+      <xs:attribute name="src"/>
+      <xs:attribute name="codebase"/>
+      <xs:attribute name="code" use="required"/>
+      <xs:attribute name="archive"/>
+      <xs:attribute name="name"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="flash">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:longdesc"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:param"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:object"/>
+          <xs:element ref="cnxml:image"/>
+          <xs:element ref="cnxml:audio"/>
+          <xs:element ref="cnxml:video"/>
+          <xs:element ref="cnxml:java-applet"/>
+          <xs:element ref="cnxml:flash"/>
+          <xs:element ref="cnxml:iframe"/>
+          <xs:element ref="cnxml:labview"/>
+          <xs:element ref="cnxml:text"/>
+          <xs:element ref="cnxml:download"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="height"/>
+      <xs:attribute name="width"/>
+      <xs:attribute name="mime-type" use="required"/>
+      <xs:attribute name="for">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:NMTOKEN">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="online"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="pdf"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="longdesc"/>
+      <xs:attribute name="src" use="required"/>
+      <xs:attribute name="wmode">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="window"/>
+            <xs:enumeration value="opaque"/>
+            <xs:enumeration value="transparent"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="loop">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="quality">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="low"/>
+            <xs:enumeration value="autolow"/>
+            <xs:enumeration value="autohigh"/>
+            <xs:enumeration value="medium"/>
+            <xs:enumeration value="high"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="scale">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="default"/>
+            <xs:enumeration value="noorder"/>
+            <xs:enumeration value="exactfit"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="bgcolor">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:pattern value="#[a-fA-F0-9]{6}"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="flash-vars"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="iframe">
+    <xs:complexType>
+      <xs:attribute name="src" use="required"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="height"/>
+      <xs:attribute name="width"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="labview">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:longdesc"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:param"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:object"/>
+          <xs:element ref="cnxml:image"/>
+          <xs:element ref="cnxml:audio"/>
+          <xs:element ref="cnxml:video"/>
+          <xs:element ref="cnxml:java-applet"/>
+          <xs:element ref="cnxml:flash"/>
+          <xs:element ref="cnxml:iframe"/>
+          <xs:element ref="cnxml:labview"/>
+          <xs:element ref="cnxml:text"/>
+          <xs:element ref="cnxml:download"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="height"/>
+      <xs:attribute name="width"/>
+      <xs:attribute name="mime-type" use="required"/>
+      <xs:attribute name="for">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:NMTOKEN">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="online"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="pdf"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="longdesc"/>
+      <xs:attribute name="src" use="required"/>
+      <xs:attribute name="viname" use="required"/>
+      <xs:attribute name="version" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="7.0"/>
+            <xs:enumeration value="8.0"/>
+            <xs:enumeration value="8.2"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="text">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:longdesc"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:param"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="mathml:para"/>
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:element ref="cnxml:footnote"/>
+          <xs:element ref="cnxml:link"/>
+          <xs:element ref="cnxml:newline"/>
+          <xs:element ref="cnxml:space"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="height"/>
+      <xs:attribute name="width"/>
+      <xs:attribute name="mime-type"/>
+      <xs:attribute name="longdesc"/>
+      <xs:attribute name="src"/>
+      <xs:attribute name="for">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:NMTOKEN">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="online"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="pdf"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="download">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:longdesc"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:param"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:object"/>
+          <xs:element ref="cnxml:image"/>
+          <xs:element ref="cnxml:audio"/>
+          <xs:element ref="cnxml:video"/>
+          <xs:element ref="cnxml:java-applet"/>
+          <xs:element ref="cnxml:flash"/>
+          <xs:element ref="cnxml:iframe"/>
+          <xs:element ref="cnxml:labview"/>
+          <xs:element ref="cnxml:text"/>
+          <xs:element ref="cnxml:download"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="height"/>
+      <xs:attribute name="width"/>
+      <xs:attribute name="mime-type" use="required"/>
+      <xs:attribute name="for">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:NMTOKEN">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="online"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="pdf"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="longdesc"/>
+      <xs:attribute name="src" use="required"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="item">
+    <xs:sequence>
+      <xs:element name="item">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element minOccurs="0" ref="cnxml:label"/>
+            <xs:choice>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:group ref="mathml:para"/>
+                <xs:element ref="mathml:math"/>
+                <xs:group ref="mathml:span_2"/>
+                <xs:group ref="mathml:term_2"/>
+                <xs:group ref="mathml:cite_2"/>
+                <xs:element ref="cnxml:cite-title"/>
+                <xs:group ref="mathml:foreign_2"/>
+                <xs:group ref="mathml:emphasis_2"/>
+                <xs:group ref="mathml:sub_2"/>
+                <xs:group ref="mathml:sup_2"/>
+                <xs:group ref="mathml:code_3"/>
+                <xs:group ref="mathml:preformat_3"/>
+                <xs:group ref="mathml:quote_3"/>
+                <xs:group ref="mathml:note_2"/>
+                <xs:group ref="mathml:list"/>
+                <xs:element ref="cnxml:media"/>
+                <xs:element ref="cnxml:footnote"/>
+                <xs:element ref="cnxml:link"/>
+                <xs:element ref="cnxml:newline"/>
+                <xs:element ref="cnxml:space"/>
+                <xs:element ref="cnxml:div"/>
+                <xs:element ref="cnxml:definition"/>
+                <xs:element ref="cnxml:example"/>
+                <xs:element ref="cnxml:figure"/>
+                <xs:group ref="mathml:code"/>
+                <xs:group ref="mathml:preformat"/>
+                <xs:group ref="mathml:quote"/>
+                <xs:group ref="mathml:note"/>
+                <xs:element ref="cnxml:media"/>
+                <xs:group ref="mathml:list"/>
+                <xs:element ref="cnxml:table"/>
+                <xs:element ref="cnxml:rule"/>
+                <xs:element ref="cnxml:equation"/>
+                <xs:element ref="cnxml:exercise"/>
+              </xs:choice>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="mathml:math"/>
+                <xs:group ref="mathml:span_2"/>
+                <xs:group ref="mathml:term_2"/>
+                <xs:group ref="mathml:cite_2"/>
+                <xs:element ref="cnxml:cite-title"/>
+                <xs:group ref="mathml:foreign_2"/>
+                <xs:group ref="mathml:emphasis_2"/>
+                <xs:group ref="mathml:sub_2"/>
+                <xs:group ref="mathml:sup_2"/>
+                <xs:group ref="mathml:code_3"/>
+                <xs:group ref="mathml:preformat_3"/>
+                <xs:group ref="mathml:quote_3"/>
+                <xs:group ref="mathml:note_2"/>
+                <xs:group ref="mathml:list"/>
+                <xs:element ref="cnxml:media"/>
+                <xs:element ref="cnxml:footnote"/>
+                <xs:element ref="cnxml:link"/>
+                <xs:element ref="cnxml:newline"/>
+                <xs:element ref="cnxml:space"/>
+              </xs:choice>
+            </xs:choice>
+          </xs:sequence>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="tgroup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:colspec"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:spanspec"/>
+        <xs:element minOccurs="0" ref="cnxml:thead"/>
+        <xs:element minOccurs="0" ref="cnxml:tfoot"/>
+        <xs:element ref="cnxml:tbody"/>
+      </xs:sequence>
+      <xs:attribute name="cols" use="required"/>
+      <xs:attribute name="tgroupstyle"/>
+      <xs:attribute name="colsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="rowsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="align">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="left"/>
+            <xs:enumeration value="right"/>
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="justify"/>
+            <xs:enumeration value="char"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="char"/>
+      <xs:attribute name="charoff"/>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="statement">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="cnxml:section"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+          <xs:group ref="mathml:para"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="proof">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="cnxml:section"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+          <xs:group ref="mathml:para"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="problem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="cnxml:section"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+          <xs:group ref="mathml:para"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="solution">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="cnxml:section"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+          <xs:group ref="mathml:para"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="print-placement">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="here"/>
+            <xs:enumeration value="end"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="commentary">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="cnxml:label"/>
+        <xs:group minOccurs="0" ref="mathml:title_3"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="mathml:para"/>
+          <xs:element ref="mathml:math"/>
+          <xs:group ref="mathml:span_2"/>
+          <xs:group ref="mathml:term_2"/>
+          <xs:group ref="mathml:cite_2"/>
+          <xs:element ref="cnxml:cite-title"/>
+          <xs:group ref="mathml:foreign_2"/>
+          <xs:group ref="mathml:emphasis_2"/>
+          <xs:group ref="mathml:sub_2"/>
+          <xs:group ref="mathml:sup_2"/>
+          <xs:group ref="mathml:code_3"/>
+          <xs:group ref="mathml:preformat_3"/>
+          <xs:group ref="mathml:quote_3"/>
+          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:element ref="cnxml:footnote"/>
+          <xs:element ref="cnxml:link"/>
+          <xs:element ref="cnxml:newline"/>
+          <xs:element ref="cnxml:space"/>
+          <xs:element ref="cnxml:div"/>
+          <xs:element ref="cnxml:definition"/>
+          <xs:element ref="cnxml:example"/>
+          <xs:element ref="cnxml:figure"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:media"/>
+          <xs:group ref="mathml:list"/>
+          <xs:element ref="cnxml:table"/>
+          <xs:element ref="cnxml:rule"/>
+          <xs:element ref="cnxml:equation"/>
+          <xs:element ref="cnxml:exercise"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="item1">
+    <xs:sequence>
+      <xs:element name="item">
+        <xs:complexType mixed="true">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="mathml:emphasis"/>
+            <xs:group ref="mathml:term"/>
+            <xs:group ref="mathml:foreign"/>
+            <xs:group ref="mathml:cite"/>
+            <xs:group ref="mathml:span"/>
+            <xs:group ref="mathml:sup"/>
+            <xs:group ref="mathml:sub"/>
+            <xs:group ref="mathml:code_2"/>
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:quote_2"/>
+            <xs:group ref="mathml:preformat_2"/>
+            <xs:group ref="mathml:list_2"/>
+          </xs:choice>
+          <xs:attribute ref="xml:lang"/>
+          <xs:anyAttribute processContents="strict"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="param">
+    <xs:complexType>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="name" use="required"/>
+      <xs:attribute name="value" use="required"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="colspec">
+    <xs:complexType>
+      <xs:attribute name="colnum"/>
+      <xs:attribute name="colname"/>
+      <xs:attribute name="colwidth"/>
+      <xs:attribute name="colsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="rowsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="align">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="left"/>
+            <xs:enumeration value="right"/>
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="justify"/>
+            <xs:enumeration value="char"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="char"/>
+      <xs:attribute name="charoff"/>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="spanspec">
+    <xs:complexType>
+      <xs:attribute name="namest"/>
+      <xs:attribute name="nameend"/>
+      <xs:attribute name="spanname" use="required"/>
+      <xs:attribute name="colwidth"/>
+      <xs:attribute name="colsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="rowsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="align">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="left"/>
+            <xs:enumeration value="right"/>
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="justify"/>
+            <xs:enumeration value="char"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="char"/>
+      <xs:attribute name="charoff"/>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="thead">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:colspec"/>
+        <xs:element maxOccurs="unbounded" ref="cnxml:row"/>
+      </xs:sequence>
+      <xs:attribute name="valign">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="top"/>
+            <xs:enumeration value="middle"/>
+            <xs:enumeration value="bottom"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tfoot">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:colspec"/>
+        <xs:element maxOccurs="unbounded" ref="cnxml:row"/>
+      </xs:sequence>
+      <xs:attribute name="valign">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="top"/>
+            <xs:enumeration value="middle"/>
+            <xs:enumeration value="bottom"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tbody">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="cnxml:row"/>
+      </xs:sequence>
+      <xs:attribute name="valign">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="top"/>
+            <xs:enumeration value="middle"/>
+            <xs:enumeration value="bottom"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="row">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="cnxml:entry"/>
+        <xs:element ref="cnxml:entrytbl"/>
+      </xs:choice>
+      <xs:attribute name="rowsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="valign">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="top"/>
+            <xs:enumeration value="middle"/>
+            <xs:enumeration value="bottom"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="entry">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="mathml:para"/>
+        <xs:element ref="mathml:math"/>
+        <xs:group ref="mathml:span_2"/>
+        <xs:group ref="mathml:term_2"/>
+        <xs:group ref="mathml:cite_2"/>
+        <xs:element ref="cnxml:cite-title"/>
+        <xs:group ref="mathml:foreign_2"/>
+        <xs:group ref="mathml:emphasis_2"/>
+        <xs:group ref="mathml:sub_2"/>
+        <xs:group ref="mathml:sup_2"/>
+        <xs:group ref="mathml:code_3"/>
+        <xs:group ref="mathml:preformat_3"/>
+        <xs:group ref="mathml:quote_3"/>
+        <xs:group ref="mathml:note_2"/>
+        <xs:group ref="mathml:list"/>
+        <xs:element ref="cnxml:media"/>
+        <xs:element ref="cnxml:footnote"/>
+        <xs:element ref="cnxml:link"/>
+        <xs:element ref="cnxml:newline"/>
+        <xs:element ref="cnxml:space"/>
+        <xs:element ref="cnxml:div"/>
+        <xs:element ref="cnxml:definition"/>
+        <xs:element ref="cnxml:example"/>
+        <xs:element ref="cnxml:figure"/>
+        <xs:group ref="mathml:code"/>
+        <xs:group ref="mathml:preformat"/>
+        <xs:group ref="mathml:quote"/>
+        <xs:group ref="mathml:note"/>
+        <xs:element ref="cnxml:media"/>
+        <xs:group ref="mathml:list"/>
+        <xs:element ref="cnxml:table"/>
+        <xs:element ref="cnxml:rule"/>
+        <xs:element ref="cnxml:equation"/>
+        <xs:element ref="cnxml:exercise"/>
+      </xs:choice>
+      <xs:attribute name="colname"/>
+      <xs:attribute name="namest"/>
+      <xs:attribute name="nameend"/>
+      <xs:attribute name="spanname"/>
+      <xs:attribute name="morerows"/>
+      <xs:attribute name="colsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="rowsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="align">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="left"/>
+            <xs:enumeration value="right"/>
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="justify"/>
+            <xs:enumeration value="char"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="char"/>
+      <xs:attribute name="charoff"/>
+      <xs:attribute name="rotate">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="valign">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="top"/>
+            <xs:enumeration value="middle"/>
+            <xs:enumeration value="bottom"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="entrytbl">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:colspec"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cnxml:spanspec"/>
+        <xs:element minOccurs="0" ref="cnxml:thead"/>
+        <xs:element ref="cnxml:tbody"/>
+      </xs:sequence>
+      <xs:attribute name="cols" use="required"/>
+      <xs:attribute name="tgroupstyle"/>
+      <xs:attribute name="colname"/>
+      <xs:attribute name="spanname"/>
+      <xs:attribute name="namest"/>
+      <xs:attribute name="nameend"/>
+      <xs:attribute name="colsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="rowsep">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="align">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="left"/>
+            <xs:enumeration value="right"/>
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="justify"/>
+            <xs:enumeration value="char"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="char"/>
+      <xs:attribute name="charoff"/>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:anyAttribute processContents="strict"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://cnx.rice.edu/qml/1.0" xmlns:s="http://cnx.rice.edu/system-info" xmlns:cnxml="http://cnx.rice.edu/cnxml" xmlns:ns1="http://bibtexml.sf.net/" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:qml="http://cnx.rice.edu/qml/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mdml="http://cnx.rice.edu/mdml">
+  <xs:import namespace="http://bibtexml.sf.net/" schemaLocation="ns1.xsd"/>
+  <xs:import namespace="http://cnx.rice.edu/cnxml" schemaLocation="cnxml.xsd"/>
+  <xs:import namespace="http://cnx.rice.edu/mdml" schemaLocation="mdml.xsd"/>
+  <xs:import namespace="http://cnx.rice.edu/system-info" schemaLocation="s.xsd"/>
+  <xs:import namespace="http://www.w3.org/1998/Math/MathML" schemaLocation="mathml.xsd"/>
+  <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="problemset">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="qml:item"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="qml:question"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="qml:resource"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="qml:answer"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="qml:hint"/>
+        <xs:element minOccurs="0" ref="qml:feedback"/>
+        <xs:element minOccurs="0" ref="qml:key"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="single-response"/>
+            <xs:enumeration value="multiple-response"/>
+            <xs:enumeration value="text-response"/>
+            <xs:enumeration value="ordered-response"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="question">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="cnxml:section"/>
+        <xs:element ref="cnxml:media"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="resource">
+    <xs:complexType>
+      <xs:attribute name="uri" use="required"/>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="answer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="qml:response"/>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="qml:feedback"/>
+          <xs:element minOccurs="0" ref="qml:feedback"/>
+        </xs:sequence>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hint">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="cnxml:section"/>
+        <xs:element ref="cnxml:media"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="feedback">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="cnxml:section"/>
+        <xs:element ref="cnxml:media"/>
+      </xs:choice>
+      <xs:attribute name="correct">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="yes"/>
+            <xs:enumeration value="no"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="key">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="cnxml:section"/>
+        <xs:element ref="cnxml:media"/>
+      </xs:choice>
+      <xs:attribute name="answer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="response">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="cnxml:section"/>
+        <xs:element ref="cnxml:media"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
