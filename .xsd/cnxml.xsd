@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://cnx.rice.edu/cnxml" xmlns:s="http://cnx.rice.edu/system-info" xmlns:cnxml="http://cnx.rice.edu/cnxml" xmlns:ns1="http://bibtexml.sf.net/" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:qml="http://cnx.rice.edu/qml/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mdml="http://cnx.rice.edu/mdml">
-  <xs:import namespace="http://bibtexml.sf.net/" schemaLocation="ns1.xsd"/>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://cnx.rice.edu/cnxml" xmlns:cxlxt="http://katalysteducation.org/cxlxt/1.0" xmlns:s="http://cnx.rice.edu/system-info" xmlns:cnxml="http://cnx.rice.edu/cnxml" xmlns:ns1="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:cmlnle="http://katalysteducation.org/cmlnle/1.0" xmlns:ns2="http://bibtexml.sf.net/" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:qml="http://cnx.rice.edu/qml/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mdml="http://cnx.rice.edu/mdml">
+  <xs:import namespace="http://bibtexml.sf.net/" schemaLocation="ns2.xsd"/>
   <xs:import namespace="http://cnx.rice.edu/mdml" schemaLocation="mdml.xsd"/>
   <xs:import namespace="http://cnx.rice.edu/qml/1.0" schemaLocation="qml.xsd"/>
   <xs:import namespace="http://cnx.rice.edu/system-info" schemaLocation="s.xsd"/>
+  <xs:import namespace="http://katalysteducation.org/cmlnle/1.0" schemaLocation="cmlnle.xsd"/>
+  <xs:import namespace="http://katalysteducation.org/cxlxt/1.0" schemaLocation="cxlxt.xsd"/>
   <xs:import namespace="http://www.w3.org/1998/Math/MathML" schemaLocation="mathml.xsd"/>
   <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:import namespace="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" schemaLocation="ns1.xsd"/>
   <xs:element name="document">
     <xs:complexType>
       <xs:sequence>
@@ -15,9 +18,18 @@
         <xs:element minOccurs="0" ref="cnxml:featured-links"/>
         <xs:element ref="cnxml:content"/>
         <xs:element minOccurs="0" ref="cnxml:glossary"/>
-        <xs:element minOccurs="0" ref="ns1:file"/>
+        <xs:element minOccurs="0" ref="ns2:file"/>
       </xs:sequence>
       <xs:attribute name="id" use="required" type="xs:ID"/>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="cnxml-version" use="required">
@@ -28,17 +40,24 @@
         </xs:simpleType>
       </xs:attribute>
       <xs:attribute name="module-id" use="required"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:group name="title">
     <xs:sequence>
       <xs:element name="title">
         <xs:complexType mixed="true">
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -74,6 +93,15 @@
         <xs:element ref="mdml:canonical-book-uuid"/>
         <xs:element ref="mdml:slug"/>
       </xs:choice>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="mdml-version" use="required">
@@ -84,7 +112,6 @@
         </xs:simpleType>
       </xs:attribute>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="featured-links">
@@ -92,10 +119,18 @@
       <xs:sequence>
         <xs:element maxOccurs="unbounded" ref="cnxml:link-group"/>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="content">
@@ -110,7 +145,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -121,10 +156,18 @@
         </xs:choice>
         <xs:element ref="qml:problemset"/>
       </xs:choice>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="glossary">
@@ -132,10 +175,18 @@
       <xs:sequence>
         <xs:element maxOccurs="unbounded" ref="cnxml:definition"/>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="link-group">
@@ -144,11 +195,19 @@
         <xs:element minOccurs="0" ref="cnxml:label"/>
         <xs:element maxOccurs="unbounded" ref="cnxml:link"/>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
       <xs:attribute name="type" use="required"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="section">
@@ -165,7 +224,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -175,11 +234,19 @@
           <xs:group ref="mathml:para"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="div">
@@ -197,10 +264,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:media"/>
           <xs:element ref="cnxml:footnote"/>
@@ -214,7 +281,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -223,10 +290,18 @@
           <xs:element ref="cnxml:exercise"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="definition">
@@ -245,11 +320,19 @@
           </xs:sequence>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="example">
@@ -266,7 +349,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -276,11 +359,19 @@
           <xs:group ref="mathml:para"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="figure">
@@ -291,7 +382,6 @@
         <xs:choice>
           <xs:element ref="cnxml:media"/>
           <xs:element ref="cnxml:table"/>
-          <xs:group ref="mathml:code_3"/>
           <xs:group ref="mathml:code"/>
           <xs:sequence>
             <xs:element ref="cnxml:subfigure"/>
@@ -300,6 +390,15 @@
         </xs:choice>
         <xs:element minOccurs="0" ref="cnxml:caption"/>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
@@ -312,16 +411,13 @@
         </xs:simpleType>
       </xs:attribute>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:group name="code">
     <xs:sequence>
       <xs:element name="code">
         <xs:complexType mixed="true">
-          <xs:sequence>
-            <xs:element minOccurs="0" ref="cnxml:label"/>
-            <xs:group minOccurs="0" ref="mathml:title_3"/>
+          <xs:choice>
             <xs:choice minOccurs="0" maxOccurs="unbounded">
               <xs:element ref="mathml:math"/>
               <xs:group ref="mathml:span_2"/>
@@ -332,10 +428,10 @@
               <xs:group ref="mathml:emphasis_2"/>
               <xs:group ref="mathml:sub_2"/>
               <xs:group ref="mathml:sup_2"/>
-              <xs:group ref="mathml:code_3"/>
-              <xs:group ref="mathml:preformat_3"/>
-              <xs:group ref="mathml:quote_3"/>
-              <xs:group ref="mathml:note_2"/>
+              <xs:group ref="mathml:code"/>
+              <xs:group ref="mathml:preformat"/>
+              <xs:group ref="mathml:quote"/>
+              <xs:element ref="cnxml:note"/>
               <xs:group ref="mathml:list"/>
               <xs:element ref="cnxml:media"/>
               <xs:element ref="cnxml:footnote"/>
@@ -343,22 +439,57 @@
               <xs:element ref="cnxml:newline"/>
               <xs:element ref="cnxml:space"/>
             </xs:choice>
-            <xs:element minOccurs="0" ref="cnxml:caption"/>
-          </xs:sequence>
-          <xs:attribute name="display" use="required">
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="cnxml:label"/>
+              <xs:group minOccurs="0" ref="mathml:title_3"/>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="mathml:math"/>
+                <xs:group ref="mathml:span_2"/>
+                <xs:group ref="mathml:term_2"/>
+                <xs:group ref="mathml:cite_2"/>
+                <xs:element ref="cnxml:cite-title"/>
+                <xs:group ref="mathml:foreign_2"/>
+                <xs:group ref="mathml:emphasis_2"/>
+                <xs:group ref="mathml:sub_2"/>
+                <xs:group ref="mathml:sup_2"/>
+                <xs:group ref="mathml:code"/>
+                <xs:group ref="mathml:preformat"/>
+                <xs:group ref="mathml:quote"/>
+                <xs:element ref="cnxml:note"/>
+                <xs:group ref="mathml:list"/>
+                <xs:element ref="cnxml:media"/>
+                <xs:element ref="cnxml:footnote"/>
+                <xs:element ref="cnxml:link"/>
+                <xs:element ref="cnxml:newline"/>
+                <xs:element ref="cnxml:space"/>
+              </xs:choice>
+              <xs:element minOccurs="0" ref="cnxml:caption"/>
+            </xs:sequence>
+          </xs:choice>
+          <xs:attribute name="display">
             <xs:simpleType>
               <xs:restriction base="xs:token">
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
                 <xs:enumeration value="block"/>
                 <xs:enumeration value="none"/>
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
-          <xs:attribute ref="xml:lang"/>
-          <xs:attribute name="class" type="xs:token"/>
-          <xs:attribute name="id" use="required" type="xs:ID"/>
           <xs:attribute name="lang"/>
           <xs:attribute name="type"/>
-          <xs:anyAttribute processContents="strict"/>
+          <xs:attribute name="id" type="xs:ID"/>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -367,10 +498,47 @@
     <xs:sequence>
       <xs:element name="preformat">
         <xs:complexType mixed="true">
-          <xs:sequence>
-            <xs:group minOccurs="0" ref="mathml:title_3"/>
+          <xs:choice>
+            <xs:sequence>
+              <xs:group minOccurs="0" ref="mathml:title_3"/>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:group ref="mathml:para"/>
+                <xs:element ref="mathml:math"/>
+                <xs:group ref="mathml:span_2"/>
+                <xs:group ref="mathml:term_2"/>
+                <xs:group ref="mathml:cite_2"/>
+                <xs:element ref="cnxml:cite-title"/>
+                <xs:group ref="mathml:foreign_2"/>
+                <xs:group ref="mathml:emphasis_2"/>
+                <xs:group ref="mathml:sub_2"/>
+                <xs:group ref="mathml:sup_2"/>
+                <xs:group ref="mathml:code"/>
+                <xs:group ref="mathml:preformat"/>
+                <xs:group ref="mathml:quote"/>
+                <xs:element ref="cnxml:note"/>
+                <xs:group ref="mathml:list"/>
+                <xs:element ref="cnxml:media"/>
+                <xs:element ref="cnxml:footnote"/>
+                <xs:element ref="cnxml:link"/>
+                <xs:element ref="cnxml:newline"/>
+                <xs:element ref="cnxml:space"/>
+                <xs:element ref="cnxml:div"/>
+                <xs:element ref="cnxml:definition"/>
+                <xs:element ref="cnxml:example"/>
+                <xs:element ref="cnxml:figure"/>
+                <xs:group ref="mathml:code"/>
+                <xs:group ref="mathml:preformat"/>
+                <xs:group ref="mathml:quote"/>
+                <xs:element ref="cnxml:note"/>
+                <xs:element ref="cnxml:media"/>
+                <xs:group ref="mathml:list"/>
+                <xs:element ref="cnxml:table"/>
+                <xs:element ref="cnxml:rule"/>
+                <xs:element ref="cnxml:equation"/>
+                <xs:element ref="cnxml:exercise"/>
+              </xs:choice>
+            </xs:sequence>
             <xs:choice minOccurs="0" maxOccurs="unbounded">
-              <xs:group ref="mathml:para"/>
               <xs:element ref="mathml:math"/>
               <xs:group ref="mathml:span_2"/>
               <xs:group ref="mathml:term_2"/>
@@ -380,44 +548,40 @@
               <xs:group ref="mathml:emphasis_2"/>
               <xs:group ref="mathml:sub_2"/>
               <xs:group ref="mathml:sup_2"/>
-              <xs:group ref="mathml:code_3"/>
-              <xs:group ref="mathml:preformat_3"/>
-              <xs:group ref="mathml:quote_3"/>
-              <xs:group ref="mathml:note_2"/>
+              <xs:group ref="mathml:code"/>
+              <xs:group ref="mathml:preformat"/>
+              <xs:group ref="mathml:quote"/>
+              <xs:element ref="cnxml:note"/>
               <xs:group ref="mathml:list"/>
               <xs:element ref="cnxml:media"/>
               <xs:element ref="cnxml:footnote"/>
               <xs:element ref="cnxml:link"/>
               <xs:element ref="cnxml:newline"/>
               <xs:element ref="cnxml:space"/>
-              <xs:element ref="cnxml:div"/>
-              <xs:element ref="cnxml:definition"/>
-              <xs:element ref="cnxml:example"/>
-              <xs:element ref="cnxml:figure"/>
-              <xs:group ref="mathml:code"/>
-              <xs:group ref="mathml:preformat"/>
-              <xs:group ref="mathml:quote"/>
-              <xs:group ref="mathml:note"/>
-              <xs:element ref="cnxml:media"/>
-              <xs:group ref="mathml:list"/>
-              <xs:element ref="cnxml:table"/>
-              <xs:element ref="cnxml:rule"/>
-              <xs:element ref="cnxml:equation"/>
-              <xs:element ref="cnxml:exercise"/>
             </xs:choice>
-          </xs:sequence>
-          <xs:attribute ref="xml:lang"/>
-          <xs:attribute name="class" type="xs:token"/>
-          <xs:attribute name="id" use="required" type="xs:ID"/>
+          </xs:choice>
           <xs:attribute name="display">
             <xs:simpleType>
               <xs:restriction base="xs:token">
                 <xs:enumeration value="block"/>
                 <xs:enumeration value="none"/>
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
-          <xs:anyAttribute processContents="strict"/>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
+          <xs:attribute ref="xml:lang"/>
+          <xs:attribute name="class" type="xs:token"/>
+          <xs:attribute name="id" type="xs:ID"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -426,57 +590,94 @@
     <xs:sequence>
       <xs:element name="quote">
         <xs:complexType mixed="true">
-          <xs:sequence>
-            <xs:element minOccurs="0" ref="cnxml:label"/>
-            <xs:group minOccurs="0" ref="mathml:title_3"/>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
-              <xs:group ref="mathml:para"/>
-              <xs:element ref="mathml:math"/>
-              <xs:group ref="mathml:span_2"/>
-              <xs:group ref="mathml:term_2"/>
-              <xs:group ref="mathml:cite_2"/>
-              <xs:element ref="cnxml:cite-title"/>
-              <xs:group ref="mathml:foreign_2"/>
-              <xs:group ref="mathml:emphasis_2"/>
-              <xs:group ref="mathml:sub_2"/>
-              <xs:group ref="mathml:sup_2"/>
-              <xs:group ref="mathml:code_3"/>
-              <xs:group ref="mathml:preformat_3"/>
-              <xs:group ref="mathml:quote_3"/>
-              <xs:group ref="mathml:note_2"/>
-              <xs:group ref="mathml:list"/>
-              <xs:element ref="cnxml:media"/>
-              <xs:element ref="cnxml:footnote"/>
-              <xs:element ref="cnxml:link"/>
-              <xs:element ref="cnxml:newline"/>
-              <xs:element ref="cnxml:space"/>
-              <xs:element ref="cnxml:div"/>
-              <xs:element ref="cnxml:definition"/>
-              <xs:element ref="cnxml:example"/>
-              <xs:element ref="cnxml:figure"/>
-              <xs:group ref="mathml:code"/>
-              <xs:group ref="mathml:preformat"/>
-              <xs:group ref="mathml:quote"/>
-              <xs:group ref="mathml:note"/>
-              <xs:element ref="cnxml:media"/>
-              <xs:group ref="mathml:list"/>
-              <xs:element ref="cnxml:table"/>
-              <xs:element ref="cnxml:rule"/>
-              <xs:element ref="cnxml:equation"/>
-              <xs:element ref="cnxml:exercise"/>
-            </xs:choice>
-          </xs:sequence>
+          <xs:choice>
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="cnxml:label"/>
+              <xs:group minOccurs="0" ref="mathml:title_3"/>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:group ref="mathml:para"/>
+                <xs:element ref="mathml:math"/>
+                <xs:group ref="mathml:span_2"/>
+                <xs:group ref="mathml:term_2"/>
+                <xs:group ref="mathml:cite_2"/>
+                <xs:element ref="cnxml:cite-title"/>
+                <xs:group ref="mathml:foreign_2"/>
+                <xs:group ref="mathml:emphasis_2"/>
+                <xs:group ref="mathml:sub_2"/>
+                <xs:group ref="mathml:sup_2"/>
+                <xs:group ref="mathml:code"/>
+                <xs:group ref="mathml:preformat"/>
+                <xs:group ref="mathml:quote"/>
+                <xs:element ref="cnxml:note"/>
+                <xs:group ref="mathml:list"/>
+                <xs:element ref="cnxml:media"/>
+                <xs:element ref="cnxml:footnote"/>
+                <xs:element ref="cnxml:link"/>
+                <xs:element ref="cnxml:newline"/>
+                <xs:element ref="cnxml:space"/>
+                <xs:element ref="cnxml:div"/>
+                <xs:element ref="cnxml:definition"/>
+                <xs:element ref="cnxml:example"/>
+                <xs:element ref="cnxml:figure"/>
+                <xs:group ref="mathml:code"/>
+                <xs:group ref="mathml:preformat"/>
+                <xs:group ref="mathml:quote"/>
+                <xs:element ref="cnxml:note"/>
+                <xs:element ref="cnxml:media"/>
+                <xs:group ref="mathml:list"/>
+                <xs:element ref="cnxml:table"/>
+                <xs:element ref="cnxml:rule"/>
+                <xs:element ref="cnxml:equation"/>
+                <xs:element ref="cnxml:exercise"/>
+              </xs:choice>
+            </xs:sequence>
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="cnxml:label"/>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="mathml:math"/>
+                <xs:group ref="mathml:span_2"/>
+                <xs:group ref="mathml:term_2"/>
+                <xs:group ref="mathml:cite_2"/>
+                <xs:element ref="cnxml:cite-title"/>
+                <xs:group ref="mathml:foreign_2"/>
+                <xs:group ref="mathml:emphasis_2"/>
+                <xs:group ref="mathml:sub_2"/>
+                <xs:group ref="mathml:sup_2"/>
+                <xs:group ref="mathml:code"/>
+                <xs:group ref="mathml:preformat"/>
+                <xs:group ref="mathml:quote"/>
+                <xs:element ref="cnxml:note"/>
+                <xs:group ref="mathml:list"/>
+                <xs:element ref="cnxml:media"/>
+                <xs:element ref="cnxml:footnote"/>
+                <xs:element ref="cnxml:link"/>
+                <xs:element ref="cnxml:newline"/>
+                <xs:element ref="cnxml:space"/>
+              </xs:choice>
+            </xs:sequence>
+          </xs:choice>
           <xs:attribute name="display">
             <xs:simpleType>
               <xs:restriction base="xs:token">
                 <xs:enumeration value="block"/>
                 <xs:enumeration value="none"/>
+                <xs:enumeration value="inline"/>
+                <xs:enumeration value="none"/>
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
-          <xs:attribute name="id" use="required" type="xs:ID"/>
+          <xs:attribute name="id" type="xs:ID"/>
           <xs:attribute name="type"/>
           <xs:attribute name="window">
             <xs:simpleType>
@@ -491,102 +692,133 @@
           <xs:attribute name="version"/>
           <xs:attribute name="target-id"/>
           <xs:attribute name="resource"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
   </xs:group>
-  <xs:group name="note">
-    <xs:sequence>
-      <xs:element name="note">
-        <xs:complexType mixed="true">
-          <xs:sequence>
-            <xs:element minOccurs="0" ref="cnxml:label"/>
-            <xs:group minOccurs="0" ref="mathml:title_3"/>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
-              <xs:group ref="mathml:para"/>
-              <xs:element ref="mathml:math"/>
-              <xs:group ref="mathml:span_2"/>
-              <xs:group ref="mathml:term_2"/>
-              <xs:group ref="mathml:cite_2"/>
-              <xs:element ref="cnxml:cite-title"/>
-              <xs:group ref="mathml:foreign_2"/>
-              <xs:group ref="mathml:emphasis_2"/>
-              <xs:group ref="mathml:sub_2"/>
-              <xs:group ref="mathml:sup_2"/>
-              <xs:group ref="mathml:code_3"/>
-              <xs:group ref="mathml:preformat_3"/>
-              <xs:group ref="mathml:quote_3"/>
-              <xs:group ref="mathml:note_2"/>
-              <xs:group ref="mathml:list"/>
-              <xs:element ref="cnxml:media"/>
-              <xs:element ref="cnxml:footnote"/>
-              <xs:element ref="cnxml:link"/>
-              <xs:element ref="cnxml:newline"/>
-              <xs:element ref="cnxml:space"/>
-              <xs:element ref="cnxml:div"/>
-              <xs:element ref="cnxml:definition"/>
-              <xs:element ref="cnxml:example"/>
-              <xs:element ref="cnxml:figure"/>
-              <xs:group ref="mathml:code"/>
-              <xs:group ref="mathml:preformat"/>
-              <xs:group ref="mathml:quote"/>
-              <xs:group ref="mathml:note"/>
-              <xs:element ref="cnxml:media"/>
-              <xs:group ref="mathml:list"/>
-              <xs:element ref="cnxml:table"/>
-              <xs:element ref="cnxml:rule"/>
-              <xs:element ref="cnxml:equation"/>
-              <xs:element ref="cnxml:exercise"/>
-            </xs:choice>
-          </xs:sequence>
-          <xs:attribute name="display">
+  <xs:element name="note">
+    <xs:complexType mixed="true">
+      <xs:choice>
+        <xs:sequence>
+          <xs:element minOccurs="0" ref="cnxml:label"/>
+          <xs:group minOccurs="0" ref="mathml:title_3"/>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="mathml:para"/>
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code"/>
+            <xs:group ref="mathml:preformat"/>
+            <xs:group ref="mathml:quote"/>
+            <xs:element ref="cnxml:note"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+            <xs:element ref="cnxml:div"/>
+            <xs:element ref="cnxml:definition"/>
+            <xs:element ref="cnxml:example"/>
+            <xs:element ref="cnxml:figure"/>
+            <xs:group ref="mathml:code"/>
+            <xs:group ref="mathml:preformat"/>
+            <xs:group ref="mathml:quote"/>
+            <xs:element ref="cnxml:note"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:table"/>
+            <xs:element ref="cnxml:rule"/>
+            <xs:element ref="cnxml:equation"/>
+            <xs:element ref="cnxml:exercise"/>
+          </xs:choice>
+        </xs:sequence>
+        <xs:sequence>
+          <xs:element minOccurs="0" ref="cnxml:label"/>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="mathml:math"/>
+            <xs:group ref="mathml:span_2"/>
+            <xs:group ref="mathml:term_2"/>
+            <xs:group ref="mathml:cite_2"/>
+            <xs:element ref="cnxml:cite-title"/>
+            <xs:group ref="mathml:foreign_2"/>
+            <xs:group ref="mathml:emphasis_2"/>
+            <xs:group ref="mathml:sub_2"/>
+            <xs:group ref="mathml:sup_2"/>
+            <xs:group ref="mathml:code"/>
+            <xs:group ref="mathml:preformat"/>
+            <xs:group ref="mathml:quote"/>
+            <xs:element ref="cnxml:note"/>
+            <xs:group ref="mathml:list"/>
+            <xs:element ref="cnxml:media"/>
+            <xs:element ref="cnxml:footnote"/>
+            <xs:element ref="cnxml:link"/>
+            <xs:element ref="cnxml:newline"/>
+            <xs:element ref="cnxml:space"/>
+          </xs:choice>
+        </xs:sequence>
+      </xs:choice>
+      <xs:attribute name="display">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="block"/>
+            <xs:enumeration value="none"/>
+            <xs:enumeration value="inline"/>
+            <xs:enumeration value="none"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
+      <xs:attribute ref="xml:lang"/>
+      <xs:attribute name="class" type="xs:token"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="type">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:token">
             <xs:simpleType>
               <xs:restriction base="xs:token">
-                <xs:enumeration value="block"/>
-                <xs:enumeration value="none"/>
+                <xs:enumeration value="note"/>
               </xs:restriction>
             </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute ref="xml:lang"/>
-          <xs:attribute name="class" type="xs:token"/>
-          <xs:attribute name="id" use="required" type="xs:ID"/>
-          <xs:attribute name="type">
             <xs:simpleType>
-              <xs:union memberTypes="xs:token">
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:enumeration value="note"/>
-                  </xs:restriction>
-                </xs:simpleType>
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:enumeration value="aside"/>
-                  </xs:restriction>
-                </xs:simpleType>
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:enumeration value="warning"/>
-                  </xs:restriction>
-                </xs:simpleType>
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:enumeration value="tip"/>
-                  </xs:restriction>
-                </xs:simpleType>
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:enumeration value="important"/>
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:union>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="aside"/>
+              </xs:restriction>
             </xs:simpleType>
-          </xs:attribute>
-          <xs:anyAttribute processContents="strict"/>
-        </xs:complexType>
-      </xs:element>
-    </xs:sequence>
-  </xs:group>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="warning"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="tip"/>
+              </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="important"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="media">
     <xs:complexType>
       <xs:sequence>
@@ -627,12 +859,20 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="alt" use="required"/>
       <xs:attribute name="longdesc"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:group name="list">
@@ -673,6 +913,15 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="mark-prefix"/>
@@ -689,7 +938,6 @@
           </xs:attribute>
           <xs:attribute name="id" type="xs:ID"/>
           <xs:attribute name="item-sep"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -761,9 +1009,17 @@
         </xs:simpleType>
       </xs:attribute>
       <xs:attribute name="type"/>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="rule">
@@ -777,11 +1033,19 @@
           <xs:element ref="cnxml:example"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="equation">
@@ -794,11 +1058,19 @@
           <xs:element ref="mathml:math"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="exercise">
@@ -813,6 +1085,15 @@
         </xs:sequence>
         <xs:element ref="qml:item"/>
       </xs:choice>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
@@ -825,7 +1106,6 @@
         </xs:simpleType>
       </xs:attribute>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:group name="para">
@@ -844,10 +1124,10 @@
               <xs:group ref="mathml:emphasis_2"/>
               <xs:group ref="mathml:sub_2"/>
               <xs:group ref="mathml:sup_2"/>
-              <xs:group ref="mathml:code_3"/>
-              <xs:group ref="mathml:preformat_3"/>
-              <xs:group ref="mathml:quote_3"/>
-              <xs:group ref="mathml:note_2"/>
+              <xs:group ref="mathml:code"/>
+              <xs:group ref="mathml:preformat"/>
+              <xs:group ref="mathml:quote"/>
+              <xs:element ref="cnxml:note"/>
               <xs:group ref="mathml:list"/>
               <xs:element ref="cnxml:media"/>
               <xs:element ref="cnxml:footnote"/>
@@ -861,7 +1141,7 @@
               <xs:group ref="mathml:code"/>
               <xs:group ref="mathml:preformat"/>
               <xs:group ref="mathml:quote"/>
-              <xs:group ref="mathml:note"/>
+              <xs:element ref="cnxml:note"/>
               <xs:element ref="cnxml:media"/>
               <xs:group ref="mathml:list"/>
               <xs:element ref="cnxml:table"/>
@@ -870,10 +1150,18 @@
               <xs:element ref="cnxml:exercise"/>
             </xs:choice>
           </xs:sequence>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="id" use="required" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -896,8 +1184,16 @@
             <xs:group ref="mathml:preformat_2"/>
             <xs:group ref="mathml:list_2"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -917,8 +1213,16 @@
             <xs:group ref="mathml:code_2"/>
             <xs:element ref="mathml:math"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -938,8 +1242,16 @@
             <xs:group ref="mathml:code_2"/>
             <xs:element ref="mathml:math"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -959,8 +1271,16 @@
             <xs:group ref="mathml:code_2"/>
             <xs:element ref="mathml:math"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -980,8 +1300,16 @@
             <xs:group ref="mathml:code_2"/>
             <xs:element ref="mathml:math"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1001,8 +1329,16 @@
             <xs:group ref="mathml:code_2"/>
             <xs:element ref="mathml:math"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1022,8 +1358,16 @@
             <xs:group ref="mathml:code_2"/>
             <xs:element ref="mathml:math"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1043,8 +1387,16 @@
             <xs:group ref="mathml:code_2"/>
             <xs:element ref="mathml:math"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1064,6 +1416,15 @@
             <xs:group ref="mathml:code_2"/>
             <xs:element ref="mathml:math"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="display">
             <xs:simpleType>
@@ -1076,7 +1437,6 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1102,6 +1462,15 @@
               <xs:group ref="mathml:list_2"/>
             </xs:choice>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="display">
             <xs:simpleType>
@@ -1114,7 +1483,6 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1140,6 +1508,15 @@
               <xs:group ref="mathml:list_2"/>
             </xs:choice>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="display">
             <xs:simpleType>
@@ -1152,7 +1529,6 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1181,8 +1557,16 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1199,10 +1583,10 @@
         <xs:group ref="mathml:emphasis_2"/>
         <xs:group ref="mathml:sub_2"/>
         <xs:group ref="mathml:sup_2"/>
-        <xs:group ref="mathml:code_3"/>
-        <xs:group ref="mathml:preformat_3"/>
-        <xs:group ref="mathml:quote_3"/>
-        <xs:group ref="mathml:note_2"/>
+        <xs:group ref="mathml:code"/>
+        <xs:group ref="mathml:preformat"/>
+        <xs:group ref="mathml:quote"/>
+        <xs:element ref="cnxml:note"/>
         <xs:group ref="mathml:list"/>
         <xs:element ref="cnxml:media"/>
         <xs:element ref="cnxml:footnote"/>
@@ -1210,10 +1594,18 @@
         <xs:element ref="cnxml:newline"/>
         <xs:element ref="cnxml:space"/>
       </xs:choice>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="link">
@@ -1228,10 +1620,10 @@
         <xs:group ref="mathml:emphasis_2"/>
         <xs:group ref="mathml:sub_2"/>
         <xs:group ref="mathml:sup_2"/>
-        <xs:group ref="mathml:code_3"/>
-        <xs:group ref="mathml:preformat_3"/>
-        <xs:group ref="mathml:quote_3"/>
-        <xs:group ref="mathml:note_2"/>
+        <xs:group ref="mathml:code"/>
+        <xs:group ref="mathml:preformat"/>
+        <xs:group ref="mathml:quote"/>
+        <xs:element ref="cnxml:note"/>
         <xs:group ref="mathml:list"/>
         <xs:element ref="cnxml:media"/>
         <xs:element ref="cnxml:footnote"/>
@@ -1261,10 +1653,18 @@
       <xs:attribute name="version"/>
       <xs:attribute name="target-id"/>
       <xs:attribute name="resource"/>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:group name="title1">
@@ -1281,10 +1681,10 @@
             <xs:group ref="mathml:emphasis_2"/>
             <xs:group ref="mathml:sub_2"/>
             <xs:group ref="mathml:sup_2"/>
-            <xs:group ref="mathml:code_3"/>
-            <xs:group ref="mathml:preformat_3"/>
-            <xs:group ref="mathml:quote_3"/>
-            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:code"/>
+            <xs:group ref="mathml:preformat"/>
+            <xs:group ref="mathml:quote"/>
+            <xs:element ref="cnxml:note"/>
             <xs:group ref="mathml:list"/>
             <xs:element ref="cnxml:media"/>
             <xs:element ref="cnxml:footnote"/>
@@ -1292,10 +1692,18 @@
             <xs:element ref="cnxml:newline"/>
             <xs:element ref="cnxml:space"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1314,10 +1722,10 @@
             <xs:group ref="mathml:emphasis_2"/>
             <xs:group ref="mathml:sub_2"/>
             <xs:group ref="mathml:sup_2"/>
-            <xs:group ref="mathml:code_3"/>
-            <xs:group ref="mathml:preformat_3"/>
-            <xs:group ref="mathml:quote_3"/>
-            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:code"/>
+            <xs:group ref="mathml:preformat"/>
+            <xs:group ref="mathml:quote"/>
+            <xs:element ref="cnxml:note"/>
             <xs:group ref="mathml:list"/>
             <xs:element ref="cnxml:media"/>
             <xs:element ref="cnxml:footnote"/>
@@ -1356,10 +1764,18 @@
               </xs:union>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1378,10 +1794,10 @@
             <xs:group ref="mathml:emphasis_2"/>
             <xs:group ref="mathml:sub_2"/>
             <xs:group ref="mathml:sup_2"/>
-            <xs:group ref="mathml:code_3"/>
-            <xs:group ref="mathml:preformat_3"/>
-            <xs:group ref="mathml:quote_3"/>
-            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:code"/>
+            <xs:group ref="mathml:preformat"/>
+            <xs:group ref="mathml:quote"/>
+            <xs:element ref="cnxml:note"/>
             <xs:group ref="mathml:list"/>
             <xs:element ref="cnxml:media"/>
             <xs:element ref="cnxml:footnote"/>
@@ -1402,10 +1818,18 @@
           <xs:attribute name="version"/>
           <xs:attribute name="target-id"/>
           <xs:attribute name="resource"/>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1424,10 +1848,10 @@
             <xs:group ref="mathml:emphasis_2"/>
             <xs:group ref="mathml:sub_2"/>
             <xs:group ref="mathml:sup_2"/>
-            <xs:group ref="mathml:code_3"/>
-            <xs:group ref="mathml:preformat_3"/>
-            <xs:group ref="mathml:quote_3"/>
-            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:code"/>
+            <xs:group ref="mathml:preformat"/>
+            <xs:group ref="mathml:quote"/>
+            <xs:element ref="cnxml:note"/>
             <xs:group ref="mathml:list"/>
             <xs:element ref="cnxml:media"/>
             <xs:element ref="cnxml:footnote"/>
@@ -1448,10 +1872,18 @@
           <xs:attribute name="version"/>
           <xs:attribute name="target-id"/>
           <xs:attribute name="resource"/>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1468,10 +1900,10 @@
         <xs:group ref="mathml:emphasis_2"/>
         <xs:group ref="mathml:sub_2"/>
         <xs:group ref="mathml:sup_2"/>
-        <xs:group ref="mathml:code_3"/>
-        <xs:group ref="mathml:preformat_3"/>
-        <xs:group ref="mathml:quote_3"/>
-        <xs:group ref="mathml:note_2"/>
+        <xs:group ref="mathml:code"/>
+        <xs:group ref="mathml:preformat"/>
+        <xs:group ref="mathml:quote"/>
+        <xs:element ref="cnxml:note"/>
         <xs:group ref="mathml:list"/>
         <xs:element ref="cnxml:media"/>
         <xs:element ref="cnxml:footnote"/>
@@ -1499,10 +1931,18 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:group name="foreign1">
@@ -1519,10 +1959,10 @@
             <xs:group ref="mathml:emphasis_2"/>
             <xs:group ref="mathml:sub_2"/>
             <xs:group ref="mathml:sup_2"/>
-            <xs:group ref="mathml:code_3"/>
-            <xs:group ref="mathml:preformat_3"/>
-            <xs:group ref="mathml:quote_3"/>
-            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:code"/>
+            <xs:group ref="mathml:preformat"/>
+            <xs:group ref="mathml:quote"/>
+            <xs:element ref="cnxml:note"/>
             <xs:group ref="mathml:list"/>
             <xs:element ref="cnxml:media"/>
             <xs:element ref="cnxml:footnote"/>
@@ -1543,10 +1983,18 @@
           <xs:attribute name="version"/>
           <xs:attribute name="target-id"/>
           <xs:attribute name="resource"/>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1565,10 +2013,10 @@
             <xs:group ref="mathml:emphasis_2"/>
             <xs:group ref="mathml:sub_2"/>
             <xs:group ref="mathml:sup_2"/>
-            <xs:group ref="mathml:code_3"/>
-            <xs:group ref="mathml:preformat_3"/>
-            <xs:group ref="mathml:quote_3"/>
-            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:code"/>
+            <xs:group ref="mathml:preformat"/>
+            <xs:group ref="mathml:quote"/>
+            <xs:element ref="cnxml:note"/>
             <xs:group ref="mathml:list"/>
             <xs:element ref="cnxml:media"/>
             <xs:element ref="cnxml:footnote"/>
@@ -1607,10 +2055,18 @@
               </xs:union>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1629,10 +2085,10 @@
             <xs:group ref="mathml:emphasis_2"/>
             <xs:group ref="mathml:sub_2"/>
             <xs:group ref="mathml:sup_2"/>
-            <xs:group ref="mathml:code_3"/>
-            <xs:group ref="mathml:preformat_3"/>
-            <xs:group ref="mathml:quote_3"/>
-            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:code"/>
+            <xs:group ref="mathml:preformat"/>
+            <xs:group ref="mathml:quote"/>
+            <xs:element ref="cnxml:note"/>
             <xs:group ref="mathml:list"/>
             <xs:element ref="cnxml:media"/>
             <xs:element ref="cnxml:footnote"/>
@@ -1640,10 +2096,18 @@
             <xs:element ref="cnxml:newline"/>
             <xs:element ref="cnxml:space"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1662,10 +2126,10 @@
             <xs:group ref="mathml:emphasis_2"/>
             <xs:group ref="mathml:sub_2"/>
             <xs:group ref="mathml:sup_2"/>
-            <xs:group ref="mathml:code_3"/>
-            <xs:group ref="mathml:preformat_3"/>
-            <xs:group ref="mathml:quote_3"/>
-            <xs:group ref="mathml:note_2"/>
+            <xs:group ref="mathml:code"/>
+            <xs:group ref="mathml:preformat"/>
+            <xs:group ref="mathml:quote"/>
+            <xs:element ref="cnxml:note"/>
             <xs:group ref="mathml:list"/>
             <xs:element ref="cnxml:media"/>
             <xs:element ref="cnxml:footnote"/>
@@ -1673,227 +2137,18 @@
             <xs:element ref="cnxml:newline"/>
             <xs:element ref="cnxml:space"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
-        </xs:complexType>
-      </xs:element>
-    </xs:sequence>
-  </xs:group>
-  <xs:group name="code2">
-    <xs:sequence>
-      <xs:element name="code">
-        <xs:complexType mixed="true">
-          <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element ref="mathml:math"/>
-            <xs:group ref="mathml:span_2"/>
-            <xs:group ref="mathml:term_2"/>
-            <xs:group ref="mathml:cite_2"/>
-            <xs:element ref="cnxml:cite-title"/>
-            <xs:group ref="mathml:foreign_2"/>
-            <xs:group ref="mathml:emphasis_2"/>
-            <xs:group ref="mathml:sub_2"/>
-            <xs:group ref="mathml:sup_2"/>
-            <xs:group ref="mathml:code_3"/>
-            <xs:group ref="mathml:preformat_3"/>
-            <xs:group ref="mathml:quote_3"/>
-            <xs:group ref="mathml:note_2"/>
-            <xs:group ref="mathml:list"/>
-            <xs:element ref="cnxml:media"/>
-            <xs:element ref="cnxml:footnote"/>
-            <xs:element ref="cnxml:link"/>
-            <xs:element ref="cnxml:newline"/>
-            <xs:element ref="cnxml:space"/>
-          </xs:choice>
-          <xs:attribute name="display">
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="inline"/>
-                <xs:enumeration value="none"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute name="lang"/>
-          <xs:attribute name="type"/>
-          <xs:attribute name="id" type="xs:ID"/>
-          <xs:attribute ref="xml:lang"/>
-          <xs:attribute name="class" type="xs:token"/>
-          <xs:anyAttribute processContents="strict"/>
-        </xs:complexType>
-      </xs:element>
-    </xs:sequence>
-  </xs:group>
-  <xs:group name="preformat2">
-    <xs:sequence>
-      <xs:element name="preformat">
-        <xs:complexType mixed="true">
-          <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element ref="mathml:math"/>
-            <xs:group ref="mathml:span_2"/>
-            <xs:group ref="mathml:term_2"/>
-            <xs:group ref="mathml:cite_2"/>
-            <xs:element ref="cnxml:cite-title"/>
-            <xs:group ref="mathml:foreign_2"/>
-            <xs:group ref="mathml:emphasis_2"/>
-            <xs:group ref="mathml:sub_2"/>
-            <xs:group ref="mathml:sup_2"/>
-            <xs:group ref="mathml:code_3"/>
-            <xs:group ref="mathml:preformat_3"/>
-            <xs:group ref="mathml:quote_3"/>
-            <xs:group ref="mathml:note_2"/>
-            <xs:group ref="mathml:list"/>
-            <xs:element ref="cnxml:media"/>
-            <xs:element ref="cnxml:footnote"/>
-            <xs:element ref="cnxml:link"/>
-            <xs:element ref="cnxml:newline"/>
-            <xs:element ref="cnxml:space"/>
-          </xs:choice>
-          <xs:attribute name="display" use="required">
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="inline"/>
-                <xs:enumeration value="none"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute ref="xml:lang"/>
-          <xs:attribute name="class" type="xs:token"/>
-          <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
-        </xs:complexType>
-      </xs:element>
-    </xs:sequence>
-  </xs:group>
-  <xs:group name="quote2">
-    <xs:sequence>
-      <xs:element name="quote">
-        <xs:complexType mixed="true">
-          <xs:sequence>
-            <xs:element minOccurs="0" ref="cnxml:label"/>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
-              <xs:element ref="mathml:math"/>
-              <xs:group ref="mathml:span_2"/>
-              <xs:group ref="mathml:term_2"/>
-              <xs:group ref="mathml:cite_2"/>
-              <xs:element ref="cnxml:cite-title"/>
-              <xs:group ref="mathml:foreign_2"/>
-              <xs:group ref="mathml:emphasis_2"/>
-              <xs:group ref="mathml:sub_2"/>
-              <xs:group ref="mathml:sup_2"/>
-              <xs:group ref="mathml:code_3"/>
-              <xs:group ref="mathml:preformat_3"/>
-              <xs:group ref="mathml:quote_3"/>
-              <xs:group ref="mathml:note_2"/>
-              <xs:group ref="mathml:list"/>
-              <xs:element ref="cnxml:media"/>
-              <xs:element ref="cnxml:footnote"/>
-              <xs:element ref="cnxml:link"/>
-              <xs:element ref="cnxml:newline"/>
-              <xs:element ref="cnxml:space"/>
-            </xs:choice>
-          </xs:sequence>
-          <xs:attribute name="display" use="required">
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="inline"/>
-                <xs:enumeration value="none"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute name="window">
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="replace"/>
-                <xs:enumeration value="new"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute name="url"/>
-          <xs:attribute name="document"/>
-          <xs:attribute name="version"/>
-          <xs:attribute name="target-id"/>
-          <xs:attribute name="resource"/>
-          <xs:attribute name="type"/>
-          <xs:attribute ref="xml:lang"/>
-          <xs:attribute name="class" type="xs:token"/>
-          <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
-        </xs:complexType>
-      </xs:element>
-    </xs:sequence>
-  </xs:group>
-  <xs:group name="note1">
-    <xs:sequence>
-      <xs:element name="note">
-        <xs:complexType mixed="true">
-          <xs:sequence>
-            <xs:element minOccurs="0" ref="cnxml:label"/>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
-              <xs:element ref="mathml:math"/>
-              <xs:group ref="mathml:span_2"/>
-              <xs:group ref="mathml:term_2"/>
-              <xs:group ref="mathml:cite_2"/>
-              <xs:element ref="cnxml:cite-title"/>
-              <xs:group ref="mathml:foreign_2"/>
-              <xs:group ref="mathml:emphasis_2"/>
-              <xs:group ref="mathml:sub_2"/>
-              <xs:group ref="mathml:sup_2"/>
-              <xs:group ref="mathml:code_3"/>
-              <xs:group ref="mathml:preformat_3"/>
-              <xs:group ref="mathml:quote_3"/>
-              <xs:group ref="mathml:note_2"/>
-              <xs:group ref="mathml:list"/>
-              <xs:element ref="cnxml:media"/>
-              <xs:element ref="cnxml:footnote"/>
-              <xs:element ref="cnxml:link"/>
-              <xs:element ref="cnxml:newline"/>
-              <xs:element ref="cnxml:space"/>
-            </xs:choice>
-          </xs:sequence>
-          <xs:attribute name="display" use="required">
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="inline"/>
-                <xs:enumeration value="none"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute name="type">
-            <xs:simpleType>
-              <xs:union memberTypes="xs:token">
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:enumeration value="note"/>
-                  </xs:restriction>
-                </xs:simpleType>
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:enumeration value="aside"/>
-                  </xs:restriction>
-                </xs:simpleType>
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:enumeration value="warning"/>
-                  </xs:restriction>
-                </xs:simpleType>
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:enumeration value="tip"/>
-                  </xs:restriction>
-                </xs:simpleType>
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:enumeration value="important"/>
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:union>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute ref="xml:lang"/>
-          <xs:attribute name="class" type="xs:token"/>
-          <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -1913,10 +2168,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:media"/>
           <xs:element ref="cnxml:footnote"/>
@@ -1930,7 +2185,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -1939,14 +2194,31 @@
           <xs:element ref="cnxml:exercise"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="newline">
     <xs:complexType>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
@@ -1988,11 +2260,19 @@
           </xs:union>
         </xs:simpleType>
       </xs:attribute>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="space">
     <xs:complexType>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
@@ -2034,7 +2314,6 @@
           </xs:union>
         </xs:simpleType>
       </xs:attribute>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="seealso">
@@ -2043,11 +2322,19 @@
         <xs:element minOccurs="0" ref="cnxml:label"/>
         <xs:group maxOccurs="unbounded" ref="mathml:term_2"/>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="meaning">
@@ -2065,10 +2352,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:media"/>
           <xs:element ref="cnxml:footnote"/>
@@ -2082,7 +2369,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -2091,10 +2378,18 @@
           <xs:element ref="cnxml:exercise"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="subfigure">
@@ -2105,16 +2400,23 @@
         <xs:choice>
           <xs:element ref="cnxml:media"/>
           <xs:element ref="cnxml:table"/>
-          <xs:group ref="mathml:code_3"/>
           <xs:group ref="mathml:code"/>
         </xs:choice>
         <xs:element minOccurs="0" ref="cnxml:caption"/>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="caption">
@@ -2129,10 +2431,10 @@
         <xs:group ref="mathml:emphasis_2"/>
         <xs:group ref="mathml:sub_2"/>
         <xs:group ref="mathml:sup_2"/>
-        <xs:group ref="mathml:code_3"/>
-        <xs:group ref="mathml:preformat_3"/>
-        <xs:group ref="mathml:quote_3"/>
-        <xs:group ref="mathml:note_2"/>
+        <xs:group ref="mathml:code"/>
+        <xs:group ref="mathml:preformat"/>
+        <xs:group ref="mathml:quote"/>
+        <xs:element ref="cnxml:note"/>
         <xs:group ref="mathml:list"/>
         <xs:element ref="cnxml:media"/>
         <xs:element ref="cnxml:footnote"/>
@@ -2140,10 +2442,18 @@
         <xs:element ref="cnxml:newline"/>
         <xs:element ref="cnxml:space"/>
       </xs:choice>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="longdesc">
@@ -2161,10 +2471,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:media"/>
           <xs:element ref="cnxml:footnote"/>
@@ -2178,7 +2488,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -2187,10 +2497,18 @@
           <xs:element ref="cnxml:exercise"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="object">
@@ -2208,10 +2526,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:object"/>
           <xs:element ref="cnxml:image"/>
@@ -2225,6 +2543,15 @@
           <xs:element ref="cnxml:download"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
@@ -2249,7 +2576,6 @@
       </xs:attribute>
       <xs:attribute name="longdesc"/>
       <xs:attribute name="src" use="required"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="image">
@@ -2267,10 +2593,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:object"/>
           <xs:element ref="cnxml:image"/>
@@ -2284,6 +2610,15 @@
           <xs:element ref="cnxml:download"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
@@ -2310,7 +2645,6 @@
       <xs:attribute name="src" use="required"/>
       <xs:attribute name="print-width"/>
       <xs:attribute name="thumbnail"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="audio">
@@ -2328,10 +2662,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:object"/>
           <xs:element ref="cnxml:image"/>
@@ -2345,6 +2679,15 @@
           <xs:element ref="cnxml:download"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
@@ -2402,7 +2745,6 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="video">
@@ -2420,10 +2762,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:object"/>
           <xs:element ref="cnxml:image"/>
@@ -2437,6 +2779,15 @@
           <xs:element ref="cnxml:download"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
@@ -2494,7 +2845,6 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="java-applet">
@@ -2512,10 +2862,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:object"/>
           <xs:element ref="cnxml:image"/>
@@ -2529,6 +2879,15 @@
           <xs:element ref="cnxml:download"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
@@ -2557,7 +2916,6 @@
       <xs:attribute name="code" use="required"/>
       <xs:attribute name="archive"/>
       <xs:attribute name="name"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="flash">
@@ -2575,10 +2933,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:object"/>
           <xs:element ref="cnxml:image"/>
@@ -2592,6 +2950,15 @@
           <xs:element ref="cnxml:download"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
@@ -2661,7 +3028,6 @@
         </xs:simpleType>
       </xs:attribute>
       <xs:attribute name="flash-vars"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="iframe">
@@ -2687,10 +3053,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:object"/>
           <xs:element ref="cnxml:image"/>
@@ -2704,6 +3070,15 @@
           <xs:element ref="cnxml:download"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
@@ -2738,7 +3113,6 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="text">
@@ -2757,10 +3131,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:media"/>
           <xs:element ref="cnxml:footnote"/>
@@ -2774,7 +3148,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -2783,6 +3157,15 @@
           <xs:element ref="cnxml:exercise"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
@@ -2807,7 +3190,6 @@
           </xs:union>
         </xs:simpleType>
       </xs:attribute>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="download">
@@ -2825,10 +3207,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:object"/>
           <xs:element ref="cnxml:image"/>
@@ -2842,6 +3224,15 @@
           <xs:element ref="cnxml:download"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
@@ -2866,7 +3257,6 @@
       </xs:attribute>
       <xs:attribute name="longdesc"/>
       <xs:attribute name="src" use="required"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:group name="item">
@@ -2887,10 +3277,10 @@
                 <xs:group ref="mathml:emphasis_2"/>
                 <xs:group ref="mathml:sub_2"/>
                 <xs:group ref="mathml:sup_2"/>
-                <xs:group ref="mathml:code_3"/>
-                <xs:group ref="mathml:preformat_3"/>
-                <xs:group ref="mathml:quote_3"/>
-                <xs:group ref="mathml:note_2"/>
+                <xs:group ref="mathml:code"/>
+                <xs:group ref="mathml:preformat"/>
+                <xs:group ref="mathml:quote"/>
+                <xs:element ref="cnxml:note"/>
                 <xs:group ref="mathml:list"/>
                 <xs:element ref="cnxml:media"/>
                 <xs:element ref="cnxml:footnote"/>
@@ -2904,7 +3294,7 @@
                 <xs:group ref="mathml:code"/>
                 <xs:group ref="mathml:preformat"/>
                 <xs:group ref="mathml:quote"/>
-                <xs:group ref="mathml:note"/>
+                <xs:element ref="cnxml:note"/>
                 <xs:element ref="cnxml:media"/>
                 <xs:group ref="mathml:list"/>
                 <xs:element ref="cnxml:table"/>
@@ -2922,10 +3312,10 @@
                 <xs:group ref="mathml:emphasis_2"/>
                 <xs:group ref="mathml:sub_2"/>
                 <xs:group ref="mathml:sup_2"/>
-                <xs:group ref="mathml:code_3"/>
-                <xs:group ref="mathml:preformat_3"/>
-                <xs:group ref="mathml:quote_3"/>
-                <xs:group ref="mathml:note_2"/>
+                <xs:group ref="mathml:code"/>
+                <xs:group ref="mathml:preformat"/>
+                <xs:group ref="mathml:quote"/>
+                <xs:element ref="cnxml:note"/>
                 <xs:group ref="mathml:list"/>
                 <xs:element ref="cnxml:media"/>
                 <xs:element ref="cnxml:footnote"/>
@@ -2935,10 +3325,18 @@
               </xs:choice>
             </xs:choice>
           </xs:sequence>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
           <xs:attribute name="class" type="xs:token"/>
           <xs:attribute name="id" type="xs:ID"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -2981,10 +3379,18 @@
       </xs:attribute>
       <xs:attribute name="char"/>
       <xs:attribute name="charoff"/>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="statement">
@@ -3001,7 +3407,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -3011,11 +3417,19 @@
           <xs:group ref="mathml:para"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="proof">
@@ -3032,7 +3446,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -3042,11 +3456,19 @@
           <xs:group ref="mathml:para"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="problem">
@@ -3063,7 +3485,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -3073,11 +3495,19 @@
           <xs:group ref="mathml:para"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="solution">
@@ -3094,7 +3524,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -3112,11 +3542,19 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="commentary">
@@ -3135,10 +3573,10 @@
           <xs:group ref="mathml:emphasis_2"/>
           <xs:group ref="mathml:sub_2"/>
           <xs:group ref="mathml:sup_2"/>
-          <xs:group ref="mathml:code_3"/>
-          <xs:group ref="mathml:preformat_3"/>
-          <xs:group ref="mathml:quote_3"/>
-          <xs:group ref="mathml:note_2"/>
+          <xs:group ref="mathml:code"/>
+          <xs:group ref="mathml:preformat"/>
+          <xs:group ref="mathml:quote"/>
+          <xs:element ref="cnxml:note"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:media"/>
           <xs:element ref="cnxml:footnote"/>
@@ -3152,7 +3590,7 @@
           <xs:group ref="mathml:code"/>
           <xs:group ref="mathml:preformat"/>
           <xs:group ref="mathml:quote"/>
-          <xs:group ref="mathml:note"/>
+          <xs:element ref="cnxml:note"/>
           <xs:element ref="cnxml:media"/>
           <xs:group ref="mathml:list"/>
           <xs:element ref="cnxml:table"/>
@@ -3161,11 +3599,19 @@
           <xs:element ref="cnxml:exercise"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" use="required" type="xs:ID"/>
       <xs:attribute name="type"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:group name="item1">
@@ -3186,20 +3632,36 @@
             <xs:group ref="mathml:preformat_2"/>
             <xs:group ref="mathml:list_2"/>
           </xs:choice>
+          <xs:attribute ref="cmlnle:case"/>
+          <xs:attribute ref="cmlnle:reference"/>
+          <xs:attribute ref="cxlxt:born"/>
+          <xs:attribute ref="cxlxt:died"/>
+          <xs:attribute ref="cxlxt:index"/>
+          <xs:attribute ref="cxlxt:name"/>
+          <xs:attribute ref="ns1:color"/>
+          <xs:attribute ref="ns1:font-style"/>
+          <xs:attribute ref="ns1:font-weight"/>
           <xs:attribute ref="xml:lang"/>
-          <xs:anyAttribute processContents="strict"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
   </xs:group>
   <xs:element name="param">
     <xs:complexType>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
       <xs:attribute name="name" use="required"/>
       <xs:attribute name="value" use="required"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="colspec">
@@ -3234,10 +3696,18 @@
       </xs:attribute>
       <xs:attribute name="char"/>
       <xs:attribute name="charoff"/>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="spanspec">
@@ -3273,10 +3743,18 @@
       </xs:attribute>
       <xs:attribute name="char"/>
       <xs:attribute name="charoff"/>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="thead">
@@ -3294,10 +3772,18 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="tfoot">
@@ -3315,10 +3801,18 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="tbody">
@@ -3335,10 +3829,18 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="row">
@@ -3363,10 +3865,18 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="entry">
@@ -3382,10 +3892,10 @@
         <xs:group ref="mathml:emphasis_2"/>
         <xs:group ref="mathml:sub_2"/>
         <xs:group ref="mathml:sup_2"/>
-        <xs:group ref="mathml:code_3"/>
-        <xs:group ref="mathml:preformat_3"/>
-        <xs:group ref="mathml:quote_3"/>
-        <xs:group ref="mathml:note_2"/>
+        <xs:group ref="mathml:code"/>
+        <xs:group ref="mathml:preformat"/>
+        <xs:group ref="mathml:quote"/>
+        <xs:element ref="cnxml:note"/>
         <xs:group ref="mathml:list"/>
         <xs:element ref="cnxml:media"/>
         <xs:element ref="cnxml:footnote"/>
@@ -3399,7 +3909,7 @@
         <xs:group ref="mathml:code"/>
         <xs:group ref="mathml:preformat"/>
         <xs:group ref="mathml:quote"/>
-        <xs:group ref="mathml:note"/>
+        <xs:element ref="cnxml:note"/>
         <xs:element ref="cnxml:media"/>
         <xs:group ref="mathml:list"/>
         <xs:element ref="cnxml:table"/>
@@ -3455,10 +3965,18 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="entrytbl">
@@ -3502,10 +4020,18 @@
       </xs:attribute>
       <xs:attribute name="char"/>
       <xs:attribute name="charoff"/>
+      <xs:attribute ref="cmlnle:case"/>
+      <xs:attribute ref="cmlnle:reference"/>
+      <xs:attribute ref="cxlxt:born"/>
+      <xs:attribute ref="cxlxt:died"/>
+      <xs:attribute ref="cxlxt:index"/>
+      <xs:attribute ref="cxlxt:name"/>
+      <xs:attribute ref="ns1:color"/>
+      <xs:attribute ref="ns1:font-style"/>
+      <xs:attribute ref="ns1:font-weight"/>
       <xs:attribute ref="xml:lang"/>
       <xs:attribute name="class" type="xs:token"/>
       <xs:attribute name="id" type="xs:ID"/>
-      <xs:anyAttribute processContents="strict"/>
     </xs:complexType>
   </xs:element>
 </xs:schema>
