@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/1999/xlink" xmlns:s="http://cnx.rice.edu/system-info" xmlns:cnxml="http://cnx.rice.edu/cnxml" xmlns:ns1="http://bibtexml.sf.net/" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:qml="http://cnx.rice.edu/qml/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mdml="http://cnx.rice.edu/mdml">
-  <xs:import namespace="http://bibtexml.sf.net/" schemaLocation="ns1.xsd"/>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/1999/xlink" xmlns:cxlxt="http://katalysteducation.org/cxlxt/1.0" xmlns:s="http://cnx.rice.edu/system-info" xmlns:cnxml="http://cnx.rice.edu/cnxml" xmlns:ns1="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:cmlnle="http://katalysteducation.org/cmlnle/1.0" xmlns:ns2="http://bibtexml.sf.net/" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:qml="http://cnx.rice.edu/qml/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mdml="http://cnx.rice.edu/mdml">
+  <xs:import namespace="http://bibtexml.sf.net/" schemaLocation="ns2.xsd"/>
   <xs:import namespace="http://cnx.rice.edu/cnxml" schemaLocation="cnxml.xsd"/>
   <xs:import namespace="http://cnx.rice.edu/mdml" schemaLocation="mdml.xsd"/>
   <xs:import namespace="http://cnx.rice.edu/qml/1.0" schemaLocation="qml.xsd"/>
   <xs:import namespace="http://cnx.rice.edu/system-info" schemaLocation="s.xsd"/>
+  <xs:import namespace="http://katalysteducation.org/cmlnle/1.0" schemaLocation="cmlnle.xsd"/>
+  <xs:import namespace="http://katalysteducation.org/cxlxt/1.0" schemaLocation="cxlxt.xsd"/>
   <xs:import namespace="http://www.w3.org/1998/Math/MathML" schemaLocation="mathml.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:import namespace="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" schemaLocation="ns1.xsd"/>
   <xs:attribute name="href" type="xs:anyURI"/>
   <xs:attribute name="type">
     <xs:simpleType>
