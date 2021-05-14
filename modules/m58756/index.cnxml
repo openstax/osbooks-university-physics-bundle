@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>RLC Series Circuits</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58756</md:content-id>
   <md:title>RLC Series Circuits</md:title>
   <md:abstract><para>By the end of this section, you will be able to:</para>
@@ -184,7 +184,7 @@
 <para id="fs-id1167131204931">Show that the self-inductance per unit length of an infinite, straight, thin wire is infinite.</para>
 </problem>
 <solution id="fs-id1167131231390">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167131231393">Let <emphasis effect="italics">a</emphasis> equal the radius of the long, thin wire, <emphasis effect="italics">r</emphasis> the location where the magnetic field is measured, and <emphasis effect="italics">R</emphasis> the upper limit of the problem where we will take <emphasis effect="italics">R</emphasis> as it approaches infinity. <newline/>
+<para id="fs-id1167131231393">Let <emphasis effect="italics">a</emphasis> equal the radius of the long, thin wire, <emphasis effect="italics">r</emphasis> the location where the magnetic field is measured, and <emphasis effect="italics">R</emphasis> the upper limit of the problem where we will take <emphasis effect="italics">R</emphasis> as it approaches infinity. <newline/>
 proof <m:math><m:mtable>
 <m:mtr><m:mtd columnalign="right"><m:mtext>Outside,</m:mtext><m:mspace width="1em"/><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="0.5em"/><m:mtext>Inside,</m:mtext><m:mspace width="1em"/><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr>
 <m:mtr><m:mtd columnalign="right"><m:mi>U</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>l</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mi>R</m:mi><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
@@ -217,7 +217,7 @@ proof <m:math><m:mtable>
 </exercise>
 <exercise id="fs-id1167131615186">
 <problem id="fs-id1167131615188">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134717550">A solenoid with <m:math><m:mn>4</m:mn><m:mo>x</m:mo><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:math> turns/m has an iron core placed in it whose magnetic susceptibility is <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. (a) If a current of 2.0 A flows through the solenoid, what is the magnetic field in the iron core? (b) What is the effective surface current formed by the aligned atomic current loops in the iron core? (c) What is the self-inductance of the filled solenoid?</para></problem>
+<para id="fs-id1167134717550">A solenoid with <m:math><m:mn>4</m:mn><m:mo>x</m:mo><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:math> turns/m has an iron core placed in it whose magnetic susceptibility is <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. (a) If a current of 2.0 A flows through the solenoid, what is the magnetic field in the iron core? (b) What is the effective surface current formed by the aligned atomic current loops in the iron core? (c) What is the self-inductance of the filled solenoid?</para></problem>
 <solution id="fs-id1167134565655">
 <para id="fs-id1167134565657">a. 100 T; b. 2 A; c. 0.50 H</para>
 </solution>
@@ -264,7 +264,7 @@ proof <m:math><m:mtable>
 <para id="fs-id1167134951550">In a damped oscillating circuit the energy is dissipated in the resistor. The <emphasis effect="italics">Q</emphasis>-factor is a measure of the persistence of the oscillator against the dissipative loss. (a) Prove that for a lightly damped circuit the energy, <emphasis effect="italics">U</emphasis>, in the circuit decreases according to the following equation.</para>
 <para id="fs-id1167131406196"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>U</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>β</m:mi><m:mi>U</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
 <para id="fs-id1167134880779">(b) Using the definition of the <emphasis effect="italics">Q</emphasis>-factor as energy divided by the loss over the next cycle, prove that <emphasis effect="italics">Q</emphasis>-factor of a lightly damped oscillator as defined in this problem is <m:math><m:mrow/></m:math></para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167131234015"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>≡</m:mo><m:mfrac><m:mrow><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>begin</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>one cycle</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>C</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1167131605251">(<emphasis effect="italics">Hint:</emphasis> For (b), to obtain <emphasis effect="italics">Q</emphasis>, divide <emphasis effect="italics">E</emphasis> at the beginning of one cycle by the change <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> over the next cycle.)</para>
+<para id="fs-id1167131234015"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>≡</m:mo><m:mfrac><m:mrow><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>begin</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>one cycle</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>C</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1167131605251">(<emphasis effect="italics">Hint:</emphasis> For (b), to obtain <emphasis effect="italics">Q</emphasis>, divide <emphasis effect="italics">E</emphasis> at the beginning of one cycle by the change <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> over the next cycle.)</para>
 </problem>
 <solution id="fs-id1167131374552">
 <para id="fs-id1167131374554">proof</para>
@@ -278,7 +278,7 @@ proof <m:math><m:mtable>
 </media>
 </problem>
 </exercise>
-<exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134717198"><problem id="fs-id1167134717200">
+<exercise id="fs-id1167134717198"><problem id="fs-id1167134717200">
 <para id="fs-id1167129962405">A square loop of side 2 cm is placed 1 cm from a long wire carrying a current that varies with time at a constant rate of 3 A/s as shown below. (a) Use Ampère’s law and find the magnetic field. (b) Determine the magnetic flux through the loop. (c) If the loop has a resistance of <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, how much induced current flows in the loop?</para><media id="fs-id1167134964759" alt="A 12 volt battery is connected to a 6 ohm resistor and a switch S, which is open at time t=0. Connected in parallel with the 6 ohm resistor are another 6 ohm resistor and a 24 Henry inductor.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_Problem85_img_new.jpg"/>
 </media>

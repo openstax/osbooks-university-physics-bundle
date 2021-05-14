@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Viscosity and Turbulence</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58359</md:content-id>
   <md:title>Viscosity and Turbulence</md:title>
   <md:abstract><para>By the end of this section, you will be able to:</para>
@@ -50,7 +50,7 @@
 </note>
 <para id="fs-id1170959723888">which defines viscosity in terms of how it is measured.</para>
 <para id="fs-id1170959775662">The SI unit of viscosity is <m:math><m:mrow><m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:mtext>m/</m:mtext><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>s or Pa</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>. <link target-id="fs-id1170959763405"/> lists the coefficients of viscosity for various fluids. Viscosity varies from one fluid to another by several orders of magnitude. As you might expect, the viscosities of gases are much less than those of liquids, and these viscosities often depend on temperature.</para>
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170959763405" summary="This table has three columns and thirty one rows. The first row is a header row and it labels each column, “Fluid”, “Temperature in degrees C”, and “Viscosity in Pascal times seconds”. Under the “Fluid” column is the list of fluids: Air; Air; Air; Air; Ammonia; Carbon dioxide; Helium; Hydrogen; Mercury; Oxygen; Steam; Liquid water; Liquid water; Liquid water; Liquid water; Liquid water; Whole blood; Whole blood; Blood plasma; Blood plasma; Ethyl alcohol; Methanol; Oil (heavy machine); Oil (motor, SAE 10); Oil (olive); Glycerin; Honey; Maple syrup; Milk; Oil (corn). Under the “Temperature in degrees C” is the list of values: 0; 20; 40; 100; 20; 20; 20; 0; 20; 20; 100; 0; 20; 37; 40; 100; 20; 37; 20; 37; 20; 20; 20; 30; 20; 20; 20; 20; 20; 20. Under the “Viscosity in Pascal times seconds” is the list of values: 0.0171; 0.0181; 0.0190; 0.0218; 0.00974; 0.0147; 0.0196; 0.0090; 0.0450; 0.0203; 0.0130; 1.792; 1.002; 0.6947; 0.653; 0.282; 3.015; 2.084; 1.810; 1.257; 1.20; 0.584; 660; 200; 138; 1500; 2000–10000; 2000–3000; 3.0; 65."><title>Coefficients of Viscosity of Various Fluids</title><tgroup cols="3">
+<table id="fs-id1170959763405" summary="This table has three columns and thirty one rows. The first row is a header row and it labels each column, “Fluid”, “Temperature in degrees C”, and “Viscosity in Pascal times seconds”. Under the “Fluid” column is the list of fluids: Air; Air; Air; Air; Ammonia; Carbon dioxide; Helium; Hydrogen; Mercury; Oxygen; Steam; Liquid water; Liquid water; Liquid water; Liquid water; Liquid water; Whole blood; Whole blood; Blood plasma; Blood plasma; Ethyl alcohol; Methanol; Oil (heavy machine); Oil (motor, SAE 10); Oil (olive); Glycerin; Honey; Maple syrup; Milk; Oil (corn). Under the “Temperature in degrees C” is the list of values: 0; 20; 40; 100; 20; 20; 20; 0; 20; 20; 100; 0; 20; 37; 40; 100; 20; 37; 20; 37; 20; 20; 20; 30; 20; 20; 20; 20; 20; 20. Under the “Viscosity in Pascal times seconds” is the list of values: 0.0171; 0.0181; 0.0190; 0.0218; 0.00974; 0.0147; 0.0196; 0.0090; 0.0450; 0.0203; 0.0130; 1.792; 1.002; 0.6947; 0.653; 0.282; 3.015; 2.084; 1.810; 1.257; 1.20; 0.584; 660; 200; 138; 1500; 2000–10000; 2000–3000; 3.0; 65."><title>Coefficients of Viscosity of Various Fluids</title><tgroup cols="3">
 <colspec colnum="1" colname="col1"/>
 <colspec colnum="1" colname="col1"/>
 <colspec colnum="2" colname="col2"/>
@@ -212,7 +212,7 @@
 <equation id="fs-id1170959809336" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math></equation>
 <para id="fs-id1170959702846">where <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are the pressures at two points, such as at either end of a tube, and <emphasis effect="italics">R</emphasis> is the resistance to flow. The resistance <emphasis effect="italics">R</emphasis> includes everything, except pressure, that affects flow rate. For example, <emphasis effect="italics">R</emphasis> is greater for a long tube than for a short one. The greater the viscosity of a fluid, the greater the value of <emphasis effect="italics">R</emphasis>. Turbulence greatly increases <emphasis effect="italics">R</emphasis>, whereas increasing the diameter of a tube decreases <emphasis effect="italics">R</emphasis>.</para>
 <para id="fs-id1170959719704">If viscosity is zero, the fluid is frictionless and the resistance to flow is also zero. Comparing frictionless flow in a tube to viscous flow, as in <link target-id="CNX_UPhysics_Figure_14_07_ViscousNon"/>, we see that for a viscous fluid, speed is greatest at midstream because of drag at the boundaries. We can see the effect of viscosity in a Bunsen burner flame [part (c)], even though the viscosity of natural gas is small.</para>
-<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_Figure_14_07_ViscousNon"><media id="fs-id1170959698378" alt="Figure A is a schematic drawing of the non-viscous flow of fluid in a tube. All layers of fluid move with the same speed. Figure B is a schematic drawing of the nonviscous flow of fluid in a tube. Layers at the center of the tube move at a higher speed. Figure C is a photo of a Bunsen burner with the conical – shaped flame above it.">
+<figure id="CNX_UPhysics_Figure_14_07_ViscousNon"><media id="fs-id1170959698378" alt="Figure A is a schematic drawing of the non-viscous flow of fluid in a tube. All layers of fluid move with the same speed. Figure B is a schematic drawing of the nonviscous flow of fluid in a tube. Layers at the center of the tube move at a higher speed. Figure C is a photo of a Bunsen burner with the conical – shaped flame above it.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_07_ViscousNon.jpg"/>
 </media>
 
@@ -394,7 +394,7 @@ When transferring a fluid from one point to another, it desirable to limit turbu
 <para id="fs-id1170957574905">The water in the center of the stream is moving faster than the water near the shore due to resistance between the water and the shore and between the layers of fluid. There is also probably more turbulence near the shore, which will also slow the water down. When paddling up stream, the water pushes against the canoe, so it is better to stay near the shore to minimize the force pushing against the canoe. When moving downstream, the water pushes the canoe, increasing its velocity, so it is better to stay in the middle of the stream to maximize this effect.</para>
 </solution>
 </exercise>
-<exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170960047636"><problem id="fs-id1170959693566">
+<exercise id="fs-id1170960047636"><problem id="fs-id1170959693566">
 <para id="fs-id1170959693568">Plumbing usually includes air-filled tubes near water faucets (see the following figure). Explain why they are needed and how they work. </para>
 
 <media id="fs-id1170919654530" alt="Figure is the schematic drawing of few small water lines leading to the individual houses that merge into the main water line.">
@@ -564,7 +564,7 @@ b. Since an infant is only approximately 20 inches tall, while an adult is appro
 <para id="fs-id1170959874325">Some fish have a density slightly less than that of water and must exert a force (swim) to stay submerged. What force must an 85.0-kg grouper exert to stay submerged in salt water if its body density is <m:math><m:mrow><m:mn>1015</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>?</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1170960013511">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170960013513">12.3 N</para></solution>
+<para id="fs-id1170960013513">12.3 N</para></solution>
 </exercise>
 <exercise id="fs-id1170957609864">
 <problem id="fs-id1170957609866">

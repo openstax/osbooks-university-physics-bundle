@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Electrical Current</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58729</md:content-id>
   <md:title>Electrical Current</md:title>
   <md:abstract><para>By the end of this section, you will be able to:</para>
@@ -24,7 +24,7 @@
 <title>Electrical Current</title>
 <para id="fs-id1170901701596">The average electrical current <emphasis effect="italics">I</emphasis> is the rate at which charge flows,</para>
 <equation id="fs-id1170901711183"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170902920879">where <m:math><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:math> is the amount of net charge passing through a given cross-sectional area in time <m:math><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:math> (<link target-id="CNX_UPhysics_26_01_RateOfFlow"/>). The SI unit for current is the <term>ampere</term> (A), named for the French physicist André-Marie <term class="no-emphasis">Ampère</term> (1775–1836). Since <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, we see that an ampere is defined as one coulomb of charge passing through a given area per second:</para><equation id="fs-id1170903037375"><m:math><m:mrow><m:mn>1</m:mn><m:mtext>A</m:mtext><m:mo>≡</m:mo><m:mn>1</m:mn><m:mfrac><m:mtext>C</m:mtext><m:mtext>s</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902920879">where <m:math><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:math> is the amount of net charge passing through a given cross-sectional area in time <m:math><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:math> (<link target-id="CNX_UPhysics_26_01_RateOfFlow"/>). The SI unit for current is the <term>ampere</term> (A), named for the French physicist André-Marie <term class="no-emphasis">Ampère</term> (1775–1836). Since <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, we see that an ampere is defined as one coulomb of charge passing through a given area per second:</para><equation id="fs-id1170903037375"><m:math><m:mrow><m:mn>1</m:mn><m:mtext>A</m:mtext><m:mo>≡</m:mo><m:mn>1</m:mn><m:mfrac><m:mtext>C</m:mtext><m:mtext>s</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1170902930695">The instantaneous electrical current, or simply the <term>electrical current</term>, is the time derivative of the charge that flows and is found by taking the limit of the average electrical current as <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:math>:</para>
 <equation id="fs-id1170902770244"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:munder><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 </note>
@@ -170,7 +170,7 @@ b. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>5.00</
 <para id="fs-id1170903137547">How many electrons flow through a point in a wire in 3.00 s if there is a constant current of <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>?</para>
 </problem>
 <solution id="fs-id1170902772911">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170903044413"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mtext>Δ</m:mtext><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>12.00</m:mn><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math><newline/>
+<para id="fs-id1170903044413"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mtext>Δ</m:mtext><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>12.00</m:mn><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math><newline/>
 no. of electrons = <m:math><m:mrow><m:mn>7.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>19</m:mn></m:mrow></m:msup></m:mrow></m:math></para></solution>
 </exercise>
 <exercise id="fs-id1170901650971">

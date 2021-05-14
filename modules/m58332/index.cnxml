@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Newton’s Second Law for Rotation</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58332</md:content-id>
   <md:title>Newton’s Second Law for Rotation</md:title>
   <md:abstract><para>By the end of this section, you will be able to:</para>
@@ -64,7 +64,7 @@
 </list>
 </note>
 <example id="fs-id1167134515317">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134664382"><title>Calculating the Effect of Mass Distribution on a Merry-Go-Round</title>Consider the father pushing a playground merry-go-round in <link target-id="CNX_UPhysics_10_07_Merry"/>. He exerts a force of 250 N at the edge of the 50.0-kg merry-go-round, which has a 1.50-m radius. Calculate the angular acceleration produced (a) when no one is on the merry-go-round and (b) when an 18.0-kg child sits 1.25 m away from the center. Consider the merry-go-round itself to be a uniform disk with negligible friction.</para><figure id="CNX_UPhysics_10_07_Merry">
+<para id="fs-id1167134664382"><title>Calculating the Effect of Mass Distribution on a Merry-Go-Round</title>Consider the father pushing a playground merry-go-round in <link target-id="CNX_UPhysics_10_07_Merry"/>. He exerts a force of 250 N at the edge of the 50.0-kg merry-go-round, which has a 1.50-m radius. Calculate the angular acceleration produced (a) when no one is on the merry-go-round and (b) when an 18.0-kg child sits 1.25 m away from the center. Consider the merry-go-round itself to be a uniform disk with negligible friction.</para><figure id="CNX_UPhysics_10_07_Merry">
 <media id="fs-id1167134948181" alt="Figure shows a man that pushes a merry-go-round at its edge and perpendicular to its radius.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_Merry.jpg"/>
 </media>
@@ -86,7 +86,7 @@ Now, after we substitute the known values, we find the angular acceleration to b
 <equation id="fs-id1167134858415" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>18.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>28.13</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
 The total moment of inertia is the sum of the moments of inertia of the merry-go-round and the child (about the same axis):
 <equation id="fs-id1167134886469" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>28.13</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>56.25</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>84.38</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
-Substituting known values into the equation for <emphasis effect="italics">α</emphasis> gives 
+Substituting known values into the equation for <emphasis effect="italics">α</emphasis> gives
 <equation id="fs-id1167134969438" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>τ</m:mi><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>375.0</m:mn><m:mspace width="0.2em"/><m:mtext>N-m</m:mtext></m:mrow><m:mrow><m:mn>84.38</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn><m:mn>.44</m:mn><m:mfrac><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
 </list>
 <para id="fs-id1167134652591"><title>Significance</title>
@@ -157,7 +157,7 @@ c. <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>17.04</m:mn><m:mspace widt
 </exercise>
 <exercise id="fs-id1167131121762">
 <problem id="fs-id1167131121764">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167131121766">A torque of 50.0 N-m is applied to a grinding wheel (<m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) for 20 s. (a) If it starts from rest, what is the angular velocity of the grinding wheel after the torque is removed? (b) Through what angle does the wheel move while the torque is applied?</para></problem>
+<para id="fs-id1167131121766">A torque of 50.0 N-m is applied to a grinding wheel (<m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) for 20 s. (a) If it starts from rest, what is the angular velocity of the grinding wheel after the torque is removed? (b) Through what angle does the wheel move while the torque is applied?</para></problem>
 </exercise>
 <exercise id="fs-id1167134966142">
 <problem id="fs-id1167134966144">
@@ -174,7 +174,7 @@ c. <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>17.04</m:mn><m:mspace widt
 </exercise>
 <exercise id="fs-id1167131107637">
 <problem id="fs-id1167131107639">
-<para id="fs-id1167131107641">Suppose when Earth was created, it was not rotating. However, after the application of a uniform torque after 6 days, it was rotating at 1 rev/day. (a) What was the angular acceleration during the 6 days? (b) What torque was applied to Earth during this period? (c) What force tangent to Earth at its equator would produce this torque?</para>
+<para id="fs-id1167131107641">Suppose when Earth was created, it was not rotating. However, after the application of a uniform torque for 6 days according to the current length of a day, it was rotating at 1 rev/day. (a) What was the angular acceleration during the 6 days? (b) What torque was applied to Earth during this period? (c) What force tangent to Earth at its equator would produce this torque?</para>
 </problem>
 <solution id="fs-id1167131107648">
 <para id="fs-id1167131107651">a. <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>;<newline/>

@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Conservation of Linear Momentum</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58320</md:content-id>
   <md:title>Conservation of Linear Momentum</md:title>
   <md:abstract><para>By the end of this section, you will be able to:</para>
@@ -49,7 +49,7 @@
 <para id="fs-id1167134438479">from which it follows that</para>
 <equation id="fs-id1167134537574"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mn>1</m:mn></m:mstyle></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mn>2</m:mn></m:mstyle></m:msub><m:mo>=</m:mo><m:mtext>constant</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1167134567421">As shown in <link target-id="CNX_UPhysics_09_03_Balls"/>, the total momentum of the system before and after the collision remains the same.</para>
-<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_09_03_Balls"><media id="fs-id1167134873356" alt="Before collision yellow ball1 is moving down and to the right, aiming at the center of blue ball 2. Blue ball 2 is moving to the left and slightly down, and more slowly than ball 1. We are told that p total vector equals p 1 vector plus p 2 vector and we are shown the sum as a vector diagram: p 1 and p 2 are placed with the tail of p 2 at the head of p 1. A vector is drawn from the tail of p 1 to the head of p 2. After the collision, the yellow ball is moving slowly to the right and p 2 is moving more rapidly down and to the left. We are told that p prime total vector equals p prime 1 vector plus p prime 2 vector and we are shown the sum as a vector diagram: p prime 1 and p prime 2 are placed with the tail of p prime 2 at the head of p prime 1. A vector is drawn from the tail of p prime 1 to the head of p prime 2 and is the same length and in the same direction as the sum vector before collision.">
+<figure id="CNX_UPhysics_09_03_Balls"><media id="fs-id1167134873356" alt="Before collision yellow ball1 is moving down and to the right, aiming at the center of blue ball 2. Blue ball 2 is moving to the left and slightly down, and more slowly than ball 1. We are told that p total vector equals p 1 vector plus p 2 vector and we are shown the sum as a vector diagram: p 1 and p 2 are placed with the tail of p 2 at the head of p 1. A vector is drawn from the tail of p 1 to the head of p 2. After the collision, the yellow ball is moving slowly to the right and p 2 is moving more rapidly down and to the left. We are told that p prime total vector equals p prime 1 vector plus p prime 2 vector and we are shown the sum as a vector diagram: p prime 1 and p prime 2 are placed with the tail of p prime 2 at the head of p prime 1. A vector is drawn from the tail of p prime 1 to the head of p prime 2 and is the same length and in the same direction as the sum vector before collision.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_03_Balls.jpg"/>
 </media>
 
@@ -158,7 +158,7 @@ A superball of mass 0.25 kg is dropped from rest from a height of <m:math><m:mro
 <para id="fs-id1167134961422"><title>Strategy</title>
 Since we are asked only about the ball’s change of momentum, we define our system to be the ball. But this is clearly not a closed system; gravity applies a downward force on the ball while it is falling, and the normal force from the floor applies a force during the bounce. Thus, we cannot use conservation of momentum as a strategy. Instead, we simply determine the ball’s momentum just before it collides with the floor and just after, and calculate the difference. We have the ball’s mass, so we need its velocities.</para>
 <para id="fs-id1167134536629"><title>Solution</title></para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134518620" list-type="enumerated" number-style="lower-alpha"><item>Since this is a one-dimensional problem, we use the scalar form of the equations. Let:<newline/>
+<list id="fs-id1167134518620" list-type="enumerated" number-style="lower-alpha"><item>Since this is a one-dimensional problem, we use the scalar form of the equations. Let:<newline/>
 <list id="fs-id1167134897625" list-type="bulleted" bullet-style="bullet">
 <item><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo></m:mrow></m:math> the magnitude of the ball’s momentum at time <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, the moment it was released; since it was dropped from rest, this is zero.</item>
 <item><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo></m:mrow></m:math> the magnitude of the ball’s momentum at time <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, the instant just before it hits the floor.</item>
@@ -385,9 +385,9 @@ This is a very small change in velocity, about a thousandth of a billionth of a 
 </exercise>
 <exercise id="fs-id1167134507416">
 <problem id="fs-id1167131226001">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167131226003">A 4.5 kg puffer fish expands to 40% of its mass by taking in water. When the puffer fish is threatened, it releases the water toward the threat to move quickly forward. What is the ratio of the speed of the puffer fish forward to the speed of the expelled water backwards?</para></problem>
+<para id="fs-id1167131226003">A 4.5 kg puffer fish expands to 40% of its mass by taking in water. When the puffer fish is threatened, it releases the water toward the threat to move quickly forward. What is the ratio of the speed of the puffer fish forward to the speed of the expelled water backwards?</para></problem>
 <solution id="fs-id1167134661879">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167134661882">2:5</para></solution>
+<para id="fs-id1167134661882">2:5</para></solution>
 </exercise>
 <exercise id="fs-id1167134534748">
 <problem id="fs-id1167134534750">
