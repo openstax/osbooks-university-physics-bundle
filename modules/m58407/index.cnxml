@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58407</md:content-id>
   <md:title>Entropy</md:title>
-  <md:abstract>By the end of this section you will be able to:
+  <md:abstract><para>By the end of this section you will be able to:</para>
 <list>
 <item>Describe the meaning of entropy</item>
 <item>Calculate the change of entropy for some simple processes</item></list></md:abstract>
@@ -157,9 +157,8 @@ The steps of a reversible <term class="no-emphasis">Stirling engine</term> are a
 <para id="fs-id1167585064211"><title>Strategy</title>
 Using the ideal gas law, calculate the pressure at each point so that they can be labeled on the <emphasis effect="italics">pV</emphasis> diagram. Isothermal work is calculated using <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and an isochoric process has no work done. The heat flow is calculated from the first law of thermodynamics, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:mi>W</m:mi></m:mrow></m:math> where <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>n</m:mi><m:mi>R</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> for monatomic gasses. Isothermal steps have a change in entropy of <emphasis effect="italics">Q</emphasis>/<emphasis effect="italics">T</emphasis>, whereas isochoric steps have <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>n</m:mi><m:mi>R</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The efficiency of a heat engine is calculated by using <m:math><m:mrow><m:msub><m:mi>e</m:mi><m:mrow><m:mtext>Stir</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>W</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
 <para id="fs-id1167584632465"><title>Solution</title></para>
-<list id="fs-id1167584797443" list-type="enumerated" number-style="lower-alpha">
-<item>The graph is shown below.<newline/>
-<media id="fs-id1167584689023" alt="The figure shows a graph with x-axis V in m superscript 3 and y-axis p in atm. The four points A (0.10, 26), B (0.20, 17), C (0.20, 13) ad D (0.10, 26) are connected to form a closed loop.">
+<list id="fs-id1167584797443" list-type="enumerated" number-style="lower-alpha"><item>The graph is shown below.<newline/>
+<media id="fs-id1167584689023" alt="The figure shows a graph with x-axis V in m superscript 3 and y-axis p in atm. The four points A (0.10, 26), B (0.20, 17), C (0.20, 13) and D (0.10, 26) are connected to form a closed loop.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_06_pVStirling_img.jpg"/>
 </media>
 </item>
@@ -212,10 +211,9 @@ Using the ideal gas law, calculate the pressure at each point so that they can b
 </tbody>
 </tgroup>
 </table></item>
-<item>The efficiency of the Stirling heat engine is 
-<equation id="fs-id1167584981816" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>e</m:mi><m:mrow><m:mtext>Stir</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>W</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>D</m:mi><m:mi>A</m:mi></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mtext>/</m:mtext><m:mn>4.5</m:mn><m:mo>=</m:mo><m:mn>0.11</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation></item>
-</list>
-<para id="fs-id1167584730468">If this were a Carnot engine operating between the same heat reservoirs, its efficiency would be</para>
+<item>The efficiency of the Stirling heat engine is
+<equation id="fs-id1167584981816" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>e</m:mi><m:mrow><m:mtext>Stir</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>W</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>D</m:mi><m:mi>A</m:mi></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mtext>/</m:mtext><m:mn>3.5</m:mn><m:mo>=</m:mo><m:mn>0.14</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list><para id="fs-id1167584730468">If this were a Carnot engine operating between the same heat reservoirs, its efficiency would be</para>
 <equation id="fs-id1167585167132" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>e</m:mi><m:mrow><m:mtext>Car</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.25</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1167585125733">Therefore, the Carnot engine would have a greater efficiency than the Stirling engine.</para>
 <para id="fs-id1167583758065"><title>Significance</title>
@@ -300,7 +298,7 @@ In the early days of steam engines, accidents would occur due to the high pressu
 </exercise>
 <exercise id="fs-id1167583547795">
 <problem id="fs-id1167583689792">
-<para id="fs-id1167585073955">One mole of an ideal monatomic gas is confined to a rigid container. When heat is added reversibly to the gas, its temperature changes from <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> (a) How much heat is added? (b) What is the change in entropy of the gas?</para>
+<para id="fs-id1167585073955">An ideal monatomic gas is confined to a rigid container. When heat is added reversibly to the gas, its temperature changes from <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> (a) How much heat is added? (b) What is the change in entropy of the gas?</para>
 </problem>
 <solution id="fs-id1167584635029">
 <para id="fs-id1167585054737">a. <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
