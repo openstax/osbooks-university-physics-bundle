@@ -4,8 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58752</md:content-id>
   <md:title>RL Circuits</md:title>
-  <md:abstract><para>By the end of this section, you will be able to:</para>
-<list>
+  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para>
+<list id="list-00001">
 <item>Analyze circuits that have an inductor and resistor in series</item>
 <item>Describe how current and voltage exponentially grow or decay based on the initial conditions</item>
 </list></md:abstract>
@@ -29,7 +29,7 @@
 <note id="fs-id1167134437216" class="equation-callout">
 <equation id="fs-id1167131314951"><label/><m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math></equation>
 </note>
-<para id="fs-id1167131117991">is the <term>inductive time constant</term> of the circuit.</para>
+<para id="fs-id1167131117991">is the <term id="term-00001">inductive time constant</term> of the circuit.</para>
 <para id="fs-id1167134960245">The current <emphasis effect="italics">I(t)</emphasis> is plotted in <link target-id="CNX_UPhysics_31_04_Plots"/>(a). It starts at zero, and as <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>, <emphasis effect="italics">I(t)</emphasis> approaches <m:math><m:mrow><m:mrow><m:mtext>ε</m:mtext><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math> asymptotically. The induced emf <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is directly proportional to <emphasis effect="italics">dI</emphasis>/<emphasis effect="italics">dt</emphasis>, or the slope of the curve. Hence, while at its greatest immediately after the switches are thrown, the induced emf decreases to zero with time as the current approaches its final value of <m:math><m:mrow><m:mrow><m:mtext>ε</m:mtext><m:mtext>/</m:mtext><m:mrow><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> The circuit then becomes equivalent to a resistor connected across a source of emf.</para>
 <figure id="CNX_UPhysics_31_04_Plots">
 <media id="fs-id1167134822255" alt="Figure a shows the graph of electric current I versus time t. Current increases with time in a curve which flattens out at epsilon I R. At t equal to tau subscript L, the value of I is 0.63 epsilon I R. Figure b shows the graph of magnitude of induced voltage, mod V subscript L, versus time t. Mod V subscript L starts at value epsilon and decreases with time till the curve reaches zero. At t equal to tau subscript L, the value of I is 0.37 epsilon.">
