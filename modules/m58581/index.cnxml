@@ -4,8 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58581</md:content-id>
   <md:title>The Quantum Harmonic Oscillator</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para> 
-<list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
 <item>Describe the model of the quantum harmonic oscillator</item>
 <item>Identify differences between the classical and quantum models of the harmonic oscillator</item>
 <item>Explain physical situations where the classical and the quantum models coincide</item>
@@ -50,7 +50,7 @@
 <note id="fs-id1170901904031" class="equation-callout">
 <equation id="fs-id1170901621555"><label/><m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mi>n</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>N</m:mi><m:mi>n</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext> </m:mtext><m:mo>−</m:mo><m:msup><m:mi>β</m:mi><m:mrow><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>x</m:mi><m:mrow><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msub><m:mi>H</m:mi><m:mi>n</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>β</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
 </note>
-<para id="fs-id1170902794644">where <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>ω</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>ℏ</m:mi></m:mrow></m:mrow></m:msqrt></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> is the normalization constant, and <m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mi>n</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is a polynomial of degree <emphasis effect="italics">n</emphasis> called a <term class="no-emphasis" id="term-00001"><emphasis effect="italics">Hermite polynomial</emphasis></term>. The first four Hermite polynomials are</para>
+<para id="fs-id1170902794644">where <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>ω</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>ℏ</m:mi></m:mrow></m:mrow></m:msqrt></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> is the normalization constant, and <m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mi>n</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is a polynomial of degree <emphasis effect="italics">n</emphasis> called a <term class="no-emphasis"><emphasis effect="italics">Hermite polynomial</emphasis></term>. The first four Hermite polynomials are</para>
 <equation id="fs-id1172098389767" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>H</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>y</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
 <para id="fs-id1170901706149">A few sample wave functions are given in <link target-id="CNX_UPhysics_40_05_states"/>. As the value of the principal number increases, the solutions alternate between even functions and odd functions about <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
 <figure id="CNX_UPhysics_40_05_states">
@@ -87,7 +87,7 @@ The force between atoms in an HCl molecule is surprisingly strong. The typical e
 <note id="fs-id1170903035061" class="check-understanding">
 <exercise id="fs-id1170902659909">
 <problem id="fs-id1170901585139">
-<para id="fs-id1170901481467"><emphasis effect="bold">Check Your Understanding</emphasis> The vibrational frequency of the hydrogen iodide HI diatomic molecule is <m:math><m:mrow><m:mn>6.69</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext> </m:mtext><m:mn>13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math>. (a) What is the force constant of the molecular bond between the hydrogen and the iodine atoms? (b) What is the energy of the emitted photon when this molecule makes a transition between adjacent vibrational energy levels?</para>
+<para id="fs-id1170901481467">The vibrational frequency of the hydrogen iodide HI diatomic molecule is <m:math><m:mrow><m:mn>6.69</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext> </m:mtext><m:mn>13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math>. (a) What is the force constant of the molecular bond between the hydrogen and the iodine atoms? (b) What is the energy of the emitted photon when this molecule makes a transition between adjacent vibrational energy levels?</para>
 </problem>
 <solution id="fs-id1170901576181">
 <para id="fs-id1170901972140">a. 295 N/m; b. 0.277 eV</para>
@@ -101,7 +101,7 @@ The force between atoms in an HCl molecule is surprisingly strong. The typical e
 <note id="fs-id1170903029268" class="check-understanding">
 <exercise id="fs-id1170902634008">
 <problem id="fs-id1170901771770">
-<para id="fs-id1170901680213"><emphasis effect="bold">Check Your Understanding</emphasis> Find the expectation value of the position for a particle in the ground state of a harmonic oscillator using symmetry.</para>
+<para id="fs-id1170901680213">Find the expectation value of the position for a particle in the ground state of a harmonic oscillator using symmetry.</para>
 </problem>
 <solution id="fs-id1170903117058">
 <para id="fs-id1170901634580"><m:math><m:mrow><m:mrow><m:mo>〈</m:mo><m:mi>x</m:mi><m:mo>〉</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>

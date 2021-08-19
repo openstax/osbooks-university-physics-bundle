@@ -4,8 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58330</md:content-id>
   <md:title>Calculating Moments of Inertia</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para> 
-<list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para> 
+<list>
 <item>Calculate the moment of inertia for uniformly shaped, rigid bodies</item>
 <item>Apply the parallel axis theorem to find the moment of inertia about any axis parallel to one already known</item>
 <item>Calculate the moment of inertia for compound objects</item>
@@ -50,7 +50,7 @@
 </media>
 <caption>Calculation of the moment of inertia <emphasis effect="italics">I</emphasis> for a uniform thin rod about an axis through the center of the rod.</caption>
 </figure>
-<para id="fs-id1167133519807">We define <emphasis effect="italics">dm</emphasis> to be a small element of mass making up the rod. The moment of inertia integral is an integral over the mass distribution. However, we know how to integrate over space, not over mass. We therefore need to find a way to relate mass to spatial variables. We do this using the <term id="term-00001">linear mass density</term> <m:math><m:mi>λ</m:mi></m:math> of the object, which is the mass per unit length. Since the mass density of this object is uniform, we can write</para>
+<para id="fs-id1167133519807">We define <emphasis effect="italics">dm</emphasis> to be a small element of mass making up the rod. The moment of inertia integral is an integral over the mass distribution. However, we know how to integrate over space, not over mass. We therefore need to find a way to relate mass to spatial variables. We do this using the <term>linear mass density</term> <m:math><m:mi>λ</m:mi></m:math> of the object, which is the mass per unit length. Since the mass density of this object is uniform, we can write</para>
 <equation id="fs-id1167133661384" class="unnumbered"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>l</m:mi></m:mfrac><m:mspace width="0.5em"/><m:mtext>or</m:mtext><m:mspace width="0.5em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>λ</m:mi><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1167133410629">If we take the differential of each side of this equation, we find</para>
 <equation id="fs-id1167133557177" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>λ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
@@ -77,7 +77,7 @@
 </section>
 <section id="fs-id1167133784487">
 <title>The Parallel-Axis Theorem</title>
-<para id="fs-id1167133497854">The similarity between the process of finding the moment of inertia of a rod about an axis through its middle and about an axis through its end is striking, and suggests that there might be a simpler method for determining the moment of inertia for a rod about any axis parallel to the axis through the center of mass. Such an axis is called a <term id="term-00002">parallel axis</term>. There is a theorem for this, called the <term id="term-00003">parallel-axis theorem</term>, which we state here but do not derive in this text.</para>
+<para id="fs-id1167133497854">The similarity between the process of finding the moment of inertia of a rod about an axis through its middle and about an axis through its end is striking, and suggests that there might be a simpler method for determining the moment of inertia for a rod about any axis parallel to the axis through the center of mass. Such an axis is called a <term>parallel axis</term>. There is a theorem for this, called the <term>parallel-axis theorem</term>, which we state here but do not derive in this text.</para>
 <note id="fs-id1167133829900">
 <title>Parallel-Axis Theorem</title>
 <para id="fs-id1167133544524">Let <emphasis effect="italics">m</emphasis> be the mass of an object and let <emphasis effect="italics">d</emphasis> be the distance from an axis through the object’s center of mass to a new axis. Then we have</para>
@@ -108,7 +108,7 @@
 </media>
 <caption>Calculating the moment of inertia for a thin disk about an axis through its center.</caption>
 </figure>
-<para id="fs-id1167133523104">Since the disk is thin, we can take the mass as distributed entirely in the <emphasis effect="italics">xy</emphasis>-plane. We again start with the relationship for the <term id="term-00004">surface mass density</term>, which is the mass per unit surface area. Since it is uniform, the surface mass density <m:math><m:mrow><m:mi>σ</m:mi></m:mrow></m:math> is constant:</para>
+<para id="fs-id1167133523104">Since the disk is thin, we can take the mass as distributed entirely in the <emphasis effect="italics">xy</emphasis>-plane. We again start with the relationship for the <term>surface mass density</term>, which is the mass per unit surface area. Since it is uniform, the surface mass density <m:math><m:mrow><m:mi>σ</m:mi></m:mrow></m:math> is constant:</para>
 <equation id="fs-id1167133560777" class="unnumbered"><label/><m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>A</m:mi></m:mfrac><m:mspace width="1em"/><m:mtext>or</m:mtext><m:mspace width="1em"/><m:mi>σ</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>so</m:mtext><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>A</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1167133377088">Now we use a simplification for the area. The area can be thought of as made up of a series of thin rings, where each ring is a mass increment <emphasis effect="italics">dm</emphasis> of radius <emphasis effect="italics">r</emphasis> equidistanct from the axis, as shown in part (b) of the figure. The infinitesimal area of each ring <emphasis effect="italics">dA</emphasis> is therefore given by the length of each ring (<m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:math>) times the infinitesimmal width of each ring <emphasis effect="italics">dr</emphasis>:</para>
 <equation id="fs-id1167133335221" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>π</m:mi><m:mi>d</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>

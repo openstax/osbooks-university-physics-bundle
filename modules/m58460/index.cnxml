@@ -3,8 +3,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58460</md:content-id>
   <md:title>The Biot-Savart Law</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para> 
-<list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para> 
+<list>
 <item>Explain how to derive a magnetic field from an arbitrary current in a line segment</item>
 <item>Calculate magnetic field from the Biot-Savart law in specific geometries, such as a current in a line and a current in a circular arc</item>
 </list></md:abstract>
@@ -13,14 +13,14 @@
 
 <content>
 <para id="fs-id1166166991968">We have seen that mass produces a gravitational field and also interacts with that field. Charge produces an electric field and also interacts with that field. Since moving charge (that is, current) interacts with a magnetic field, we might expect that it also creates that field—and it does.</para>
-<para id="fs-id1166167055730">The equation used to calculate the magnetic field produced by a current is known as the Biot-Savart law. It is an empirical law named in honor of two scientists who investigated the interaction between a straight, current-carrying wire and a permanent magnet. This law enables us to calculate the magnitude and direction of the magnetic field produced by a current in a wire. The <term id="term-00001">Biot-Savart law</term> states that at any point <emphasis effect="italics">P</emphasis> (<link target-id="CNX_UPhysics_29_01_LineSeg"/>), the magnetic field <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> due to an element <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> of a current-carrying wire is given by</para>
+<para id="fs-id1166167055730">The equation used to calculate the magnetic field produced by a current is known as the Biot-Savart law. It is an empirical law named in honor of two scientists who investigated the interaction between a straight, current-carrying wire and a permanent magnet. This law enables us to calculate the magnitude and direction of the magnetic field produced by a current in a wire. The <term>Biot-Savart law</term> states that at any point <emphasis effect="italics">P</emphasis> (<link target-id="CNX_UPhysics_29_01_LineSeg"/>), the magnetic field <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> due to an element <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> of a current-carrying wire is given by</para>
 <equation id="fs-id1166166987338"><m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 <figure id="CNX_UPhysics_29_01_LineSeg">
 <media id="fs-id1166167062746" alt="This figure demonstrates Biot-Savart Law. A current dI flows through a magnetic wire. A point P is located at the distance r from the wire. A vector r to the point P forms an angle theta with the wire. Magnetic field dB exists in the point P.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_01_LineSeg.jpg"/></media>
 <caption>A current element <m:math><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> produces a magnetic field at point <emphasis effect="italics">P</emphasis> given by the Biot-Savart law.</caption>
 </figure>
-<para id="fs-id1166167019446">The constant <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is known as the <term id="term-00002">permeability of free space</term> and is exactly</para>
+<para id="fs-id1166167019446">The constant <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is known as the <term>permeability of free space</term> and is exactly</para>
 <note id="fs-id1168329013869" class="equation-callout">
 <equation id="fs-id1166166991575"><label/><m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−7</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:math></equation>
 </note>
