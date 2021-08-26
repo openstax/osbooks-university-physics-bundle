@@ -4,8 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58752</md:content-id>
   <md:title>RL Circuits</md:title>
-  <md:abstract><para>By the end of this section, you will be able to:</para>
-<list>
+  <md:abstract><para>By the end of this section, you will be able to:</para><list>
 <item>Analyze circuits that have an inductor and resistor in series</item>
 <item>Describe how current and voltage exponentially grow or decay based on the initial conditions</item>
 </list></md:abstract>
@@ -87,13 +86,11 @@ From <link target-id="fs-id1167131423244"/>, the magnitude of the induced emf de
 </list>
 <para id="fs-id1167131434536"><title>Significance</title>
 If the time of the measurement were much larger than the time constant, we would not see the decay or growth of the voltage across the inductor or resistor. The circuit would quickly reach the asymptotic values for both of these. See <link target-id="CNX_UPhysics_31_04_Scope"/>.</para>
-<figure id="CNX_UPhysics_31_04_Scope">
-<media id="fs-id1167134672600" alt="Figures a, b and c show the oscilloscope traces of voltage versus time of the voltage across source, the voltage across the inductor and the voltage across the resistor respectively. Figure a is a square wave varying from minus 12 volts to plus 12 volts, with a period from minus 10 ms to minus 0.001 ms. Figure b shows a square wave varying from minus 6 volts to plus 6 volts with a spike of 16 volts at the beginning of every crest and a spike of minus 16 volts at the beginning of every trough. The period is the same as that in figure a. Figure c shows a square wave varying from minus 0.3 to plus 0.3 volts, with spikes going out of the trace area in the positive direction at the beginnings of every crest and trough. The period of the wave is from minus 9.985 to plus 0.015 ms.">
-<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_Scope.jpg"/>
+<figure id="CNX_UPhysics_31_04_Scope"><media id="fs-id1167134672600" alt="The figure shows the oscilloscope traces of voltage cross the inductor. A square wave varies from minus 6 volts to plus 6 volts with a spike of 16 volts at the beginning of every crest and a spike of minus 16 volts at the beginning of every trough.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_04_scope.jpeg"/>
 </media>
-<caption>A generator in an <emphasis effect="italics">RL</emphasis> circuit produces a square-pulse output in which the voltage oscillates between zero and some set value. These oscilloscope traces show (a) the voltage across the source; (b) the voltage across the inductor; (c) the voltage across the resistor.</caption>
-</figure>
-</example>
+
+<caption>The figure shows voltage across a resistor in an RL circuit. We note that the voltage quickly reaches a constant voltage due to the time of measurement scale being much larger than the time constant.</caption></figure></example>
 <example id="fs-id1167131626450">
 <para id="fs-id1167131498824"><title>An <emphasis effect="italics">RL</emphasis> Circuit without a Source of emf</title>
 After the current in the <emphasis effect="italics">RL</emphasis> circuit of <link target-id="fs-id1167131475595"/> has reached its final value, the positions of the switches are reversed so that the circuit becomes the one shown in <link target-id="CNX_UPhysics_31_04_Indcircuit"/>(c). (a) How long does it take the current to drop to half its initial value? (b) How long does it take before the energy stored in the inductor is reduced to <m:math><m:mrow><m:mn>1.0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of its maximum value?</para>
