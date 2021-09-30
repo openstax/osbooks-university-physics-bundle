@@ -4,8 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58448</md:content-id>
   <md:title>Capacitors and Capacitance</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para>
-<list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
 <item>Explain the concepts of a capacitor and its capacitance</item>
 <item>Describe how to evaluate the capacitance of a system of conductors</item>
 </list></md:abstract>
@@ -13,7 +13,7 @@
 </metadata>
 
 <content>
-<para id="fs-id1167134458211">A <term id="term-00001">capacitor</term> is a device used to store electrical charge and electrical energy. Capacitors are generally with two electrical conductors separated by a distance. (Note that such electrical conductors are sometimes referred to as “electrodes,” but more correctly, they are “capacitor plates.”) The space between capacitors may simply be a vacuum, and, in that case, a capacitor is then known as a “vacuum capacitor.” However, the space is usually filled with an insulating material known as a <term id="term-00002">dielectric</term>. (You will learn more about dielectrics in the sections on dielectrics later in this chapter.) The amount of storage in a capacitor is determined by a property called <emphasis effect="italics">capacitance</emphasis>, which you will learn more about a bit later in this section.</para>
+<para id="fs-id1167134458211">A <term>capacitor</term> is a device used to store electrical charge and electrical energy. Capacitors are generally with two electrical conductors separated by a distance. (Note that such electrical conductors are sometimes referred to as “electrodes,” but more correctly, they are “capacitor plates.”) The space between capacitors may simply be a vacuum, and, in that case, a capacitor is then known as a “vacuum capacitor.” However, the space is usually filled with an insulating material known as a <term>dielectric</term>. (You will learn more about dielectrics in the sections on dielectrics later in this chapter.) The amount of storage in a capacitor is determined by a property called <emphasis effect="italics">capacitance</emphasis>, which you will learn more about a bit later in this section.</para>
 <para id="fs-id1167134947463">Capacitors have applications ranging from filtering static from radio reception to energy storage in heart defibrillators. Typically, commercial capacitors have two conducting parts close to one another but not touching, such as those in <link target-id="CNX_UPhysics_25_01_Battery"/>. Most of the time, a dielectric is used between the two plates. When battery terminals are connected to an initially uncharged capacitor, the battery potential moves a small amount of charge of magnitude <emphasis effect="italics">Q</emphasis> from the positive plate to the negative plate. The capacitor remains neutral overall, but with charges <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math> residing on opposite plates.</para>
 <figure id="CNX_UPhysics_25_01_Battery">
 <media id="fs-id1167131103744" alt="Figure a shows two plates placed parallel to each other, a distance of d apart. Each plate is connected to one terminal of a battery. Figure b shows sheets of conductors and dielectric stacked alternately and rolled together. Each sheet of conductor is connected to one terminal of a battery. In both figures, the charge is plus Q and minus Q for the plates connected to the positive and negative terminals respectively.">
@@ -21,18 +21,18 @@
 </media>
 <caption>Both capacitors shown here were initially uncharged before being connected to a battery. They now have charges of <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math> (respectively) on their plates. (a) A parallel-plate capacitor consists of two plates of opposite charge with area <emphasis effect="italics">A</emphasis> separated by distance <emphasis effect="italics">d</emphasis>. (b) A rolled capacitor has a dielectric material between its two conducting sheets (plates).</caption>
 </figure>
-<para id="fs-id1167134951495">A system composed of two identical parallel-conducting plates separated by a distance is called a <term id="term-00003">parallel-plate capacitor</term> (<link target-id="CNX_UPhysics_25_01_Electric"/>). The magnitude of the electrical field in the space between the parallel plates is <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mi>σ</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math>, where <m:math><m:mi>σ</m:mi></m:math> denotes the surface charge density on one plate (recall that <m:math><m:mi>σ</m:mi></m:math> is the charge <emphasis effect="italics">Q</emphasis> per the surface area <emphasis effect="italics">A</emphasis>). Thus, the magnitude of the field is directly proportional to <emphasis effect="italics">Q</emphasis>.</para>
+<para id="fs-id1167134951495">A system composed of two identical parallel-conducting plates separated by a distance is called a <term>parallel-plate capacitor</term> (<link target-id="CNX_UPhysics_25_01_Electric"/>). The magnitude of the electrical field in the space between the parallel plates is <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mi>σ</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math>, where <m:math><m:mi>σ</m:mi></m:math> denotes the surface charge density on one plate (recall that <m:math><m:mi>σ</m:mi></m:math> is the charge <emphasis effect="italics">Q</emphasis> per the surface area <emphasis effect="italics">A</emphasis>). Thus, the magnitude of the field is directly proportional to <emphasis effect="italics">Q</emphasis>.</para>
 <figure id="CNX_UPhysics_25_01_Electric">
 <media id="fs-id1167131134807" alt="Two parallel plates are connected to a battery. The plate connected to the positive terminal has positive charges on it marked by the plus sign. Similarly, the other plate has minus signs on it. Arrows are shown between the plates, from the positive plate to the negative one. The space between the plates has the formula E proportional to Q.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_Electric.jpg"/>
 </media>
 <caption>The charge separation in a capacitor shows that the charges remain on the surfaces of the capacitor plates. Electrical field lines in a parallel-plate capacitor begin with positive charges and end with negative charges. The magnitude of the electrical field in the space between the plates is in direct proportion to the amount of charge on the capacitor.</caption>
 </figure>
-<para id="fs-id1167134990056">Capacitors with different physical characteristics (such as shape and size of their plates) store different amounts of charge for the same applied voltage <emphasis effect="italics">V</emphasis> across their plates. The <term id="term-00004">capacitance</term> <emphasis effect="italics">C</emphasis> of a capacitor is defined as the ratio of the maximum charge <emphasis effect="italics">Q</emphasis> that can be stored in a capacitor to the applied voltage <emphasis effect="italics">V</emphasis> across its plates. In other words, capacitance is the largest amount of charge per volt that can be stored on the device:</para>
+<para id="fs-id1167134990056">Capacitors with different physical characteristics (such as shape and size of their plates) store different amounts of charge for the same applied voltage <emphasis effect="italics">V</emphasis> across their plates. The <term>capacitance</term> <emphasis effect="italics">C</emphasis> of a capacitor is defined as the ratio of the maximum charge <emphasis effect="italics">Q</emphasis> that can be stored in a capacitor to the applied voltage <emphasis effect="italics">V</emphasis> across its plates. In other words, capacitance is the largest amount of charge per volt that can be stored on the device:</para>
 <note id="fs-id1167131552160" class="equation-callout">
 <equation id="fs-id1167134569412"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 </note>
-<para id="fs-id1167131111990">The SI unit of capacitance is the <term class="no-emphasis" id="term-00005">farad</term> (F), named after Michael <term class="no-emphasis" id="term-00006">Faraday</term> (1791–1867). Since capacitance is the charge per unit voltage, one farad is one coulomb per one volt, or</para>
+<para id="fs-id1167131111990">The SI unit of capacitance is the <term class="no-emphasis">farad</term> (F), named after Michael <term class="no-emphasis">Faraday</term> (1791–1867). Since capacitance is the charge per unit voltage, one farad is one coulomb per one volt, or</para>
 <equation id="fs-id1167134510238" class="unnumbered"><label/><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>C</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1167134970169">By definition, a 1.0-F capacitor is able to store 1.0 C of charge (a very large amount of charge) when the potential difference between its plates is only 1.0 V. One farad is therefore a very large capacitance. Typical capacitance values range from picofarads <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to millifarads <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>mF</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, which also includes microfarads (<m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext></m:mrow></m:math>). Capacitors can be produced in various shapes and sizes (<link target-id="CNX_UPhysics_25_01_Capacitor"/>).</para>
 <figure id="CNX_UPhysics_25_01_Capacitor"><media id="fs-id1167131150957" alt="A photograph of different types of capacitors.">
@@ -74,4 +74,293 @@ where the path of integration leads from one conductor to the other. The magnitu
 <note id="fs-id1167131212119" class="equation-callout">
 <equation id="fs-id1167131458057"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mi>d</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 </note>
-<para id="fs-id1167134860956">Notice from this equation that capacitance is a function <emphasis effect="italics">only of the geometry</emphasis> and what material fills the space between the plates (in this case, vacuum) of this capacitor. In fact, this is true not only for a parallel-plate capacitor, but for all capacitors: The capacitance is independent of <emphasis effect="italics">Q</emphasis> or <emphasis effect="italics">V</emphasis>. If the charge changes, the potential changes correspondingly so that <emphas
+<para id="fs-id1167134860956">Notice from this equation that capacitance is a function <emphasis effect="italics">only of the geometry</emphasis> and what material fills the space between the plates (in this case, vacuum) of this capacitor. In fact, this is true not only for a parallel-plate capacitor, but for all capacitors: The capacitance is independent of <emphasis effect="italics">Q</emphasis> or <emphasis effect="italics">V</emphasis>. If the charge changes, the potential changes correspondingly so that <emphasis effect="italics">Q</emphasis>/<emphasis effect="italics">V</emphasis> remains constant.</para>
+<example id="fs-id1167131269511">
+<para id="fs-id1167134701056"><title>Capacitance and Charge Stored in a Parallel-Plate Capacitor</title>
+(a) What is the capacitance of an empty parallel-plate capacitor with metal plates that each have an area of <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math>, separated by 1.00 mm? (b) How much charge is stored in this capacitor if a voltage of <m:math><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> is applied to it?</para>
+<para id="fs-id1167134860924"><title>Strategy</title>
+Finding the capacitance <emphasis effect="italics">C</emphasis> is a straightforward application of <link target-id="fs-id1167131458057"/>. Once we find <emphasis effect="italics">C</emphasis>, we can find the charge stored by using <link target-id="fs-id1167134569412"/>.</para>
+<para id="fs-id1167134656730"><title>Solution</title></para>
+<list id="fs-id1167131268517" list-type="enumerated" number-style="lower-alpha">
+<item>Entering the given values into <link target-id="fs-id1167131458057"/> yields
+<equation id="fs-id1167584753120" class="unnumbered"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.1em"/><m:mfrac><m:mtext>F</m:mtext><m:mtext>m</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mtext>nF</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+This small capacitance value indicates how difficult it is to make a device with a large capacitance.</item>
+<item>Inverting <link target-id="fs-id1167134569412"/> and entering the known values into this equation gives
+<equation id="fs-id1167584685915" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>26.6</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167131554554"><title>Significance</title>
+This charge is only slightly greater than those found in typical static electricity applications. Since air breaks down (becomes conductive) at an electrical field strength of about 3.0 MV/m, no more charge can be stored on this capacitor by increasing the voltage.</para>
+</example>
+<example id="fs-id1167131515938">
+<para id="fs-id1167134447588"><title>A 1-F Parallel-Plate Capacitor</title>
+Suppose you wish to construct a parallel-plate capacitor with a capacitance of 1.0 F. What area must you use for each plate if the plates are separated by 1.0 mm?</para>
+<para id="fs-id1167134664981"><title>Solution</title>
+Rearranging <link target-id="fs-id1167131458057"/>, we obtain</para>
+<equation id="fs-id1167134443117" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>C</m:mi><m:mi>d</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>F</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134442868">Each square plate would have to be 10 km across. It used to be a common prank to ask a student to go to the laboratory stockroom and request a 1-F parallel-plate capacitor, until stockroom attendants got tired of the joke.</para>
+</example>
+<note id="fs-id1167134451826" class="check-understanding">
+<exercise id="fs-id1167131226099">
+<problem id="fs-id1167131509375">
+<para id="fs-id1167134679676"><emphasis effect="bold">Check Your Understanding</emphasis> The capacitance of a parallel-plate capacitor is 2.0 pF. If the area of each plate is <m:math><m:mrow><m:mn>2.4</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, what is the plate separation?</para>
+</problem>
+<solution id="fs-id1167134863722">
+<para id="fs-id1167134586027"><m:math><m:mrow><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167134680374" class="check-understanding">
+<exercise id="fs-id1167134666336">
+<problem id="fs-id1167134863925">
+<para id="fs-id1167134681977"><emphasis effect="bold">Check Your Understanding</emphasis> Verify that <m:math><m:mrow><m:mi>σ</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mi>d</m:mi></m:mrow></m:mrow></m:math> have the same physical units.</para>
+</problem>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167134514126">
+<title>Spherical Capacitor</title>
+<para id="fs-id1167134678000">A spherical capacitor is another set of conductors whose capacitance can be easily determined (<link target-id="CNX_UPhysics_25_01_Spherical"/>). It consists of two concentric conducting spherical shells of radii <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> (inner shell) and <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> (outer shell). The shells are given equal and opposite charges <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>, respectively. From symmetry, the electrical field between the shells is directed radially outward. We can obtain the magnitude of the field by applying Gauss’s law over a spherical Gaussian surface of radius <emphasis effect="italics">r</emphasis> concentric with the shells. The enclosed charge is <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math>; therefore we have</para>
+<equation id="fs-id1167134443642" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∮</m:mo><m:mi>S</m:mi></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131500461">Thus, the electrical field between the conductors is</para>
+<equation id="fs-id1167131211655" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131413372">We substitute this <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> into <link target-id="fs-id1167134513086"/> and integrate along a radial path between the shells:</para>
+<equation id="fs-id1167134885802" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext> </m:mtext><m:mi>d</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134881106">In this equation, the potential difference between the plates is <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. We substitute this result into <link target-id="fs-id1167134569412"/> to find the capacitance of a spherical capacitor:</para>
+<note id="fs-id1167134666147" class="equation-callout">
+<equation id="fs-id1167134817239"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_25_01_Spherical">
+<media id="fs-id1167131171620" alt="The cross section of a spherical capacitor is shown in the form of two concentric circles. The radius of the smaller one is R subscript 1 and that of the larger one is R subscript 2. The smaller one has positive signs on it and the larger one has negative signs on it. Arrows radiate outwards from the inner circle to the outer circle. In between the two, is a third circle, with radius r, shown as a dotted line. This is labeled Gaussian surface.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_spherical.jpg"/>
+</media>
+<caption>A spherical capacitor consists of two concentric conducting spheres. Note that the charges on a conductor reside on its surface.</caption>
+</figure>
+<example id="fs-id1167131490652">
+<para id="fs-id1167134972224"><title>Capacitance of an Isolated Sphere</title>
+Calculate the capacitance of a single isolated conducting sphere of radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and compare it with <link target-id="fs-id1167134817239"/> in the limit as <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1167134685978"><title>Strategy</title>
+We assume that the charge on the sphere is <emphasis effect="italics">Q</emphasis>, and so we follow the four steps outlined earlier. We also assume the other conductor to be a concentric hollow sphere of infinite radius.</para>
+<para id="fs-id1167131276418"><title>Solution</title>
+On the outside of an isolated conducting sphere, the electrical field is given by <link target-id="fs-id1167134513086"/>. The magnitude of the potential difference between the surface of an isolated sphere and infinity is</para>
+<equation id="fs-id1167131431010" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mo>+</m:mo><m:mi>∞</m:mi></m:mrow></m:msubsup><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mo>+</m:mo><m:mi>∞</m:mi></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mo>+</m:mo><m:mi>∞</m:mi></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131129082">The capacitance of an isolated sphere is therefore</para>
+<equation id="fs-id1167131455121" class="unnumbered"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>Q</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>Q</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134564746"><title>Significance</title>
+The same result can be obtained by taking the limit of <link target-id="fs-id1167134817239"/> as <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>. A single isolated sphere is therefore equivalent to a spherical capacitor whose outer shell has an infinitely large radius.</para>
+</example>
+<note id="fs-id1167131197454" class="check-understanding">
+<exercise id="fs-id1167134717572">
+<problem id="fs-id1167131136680">
+<para id="fs-id1167131511691"><emphasis effect="bold">Check Your Understanding</emphasis> The radius of the outer sphere of a spherical capacitor is five times the radius of its inner shell. What are the dimensions of this capacitor if its capacitance is 5.00 pF?</para>
+</problem>
+<solution id="fs-id1167134664952">
+<para id="fs-id1167131145368">3.59 cm, 17.98 cm</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167131328595">
+<title>Cylindrical Capacitor</title>
+<para id="fs-id1167134891527">A cylindrical capacitor consists of two concentric, conducting cylinders (<link target-id="CNX_UPhysics_25_01_Cylind"/>). The inner cylinder, of radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, may either be a shell or be completely solid. The outer cylinder is a shell of inner radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. We assume that the length of each cylinder is <emphasis effect="italics">l</emphasis> and that the excess charges <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math> reside on the inner and outer cylinders, respectively.</para>
+<figure id="CNX_UPhysics_25_01_Cylind">
+<media id="fs-id1167131257290" alt="Figure shows two concentric cylinders. The inner one, with radius R1 has positive signs on it. The outer one, with radius R2 has negative signs on it. Arrows marked E are shown radiating from the inner one to the outer one. A third cylinder, with radius r, is shown as a dotted line between the two. This is labeled Gaussian surface.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_cylind.jpg"/>
+</media>
+<caption>A cylindrical capacitor consists of two concentric, conducting cylinders. Here, the charge on the outer surface of the inner cylinder is positive (indicated by <m:math><m:mo>+</m:mo></m:math>) and the charge on the inner surface of the outer cylinder is negative (indicated by <m:math><m:mo>−</m:mo></m:math>).</caption>
+</figure>
+<para id="fs-id1167134640707">With edge effects ignored, the electrical field between the conductors is directed radially outward from the common axis of the cylinders. Using the Gaussian surface shown in <link target-id="CNX_UPhysics_25_01_Cylind"/>, we have</para>
+<equation id="fs-id1167131618621" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∮</m:mo><m:mi>S</m:mi></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134917262">Therefore, the electrical field between the cylinders is</para>
+<equation id="fs-id1167134611428"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131183630">Here <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> is the unit radial vector along the radius of the cylinder. We can substitute into <link target-id="fs-id1167134513086"/> and find the potential difference between the cylinders:</para>
+<equation id="fs-id1167581499439" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>p</m:mi></m:msub></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow></m:mfrac><m:msubsup><m:mrow><m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mi>r</m:mi></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow></m:mfrac><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131328046">Thus, the capacitance of a cylindrical capacitor is</para>
+<note id="fs-id1167131513740" class="equation-callout">
+<equation id="fs-id1167131232459"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131117928">As in other cases, this capacitance depends only on the geometry of the conductor arrangement. An important application of <link target-id="fs-id1167131232459"/> is the determination of the capacitance per unit length of a <emphasis effect="italics">coaxial cable</emphasis>, which is commonly used to transmit time-varying electrical signals. A <term class="no-emphasis">coaxial cable</term> consists of two concentric, cylindrical conductors separated by an insulating material. (Here, we assume a vacuum between the conductors, but the physics is qualitatively almost the same when the space between the conductors is filled by a dielectric.) This configuration shields the electrical signal propagating down the inner conductor from stray electrical fields external to the cable. Current flows in opposite directions in the inner and the outer conductors, with the outer conductor usually grounded. Now, from <link target-id="fs-id1167131232459"/>, the capacitance per unit length of the coaxial cable is given by</para>
+<equation id="fs-id1167131400654" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>C</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131274390">In practical applications, it is important to select specific values of <emphasis effect="italics">C</emphasis>/<emphasis effect="italics">l</emphasis>. This can be accomplished with appropriate choices of radii of the conductors and of the insulating material between them.</para>
+<note id="fs-id1167134941083" class="check-understanding">
+<exercise id="fs-id1167131462066">
+<problem id="fs-id1167129962305">
+<para id="fs-id1167129962307"><emphasis effect="bold">Check Your Understanding</emphasis> When a cylindrical capacitor is given a charge of 0.500 nC, a potential difference of 20.0 V is measured between the cylinders. (a) What is the capacitance of this system? (b) If the cylinders are 1.0 m long, what is the ratio of their radii?</para>
+</problem>
+<solution id="fs-id1167131428774">
+<para id="fs-id1167134884072">a. 25.0 pF; b. 9.2</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167131223401">Several types of practical capacitors are shown in <link target-id="CNX_UPhysics_25_01_Capacitor"/>. Common capacitors are often made of two small pieces of metal foil separated by two small pieces of insulation (see <link target-id="CNX_UPhysics_25_01_Battery"/>(b)). The metal foil and insulation are encased in a protective coating, and two metal leads are used for connecting the foils to an external circuit. Some common insulating materials are mica, ceramic, paper, and Teflon™ non-stick coating.</para>
+<para id="fs-id1167131588580">Another popular type of capacitor is an <term class="no-emphasis">electrolytic capacitor</term>. It consists of an oxidized metal in a conducting paste. The main advantage of an electrolytic capacitor is its high capacitance relative to other common types of capacitors. For example, capacitance of one type of aluminum electrolytic capacitor can be as high as 1.0 F. However, you must be careful when using an electrolytic capacitor in a circuit, because it only functions correctly when the metal foil is at a higher potential than the conducting paste. When reverse polarization occurs, electrolytic action destroys the oxide film. This type of capacitor cannot be connected across an alternating current source, because half of the time, ac voltage would have the wrong polarity, as an alternating current reverses its polarity (see <link document="m58483">Alternating-Current Circuts</link> on alternating-current circuits).</para>
+<para id="fs-id1167131337304">A <term class="no-emphasis">variable air capacitor</term> (<link target-id="CNX_UPhysics_25_01_Variable"/>) has two sets of parallel plates. One set of plates is fixed (indicated as “stator”), and the other set of plates is attached to a shaft that can be rotated (indicated as “rotor”). By turning the shaft, the cross-sectional area in the overlap of the plates can be changed; therefore, the capacitance of this system can be tuned to a desired value. Capacitor tuning has applications in any type of radio transmission and in receiving radio signals from electronic devices. Any time you tune your car radio to your favorite station, think of capacitance.</para>
+<figure id="CNX_UPhysics_25_01_Variable">
+<media id="fs-id1167134588456" alt="A photograph of a device with discrete components is shown. One component is the variable air capacitor. It has two parts, a stator and a rotor. The stator has parallel plates of metal and is fixed to the device. The rotor has parallel plates of metal attached to a shaft. The stator and rotor are arranged in a way that their plates are alternately stacked.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_variable.jpg"/>
+</media>
+<caption>In a variable air capacitor, capacitance can be tuned by changing the effective area of the plates. (credit: modification of work by Robbie Sproule)</caption>
+</figure>
+<para id="fs-id1167134567944">The symbols shown in <link target-id="CNX_UPhysics_25_01_Circuitrep"/> are circuit representations of various types of capacitors. We generally use the symbol shown in <link target-id="CNX_UPhysics_25_01_Circuitrep"/>(a). The symbol in <link target-id="CNX_UPhysics_25_01_Circuitrep"/>(c) represents a variable-capacitance capacitor. Notice the similarity of these symbols to the symmetry of a parallel-plate capacitor. An electrolytic capacitor is represented by the symbol in part <link target-id="CNX_UPhysics_25_01_Circuitrep"/>(b), where the curved plate indicates the negative terminal.</para>
+<figure id="CNX_UPhysics_25_01_Circuitrep">
+<media id="fs-id1167131443980" alt="Figure a shows two vertical lines. Figure b shows a vertical line to the left and another, slightly curved vertical line to the right. Figure c shows two vertical lines and an arrow cutting across them diagonally. In all figures, each line is connected to a horizontal line on the outside.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_circuitrep.jpg"/>
+</media>
+<caption>This shows three different circuit representations of capacitors. The symbol in (a) is the most commonly used one. The symbol in (b) represents an electrolytic capacitor. The symbol in (c) represents a variable-capacitance capacitor.</caption>
+</figure>
+<para id="fs-id1167134962375">An interesting applied example of a capacitor model comes from cell biology and deals with the electrical potential in the plasma membrane of a living cell (<link target-id="CNX_UPhysics_25_01_Membrane"/>). <term class="no-emphasis">Cell membranes</term> separate cells from their surroundings but allow some selected ions to pass in or out of the cell. The potential difference across a membrane is about 70 mV. The cell membrane may be 7 to 10 nm thick. Treating the cell membrane as a nano-sized capacitor, the estimate of the smallest electrical field strength across its ‘plates’ yields the value <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mspace width="0.2em"/><m:mo>&gt;</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>MV/m</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167131120285">This magnitude of electrical field is great enough to create an electrical spark in the air.</para>
+<figure id="CNX_UPhysics_25_01_Membrane">
+<media id="fs-id1167131358206" alt="The figure shows a cell membrane with negative signs on the inner boundary and positive signs on the outer boundary. Chloride ions are outside the cell. Diffusion moves them toward the cell while Coulomb force is shown pointing outwards. Some chloride ions are shown passing through the membrane to the inside. Potassium ions are shown inside the cell. Diffusion moves them out towards the membrane while Coulomb force is shown pointing inwards. Some potassium ions are shown passing the membrane to the outside. Sodium ions are outside the cell. Both Coulomb force and diffusion are shown pointing towards the cell. Some sodium ions are shown within the cell.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_membrane.jpg"/>
+</media>
+<caption>The semipermeable membrane of a biological cell has different concentrations of ions on its interior surface than on its exterior. Diffusion moves the <m:math><m:mrow><m:msup><m:mtext>K</m:mtext><m:mtext>+</m:mtext></m:msup></m:mrow></m:math> (potassium) and <m:math><m:mrow><m:msup><m:mrow><m:mtext>Cl</m:mtext></m:mrow><m:mtext>–</m:mtext></m:msup></m:mrow></m:math> (chloride) ions in the directions shown, until the Coulomb force halts further transfer. In this way, the exterior of the membrane acquires a positive charge and its interior surface acquires a negative charge, creating a potential difference across the membrane. The membrane is normally impermeable to Na+ (sodium ions).</caption>
+</figure>
+<note id="fs-id1167131498119" class="media-2">
+<para id="fs-id1167134964435">Visit the <link url="https://openstax.org/l/21phetcapacitor">PhET Explorations: Capacitor Lab</link> to explore how a capacitor works. Change the size of the plates and add a dielectric to see the effect on capacitance. Change the voltage and see charges built up on the plates. Observe the electrical field in the capacitor. Measure the voltage and the electrical field.</para>
+</note>
+</section>
+<section id="fs-id1167131619390" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167131201116" list-type="bulleted" bullet-style="bullet">
+<item>A capacitor is a device that stores an electrical charge and electrical energy. The amount of charge a vacuum capacitor can store depends on two major factors: the voltage applied and the capacitor’s physical characteristics, such as its size and geometry.</item>
+<item>The capacitance of a capacitor is a parameter that tells us how much charge can be stored in the capacitor per unit potential difference between its plates. Capacitance of a system of conductors depends only on the geometry of their arrangement and physical properties of the insulating material that fills the space between the conductors. The unit of capacitance is the farad, where <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mtext>/</m:mtext><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1167131544231" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167134951014">
+<problem id="fs-id1167134951016">
+<para id="fs-id1167131231579">Does the capacitance of a device depend on the applied voltage? Does the capacitance of a device depend on the charge residing on it?</para>
+</problem>
+<solution id="fs-id1167134713174">
+<para id="fs-id1167134713176">no; yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134861259">
+<problem id="fs-id1167134686954">
+<para id="fs-id1167134686956">Would you place the plates of a parallel-plate capacitor closer together or farther apart to increase their capacitance?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131619977">
+<problem id="fs-id1167134878329">
+<para id="fs-id1167131580819">The value of the capacitance is zero if the plates are not charged. True or false?</para>
+</problem>
+<solution id="fs-id1167134640643">
+<para id="fs-id1167134593234">false</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131110835">
+<problem id="fs-id1167134467414">
+<para id="fs-id1167131523529">If the plates of a capacitor have different areas, will they acquire the same charge when the capacitor is connected across a battery?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131400513">
+<problem id="fs-id1167131400516">
+<para id="fs-id1167131205196">Does the capacitance of a spherical capacitor depend on which sphere is charged positively or negatively?</para>
+</problem>
+<solution id="fs-id1167131589202">
+<para id="fs-id1167131589204">no</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131113798" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167131409222">
+<problem id="fs-id1167134946212">
+<para id="fs-id1167134922069">What charge is stored in a <m:math><m:mrow><m:mn>180.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor when 120.0 V is applied to it?</para>
+</problem>
+<solution id="fs-id1167131204478">
+<para id="fs-id1167131204480">21.6 mC</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134823022">
+<problem id="fs-id1167134734984">
+<para id="fs-id1167134734986">Find the charge stored when 5.50 V is applied to an 8.00-pF capacitor.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131581152">
+<problem id="fs-id1167134812768">
+<para id="fs-id1167134812770">Calculate the voltage applied to a <m:math><m:mrow><m:mn>2.00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor when it holds <m:math><m:mrow><m:mn>3.10</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> of charge.</para>
+</problem>
+<solution id="fs-id1167131259354">
+<para id="fs-id1167131499293">1.55 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134700943">
+<problem id="fs-id1167134700945">
+<para id="fs-id1167130006724">What voltage must be applied to an 8.00-nF capacitor to store 0.160 mC of charge?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131181095">
+<problem id="fs-id1167131181097">
+<para id="fs-id1167134812725">What capacitance is needed to store <m:math><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> of charge at a voltage of 120 V?</para>
+</problem>
+<solution id="fs-id1167134569405">
+<para id="fs-id1167131141374">25.0 nF</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131232354">
+<problem id="fs-id1167131232356">
+<para id="fs-id1167131126966">What is the capacitance of a large Van de Graaff generator’s terminal, given that it stores 8.00 mC of charge at a voltage of 12.0 MV?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131183747">
+<problem id="fs-id1167131183749">
+<para id="fs-id1167134535829">The plates of an empty parallel-plate capacitor of capacitance 5.0 pF are 2.0 mm apart. What is the area of each plate?</para>
+</problem>
+<solution id="fs-id1167134758897">
+<para id="fs-id1167134758899"><m:math><m:mrow><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131255736">
+<problem id="fs-id1167134896007">
+<para id="fs-id1167134896009">A 60.0-pF vacuum capacitor has a plate area of <m:math><m:mrow><m:mn>0.010</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. What is the separation between its plates?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134512894">
+<problem id="fs-id1167131238303">
+<para id="fs-id1167131190760">A set of parallel plates has a capacitance of <m:math><m:mrow><m:mn>5.0</m:mn><m:mtext>µ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>. How much charge must be added to the plates to increase the potential difference between them by 100 V?</para>
+</problem>
+<solution id="fs-id1167131218450">
+<para id="fs-id1167131218452">500 <emphasis effect="italics">µ</emphasis>C</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134520392">
+<problem id="fs-id1167134945357">
+<para id="fs-id1167131274486">Consider Earth to be a spherical conductor of radius 6400 km and calculate its capacitance.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134966959">
+<problem id="fs-id1167131473146">
+<para id="fs-id1167131457571">If the capacitance per unit length of a cylindrical capacitor is 20 pF/m, what is the ratio of the radii of the two cylinders?</para>
+</problem>
+<solution id="fs-id1167134567012">
+<para id="fs-id1167131257090">1:16</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134511144">
+<problem id="fs-id1167134511146">
+<para id="fs-id1167131211775">An empty parallel-plate capacitor has a capacitance of <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>µ</m:mo><m:mtext>F</m:mtext></m:mrow></m:math>. How much charge must leak off its plates before the voltage across them is reduced by 100 V?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134725627">
+<term>capacitance</term>
+<meaning id="fs-id1167131151276">amount of charge stored per unit volt</meaning>
+</definition>
+<definition id="fs-id1167134884739">
+<term>capacitor</term>
+<meaning id="fs-id1167134515054">device that stores electrical charge and electrical energy</meaning>
+</definition>
+<definition id="fs-id1167131133162">
+<term>dielectric</term>
+<meaning id="fs-id1167134884594">insulating material used to fill the space between two plates</meaning>
+</definition>
+<definition id="fs-id1167134626997">
+<term>parallel-plate capacitor</term>
+<meaning id="fs-id1167134941924">system of two identical parallel conducting plates separated by a distance</meaning>
+</definition>
+</glossary>
+</document>

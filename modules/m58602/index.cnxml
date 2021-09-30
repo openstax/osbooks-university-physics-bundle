@@ -1,0 +1,605 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Superconductivity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58602</md:content-id>
+  <md:title>Superconductivity</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the main features of a superconductor</item>
+<item>Describe the BCS theory of superconductivity</item>
+<item>Determine the critical magnetic field for T = 0 K from magnetic field data</item>
+<item>Calculate the maximum emf or current for a wire to remain superconducting</item></list></md:abstract>
+  <md:uuid>cd14409c-b0a6-45fc-a433-aa25d9626b89</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172099576856">Electrical resistance can be considered as a measure of the frictional force in electrical current flow. Thus, electrical resistance is a primary source of energy dissipation in electrical systems such as electromagnets, electric motors, and transmission lines. Copper wire is commonly used in electrical wiring because it has one of the lowest room-temperature electrical resistivities among common conductors. (Actually, silver has a lower resistivity than copper, but the high cost and limited availability of silver outweigh its savings in energy over copper.)</para>
+<para id="fs-id1172101788444">Although our discussion of conductivity seems to imply that all materials must have electrical resistance, we know that this is not the case. When the temperature decreases below a critical value for many materials, their electrical resistivity drops to zero, and the materials become superconductors (see <link document="m58735">Superconductors</link>).</para><note id="fs-id1172099418397" class="media-2">
+<para id="fs-id1172099500386">Watch this <link url="https://openstax.org/l/21NOVA"><emphasis effect="italics">NOVA</emphasis> video</link> excerpt, Making Stuff Colder, as an introduction to the topic of superconductivity and its many applications.</para>
+</note>
+<section id="fs-id1172102011254">
+<title>Properties of Superconductors</title>
+<para id="fs-id1172101758770">In addition to zero electrical resistance, superconductors also have perfect diamagnetism. In other words, in the presence of an applied magnetic field, the net magnetic field within a superconductor is always zero (<link target-id="CNX_UPhysics_42_08_Meissner"/>). Therefore, any magnetic field lines that pass through a superconducting sample when it is in its normal state are expelled once the sample becomes superconducting. These are manifestations of the Meissner effect, which you learned about in the chapter on current and resistance.</para>
+<figure id="CNX_UPhysics_42_08_Meissner"><media id="fs-id1172099750145" alt="Figure a has two similar rectangular plates. Vertical arrows pointing up are shown in front of the first plate. The arrows curve around the second plate. Figure b is a photograph showing a small ball suspended in air above a metallic plate.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_08_Meissner.jpg"/>
+</media>
+
+<caption>(a) In the Meissner effect, a magnetic field is expelled from a material once it becomes superconducting. (b) A magnet can levitate above a superconducting material, supported by the force expelling the magnetic field. (credit b: modification of work by Kevin Jarrett)</caption></figure><para id="fs-id1172099559884">Interestingly, the Meissner effect is not a consequence of the resistance being zero. To see why, suppose that a sample placed in a magnetic field undergoes a transition in which its resistance drops to zero. From Ohm’s law, the current density, <emphasis effect="italics">j</emphasis>, in the sample is related to the net internal electric field, <emphasis effect="italics">E</emphasis>, and the resistivity <m:math><m:mi>ρ</m:mi></m:math> by <m:math><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mtext>/</m:mtext><m:mi>ρ</m:mi></m:mrow></m:math>. If <m:math><m:mi>ρ</m:mi></m:math> is zero, <emphasis effect="italics">E</emphasis> must also be zero so that <emphasis effect="italics">j</emphasis> can remain finite. Now <emphasis effect="italics">E</emphasis> and the magnetic flux <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> through the sample are related by Faraday’s law as</para>
+<equation id="fs-id1172097228876"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>E</m:mi><m:mi>d</m:mi><m:mi>I</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102116006">If <emphasis effect="italics">E</emphasis> is zero, <m:math><m:mrow><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:math> is also zero, that is, the magnetic flux through the sample cannot change. The magnetic field lines within the sample should therefore not be expelled when the transition occurs. Hence, it does not follow that a material whose resistance goes to zero has to exhibit the Meissner effect. Rather, the Meissner effect is a special property of superconductors.</para>
+<para id="fs-id1172102022222">Another important property of a superconducting material is its <term>critical temperature</term>, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math>, the temperature below which the material is superconducting. The known range of critical temperatures is from a fraction of 1 K to slightly above 100 K. Superconductors with critical temperatures near this higher limit are commonly known as “high-temperature” superconductors. From a practical standpoint, superconductors for which <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>≫</m:mo><m:mn>77</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> are very important. At present, applications involving superconductors often still require that superconducting materials be immersed in liquid helium (4.2 K) in order to keep them below their critical temperature. The liquid helium baths must be continually replenished because of evaporation, and cooling costs can easily outweigh the savings in using a superconductor. However, 77 K is the temperature of liquid nitrogen, which is far more abundant and inexpensive than liquid helium. It would be much more cost-effective if we could easily fabricate and use high-temperature superconductor components that only need to be kept in liquid nitrogen baths to maintain their superconductivity.</para>
+<para id="fs-id1172101780226">High-temperature superconducting materials are presently in use in various applications. An example is the production of magnetic fields in some particle accelerators. The ultimate goal is to discover materials that are superconducting at room temperature. Without any cooling requirements, the bulk of electronic components and transmission lines could be superconducting, resulting in dramatic and unprecedented increases in efficiency and performance.</para>
+<para id="fs-id1172101781020">Another important property of a superconducting material is its <term>critical magnetic field</term> <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> which is the maximum applied magnetic field at a temperature <emphasis effect="italics">T</emphasis> that will allow a material to remain superconducting. An applied field that is greater than the critical field will destroy the superconductivity. The critical field is zero at the critical temperature and increases as the temperature decreases. Plots of the critical field versus temperature for several superconducting materials are shown in <link target-id="CNX_UPhysics_42_08_TempDep"/>. The temperature dependence of the critical field can be described approximately by</para>
+<note id="fs-id1172102067644" class="equation-callout">
+<equation id="fs-id1172099716615"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mtext>c</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>T</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mtext>c</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>T</m:mi><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172102131914">where <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is the critical field at absolute zero temperature. <link target-id="fs-id1172101922736"/> lists the critical temperatures and fields for two classes of superconductors: <term>type I superconductor</term> and <term>type II superconductor</term>. In general, type I superconductors are elements, such as aluminum and mercury. They are perfectly diamagnetic below a critical field <emphasis effect="italics">B<sub>C</sub></emphasis>(<emphasis effect="italics">T</emphasis>), and enter the normal non-superconducting state once that field is exceeded. The critical fields of type I superconductors are generally quite low (well below one tesla). For this reason, they cannot be used in applications requiring the production of high magnetic fields, which would destroy their superconducting state.</para>
+<figure id="CNX_UPhysics_42_08_TempDep">
+<media id="fs-id1172102146633" alt="Graph of B subscript c in tesla versus T in kelvin. It has 6 curves. Curve Tl starts from just above 2 on the x axis and ends just below 0.02 on the y axis. Curve In and Sn start from just above 3 on the x axis and end around 0.03 on the y axis. Curve Hg starts just above four on the x axis and ends just above 0.04 on the y axis. Curve Ta starts just above 4 on the x axis and ends just below 0.1 on the y axis. Curve Pb starts just above 7 on the x axis and ends at 0.08 on the y axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_08_TempDep.jpg"/>
+</media>
+<caption>The temperature dependence of the critical field for several superconductors. Superconductivity occurs for magnetic fields and temperatures below the curves shown.</caption>
+</figure>
+<table id="fs-id1172101922736" summary="This table has 3 columns, 14 rows and a header row. The first 9 rows are labeled type 1. The last 5 rows are labeled type 2. The header row labels each column: Material, Critical temperature in K and Critical magnetic field in T. The first column has the following entries: Al, Ga, Hg in parentheses alpha, In, Nb, Pb, Sn, Th, Zn, Nb3Al, Nb3Ge, Nb3Sn, NbTi, YBa2Cu3O7. The second column has the following values: 1.2, 1.1, 4.2, 3.4, 9.3, 7.2, 3.7, 1.4, 0.87, 18, 23, 18, 9.3, 92. The last column has the following entries: 0.011, 0.0051, 0.041, 0.029, 0.2, 0.08, 0.031, 0.00016, 0.0053, 32, 38, 25, 15, greater than 100.">
+<title>Critical Temperature and Critical Magnetic Field at <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> for Various Superconductors</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Material</entry>
+<entry valign="top" align="center">Critical Temperature <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtext>K</m:mtext><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="center">Critical Magnetic Field <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtext>T</m:mtext><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c3">Type I</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1.2</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.011</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Ga</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1.1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.0051</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Hg</m:mtext><m:mrow><m:mo>(</m:mo><m:mi>α</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>4.2</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.041</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>In</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3.4</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.029</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Nb</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>9.3</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.20</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Pb</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>7.2</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.080</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Sn</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3.7</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.031</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Th</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1.4</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.00016</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Zn</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.87</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.0053</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c3">Type II</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:msub><m:mrow><m:mtext>Nb</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mtext>Al</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>18</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>32</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:msub><m:mrow><m:mtext>Nb</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mtext>Ge</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>23</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>38</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:msub><m:mrow><m:mtext>Nb</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mtext>Sn</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>18</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>25</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>NbTi</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>9.3</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>15</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:msub><m:mrow><m:mtext>YBa</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:msub><m:mrow><m:mtext>Cu</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:msub><m:mtext>O</m:mtext><m:mn>7</m:mn></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>92</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>&gt;100</m:mtext></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1172102078852">Type II superconductors are generally compounds or alloys involving transition metals or actinide series elements. Almost all superconductors with relatively high critical temperatures are type II. They have two critical fields, represented by <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>c1</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>c2</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. When the field is below <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>c1</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> type II superconductors are perfectly diamagnetic, and no magnetic flux penetration into the material can occur. For a field exceeding <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>c2</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> they are driven into their normal state. When the field is greater than <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>c1</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> but less than <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>c2</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> type II superconductors are said to be in a mixed state. Although there is some magnetic flux penetration in the mixed state, the resistance of the material is zero. Within the superconductor, filament-like regions exist that have normal electrical and magnetic properties interspersed between regions that are superconducting with perfect diamagnetism. A representation of this state is given in <link target-id="CNX_UPhysics_42_08_TypeII"/>. The magnetic field is expelled from the superconducting regions but exists in the normal regions. In general, <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>c2</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is very large compared with the critical fields of type I superconductors, so wire made of type II superconducting material is suitable for the windings of high-field magnets.</para>
+<figure id="CNX_UPhysics_42_08_TypeII">
+<media id="fs-id1172102116142" alt="Figure shows a vertical bar with alternately placed blue and gray squares, one on top of the other. The blue squares are labeled normal and the gray ones are labeled superconducting. Arrows enter from the left and converge together to pass through just the normal squares. On the right of the bar, they diverge.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_08_TypeII.jpg"/>
+</media>
+<caption>A schematic representation of the mixed state of a type II superconductor. Superconductors (the gray squares) expel magnetic fields in their vicinity.</caption>
+</figure>
+<example id="fs-id1172101783852">
+<para id="fs-id1172102095353"><title>Niobium Wire</title>
+In an experiment, a niobium (Nb) wire of radius 0.25 mm is immersed in liquid helium (<m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>4.2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>) and required to carry a current of 300 A. Does the wire remain superconducting?</para>
+<para id="fs-id1172099410485"><title>Strategy</title>
+The applied magnetic field can be determined from the radius of the wire and current. The critical magnetic field can be determined from <link target-id="fs-id1172100937336" document="m58592"/>, the properties of the superconductor, and the temperature. If the applied magnetic field is greater than the critical field, then superconductivity in the Nb wire is destroyed.</para>
+<para id="fs-id1172101633678"><title>Solution</title>
+At <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>4.2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>,</m:mo></m:mrow></m:math> the critical field for Nb is, from <link target-id="fs-id1172100937336" document="m58592"/> and <link target-id="fs-id1172101922736"/>,</para>
+<equation id="fs-id1172098762636" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mn>4.2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>4.2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mrow><m:mn>9.3</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.80</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.16</m:mn><m:mspace width="0.2em"/><m:mtext>T.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172102054647">In an earlier chapter, we learned the magnetic field inside a current-carrying wire of radius <emphasis effect="italics">a</emphasis> is given by</para>
+<equation id="fs-id1172102051425" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102138790">where <emphasis effect="italics">r</emphasis> is the distance from the central axis of the wire. Thus, the field at the surface of the wire is <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mi>r</m:mi></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> For the niobium wire, this field is</para>
+<equation id="fs-id1172101896501" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>π</m:mtext><m:mo>(</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.24</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172101775757">Since this exceeds the critical 0.16 T, the wire does not remain superconducting.</para>
+<para id="fs-id1172101748558"><title>Significance</title>
+Superconductivity requires low temperatures and low magnetic fields. These simultaneous conditions are met less easily for Nb than for many other metals. For example, aluminum superconducts at temperatures 7 times lower and magnetic fields 18 times lower.</para>
+</example>
+<note id="fs-id1172101698098" class="check-understanding">
+<exercise id="fs-id1172101918493">
+<problem id="fs-id1172102078517">
+<para id="fs-id1172099386880">What conditions are necessary for superconductivity?</para>
+</problem>
+<solution id="fs-id1172099744318">
+<para id="fs-id1172099494400">a low temperature and low magnetic field</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1172102033895">
+<title>Theory of Superconductors</title>
+<para id="fs-id1172099598252">A successful theory of superconductivity was developed in the 1950s by John <term class="no-emphasis">Bardeen</term>, Leon <term class="no-emphasis">Cooper</term>, and J. Robert <term class="no-emphasis">Schrieffer</term>, for which they received the Nobel Prize in 1972. This theory is known as the <term>BCS theory</term>. BCS theory is complex, so we summarize it qualitatively below.</para>
+<para id="fs-id1172101968416">In a normal conductor, the electrical properties of the material are due to the most energetic electrons near the Fermi energy. In 1956, Cooper showed that if there is any attractive interaction between two electrons at the Fermi level, then the electrons can form a bound state in which their total energy is less than <m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub></m:mrow></m:math>. Two such electrons are known as a <term>Cooper pair</term>.</para>
+<para id="fs-id1172101716256">It is hard to imagine two electrons attracting each other, since they have like charge and should repel. However, the proposed interaction occurs only in the context of an atomic lattice. A depiction of the attraction is shown in <link target-id="CNX_UPhysics_42_08_CooperPair"/>. Electron 1 slightly displaces the positively charged atomic nuclei toward itself as it travels past because of the Coulomb attraction. Electron 2 “sees” a region with a higher density of positive charge relative to the surroundings and is therefore attracted into this region and, therefore indirectly, to electron 1. Because of the exclusion principle, the two electrons of a Cooper pair must have opposite spin.</para>
+<figure id="CNX_UPhysics_42_08_CooperPair">
+<media id="fs-id1172099415012" alt="A grid containing 25 red dots is shown. There are 5 columns and 5 rows, each connected by a lattice frame in the background. There is a point between 4 of the dots labeled electron 1, where an arrow comes from each surrounding dot, then another arrow points upward. 2 rows below, another point is labeled electron 2 and has an arrow also pointing upward.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_08_CooperPair.jpg"/>
+</media>
+<caption>A Cooper pair can form as a result of the displacement of positive atomic nuclei. Electron 1 slightly displaces the positively charged atomic nuclei toward itself as it travels past because of the Coulomb attraction. Electron 2 “sees” a region with a higher density of positive charge relative to the surroundings and is therefore attracted into this region.</caption>
+</figure>
+<para id="fs-id1172099716424">The BCS theory extends Cooper’s ideas, which are for a single pair of electrons, to the entire free electron gas. When the transition to the superconducting state occurs, all the electrons pair up to form Cooper pairs. On an atomic scale, the distance between the two electrons making up a Cooper pair is quite large. Between these electrons are typically about <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math> other electrons, each also pairs with a distant electron. Hence, there is considerable overlap between the wave functions of the individual Cooper pairs, resulting in a strong correlation among the motions of the pairs. They all move together “in step,” like the members of a marching band. In the superconducting transition, the density of states becomes drastically changed near the Fermi level. As shown in <link target-id="CNX_UPhysics_42_08_EnergyGap"/>, an energy gap appears around <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>F</m:mi></m:msub></m:mrow></m:math> because the collection of Cooper pairs has lower ground state energy than the Fermi gas of noninteracting electrons. The appearance of this gap characterizes the superconducting state. If this state is destroyed, then the gap disappears, and the density of states reverts to that of the free electron gas.</para>
+<figure id="CNX_UPhysics_42_08_EnergyGap">
+<media id="fs-id1172102067632" alt="Graph of g in parentheses E versus E. The plot starts from the origin and curves up and right. Two vertical lines are shown on the graph. The distance between them is labeled energy gap. The y value of the curve is very high just before and after the gap. The x value of the center of the gap is E subscript F. The area bounded under the curve to the left of the gap is shaded.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_08_EnergyGap.jpg"/>
+</media>
+<caption>A relatively large energy gap is formed around the Fermi energy when a material becomes superconducting. If this state is destroyed, then the gap disappears, and the density of states reverts to that of the free electron gas.</caption>
+</figure>
+<para id="fs-id1172102098693">The BCS theory is able to predict many of the properties observed in superconductors. Examples include the Meissner effect, the critical temperature, the critical field, and, perhaps most importantly, the resistivity becoming zero at a critical temperature. We can think about this last phenomenon qualitatively as follows. In a normal conductor, resistivity results from the interaction of the conduction electrons with the lattice. In this interaction, the energy exchanged is on the order of <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> the thermal energy. In a superconductor, electric current is carried by the Cooper pairs. The only way for a lattice to scatter a Cooper pair is to break it up. The destruction of one pair then destroys the collective motion of all the pairs. This destruction requires energy on the order of <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>eV</m:mtext></m:mrow></m:math>, which is the size of the energy gap. Below the critical temperature, there is not enough thermal energy available for this process, so the Cooper pairs travel unimpeded throughout the superconductor.</para>
+<para id="fs-id1172099451627">Finally, it is interesting to note that no evidence of superconductivity has been found in the best normal conductors, such as copper and silver. This is not unexpected, given the BCS theory. The basis for the formation of the superconducting state is an interaction between the electrons and the lattice. In the best conductors, the electron-lattice interaction is weakest, as evident from their minimal resistivity. We might expect then that in these materials, the interaction is so weak that Cooper pairs cannot be formed, and superconductivity is therefore precluded.</para>
+</section>
+<section id="fs-id1172101736906" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172101911455" list-type="bulleted" bullet-style="bullet">
+<item>A superconductor is characterized by two features: the conduction of electrons with zero electrical resistance and the repelling of magnetic field lines.</item>
+<item>A minimum temperature is required for superconductivity to occur.</item>
+<item>A strong magnetic field destroys superconductivity.</item>
+<item>Superconductivity can be explain in terms of Cooper pairs.</item>
+</list>
+</section>
+<section id="fs-id1172099721442" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1172102022699" summary="Key equations: Electrostatic energy for equilibrium separation distance between atoms is U subscript coul equal to minus ke squared by r subscript 0. Energy change associated with ionic bonding is U subscript form equal to E subscript transfer plus U subscript coul plus U subscript ex. Critical magnetic field of a superconductor is B subscript C in parentheses T equal to B subscript C in parentheses 0 into open parentheses 1 minus open parentheses T by T subscript C close parentheses squared close parentheses. Rotational energy of a diatomic molecule is E subscript gamma equal to l open parentheses l plus 1 close parentheses h bar squared by 2 I. Characteristic rotational energy of a molecule is E subscript 0 subscript gamma equal to h bar squared by 2I. Potential energy associated with the exclusion principle is U subscript ex equal to A by r to the power n. Dissociation energy of a solid is U subscript diss equal to alpha in numerator k e squared upon, in denominator r subscript 0 end of denominator, open parentheses 1 minus fraction 1 by n close parentheses. Moment of inertia of a diatomic molecule with mu reduced mass is equal to I equal to mu r subscript 0 squared. Electron energy in a metal is E equal to pi squared h bar squared upon 2 m L squared into open parentheses n1 squared plus n2 squared plus n3 squared close parentheses. Electron density of states of a metal is g in parentheses E is equal to pi V by 2 into open parentheses 8 m subscript e by h squared close parentheses raised to the power 3 by 2 into E to the power half. Fermi energy is h squared by 8 m subscript e into open parentheses 3 N by pi V close parentheses to the power 2 by 3. Fermi temperature is T subscript F equal to E subscript F upon k subscript B. Hall effect is V subscript H equal to u B w. Current versus bias voltage across p-n junction is I subscript net equal to I0 open parentheses e to the power open parentheses e V subscript b by k subscript B T close parentheses minus 1 close parentheses. Current gain is I subscript C equal to beta I subscript B. Selection rule for rotational energy transitions is delta l equal to plus or minus 1. Selection rule for vibrational energy transitions is delta n equal to plus or minus 1." class="unnumbered unstyled">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Electrostatic energy for equilibrium separation distance between atoms</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>coul</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energy change associated with ionic bonding</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>form</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>transfer</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>coul</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>ex</m:mtext></m:mrow></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Critical magnetic field of a superconductor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mtext>c</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>T</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mtext>c</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>T</m:mi><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rotational energy of a diatomic molecule</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:mi>l</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>I</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Characteristic rotational energy of a molecule</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>0</m:mn><m:mi>r</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>I</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Potential energy associated with the exclusion principle</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>ex</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>A</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Dissociation energy of a solid</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>diss</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>α</m:mi><m:mfrac><m:mrow><m:mi>k</m:mi><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Moment of inertia of a diatomic molecule with reduced mass <m:math><m:mi>μ</m:mi></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:msubsup><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Electron energy in a metal</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msubsup><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Electron density of states of a metal</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:mi>V</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>8</m:mn><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub></m:mrow><m:mrow><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mi>E</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Fermi energy</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>N</m:mi></m:mrow><m:mrow><m:mi>π</m:mi><m:mi>V</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Fermi temperature 	</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hall effect</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>H</m:mtext></m:msub><m:mo>=</m:mo><m:mi>u</m:mi><m:mi>B</m:mi><m:mi>w</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Current versus bias voltage across <emphasis effect="italics">p-n</emphasis> junction</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>e</m:mi><m:msub><m:mi>V</m:mi><m:mi>b</m:mi></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Current gain</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mi>β</m:mi><m:msub><m:mi>I</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Selection rule for rotational energy transitions</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Selection rule for vibrational energy transitions</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1172101778346" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172101995463">
+<problem id="fs-id1172101995465">
+<para id="fs-id1172101995467">Describe two main features of a superconductor.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099377258">
+<problem id="fs-id1172101738553">
+<para id="fs-id1172101738555">How does BCS theory explain superconductivity?</para>
+</problem>
+<solution id="fs-id1172101731675">
+<para id="fs-id1172101731677">BSC theory explains superconductivity in terms of the interactions between electron pairs (Cooper pairs). One electron in a pair interacts with the lattice, which interacts with the second electron. The combine electron-lattice-electron interaction binds the electron pair together in a way that overcomes their mutual repulsion.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101731679">
+<problem id="fs-id1172102014583">
+<para id="fs-id1172102014585">What is the Meissner effect?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101736600">
+<problem id="fs-id1172101736602">
+<para id="fs-id1172101736604">What impact does an increasing magnetic field have on the critical temperature of a semiconductor?</para>
+</problem>
+<solution id="fs-id1172101802055">
+<para id="fs-id1172102048863">As the magnitude of the magnetic field is increased, the critical temperature decreases.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172101889557" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172102020824">
+<problem id="fs-id1172102020827">
+<para id="fs-id1172101798710">At what temperature, in terms of <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>C</m:mi></m:msub></m:mrow></m:math>, is the critical field of a superconductor one-half its value at <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>
+?</para>
+</problem>
+<solution id="fs-id1172102053869">
+<para id="fs-id1172102053871"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0.707</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102095111">
+<problem id="fs-id1172102095113">
+<para id="fs-id1172102095115">What is the critical magnetic field for lead at <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2.8</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>
+?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099492335">
+<problem id="fs-id1172099492337">
+<para id="fs-id1172099750930">A Pb wire wound in a tight solenoid of diameter of 4.0 mm is cooled to a temperature of 5.0 K. The wire is connected in series with a <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor and a variable source of emf. As the emf is increased, what value does it have when the superconductivity of the wire is destroyed?</para>
+</problem>
+<solution id="fs-id1172099769176">
+<para id="fs-id1172099879207">61 kV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099879212">
+<problem id="fs-id1172102096627">
+<para id="fs-id1172102096630">A tightly wound solenoid at 4.0 K is 50 cm long and is constructed from Nb wire of radius 1.5 mm. What maximum current can the solenoid carry if the wire is to remain superconducting?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172101681157" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1172099551125">
+<problem id="fs-id1172101752433">
+<para id="fs-id1172101752436">Potassium fluoride (KF) is a molecule formed by an ionic bond. At equilibrium separation the atoms are <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.255</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math> apart. Determine the electrostatic potential energy of the atoms. The electron affinity of F is 3.40 eV and the ionization energy of K is 4.34 eV. Determine dissociation energy. (Neglect the energy of repulsion.)</para>
+</problem>
+<solution id="fs-id1172101903605">
+<para id="fs-id1172102125111"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>coul</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−5.65</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>form</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−4.71</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>diss</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>4.71</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102047427">
+<problem id="fs-id1172102047429">
+<para id="fs-id1172102024299">For the preceding problem, sketch the potential energy versus separation graph for the bonding of <m:math><m:mrow><m:msup><m:mtext>K</m:mtext><m:mrow><m:mo>+</m:mo></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>Fl</m:mtext></m:mrow><m:mtext>−</m:mtext></m:msup></m:mrow></m:math> ions. (a) Label the graph with the energy required to transfer an electron from K <sup/>to Fl. (b) Label the graph with the dissociation energy.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099693261">
+<problem id="fs-id1172099693263">
+<para id="fs-id1172102060529">The separation between hydrogen atoms in a <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> molecule is about 0.075 nm. Determine the characteristic energy of rotation in eV.</para>
+</problem>
+<solution id="fs-id1172101853849">
+<para id="fs-id1172101853851"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>0</m:mn><m:mi>r</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>7.43</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102016707">
+<problem id="fs-id1172099415894">
+<para id="fs-id1172099415896">The characteristic energy of the <m:math><m:mrow><m:msub><m:mrow><m:mtext>Cl</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math> molecule is <m:math><m:mrow><m:mn>2.95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math>. Determine the separation distance between the nitrogen atoms.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101945612">
+<problem id="fs-id1172101945614">
+<para id="fs-id1172099725301">Determine the lowest three rotational energy levels of <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1172101781614">
+<para id="fs-id1172101781616"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>0</m:mn><m:mi>r</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>7.43</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo><m:msub><m:mi>E</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math> (no rotation);<newline/><m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:msub><m:mi>E</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:mn>1.49</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:msub><m:mi>E</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:mn>4.46</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102006934">
+<problem id="fs-id1172102006936">
+<para id="fs-id1172099884435">A carbon atom can hybridize in the <m:math><m:mrow><m:mi>s</m:mi><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> configuration. (a) What is the angle between the hybrid orbitals?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101786055">
+<problem id="fs-id1172099499264">
+<para id="fs-id1172099499267">List five main characteristics of ionic crystals that result from their high dissociation energy.</para>
+</problem>
+<solution id="fs-id1172099745954">
+<list id="fs-id1172099745956" list-type="enumerated" number-style="lower-roman">
+<item>They are fairly hard and stable.</item>
+<item>They vaporize at relatively high temperatures (1000 to 2000 K).</item>
+<item>They are transparent to visible radiation, because photons in the visible portion of the spectrum are not energetic enough to excite an electron from its ground state to an excited state.</item>
+<item>They are poor electrical conductors because they contain effectively no free electrons.</item>
+<item>They are usually soluble in water, because the water molecule has a large dipole moment whose electric field is strong enough to break the electrostatic bonds between the ions.</item>
+</list>
+</solution>
+</exercise>
+<exercise id="fs-id1172099723741">
+<problem id="fs-id1172101759899">
+<para id="fs-id1172101759901">Why is bonding in <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mo>+</m:mo></m:msup></m:mrow></m:math> favorable? Express your answer in terms of the symmetry of the electron wave function.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101762372">
+<problem id="fs-id1172101762374">
+<para id="fs-id1172101762377">Astronomers claim to find evidence of <m:math><m:mrow><m:msub><m:mrow><m:mtext>He</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math> from light spectra of a distant star. Do you believe them?</para>
+</problem>
+<solution id="fs-id1172099558484">
+<para id="fs-id1172099558486">No, He atoms do not contain valence electrons that can be shared in the formation of a chemical bond.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099680537">
+<problem id="fs-id1172099680539">
+<para id="fs-id1172099504758">Show that the moment of inertia of a diatomic molecule is <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:msubsup><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:math>, where <m:math><m:mi>μ</m:mi></m:math> is the reduced mass, and <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the distance between the masses.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101896880">
+<problem id="fs-id1172101896882">
+<para id="fs-id1172101896884">Show that the average energy of an electron in a one-dimensional metal is related to the Fermi energy by <m:math><m:mrow><m:mover><m:mi>E</m:mi><m:mtext>−</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1172102149413">
+<para id="fs-id1172102095582"><m:math>
+<m:mrow>
+<m:munderover>
+<m:mstyle mathsize="140%" displaystyle="true">
+<m:mo>∑</m:mo>
+</m:mstyle>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mi>N</m:mi>
+<m:mtext>/</m:mtext>
+<m:mn>2</m:mn>
+</m:mrow>
+</m:munderover>
+<m:msup>
+<m:mi>n</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:msup>
+<m:mrow>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mi>N</m:mi>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math> so <m:math>
+<m:mrow>
+<m:mover>
+<m:mi>E</m:mi>
+<m:mtext>−</m:mtext>
+</m:mover>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi>E</m:mi>
+<m:mi>F</m:mi>
+</m:msub>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099383798">
+<problem id="fs-id1172099383801">
+<para id="fs-id1172101912088">Measurements of a superconductor’s critical magnetic field (in <emphasis effect="italics">T</emphasis>) at various temperatures (in K) are given below. Use a line of best fit to determine <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Assume <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>9.3</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<table id="fs-id1172099566998" summary="This table has 2 columns labeled T in K and B subscript C in T. The first column has the following values: 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0. The second column has the following values: 0.18, 0.16, 0.14, 0.12, 0.09, 0.05, 0.01.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">T (in K)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="center">3.0</entry>
+<entry valign="top" align="center">0.18</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">4.0</entry>
+<entry valign="top" align="center">0.16</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">5.0</entry>
+<entry valign="top" align="center">0.14</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">6.0</entry>
+<entry valign="top" align="center">0.12</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">7.0</entry>
+<entry valign="top" align="center">0.09</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">8.0</entry>
+<entry valign="top" align="center">0.05</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">9.0</entry>
+<entry valign="top" align="center">0.01</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+<exercise id="fs-id1172102007626">
+<problem id="fs-id1172102007628">
+<para id="fs-id1172102007631">Estimate the fraction of Si atoms that must be replaced by As atoms in order to form an impurity band.</para>
+</problem>
+<solution id="fs-id1172101898189">
+<para id="fs-id1172101898191">An impurity band will be formed when the density of the donor atoms is high enough that the orbits of the extra electrons overlap. We saw earlier that the orbital radius is about 50 Angstroms, so the maximum distance between the impurities for a band to form is 100 Angstroms. Thus if we use 1 Angstrom as the interatomic distance between the Si atoms, we find that 1 out of 100 atoms along a linear chain must be a donor atom. And in a three-dimensional crystal, roughly 1 out of <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math> atoms must be replaced by a donor atom in order for an impurity band to form.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099725367">
+<problem id="fs-id1172101784654">
+<para id="fs-id1172101784656">Transition in the rotation spectrum are observed at ordinary room temperature (<m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>). According to your lab partner, a peak in the spectrum corresponds to a transition from the <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> to the <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> state. Is this possible? If so, determine the momentum of inertia of the molecule.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099680966">
+<problem id="fs-id1172099680968">
+<para id="fs-id1172099680970">Determine the Fermi energies for (a) Mg, (b) Na, and (c) Zn.</para>
+</problem>
+<solution id="fs-id1172099762559">
+<para id="fs-id1172099762561">a. <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>F</m:mi></m:msub><m:mo>=</m:mo><m:mn>7.11</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>F</m:mi></m:msub><m:mo>=</m:mo><m:mn>3.24</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>F</m:mi></m:msub><m:mo>=</m:mo><m:mn>9.46</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102150849">
+<problem id="fs-id1172102150851">
+<para id="fs-id1172102134218">Find the average energy of an electron in a Zn wire.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099613012">
+<problem id="fs-id1172099613015">
+<para id="fs-id1172099613017">What value of the repulsion constant, <emphasis effect="italics">n</emphasis>, gives the measured dissociation energy of 158 kcal/mol for CsCl?</para>
+</problem>
+<solution id="fs-id1172099626915">
+<para id="fs-id1172102150161"><m:math><m:mrow><m:mn>9.15</m:mn><m:mo>≈</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101717382">
+<problem id="fs-id1172101717384">
+<para id="fs-id1172099563865">A physical model of a diamond suggests a BCC packing structure. Why is this not possible?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172101891399" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1172101939285">
+<problem id="fs-id1172101939288">
+<para id="fs-id1172101778273">For an electron in a three-dimensional metal, show that the average energy is given by <m:math><m:mrow><m:mover><m:mi>E</m:mi><m:mtext>−</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>N</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mn>0</m:mn><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mi>E</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>E</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172102020404">Where <emphasis effect="italics">N</emphasis> is the total number electrons in the metal.</para>
+</problem>
+<solution id="fs-id1172099527417">
+<para id="fs-id1172099527419">In three dimensions, the energy of an electron is given by:<newline/>
+<m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:math>. Each allowed energy state corresponds to node in <emphasis effect="italics">N</emphasis> space <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mn>3</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. The number of particles corresponds to the number of states (nodes) in the first octant, within a sphere of radius, <emphasis effect="italics">R</emphasis>. This number is given by: <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> where the factor 2 accounts for two states of spin. The density of states is found by differentiating this expression by energy:<newline/>
+<m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:mi>V</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>8</m:mn><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub></m:mrow><m:mrow><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mi>E</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math>. Integrating gives: <m:math><m:mrow><m:mover><m:mi>E</m:mi><m:mtext>−</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac><m:mspace width="0.2em"/><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172099569433">
+<term>BCS theory</term>
+<meaning id="fs-id1172099569438">theory of superconductivity based on electron-lattice-electron interactions</meaning>
+</definition>
+<definition id="fs-id1172099501303">
+<term>Cooper pair</term>
+<meaning id="fs-id1172099501309">coupled electron pair in a superconductor</meaning>
+</definition>
+<definition id="fs-id1172102108624">
+<term>critical magnetic field</term>
+<meaning id="fs-id1172102108629">maximum field required to produce superconductivity</meaning>
+</definition>
+<definition id="fs-id1172099545829">
+<term>critical temperature</term>
+<meaning id="fs-id1172099545834">maximum temperature to produce superconductivity</meaning>
+</definition>
+<definition id="fs-id1172099545838">
+<term>type I superconductor</term>
+<meaning id="fs-id1172097235769">superconducting element, such as aluminum or mercury</meaning>
+</definition>
+<definition id="fs-id1172097235773">
+<term>type II superconductor</term>
+<meaning id="fs-id1172102133052">superconducting compound or alloy, such as a transition metal or an actinide series element</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,516 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Household Wiring and Electrical Safety</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58458</md:content-id>
+  <md:title>Household Wiring and Electrical Safety</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>List the basic concepts involved in house wiring</item>
+<item>Define the terms thermal hazard and shock hazard</item>
+<item>Describe the effects of electrical shock on human physiology and their relationship to the amount of current through the body</item>
+<item>Explain the function of fuses and circuit breakers</item>
+</list></md:abstract>
+  <md:uuid>4ee97034-d94c-4bfd-bf35-fb3ad75b5c7b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101765962">Electricity presents two known hazards: thermal and shock. A <term>thermal hazard</term> is one in which an excessive electric current causes undesired thermal effects, such as starting a fire in the wall of a house. A <term>shock hazard</term> occurs when an electric current passes through a person. Shocks range in severity from painful, but otherwise harmless, to heart-stopping lethality. In this section, we consider these hazards and the various factors affecting them in a quantitative manner. We also examine systems and devices for preventing electrical hazards.</para>
+<section id="fs-id1172099702478">
+<title>Thermal Hazards</title>
+<para id="fs-id1172101965324">Electric power causes undesired heating effects whenever electric energy is converted into thermal energy at a rate faster than it can be safely dissipated. A classic example of this is the <term class="no-emphasis">short circuit</term>, a low-resistance path between terminals of a voltage source. An example of a short circuit is shown in <link target-id="CNX_UPhysics_27_06_ShortCur"/>. A toaster is plugged into a common household electrical outlet. Insulation on wires leading to an appliance has worn through, allowing the two wires to come into contact, or “short.” As a result, thermal energy can quickly raise the temperature of surrounding materials, melting the insulation and perhaps causing a fire.</para>
+<para id="fs-id1172099466879">The circuit diagram shows a symbol that consists of a sine wave enclosed in a circle. This symbol represents an alternating current (ac) voltage source. In an ac voltage source, the voltage oscillates between a positive and negative maximum amplitude. Up to now, we have been considering direct current (dc) voltage sources, but many of the same concepts are applicable to ac circuits.</para>
+<figure id="CNX_UPhysics_27_06_ShortCur">
+<media id="fs-id1172101942881" alt="Part a shows diagram of a toaster. Part b shows the circuit for part a with ac source voltage connected to two parallel resistors r and R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_ShortCur.jpg"/>
+</media>
+<caption>A short circuit is an undesired low-resistance path across a voltage source. (a) Worn insulation on the wires of a toaster allow them to come into contact with a low resistance <emphasis effect="italics">r</emphasis>. Since <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mi>r</m:mi></m:mrow></m:mrow></m:math>, thermal power is created so rapidly that the cord melts or burns. (b) A schematic of the short circuit.</caption>
+</figure>
+<para id="fs-id1172101895022">Another serious thermal hazard occurs when wires supplying power to an appliance are overloaded. Electrical wires and appliances are often rated for the maximum current they can safely handle. The term “overloaded” refers to a condition where the current exceeds the rated maximum current. As current flows through a wire, the power dissipated in the supply wires is <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>R</m:mi><m:mtext>W</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>W</m:mtext></m:msub></m:mrow></m:math> is the resistance of the wires and <emphasis effect="italics">I</emphasis> is the current flowing through the wires. If either <emphasis effect="italics">I</emphasis> or <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>W</m:mtext></m:msub></m:mrow></m:math> is too large, the wires overheat. Fuses and circuit breakers are used to limit excessive currents.</para>
+</section>
+<section id="fs-id1172099494115">
+<title>Shock Hazards</title>
+<para id="fs-id1172099892942">Electric shock is the physiological reaction or injury caused by an external electric current passing through the body. The effect of an electric shock can be negative or positive. When a current with a magnitude above 300 mA passes through the heart, death may occur. Most electrical shock fatalities occur because a current causes ventricular fibrillation, a massively irregular and often fatal, beating of the heart. On the other hand, a heart attack victim, whose heart is in fibrillation, can be saved by an electric shock from a defibrillator.</para>
+<para id="fs-id1172099626146">The effects of an undesirable electric shock can vary in severity: a slight sensation at the point of contact, pain, loss of voluntary muscle control, difficulty breathing, heart fibrillation, and possibly death. The loss of voluntary muscle control can cause the victim to not be able to let go of the source of the current.</para>
+<para id="fs-id1172101921157">The major factors upon which the severity of the effects of electrical shock depend are</para>
+<list id="fs-id1172101847649" list-type="enumerated" number-style="arabic">
+<item>The amount of current <emphasis effect="italics">I</emphasis></item>
+<item>The path taken by the current</item>
+<item>The duration of the shock</item>
+<item>The frequency <emphasis effect="italics">f</emphasis> of the current (<m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> for dc)</item>
+</list>
+<para id="fs-id1172101760173">Our bodies are relatively good electric conductors due to the body’s water content. A dangerous condition occurs when the body is in contact with a voltage source and “ground.” The term “ground” refers to a large sink or source of electrons, for example, the earth (thus, the name). When there is a direct path to ground, large currents will pass through the parts of the body with the lowest resistance and a direct path to ground. A safety precaution used by many professions is the wearing of insulated shoes. Insulated shoes prohibit a pathway to ground for electrons through the feet by providing a large resistance. Whenever working with high-power tools, or any electric circuit, ensure that you do not provide a pathway for current flow (especially across the heart). A common safety precaution is to work with one hand, reducing the possibility of providing a current path through the heart.</para>
+<para id="fs-id1172099588218">Very small currents pass harmlessly and unfelt through the body. This happens to you regularly without your knowledge. The threshold of sensation is only 1 mA and, although unpleasant, shocks are apparently harmless for currents less than 5 mA. A great number of safety rules take the 5-mA value for the maximum allowed shock. At 5–30 mA and above, the current can stimulate sustained muscular contractions, much as regular nerve impulses do (<link target-id="CNX_UPhysics_27_06_HotWire"/>). Very large currents (above 300 mA) cause the heart and diaphragm of the lung to contract for the duration of the shock. Both the heart and respiration stop. Both often return to normal following the shock.</para>
+<figure id="CNX_UPhysics_27_06_HotWire">
+<media id="fs-id1172101618163" alt="Part a shows a person thrown back after touching an electrically hot wire. Part b shows the hand of the person touching the electrically hot wire.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_HotWire.jpg"/>
+</media>
+<caption>An electric current can cause muscular contractions with varying effects. (a) The victim is “thrown” backward by involuntary muscle contractions that extend the legs and torso. (b) The victim can’t let go of the wire that is stimulating all the muscles in the hand. Those that close the fingers are stronger than those that open them.</caption>
+</figure>
+<para id="fs-id1172099475524">Current is the major factor determining shock severity. A larger voltage is more hazardous, but since <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> the severity of the shock depends on the combination of voltage and resistance. For example, a person with dry skin has a resistance of about <m:math><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>. If he comes into contact with 120-V ac, a current</para>
+<equation id="fs-id1172099476252" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.6</m:mn><m:mspace width="0.2em"/><m:mtext>mA</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172097144718">passes harmlessly through him. The same person soaking wet may have a resistance of <m:math><m:mrow><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> and the same 120 V will produce a current of 12 mA—above the “can’t let go” threshold and potentially dangerous.</para>
+</section>
+<section id="fs-id1172099898524">
+<title>Electrical Safety: Systems and Devices</title>
+<para id="fs-id1172099499895"><link target-id="CNX_UPhysics_27_06_ACCur"/>(a) shows the schematic for a simple ac circuit with no safety features. This is not how power is distributed in practice. Modern household and industrial wiring requires the <term>three-wire system</term>, shown schematically in part (b), which has several safety features, with live, neutral, and ground wires. First is the familiar circuit breaker (or fuse) to prevent thermal overload. Second is a protective case around the appliance, such as a toaster or refrigerator. The case’s safety feature is that it prevents a person from touching exposed wires and coming into electrical contact with the circuit, helping prevent shocks.</para>
+<figure id="CNX_UPhysics_27_06_ACCur">
+<media id="fs-id1172099514920" alt="Part a shows an ac voltage source connected to resistor R and part b shows schematic for three-wire system.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_ACCur.jpg"/>
+</media>
+<caption>(a) Schematic of a simple ac circuit with a voltage source and a single appliance represented by the resistance <emphasis effect="italics">R</emphasis>. There are no safety features in this circuit. (b) The three-wire system connects the neutral wire to ground at the voltage source and user location, forcing it to be at zero volts and supplying an alternative return path for the current through ground. Also grounded to zero volts is the case of the appliance. A circuit breaker or fuse protects against thermal overload and is in series on the active (live/hot) wire.</caption>
+</figure>
+<para id="fs-id1172099490504">There are three connections to ground shown in <link target-id="CNX_UPhysics_27_06_ACCur"/>(b). Recall that a ground connection is a low-resistance path directly to ground. The two ground connections on the neutral wire force it to be at zero volts relative to ground, giving the wire its name. This wire is therefore safe to touch even if its insulation, usually white, is missing. The neutral wire is the return path for the current to follow to complete the circuit. Furthermore, the two ground connections supply an alternative path through ground (a good conductor) to complete the circuit. The ground connection closest to the power source could be at the generating plant, whereas the other is at the user’s location. The third ground is to the case of the appliance, through the green ground wire, forcing the case, too, to be at zero volts. The live or hot wire (hereafter referred to as “live/hot”) supplies voltage and current to operate the appliance. <link target-id="CNX_UPhysics_27_06_Prong"/> shows a more pictorial version of how the three-wire system is connected through a three-prong plug to an appliance.</para>
+<figure id="CNX_UPhysics_27_06_Prong">
+<media id="fs-id1172097184180" alt="The figure shows schematic for three-wire system with three-prong plug.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_Prong.jpg"/>
+</media>
+<caption>The standard three-prong plug can only be inserted in one way, to ensure proper function of the three-wire system.</caption>
+</figure>
+<para id="fs-id1172099834177">Insulating plastic is color-coded to identify live/hot, neutral, and ground wires, but these codes vary around the world. It is essential to determine the color code in your region. Striped coatings are sometimes used for the benefit of those who are colorblind.</para>
+<para id="fs-id1172099587696">Grounding the case solves more than one problem. The simplest problem is worn insulation on the live/hot wire that allows it to contact the case, as shown in <link target-id="CNX_UPhysics_27_06_Insulate"/>. Lacking a ground connection, a severe shock is possible. This is particularly dangerous in the kitchen, where a good connection to ground is available through water on the floor or a water faucet. With the ground connection intact, the circuit breaker will trip, forcing repair of the appliance.</para>
+<figure id="CNX_UPhysics_27_06_Insulate">
+<media id="fs-id1172101896703" alt="Part a shows a person receiving shock as the ground connection is broken. Part b shows a diagram similar to part a but with proper ground connection so that the person does not receive a shock.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_Insulate.jpg"/>
+</media>
+<caption>Worn insulation allows the live/hot wire to come into direct contact with the metal case of this appliance. (a) The ground connection being broken, the person is severely shocked. The appliance may operate normally in this situation. (b) With a proper ground, the circuit breaker trips, forcing repair of the appliance.</caption>
+</figure>
+<para id="fs-id1172099598491">A <term class="no-emphasis">ground fault circuit interrupter</term> (GFCI) is a safety device found in updated kitchen and bathroom wiring that works based on electromagnetic induction. GFCIs compare the currents in the live/hot and neutral wires. When live/hot and neutral currents are not equal, it is almost always because current in the neutral is less than in the live/hot wire. Then some of the current, called a leakage current, is returning to the voltage source by a path other than through the neutral wire. It is assumed that this path presents a hazard. GFCIs are usually set to interrupt the circuit if the leakage current is greater than 5 mA, the accepted maximum harmless shock. Even if the leakage current goes safely to ground through an intact ground wire, the GFCI will trip, forcing repair of the leakage.</para>
+</section>
+<section id="fs-id1172099613599" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172102142489" list-type="bulleted" bullet-style="bullet">
+<item>The two types of electric hazards are thermal (excessive power) and shock (current through a person). Electrical safety systems and devices are employed to prevent thermal and shock hazards.</item>
+<item>Shock severity is determined by current, path, duration, and ac frequency.</item>
+<item>Circuit breakers and fuses interrupt excessive currents to prevent thermal hazards.</item>
+<item>The three-wire system guards against thermal and shock hazards, utilizing live/hot, neutral, and ground wires, and grounding the neutral wire and case of the appliance.</item>
+<item>A ground fault circuit interrupter (GFCI) prevents shock by detecting the loss of current to unintentional paths.</item>
+</list>
+</section>
+<section id="fs-id1172099397062" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1172097162216" class="unnumbered unstyled" summary="The table has two columns and twelve rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Terminal voltage of a single voltage source” and “V subscript terminal equals ε minus I r subscript eq”. The second row contains “Equivalent resistance of a series circuit” and “R subscript eq equals R subscript 1 plus R subscript 2 pus R subscript 3 plus R subscript N-1 plus R subscript N equals summation i equals 1 to N R subscript i”. The third row contains “Equivalent resistance of a parallel circuit” and “R subscript eq equals inverse of 1 divided by R subscript 1 plus 1 divided by R subscript 2 plus 1 divided by R subscript N equals inverse of summation of i equals 1 to N 1 divided by R subscript i”. The fourth row contains “Junction rule” and “summation I subscript in equals summation I subscript out”. The fifth row contains “Loop rule” and “summation of V equals 0”. The sixth row contains “Terminal voltage of N voltage sources in series” and “V subscript terminal equals summation i equals 1 to N ε subscript i minus I summation i equals 1 to N r subscript i equals summation i equals 1 to N ε subscript i minus I r subscript eq”. The seventh row contains “Terminal voltage of N voltage sources in parallel” and “V subscript terminal equals ε minus I summation i equals 1 to N inverse of 1 divided by r subscript i equals ε minus I r subscript eq”. The eighth row contains “Charge on a charging capacitor” and “C ε opening parenthesis 1 minus e power minus t divided by RC closing parenthesis equals Q opening parenthesis 1 minus e power minus t divided by τ closing parenthesis”. The ninth row contains “Time constant” and “τ equals R C”. The tenth row contains “Current during charging of a capacitor” and “I equals ε divided by R e power minus t divided by R C equals I subscript 0 e power minus t divided by R C”. The eleventh row contains “Charge on a discharging capacitor” and “q opening parenthesis t closing parenthesis equals Q e power minus t divided by τ”. The twelfth row contains “Current during discharging of a capacitor” and “I opening parenthesis t closing parenthesis equals minus Q divided by R C e power minus t divided by τ”.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Terminal voltage of a single voltage source</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:msub><m:mi>r</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Equivalent resistance of a series circuit</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:mtext>⋯</m:mtext><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mi>N</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mi>N</m:mi></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>R</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Equivalent resistance of a parallel circuit</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>R</m:mi><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mtext>⋯</m:mtext><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>R</m:mi><m:mi>N</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>R</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Junction rule</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Loop rule</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mi>V</m:mi></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Terminal voltage of <emphasis effect="italics">N</emphasis> voltage sources in series</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>ε</m:mi><m:mi>i</m:mi></m:msub><m:mo>−</m:mo><m:mi>I</m:mi><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>ε</m:mi><m:mi>i</m:mi></m:msub><m:mo>−</m:mo><m:mi>I</m:mi><m:msub><m:mi>r</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Terminal voltage of <emphasis effect="italics">N</emphasis> voltage sources in parallel</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:msup><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:msub><m:mi>r</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Charge on a charging capacitor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>ε</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mrow><m:mi>R</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>Q</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mi>τ</m:mi></m:mfrac></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Time constant</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>C</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Current during charging of a capacitor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mi>R</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mrow><m:mi>R</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msup><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mi>o</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mrow><m:mi>R</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Charge on a discharging capacitor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>Q</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mi>τ</m:mi></m:mfrac></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Current during discharging of a capacitor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mi>R</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mi>τ</m:mi></m:mfrac></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1172099717591" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172099412919">
+<problem id="fs-id1172099720584">
+<para id="fs-id1172097229335">Why isn’t a short circuit necessarily a shock hazard?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099575574">
+<problem id="fs-id1172101948865">
+<para id="fs-id1172101789314">We are often advised to not flick electric switches with wet hands, dry your hand first. We are also advised to never throw water on an electric fire. Why?</para>
+</problem>
+<solution id="fs-id1172099909660">
+<para id="fs-id1172099549934">Not only might water drip into the switch and cause a shock, but also the resistance of your body is lower when you are wet.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172099647494" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172101732659">
+<problem id="fs-id1172099651751">
+<para id="fs-id1172101618530">(a) How much power is dissipated in a short circuit of 240-V ac through a resistance of <m:math><m:mrow><m:mn>0.250</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>? (b) What current flows?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099682367">
+<problem id="fs-id1172099768000">
+<para id="fs-id1172101765113">What voltage is involved in a 1.44-kW short circuit through a <m:math><m:mrow><m:mn>0.100</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistance?</para>
+</problem>
+<solution id="fs-id1172099922492">
+<para id="fs-id1172101729561">12.0 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101731641">
+<problem id="fs-id1172101876901">
+<para id="fs-id1172099565817">Find the current through a person and identify the likely effect on her if she touches a 120-V ac source: (a) if she is standing on a rubber mat and offers a total resistance of <m:math><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>; (b) if she is standing barefoot on wet grass and has a resistance of only <m:math><m:mrow><m:mn>4000</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099486343">
+<problem id="fs-id1172102066555">
+<para id="fs-id1172099554641">While taking a bath, a person touches the metal case of a radio. The path through the person to the drainpipe and ground has a resistance of <m:math><m:mrow><m:mn>4000</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. What is the smallest voltage on the case of the radio that could cause ventricular fibrillation?</para>
+</problem>
+<solution id="fs-id1172099910088">
+<para id="fs-id1172101786937">400 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102074495">
+<problem id="fs-id1172099514412">
+<para id="fs-id1172097405218">A man foolishly tries to fish a burning piece of bread from a toaster with a metal butter knife and comes into contact with 120-V ac. He does not even feel it since, luckily, he is wearing rubber-soled shoes. What is the minimum resistance of the path the current follows through the person?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099476187">
+<problem id="fs-id1172099418350">
+<para id="fs-id1172102132725">(a) During surgery, a current as small as <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>A</m:mtext></m:mrow></m:math> applied directly to the heart may cause ventricular fibrillation. If the resistance of the exposed heart is <m:math><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo></m:mrow></m:math> what is the smallest voltage that poses this danger? (b) Does your answer imply that special electrical safety precautions are needed?</para>
+</problem>
+<solution id="fs-id1172099722023">
+<para id="fs-id1172101639594">a. 6.00 mV; b. It would not be necessary to take extra precautions regarding the power coming from the wall. However, it is possible to generate voltages of approximately this value from static charge built up on gloves, for instance, so some precautions are necessary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101884733">
+<problem id="fs-id1172097211279">
+<para id="fs-id1172101771844">(a) What is the resistance of a 220-V ac short circuit that generates a peak power of 96.8 kW? (b) What would the average power be if the voltage were 120 V ac?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101929188">
+<problem id="fs-id1172101837311">
+<para id="fs-id1172101729360">A heart defibrillator passes 10.0 A through a patient’s torso for 5.00 ms in an attempt to restore normal beating. (a) How much charge passed? (b) What voltage was applied if 500 J of energy was dissipated? (c) What was the path’s resistance? (d) Find the temperature increase caused in the 8.00 kg of affected tissue.</para>
+</problem>
+<solution id="fs-id1172099604261">
+<para id="fs-id1172099567421">a. <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C;</m:mtext></m:mrow></m:math> b. 10.0 kV; c. <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>kΩ</m:mtext><m:mspace width="0.2em"/></m:mrow></m:math>; d. <m:math><m:mrow><m:mn>1.79</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099646380">
+<problem id="fs-id1172101695829">
+<para id="fs-id1172101785902">A short circuit in a 120-V appliance cord has a <m:math><m:mrow><m:mn>0.500</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistance. Calculate the temperature rise of the 2.00 g of surrounding materials, assuming their specific heat capacity is <m:math><m:mrow><m:mn>0.200</m:mn><m:mspace width="0.2em"/><m:mtext>cal/g</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and that it takes 0.0500 s for a circuit breaker to interrupt the current. Is this likely to be damaging?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172102150575" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1172099544191">
+<problem id="fs-id1172102026791">
+<para id="fs-id1172099642064">A circuit contains a D cell battery, a switch, a <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor, and four 20-mF capacitors connected in series. (a) What is the equivalent capacitance of the circuit? (b) What is the <emphasis effect="italics">RC</emphasis> time constant? (c) How long before the current decreases to <m:math><m:mrow><m:mn>50</m:mn><m:mi>%</m:mi></m:mrow></m:math> of the initial value once the switch is closed?</para>
+</problem>
+<solution id="fs-id1172099647949">
+<para id="fs-id1172102143387">a. <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mtext>mF</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>0.1</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>; c. 0.069 s</para></solution>
+</exercise>
+<exercise id="fs-id1172102021422">
+<problem id="fs-id1172099695433">
+<para id="fs-id1172102060010">A circuit contains a D-cell battery, a switch, a <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor, and three 20-mF capacitors. The capacitors are connected in parallel, and the parallel connection of capacitors are connected in series with the switch, the resistor and the battery. (a) What is the equivalent capacitance of the circuit? (b) What is the <emphasis effect="italics">RC</emphasis> time constant? (c) How long before the current decreases to <m:math><m:mrow><m:mn>50</m:mn><m:mi>%</m:mi></m:mrow></m:math> of the initial value once the switch is closed?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099712314">
+<problem id="fs-id1172099604068">
+<para id="fs-id1172101707247">Consider the circuit below. The battery has an emf of <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>30.00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and an internal resistance of <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) Find the equivalent resistance of the circuit and the current out of the battery. (b) Find the current through each resistor. (c) Find the potential drop across each resistor. (d) Find the power dissipated by each resistor. (e) Find the total power supplied by the batteries.</para>
+<media id="fs-id1172099474677" alt="The figure shows positive terminal of voltage source of 30 V and internal resistance 1 Ω connected in series to two sets of parallel resistors. The first set has R subscript 1 of 9 Ω and R subscript 2 of 18 Ω. The second has R subscript 3 of 10 Ω and R subscript 4 of 10 Ω. The sets are connected in series to resistor R subscript 5 of 8 Ω.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_AP3_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099531653">
+<para id="fs-id1172099596741">a. <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>20.00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.75</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.75</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>5</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>;<newline/>
+c. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>7.50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>7.50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>5</m:mn></m:msub><m:mo>=</m:mo><m:mn>12.00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>;<newline/>
+d. <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:mn>2.25</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.50</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>5.625</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>5.625</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>5</m:mn></m:msub><m:mo>=</m:mo><m:mn>18.00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>;<newline/>
+e. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>45.00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101876445">
+<problem id="fs-id1172099526006">
+<para id="fs-id1172097234878">A homemade capacitor is constructed of 2 sheets of aluminum foil with an area of 2.00 square meters, separated by paper, 0.05 mm thick, of the same area and a dielectric constant of 3.7. The homemade capacitor is connected in series with a <m:math><m:mrow><m:mn>100.00</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor, a switch, and a 6.00-V voltage source. (a) What is the <emphasis effect="italics">RC</emphasis> time constant of the circuit? (b) What is the initial current through the circuit, when the switch is closed? (c) How long does it take the current to reach one third of its initial value?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101759500">
+<problem id="fs-id1172099386873">
+<para id="fs-id1172101903269">A student makes a homemade resistor from a graphite pencil 5.00 cm long, where the graphite is 0.05 mm in diameter. The resistivity of the graphite is <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:math>. The homemade resistor is place in series with a switch, a 10.00-mF uncharged capacitor and a 0.50-V power source. (a) What is the <emphasis effect="italics">RC</emphasis> time constant of the circuit? (b) What is the potential drop across the pencil 1.00 s after the switch is closed?</para>
+</problem>
+<solution id="fs-id1172099490758">
+<para id="fs-id1172102010842">a. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>Ω</m:mtext><m:mtext>m</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>3.14</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>0.05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mn>3.52</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0.014</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>3.52</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>351.59</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>=</m:mo><m:mn>0.376</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172101764479">
+<problem id="fs-id1172099456424">
+<para id="fs-id1172099551362">The rather simple circuit shown below is known as a voltage divider. The symbol consisting of three horizontal lines is represents “ground” and can be defined as the point where the potential is zero. The voltage divider is widely used in circuits and a single voltage source can be used to provide reduced voltage to a load resistor as shown in the second part of the figure. (a) What is the output voltage <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow></m:math> of circuit (a) in terms of <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub><m:mo>?</m:mo></m:mrow></m:math> (b) What is the output voltage <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow></m:math> of circuit (b) in terms of <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>R</m:mi><m:mi>L</m:mi></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172101793148" alt="Part a shows positive terminal of voltage source V subscript in connected in series to resistors R subscript 1 and R subscript 2. The negative terminal of the source is grounded and V subscript out is between the two resistors. Part b shows the same circuit as part a but with V subscript out connected to ground through resistor R subscript L.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_AP6_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172099514038">
+<problem id="fs-id1172101906046">
+<para id="fs-id1172099643460">Three <m:math><m:mrow><m:mn>300</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistors are connect in series with an AAA battery with a rating of 3 AmpHours. (a) How long can the battery supply the resistors with power? (b) If the resistors are connected in parallel, how long can the battery last?</para>
+</problem>
+<solution id="fs-id1172099526884">
+<para id="fs-id1172102023874">a. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>900</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1800</m:mn><m:mspace width="0.2em"/><m:mtext>h</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>h</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101779662">
+<problem id="fs-id1172099724294">
+<para id="fs-id1172101788265">Consider a circuit that consists of a real battery with an emf <m:math><m:mi>ε</m:mi></m:math> and an internal resistance of <emphasis effect="italics">r</emphasis> connected to a variable resistor <emphasis effect="italics">R</emphasis>. (a) In order for the terminal voltage of the battery to be equal to the emf of the battery, what should the resistance of the variable resistor be adjusted to? (b) In order to get the maximum current from the battery, what should the resistance of the variable resistor be adjusted to? (c) In order for the maximum power output of the battery to be reached, what should the resistance of the variable resistor be set to?</para></problem>
+</exercise>
+<exercise id="fs-id1172099386985">
+<problem id="fs-id1172102109647">
+<para id="fs-id1172101968439">Consider the circuit shown below. What is the energy stored in each capacitor after the switch has been closed for a very long time?</para>
+<media id="fs-id1172099906415" alt="The positive terminal of voltage source V of 12 V is connected to an open switch. The other end of the open switch is connected to resistor R subscript 1 of 100 Ω which is connected to two parallel branches. The first branch has capacitor C subscript 1 of 10 mF and R subscript 2 of 100 Ω. The second branch has R subscript 3 of 100 Ω and C subscript 2 of 4.7 mF.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_AP9_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099515983">
+<para id="fs-id1172099509373"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mn>0.72</m:mn><m:mtext>J</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>U</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mn>0.338</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172099414258">
+<problem id="fs-id1172099908439">
+<para id="fs-id1172102128849">Consider a circuit consisting of a battery with an emf <m:math><m:mi>ε</m:mi></m:math> and an internal resistance of <emphasis effect="italics">r</emphasis> connected in series with a resistor <emphasis effect="italics">R</emphasis> and a capacitor <emphasis effect="italics">C</emphasis>. Show that the total energy supplied by the battery while charging the battery is equal to <m:math><m:mrow><m:msup><m:mi>ε</m:mi><m:mn>2</m:mn></m:msup><m:mi>C</m:mi></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102066961">
+<problem id="fs-id1172101883529">
+<para id="fs-id1172101887424">Consider the circuit shown below. The terminal voltages of the batteries are shown. (a) Find the equivalent resistance of the circuit and the current out of the battery. (b) Find the current through each resistor. (c) Find the potential drop across each resistor. (d) Find the power dissipated by each resistor. (e) Find the total power supplied by the batteries.</para>
+<media id="fs-id1172102148682" alt="The figure shows two series voltage sources of 12 V each with upward negative terminals connected to four resistors. The sources are connected in series to resistor R subscript 1 of 14 Ω connected in series to two parallel resistors, R subscript 2 of 9 Ω and R subscript 3 of 18 Ω connected in series to resistor R subscript 4 of 4 Ω.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_01_P15_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101665126">
+<para id="fs-id1172099377125">a. <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>24.00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.67</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.33</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>;<newline/>
+c. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>14.00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>6.00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>6.00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>;<newline/>
+d.
+<m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>14.00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.04</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.96</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; e. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>24.00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101737782">
+<problem id="fs-id1172101922462">
+<para id="fs-id1172099548415">Consider the circuit shown below. (a) What is the terminal voltage of the battery? (b) What is the potential drop across resistor <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>?</para>
+<media id="fs-id1172101737830" alt="The negative terminal of voltage source V is connected to two parallel branches, one with resistor R subscript 1 of 40 Ω with downward current I subscript 1 of 50 mA and second with R subscript 2 of 5 Ω in series with R subscript 3 of 15 Ω.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_01_P16_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172102147484">
+<problem id="fs-id1172099522007">
+<para id="fs-id1172102104655">Consider the circuit shown below. (a)Determine the equivalent resistance and the current from the battery with switch <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> open. (b) Determine the equivalent resistance and the current from the battery with switch <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> closed.</para>
+<media id="fs-id1172099837201" alt="The negative terminal of voltage source of 12 V is connected to two parallel branches, one with resistor R subscript 1 of 8 Ω in series with resistor R subscript 4 of 8 Ω and second with R subscript 2 of 8 Ω in series with R subscript 3 of 8 Ω. The branches are connected together to resistor R subscript 5 of 4 Ω. An open switch S connects the two branches in the middle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_01_P17_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172097227552">
+<para id="fs-id1172101891854">a. <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>12.00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>12.00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101801960">
+<problem id="fs-id1172099703026">
+<para id="fs-id1172099750977">Two resistors, one having a resistance of <m:math><m:mrow><m:mn>145</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, are connected in parallel to produce a total resistance of <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. (a) What is the value of the second resistance? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099601463">
+<problem id="fs-id1172099566057">
+<para id="fs-id1172101911295">Two resistors, one having a resistance of <m:math><m:mrow><m:mn>900</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext><m:mo>,</m:mo></m:mrow></m:math> are connected in series to produce a total resistance of <m:math><m:mrow><m:mn>0.500</m:mn><m:mspace width="0.2em"/><m:mtext>M</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>. (a) What is the value of the second resistance? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?</para>
+</problem>
+<solution id="fs-id1172102120479">
+<para id="fs-id1172099657898">a. <m:math><m:mrow><m:mn>−400</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>; b. You cannot have negative resistance. c. The assumption that <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is unreasonable. Series resistance is always greater than any of the individual resistances.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099707203">
+<problem id="fs-id1172099647060">
+<para id="fs-id1172099799729">Apply the junction rule at point <emphasis effect="italics">a</emphasis> shown below.</para>
+<media id="fs-id1172101913402" alt="The figure shows a circuit with three horizontal branches and two vertical branches. The first horizontal branch has voltage source ε subscript 1 of 24 V and internal resistance 0.1 Ω with right positive terminal. The second horizontal branch has voltage source ε subscript 2 of 48 V and internal resistance 0.5 Ω with right positive terminal and resistor R subscript 2 of 40 Ω with right current I subscript 2. The third horizontal branch has voltage source ε subscript 3 of 6 V and internal resistance 0.05 Ω with left positive terminal. The first and second branches are connected on the left through resistor R subscript 1 of 5 Ω with upward current I subscript 1 and on the right through R subscript 5 of 20 Ω. The second and third branch are connected on the left through resistor R subscript 3 of 78 Ω with upward current I subscript 3 and on the right through voltage source ε subscript 4 of 36 V and internal resistance 0.2 Ω with upward positive terminal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_P12_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172097162326">
+<problem id="fs-id1172099665645">
+<para id="fs-id1172099760732">Apply the loop rule to Loop <emphasis effect="italics">akledcba</emphasis> in the preceding problem.</para>
+</problem>
+<solution id="fs-id1172101785346">
+<para id="fs-id1172101903230"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>5</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099554876">
+<problem id="fs-id1172099924055">
+<para id="fs-id1172101732843">Find the currents flowing in the circuit in the preceding problem. Explicitly show how you follow the steps in the <link target-id="fs-id1172100970039" document="m58454">Problem-Solving Strategy: Series and Parallel Resistors</link>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101971117">
+<problem id="fs-id1172102143971">
+<para id="fs-id1172099416823">Consider the circuit shown below. (a) Find the current through each resistor. (b) Check the calculations by analyzing the power in the circuit.</para>
+<media id="fs-id1172099417930" alt="The positive terminal of voltage source of 20 V and internal resistance 5 Ω is connected to two parallel branches. The first branch has resistors R subscript 1 of 15 Ω and R subscript 3 of 10 Ω. The second branch has resistors R subscript 2 of 10 Ω and R subscript 4 of 15 Ω. The two branches are connected in the middle using resistor R subscript 5 of 5 Ω.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_P15_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099498960">
+<para id="fs-id1172102146531">a. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>1.17</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.67</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.67</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>5</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.17</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>output</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>23.4</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>input</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>23.4</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099679879">
+<problem id="fs-id1172097137824">
+<para id="fs-id1172099811289">A flashing lamp in a Christmas earring is based on an <emphasis effect="italics">RC</emphasis> discharge of a capacitor through its resistance. The effective duration of the flash is 0.250 s, during which it produces an average 0.500 W from an average 3.00 V. (a) What energy does it dissipate? (b) How much charge moves through the lamp? (c) Find the capacitance. (d) What is the resistance of the lamp? (Since average values are given for some quantities, the shape of the pulse profile is not needed.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102117768">
+<problem id="fs-id1172102044423">
+<para id="fs-id1172101747764">A <m:math><m:mrow><m:mn>160</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor charged to 450 V is discharged through a <m:math><m:mrow><m:mn>31.2</m:mn><m:mtext>-k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor. (a) Find the time constant. (b) Calculate the temperature increase of the resistor, given that its mass is 2.50 g and its specific heat is <m:math><m:mrow><m:mn>1.67</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> noting that most of the thermal energy is retained in the short time of the discharge. (c) Calculate the new resistance, assuming it is pure carbon. (d) Does this change in resistance seem significant?</para>
+</problem>
+<solution id="fs-id1172099511434">
+<para id="fs-id1172101891897">a. 4.99 s; b. <m:math><m:mrow><m:mn>3.87</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>3.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; d. No, this change does not seem significant. It probably would not be noticed.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172099531735" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1172099898370">
+<problem id="fs-id1172099574631">
+<para id="fs-id1172099473826">Some camera flashes use flash tubes that require a high voltage. They obtain a high voltage by charging capacitors in parallel and then internally changing the connections of the capacitors to place them in series. Consider a circuit that uses four AAA batteries connected in series to charge six 10-mF capacitors through an equivalent resistance of <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. The connections are then switched internally to place the capacitors in series. The capacitors discharge through a lamp with a resistance of <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. (a) What is the <emphasis effect="italics">RC</emphasis> time constant and the initial current out of the batteries while they are connected in parallel? (b) How long does it take for the capacitors to charge to <m:math><m:mrow><m:mn>90</m:mn><m:mi>%</m:mi></m:mrow></m:math> of the terminal voltages of the batteries? (c) What is the <emphasis effect="italics">RC</emphasis> time constant and the initial current of the capacitors connected in series assuming it discharges at <m:math><m:mrow><m:mn>90</m:mn><m:mi>%</m:mi></m:mrow></m:math> of full charge? (d) How long does it take the current to decrease to <m:math><m:mrow><m:mn>10</m:mn><m:mi>%</m:mi></m:mrow></m:math> of the initial value?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102078125">
+<problem id="fs-id1172099877481">
+<para id="fs-id1172097139070">Consider the circuit shown below. Each battery has an emf of 1.50 V and an internal resistance of <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) What is the current through the external resistor, which has a resistance of 10.00 ohms? (b) What is the terminal voltage of each battery?</para>
+<media id="fs-id1172102099042" alt="The circuit shows three parallel branches. The first and second branch both have two voltage sources ε with positive terminals upward and internal resistances r. The third branch has a resistor R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP2_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099513429">
+<para id="fs-id1172099559243">a. 0.273 A; b. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mn>1.36</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099576644">
+<problem id="fs-id1172101797345">
+<para id="fs-id1172097198746">Analog meters use a galvanometer, which essentially consists of a coil of wire with a small resistance and a pointer with a scale attached. When current runs through the coil, the pointer turns; the amount the pointer turns is proportional to the amount of current running through the coil. Galvanometers can be used to make an ammeter if a resistor is placed in parallel with the galvanometer. Consider a galvanometer that has a resistance of <m:math><m:mrow><m:mn>25.00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> and gives a full scale reading when a <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>A</m:mtext></m:mrow></m:math> current runs through it. The galvanometer is to be used to make an ammeter that has a full scale reading of 10.00 A, as shown below. Recall that an ammeter is connected in series with the circuit of interest, so all 10 A must run through the meter. (a) What is the current through the parallel resistor in the meter? (b) What is the voltage across the parallel resistor? (c) What is the resistance of the series resistor?</para><media id="fs-id1172102130737" alt="The figure shows an ammeter with resistance R subscript M connected across resistor R subscript P with current of 10 A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP3_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172099479603">
+<problem id="fs-id1172101767924">
+<para id="fs-id1172101805829">Analog meters use a galvanometer, which essentially consists of a coil of wire with a small resistance and a pointer with a scale attached. When current runs through the coil, the point turns; the amount the pointer turns is proportional to the amount of current running through the coil. Galvanometers can be used to make a voltmeter if a resistor is placed in series with the galvanometer. Consider a galvanometer that has a resistance of <m:math><m:mrow><m:mn>25.00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> and gives a full scale reading when a <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>A</m:mtext></m:mrow></m:math> current runs through it. The galvanometer is to be used to make an voltmeter that has a full scale reading of 10.00 V, as shown below. Recall that a voltmeter is connected in parallel with the component of interest, so the meter must have a high resistance or it will change the current running through the component. (a) What is the potential drop across the series resistor in the meter? (b) What is the resistance of the parallel resistor?</para>
+<media id="fs-id1172101663186" alt="The figure shows a resistor R subscript S connected in series with a voltmeter with resistance R subscript M. The voltage difference across the ends is 10 V.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP4_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101738075">
+<para id="fs-id1172099608553">a. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:mi>V</m:mi><m:mo>−</m:mo><m:msub><m:mi>I</m:mi><m:mi>M</m:mi></m:msub><m:msub><m:mi>R</m:mi><m:mi>M</m:mi></m:msub><m:mo>=</m:mo><m:mn>9.99875</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mi>S</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mi>M</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>199.975</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099504170">
+<problem id="fs-id1172101760297">
+<para id="fs-id1172101945578">Consider the circuit shown below. Find <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172099406112" alt="The circuit shows positive terminal of voltage source V of 12 V connected to an ammeter connected to resistor R subscript 1 of 1 Ω with voltmeter across it connected to two parallel branches. The first branch has an ammeter connected to resistor R subscript 2 of 6 Ω and second branch has R subscript 3 of 13 Ω and voltmeter across it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP5_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172099905986">
+<problem id="fs-id1172099550431">
+<para id="fs-id1172101657309">Consider the circuit below. (a) What is the <emphasis effect="italics">RC</emphasis> time constant of the circuit? (b) What is the initial current in the circuit once the switch is closed? (c) How much time passes between the instant the switch is closed and the time the current has reached half of the initial current?</para>
+<media id="fs-id1172099409575" alt="The circuit shows positive terminal of voltage source V subscript 1 of 24 V connected to negative terminal of voltage source of voltage source V subscript 2 of 24 V. The positive terminal of V subscript 2 is connected to an open switch. The other end of the switch is connected to capacitor C subscript 1 of 100 mF which is connected to two parallel branches, one with resistor R subscript 2 of 10 kΩ and other with R subscript 1 of 10 kΩ and R subscript 3 of 30 kΩ. The two branches are connected to source V subscript 1 through resistor R subscript 4 of 30 kΩ.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP6_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101918475">
+<para id="fs-id1172099477643">a. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>3800</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>; b. 1.26 mA; c. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2633.96</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172099515898">
+<problem id="fs-id1172101888472">
+<para id="fs-id1172101812363">Consider the circuit below. (a) What is the initial current through resistor <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> when the switch is closed? (b) What is the current through resistor <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> when the capacitor is fully charged, long after the switch is closed? (c) What happens if the switch is opened after it has been closed for some time? (d) If the switch has been closed for a time period long enough for the capacitor to become fully charged, and then the switch is opened, how long before the current through resistor <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> reaches half of its initial value?</para>
+<media id="fs-id1172101618414" alt="The positive terminal of voltage source V subscript 1 of 24 V is connected to an open switch. The other end of the switch is connected to two parallel branches, one with resistor R subscript 1 of 10 kΩ and other with capacitor C of 10 μF. The two branches are connected to source V subscript 1 through resistor R subscript 2 of 30 kΩ.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP7_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172102054924">
+<problem id="fs-id1172101987117">
+<para id="fs-id1172099901779">Consider the infinitely long chain of resistors shown below. What is the resistance between terminals <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>?</para>
+<media id="fs-id1172102150170" alt="The circuit shows infinitely long circuit with vertical resistor R and its two ends connected to horizontal branches with resistors R connected to vertical resistor R connected to horizontal branches with resistors R and so on..">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP8_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172102054644">
+<para id="fs-id1172102044295"><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>R</m:mi></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172101753211">
+<problem id="fs-id1172102096973">
+<para id="fs-id1172097274213">Consider the circuit below. The capacitor has a capacitance of 10 mF. The switch is closed and after a long time the capacitor is fully charged. (a) What is the current through each resistor a long time after the switch is closed? (b) What is the voltage across each resistor a long time after the switch is closed? (c) What is the voltage across the capacitor a long time after the switch is closed? (d) What is the charge on the capacitor a long time after the switch is closed? (e) The switch is then opened. The capacitor discharges through the resistors. How long from the time before the current drops to one fifth of the initial value?</para>
+<media id="fs-id1172099660463" alt="The positive terminal of voltage source V of 12 V is connected to an open switch. The other end of the switch is connected to two parallel branches. The first branch has resistors R subscript 2 of 2 Ω and R subscript 2 of 4 Ω. The second branch has resistors R subscript 3 of 3 Ω and R subscript 4 of 3 Ω. The two branches are connected in the middle using capacitor C. The other ends of the branches are grounded.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP9_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172101714914">
+<problem id="fs-id1172102116965">
+<para id="fs-id1172099381858">A 120-V immersion heater consists of a coil of wire that is placed in a cup to boil the water. The heater can boil one cup of <m:math><m:mrow><m:mn>20.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> water in 180.00 seconds. You buy one to use in your dorm room, but you are worried that you will overload the circuit and trip the 15.00-A, 120-V circuit breaker, which supplies your dorm room. In your dorm room, you have four 100.00-W incandescent lamps and a 1500.00-W space heater. (a) What is the power rating of the immersion heater? (b) Will it trip the breaker when everything is turned on? (c) If it you replace the incandescent bulbs with 18.00-W LED, will the breaker trip when everything is turned on?</para>
+</problem>
+<solution id="fs-id1172099467024">
+<para id="fs-id1172099627454">a. <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>imheater</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mtext>cup</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>0.000237</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mtext>cup</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1000</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4186</m:mn><m:mfrac><m:mtext>J</m:mtext><m:mrow><m:mtext>kg °C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>180.00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>441</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>441</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>1500</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>19.51</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>; Yes, the breaker will trip.<newline/>
+c. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>441</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>1500</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>16.78</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>; Yes, the breaker will trip.</para></solution>
+</exercise>
+<exercise id="fs-id1172099380030">
+<problem id="fs-id1172101808620">
+<para id="fs-id1172099496269">Find the resistance that must be placed in series with a <m:math><m:mrow><m:mn>25.0</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> galvanometer having a <m:math><m:mrow><m:mn>50.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>A</m:mtext></m:mrow></m:math> sensitivity (the same as the one discussed in the text) to allow it to be used as a voltmeter with a 3000-V full-scale reading. Include a circuit diagram with your solution.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172097224528">
+<problem id="fs-id1172101802255">
+<para id="fs-id1172099391441">Find the resistance that must be placed in parallel with a <m:math><m:mrow><m:mn>60.0</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> galvanometer having a 1.00-mA sensitivity (the same as the one discussed in the text) to allow it to be used as an ammeter with a 25.0-A full-scale reading. Include a circuit diagram with your solution.</para>
+</problem>
+<solution id="fs-id1172102100616">
+<para id="fs-id1172099376204"><newline/>
+<media id="fs-id1172099841628" alt="The figure shows a circuit with two parallel branches, one with galvanometer connected to resistors r and other with resistor R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP12ans_img.jpg"/>
+</media>,<newline/>
+<m:math><m:mrow><m:mn>2.40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172101769292">
+<term>shock hazard</term>
+<meaning id="fs-id1172101694531">hazard in which an electric current passes through a person</meaning>
+</definition>
+<definition id="fs-id1172101793967">
+<term>thermal hazard</term>
+<meaning id="fs-id1172099501602">hazard in which an excessive electric current causes undesired thermal effects</meaning>
+</definition>
+<definition id="fs-id1172101727117">
+<term>three-wire system</term>
+<meaning id="fs-id1172101920492">wiring system used at present for safety reasons, with live, neutral, and ground wires</meaning>
+</definition>
+</glossary>
+</document>

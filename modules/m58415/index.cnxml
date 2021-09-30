@@ -1,0 +1,377 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Coulomb's Law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58415</md:content-id>
+  <md:title>Coulomb's Law</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the electric force, both qualitatively and quantitatively</item>
+<item>Calculate the force that charges exert on each other</item>
+<item>Determine the direction of the electric force for different source charges</item>
+<item>Correctly describe and apply the superposition principle for multiple source charges</item>
+</list></md:abstract>
+  <md:uuid>52d546ba-2f67-4a92-95fb-22616f0db40e</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172097610533">Experiments with electric charges have shown that if two objects each have electric charge, then they exert an electric force on each other. The magnitude of the force is linearly proportional to the net charge on each object and inversely proportional to the square of the distance between them. (Interestingly, the force does not depend on the mass of the objects.) The direction of the force vector is along the imaginary line joining the two objects and is dictated by the signs of the charges involved.</para>
+<para id="fs-id1172101931913">Let</para>
+<list id="fs-id1172099724185" list-type="bulleted" bullet-style="bullet">
+<item><m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo></m:mrow></m:math> the net electric charges of the two objects;</item>
+<item><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo></m:mrow></m:math> the vector displacement from <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> to <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</item>
+</list>
+<para id="fs-id1172101812412">The electric force <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> on one of the charges is proportional to the magnitude of its own charge and the magnitude of the other charge, and is inversely proportional to the square of the distance between them:</para>
+<equation id="fs-id1172099757432" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>∝</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>12</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099929548">This proportionality becomes an equality with the introduction of a proportionality constant. For reasons that will become clear in a later chapter, the proportionality constant that we use is actually a collection of constants. (We discuss this constant shortly.)</para>
+<note id="fs-id1172099567908">
+<title>Coulomb’s Law</title>
+<para id="fs-id1172101724320">The magnitude of the electric force (or <term>Coulomb force</term>) between two electrically charged particles is equal to</para><equation id="fs-id1172101794041"><m:math>
+  <m:mrow>
+    <m:mo stretchy="false">|</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold" mathsize="normal">
+        <m:mtext>F</m:mtext>
+      </m:mstyle>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo stretchy="false">|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mspace width="0.2em"/>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mo>|</m:mo>
+          <m:mrow>
+            <m:msub>
+              <m:mi>q</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>q</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:mo>|</m:mo>
+        </m:mrow>
+      </m:mrow>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>r</m:mi>
+          <m:mn>12</m:mn>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math></equation><para id="fs-id1172101795940">If the charges have the same sign, the force is in the same direction as <m:math><m:mrow><m:mi>r</m:mi></m:mrow></m:math> showing a repelling force. If the charges have different signs, the force is in the opposite direction of <m:math><m:mrow><m:mi>r</m:mi></m:mrow></m:math> showing an attracting force. (<link target-id="CNX_UPhysics_22_03_Magnitude"/>).</para></note>
+<figure id="CNX_UPhysics_22_03_Magnitude">
+<media id="fs-id1172102063159" alt="In part a, two charges q one and q two are shown separated by a distance r. Force vector arrow F one two points toward left and acts on q one. Force vector arrow F two one points toward right and acts on q two. Both forces act in opposite directions and are represented by arrows of same length. In part b, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward right and acts on q one. Force vector arrow F two one points toward left and acts on q two. Both forces act toward each other and are represented by arrows of same length.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Magnitude.jpg"/>
+</media>
+<caption>The electrostatic force <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> between point charges <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> separated by a distance <emphasis effect="italics">r</emphasis> is given by Coulomb’s law. Note that Newton’s third law (every force exerted creates an equal and opposite force) applies as usual—the force on <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is equal in magnitude and opposite in direction to the force it exerts on <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. (a) Like charges; (b) unlike charges.</caption>
+</figure>
+<para id="fs-id1172099472678">It is important to note that the electric force is not constant; it is a function of the separation distance between the two charges. If either the test charge or the source charge (or both) move, then <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> changes, and therefore so does the force. An immediate consequence of this is that direct application of Newton’s laws with this force can be mathematically difficult, depending on the specific problem at hand. It can (usually) be done, but we almost always look for easier methods of calculating whatever physical quantity we are interested in. (Conservation of energy is the most common choice.)</para>
+<para id="fs-id1172101974787">Finally, the new constant <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> in Coulomb’s law is called the <emphasis effect="italics">permittivity of free space</emphasis>, or (better) the <term>permittivity of vacuum</term>. It has a very important physical meaning that we will discuss in a later chapter; for now, it is simply an empirical proportionality constant. Its numerical value (to three significant figures) turns out to be</para>
+<equation id="fs-id1172099511638" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101855087">These units are required to give the force in Coulomb’s law the correct units of newtons. Note that in Coulomb’s law, the permittivity of vacuum is only part of the proportionality constant. For convenience, we often define a Coulomb’s constant:</para>
+<equation id="fs-id1172099755533" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mi>e</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<example id="fs-id1172099489022">
+<para id="fs-id1172099585260"><title>The Force on the Electron in Hydrogen</title>
+A hydrogen atom consists of a single proton and a single electron. The proton has a charge of <m:math><m:mrow><m:mtext>+</m:mtext><m:mi>e</m:mi></m:mrow></m:math> and the electron has <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>e</m:mi></m:mrow></m:math>. In the “ground state” of the atom, the electron orbits the proton at most probable distance of <m:math><m:mrow><m:mn>5.29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> (<link target-id="CNX_UPhysics_22_03_HForce"/>). Calculate the electric force on the electron due to the proton.</para>
+<figure id="CNX_UPhysics_22_03_HForce">
+<media id="fs-id1172099501398" alt="A positive charge is shown at the center of a sphere of radius r. An electron is depicted as a particle on the sphere. The force on the electron is along the radius, toward the nucleus.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_HForce.jpg"/>
+</media>
+<caption>A schematic depiction of a hydrogen atom, showing the force on the electron. This depiction is only to enable us to calculate the force; the hydrogen atom does not really look like this. Recall <link document="m58412" target-id="CNX_UPhysics_22_01_Atom"/>.</caption>
+</figure>
+<para id="fs-id1172101755022"><title>Strategy</title>
+For the purposes of this example, we are treating the electron and proton as two point particles, each with an electric charge, and we are told the distance between them; we are asked to calculate the force on the electron. We thus use Coulomb’s law.</para>
+<para id="fs-id1172099514516"><title>Solution</title>
+Our two charges and the distance between them are,</para>
+<equation id="fs-id1172099910051" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>+</m:mtext><m:mi>e</m:mi><m:mo>=</m:mo><m:mtext>+</m:mtext><m:mn>1.602</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>−1.602</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5.29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1172101838637">The magnitude of the force on the electron is</para>
+<equation id="fs-id1172099559045" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ϵ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>e</m:mi><m:mo>|</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.602</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5.29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8.25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102143999">As for the direction, since the charges on the two particles are opposite, the force is attractive; the force on the electron points radially directly toward the proton, everywhere in the electron’s orbit. The force is thus expressed as</para>
+<equation id="fs-id1172099694822" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099835778"><title>Significance</title>
+This is a three-dimensional system, so the electron (and therefore the force on it) can be anywhere in an imaginary spherical shell around the proton. In this “classical” model of the hydrogen atom, the electrostatic force on the electron points in the inward centripetal direction, thus maintaining the electron’s orbit. But note that the quantum mechanical model of hydrogen (discussed in <link document="m58573">Quantum Mechanics</link>) is utterly different.</para>
+</example>
+<note id="fs-id1172101841078" class="check-understanding">
+<exercise id="fs-id1172102150516">
+<problem id="fs-id1172102147044">
+<para id="fs-id1172102121201"><emphasis effect="bold">Check Your Understanding</emphasis> What would be different if the electron also had a positive charge?</para>
+</problem>
+<solution id="fs-id1172102004454">
+<para id="fs-id1172099377124">The force would point outward.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1172099762734">
+<title>Multiple Source Charges</title>
+<para id="fs-id1172101924012">The analysis that we have done for two particles can be extended to an arbitrary number of particles; we simply repeat the analysis, two charges at a time. Specifically, we ask the question: Given <emphasis effect="italics">N</emphasis> charges (which we refer to as source charge), what is the net electric force that they exert on some other point charge (which we call the test charge)? Note that we use these terms because we can think of the test charge being used to test the strength of the force provided by the source charges.</para>
+<para id="fs-id1172102004552">Like all forces that we have seen up to now, the net electric force on our test charge is simply the vector sum of each individual electric force exerted on it by each of the individual source charges. Thus, we can calculate the net force on the test charge <emphasis effect="italics">Q</emphasis> by calculating the force on it from each source charge, taken one at a time, and then adding all those forces together (as vectors). This ability to simply add up individual forces in this way is referred to as the <term>principle of superposition</term>, and is one of the more important features of the electric force. In mathematical form, this becomes</para>
+<note id="fs-id1172102100498" class="equation-callout">
+<equation id="fs-id1172101928151"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mi>Q</m:mi><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172099408965">In this expression, <emphasis effect="italics">Q</emphasis> represents the charge of the particle that is experiencing the electric force <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>, and is located at <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> from the origin; the <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub><m:mtext>’s</m:mtext></m:mrow></m:math> are the <emphasis effect="italics">N</emphasis> source charges, and the vectors <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub></m:mrow></m:math> are the displacements from the position of the <emphasis effect="italics">i</emphasis>th charge to the position of <emphasis effect="italics">Q</emphasis>. Each of the <emphasis effect="italics">N</emphasis> unit vectors points directly from its associated source charge toward the test charge. All of this is depicted in <link target-id="CNX_UPhysics_22_03_8Sources"/>. Please note that there is no physical difference between <emphasis effect="italics">Q</emphasis> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math>; the difference in labels is merely to allow clear discussion, with <emphasis effect="italics">Q</emphasis> being the charge we are determining the force on.</para>
+<figure id="CNX_UPhysics_22_03_8Sources">
+<media id="fs-id1172099736093" alt="Eight source charges are shown as small spheres distributed within an x y z coordinate system. The sources are labeled q sub 1, q sub 2, and so on. Sources 1, 2, 4, 7 and 8 are shaded red and sources 3, 5, and 6 are shaded blue. A test charge is also shown, shaded in green and labeled as plus Q. The r vectors from each source to the test charge Q are shown as arrows with tails at the sources and heads at the test charge. The vector from q sub 1 to the test charge is labeled as r sub 1. The vector from q sub 2 to the test charge is labeled as r sub 2, and so on for all eight vectors.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_8Sources.jpg"/>
+</media>
+<caption>The eight source charges each apply a force on the single test charge <emphasis effect="italics">Q</emphasis>. Each force can be calculated independently of the other seven forces. This is the essence of the superposition principle.</caption>
+</figure>
+<para id="fs-id1172099538234">(Note that the force vector <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub></m:mrow></m:math> does not necessarily point in the same direction as the unit vector <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub></m:mrow></m:math>; it may point in the opposite direction, <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub></m:mrow></m:math>. The signs of the source charge and test charge determine the direction of the force on the test charge.)</para>
+<para id="fs-id1172099601806">There is a complication, however. Just as the source charges each exert a force on the test charge, so too (by Newton’s third law) does the test charge exert an equal and opposite force on each of the source charges. As a consequence, each source charge would change position. However, by <link target-id="fs-id1172101928151"/>, the force on the test charge is a function of position; thus, as the positions of the source charges change, the net force on the test charge necessarily changes, which changes the force, which again changes the positions. Thus, the entire mathematical analysis quickly becomes intractable. Later, we will learn techniques for handling this situation, but for now, we make the simplifying assumption that the source charges are fixed in place somehow, so that their positions are constant in time. (The test charge is allowed to move.) With this restriction in place, the analysis of charges is known as <term>electrostatics</term>, where “statics” refers to the constant (that is, static) positions of the source charges and the force is referred to as an <term>electrostatic force</term>.</para>
+<example id="fs-id1172099475707">
+<para id="fs-id1172099909360"><title>The Net Force from Two Source Charges</title>
+Three different, small charged objects are placed as shown in <link target-id="CNX_UPhysics_22_03_3Charges"/>. The charges <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> are fixed in place; <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is free to move. Given <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>e</m:mi></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>e</m:mi></m:mrow></m:math>, and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>−5</m:mn><m:mi>e</m:mi></m:mrow></m:math>, and that <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, what is the net force on the middle charge <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>?</para>
+<figure id="CNX_UPhysics_22_03_3Charges">
+<media id="fs-id1172102146343" alt="Three charges are shown in an x y coordinate system. Charge q sub 1 is at x=0, y=d. Charge q sub 2 is at x=2 d, y=0. Charge q sub 3 is at the origin. Force F 1 2 is exerted on charge q sub 2 and points up. Force F 2 3 is exerted on charge q sub 2 and points to the left. Force F is exerted on charge q sub 2 and points at an angle theta above the minus x direction.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_3Charges.jpg"/>
+</media>
+<caption>Source charges <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> each apply a force on <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1172099390872"><title>Strategy</title>
+We use Coulomb’s law again. The way the question is phrased indicates that <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is our test charge, so that <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> are source charges. The principle of superposition says that the force on <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> from each of the other charges is unaffected by the presence of the other charge. Therefore, we write down the force on <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> from each and add them together as vectors.</para>
+<para id="fs-id1172102122912"><title>Solution</title>
+We have two source charges <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> a test charge <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> distances <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>r</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> and we are asked to find a force. This calls for Coulomb’s law and superposition of forces. There are two forces:</para>
+<equation id="fs-id1172099896236" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>21</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>23</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099542403">We can’t add these forces directly because they don’t point in the same direction: <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow></m:math> points only in the −<emphasis effect="italics">x</emphasis>-direction, while <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow></m:math> points only in the +<emphasis effect="italics">y</emphasis>-direction. The net force is obtained from applying the Pythagorean theorem to its <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-components:</para>
+<equation id="fs-id1172099604190" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>F</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>F</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt></m:mrow></m:math></equation>
+<para id="fs-id1172101888332">where</para>
+<equation id="fs-id1172099604261" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>F</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mrow><m:mn>23</m:mn></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.806</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mn>2.16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>−14</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1172102132240">and</para>
+<equation id="fs-id1172099504100" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mrow><m:mn>21</m:mn></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.806</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.204</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>3.46</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1172099399179">We find that</para>
+<equation id="fs-id1172101882504" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>F</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>F</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>4.08</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172101773358">at an angle of</para>
+<equation id="fs-id1172101932254" class="unnumbered"><label/><m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3.46</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>−2.16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−58</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099695624">that is, <m:math><m:mrow><m:mn>58</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> above the −<emphasis effect="italics">x</emphasis>-axis, as shown in the diagram.</para>
+<para id="fs-id1172101674922"><title>Significance</title>
+Notice that when we substituted the numerical values of the charges, we did not include the negative sign of either <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> or <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>. Recall that negative signs on vector quantities indicate a reversal of direction of the vector in question. But for electric forces, the direction of the force is determined by the types (signs) of both interacting charges; we determine the force directions by considering whether the signs of the two charges are the same or are opposite. If you also include negative signs from negative charges when you substitute numbers, you run the risk of mathematically reversing the direction of the force you are calculating. Thus, the safest thing to do is to calculate just the magnitude of the force, using the absolute values of the charges, and determine the directions physically.</para>
+<para id="fs-id1172099627103">It’s also worth noting that the only new concept in this example is how to calculate the electric forces; everything else (getting the net force from its components, breaking the forces into their components, finding the direction of the net force) is the same as force problems you have done earlier.</para>
+</example>
+<note id="fs-id1172099559933" class="check-understanding">
+<exercise id="fs-id1172097559395">
+<problem id="fs-id1172099534835">
+<para id="fs-id1172097262610"><emphasis effect="bold">Check Your Understanding</emphasis> What would be different if <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> were negative?</para>
+</problem>
+<solution id="fs-id1172099692895">
+<para id="fs-id1172099471419">The net force would point <m:math><m:mrow><m:mn>58</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> below the −<emphasis effect="italics">x</emphasis>-axis.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1172099623126" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172099455029" list-type="bulleted" bullet-style="bullet"><item>Coulomb’s law gives the magnitude of the force vector between point charges. It is
+<equation id="fs-id1172099586199" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>12</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:math></equation>
+where <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are two point charges separated by a distance <emphasis effect="italics">r</emphasis>. This Coulomb force is extremely basic, since most charges are due to point-like particles. It is responsible for all electrostatic effects and underlies most macroscopic forces.</item>
+</list></section>
+<section id="fs-id1172102053876" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172099512202">
+<problem id="fs-id1172102131619">
+<para id="fs-id1172099881184">Would defining the charge on an electron to be positive have any effect on Coulomb’s law?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101788947">
+<problem id="fs-id1172099565873">
+<para id="fs-id1172099663788">An atomic nucleus contains positively charged protons and uncharged neutrons. Since nuclei do stay together, what must we conclude about the forces between these nuclear particles?</para>
+</problem>
+<solution id="fs-id1172099391151">
+<para id="fs-id1172099390576">The force holding the nucleus together must be greater than the electrostatic repulsive force on the protons.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172097273140">
+<problem id="fs-id1172097145494">
+<para id="fs-id1172099664859">Is the force between two fixed charges influenced by the presence of other charges?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172101999615" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172097144446">
+<problem id="fs-id1172102121173">
+<para id="fs-id1172099531171">Two point particles with charges <m:math><m:mrow><m:mtext>+3</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mtext>+5</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> are held in place by 3-N forces on each charge in appropriate directions. (a) Draw a free-body diagram for each particle. (b) Find the distance between the charges.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172097163561">
+<problem id="fs-id1172099692854">
+<para id="fs-id1172101774836">Two charges <m:math><m:mrow><m:mtext>+3</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mtext>+12</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> are fixed 1 m apart, with the second one to the right. Find the magnitude and direction of the net force on a −2-nC charge when placed at the following locations: (a) halfway between the two (b) half a meter to the left of the <m:math><m:mrow><m:mtext>+3</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> charge (c) half a meter above the <m:math><m:mrow><m:mtext>+12</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> charge in a direction perpendicular to the line joining the two fixed charges</para>
+</problem>
+<solution id="fs-id1172102129194">
+<para id="fs-id1172099516020">a. charge 1 is <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math>; charge 2 is <m:math><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mn>31</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> to the left,<newline/>
+<m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mn>32</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>8.63</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> to the right,<newline/>
+<m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>6.47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> to the right;<newline/>
+b. <m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mn>31</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> to the right,<newline/>
+<m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mn>32</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>9.59</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> to the right,<newline/>
+<m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3.12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> to the right,<newline/>
+<media id="fs-id1172099890607" alt="Three charges are shown. Charge 1 is a 3 micro Coulomb charge at the bottom left. Charge 2 is a 12 micro Coulomb charge at the bottom right, 1 meter to the right of charge 1. Charge 3 is a minus 2 nano Coulomb charge 0.5 meters above charge 2. The charges define a right triangle, with charge 2 at the right angle. The angle at the vertex with charge one is theta. The forces on charge three are shown. F 3 1 points down and to the left, toward charge 1. Force F 3 2 points vertically down.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_P2ans_img.jpg"/>
+</media>;<newline/>
+c. <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>31</m:mn><m:mi>x</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>−3.86</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>31</m:mn><m:mi>y</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>−1.73</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>32</m:mn><m:mi>y</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>−8.63</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math><newline/>
+<m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>−3.86</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>8.83</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd></m:mtr></m:mtable></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172099383646">
+<problem id="fs-id1172099414968">
+<para id="fs-id1172099760731">In a salt crystal, the distance between adjacent sodium and chloride ions is <m:math><m:mrow><m:mn>2.82</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the force of attraction between the two singly charged ions?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101899950">
+<problem id="fs-id1172101760043">
+<para id="fs-id1172101922462">Protons in an atomic nucleus are typically <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> apart. What is the electric force of repulsion between nuclear protons?</para>
+</problem>
+<solution id="fs-id1172099743293">
+<para id="fs-id1172099877481"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>230.7</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101732516">
+<problem id="fs-id1172102121749">
+<para id="fs-id1172102150042">Suppose Earth and the Moon each carried a net negative charge −<emphasis effect="italics">Q</emphasis>. Approximate both bodies as point masses and point charges.</para>
+<para id="fs-id1172101735570">(a) What value of <emphasis effect="italics">Q</emphasis> is required to balance the gravitational attraction between Earth and the Moon?</para>
+<para id="fs-id1172102115073">(b) Does the distance between Earth and the Moon affect your answer? Explain.</para>
+<para id="fs-id1172099534716">(c) How many electrons would be needed to produce this charge?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102137332">
+<problem id="fs-id1172099902528">
+<para id="fs-id1172101788737">Point charges <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>−25</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> are placed 1.0 m apart. What is the force on a third charge <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> placed midway between <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172102132120">
+<para id="fs-id1172101748114"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>53.94</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099525481">
+<problem id="fs-id1172099674460">
+<para id="fs-id1172102020750">Where must <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> of the preceding problem be placed so that the net force on it is zero?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101729667">
+<problem id="fs-id1172099506686">
+<para id="fs-id1172102136189">Two small balls, each of mass 5.0 g, are attached to silk threads 50 cm long, which are in turn tied to the same point on the ceiling, as shown below. When the balls are given the same charge <emphasis effect="italics">Q</emphasis>, the threads hang at <m:math><m:mrow><m:mn>5.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to the vertical, as shown below. What is the magnitude of <emphasis effect="italics">Q</emphasis>? What are the signs of the two charges?</para>
+<media id="fs-id1172101765047" alt="Two small balls are attached to threads which are in turn tied to the same point on the ceiling. The threads hang at an angle of 5.0 degrees to either side of the vertical. Each ball has a charge Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Ex8_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101880513">
+<para id="fs-id1172102103281">The tension is <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0.049</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>. The horizontal component of the tension is <m:math><m:mrow><m:mn>0.0043</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0.088</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mspace width="1em"/><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>6.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math>.<newline/>
+The charges can be positive or negative, but both have to be the same sign.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102028786">
+<problem id="fs-id1172102070807">
+<para id="fs-id1172102100388">Point charges <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> are located at <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>2.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>5.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>k</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mtext>m</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>5.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>9.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>k</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>. What is the force of <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> on <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099730376">
+<problem id="fs-id1172097384341">
+<para id="fs-id1172099646785">The net excess charge on two small spheres (small enough to be treated as point charges) is <emphasis effect="italics">Q</emphasis>. Show that the force of repulsion between the spheres is greatest when each sphere has an excess charge <emphasis effect="italics">Q</emphasis>/2. Assume that the distance between the spheres is so large compared with their radii that the spheres can be treated as point charges.</para>
+</problem>
+<solution id="fs-id1172102151503">
+<para id="fs-id1172099524021">Let the charge on one of the spheres be <emphasis effect="italics">nQ</emphasis>, where <emphasis effect="italics">n</emphasis> is a fraction between 0 and 1. In the numerator of Coulomb’s law, the term involving the charges is <m:math><m:mrow><m:mi>n</m:mi><m:mi>Q</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mi>Q</m:mi><m:mo>.</m:mo></m:mrow></m:math> This is equal to <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mi>Q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Finding the maximum of this term gives <m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">⇒</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172099506982">
+<problem id="fs-id1172099546649">
+<para id="fs-id1172099693388">Two small, identical conducting spheres repel each other with a force of 0.050 N when they are 0.25 m apart. After a conducting wire is connected between the spheres and then removed, they repel each other with a force of 0.060 N. What is the original charge on each sphere?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101775594">
+<problem id="fs-id1172101659525">
+<para id="fs-id1172101879920">A charge <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> is placed at the point <emphasis effect="italics">P</emphasis> shown below. What is the force on <emphasis effect="italics">q</emphasis>?</para>
+<media id="fs-id1172101793656" alt="Two charges are shown, placed on a horizontal line and separated by 2.0 meters. The charge on the left is a positive 1.0 micro Coulomb charge. The charge on the right is a negative 2.0 micro Coulomb charge. Point P is 1.0 to the right of the negative charge.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Prob12_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099376641">
+<para id="fs-id1172099613110">Define right to be the positive direction and hence left is the negative direction, then <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>−0.05</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101659337">
+<problem id="fs-id1172101659339">
+<para id="fs-id1172099762991">What is the net electric force on the charge located at the lower right-hand corner of the triangle shown here?</para>
+<media id="fs-id1172101753608" alt="Charges are shown at the vertices of an equilateral triangle with sides length a. The bottom of the triangle is on the x axis of an x y coordinate system, and the bottom left vertex is at the origin. The charge at the origin is positive q. The charge at the bottom right hand corner is also positive q. The charge at the top vertex is negative two q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Prob13_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172099603916">
+<problem id="fs-id1172099603918">
+<para id="fs-id1172097227946">Two fixed particles, each of charge <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> are 24 cm apart. What force do they exert on a third particle of charge <m:math><m:mrow><m:mn>−2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> that is 13 cm from each of them?</para>
+</problem>
+<solution id="fs-id1172102105977">
+<para id="fs-id1172099922301">The particles form triangle of sides 13, 13, and 24 cm. The <emphasis effect="italics">x</emphasis>-components cancel, whereas there is a contribution to the <emphasis effect="italics">y</emphasis>-component from both charges 24 cm apart. The <emphasis effect="italics">y</emphasis>-axis passing through the third charge bisects the 24-cm line, creating two right triangles of sides 5, 12, and 13 cm.<newline/>
+<m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mn>2.56</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> in the negative <emphasis effect="italics">y</emphasis>-direction since the force is attractive. The net force from both charges is <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>−5.12</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101783420">
+<problem id="fs-id1172101783422">
+<para id="fs-id1172097139450">The charges <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>−4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C,</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>−1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> are placed at the corners of the triangle shown below. What is the force on <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172099546574" alt="Charges are shown at the vertices of a right triangle. The bottom of the triangle is length 4 meters, the vertical side on the left is length 3 meters, and the hypotenuse is length 5 meters. The charge at the top is q sub one and positive, the charge at the bottom left is q sub 3 and negative and the charge at the bottom right is q sub 2 and negative.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Prob15_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172099451626">
+<problem id="fs-id1172099451628">
+<para id="fs-id1172099895612">What is the force on the charge <emphasis effect="italics">q</emphasis> at the lower-right-hand corner of the square shown here?</para>
+<media id="fs-id1172102121401" alt="Charges are shown at the corners of a square with sides length a. All of the charges are positive and all are magnitude q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Prob16_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099560400">
+<para id="fs-id1172099560403">The diagonal is <m:math><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>a</m:mi></m:mrow></m:math> and the components of the force due to the diagonal charge has a factor <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math>;<newline/>
+<m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>k</m:mi><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>k</m:mi><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172097198688">
+<problem id="fs-id1172099491727">
+<para id="fs-id1172099491729">Point charges <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>−30</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> are fixed at <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>4.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>m</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>6.0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the force of <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>on</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172097136646">
+<term>Coulomb force</term>
+<meaning id="fs-id1172097136651">another term for the electrostatic force</meaning>
+</definition>
+<definition id="fs-id1172101749287">
+<term>Coulomb’s law</term>
+<meaning id="fs-id1172101730176">mathematical equation calculating the electrostatic force vector between two charged particles</meaning>
+</definition>
+<definition id="fs-id1172101877135">
+<term>electrostatic force</term>
+<meaning id="fs-id1172099576415">amount and direction of attraction or repulsion between two charged bodies; the assumption is that the source charges have no acceleration</meaning>
+</definition>
+<definition id="fs-id1172099576420">
+<term>electrostatics</term>
+<meaning id="fs-id1172097150050">study of charged objects which are not in motion</meaning>
+</definition>
+<definition id="fs-id1172099743192">
+<term>permittivity of vacuum</term>
+<meaning id="fs-id1172099695443">also called the permittivity of free space, and constant describing the strength of the electric force in a vacuum</meaning>
+</definition>
+<definition id="fs-id1172102095395">
+<term>principle of superposition</term>
+<meaning id="fs-id1172102095400">useful fact that we can simply add up all of the forces due to charges acting on an object</meaning>
+</definition>
+</glossary>
+</document>

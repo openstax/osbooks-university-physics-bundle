@@ -4,8 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58578</md:content-id>
   <md:title>The Heisenberg Uncertainty Principle</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para>
-<list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
 <item>Describe the physical meaning of the position-momentum uncertainty relation</item>
 <item>Explain the origins of the uncertainty principle in quantum theory</item>
 <item>Describe the physical meaning of the energy-time uncertainty relation</item>
@@ -14,13 +14,13 @@
 </metadata>
 
 <content>
-<para id="fs-id1170902853376"><term id="term-00001">Heisenberg’s uncertainty principle</term> is a key principle in quantum mechanics. Very roughly, it states that if we know <emphasis effect="italics">everything</emphasis> about where a particle is located (the uncertainty of position is small), we know <emphasis effect="italics">nothing</emphasis> about its momentum (the uncertainty of momentum is large), and vice versa. Versions of the uncertainty principle also exist for other quantities as well, such as energy and time. We discuss the momentum-position and energy-time uncertainty principles separately.</para>
+<para id="fs-id1170902853376"><term>Heisenberg’s uncertainty principle</term> is a key principle in quantum mechanics. Very roughly, it states that if we know <emphasis effect="italics">everything</emphasis> about where a particle is located (the uncertainty of position is small), we know <emphasis effect="italics">nothing</emphasis> about its momentum (the uncertainty of momentum is large), and vice versa. Versions of the uncertainty principle also exist for other quantities as well, such as energy and time. We discuss the momentum-position and energy-time uncertainty principles separately.</para>
 <section id="fs-id1170902719055">
 <title>Momentum and Position</title>
 <para id="fs-id1170899455281">To illustrate the momentum-position uncertainty principle, consider a free particle that moves along the <emphasis effect="italics">x</emphasis>-direction. The particle moves with a constant velocity <emphasis effect="italics">u</emphasis> and momentum <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>u</m:mi></m:mrow></m:math>. According to de Broglie’s relations, <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>k</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>ω</m:mi></m:mrow></m:math>. As discussed in the previous section, the wave function for this particle is given by</para>
 <equation id="fs-id1170902751193"><m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mi>k</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:mo stretchy="false">[</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>i</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:msup><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mtext> </m:mtext><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi></m:mrow></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mtext> </m:mtext><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi></m:mrow></m:msup></m:mrow></m:math></equation>
 <para id="fs-id1170901842781">and the probability density <m:math><m:mrow><m:mo>|</m:mo><m:msub><m:mi>ψ</m:mi><m:mi>k</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mo>|</m:mo><m:mrow><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mi>A</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> is <emphasis effect="italics">uniform</emphasis> and independent of time. The particle is equally likely to be found anywhere along the <emphasis effect="italics">x</emphasis>-axis but has definite values of wavelength and wave number, and therefore momentum. The uncertainty of position is infinite (we are completely uncertain about position) and the uncertainty of the momentum is zero (we are completely certain about momentum). This account of a free particle is consistent with Heisenberg’s uncertainty principle.</para>
-<para id="fs-id1170902869050">Similar statements can be made of localized particles. In quantum theory, a localized particle is modeled by a linear superposition of free-particle (or plane-wave) states called a <term id="term-00002">wave packet</term>. An example of a wave packet is shown in <link target-id="CNX_UPhysics_40_02_packet"/>. A wave packet contains many wavelengths and therefore by de Broglie’s relations many momenta—possible in quantum mechanics! This particle also has many values of position, although the particle is confined mostly to the interval <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math>. The particle can be better localized <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> can be decreased) if more plane-wave states of different wavelengths or momenta are added together in the right way <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:math> is increased). According to Heisenberg, these uncertainties obey the following relation.</para>
+<para id="fs-id1170902869050">Similar statements can be made of localized particles. In quantum theory, a localized particle is modeled by a linear superposition of free-particle (or plane-wave) states called a <term>wave packet</term>. An example of a wave packet is shown in <link target-id="CNX_UPhysics_40_02_packet"/>. A wave packet contains many wavelengths and therefore by de Broglie’s relations many momenta—possible in quantum mechanics! This particle also has many values of position, although the particle is confined mostly to the interval <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math>. The particle can be better localized <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> can be decreased) if more plane-wave states of different wavelengths or momenta are added together in the right way <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:math> is increased). According to Heisenberg, these uncertainties obey the following relation.</para>
 <note id="fs-id1170901907360">
 <title>The Heisenberg Uncertainty Principle</title>
 <para id="fs-id1170901766281">The product of the uncertainty in position of a particle and the uncertainty in its momentum can never be less than one-half of the reduced Planck constant:</para>
@@ -73,7 +73,7 @@ Based on early estimates of the size of a hydrogen atom and the uncertainty prin
 <note id="fs-id1170901641016" class="equation-callout">
 <equation id="fs-id1170901496332"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>≥</m:mo><m:mfrac><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
 </note>
-<para id="fs-id1170902751144">where <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> is the uncertainty in the energy measurement and <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> is the uncertainty in the lifetime measurement. The <term id="term-00003">energy-time uncertainty principle</term> does not result from a relation of the type expressed by <link target-id="fs-id1170901907603"/> for technical reasons beyond this discussion. Nevertheless, the general meaning of the energy-time principle is that a quantum state that exists for only a short time cannot have a definite energy. The reason is that the frequency of a state is inversely proportional to time and the frequency connects with the energy of the state, so to measure the energy with good precision, the state must be observed for many cycles.</para>
+<para id="fs-id1170902751144">where <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> is the uncertainty in the energy measurement and <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> is the uncertainty in the lifetime measurement. The <term>energy-time uncertainty principle</term> does not result from a relation of the type expressed by <link target-id="fs-id1170901907603"/> for technical reasons beyond this discussion. Nevertheless, the general meaning of the energy-time principle is that a quantum state that exists for only a short time cannot have a definite energy. The reason is that the frequency of a state is inversely proportional to time and the frequency connects with the energy of the state, so to measure the energy with good precision, the state must be observed for many cycles.</para>
 <para id="fs-id1170903087103">To illustrate, consider the excited states of an atom. The finite lifetimes of these states can be deduced from the shapes of spectral lines observed in atomic emission spectra. Each time an excited state decays, the emitted energy is slightly different and, therefore, the emission line is characterized by a <emphasis effect="italics">distribution</emphasis> of spectral frequencies (or wavelengths) of the emitted photons. As a result, all spectral lines are characterized by spectral widths. The average energy of the emitted photon corresponds to the theoretical energy of the excited state and gives the spectral location of the peak of the emission line. Short-lived states have broad spectral widths and long-lived states have narrow spectral widths.</para>
 <example id="fs-id1170901572148">
 <para id="fs-id1170901503413"><title>Atomic Transitions</title>
@@ -146,4 +146,53 @@ Because the emitted photons have their frequencies within <m:math><m:mrow><m:mn>
 <para id="fs-id1170901648918">A gas of helium atoms at 273 K is in a cubical container with 25.0 cm on a side. (a) What is the minimum uncertainty in momentum components of helium atoms? (b) What is the minimum uncertainty in velocity components? (c) Find the ratio of the uncertainties in (b) to the mean speed of an atom in each direction.</para>
 </problem>
 <solution id="fs-id1170901604955">
-<para id="fs-id1170903116922">a. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>2.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mo>≥</m:mo><m:mn>6.31</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msqrt><m:mrow><m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mte
+<para id="fs-id1170903116922">a. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>2.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mo>≥</m:mo><m:mn>6.31</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msqrt><m:mrow><m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>m</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:mrow></m:mrow></m:msqrt></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>5.94</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901927981">
+<problem id="fs-id1170901704436">
+<para id="fs-id1170902916022">If the uncertainty in the <m:math><m:mi>y</m:mi></m:math>-component of a proton’s position is 2.0 pm, find the minimum uncertainty in the simultaneous measurement of the proton’s <m:math><m:mi>y</m:mi></m:math>-component of velocity. What is the minimum uncertainty in the simultaneous measurement of the proton’s <m:math><m:mi>x</m:mi></m:math>-component of velocity?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902689383">
+<problem id="fs-id1170901927522">
+<para id="fs-id1170903053671">Some unstable elementary particle has a rest energy of 80.41 GeV and an uncertainty in rest energy of 2.06 GeV. Estimate the lifetime of this particle.</para>
+</problem>
+<solution id="fs-id1170903082735">
+<para id="fs-id1170903079703"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>τ</m:mi><m:mo>≥</m:mo><m:mn>1.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903098645">
+<problem id="fs-id1170902789276">
+<para id="fs-id1170901628542">An atom in a metastable state has a lifetime of 5.2 ms. Find the minimum uncertainty in the measurement of energy of the excited state.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902901895">
+<problem id="fs-id1170902860273">
+<para id="fs-id1170901747552">Measurements indicate that an atom remains in an excited state for an average time of 50.0 ns before making a transition to the ground state with the simultaneous emission of a 2.1-eV photon. (a) Estimate the uncertainty in the frequency of the photon. (b) What fraction of the photon’s average frequency is this?</para>
+</problem>
+<solution id="fs-id1170901995477">
+<para id="fs-id1170902924394">a. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>f</m:mi><m:mo>≥</m:mo><m:mn>1.59</m:mn><m:mspace width="0.2em"/><m:mtext>MHz</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>ω</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>3.135</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901699219">
+<problem id="fs-id1170901522481">
+<para id="fs-id1170903141728">Suppose an electron is confined to a region of length 0.1 nm (of the order of the size of a hydrogen atom). (a) What is the minimum uncertainty of its momentum? (b) What would the uncertainty in momentum be if the confined length region doubled to 0.2 nm?</para></problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170901497750">
+<term>Heisenberg’s uncertainty principle</term>
+<meaning id="fs-id1170902724074">places limits on what can be known from a simultaneous measurements of position and momentum; states that if the uncertainty on position is small then the uncertainty on momentum is large, and vice versa</meaning>
+</definition>
+<definition id="fs-id1170902750454">
+<term>wave packet</term>
+<meaning id="fs-id1170902951018">superposition of many plane matter waves that can be used to represent a localized particle</meaning>
+</definition>
+<definition id="fs-id1170901603884">
+<term>energy-time uncertainty principle</term>
+<meaning id="fs-id1170899581744">energy-time relation for uncertainties in the simultaneous measurements of the energy of a quantum state and of its lifetime</meaning>
+</definition>
+</glossary>
+</document>

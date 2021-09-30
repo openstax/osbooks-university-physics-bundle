@@ -1,0 +1,594 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Phase Changes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58388</md:content-id>
+  <md:title>Phase Changes</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para> 
+<list>
+<item>Describe phase transitions and equilibrium between phases</item>
+<item>Solve problems involving latent heat</item>
+<item>Solve calorimetry problems involving phase changes</item>
+</list></md:abstract>
+  <md:uuid>8217d6c4-5133-480f-9463-5591d82cb0a5</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170903888376"><term class="no-emphasis">Phase transitions</term> play an important theoretical and practical role in the study of heat flow. In <term class="no-emphasis">melting</term> (or “fusion”), a solid turns into a liquid; the opposite process is <term class="no-emphasis">freezing</term>. In <term class="no-emphasis">evaporation</term>, a liquid turns into a gas; the opposite process is <term class="no-emphasis">condensation</term>.</para>
+<para id="fs-id1170904166330">A substance melts or freezes at a temperature called its melting point, and boils (evaporates rapidly) or condenses at its boiling point. These temperatures depend on pressure. High pressure favors the denser form, so typically, high pressure raises the melting point and boiling point, and low pressure lowers them. For example, the boiling point of water is <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> at 1.00 atm. At higher pressure, the boiling point is higher, and at lower pressure, it is lower. The main exception is the melting and freezing of water, discussed in the next section.</para>
+<section id="fs-id1170903903012">
+<title>Phase Diagrams</title>
+<para id="fs-id1170902270285">The phase of a given substance depends on the pressure and temperature. Thus, plots of pressure versus temperature showing the phase in each region provide considerable insight into thermal properties of substances. Such a <emphasis effect="italics">pT</emphasis> graph is called a <term>phase diagram</term>.</para>
+<para id="fs-id1170904147061"><link target-id="CNX_UPhysics_18_05_PhaseDiag"/> shows the phase diagram for water. Using the graph, if you know the pressure and temperature, you can determine the phase of water. The solid curves—boundaries between phases—indicate phase transitions, that is, temperatures and pressures at which the phases coexist. For example, the boiling point of water is <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> at 1.00 atm. As the pressure increases, the boiling temperature rises gradually to <m:math><m:mrow><m:mn>374</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> at a pressure of 218 atm. A pressure cooker (or even a covered pot) cooks food faster than an open pot, because the water can exist as a liquid at temperatures greater than <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> without all boiling away. (As we’ll see in the next section, liquid water conducts heat better than steam or hot air.) The boiling point curve ends at a certain point called the <term>critical point</term>—that is, a <term>critical temperature</term>, above which the liquid and gas phases cannot be distinguished; the substance is called a <term class="no-emphasis"><emphasis effect="italics">supercritical fluid</emphasis></term>. At sufficiently high pressure above the critical point, the gas has the density of a liquid but does not condense. Carbon dioxide, for example, is supercritical at all temperatures above <m:math><m:mrow><m:mn>31.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. <term>Critical pressure</term> is the pressure of the critical point.</para>
+<figure id="CNX_UPhysics_18_05_PhaseDiag">
+<media id="fs-id1170900498040" alt="Graph of pressure P in atmosphere versus temperature T in degree Celsius for water. The curve starts with going up and right to a point labeled triple point. This is at 0.006 atm and 0.01 degree C. From here, the curve diverges into two branches. One goes up and left and is almost vertical. The other goes up and right. On the branch going up and right is a point at 1 atm and 100 degrees C. Further up on the same branch is a point labeled critical point. This is at 218 atm and 374 degrees C. The area to the left of the left branch is labeled solid. The area between two branches is labeled liquid. The area to the right of the right branch is labeled vapour. The curve to the lower left of the triple point is labeled sublimation, the branch to the upper left of the triple point is labeled melting, and the branch to the upper right of the triple point is labeled boiling.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_PhaseDiag.jpg"/>
+</media>
+<caption>The phase diagram (<emphasis effect="italics">pT</emphasis> graph) for water shows solid (s), liquid (l), and vapor (v) phases. At temperatures and pressure above those of the critical point, there is no distinction between liquid and vapor. Note that the axes are nonlinear and the graph is not to scale. This graph is simplified—it omits several exotic phases of ice at higher pressures. The phase diagram of water is unusual because the melting-point curve has a negative slope, showing that you can melt ice by <emphasis effect="italics">increasing</emphasis> the pressure.</caption>
+</figure>
+<para id="fs-id1170902070361">Similarly, the curve between the solid and liquid regions in <link target-id="CNX_UPhysics_18_05_PhaseDiag"/> gives the melting temperature at various pressures. For example, the melting point is <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mspace width="0.2em"/></m:mrow></m:math> at 1.00 atm, as expected. Water has the unusual property that ice is less dense than liquid water at the melting point, so at a fixed temperature, you can change the phase from solid (ice) to liquid (water) by increasing the pressure. That is, the melting temperature of ice falls with increased pressure, as the phase diagram shows. For example, when a car is driven over snow, the increased pressure from the tires melts the snowflakes; afterwards, the water refreezes and forms an ice layer.</para>
+<para id="fs-id1170904055343">As you learned in the earlier section on thermometers and temperature scales, the <term class="no-emphasis">triple point</term> is the combination of temperature and pressure at which ice, liquid water, and water vapor can coexist stably—that is, all three phases exist in equilibrium. For water, the triple point occurs at <m:math><m:mrow><m:mn>273.16</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.01</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and 611.2 Pa; that is a more accurate calibration temperature than the melting point of water at 1.00 atm, or <m:math><m:mrow><m:mn>273.15</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+<note id="fs-id1170902308157" class="media-2">
+<para id="fs-id1170902191191">View this <link url="https://openstax.org/l/21triplepoint">video</link> to see a substance at its triple point.</para>
+</note>
+<para id="fs-id1170903721240">At pressures below that of the triple point, there is no liquid phase; the substance can exist as either gas or solid. For water, there is no liquid phase at pressures below 0.00600 atm. The phase change from solid to gas is called <term>sublimation</term>. You may have noticed that snow can disappear into thin air without a trace of liquid water, or that ice cubes can disappear in a freezer. Both are examples of sublimation. The reverse also happens: Frost can form on very cold windows without going through the liquid stage. <link target-id="CNX_UPhysics_18_05_DryIce"/> shows the result, as well as showing a familiar example of sublimation. Carbon dioxide has no liquid phase at atmospheric pressure. Solid <m:math><m:mrow><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math> is known as <term class="no-emphasis">dry ice</term> because instead of melting, it sublimes. Its sublimation temperature at atmospheric pressure is <m:math><m:mrow><m:mn>−78</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Certain air fresheners use the sublimation of a solid to spread a perfume around a room. Some solids, such as osmium tetroxide, are so toxic that they must be kept in sealed containers to prevent human exposure to their sublimation-produced vapors.</para>
+<figure id="CNX_UPhysics_18_05_DryIce">
+<media id="fs-id1170904061768" alt="Photograph a shows ice in a glass turning into white coloured gas. Photograph b shows a frost covered window.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_DryIce.jpg"/>
+</media>
+<caption>Direct transitions between solid and vapor are common, sometimes useful, and even beautiful. (a) Dry ice sublimes directly to carbon dioxide gas. The visible “smoke” consists of water droplets that condensed in the air cooled by the dry ice. (b) Frost forms patterns on a very cold window, an example of a solid formed directly from a vapor. (credit a: modification of work by Windell Oskay; credit b: modification of work by Liz West)</caption>
+</figure>
+</section>
+<section id="fs-id1170903861480">
+<title>Equilibrium</title>
+<para id="fs-id1170903806764">At the melting temperature, the solid and liquid phases are in equilibrium. If heat is added, some of the solid will melt, and if heat is removed, some of the liquid will freeze. The situation is somewhat more complex for liquid-gas equilibrium. Generally, liquid and gas are in equilibrium at any temperature. We call the gas phase a <term>vapor</term> when it exists at a temperature below the boiling temperature, as it does for water at <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Liquid in a closed container at a fixed temperature evaporates until the pressure of the gas reaches a certain value, called the <term>vapor pressure</term>, which depends on the gas and the temperature. At this equilibrium, if heat is added, some of the liquid will evaporate, and if heat is removed, some of the gas will condense; molecules either join the liquid or form suspended droplets. If there is not enough liquid for the gas to reach the vapor pressure in the container, all the liquid eventually evaporates.</para>
+<para id="fs-id1170903804877">If the vapor pressure of the liquid is greater than the <emphasis effect="italics">total</emphasis> ambient pressure, including that of any air (or other gas), the liquid evaporates rapidly; in other words, it boils. Thus, the boiling point of a liquid at a given pressure is the temperature at which its vapor pressure equals the ambient pressure. Liquid and gas phases are in equilibrium at the boiling temperature (<link target-id="CNX_UPhysics_18_05_Equilib"/>). If a substance is in a closed container at the boiling point, then the liquid is boiling and the gas is condensing at the same rate without net change in their amounts.</para>
+<figure id="CNX_UPhysics_18_05_Equilib">
+<media id="fs-id1170904244740" alt="Figure a shows a tank of water that is half filled. An arrow going up from the water is labeled vaporization. An arrow going down from the air within the tank to the water is labeled condensation. A pressure gauge and thermometer are attached to the tank. Figure b shows the same setup. The pressure and temperature in figure b are higher than those in figure a. The arrows indicating vaporization and condensation are also longer than those in figure a.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_Equilib.jpg"/>
+</media>
+<caption>Equilibrium between liquid and gas at two different boiling points inside a closed container. (a) The rates of boiling and condensation are equal at this combination of temperature and pressure, so the liquid and gas phases are in equilibrium. (b) At a higher temperature, the boiling rate is faster, that is, the rate at which molecules leave the liquid and enter the gas is faster. This increases the number of molecules in the gas, which increases the gas pressure, which in turn increases the rate at which gas molecules condense and enter the liquid. The pressure stops increasing when it reaches the point where the boiling rate and the condensation rate are equal. The gas and liquid are in equilibrium again at this higher temperature and pressure.</caption>
+</figure>
+<para id="fs-id1170902179026">For water, <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is the boiling point at 1.00 atm, so water and steam should exist in equilibrium under these conditions. Why does an open pot of water at <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> boil completely away? The gas surrounding an open pot is not pure water: it is mixed with air. If pure water and steam are in a closed container at <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and 1.00 atm, they will coexist—but with air over the pot, there are fewer water molecules to condense, and water boils away. Another way to see this is that at the boiling point, the vapor pressure equals the ambient pressure. However, part of the ambient pressure is due to air, so the pressure of the steam is less than the vapor pressure at that temperature, and evaporation continues. Incidentally, the equilibrium vapor pressure of solids is not zero, a fact that accounts for sublimation.</para>
+<note id="fs-id1170903903869" class="check-understanding">
+<exercise id="fs-id1170902338807">
+<problem id="fs-id1170904167456">
+<para id="fs-id1170903883172"><emphasis effect="bold">Check Your Understanding</emphasis> Explain why a cup of water (or soda) with ice cubes stays at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> even on a hot summer day.</para>
+</problem>
+<solution id="fs-id1170904271811">
+<para id="fs-id1170904146062">The ice and liquid water are in thermal equilibrium, so that the temperature stays at the freezing temperature as long as ice remains in the liquid. (Once all of the ice melts, the water temperature will start to rise.)</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170903885255">
+<title>Phase Change and Latent Heat</title>
+<para id="fs-id1170904108846">So far, we have discussed heat transfers that cause temperature change. However, in a phase transition, heat transfer does not cause any temperature change.</para>
+<para id="fs-id1170902123523">For an example of phase changes, consider the addition of heat to a sample of ice at <m:math><m:mrow><m:mn>−20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (<link target-id="CNX_UPhysics_18_05_TempVsEner"/>) and atmospheric pressure. The temperature of the ice rises linearly, absorbing heat at a constant rate of <m:math><m:mrow><m:mn>2090</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>ºC</m:mtext></m:mrow></m:math> until it reaches <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Once at this temperature, the ice begins to melt and continues until it has all melted, absorbing 333 kJ/kg of heat. The temperature remains constant at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> during this phase change. Once all the ice has melted, the temperature of the liquid water rises, absorbing heat at a new constant rate of <m:math><m:mrow><m:mtext>4186 J/kg</m:mtext><m:mo>·</m:mo><m:mtext>ºC</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> At <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> the water begins to boil. The temperature again remains constant during this phase change while the water absorbs 2256 kJ/kg of heat and turns into steam. When all the liquid has become steam, the temperature rises again, absorbing heat at a rate of <m:math><m:mrow><m:mn>2020</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>ºC</m:mtext></m:mrow></m:math>. If we started with steam and cooled it to make it condense into liquid water and freeze into ice, the process would exactly reverse, with the temperature again constant during each phase transition.</para><figure id="CNX_UPhysics_18_05_TempVsEner">
+<media id="fs-id1170902062473" alt="Figure shows a graph of temperature T in degree C versus heat delta Q by m in kilojoule per kg. The curve goes up and right in a straight line to a point at 0 degree C and a heat value just above zero. The line is labeled ice. From this point, a horizontal line stretches to another point with heat value just under 0.5. The line is labeled ice plus water. From this point, a line goes up and right to a point at 100 degree Celsius and a heat value just under 1. The line is labeled water. From this point, a line goes horizontally to a point with heat value of about 3. This is labeled water plus steam. From this point, a line labeled steam goes up and right.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_TempVsEner.jpg"/>
+</media>
+<caption>Temperature versus heat. The system is constructed so that no vapor evaporates while ice warms to become liquid water, and so that, when vaporization occurs, the vapor remains in the system. The long stretches of constant temperatures at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> reflect the large amounts of heat needed to cause melting and vaporization, respectively.</caption>
+</figure>
+<para id="fs-id1170903876342">Where does the heat added during melting or boiling go, considering that the temperature does not change until the transition is complete? Energy is required to melt a solid, because the attractive forces between the molecules in the solid must be broken apart, so that in the liquid, the molecules can move around at comparable kinetic energies; thus, there is no rise in temperature. Energy is needed to vaporize a liquid for similar reasons. Conversely, work is done by attractive forces when molecules are brought together during freezing and condensation. That energy must be transferred out of the system, usually in the form of heat, to allow the molecules to stay together (<link target-id="CNX_UPhysics_18_05_Energy"/>). Thus, condensation occurs in association with cold objects—the glass in <link target-id="CNX_UPhysics_18_05_Condens"/>, for example.</para>
+<figure id="CNX_UPhysics_18_05_Condens">
+<media id="fs-id1170902068369" alt="Photograph of condensation on a glass filled with iced tea.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_Condens.jpg"/>
+</media>
+<caption>Condensation forms on this glass of iced tea because the temperature of the nearby air is reduced. The air cannot hold as much water as it did at room temperature, so water condenses. Energy is released when the water condenses, speeding the melting of the ice in the glass. (credit: Jenny Downing)</caption>
+</figure>
+<para id="fs-id1170902223600">The energy released when a liquid freezes is used by orange growers when the temperature approaches <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Growers spray water on the trees so that the water freezes and heat is released to the growing oranges. This prevents the temperature inside the orange from dropping below freezing, which would damage the fruit (<link target-id="CNX_UPhysics_18_05_Sublim"/>).</para>
+<figure id="CNX_UPhysics_18_05_Sublim">
+<media id="fs-id1170904111904" alt="Photograph of streaks of ice hanging from branches of trees.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_Sublim.jpg"/>
+</media>
+<caption>The ice on these trees released large amounts of energy when it froze, helping to prevent the temperature of the trees from dropping below <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Water is intentionally sprayed on orchards to help prevent hard frosts. (credit: Hermann Hammer)</caption>
+</figure>
+<para id="fs-id1170902130908">The energy involved in a phase change depends on the number of bonds or force pairs and their strength. The number of bonds is proportional to the number of molecules and thus to the mass of the sample. The energy per unit mass required to change a substance from the solid phase to the liquid phase, or released when the substance changes from liquid to solid, is known as the <term>heat of fusion</term>. The energy per unit mass required to change a substance from the liquid phase to the vapor phase is known as the <term>heat of vaporization</term>. The strength of the forces depends on the type of molecules. The heat <emphasis effect="italics">Q</emphasis> absorbed or released in a phase change in a sample of mass <emphasis effect="italics">m</emphasis> is given by</para>
+<note id="fs-id1170902216720" class="equation-callout">
+<equation id="fs-id1170904161940"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>(</m:mo><m:mtext>melting/freezing</m:mtext><m:mo>)</m:mo></m:mrow></m:math></equation>
+</note>
+<note id="fs-id1170902350040" class="equation-callout">
+<equation id="fs-id1170902369230"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub><m:mo>(</m:mo><m:mtext>vaporization/condensation</m:mtext><m:mo>)</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170903721354">where the latent heat of fusion <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> and latent heat of vaporization <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math> are material constants that are determined experimentally. (Latent heats are also called <term>latent heat coefficient</term><emphasis effect="bold">s</emphasis> and heats of transformation.) These constants are “latent,” or hidden, because in phase changes, energy enters or leaves a system without causing a temperature change in the system, so in effect, the energy is hidden.</para>
+<figure id="CNX_UPhysics_18_05_Energy">
+<media id="fs-id1170902053646" alt="Figure a shows conversion from solid to liquid. In the solid substance, molecules are seen as small circles arranged in a grid. They are connected to one another through springs, forming a lattice structure. Each molecule has a small arrow originating from it. These arrows point in different directions. The length of the arrow forms the radius of a circle labeled limits of motion. In the liquid, the molecules are further apart from each other than in the solid. Arrows from the molecules indicate that they move in any direction. An arrow from the solid to the liquid is labeled energy input, melt. An arrow from the liquid to the solid is labeled energy output, freeze. Figure b shows the liquid and gas, where the molecules are even further apart than the liquid. In the gas, too, they move in any direction. An arrow from the liquid to the gas is labeled energy input evaporate. An arrow from gas to liquid is labeled energy output, condense.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_Energy.jpg"/>
+</media>
+<caption>(a) Energy is required to partially overcome the attractive forces (modeled as springs) between molecules in a solid to form a liquid. That same energy must be removed from the liquid for freezing to take place. (b) Molecules become separated by large distances when going from liquid to vapor, requiring significant energy to completely overcome molecular attraction. The same energy must be removed from the vapor for condensation to take place.</caption>
+</figure>
+<para id="fs-id1170902380458"><link target-id="fs-id1170903879019"/> lists representative values of <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math> in kJ/kg, together with melting and boiling points. Note that in general, <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math>. The table shows that the amounts of energy involved in phase changes can easily be comparable to or greater than those involved in temperature changes, as <link target-id="CNX_UPhysics_18_05_TempVsEner"/> and the accompanying discussion also showed.</para>
+<table id="fs-id1170903879019" summary="This table has 7 columns, 7 rows and a header row. The header row labels each column: Substance, Melting Point in degrees Celsius, Heat of fusion in kilojoule per kg, Heat of fusion in kilocalorie per kg, Boiling Point, Heat of Vaporization in kilojoule per kg, Heat of Vaporization in kilocalorie per kg. The first column has the following substances: Helium, Hydrogen, Nitrogen, Oxygen, Ethanol, Ammonia, Mercury, Water, Sulfur, Lead, Antimony, Aluminum, Silver, Gold, Copper, Uranium and Tungsten. The values in the second column are: minus 272.2 or 0.95 K, minus 259.3 or 13.9 K, minus 210 or 63.2 K, minus 218.8 or 54.4 K, minus 114, minus 75, minus 38.9, 0 119, 327, 631, 660, 961, 1063, 1083, 1133 and 3410. The third column has the following values: 5.23, 58.6, 25.5, 13.8, 104, 332, 11.8, 334, 38.1, 24.5, 165, 380, 88.3, 64.5, 134, 84 and 184. The fourth column has the following values: 1.25, 14.0, 6.09, 3.30, 24.9, 79.3, 2.82, 79.8, 9.10, 5.85, 39.4, 90, 21.1, 15.4, 32, 20 and 44. The fifth column has the following values: 78.3, minus 33.4, 357, 100.0, 444.6, 1750, 1440, 2450, 2193, 2660, 2595, 3900 and 5900. The sixth column has the following values: 20.9, 452, 201, 213, 854, 1370, 272, 2256, 326, 871, 561, 11400, 2336, 1578, 5069, 1900 and 4810. The last column has the following values: 4.99, 108, 48, 50.9, 204, 327, 65, 539, 77.9, 208, 134, 2720, 558, 377, 1211, 454 and 1150. Note 1 indicates that values quoted are at the normal melting and boiling temperatures at standard atmospheric pressure. Note 2 indicates that helium has no solid phase at atmospheric pressure. The melting point given is at a pressure of 2.5 MPa. Note 3 indicates that at 37 degree Celsius or body temperature, the heat of vaporization for water is 2430 kilojoule per kg or 580 kilocalorie per kg. Note 4 indicates that at 37 degrees Celsius or body temperature, the heat of vaporization, for water is 2430 kilojoule per kg or 580 kilocalorie per kg.">
+<title>Heats of Fusion and Vaporization<sup>[1]</sup></title>
+<tgroup cols="7">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<thead>
+<row>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center" namest="c3" nameend="c4"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center" namest="c6" nameend="c7"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="top" align="center"><emphasis effect="bold">Substance</emphasis></entry>
+<entry valign="top" align="center"><emphasis effect="bold">Melting Point</emphasis> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtext>°C</m:mtext><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="center"><emphasis effect="bold">kJ/kg</emphasis></entry>
+<entry valign="top" align="center"><emphasis effect="bold">kcal/kg</emphasis></entry>
+<entry valign="top" align="center"><emphasis effect="bold">Boiling Point</emphasis> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtext>°C</m:mtext><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="center"><emphasis effect="bold">kJ/kg</emphasis></entry>
+<entry valign="top" align="center"><emphasis effect="bold">kcal/kg</emphasis></entry>
+</row>
+<row>
+<entry valign="top" align="left">Helium<sup>[2]</sup></entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mo>−</m:mo><m:mn>272.2</m:mn><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.95</m:mn><m:mtext> K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">5.23</entry>
+<entry valign="top" align="right">1.25</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>−268.9</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">20.9</entry>
+<entry valign="top" align="right">4.99</entry>
+</row>
+<row>
+<entry valign="top" align="left">Hydrogen</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>−259.3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13.9</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">58.6</entry>
+<entry valign="top" align="right">14.0</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>−252.9</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20.2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">452</entry>
+<entry valign="top" align="right">108</entry>
+</row>
+<row>
+<entry valign="top" align="left">Nitrogen</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>−210.0</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>63.2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">25.5</entry>
+<entry valign="top" align="right">6.09</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>−195.8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>77.4</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">201</entry>
+<entry valign="top" align="right">48.0</entry>
+</row>
+<row>
+<entry valign="top" align="left">Oxygen</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>−218.8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>54.4</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">13.8</entry>
+<entry valign="top" align="right">3.30</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>−183.0</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>90.2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">213</entry>
+<entry valign="top" align="right">50.9</entry>
+</row>
+<row>
+<entry valign="top" align="left">Ethanol</entry>
+<entry valign="top" align="right">–114</entry>
+<entry valign="top" align="right">104</entry>
+<entry valign="top" align="right">24.9</entry>
+<entry valign="top" align="right">78.3</entry>
+<entry valign="top" align="right">854</entry>
+<entry valign="top" align="right">204</entry>
+</row>
+<row>
+<entry valign="top" align="left">Ammonia</entry>
+<entry valign="top" align="right">–75</entry>
+<entry valign="top" align="right">332</entry>
+<entry valign="top" align="right">79.3</entry>
+<entry valign="top" align="right">–33.4</entry>
+<entry valign="top" align="right">1370</entry>
+<entry valign="top" align="right">327</entry>
+</row>
+<row>
+<entry valign="top" align="left">Mercury</entry>
+<entry valign="top" align="right">–38.9</entry>
+<entry valign="top" align="right">11.8</entry>
+<entry valign="top" align="right">2.82</entry>
+<entry valign="top" align="right">357</entry>
+<entry valign="top" align="right">272</entry>
+<entry valign="top" align="right">65.0</entry>
+</row>
+<row>
+<entry valign="top" align="left">Water</entry>
+<entry valign="top" align="right">0.00</entry>
+<entry valign="top" align="right">334</entry>
+<entry valign="top" align="right">79.8</entry>
+<entry valign="top" align="right">100.0</entry>
+<entry valign="top" align="right">2256<sup>[3]</sup></entry>
+<entry valign="top" align="right">539<sup>[4]</sup></entry>
+</row>
+<row>
+<entry valign="top" align="left">Sulfur</entry>
+<entry valign="top" align="right">119</entry>
+<entry valign="top" align="right">38.1</entry>
+<entry valign="top" align="right">9.10</entry>
+<entry valign="top" align="right">444.6</entry>
+<entry valign="top" align="right">326</entry>
+<entry valign="top" align="right">77.9</entry>
+</row>
+<row>
+<entry valign="top" align="left">Lead</entry>
+<entry valign="top" align="right">327</entry>
+<entry valign="top" align="right">24.5</entry>
+<entry valign="top" align="right">5.85</entry>
+<entry valign="top" align="right">1750</entry>
+<entry valign="top" align="right">871</entry>
+<entry valign="top" align="right">208</entry>
+</row>
+<row>
+<entry valign="top" align="left">Antimony</entry>
+<entry valign="top" align="right">631</entry>
+<entry valign="top" align="right">165</entry>
+<entry valign="top" align="right">39.4</entry>
+<entry valign="top" align="right">1440</entry>
+<entry valign="top" align="right">561</entry>
+<entry valign="top" align="right">134</entry>
+</row>
+<row>
+<entry valign="top" align="left">Aluminum</entry>
+<entry valign="top" align="right">660</entry>
+<entry valign="top" align="right">380</entry>
+<entry valign="top" align="right">90</entry>
+<entry valign="top" align="right">2450</entry>
+<entry valign="top" align="right">11400</entry>
+<entry valign="top" align="right">2720</entry>
+</row>
+<row>
+<entry valign="top" align="left">Silver</entry>
+<entry valign="top" align="right">961</entry>
+<entry valign="top" align="right">88.3</entry>
+<entry valign="top" align="right">21.1</entry>
+<entry valign="top" align="right">2193</entry>
+<entry valign="top" align="right">2336</entry>
+<entry valign="top" align="right">558</entry>
+</row>
+<row>
+<entry valign="top" align="left">Gold</entry>
+<entry valign="top" align="right">1063</entry>
+<entry valign="top" align="right">64.5</entry>
+<entry valign="top" align="right">15.4</entry>
+<entry valign="top" align="right">2660</entry>
+<entry valign="top" align="right">1578</entry>
+<entry valign="top" align="right">377</entry>
+</row>
+<row>
+<entry valign="top" align="left">Copper</entry>
+<entry valign="top" align="right">1083</entry>
+<entry valign="top" align="right">134</entry>
+<entry valign="top" align="right">32.0</entry>
+<entry valign="top" align="right">2595</entry>
+<entry valign="top" align="right">5069</entry>
+<entry valign="top" align="right">1211</entry>
+</row>
+<row>
+<entry valign="top" align="left">Uranium</entry>
+<entry valign="top" align="right">1133</entry>
+<entry valign="top" align="right">84</entry>
+<entry valign="top" align="right">20</entry>
+<entry valign="top" align="right">3900</entry>
+<entry valign="top" align="right">1900</entry>
+<entry valign="top" align="right">454</entry>
+</row>
+<row>
+<entry valign="top" align="left">Tungsten</entry>
+<entry valign="top" align="right">3410</entry>
+<entry valign="top" align="right">184</entry>
+<entry valign="top" align="right">44</entry>
+<entry valign="top" align="right">5900</entry>
+<entry valign="top" align="right">4810</entry>
+<entry valign="top" align="right">1150</entry>
+</row>
+</tbody>
+</tgroup>
+<caption><sup>[1]</sup>Values quoted at the normal melting and boiling temperatures at standard atmospheric pressure (<m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext></m:mrow></m:math>). <sup>[2]</sup>Helium has no solid phase at atmospheric pressure. The melting point given is at a pressure of 2.5 MPa. <sup>[3]</sup>At <m:math><m:mrow><m:mn>37.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (body temperature), the heat of vaporization <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math> for water is 2430 kJ/kg or 580 kcal/kg. <sup>[4]</sup>At <m:math><m:mrow><m:mn>37.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (body temperature), the heat of vaporization, <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math> for water is 2430 kJ/kg or 580 kcal/kg.</caption>
+</table>
+<para id="fs-id1170902266855">Phase changes can have a strong stabilizing effect on temperatures that are not near the melting and boiling points, since evaporation and condensation occur even at temperatures below the boiling point. For example, air temperatures in humid climates rarely go above approximately <m:math><m:mrow><m:mn>38.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> because most heat transfer goes into evaporating water into the air. Similarly, temperatures in humid weather rarely fall below the dew point—the temperature where condensation occurs given the concentration of water vapor in the air—because so much heat is released when water vapor condenses.</para>
+<para id="fs-id1170903803864">More energy is required to evaporate water below the boiling point than at the boiling point, because the kinetic energy of water molecules at temperatures below <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is less than that at <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, so less energy is available from random thermal motions. For example, at body temperature, evaporation of sweat from the skin requires a heat input of 2428 kJ/kg, which is about 10% higher than the latent heat of vaporization at <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. This heat comes from the skin, and this evaporative cooling effect of sweating helps reduce the body temperature in hot weather. However, high humidity inhibits evaporation, so that body temperature might rise, while unevaporated sweat might be left on your brow.</para>
+<example id="fs-id1170902208726">
+<para id="fs-id1170903742973"><title>Calculating Final Temperature from Phase Change</title>
+Three ice cubes are used to chill a soda at <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> with mass <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>soda</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>. The ice is at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and each ice cube has a mass of 6.0 g. Assume that the soda is kept in a foam container so that heat loss can be ignored and that the soda has the same specific heat as water. Find the final temperature when all ice has melted.</para>
+<para id="fs-id1170902243290"><title>Strategy</title>
+The ice cubes are at the melting temperature of <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Heat is transferred from the soda to the ice for melting. Melting yields water at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> so more heat is transferred from the soda to this water until the water plus soda system reaches thermal equilibrium.</para>
+<para id="fs-id1170902191148">The heat transferred to the ice is</para>
+<equation id="fs-id1170902120464" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902341963">The heat given off by the soda is</para>
+<equation id="fs-id1170903895639" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>soda</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>soda</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902057657">Since no heat is lost, <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>soda</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> as in <link target-id="fs-id1170904267465" document="m58387"/>, so that</para>
+<equation id="fs-id1170902076156" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>soda</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903787895">Solve for the unknown quantity <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math>:</para>
+<equation id="fs-id1170902340605" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>soda</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mtext>w</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>soda</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mi>c</m:mi><m:mtext>w</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902220305"><title>Solution</title>
+First we identify the known quantities. The mass of ice is <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>ice</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext><m:mo>=</m:mo><m:mn>0.018</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and the mass of soda is <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>soda</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Then we calculate the final temperature:</para>
+<equation id="fs-id1170904138962" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>20,930</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>−</m:mo><m:mn>6012</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>1122</m:mn><m:mspace width="0.2em"/><m:mtext>J/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>13</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902130267"><title>Significance</title>
+This example illustrates the large energies involved during a phase change. The mass of ice is about 7% of the mass of the soda but leads to a noticeable change in the temperature of the soda. Although we assumed that the ice was at the freezing temperature, this is unrealistic for ice straight out of a freezer: The typical temperature is <m:math><m:mrow><m:mn>−6</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. However, this correction makes no significant change from the result we found. Can you explain why?</para>
+</example>
+<para id="fs-id1170904052286">Like solid-liquid and liquid-vapor transitions, direct solid-vapor transitions or sublimations involve heat. The energy transferred is given by the equation <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow></m:math>, where <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow></m:math> is the <term>heat of sublimation</term>, analogous to <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math>. The heat of sublimation at a given temperature is equal to the heat of fusion plus the heat of vaporization at that temperature.</para><para id="fs-id1170902153113">We can now calculate any number of effects related to temperature and phase change. In each case, it is necessary to identify which temperature and phase changes are taking place. Keep in mind that heat transfer and work can cause both temperature and phase changes.</para>
+<note id="fs-id1170904187845" class="problem-solving">
+<title>The Effects of Heat Transfer</title>
+<list id="fs-id1170904111936" list-type="enumerated" number-style="arabic"><item>Examine the situation to determine that there is a change in the temperature or phase. Is there heat transfer into or out of the system? When it is not obvious whether a phase change occurs or not, you may wish to first solve the problem as if there were no phase changes, and examine the temperature change obtained. If it is sufficient to take you past a boiling or melting point, you should then go back and do the problem in steps—temperature change, phase change, subsequent temperature change, and so on.</item>
+<item>Identify and list all objects that change temperature or phase.</item>
+<item>Identify exactly what needs to be determined in the problem (identify the unknowns). A written list is useful.</item>
+<item>Make a list of what is given or what can be inferred from the problem as stated (identify the knowns). If there is a temperature change, the transferred heat depends on the specific heat of the substance (<link document="m58387">Heat Transfer, Specific Heat, and Calorimetry</link>), and if there is a phase change, the transferred heat depends on the latent heat of the substance (<link target-id="fs-id1170903879019"/>).</item>
+<item>Solve the appropriate equation for the quantity to be determined (the unknown).</item>
+<item>Substitute the knowns along with their units into the appropriate equation and obtain numerical solutions complete with units. You may need to do this in steps if there is more than one state to the process, such as a temperature change followed by a phase change. However, in a calorimetry problem, each step corresponds to a term in the single equation <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>hot</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>cold</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</item>
+<item>Check the answer to see if it is reasonable. Does it make sense? As an example, be certain that any temperature change does not also cause a phase change that you have not taken into account.</item>
+</list></note>
+<note id="fs-id1170902091342" class="check-understanding">
+<exercise id="fs-id1170903727517">
+<problem id="fs-id1170902289009">
+<para id="fs-id1170904074285"><emphasis effect="bold">Check Your Understanding</emphasis> Why does snow often remain even when daytime temperatures are higher than the freezing temperature?</para>
+</problem>
+<solution id="fs-id1170904108591">
+<para id="fs-id1170902257055">Snow is formed from ice crystals and thus is the solid phase of water. Because enormous heat is necessary for phase changes, it takes a certain amount of time for this heat to be transferred from the air, even if the air is above <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170902117540" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170902307063" list-type="bulleted" bullet-style="bullet">
+<item>Most substances have three distinct phases (under ordinary conditions on Earth), and they depend on temperature and pressure.</item>
+<item>Two phases coexist (i.e., they are in thermal equilibrium) at a set of pressures and temperatures.</item>
+<item>Phase changes occur at fixed temperatures for a given substance at a given pressure, and these temperatures are called boiling, freezing (or melting), and sublimation points.</item>
+</list>
+</section>
+<section id="fs-id1170903852132" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170902198180">
+<problem id="fs-id1170902192565">
+<para id="fs-id1170902132030">A pressure cooker contains water and steam in equilibrium at a pressure greater than atmospheric pressure. How does this greater pressure increase cooking speed?</para>
+</problem>
+<solution id="fs-id1170904183804">
+<para id="fs-id1170903810036">It raises the boiling point, so the water, which the food gains heat from, is at a higher temperature.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903793970">
+<problem id="fs-id1170903905443">
+<para id="fs-id1170903862987">As shown below, which is the phase diagram for carbon dioxide, what is the vapor pressure of solid carbon dioxide (dry ice) at <m:math><m:mrow><m:mn>−78.5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>?</m:mo></m:mrow></m:math> (Note that the axes in the figure are nonlinear and the graph is not to scale.)</para>
+<media id="fs-id1170902153058" alt="Figure shows a graph of pressure in atmosphere versus temperature in degrees Celsius for carbon dioxide. The curve goes up and right to reach the triple point, which is at 5.11 atmosphere and minus 56.6 degrees Celsius. From here, the curve branches. One branch goes up almost vertically, the other goes up and right to the critical point. This is at 73 atmosphere and 31 degrees Celsius. The area left of the vertical branch is solid, the area between two branches is liquid and that to the right of the right branch is vapor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_Q3.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170904140827">
+<problem id="fs-id1170902223079">
+<para id="fs-id1170903903019">Can carbon dioxide be liquefied at room temperature (<m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>)? If so, how? If not, why not? (See the phase diagram in the preceding problem.)</para>
+</problem>
+<solution id="fs-id1170902306723">
+<para id="fs-id1170902153077">Yes, by raising the pressure above 56 atm.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903748482">
+<problem id="fs-id1170904128383">
+<para id="fs-id1170903800769">What is the distinction between gas and vapor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902192000">
+<problem id="fs-id1170903820925">
+<para id="fs-id1170904070588">Heat transfer can cause temperature and phase changes. What else can cause these changes?</para>
+</problem>
+<solution id="fs-id1170903874095">
+<para id="fs-id1170903732400">work</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904134718">
+<problem id="fs-id1170904052231">
+<para id="fs-id1170902166769">How does the latent heat of fusion of water help slow the decrease of air temperatures, perhaps preventing temperatures from falling significantly below <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> in the vicinity of large bodies of water?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903820949">
+<problem id="fs-id1170904109175">
+<para id="fs-id1170904040768">What is the temperature of ice right after it is formed by freezing water?</para>
+</problem>
+<solution id="fs-id1170902243854">
+<para id="fs-id1170902137551"><m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (at or near atmospheric pressure)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902156220">
+<problem id="fs-id1170902160916">
+<para id="fs-id1170902336127">If you place <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> ice into <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> water in an insulated container, what will the net result be? Will there be less ice and more liquid water, or more ice and less liquid water, or will the amounts stay the same?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904143269">
+<problem id="fs-id1170904041979">
+<para id="fs-id1170902196068">What effect does condensation on a glass of ice water have on the rate at which the ice melts? Will the condensation speed up the melting process or slow it down?</para>
+</problem>
+<solution id="fs-id1170902091049">
+<para id="fs-id1170903824471">Condensation releases heat, so it speeds up the melting.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902064951">
+<problem id="fs-id1170902223021">
+<para id="fs-id1170903875116">In Miami, Florida, which has a very humid climate and numerous bodies of water nearby, it is unusual for temperatures to rise above about <m:math><m:mrow><m:mn>38</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (<m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>). In the desert climate of Phoenix, Arizona, however, temperatures rise above that almost every day in July and August. Explain how the evaporation of water helps limit high temperatures in humid climates.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903866777">
+<problem id="fs-id1170902352049">
+<para id="fs-id1170902205393">In winter, it is often warmer in San Francisco than in Sacramento, 150 km inland. In summer, it is nearly always hotter in Sacramento. Explain how the bodies of water surrounding San Francisco moderate its extreme temperatures.</para>
+</problem>
+<solution id="fs-id1170903824409">
+<para id="fs-id1170904127301">Because of water’s high specific heat, it changes temperature less than land. Also, evaporation reduces temperature rises. The air tends to stay close to equilibrium with the water, so its temperature does not change much where there’s a lot of water around, as in San Francisco but not Sacramento.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902167135">
+<problem id="fs-id1170902064151">
+<para id="fs-id1170903941231">Freeze-dried foods have been dehydrated in a vacuum. During the process, the food freezes and must be heated to facilitate dehydration. Explain both how the vacuum speeds up dehydration and why the food freezes as a result.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903892112">
+<problem id="fs-id1170902143476">
+<para id="fs-id1170902070164">In a physics classroom demonstration, an instructor inflates a balloon by mouth and then cools it in liquid nitrogen. When cold, the shrunken balloon has a small amount of light blue liquid in it, as well as some snow-like crystals. As it warms up, the liquid boils, and part of the crystals sublime, with some crystals lingering for a while and then producing a liquid. Identify the blue liquid and the two solids in the cold balloon. Justify your identifications using data from <link target-id="fs-id1170903879019"/>.</para>
+</problem>
+<solution id="fs-id1170902135098">
+<para id="fs-id1170903835865">The liquid is oxygen, whose boiling point is above that of nitrogen but whose melting point is below the boiling point of liquid nitrogen. The crystals that sublime are carbon dioxide, which has no liquid phase at atmospheric pressure. The crystals that melt are water, whose melting point is above carbon dioxide’s sublimation point. The water came from the instructor’s breath.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170902099719" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170902358283">
+<problem id="fs-id1170902235529">
+<para id="fs-id1170903883567">How much heat transfer (in kilocalories) is required to thaw a 0.450-kg package of frozen vegetables originally at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> if their heat of fusion is the same as that of water?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903804712">
+<problem id="fs-id1170904203780">
+<para id="fs-id1170904247702">A bag containing <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> ice is much more effective in absorbing energy than one containing the same amount of <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> water. (a) How much heat transfer is necessary to raise the temperature of 0.800 kg of water from <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>30.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (b) How much heat transfer is required to first melt 0.800 kg of <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> ice and then raise its temperature? (c) Explain how your answer supports the contention that the ice is more effective.</para>
+</problem>
+<solution id="fs-id1170903863821">
+<para id="fs-id1170902265629">a. <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>3.68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; c. The ice is much more effective in absorbing heat because it first must be melted, which requires a lot of energy, and then it gains the same amount of heat as the bag that started with water. The first <m:math><m:mrow><m:mn>2.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> of heat is used to melt the ice, then it absorbs the <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> of heat as water.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902222143">
+<problem id="fs-id1170902299164">
+<para id="fs-id1170903899225">(a) How much heat transfer is required to raise the temperature of a 0.750-kg aluminum pot containing 2.50 kg of water from <m:math><m:mrow><m:mn>30.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to the boiling point and then boil away 0.750 kg of water? (b) How long does this take if the rate of heat transfer is 500 W?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903806015">
+<problem id="fs-id1170902154772">
+<para id="fs-id1170903894679">Condensation on a glass of ice water causes the ice to melt faster than it would otherwise. If 8.00 g of vapor condense on a glass containing both water and 200 g of ice, how many grams of the ice will melt as a result? Assume no other heat transfer occurs. Use <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub></m:mrow></m:math> for water at <m:math><m:mrow><m:mn>37</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> as a better approximation than <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub></m:mrow></m:math> for water at <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.)</para>
+</problem>
+<solution id="fs-id1170904008061">
+<para id="fs-id1170902155630">58.1 g</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902204224">
+<problem id="fs-id1170902296732">
+<para id="fs-id1170902286743">On a trip, you notice that a 3.50-kg bag of ice lasts an average of one day in your cooler. What is the average power in watts entering the ice if it starts at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and completely melts to <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> water in exactly one day?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902174965">
+<problem id="fs-id1170903891846">
+<para id="fs-id1170904089927">On a certain dry sunny day, a swimming pool’s temperature would rise by <m:math><m:mrow><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> if not for evaporation. What fraction of the water must evaporate to carry away precisely enough energy to keep the temperature constant?</para>
+</problem>
+<solution id="fs-id1170904063455">
+<para id="fs-id1170903829650">Let <emphasis effect="italics">M</emphasis> be the mass of pool water and <emphasis effect="italics">m</emphasis> be the mass of pool water that evaporates.<newline/>
+<m:math><m:mrow><m:mi>M</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>V</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>37</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msub><m:mo stretchy="false">⇒</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>M</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>V</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>37</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>580</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/kg</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.59</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:math>;<newline/>
+(Note that <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub></m:mrow></m:math> for water at <m:math><m:mrow><m:mn>37</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is used here as a better approximation than <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub></m:mrow></m:math> for <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> water.)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904053024">
+<problem id="fs-id1170904053026">
+<para id="fs-id1170904179913">(a) How much heat transfer is necessary to raise the temperature of a 0.200-kg piece of ice from <m:math><m:mrow><m:mn>−20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>130.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, including the energy needed for phase changes? (b) How much time is required for each stage, assuming a constant 20.0 kJ/s rate of heat transfer? (c) Make a graph of temperature versus time for this process.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903792501">
+<problem id="fs-id1170902225393">
+<para id="fs-id1170902225395">In 1986, an enormous iceberg broke away from the Ross Ice Shelf in Antarctica. It was an approximately rectangular prism 160 km long, 40.0 km wide, and 250 m thick. (a) What is the mass of this iceberg, given that the density of ice is <m:math><m:mrow><m:mn>917</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>? (b) How much heat transfer (in joules) is needed to melt it? (c) How many years would it take sunlight alone to melt ice this thick, if the ice absorbs an average of <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, 12.00 h per day?</para>
+</problem>
+<solution id="fs-id1170902064107">
+<para id="fs-id1170902064109">a. <m:math><m:mrow><m:mn>1.47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>4.90</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; c. 48.5 y</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903746128">
+<problem id="fs-id1170904096034">
+<para id="fs-id1170904096037">How many grams of coffee must evaporate from 350 g of coffee in a 100-g glass cup to cool the coffee and the cup from <m:math><m:mrow><m:mn>95.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>45.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? Assume the coffee has the same thermal properties as water and that the average heat of vaporization is 2340 kJ/kg (560 kcal/g). Neglect heat losses through processes other than evaporation, as well as the change in mass of the coffee as it cools. Do the latter two assumptions cause your answer to be higher or lower than the true answer?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902184084">
+<problem id="fs-id1170902049517">
+<para id="fs-id1170902049519">(a) It is difficult to extinguish a fire on a crude oil tanker, because each liter of crude oil releases <m:math><m:mrow><m:mn>2.80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> of energy when burned. To illustrate this difficulty, calculate the number of liters of water that must be expended to absorb the energy released by burning 1.00 L of crude oil, if the water’s temperature rises from <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, it boils, and the resulting steam’s temperature rises to <m:math><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> at constant pressure. (b) Discuss additional complications caused by the fact that crude oil is less dense than water.</para>
+</problem>
+<solution id="fs-id1170903871562">
+<para id="fs-id1170903871564">a. 9.35 L; b. Crude oil is less dense than water, so it floats on top of the water, thereby exposing it to the oxygen in the air, which it uses to burn. Also, if the water is under the oil, it is less able to absorb the heat generated by the oil.</para></solution>
+</exercise>
+<exercise id="fs-id1170902189818">
+<problem id="fs-id1170903819882">
+<para id="fs-id1170903819884">The energy released from condensation in thunderstorms can be very large. Calculate the energy released into the atmosphere for a small storm of radius 1 km, assuming that 1.0 cm of rain is precipitated uniformly over this area.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904052456">
+<problem id="fs-id1170904052458">
+<para id="fs-id1170904052460">To help prevent frost damage, 4.00 kg of water at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is sprayed onto a fruit tree. (a) How much heat transfer occurs as the water freezes? (b) How much would the temperature of the 200-kg tree decrease if this amount of heat transferred from the tree? Take the specific heat to be <m:math><m:mrow><m:mn>3.35</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, and assume that no phase change occurs in the tree.</para>
+</problem>
+<solution id="fs-id1170902109757">
+<para id="fs-id1170902109759">a. 319 kcal; b. <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902302983">
+<problem id="fs-id1170902302985">
+<para id="fs-id1170903801833">A 0.250-kg aluminum bowl holding <m:math><m:mrow><m:mn>0.800</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> of soup at <m:math><m:mrow><m:mn>25.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is placed in a freezer. What is the final temperature if 388 kJ of energy is transferred from the bowl and soup, assuming the soup’s thermal properties are the same as that of water?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904135458">
+<problem id="fs-id1170904135460">
+<para id="fs-id1170903814846">A 0.0500-kg ice cube at <m:math><m:mrow><m:mn>−30.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is placed in 0.400 kg of <m:math><m:mrow><m:mn>35.0</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> water in a very well-insulated container. What is the final temperature?</para>
+</problem>
+<solution id="fs-id1170902124255">
+<para id="fs-id1170902124257">First bring the ice up to <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and melt it with heat <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> 4.74 kcal. This lowers the temperature of water by <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mn>23.15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Now, the heat lost by the hot water equals that gained by the cold water (<m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> is the final temperature): <m:math><m:mrow><m:mn>20.6</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904225622">
+<problem id="fs-id1170904225624">
+<para id="fs-id1170902089265">If you pour 0.0100 kg of <m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> water onto a 1.20-kg block of ice (which is initially at <m:math><m:mrow><m:mn>−15.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>), what is the final temperature? You may assume that the water cools so rapidly that effects of the surroundings are negligible.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902296826">
+<problem id="fs-id1170902296828">
+<para id="fs-id1170903746014">Indigenous people sometimes cook in watertight baskets by placing hot rocks into water to bring it to a boil. What mass of <m:math><m:mrow><m:mn>500</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> granite must be placed in 4.00 kg of <m:math><m:mrow><m:mn>15.0</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> water to bring its temperature to <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, if 0.0250 kg of water escapes as vapor from the initial sizzle? You may neglect the effects of the surroundings.</para>
+</problem>
+<solution id="fs-id1170902188007">
+<para id="fs-id1170902188010">Let the subscripts r, e, v, and w represent rock, equilibrium, vapor, and water, respectively.<newline/><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>r</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>r</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>e</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mtext>V</m:mtext></m:msub><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mtext>W</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>e</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>;<newline/>
+<m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>m</m:mi><m:mtext>r</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>V</m:mtext></m:msub><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mtext>W</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>e</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>c</m:mi><m:mtext>r</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>e</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.0250</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2256</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.975</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4186</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>840</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4.38</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902179672">
+<problem id="fs-id1170902179674">
+<para id="fs-id1170902264743">What would the final temperature of the pan and water be in <link target-id="fs-id1170904267465" document="m58387"/> if 0.260 kg of water were placed in the pan and 0.0100 kg of the water evaporated immediately, leaving the remainder to come to a common temperature with the pan?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170902276556">
+<term>critical point</term>
+<meaning id="fs-id1170903879977">for a given substance, the combination of temperature and pressure above which the liquid and gas phases are indistinguishable</meaning>
+</definition>
+<definition id="fs-id1170902219679">
+<term>critical pressure</term>
+<meaning id="fs-id1170902219685">pressure at the critical point</meaning>
+</definition>
+<definition id="fs-id1170902351542">
+<term>critical temperature</term>
+<meaning id="fs-id1170902130817">temperature at the critical point</meaning>
+</definition>
+<definition id="fs-id1170902304520">
+<term>heat of fusion</term>
+<meaning id="fs-id1170902304526">energy per unit mass required to change a substance from the solid phase to the liquid phase, or released when the substance changes from liquid to solid</meaning>
+</definition>
+<definition id="fs-id1170904056742">
+<term>heat of sublimation</term>
+<meaning id="fs-id1170902261032">energy per unit mass required to change a substance from the solid phase to the vapor phase</meaning>
+</definition>
+<definition id="fs-id1170903821863">
+<term>heat of vaporization</term>
+<meaning id="fs-id1170903860729">energy per unit mass required to change a substance from the liquid phase to the vapor phase</meaning>
+</definition>
+<definition id="fs-id1170904134866">
+<term>latent heat coefficient</term>
+<meaning id="fs-id1170904099040">general term for the heats of fusion, vaporization, and sublimation</meaning>
+</definition>
+<definition id="fs-id1170904099044">
+<term>phase diagram</term>
+<meaning id="fs-id1170904225027">graph of pressure vs. temperature of a particular substance, showing at which pressures and temperatures the phases of the substance occur</meaning>
+</definition>
+<definition id="fs-id1170904208707">
+<term>sublimation</term>
+<meaning id="fs-id1170904188602">phase change from solid to gas</meaning>
+</definition>
+<definition id="fs-id1170903855651">
+<term>vapor</term>
+<meaning id="fs-id1170903855656">gas at a temperature below the boiling temperature</meaning>
+</definition>
+<definition id="fs-id1170904086327">
+<term>vapor pressure</term>
+<meaning id="fs-id1170902135006">pressure at which a gas coexists with its solid or liquid phase</meaning>
+</definition>
+</glossary>
+
+
+</document>

@@ -1,0 +1,421 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Thermal Expansion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58386</md:content-id>
+  <md:title>Thermal Expansion</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Answer qualitative questions about the effects of thermal expansion</item>
+<item>Solve problems involving thermal expansion, including those involving thermal stress</item>
+</list></md:abstract>
+  <md:uuid>7ac4a4e2-6b21-4528-af4f-875cae3378c9</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170903014623">The expansion of alcohol in a thermometer is one of many commonly encountered examples of <term>thermal expansion</term>, which is the change in size or volume of a given system as its temperature changes. The most visible example is the expansion of hot air. When air is heated, it expands and becomes less dense than the surrounding air, which then exerts an (upward) force on the hot air and makes steam and smoke rise, hot air balloons float, and so forth. The same behavior happens in all liquids and gases, driving natural heat transfer upward in homes, oceans, and weather systems, as we will discuss in an upcoming section. Solids also undergo thermal expansion. Railroad tracks and bridges, for example, have <term class="no-emphasis">expansion joints</term> to allow them to freely expand and contract with temperature changes, as shown in <link target-id="CNX_UPhysics_18_03_ThermExp"/>.</para>
+<figure id="CNX_UPhysics_18_03_ThermExp"><media id="fs-id1170902773289" alt="Photograph a shows an expansion joint as a small gap on a road. Photograph b shows Auckland Harbour Bridge.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_03_ThermExp.jpg"/>
+</media>
+
+<caption>(a) Thermal expansion joints like these in the (b) Auckland Harbour Bridge in New Zealand allow bridges to change length without buckling. (credit: modification of works by “ŠJů”/Wikimedia Commons)</caption></figure><para id="fs-id1170902772689">What is the underlying cause of thermal expansion? As previously mentioned, an increase in temperature means an increase in the kinetic energy of individual atoms. In a solid, unlike in a gas, the molecules are held in place by forces from neighboring molecules; as we saw in <link document="m58360">Oscillations</link>, the forces can be modeled as in harmonic springs described by the Lennard-Jones potential. <link target-id="CNX_UPhysics_15_02_LennaJones" document="m58362">Energy in Simple Harmonic Motion</link> shows that such potentials are asymmetrical in that the potential energy increases more steeply when the molecules get closer to each other than when they get farther away. Thus, at a given kinetic energy, the distance moved is greater when neighbors move away from each other than when they move toward each other. The result is that increased kinetic energy (increased temperature) increases the average distance between molecules—the substance expands.</para><para id="fs-id1170903105941">For most substances under ordinary conditions, it is an excellent approximation that there is no preferred direction (that is, the solid is “isotropic”), and an increase in temperature increases the solid’s size by a certain fraction in each dimension. Therefore, if the solid is free to expand or contract, its proportions stay the same; only its overall size changes.</para>
+<note id="fs-id1170903044442">
+<title>Linear Thermal Expansion</title>
+<para id="fs-id1170903030022">According to experiments, the dependence of thermal expansion on temperature, substance, and original initial length is summarized in the equation</para>
+<equation id="fs-id1170902894356"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>L</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1170901800748">where <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>L</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow></m:math> is the instantaneous change in length per temperature, <emphasis effect="italics">L</emphasis> is the length, and <m:math><m:mi>α</m:mi></m:math> is the <term>coefficient of linear expansion</term>, a material property that varies slightly with temperature. As <m:math><m:mi>α</m:mi></m:math> is nearly constant and also very small, for practical purposes, we use the linear approximation:</para><equation id="fs-id1170902865876"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></equation><para id="newpara01">where <m:math><m:mrow><m:mo>Δ</m:mo><m:mi>L</m:mi></m:mrow></m:math> is the change in length and <m:math><m:mrow><m:mo>Δ</m:mo><m:mi>T</m:mi></m:mrow></m:math> is the change in temperature.</para>
+</note>
+<para id="fs-id1170902869062"><link target-id="fs-id1170902626134"/> lists representative values of the coefficient of linear expansion. As noted earlier, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> is the same whether it is expressed in units of degrees Celsius or kelvins; thus, <m:math><m:mi>α</m:mi></m:math> may have units of <m:math><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> or 1/K with the same value in either case. Approximating <m:math><m:mi>α</m:mi></m:math> as a constant is quite accurate for small changes in temperature and sufficient for most practical purposes, even for large changes in temperature. We examine this approximation more closely in the next example.</para>
+<table id="fs-id1170902626134" summary="This table has 3 columns, 20 rows and a header row. The header row labels each column: Material, Coefficient of Linear Expansion alpha as 1 upon degree Celsius and Coefficient of Volume Expansion beta as 1 upon degree Celsius. The first column labels rows 1 to 13 as solids. These are: Aluminum, Brass, Copper, Gold, Iron or steel, Invar which is nickel-iron alloy, Lead, Silver, Glass ordinary, Glass Pyrex, Quartz, Concrete, brick, and Marble average. Rows 14 to 19 in the first column are labeled Liquids. These are: Ether, Ethyl alcohol, Gasoline, Glycerin, Mercury and Water. Row 20 in the first column is labeled gases. This is: Air and most other gases at atmospheric pressure. All entries in column 2 are a value multiplied by 10 to the power minus 6. The values are: 25, 19, 17, 14, 12, 0.9, 29, 18, 9, 3, 0.4, approximately 12 and 2.4. There are no entries in this column for liquids and gases. All entries in the last column are a value multiplied by 10 to the power minus 6. The values are: 75, 56, 51, 42, 35, 2.7, 87, 54, 27, 9, 1, approximately 36, 7.5, 1650, 1100, 950, 500, 180, 210, 3400.">
+<title>Thermal Expansion Coefficients</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry valign="top" align="left">Material</entry>
+<entry valign="top" align="center">Coefficient of Linear Expansion <m:math><m:mrow><m:mi>α</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="center">Coefficient of Volume Expansion <m:math><m:mrow><m:mi>β</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="top" align="left" namest="c1" nameend="c3"><emphasis effect="italics">Solids</emphasis></entry>
+</row>
+<row>
+<entry valign="top" align="left">Aluminum</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Brass</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>19</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Copper</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>17</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>51</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Gold</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>42</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Iron or steel</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Invar (nickel-iron alloy)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Lead</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>87</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Silver</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>54</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Glass (ordinary)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Glass (Pyrex®)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Quartz</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Concrete, brick</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mo>~</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mo>~</m:mo><m:mn>36</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Marble (average)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>7.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left" namest="c1" nameend="c3"><emphasis effect="italics">Liquids</emphasis></entry>
+</row>
+<row>
+<entry valign="top" align="left">Ether</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1650</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Ethyl alcohol</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1100</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Gasoline</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>950</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Glycerin</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Mercury</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Water</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>210</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left" namest="c1" nameend="c3"><emphasis effect="italics">Gases</emphasis></entry>
+</row>
+<row>
+<entry valign="top" align="left">Air and most other gases at atmospheric pressure</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3400</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1170902771713">Thermal expansion is exploited in the bimetallic strip (<link target-id="CNX_UPhysics_18_03_Bimetallic"/>). This device can be used as a thermometer if the curving strip is attached to a pointer on a scale. It can also be used to automatically close or open a switch at a certain temperature, as in older or analog thermostats.</para>
+<figure id="CNX_UPhysics_18_03_Bimetallic">
+<media id="fs-id1170903137254" alt="Figure a shows two vertical strips attached to each other. It is labeled T0. Figure b shows the same two strips bent towards the right. It is labeled T greater than T0.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_03_Bimetallic.jpg"/>
+</media>
+<caption>The curvature of a bimetallic strip depends on temperature. (a) The strip is straight at the starting temperature, where its two components have the same length. (b) At a higher temperature, this strip bends to the right, because the metal on the left has expanded more than the metal on the right. At a lower temperature, the strip would bend to the left.</caption>
+</figure>
+<example id="fs-id1170902689013">
+<para id="fs-id1170901761146"><title>Calculating Linear Thermal Expansion</title>
+The main span of San Francisco’s Golden Gate Bridge is 1275 m long at its coldest. The bridge is exposed to temperatures ranging from <m:math><m:mrow><m:mo>–</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. What is its change in length between these temperatures? Assume that the bridge is made entirely of steel.</para>
+<para id="fs-id1170902749582"><title>Strategy</title>
+Use the equation for linear thermal expansion <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> to calculate the change in length, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math>. Use the coefficient of linear expansion <m:math><m:mi>α</m:mi></m:math> for steel from <link target-id="fs-id1170902626134"/>, and note that the change in temperature <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> is <m:math><m:mrow><m:mn>55</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1170903009362"><title>Solution</title>
+Substitute all of the known values into the equation to solve for <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math>:</para>
+<equation id="fs-id1170901540220" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1275</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>55</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.84</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902907010"><title>Significance</title>
+Although not large compared with the length of the bridge, this change in length is observable. It is generally spread over many expansion joints so that the expansion at each joint is small.</para>
+</example>
+<section id="fs-id1170902883708">
+<title>Thermal Expansion in Two and Three Dimensions</title>
+<para id="fs-id1170902684120">Unconstrained objects expand in all dimensions, as illustrated in <link target-id="CNX_UPhysics_18_03_Expansion"/>. That is, their areas and volumes, as well as their lengths, increase with temperature. Because the proportions stay the same, holes and container volumes also get larger with temperature. If you cut a hole in a metal plate, the remaining material will expand exactly as it would if the piece you removed were still in place. The piece would get bigger, so the hole must get bigger too.</para>
+<note id="fs-id1170902697051">
+<title>Thermal Expansion in Two Dimensions</title>
+<para id="fs-id1170902940554">For small temperature changes, the change in area <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow></m:math> is given by</para>
+<equation id="fs-id1170903051766"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>α</m:mi><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1170901641141">where <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow></m:math> is the change in area <m:math><m:mrow><m:mi>A</m:mi><m:mo>,</m:mo><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> is the change in temperature, and <m:math><m:mi>α</m:mi></m:math> is the coefficient of linear expansion, which varies slightly with temperature. (The derivation of this equation is analogous to that of the more important equation for three dimensions, below.)</para></note>
+<figure id="CNX_UPhysics_18_03_Expansion">
+<media id="fs-id1170902877788" alt="Figure shows a circle inside a square. The circle is outlined by another, slightly bigger circle. The bigger circle is a dashed outline. Similarly, the square is outlined by a bigger, dashed square. Figure b is similar to figure a except that the inner circle is cut out of the square. Figure c is a cuboid surrounded by a bigger, dashed cuboid.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_03_Expansion.jpg"/>
+</media>
+<caption>In general, objects expand in all directions as temperature increases. In these drawings, the original boundaries of the objects are shown with solid lines, and the expanded boundaries with dashed lines. (a) Area increases because both length and width increase. The area of a circular plug also increases. (b) If the plug is removed, the hole it leaves becomes larger with increasing temperature, just as if the expanding plug were still in place. (c) Volume also increases, because all three dimensions increase.</caption>
+</figure>
+<note id="fs-id1170902775785">
+<title>Thermal Expansion in Three Dimensions</title>
+<para id="fs-id1170901695382">The relationship between volume and temperature <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow></m:math> is given by <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>β</m:mi><m:mi>V</m:mi></m:mrow></m:math>, where <m:math><m:mi>β</m:mi></m:math> is the <term>coefficient of volume expansion</term>. As you can show in <link target-id="fs-id1170901605268"/>, <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>α</m:mi></m:mrow></m:math>. This equation is usually written as</para>
+<equation id="fs-id1170903011403"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>β</m:mi><m:mi>V</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902733382">Note that the values of <m:math><m:mi>β</m:mi></m:math> in <link target-id="fs-id1170902626134"/> are equal to <m:math><m:mrow><m:mn>3</m:mn><m:mi>α</m:mi></m:mrow></m:math> except for rounding.</para>
+</note>
+<para id="fs-id1170902879370">Volume expansion is defined for liquids, but linear and area expansion are not, as a liquid’s changes in linear dimensions and area depend on the shape of its container. Thus, <link target-id="fs-id1170902626134"/> shows liquids’ values of <m:math><m:mi>β</m:mi></m:math> but not <m:math><m:mi>α</m:mi></m:math>.</para>
+<para id="fs-id1170903008223">In general, objects expand with increasing temperature. Water is the most important exception to this rule. Water does expand with increasing temperature (its density <emphasis effect="italics">decreases</emphasis>) at temperatures greater than <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>F</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. However, it is densest at <m:math><m:mrow><m:mo>+</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and expands with <emphasis effect="italics">decreasing</emphasis> temperature between <m:math><m:mrow><m:mo>+</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (<m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>F</m:mtext><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:mn>32</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>), as shown in <link target-id="CNX_UPhysics_18_03_H2ODensity"/>. A striking effect of this phenomenon is the <term class="no-emphasis">freezing of water</term> in a pond. When water near the surface cools down to <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> it is denser than the remaining water and thus sinks to the bottom. This “turnover” leaves a layer of warmer water near the surface, which is then cooled. However, if the temperature in the surface layer drops below <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, that water is less dense than the water below, and thus stays near the top. As a result, the pond surface can freeze over. The layer of ice insulates the liquid water below it from low air temperatures. Fish and other aquatic life can survive in <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> water beneath ice, due to this unusual characteristic of water.</para>
+<figure id="CNX_UPhysics_18_03_H2ODensity">
+<media id="fs-id1170903048967" alt="Figure shows a graph of density of fresh water in grams per cubic centimeter versus temperature in degree Celsius. The graph starts at 0.99985 at 0 degrees and rises to a maximum y value of just under 1 at 4 degrees Celsius. It then curves down to 0.99950 at 12 degrees Celsius.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_03_H2ODensity.jpg"/>
+</media>
+<caption>This curve shows the <term class="no-emphasis">density of water</term> as a function of temperature. Note that the thermal expansion at low temperatures is very small. The maximum density at <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is only <m:math><m:mrow><m:mn>0.0075</m:mn><m:mi>%</m:mi></m:mrow></m:math> greater than the density at <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, and <m:math><m:mrow><m:mn>0.012</m:mn><m:mi>%</m:mi></m:mrow></m:math> greater than that at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. The decrease of density below <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> occurs because the liquid water approachs the solid crystal form of ice, which contains more empty space than the liquid.</caption>
+</figure>
+<example id="fs-id1170902769483">
+<para id="fs-id1170901532236"><title>Calculating Thermal Expansion</title>
+Suppose your 60.0-L <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>15.9</m:mn><m:mspace width="0.2em"/><m:mtext>-gal</m:mtext></m:mrow></m:math>-gal) steel gasoline tank is full of gas that is cool because it has just been pumped from an underground reservoir. Now, both the tank and the gasoline have a temperature of <m:math><m:mrow><m:mn>15.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> How much gasoline has spilled by the time they warm to <m:math><m:mrow><m:mn>35.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+<para id="fs-id1170902956547"><title>Strategy</title>
+The tank and gasoline increase in volume, but the gasoline increases more, so the amount spilled is the difference in their volume changes. We can use the equation for volume expansion to calculate the change in volume of the gasoline and of the tank. (The gasoline tank can be treated as solid steel.)</para>
+<para id="fs-id1170901544149"><title>Solution</title></para>
+<list id="fs-id1170902771179" list-type="enumerated" number-style="arabic">
+<item>Use the equation for volume expansion to calculate the increase in volume of the steel tank:
+<equation id="fs-id1170903002215" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>V</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>β</m:mi><m:mtext>s</m:mtext></m:msub><m:msub><m:mi>V</m:mi><m:mtext>s</m:mtext></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The increase in volume of the gasoline is given by this equation:
+<equation id="fs-id1170902752307" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>gas</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>β</m:mi><m:mrow><m:mtext>gas</m:mtext></m:mrow></m:msub><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>gas</m:mtext></m:mrow></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Find the difference in volume to determine the amount spilled as
+<equation id="fs-id1170902772352" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>spill</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>gas</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>V</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1170901553939">Alternatively, we can combine these three equations into a single equation. (Note that the original volumes are equal.)</para>
+<equation id="fs-id1170901914275" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>spill</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>β</m:mi><m:mrow><m:mtext>ga</m:mtext></m:mrow></m:msub><m:msub><m:mrow/><m:mtext>s</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>β</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>V</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>950</m:mn><m:mo>−</m:mo><m:mn>35</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>]</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>60.0</m:mn><m:mspace width="0.2em"/><m:mtext>L</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1.10</m:mn><m:mspace width="0.2em"/><m:mtext>L</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170902887200"><title>Significance</title>
+This amount is significant, particularly for a 60.0-L tank. The effect is so striking because the gasoline and steel expand quickly. The rate of change in thermal properties is discussed later in this chapter.</para>
+<para id="fs-id1170901568779">If you try to cap the tank tightly to prevent overflow, you will find that it leaks anyway, either around the cap or by bursting the tank. Tightly constricting the expanding gas is equivalent to compressing it, and both liquids and solids resist compression with extremely large forces. To avoid rupturing rigid containers, these containers have air gaps, which allow them to expand and contract without stressing them.</para>
+</example>
+<note id="fs-id1170903024703" class="check-understanding">
+<exercise id="fs-id1170902893172">
+<problem id="fs-id1170902864195">
+<para id="fs-id1170901492821"><emphasis effect="bold">Check Your Understanding</emphasis> Does a given reading on a gasoline gauge indicate more gasoline in cold weather or in hot weather, or does the temperature not matter?</para>
+</problem>
+<solution id="fs-id1170902764670">
+<para id="fs-id1170902776330">The actual amount (mass) of gasoline left in the tank when the gauge hits “empty” is less in the summer than in the winter. The gasoline has the same volume as it does in the winter when the “add fuel” light goes on, but because the gasoline has expanded, there is less mass.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170902749794">
+<title>Thermal Stress</title>
+<para id="fs-id1170901605357">If you change the temperature of an object while preventing it from expanding or contracting, the object is subjected to stress that is compressive if the object would expand in the absence of constraint and tensile if it would contract. This stress resulting from temperature changes is known as <term>thermal stress</term>. It can be quite large and can cause damage.</para>
+<para id="fs-id1170902776529">To avoid this stress, engineers may design components so they can expand and contract freely. For instance, in highways, gaps are deliberately left between blocks to prevent thermal stress from developing. When no gaps can be left, engineers must consider thermal stress in their designs. Thus, the reinforcing rods in concrete are made of steel because steel’s coefficient of linear expansion is nearly equal to that of concrete.</para>
+<para id="fs-id1170902694293">To calculate the thermal stress in a rod whose ends are both fixed rigidly, we can think of the stress as developing in two steps. First, let the ends be free to expand (or contract) and find the expansion (or contraction). Second, find the stress necessary to compress (or extend) the rod to its original length by the methods you studied in <link document="m58339">Static Equilibrium and Elasticity</link> on static equilibrium and elasticity. In other words, the <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math> of the thermal expansion equals the <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math> of the elastic distortion (except that the signs are opposite).</para>
+<example id="fs-id1170902836576">
+<para id="fs-id1170902690800"><title>Calculating Thermal Stress</title>
+Concrete blocks are laid out next to each other on a highway without any space between them, so they cannot expand. The construction crew did the work on a winter day when the temperature was <m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Find the stress in the blocks on a hot summer day when the temperature is <m:math><m:mrow><m:mn>38</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. The compressive Young’s modulus of concrete is <m:math><m:mrow><m:mi>Y</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+<para id="fs-id1170902793935"><title>Strategy</title>
+According to the chapter on static equilibrium and elasticity, the stress <emphasis effect="italics">F</emphasis>/<emphasis effect="italics">A</emphasis> is given by</para>
+<equation id="fs-id1170902771190" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>Y</m:mi><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901582858">where <emphasis effect="italics">Y</emphasis> is the Young’s modulus of the material—concrete, in this case. In thermal expansion, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math> We combine these two equations by noting that the two <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>’</m:mo><m:mtext>s</m:mtext></m:mrow></m:math> are equal, as stated above. Because we are not given <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> or <emphasis effect="italics">A</emphasis>, we can obtain a numerical answer only if they both cancel out.</para>
+<para id="fs-id1170903043595"><title>Solution</title>
+We substitute the thermal-expansion equation into the elasticity equation to get</para>
+<equation id="fs-id1170901599786" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>Y</m:mi><m:mfrac><m:mrow><m:mi>α</m:mi><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>Y</m:mi><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901597933">and as we hoped, <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> has canceled and <emphasis effect="italics">A</emphasis> appears only in <emphasis effect="italics">F</emphasis>/<emphasis effect="italics">A</emphasis>, the notation for the quantity we are calculating.</para>
+<para id="fs-id1170903027880">Now we need only insert the numbers:</para>
+<equation id="fs-id1170902681638" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>38</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902916296"><title>Significance</title>
+The ultimate compressive strength of concrete is <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> so the blocks are unlikely to break. However, the ultimate shear strength of concrete is only <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> so some might chip off.</para>
+</example>
+<note id="fs-id1170902837453" class="check-understanding">
+<exercise id="fs-id1170902875955">
+<problem id="fs-id1170902909328">
+<para id="fs-id1170902682322"><emphasis effect="bold">Check Your Understanding</emphasis> Two objects <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> have the same dimensions and are constrained identically. <emphasis effect="italics">A</emphasis> is made of a material with a higher thermal expansion coefficient than <emphasis effect="italics">B</emphasis>. If the objects are heated identically, will <emphasis effect="italics">A</emphasis> feel a greater stress than <emphasis effect="italics">B</emphasis>?</para>
+</problem>
+<solution id="fs-id1170902906743">
+<para id="fs-id1170902781838">Not necessarily, as the thermal stress is also proportional to Young’s modulus.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170901603683" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170902755257" list-type="bulleted" bullet-style="bullet">
+<item>Thermal expansion is the increase of the size (length, area, or volume) of a body due to a change in temperature, usually a rise. Thermal contraction is the decrease in size due to a change in temperature, usually a fall in temperature.</item>
+<item>Thermal stress is created when thermal expansion or contraction is constrained.</item>
+</list>
+</section>
+<section id="fs-id1170903071269" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170902698555">
+<problem id="fs-id1170901596898">
+<para id="fs-id1170901575570">Pouring cold water into hot glass or ceramic cookware can easily break it. What causes the breaking? Explain why Pyrex®, a glass with a small coefficient of linear expansion, is less susceptible.</para>
+</problem>
+<solution id="fs-id1170901513296">
+<para id="fs-id1170902924416">The cold water cools part of the inner surface, making it contract, while the rest remains expanded. The strain is too great for the strength of the material. Pyrex contracts less, so it experiences less strain.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902837564">
+<problem id="fs-id1170901761900">
+<para id="fs-id1170902666926">One method of getting a tight fit, say of a metal peg in a hole in a metal block, is to manufacture the peg slightly larger than the hole. The peg is then inserted when at a different temperature than the block. Should the block be hotter or colder than the peg during insertion? Explain your answer.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901756653">
+<problem id="fs-id1170903088563">
+<para id="fs-id1170903121765">Does it really help to run hot water over a tight metal lid on a glass jar before trying to open it? Explain your answer.</para>
+</problem>
+<solution id="fs-id1170901650114">
+<para id="fs-id1170902772936">In principle, the lid expands more than the jar because metals have higher coefficients of expansion than glass. That should make unscrewing the lid easier. (In practice, getting the lid and jar wet may make gripping them more difficult.)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902789371">
+<problem id="fs-id1170902705503">
+<para id="fs-id1170902761700">When a cold alcohol thermometer is placed in a hot liquid, the column of alcohol goes <emphasis effect="italics">down</emphasis> slightly before going up. Explain why.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903132199">
+<problem id="fs-id1170902639332">
+<para id="fs-id1170902939235">Calculate the length of a 1-meter rod of a material with thermal expansion coefficient <m:math><m:mi>α</m:mi></m:math> when the temperature is raised from 300 K to 600 K. Taking your answer as the new initial length, find the length after the rod is cooled back down to 300 K. Is your answer 1 meter? Should it be? How can you account for the result you got?</para>
+</problem>
+<solution id="fs-id1170902787155">
+<para id="fs-id1170902912602">After being heated, the length is (<m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>300</m:mn><m:mi>α</m:mi></m:mrow></m:math>) (<m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>). After being cooled, the length is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mi>α</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mi>α</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. That answer is not 1 m, but it should be. The explanation is that even if <m:math><m:mi>α</m:mi></m:math> is exactly constant, the relation <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> is strictly true only in the limit of small <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>. Since <m:math><m:mi>α</m:mi></m:math> values are small, the discrepancy is unimportant in practice.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902737450">
+<problem id="fs-id1170902909472">
+<para id="fs-id1170903037155">Noting the large stresses that can be caused by thermal expansion, an amateur weapon inventor decides to use it to make a new kind of gun. He plans to jam a bullet against an aluminum rod inside a closed invar tube. When he heats the tube, the rod will expand more than the tube and a very strong force will build up. Then, by a method yet to be determined, he will open the tube in a split second and let the force of the rod launch the bullet at very high speed. What is he overlooking?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170901527174" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170902784471">
+<problem id="fs-id1170901752853">
+<para id="fs-id1170902737472">The height of the Washington Monument is measured to be 170.00 m on a day when the temperature is <m:math><m:mrow><m:mn>35.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C.</m:mtext></m:mrow></m:math> What will its height be on a day when the temperature falls to <m:math><m:mrow><m:mn>−10.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? Although the monument is made of limestone, assume that its coefficient of thermal expansion is the same as that of marble. Give your answer to five significant figures.</para>
+</problem>
+<solution id="fs-id1170902631583">
+<para id="fs-id1170903090295">Using <link target-id="fs-id1170902626134"/> to find the coefficient of thermal expansion of marble:<newline/>
+<m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>170</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−45.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mn>169.98</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.<newline/>
+(Answer rounded to five significant figures to show the slight difference in height.)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902773472">
+<problem id="fs-id1170902783057">
+<para id="fs-id1170901602504">How much taller does the Eiffel Tower become at the end of a day when the temperature has increased by <m:math><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C?</m:mtext></m:mrow></m:math> Its original height is 321 m and you can assume it is made of steel.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903084242">
+<problem id="fs-id1170901752857">
+<para id="fs-id1170902749549">What is the change in length of a 3.00-cm-long column of mercury if its temperature changes from <m:math><m:mrow><m:mn>37.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>40.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, assuming the mercury is constrained to a cylinder but unconstrained in length? Your answer will show why thermometers contain bulbs at the bottom instead of simple columns of liquid.</para>
+</problem>
+<solution id="fs-id1170902876659">
+<para id="fs-id1170902683810">We use <m:math><m:mrow><m:mi>β</m:mi></m:mrow></m:math> instead of <m:math><m:mrow><m:mi>α</m:mi></m:mrow></m:math> since this is a volume expansion with constant surface area. Therefore:<newline/>
+<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.0300</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</para></solution>
+</exercise>
+<exercise id="fs-id1170902637406">
+<problem id="fs-id1170902942679">
+<para id="fs-id1170903019753">How large an expansion gap should be left between steel railroad rails if they may reach a maximum temperature <m:math><m:mrow><m:mn>35.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> greater than when they were laid? Their original length is 10.0 m.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902660924">
+<problem id="fs-id1170902659296">
+<para id="fs-id1170903023903">You are looking to buy a small piece of land in Hong Kong. The price is “only” $60,000 per square meter. The land title says the dimensions are <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. By how much would the total price change if you measured the parcel with a steel tape measure on a day when the temperature was <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> above the temperature that the tape measure was designed for? The dimensions of the land do not change.</para>
+</problem>
+<solution id="fs-id1170903045159">
+<para id="fs-id1170901522268">On the warmer day, our tape measure will expand linearly. Therefore, each measured dimension will be smaller than the actual dimension of the land. Calling these measured dimensions <m:math><m:mrow><m:mi>l</m:mi><m:mo>'</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>w</m:mi><m:mo>'</m:mo></m:mrow></m:math>, we will find a new area, <emphasis effect="italics">A</emphasis>. Let’s calculate these measured dimensions:<newline/>
+<m:math><m:mrow><m:mi>l</m:mi><m:mo>'</m:mo><m:mo>=</m:mo><m:msub><m:mi>l</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>19.9952</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;<newline/>
+<m:math><m:mrow><m:mi>A</m:mi><m:mo>'</m:mo><m:mo>=</m:mo><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>w</m:mi><m:mo>'</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>29.9928</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>19.9952</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>599.71</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/>
+Cost change <m:math><m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>A</m:mi><m:mo>−</m:mo><m:mi>A</m:mi><m:mo>'</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>$</m:mi><m:mn>60,000</m:mn></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>600</m:mn><m:mo>−</m:mo><m:mn>599.71</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>$</m:mi><m:mn>60,000</m:mn></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>$</m:mi><m:mn>17,000</m:mn></m:mrow></m:math>.<newline/>
+Because the area gets smaller, the price of the land <emphasis effect="italics">decreases</emphasis> by about $17,000.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901627137">
+<problem id="fs-id1170902958119">
+<para id="fs-id1170902795644">Global warming will produce rising sea levels partly due to melting ice caps and partly due to the expansion of water as average ocean temperatures rise. To get some idea of the size of this effect, calculate the change in length of a column of water 1.00 km high for a temperature increase of <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Assume the column is not free to expand sideways. As a model of the ocean, that is a reasonable approximation, as only parts of the ocean very close to the surface can expand sideways onto land, and only to a limited degree. As another approximation, neglect the fact that ocean warming is not uniform with depth.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902765010">
+<problem id="fs-id1170901494076">
+<para id="fs-id1170901763285">(a) Suppose a meter stick made of steel and one made of aluminum are the same length at <m:math><m:mrow><m:msup><m:mn>0</m:mn><m:mrow/></m:msup><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. What is their difference in length at <m:math><m:mrow><m:mn>22.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (b) Repeat the calculation for two 30.0-m-long surveyor’s tapes.</para>
+</problem>
+<solution id="fs-id1170902742731">
+<para id="fs-id1170903124490">a. Use <link target-id="fs-id1170902626134"/> to find the coefficients of thermal expansion of steel and aluminum. Then <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>steel</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>22</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.<newline/>
+b. By the same method with <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>30.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, we have <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>8.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902916265">
+<problem id="fs-id1170902754349">
+<para id="fs-id1170901568959">(a) If a 500-mL glass beaker is filled to the brim with ethyl alcohol at a temperature of <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, how much will overflow when the alcohol’s temperature reaches the room temperature of <m:math><m:mrow><m:mn>22.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (b) How much less water would overflow under the same conditions?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902673218">
+<problem id="fs-id1170902907878">
+<para id="fs-id1170902913798">Most cars have a coolant reservoir to catch radiator fluid that may overflow when the engine is hot. A radiator is made of copper and is filled to its 16.0-L capacity when at <m:math><m:mrow><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. What volume of radiator fluid will overflow when the radiator and fluid reach a temperature of <m:math><m:mrow><m:mn>95.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> given that the fluid’s volume coefficient of expansion is <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (Your answer will be a conservative estimate, as most car radiators have operating temperatures greater than <m:math><m:mrow><m:mn>95.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>).</para>
+</problem>
+<solution id="fs-id1170902655288">
+<para id="fs-id1170902742676"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0.475</m:mn><m:mspace width="0.2em"/><m:mtext>L</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902672756">
+<problem id="fs-id1170903011579">
+<para id="fs-id1170901533110">A physicist makes a cup of instant coffee and notices that, as the coffee cools, its level drops 3.00 mm in the glass cup. Show that this decrease cannot be due to thermal contraction by calculating the decrease in level if the <m:math><m:mrow><m:mn>350</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> of coffee is in a 7.00-cm-diameter cup and decreases in temperature from <m:math><m:mrow><m:mn>95.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>45.0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (Most of the drop in level is actually due to escaping bubbles of air.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902604607">
+<problem id="fs-id1170903085212">
+<para id="fs-id1170902649424">The density of water at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is very nearly <m:math><m:mrow><m:mn>1000</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> (it is actually <m:math><m:mrow><m:mn>999.84</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>), whereas the density of ice at <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is <m:math><m:mrow><m:mn>917</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Calculate the pressure necessary to keep ice from expanding when it freezes, neglecting the effect such a large pressure would have on the freezing temperature. (This problem gives you only an indication of how large the forces associated with freezing water might be.)</para>
+</problem>
+<solution id="fs-id1170902745414">
+<para id="fs-id1170902734832">If we start with the freezing of water, then it would expand to <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1000</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>917</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.09</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>1.98</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> of ice.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901605268">
+<problem id="fs-id1170902772919">
+<para id="fs-id1170903033149">Show that <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>α</m:mi><m:mo>,</m:mo></m:mrow></m:math> by calculating the infinitesimal change in volume <emphasis effect="italics">dV</emphasis> of a cube with sides of length <emphasis effect="italics">L</emphasis> when the temperature changes by <emphasis effect="italics">dT</emphasis>.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170903097640">
+<term>coefficient of linear expansion</term>
+<meaning id="fs-id1170901485124">(<m:math><m:mi>α</m:mi></m:math>) material property that gives the change in length, per unit length, per <m:math><m:mrow><m:mn>1</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> change in temperature; a constant used in the calculation of linear expansion; the coefficient of linear expansion depends to some degree on the temperature of the material</meaning>
+</definition>
+<definition id="fs-id1170901513754">
+<term>coefficient of volume expansion</term>
+<meaning id="fs-id1170902842348">(<m:math><m:mi>β</m:mi></m:math>) similar to <m:math><m:mi>α</m:mi></m:math> but gives the change in volume, per unit volume, per <m:math><m:mrow><m:mn>1</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> change in temperature</meaning>
+</definition>
+<definition id="fs-id1170902747066">
+<term>thermal expansion</term>
+<meaning id="fs-id1170902686918">change in size or volume of an object with change in temperature</meaning>
+</definition>
+<definition id="fs-id1170902794812">
+<term>thermal stress</term>
+<meaning id="fs-id1170903121530">stress caused by thermal expansion or contraction</meaning>
+</definition>
+</glossary>
+
+</document>

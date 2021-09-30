@@ -1,0 +1,596 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Molecular Model of a Dielectric</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58452</md:content-id>
+  <md:title>Molecular Model of a Dielectric</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para><list>
+<item>Explain the polarization of a dielectric in a uniform electrical field</item>
+<item>Describe the effect of a polarized dielectric on the electrical field between capacitor plates</item>
+<item>Explain dielectric breakdown</item>
+</list></md:abstract>
+  <md:uuid>f1c7da4e-d87a-4d49-9408-c82c305b068d</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134441081">We can understand the effect of a dielectric on capacitance by looking at its behavior at the molecular level. As we have seen in earlier chapters, in general, all molecules can be classified as either <emphasis effect="italics">polar</emphasis> or <emphasis effect="italics">nonpolar</emphasis>. There is a net separation of positive and negative charges in an isolated polar molecule, whereas there is no charge separation in an isolated nonpolar molecule (<link target-id="CNX_UPhysics_25_05_Polariz"/>). In other words, polar molecules have permanent <emphasis effect="italics">electric-dipole moments</emphasis> and nonpolar molecules do not. For example, a molecule of water is polar, and a molecule of oxygen is nonpolar. Nonpolar molecules can become polar in the presence of an external electrical field, which is called <emphasis effect="italics">induced polarization</emphasis>.</para>
+<figure id="CNX_UPhysics_25_05_Polariz">
+<media id="fs-id1167131220405" alt="The figures show a large scale view of an atom. Figure a shows an unpolarized atom, with protons and neutrons in the center and a circular electron cloud surrounding the nucleus. Figure b shows a polarized atom and positive and negative external charges. The atom is oblong in shape with the electron cloud being pulled towards the positive external charge, and the nucleus being pulled towards the negative external charge. Figure c shows another oblong polarized atom.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_05_polariz.jpg"/>
+</media>
+<caption>The concept of polarization: In an unpolarized atom or molecule, a negatively charged electron cloud is evenly distributed around positively charged centers, whereas a polarized atom or molecule has an excess of negative charge at one side so that the other side has an excess of positive charge. However, the entire system remains electrically neutral. The charge polarization may be caused by an external electrical field. Some molecules and atoms are permanently polarized (electric dipoles) even in the absence of an external electrical field (polar molecules and atoms).</caption>
+</figure>
+<para id="fs-id1167131523946">Let’s first consider a dielectric composed of polar molecules. In the absence of any external electrical field, the electric dipoles are oriented randomly, as illustrated in <link target-id="CNX_UPhysics_25_05_Dielectric"/>(a). However, if the dielectric is placed in an external electrical field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math>, the polar molecules align with the external field, as shown in part (b) of the figure. Opposite charges on adjacent dipoles within the volume of dielectric neutralize each other, so there is no net charge within the dielectric (see the dashed circles in part (b)). However, this is not the case very close to the upper and lower surfaces that border the dielectric (the region enclosed by the dashed rectangles in part (b)), where the alignment does produce a net charge. Since the external electrical field merely aligns the dipoles, the dielectric as a whole is neutral, and the surface charges induced on its opposite faces are equal and opposite. These <term>induced surface charges</term> <m:math><m:mrow><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> produce an additional electrical field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> (an <term>induced electrical field</term>), which <emphasis effect="italics">opposes</emphasis> the external field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math>, as illustrated in part (c).</para>
+<figure id="CNX_UPhysics_25_05_Dielectric">
+<media id="fs-id1167130059406" alt="Figure a shows a dielectric material with oblong shaped molecules within it. Each molecule has a plus sign on one side and a minus sign on the other. They are all randomly arranged. Figure b shows the same molecules now perfectly aligned in rows and columns, with the negative end of each molecule on the upper side. An external electric field E0 points downwards. A dashed line encompasses the negative signs of all the molecules in the topmost row. Similarly, a dashed line encompasses the positive signs of all the molecules in the bottommost row. Figure c shows negative signs at the top of the dielectric, labeled minus Qi, and positive signs at the bottom, labeled plus Qi. The induced field Ei within the dielectric, points upwards.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_05_dielectric.jpg"/>
+</media>
+<caption>A dielectric with polar molecules: (a) In the absence of an external electrical field; (b) in the presence of an external electrical field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math>. The dashed lines indicate the regions immediately adjacent to the capacitor plates. (c) The induced electrical field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> inside the dielectric produced by the induced surface charge <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> of the dielectric. Note that, in reality, the individual molecules are not perfectly aligned with an external field because of thermal fluctuations; however, the <emphasis effect="italics">average</emphasis> alignment is along the field lines as shown.</caption>
+</figure>
+<para id="fs-id1167131497034">The same effect is produced when the molecules of a dielectric are nonpolar. In this case, a nonpolar molecule acquires an <term>induced electric-dipole moment</term> because the external field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> causes a separation between its positive and negative charges. The induced dipoles of the nonpolar molecules align with <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> in the same way as the permanent dipoles of the polar molecules are aligned (shown in part (b)). Hence, the electrical field within the dielectric is weakened regardless of whether its molecules are polar or nonpolar.</para>
+<para id="fs-id1167134712173">Therefore, when the region between the parallel plates of a charged capacitor, such as that shown in <link target-id="CNX_UPhysics_25_05_Capacitor"/>(a), is filled with a dielectric, within the dielectric there is an electrical field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> due to the <emphasis effect="italics">free charge</emphasis> <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> on the capacitor plates and an electrical field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> due to the induced charge <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> on the surfaces of the dielectric. Their vector sum gives the net electrical field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> within the dielectric between the capacitor plates (shown in part (b) of the figure):</para>
+<equation id="fs-id1167134626999"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131222738">This net field can be considered to be the field produced by an <emphasis effect="italics">effective charge</emphasis> <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> on the capacitor.</para>
+<figure id="CNX_UPhysics_25_05_Capacitor">
+<media id="fs-id1167134952421" alt="Figure a shows an empty charged capacitor. Arrows representing electric field E0 go from the positive plate to the negative one. Figure b shows a dielectric-filled charged capacitor. Arrows representing electric field E go from the positive plate to the negative one. The dielectric has negative charges accumulated near the surface of the positive plate and positive charges accumulated near the surface of the negative plate.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_05_capacitor.jpg"/>
+</media>
+<caption>Electrical field: (a) In an empty capacitor, electrical field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math>. (b) In a dielectric-filled capacitor, electrical field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>.</caption>
+</figure>
+<para id="fs-id1167134867733">In most dielectrics, the net electrical field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is proportional to the field <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> produced by the free charge. In terms of these two electrical fields, the dielectric constant <m:math><m:mi>κ</m:mi></m:math> of the material is defined as</para>
+<note id="fs-id1167134817861" class="equation-callout">
+<equation id="fs-id1167131362507"><label/><m:math><m:mrow><m:mi>κ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>E</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131522387">Since <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> point in opposite directions, the magnitude <emphasis effect="italics">E</emphasis> is smaller than the magnitude <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> and therefore <m:math><m:mrow><m:mi>κ</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Combining <link target-id="fs-id1167131362507"/> with <link target-id="fs-id1167134626999"/>, and rearranging the terms, yields the following expression for the induced electrical field in a dielectric:</para>
+<note id="fs-id1167134510215" class="equation-callout">
+<equation id="fs-id1167131170169"><label/><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134890076">When the magnitude of an external electrical field becomes too large, the molecules of dielectric material start to become ionized. A molecule or an atom is ionized when one or more electrons are removed from it and become free electrons, no longer bound to the molecular or atomic structure. When this happens, the material can conduct, thereby allowing charge to move through the dielectric from one capacitor plate to the other. This phenomenon is called <term>dielectric breakdown</term>. (<link target-id="CNX_UPhysics_25_00_Lichtenbrg" document="m58447"/> shows typical random-path patterns of electrical discharge during dielectric breakdown.) The critical value, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math>, of the electrical field at which the molecules of an insulator become ionized is called the <term>dielectric strength</term> of the material. The dielectric strength imposes a limit on the voltage that can be applied for a given plate separation in a capacitor. For example, the dielectric strength of air is <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>MV/m</m:mtext></m:mrow></m:math>, so for an air-filled capacitor with a plate separation of <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext><m:mo>,</m:mo></m:mrow></m:math> the limit on the potential difference that can be safely applied across its plates without causing dielectric breakdown is <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext> </m:mtext><m:mi>d</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>kV</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167134891857">However, this limit becomes 60.0 kV when the same capacitor is filled with Teflon™, whose dielectric strength is about <m:math><m:mrow><m:mn>60.0</m:mn><m:mspace width="0.2em"/><m:mtext>MV/m</m:mtext></m:mrow></m:math>. Because of this limit imposed by the dielectric strength, the amount of charge that an air-filled capacitor can store is only <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>air</m:mtext></m:mrow></m:msub><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>kV)</m:mtext></m:mrow></m:math> and the charge stored on the same Teflon™-filled capacitor can be as much as</para>
+<equation id="fs-id1167585174495" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>teflon</m:mtext></m:mrow></m:msub><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>60.0</m:mn><m:mspace width="0.2em"/><m:mtext>kV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>teflon</m:mtext></m:mrow></m:msub><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>air</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>kV</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>60.0</m:mn><m:mspace width="0.2em"/><m:mtext>kV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20</m:mn><m:mfrac><m:mrow><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>teflon</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>air</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mfrac><m:mrow><m:mn>2.1</m:mn></m:mrow><m:mrow><m:mn>1.00059</m:mn></m:mrow></m:mfrac><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>≅</m:mo><m:mn>42</m:mn><m:mspace width="0.1em"/><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131584165">which is about 42 times greater than a charge stored on an air-filled capacitor. Typical values of dielectric constants and dielectric strengths for various materials are given in <link target-id="fs-id1167131158809"/>. Notice that the dielectric constant <m:math><m:mi>κ</m:mi></m:math> is exactly 1.0 for a vacuum (the empty space serves as a reference condition) and very close to 1.0 for air under normal conditions (normal pressure at room temperature). These two values are so close that, in fact, the properties of an air-filled capacitor are essentially the same as those of an empty capacitor.</para>
+<table id="fs-id1167131158809" summary="The table has three column s and twenty three rows including the header row. The header row labels each column: Material, Dielectric constant kappa and Dielectric strength E subscript c open bracket multiplied by ten to the power six V by m close bracket. Under column 1 are the materials: Vacuum, Dry air (1 atm), Teflon, Paraffin, Silicon oil, Polystyrene, Nylon, Paper, Fused quartz, Glass, Concrete, Bakelite, Diamond, Pyrex glass, Mica, Neoprene rubber, Water, Sulfuric acid, Titanium dioxide, Strontium titanate, Barium titanate, Calcium copper titanate. Under column 2 are the values: 1, 1.00059, 2.1, 2.3, 2.5, 2.56, 3.4, 3.7, 3.78, 4 to 6, 4.5, 4.9, 5.5, 5.6, 6.0, 6.7, 80, 84 to 100, 86 to 173, 310, 1,200 to 10,000, greater than 250,000. Under column 3 are the values: infinity, 3.0, 60 to 173, 11, 10 to 15, 19.7, 14, 16, 8, 9.8 to 13.8, not applicable, 24, 2,000, 14, 118, 15.7 to 26.7, not applicable, not applicable, not applicable, 8, not applicable, not applicable.">
+<title>Representative Values of Dielectric Constants and Dielectric Strengths of Various Materials at Room Temperature</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<colspec colnum="3" colname="col3"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Material</entry>
+<entry valign="top" align="center">Dielectric constant <m:math><m:mi>κ</m:mi></m:math></entry>
+<entry valign="top" align="center">Dielectric strength <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">[</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mrow><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">]</m:mo></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Vacuum</entry>
+<entry valign="top" align="center">1</entry>
+<entry valign="top" align="center">∞</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Dry air (1 atm)</entry>
+<entry valign="top" align="center">1.00059</entry>
+<entry valign="top" align="center">3.0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Teflon™</entry>
+<entry valign="top" align="center">2.1</entry>
+<entry valign="top" align="center">60 to 173</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Paraffin</entry>
+<entry valign="top" align="center">2.3</entry>
+<entry valign="top" align="center">11</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Silicon oil</entry>
+<entry valign="top" align="center">2.5</entry>
+<entry valign="top" align="center">10 to 15</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Polystyrene</entry>
+<entry valign="top" align="center">2.56</entry>
+<entry valign="top" align="center">19.7</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Nylon</entry>
+<entry valign="top" align="center">3.4</entry>
+<entry valign="top" align="center">14</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Paper</entry>
+<entry valign="top" align="center">3.7</entry>
+<entry valign="top" align="center">16</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Fused quartz</entry>
+<entry valign="top" align="center">3.78</entry>
+<entry valign="top" align="center">8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Glass</entry>
+<entry valign="top" align="center">4 to 6</entry>
+<entry valign="top" align="center">9.8 to 13.8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Concrete</entry>
+<entry valign="top" align="center">4.5</entry>
+<entry valign="top" align="center">–</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Bakelite</entry>
+<entry valign="top" align="center">4.9</entry>
+<entry valign="top" align="center">24</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Diamond</entry>
+<entry valign="top" align="center">5.5</entry>
+<entry valign="top" align="center">2,000</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Pyrex glass</entry>
+<entry valign="top" align="center">5.6</entry>
+<entry valign="top" align="center">14</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mica</entry>
+<entry valign="top" align="center">6.0</entry>
+<entry valign="top" align="center">118</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Neoprene rubber</entry>
+<entry valign="top" align="center">6.7</entry>
+<entry valign="top" align="center">15.7 to 26.7</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Water</entry>
+<entry valign="top" align="center">80</entry>
+<entry valign="top" align="center"><m:math><m:mo>−</m:mo></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Sulfuric acid</entry>
+<entry valign="top" align="center">84 to 100</entry>
+<entry valign="top" align="center"><m:math><m:mo>−</m:mo></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Titanium dioxide</entry>
+<entry valign="top" align="center">86 to 173</entry>
+<entry valign="top" align="center">–</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Strontium titanate</entry>
+<entry valign="top" align="center">310</entry>
+<entry valign="top" align="center">8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Barium titanate</entry>
+<entry valign="top" align="center">1,200 to 10,000</entry>
+<entry valign="top" align="center">–</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Calcium copper titanate</entry>
+<entry valign="top" align="center">&gt; 250,000</entry>
+<entry valign="top" align="center">–</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167134569579">Not all substances listed in the table are good insulators, despite their high dielectric constants. Water, for example, consists of polar molecules and has a large dielectric constant of about 80. In a water molecule, electrons are more likely found around the oxygen nucleus than around the hydrogen nuclei. This makes the oxygen end of the molecule slightly negative and leaves the hydrogens end slightly positive, which makes the molecule easy to align along an external electrical field, and thus water has a large dielectric constant. However, the polar nature of water molecules also makes water a good solvent for many substances, which produces undesirable effects, because any concentration of free ions in water conducts electricity.</para>
+<example id="fs-id1167131612484">
+<para id="fs-id1167131329511"><title>Electrical Field and Induced Surface Charge</title>
+Suppose that the distance between the plates of the capacitor in <link target-id="fs-id1167134456373" document="m58451"/> is 2.0 mm and the area of each plate is <m:math><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Determine: (a) the electrical field between the plates before and after the Teflon™ is inserted, and (b) the surface charge induced on the Teflon™ surfaces.</para>
+<para id="fs-id1167134539266"><title>Strategy</title>
+In part (a), we know that the voltage across the empty capacitor is <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>, so to find the electrical fields we use the relation <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mi>d</m:mi></m:mrow></m:math> and <link target-id="fs-id1167131362507"/>. In part (b), knowing the magnitude of the electrical field, we use the expression for the magnitude of electrical field near a charged plate <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mi>σ</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math>, where <m:math><m:mi>σ</m:mi></m:math> is a uniform surface charge density caused by the surface charge. We use the value of free charge <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> obtained in <link target-id="fs-id1167134456373" document="m58451"/>.</para>
+<para id="fs-id1167131109645"><title>Solution</title></para>
+<list id="fs-id1167131139024" list-type="enumerated" number-style="lower-alpha">
+<item>The electrical field <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> between the plates of an empty capacitor is
+<equation id="fs-id1167134486235" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+The electrical field <emphasis effect="italics">E</emphasis> with the Teflon™ in place is
+<equation id="fs-id1167131473768" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2.1</m:mn></m:mrow></m:mfrac><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo>=</m:mo><m:mn>9.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>The effective charge on the capacitor is the difference between the free charge <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> and the induced charge <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>. The electrical field in the Teflon™ is caused by this effective charge. Thus
+<equation id="fs-id1167584952513" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mi>σ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+We invert this equation to obtain <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>, which yields 
+<equation id="fs-id1167583729528" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>A</m:mi><m:mi>E</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mtext>V</m:mtext><m:mtext>m</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mn>0.42</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+</example>
+<example id="fs-id1167131144296">
+<para id="fs-id1167134541831"><title>Inserting a Dielectric into a Capacitor Connected to a Battery</title>
+When a battery of voltage <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is connected across an empty capacitor of capacitance <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, the charge on its plates is <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, and the electrical field between its plates is <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. A dielectric of dielectric constant <m:math><m:mi>κ</m:mi></m:math> is inserted between the plates <emphasis effect="italics">while the battery remains in place</emphasis>, as shown in <link target-id="CNX_UPhysics_25_05_Ex2"/>. (a) Find the capacitance <emphasis effect="italics">C</emphasis>, the voltage <emphasis effect="italics">V</emphasis> across the capacitor, and the electrical field <emphasis effect="italics">E</emphasis> between the plates after the dielectric is inserted. (b) Obtain an expression for the free charge <emphasis effect="italics">Q</emphasis> on the plates of the filled capacitor and the induced charge <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> on the dielectric surface in terms of the original plate charge <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_25_05_Ex2">
+<media id="fs-id1167131086462" alt="Figure a shows a capacitor connected to a battery. The capacitor has voltage V0 across it. The positive and negative plates of the capacitor have charge plus Q0 and minus Q0 respectively. Figure b shows the same capacitor with a dielectric inserted in it. The charge on the positive and negative plates is now plus Q and minus Q respectively. Negative charges are shown accumulated near the inner surface of the positive plate. These are labeled minus Qi. Positive charges are shown accumulated near the inner surface of the negative plate. These are labeled plus Qi.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_05_ex2.jpg"/>
+</media>
+<caption>A dielectric is inserted into the charged capacitor while the capacitor remains connected to the battery.</caption>
+</figure>
+<para id="fs-id1167131255132"><title>Strategy</title>
+We identify the known values: <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>,<m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mi>κ</m:mi></m:math>, and <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Our task is to express the unknown values in terms of these known values.</para>
+<para id="fs-id1167131233640"><title>Solution</title>
+(a) The capacitance of the filled capacitor is <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Since the battery is always connected to the capacitor plates, the potential difference between them does not change; hence, <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Because of that, the electrical field in the filled capacitor is the same as the field in the empty capacitor, so we can obtain directly that</para>
+<equation id="fs-id1167131269814" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131115362">(b) For the filled capacitor, the free charge on the plates is</para>
+<equation id="fs-id1167131501041" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>κ</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134467776">The electrical field <emphasis effect="italics">E</emphasis> in the filled capacitor is due to the effective charge <m:math><m:mrow><m:mi>Q</m:mi><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> (<link target-id="CNX_UPhysics_25_05_Ex2"/>(b)). Since <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, we have</para>
+<equation id="fs-id1167134734305" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>Q</m:mi><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134711762">Solving this equation for <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>, we obtain for the induced charge</para>
+<equation id="fs-id1167131445111" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>κ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131140704"><title>Significance</title>
+Notice that for materials with dielectric constants larger than 2 (see <link target-id="fs-id1167131158809"/>), the induced charge on the surface of dielectric is larger than the charge on the plates of a vacuum capacitor. The opposite is true for gasses like air whose dielectric constant is smaller than 2.</para>
+</example>
+<note id="fs-id1167134472989" class="check-understanding">
+<exercise id="fs-id1167134891536">
+<problem id="fs-id1167134678734">
+<para id="fs-id1167130051956"><emphasis effect="bold">Check Your Understanding</emphasis> Continuing with <link target-id="fs-id1167131144296"/>, show that when the battery is connected across the plates the energy stored in dielectric-filled capacitor is <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (larger than the energy <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> of an empty capacitor kept at the same voltage). Compare this result with the result <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mi>κ</m:mi></m:mrow></m:mrow></m:math> found previously for an isolated, charged capacitor.</para>
+</problem>
+</exercise>
+</note>
+<note id="fs-id1167131127193" class="check-understanding">
+<exercise id="fs-id1167134760768">
+<problem id="fs-id1167134992580">
+<para id="fs-id1167131502367"><emphasis effect="bold">Check Your Understanding</emphasis> Repeat the calculations of <link target-id="fs-id1167134456373" document="m58451"/> for the case in which the battery remains connected while the dielectric is placed in the capacitor.</para>
+</problem>
+<solution id="fs-id1167134540997">
+<para id="fs-id1167134627352">a. <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>42</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.8</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>1.7</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>; d. <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>16</m:mn><m:mspace width="0.2em"/><m:mtext>nJ</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mn>34</m:mn><m:mspace width="0.2em"/><m:mtext>nJ</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131425839" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167134646273" list-type="bulleted" bullet-style="bullet">
+<item>When a dielectric is inserted between the plates of a capacitor, equal and opposite surface charge is induced on the two faces of the dielectric. The induced surface charge produces an induced electrical field that opposes the field of the free charge on the capacitor plates.</item>
+<item>The dielectric constant of a material is the ratio of the electrical field in vacuum to the net electrical field in the material. A capacitor filled with dielectric has a larger capacitance than an empty capacitor.</item>
+<item>The dielectric strength of an insulator represents a critical value of electrical field at which the molecules in an insulating material start to become ionized. When this happens, the material can conduct and dielectric breakdown is observed.</item>
+</list>
+</section>
+<section id="fs-id1167134922079" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1172100938627" class="unnumbered unstyled" summary="The table has two columns and twelve rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Capacitance” and “C equals Q divided by V”. The second row contains “Capacitance of a parallel-plate capacitor” and “C equals epsilon subscript 0 A divided by d”. The third row contains “Capacitance of a vacuum spherical capacitor” and “C equals 4 pi epsilon subscript 0 numerator R subscript 1 R subscript 2 divided by denominator R subscript 2 minus R subscript 1”. The fourth row contains “Capacitance of a vacuum cylindrical capacitor” and “C equals numerator 2 pi epsilon subscript 0 l divided by denominator natural log opening parenthesis R subscript 2 divided by R subscript 1 closing parenthesis”. The fifth row contains “Capacitance of a series combination” and “inverse of C subscript S equals inverse of C subscript 1 plus inverse of C subscript 2 plus inverse of C subscript 3 and so on”. The sixth row contains “Capacitance of a parallel combination” and “C subscript p equals C subscript 1 plus C subscript 2 plus C subscript 3 and so on”. The seventh row contains “Energy density” and “u subscript E equals half epsilon subscript 0 E square”. The eighth row contains “Energy stored in a capacitor” and “U subscript c equals half V square C equals half Q square divided by C equals half Q V”. The ninth row contains “Capacitance of a capacitor with dielectric” and “C equals kappa C subscript 0”. The tenth row contains “Energy stored in an isolated capacitor with dielectric” and “U equals 1 divided by kappa U subscript 0”. The eleventh row contains “Dielectric constant” and “kappa equals E subscript 0 divided by E”. The twelfth row contains “Induced electrical field in a dielectric” and “vector E subscript i equals opening parenthesis 1 divided by kappa minus 1 closing parenthesis vector E subscript 0”.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Capacitance</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitance of a parallel-plate capacitor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitance of a vacuum spherical capacitor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitance of a vacuum cylindrical capacitor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>l</m:mi></m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitance of a series combination</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mtext>⋯</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitance of a parallel combination</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:mtext>⋯</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energy density</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energy stored in a capacitor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>Q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitance of a capacitor with dielectric</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energy stored in an isolated capacitor with<newline/>dielectric</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Dielectric constant</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>κ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>E</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Induced electrical field in a dielectric</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167131427296" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167131482260">
+<problem id="fs-id1167131482262">
+<para id="fs-id1167131529160">Distinguish between dielectric strength and dielectric constant.</para>
+</problem>
+<solution id="fs-id1167131220180">
+<para id="fs-id1167131474895">Dielectric strength is a critical value of an electrical field above which an insulator starts to conduct; a dielectric constant is the ratio of the electrical field in vacuum to the net electrical field in a material.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134886218">
+<problem id="fs-id1167131399551">
+<para id="fs-id1167134946372">Water is a good solvent because it has a high dielectric constant. Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131360488">
+<problem id="fs-id1167131162186">
+<para id="fs-id1167131200480">Water has a high dielectric constant. Explain why it is then not used as a dielectric material in capacitors.</para>
+</problem>
+<solution id="fs-id1167134687390">
+<para id="fs-id1167131228840">Water is a good solvent.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131390611">
+<problem id="fs-id1167131390614">
+<para id="fs-id1167129979772">Elaborate on why molecules in a dielectric material experience net forces on them in a non-uniform electrical field but not in a uniform field.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131522869">
+<problem id="fs-id1167131522872">
+<para id="fs-id1167131101257">Explain why the dielectric constant of a substance containing permanent molecular electric dipoles decreases with increasing temperature.</para>
+</problem>
+<solution id="fs-id1167130045766">
+<para id="fs-id1167130045768">When energy of thermal motion is large (high temperature), an electrical field must be large too in order to keep electric dipoles aligned with it.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134516195">
+<problem id="fs-id1167131169893">
+<para id="fs-id1167134886229">Give a reason why a dielectric material increases capacitance compared with what it would be with air between the plates of a capacitor. How does a dielectric material also allow a greater voltage to be applied to a capacitor? (The dielectric thus increases <emphasis effect="italics">C</emphasis> and permits a greater <emphasis effect="italics">V</emphasis>.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131574939">
+<problem id="fs-id1167131574941">
+<para id="fs-id1167134734485">Elaborate on the way in which the polar character of water molecules helps to explain water’s relatively large dielectric constant.</para>
+</problem>
+<solution id="fs-id1167131112995">
+<para id="fs-id1167131112997">answers may vary</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131217052">
+<problem id="fs-id1167131140612">
+<para id="fs-id1167131140614">Sparks will occur between the plates of an air-filled capacitor at a lower voltage when the air is humid than when it is dry. Discuss why, considering the polar character of water molecules.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167131454666" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167134859333">
+<problem id="fs-id1167134859335">
+<para id="fs-id1167131362511">Two flat plates containing equal and opposite charges are separated by material 4.0 mm thick with a dielectric constant of 5.0. If the electrical field in the dielectric is 1.5 MV/m, what are (a) the charge density on the capacitor plates, and (b) the induced charge density on the surfaces of the dielectric?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131554006">
+<problem id="fs-id1167131412753">
+<para id="fs-id1167131412756">For a Teflon™-filled, parallel-plate capacitor, the area of the plate is <m:math><m:mrow><m:mn>50.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and the spacing between the plates is 0.50 mm. If the capacitor is connected to a 200-V battery, find (a) the free charge on the capacitor plates, (b) the electrical field in the dielectric, and (c) the induced charge on the dielectric surfaces.</para>
+</problem>
+<solution id="fs-id1167131167219">
+<para id="fs-id1167131237990">a. 37 nC; b. 0.4 MV/m; c. 19 nC</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131459274">
+<problem id="fs-id1167129968315">
+<para id="fs-id1167131460830">Find the capacitance of a parallel-plate capacitor having plates with a surface area of <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and separated by 0.100 mm of Teflon™.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131499185">
+<problem id="fs-id1167131499187">
+<para id="fs-id1167131430984">(a) What is the capacitance of a parallel-plate capacitor with plates of area <m:math><m:mrow><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math> that are separated by 0.0200 mm of neoprene rubber? (b) What charge does it hold when 9.00 V is applied to it?</para>
+</problem>
+<solution id="fs-id1167134925685">
+<para id="fs-id1167134894952">a. <m:math><m:mrow><m:mn>4.4</m:mn><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>-5</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134857697">
+<problem id="fs-id1167134857699">
+<para id="fs-id1167131135417">Two parallel plates have equal and opposite charges. When the space between the plates is evacuated, the electrical field is <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>3.20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:mrow></m:math>. When the space is filled with dielectric, the electrical field is <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:mrow></m:math>. (a) What is the surface charge density on each surface of the dielectric? (b) What is the dielectric constant?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134886133">
+<problem id="fs-id1167134886135">
+<para id="fs-id1167131387154">The dielectric to be used in a parallel-plate capacitor has a dielectric constant of 3.60 and a dielectric strength of <m:math><m:mrow><m:mn>1.60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:mrow></m:math>. The capacitor has to have a capacitance of 1.25 nF and must be able to withstand a maximum potential difference 5.5 kV. What is the minimum area the plates of the capacitor may have?</para>
+</problem>
+<solution id="fs-id1167131220386">
+<para id="fs-id1167131220388"><m:math><m:mrow><m:mn>0.0135</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134626986">
+<problem id="fs-id1167131589060">
+<para id="fs-id1167131589062">When a 360-nF air capacitor is connected to a power supply, the energy stored in the capacitor is <m:math><m:mrow><m:mn>18.5</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J</m:mtext></m:mrow></m:math>. While the capacitor is connected to the power supply, a slab of dielectric is inserted that completely fills the space between the plates. This increases the stored energy by <m:math><m:mrow><m:mn>23.2</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J</m:mtext></m:mrow></m:math>. (a) What is the potential difference between the capacitor plates? (b) What is the dielectric constant of the slab?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131481698">
+<problem id="fs-id1167131182596">
+<para id="fs-id1167131182598">A parallel-plate capacitor has square plates that are 8.00 cm on each side and 3.80 mm apart. The space between the plates is completely filled with two square slabs of dielectric, each 8.00 cm on a side and 1.90 mm thick. One slab is Pyrex glass and the other slab is polystyrene. If the potential difference between the plates is 86.0 V, find how much electrical energy can be stored in this capacitor.</para>
+</problem>
+<solution id="fs-id1167131182600">
+<para id="fs-id1167131409084"><m:math><m:mrow><m:mn>0.185</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131554419" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1167131447895">
+<problem id="fs-id1167131447897">
+<para id="fs-id1167131580602">A capacitor is made from two flat parallel plates placed 0.40 mm apart. When a charge of <m:math><m:mrow><m:mn>0.020</m:mn><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> is placed on the plates the potential difference between them is 250 V. (a) What is the capacitance of the plates? (b) What is the area of each plate? (c) What is the charge on the plates when the potential difference between them is 500 V? (d) What maximum potential difference can be applied between the plates so that the magnitude of electrical fields between the plates does not exceed 3.0 MV/m?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134945718">
+<problem id="fs-id1167134945720">
+<para id="fs-id1167134970107">An air-filled (empty) parallel-plate capacitor is made from two square plates that are 25 cm on each side and 1.0 mm apart. The capacitor is connected to a 50-V battery and fully charged. It is then disconnected from the battery and its plates are pulled apart to a separation of 2.00 mm. (a) What is the capacitance of this new capacitor? (b) What is the charge on each plate? (c) What is the electrical field between the plates?</para>
+</problem>
+<solution id="fs-id1167131169934">
+<para id="fs-id1167131169936">a. 0.277 nF; b. 27.7 nC; c. 50 kV/m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131612839">
+<problem id="fs-id1167131612841">
+<para id="fs-id1167131313856">Suppose that the capacitance of a variable capacitor can be manually changed from 100 to 800 pF by turning a dial connected to one set of plates by a shaft, from <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. With the dial set at <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> (corresponding to <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>800</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>), the capacitor is connected to a 500-V source. After charging, the capacitor is disconnected from the source, and the dial is turned to <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. (a) What is the charge on the capacitor? (b) What is the voltage across the capacitor when the dial is set to <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext><m:mtext>?</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134912842">
+<problem id="fs-id1167131455764">
+<para id="fs-id1167131455766">Earth can be considered as a spherical capacitor with two plates, where the negative plate is the surface of Earth and the positive plate is the bottom of the ionosphere, which is located at an altitude of approximately 70 km. The potential difference between Earth’s surface and the ionosphere is about 350,000 V. (a) Calculate the capacitance of this system. (b) Find the total charge on this capacitor. (c) Find the energy stored in this system.</para>
+</problem>
+<solution id="fs-id1167131455769">
+<para id="fs-id1167131282318">a. 0.065 F; b. 23,000 C; c. 4.0 GJ</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131146194">
+<problem id="fs-id1167131146196">
+<para id="fs-id1167131146198">A <m:math><m:mrow><m:mn>4.00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor and a <m:math><m:mrow><m:mn>6.00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor are connected in parallel across a 600-V supply line. (a) Find the charge on each capacitor and voltage across each. (b) The charged capacitors are disconnected from the line and from each other. They are then reconnected to each other with terminals of unlike sign together. Find the final charge on each capacitor and the voltage across each.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131335360">
+<problem id="fs-id1167131335362">
+<para id="fs-id1167131335364">Three capacitors having capacitances of 8.40, 8.40, and 4.20 <m:math><m:mrow><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>, respectively, are connected in series across a 36.0-V potential difference. (a) What is the charge on the <m:math><m:mrow><m:mn>4.20</m:mn><m:mtext>-</m:mtext><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math> capacitor? (b) The capacitors are disconnected from the potential difference without allowing them to discharge. They are then reconnected in parallel with each other with the positively charged plates connected together. What is the voltage across each capacitor in the parallel combination?</para>
+</problem>
+<solution id="fs-id1167131544736">
+<para id="fs-id1167131544738">a. <m:math><m:mrow><m:mn>75.6</m:mn><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; b. 10.8 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134735259">
+<problem id="fs-id1167134735261">
+<para id="fs-id1167134735263">A parallel-plate capacitor with capacitance <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math> is charged with a 12.0-V battery, after which the battery is disconnected. Determine the minimum work required to increase the separation between the plates by a factor of 3.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167129964586">
+<problem id="fs-id1167129964588">
+<para id="fs-id1167129964591">(a) How much energy is stored in the electrical fields in the capacitors (in total) shown below? (b) Is this energy equal to the work done by the 400-V source in charging the capacitors?
+<figure id="eip-idm655425456"><media id="eip-idm655425328" alt="Figure shows a 400 volt dc source that one end is connected to a 3 micro Farad capacitor. Then the other end of the 2 micro Farad capacitor connects to a split where one capacitor of 3.0 micro Farads is on one branch while a 6.0 micro Farad is connected to the other branch. After this split, the wires reconnect and connect to a 6 micro Farad capacitor. This last capacitor is then connected to the other end of the dc source.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_03_problem13_img.jpg"/>
+</media></figure></para></problem>
+<solution id="fs-id1167131230626">
+<para id="fs-id1167134634524">a. 0.13 J; b. no, because of resistive heating in connecting wires that is always present, but the circuit schematic does not indicate resistors<newline/>
+<media id="fs-id1167131139918" alt="Figure shows a closed circuit with a battery of 400 volts. The positive terminal of the battery is connected to a capacitor of 3 micro Farads, followed by a combination of two capacitors in parallel with each other, followed by a fourth capacitor of value 6 micro Farads, which in turn is connected to the negative terminal of the battery. The capacitors in parallel to each other have values 6 micro Farad and 3 micro Farad.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_03_problem13_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134835308">
+<problem id="fs-id1167134835310">
+<para id="fs-id1167131597366">Three capacitors having capacitances 8.4, 8.4, and 4.2 <m:math><m:mrow><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math> are connected in series across a 36.0-V potential difference. (a) What is the total energy stored in all three capacitors? (b) The capacitors are disconnected from the potential difference without allowing them to discharge. They are then reconnected in parallel with each other with the positively charged plates connected together. What is the total energy now stored in the capacitors?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134816254">
+<problem id="fs-id1167134816256">
+<para id="fs-id1167134960558">(a) An <m:math><m:mrow><m:mn>8.00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor is connected in parallel to another capacitor, producing a total capacitance of <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>. What is the capacitance of the second capacitor? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?</para>
+</problem>
+<solution id="fs-id1167131613545">
+<para id="fs-id1167134922682">a. <m:math><m:mrow><m:mtext>−3.00</m:mtext><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>; b. You cannot have a negative <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> capacitance. c. The assumption that they were hooked up in parallel, rather than in series, is incorrect. A parallel connection always produces a greater capacitance, while here a smaller capacitance was assumed. This could only happen if the capacitors are connected in series.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131458346">
+<problem id="fs-id1167131479185">
+<para id="fs-id1167131479187">(a) On a particular day, it takes <m:math><m:mrow><m:mn>9.60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> of electrical energy to start a truck’s engine. Calculate the capacitance of a capacitor that could store that amount of energy at 12.0 V. (b) What is unreasonable about this result? (c) Which assumptions are responsible?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131086800">
+<problem id="fs-id1167134939176">
+<para id="fs-id1167134939178">(a) A certain parallel-plate capacitor has plates of area <m:math><m:mrow><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>, separated by 0.0100 mm of nylon, and stores 0.170 C of charge. What is the applied voltage? (b) What is unreasonable about this result? (c) Which assumptions are responsible or inconsistent?</para>
+</problem>
+<solution id="fs-id1167131283052">
+<para id="fs-id1167131144469">a. 14.2 kV; b. The voltage is unreasonably large, more than 100 times the breakdown voltage of nylon. c. The assumed charge is unreasonably large and cannot be stored in a capacitor of these dimensions.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131461778">
+<problem id="fs-id1167131461780">
+<para id="fs-id1167131461782">A prankster applies 450 V to an <m:math><m:mrow><m:mn>80.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor and then tosses it to an unsuspecting victim. The victim’s finger is burned by the discharge of the capacitor through 0.200 g of flesh. Estimate, what is the temperature increase of the flesh? Is it reasonable to assume that no thermodynamic phase change happened?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167134862086" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1167131588668">
+<problem id="fs-id1167131190404">
+<para id="fs-id1167131190406">A spherical capacitor is formed from two concentric spherical conducting spheres separated by vacuum. The inner sphere has radius 12.5 cm and the outer sphere has radius 14.8 cm. A potential difference of 120 V is applied to the capacitor. (a) What is the capacitance of the capacitor? (b) What is the magnitude of the electrical field at <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>12.6</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, just outside the inner sphere? (c) What is the magnitude of the electrical field at <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>14.7</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, just inside the outer sphere? (d) For a parallel-plate capacitor the electrical field is uniform in the region between the plates, except near the edges of the plates. Is this also true for a spherical capacitor?</para>
+</problem>
+<solution id="fs-id1167134831520">
+<para id="fs-id1167134831522">a. 89.6 pF; b. 6.09 kV/m; c. 4.47 kV/m; d. no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134677951">
+<problem id="fs-id1167134677953">
+<para id="fs-id1167134943615">The network of capacitors shown below are all uncharged when a 300-V potential is applied between points A and B with the switch S open. (a) What is the potential difference <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>E</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mi>D</m:mi></m:msub></m:mrow></m:math>
+? (b) What is the potential at point E after the switch is closed? (c) How much charge flows through the switch after it is closed?</para>
+<media id="fs-id1167134956551" alt="Figure a shows a capacitor connected to a battery. The capacitor has voltage V0 across it. The positive and negative plates of the capacitor have charge plus Q0 and minus Q0 respectively. Figure b shows the same capacitor with a dielectric inserted in it. The charge on the positive and negative plates is now plus Q and minus Q respectively. Negative charges are shown accumulated near the inner surface of the positive plate. These are labeled minus Qi. Positive charges are shown accumulated near the inner surface of the negative plate. These are labeled plus Qi.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_network3_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167131192002">
+<problem id="fs-id1167131530492">
+<para id="fs-id1167131530494">Electronic flash units for cameras contain a capacitor for storing the energy used to produce the flash. In one such unit the flash lasts for 1/675 fraction of a second with an average light power output of 270 kW. (a) If the conversion of electrical energy to light is 95% efficient (because the rest of the energy goes to thermal energy), how much energy must be stored in the capacitor for one flash? (b) The capacitor has a potential difference between its plates of 125 V when the stored energy equals the value stored in part (a). What is the capacitance?</para>
+</problem>
+<solution id="fs-id1167131580263">
+<para id="fs-id1167131580265">a. 421 J; b. 53.9 mF</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131394473">
+<problem id="fs-id1167131394475">
+<para id="fs-id1167131394477">A spherical capacitor is formed from two concentric spherical conducting shells separated by a vacuum. The inner sphere has radius 12.5 cm and the outer sphere has radius 14.8 cm. A potential difference of 120 V is applied to the capacitor. (a) What is the energy density at <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>12.6</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, just outside the inner sphere? (b) What is the energy density at <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>14.7</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, just inside the outer sphere? (c) For the parallel-plate capacitor the energy density is uniform in the region between the plates, except near the edges of the plates. Is this also true for the spherical capacitor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131522086"><problem id="fs-id1167131522088">
+<para id="fs-id1167131522090">A metal plate of thickness <emphasis effect="italics">t</emphasis> is held in place between two capacitor plates by plastic pegs, as shown below. The effect of the pegs on the capacitance is negligible. The area of each capacitor plate and the area of the top and bottom surfaces of the inserted plate are all <emphasis effect="italics">A</emphasis>. What is the capacitance of this system? <newline/><media id="fs-id1167134508553" alt="Figure shows two plates of a capacitor separated by a distance d. A metal plate of thickness t is shown in between the two plates. The distance of the metal from one capacitor plate is d1 and that from the other capacitor plate is d2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_04_problem-6_img.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167131204439">
+<para id="fs-id1167131204441"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>A</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>d</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>d</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:math>
+</para>
+</solution>
+</exercise><exercise id="fs-id1167131271429">
+<problem id="fs-id1167131271431">
+<para id="fs-id1167131271433">A parallel-plate capacitor is filled with two dielectrics, as shown below. When the plate area is <emphasis effect="italics">A</emphasis> and separation between plates is <emphasis effect="italics">d</emphasis>, show that the capacitance is given by</para>
+<para id="fs-id1167131400896"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>κ</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>κ</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167134663140" alt="Figure shows two vertical plates of a capacitor. The top half of the area between them is filled with material labeled K1.The other half is filled with material labeled K2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_04_problem-7_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167131215902">
+<problem id="fs-id1167131215904">
+<para id="fs-id1167131578902">A parallel-plate capacitor is filled with two dielectrics, as shown below. Show that the capacitance is given by</para>
+<para id="fs-id1167131578906"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>κ</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>κ</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>κ</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>κ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167134952407" alt="Figure shows two vertical plates of a capacitor. The left half of the area between them is filled with material labeled K1.The right half is filled with material labeled K2. Both K1 and K2 have thickness d by 2. The area of the capacitor plate is labeled A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_04_problem-8_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167134869800">
+<para id="fs-id1167134869802">proof</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131152618">
+<problem id="fs-id1167134643796">
+<para id="fs-id1167134643798">A capacitor has parallel plates of area <m:math><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> separated by 2.0 mm. The space between the plates is filled with polystyrene. (a) Find the maximum permissible voltage across the capacitor to avoid dielectric breakdown. (b) When the voltage equals the value found in part (a), find the surface charge density on the surface of the dielectric.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131134311">
+<term>dielectric breakdown</term>
+<meaning id="fs-id1167130046316">phenomenon that occurs when an insulator becomes a conductor in a strong electrical field</meaning>
+</definition>
+<definition id="fs-id1167131481907">
+<term>dielectric strength</term>
+<meaning id="fs-id1167131481913">critical electrical field strength above which molecules in insulator begin to break down and the insulator starts to conduct</meaning>
+</definition>
+<definition id="fs-id1167131412729">
+<term>induced electric-dipole moment</term>
+<meaning id="fs-id1167134590644">dipole moment that a nonpolar molecule may acquire when it is placed in an electrical field</meaning>
+</definition>
+<definition id="fs-id1167131509976">
+<term>induced electrical field</term>
+<meaning id="fs-id1167131420223">electrical field in the dielectric due to the presence of induced charges</meaning>
+</definition>
+<definition id="fs-id1167131420227">
+<term>induced surface charges</term>
+<meaning id="fs-id1167131588646">charges that occur on a dielectric surface due to its polarization</meaning>
+</definition>
+</glossary>
+</document>

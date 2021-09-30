@@ -1,0 +1,376 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Conservation of Angular Momentum</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58337</md:content-id>
+  <md:title>Conservation of Angular Momentum</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Apply conservation of angular momentum to determine the angular velocity of a rotating system in which the moment of inertia is changing</item>
+<item>Explain how the rotational kinetic energy changes when a system undergoes changes in both moment of inertia and angular velocity</item>
+</list></md:abstract>
+  <md:uuid>2663a66e-0cb9-400a-adbb-152ca28dbfcd</md:uuid>
+</metadata>
+
+<content>
+
+<para id="fs-id1165038237654">So far, we have looked at the angular momentum of systems consisting of point particles and rigid bodies. We have also analyzed the torques involved, using the expression that relates the external net torque to the change in angular momentum, <link target-id="fs-id1165036982195" document="m58336"/>. Examples of systems that obey this equation include a freely spinning bicycle tire that slows over time due to torque arising from friction, or the slowing of Earth’s rotation over millions of years due to frictional forces exerted on tidal deformations.</para>
+<para id="fs-id1165037880702">However, suppose there is no net external torque on the system, <m:math><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> In this case, <link target-id="fs-id1165036982195" document="m58336"/> becomes the <term>law of conservation of angular momentum</term>.</para>
+<note id="fs-id1165037025017">
+<title>Law of Conservation of Angular Momentum</title>
+<para id="fs-id1165037979521">The angular momentum of a system of particles around a point in a fixed inertial reference frame is conserved if there is no net external torque around that point:</para>
+<equation id="fs-id1165038183985"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1165036784348">or</para>
+<equation id="fs-id1165037980318"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>+</m:mtext><m:mspace width="0.2em"/><m:mtext>⋯</m:mtext><m:mspace width="0.2em"/><m:mtext>+</m:mtext><m:mspace width="0.2em"/><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>N</m:mi></m:msub><m:mo>=</m:mo><m:mtext>constant</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165038000930">Note that the <emphasis effect="italics">total</emphasis> angular momentum <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is conserved. Any of the individual angular momenta can change as long as their sum remains constant. This law is analogous to linear momentum being conserved when the external force on a system is zero.</para>
+<para id="fs-id1165038293197">As an example of conservation of angular momentum, <link target-id="CNX_UPhysics_11_03_IceSkate"/> shows an ice skater executing a spin. The net torque on her is very close to zero because there is relatively little friction between her skates and the ice. Also, the friction is exerted very close to the pivot point. Both <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow></m:mrow></m:math> are small, so <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow></m:mrow></m:math> is negligible. Consequently, she can spin for quite some time. She can also increase her rate of spin by pulling her arms and legs in. Why does pulling her arms and legs in increase her rate of spin? The answer is that her angular momentum is constant, so that</para>
+<equation id="fs-id1170902059554" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>L</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mi>L</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1165036795222">or</para>
+<equation id="fs-id1170902302785" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>I</m:mi><m:mo>′</m:mo></m:msup><m:msup><m:mi>ω</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ω</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165037025723">where the primed quantities refer to conditions after she has pulled in her arms and reduced her moment of inertia. Because <m:math><m:mrow><m:msup><m:mi>I</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math> is smaller, the angular velocity <m:math><m:mrow><m:msup><m:mi>ω</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math> must increase to keep the angular momentum constant.</para>
+<figure id="CNX_UPhysics_11_03_IceSkate">
+<media id="fs-id1165038364648" alt="Two illustrations of a spinning ice skater. In figure a, on the left, the skater has her arms and one foot extended away from her body. She is spinning with angular velocity omega and L equals I times omega. In figure b, on the right, the skater has her arms and foot pulled close to her body. She is spinning faster, with angular velocity omega prime and L equals I prime times omega prime.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_03_IceSkate.jpg"/>
+</media>
+<caption>(a) An ice skater is spinning on the tip of her skate with her arms extended. Her angular momentum is conserved because the net torque on her is negligibly small. (b) Her rate of spin increases greatly when she pulls in her arms, decreasing her moment of inertia. The work she does to pull in her arms results in an increase in rotational kinetic energy.</caption>
+</figure>
+<para id="fs-id1165036791802">It is interesting to see how the rotational kinetic energy of the skater changes when she pulls her arms in. Her initial rotational energy is</para>
+<equation id="fs-id1165038337809" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>Rot</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038383531">whereas her final rotational energy is</para>
+<equation id="fs-id1165038023772" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:msup><m:mi>K</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mtext>Rot</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>I</m:mi><m:mo>′</m:mo></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>ω</m:mi><m:mo>′</m:mo></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165036731644">Since <m:math><m:mrow><m:msup><m:mi>I</m:mi><m:mo>′</m:mo></m:msup><m:msup><m:mi>ω</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ω</m:mi><m:mo>,</m:mo></m:mrow></m:math> we can substitute for <m:math><m:mrow><m:msup><m:mi>ω</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math> and find</para>
+<equation id="fs-id1165038348921" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:msup><m:mi>K</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mtext>Rot</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>I</m:mi><m:mo>′</m:mo></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>ω</m:mi><m:mo>′</m:mo></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>I</m:mi><m:mo>′</m:mo></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>I</m:mi><m:msup><m:mi>I</m:mi><m:mo>′</m:mo></m:msup></m:mfrac><m:mi>ω</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>I</m:mi><m:msup><m:mi>I</m:mi><m:mo>′</m:mo></m:msup></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>Rot</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>I</m:mi><m:msup><m:mi>I</m:mi><m:mo>′</m:mo></m:msup></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>​</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165036762631">Because her moment of inertia has decreased, <m:math><m:mrow><m:msup><m:mi>I</m:mi><m:mo>′</m:mo></m:msup><m:mo>&lt;</m:mo><m:mi>I</m:mi><m:mo>,</m:mo></m:mrow></m:math> her final rotational kinetic energy has increased. The source of this additional rotational kinetic energy is the work required to pull her arms inward. Note that the skater’s arms do not move in a perfect circle—they spiral inward. This work causes an increase in the rotational kinetic energy, while her angular momentum remains constant. Since she is in a frictionless environment, no energy escapes the system. Thus, if she were to extend her arms to their original positions, she would rotate at her original angular velocity and her kinetic energy would return to its original value.</para>
+<para id="fs-id1165038173025">The solar system is another example of how conservation of angular momentum works in our universe. Our solar system was born from a huge cloud of gas and dust that initially had rotational energy. Gravitational forces caused the cloud to contract, and the rotation rate increased as a result of conservation of angular momentum (<link target-id="CNX_UPhysics_11_03_SolarSy"/>).</para>
+<figure id="CNX_UPhysics_11_03_SolarSy">
+<media id="fs-id1165038292661" alt="An illustration of the formation of the solar system from a cloud of gas and dust. At first, the gas cloud is rotating with angular velocity omega and has angular momentum L. It forms a fairly continuous disc in the plane of rotation. Later, the disc is rotating with angular velocity omega prime but still has angular momentum L. The disc starts to break up into concentric rings. The gaps between the rings grow. Eventually, the gas in the rings forms a star in the center and planets whose orbits trace the rings from which they came. In all cases, the angular velocity is in the same direction as that of the original gas cloud and the angular momentum is L.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_03_SolarSy.jpg"/>
+</media>
+<caption>The solar system coalesced from a cloud of gas and dust that was originally rotating. The orbital motions and spins of the planets are in the same direction as the original spin and conserve the angular momentum of the parent cloud. (credit: modification of work by NASA)</caption>
+</figure>
+<para id="fs-id1165037988143">We continue our discussion with an example that has applications to engineering.</para>
+<example id="fs-id1165036846591">
+<para id="fs-id1165038399614"><title>Coupled Flywheels</title>
+A flywheel rotates without friction at an angular velocity <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min</m:mtext></m:mrow></m:mrow></m:mrow></m:math> on a frictionless, vertical shaft of negligible rotational inertia. A second flywheel, which is at rest and has a moment of inertia three times that of the rotating flywheel, is dropped onto it (<link target-id="CNX_UPhysics_11_03_Flywheel"/>). Because friction exists between the surfaces, the flywheels very quickly reach the same rotational velocity, after which they spin together. (a) Use the law of conservation of angular momentum to determine the angular velocity <m:math><m:mi>ω</m:mi></m:math> of the combination. (b) What fraction of the initial kinetic energy is lost in the coupling of the flywheels?</para>
+<figure id="CNX_UPhysics_11_03_Flywheel">
+<media id="fs-id1165037020072" alt="In the drawing on the left, two flywheels are shown. Their axes are vertical and aligned, and the wheels face each other, but the wheels are separate from one another. The lower wheel has moment to inertia I sub 0 and is spinning counterclockwise as viewed from above. The upper wheel has moment to inertia 3 I sub 0 and is at rest. In the drawing on the right, the wheels are coupled together and spin counterclockwise as viewed from above.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_03_Flywheel.jpg"/>
+</media>
+<caption>Two flywheels are coupled and rotate together.</caption>
+</figure>
+<para id="fs-id1165036865348"><title>Strategy</title>
+Part (a) is straightforward to solve for the angular velocity of the coupled system. We use the result of (a) to compare the initial and final kinetic energies of the system in part (b).</para>
+<para id="fs-id1165038218426"><title>Solution</title>
+a. No external torques act on the system. The force due to friction produces an internal torque, which does not affect the angular momentum of the system. Therefore conservation of angular momentum gives</para>
+<equation id="fs-id1165038041909" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mn>3</m:mn><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mi>ω</m:mi><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min</m:mtext></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>15.7</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1165038204532">b. Before contact, only one flywheel is rotating. The rotational kinetic energy of this flywheel is the initial rotational kinetic energy of the system, <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:math>. The final kinetic energy is<m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1165036737649">Therefore, the ratio of the final kinetic energy to the initial kinetic energy is</para>
+<equation id="fs-id1165038047184" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038183539">Thus, 3/4 of the initial kinetic energy is lost to the coupling of the two flywheels.</para>
+<para id="fs-id1165036783103"><title>Significance</title>
+Since the rotational inertia of the system increased, the angular velocity decreased, as expected from the law of conservation of angular momentum. In this example, we see that the final kinetic energy of the system has decreased, as energy is lost to the coupling of the flywheels. Compare this to the example of the skater in <link target-id="CNX_UPhysics_11_03_IceSkate"/> doing work to bring her arms inward and adding rotational kinetic energy.</para>
+</example>
+<note id="fs-id1165037843683" class="check-understanding">
+<exercise id="fs-id1165037997162">
+<problem id="fs-id1165037882235">
+<para id="fs-id1165036746898"> A merry-go-round at a playground is rotating at 4.0 rev/min. Three children jump on and increase the moment of inertia of the merry-go-round/children rotating system by <m:math><m:mrow><m:mn>25</m:mn><m:mi>%</m:mi></m:mrow></m:math>. What is the new rotation rate?</para>
+</problem>
+<solution id="fs-id1165037935148">
+<para id="fs-id1165037023460">Using conservation of angular momentum, we have<newline/>
+<m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>rev/min</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1.25</m:mn><m:mi>I</m:mi><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1.0</m:mn></m:mrow><m:mrow><m:mn>1.25</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3.2</m:mn></m:mrow></m:mrow><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1165038308488">
+<para id="fs-id1165036994145"><title>Dismount from a High Bar</title>
+An 80.0-kg gymnast dismounts from a high bar. He starts the dismount at full extension, then tucks to complete a number of revolutions before landing. His moment of inertia when fully extended can be approximated as a rod of length 1.8 m and when in the tuck a rod of half that length. If his rotation rate at full extension is 1.0 rev/s and he enters the tuck when his center of mass is at 3.0 m height moving horizontally to the floor, how many revolutions can he execute if he comes out of the tuck at 1.8 m height? See <link target-id="CNX_UPhysics_11_03_HighBar"/>.</para>
+<figure id="CNX_UPhysics_11_03_HighBar">
+<media id="fs-id1165037983771" alt="A drawing of a gymnast dismounting from a 3 m tall high bar. He starts the dismount at full extension above the bar, then tucks when he is moving horizontally to the floor, level with the bar. The gymnast is 1.8 meters tall.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_03_HighBar.jpg"/>
+</media>
+<caption>A gymnast dismounts from a high bar and executes a number of revolutions in the tucked position before landing upright.</caption>
+</figure>
+<para id="fs-id1165037981868"><title>Strategy</title>
+Using conservation of angular momentum, we can find his rotation rate when in the tuck. Using the equations of kinematics, we can find the time interval from a height of 3.0 m to 1.8 m. Since he is moving horizontally with respect to the ground, the equations of free fall simplify. This will allow the number of revolutions that can be executed to be calculated. Since we are using a ratio, we can keep the units as rev/s and don’t need to convert to radians/s.</para>
+<para id="fs-id1165038202044"><title>Solution</title>
+The moment of inertia at full extension is <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mn>80.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:msup><m:mrow><m:mo>.</m:mo><m:mn>8</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>21.6</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+<para id="fs-id1165038328710">The moment of inertia in the tuck is <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>L</m:mi><m:mtext>f</m:mtext><m:mtext>2</m:mtext></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mn>80.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:msup><m:mrow><m:mo>.</m:mo><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5.4</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+<para id="fs-id1165038332766">Conservation of angular momentum: <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>21.6</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:mn>5.4</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>.</para>
+<para id="fs-id1165037271234">Time interval in the tuck: <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>h</m:mi></m:mrow><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3.0</m:mn><m:mo>−</m:mo><m:mn>1.8</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1165036726511">In 0.5 s, he will be able to execute two revolutions at 4.0 rev/s.</para>
+<para id="fs-id1165036876975"><title>Significance</title>
+Note that the number of revolutions he can complete will depend on how long he is in the air. In the problem, he is exiting the high bar horizontally to the ground. He could also exit at an angle with respect to the ground, giving him more or less time in the air depending on the angle, positive or negative, with respect to the ground. Gymnasts must take this into account when they are executing their dismounts.</para>
+</example>
+<example id="fs-id1165038044109">
+<para id="fs-id1165036877026"><title>Conservation of Angular Momentum of a Collision</title>
+A bullet of mass <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow></m:math> is moving horizontally with a speed of <m:math><m:mrow><m:mn>500.0</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> The bullet strikes and becomes embedded in the edge of a solid disk of mass <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>3.2</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and radius <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> The cylinder is free to rotate around its axis and is initially at rest (<link target-id="CNX_UPhysics_11_03_Disk"/>). What is the angular velocity of the disk immediately after the bullet is embedded?</para>
+<figure id="CNX_UPhysics_11_03_Disk">
+<media id="fs-id1165038361636" alt="Illustrations of a bullet before and after striking a disk. On the left is the before illustration. The bullet is travelling to the left at 500 meters per second, toward the front edge of a horizontal disk of radius R. The vertical axis through the center of the disc is shown as a vertical line connecting points A above and A prime below the center. On the right is the after illustration. The bullet is embedded in the edge of the disk, which is rotating about the vertical axis through the center. The rotation is counterclockwise as viewed from above.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_03_Disk.jpg"/>
+</media>
+<caption>A bullet is fired horizontally and becomes embedded in the edge of a disk that is free to rotate about its vertical axis.</caption>
+</figure>
+<para id="fs-id1165037014213"><title>Strategy</title>
+For the system of the bullet and the cylinder, no external torque acts along the vertical axis through the center of the disk. Thus, the angular momentum along this axis is conserved. The initial angular momentum of the bullet is <m:math><m:mrow><m:mi>m</m:mi><m:mi>v</m:mi><m:mi>R</m:mi></m:mrow></m:math>, which is taken about the rotational axis of the disk the moment before the collision. The initial angular momentum of the cylinder is zero. Thus, the net angular momentum of the system is <m:math><m:mrow><m:mi>m</m:mi><m:mi>v</m:mi><m:mi>R</m:mi></m:mrow></m:math>. Since angular momentum is conserved, the initial angular momentum of the system is equal to the angular momentum of the bullet embedded in the disk immediately after impact.</para>
+<para id="fs-id1165037894265"><title>Solution</title>
+The initial angular momentum of the system is</para>
+<equation id="fs-id1165037987992" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>v</m:mi><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038008698">The moment of inertia of the system with the bullet embedded in the disk is</para>
+<equation id="fs-id1165038053191" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>M</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038230306">The final angular momentum of the system is</para>
+<equation id="fs-id1165036893977" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mi>I</m:mi><m:msub><m:mi>ω</m:mi><m:mi>f</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038249196">Thus, by conservation of angular momentum, <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:math> and</para>
+<equation id="fs-id1165038313937" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>v</m:mi><m:mi>R</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>M</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>ω</m:mi><m:mi>f</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038348233">Solving for <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>f</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1165038198260" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>v</m:mi><m:mi>R</m:mi></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mrow><m:mi>M</m:mi><m:mtext>/</m:mtext><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>500.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mspace width="0.2em"/><m:mo>+</m:mo><m:mspace width="0.2em"/><m:mn>1.6</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.2</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038200812"><title>Significance</title>
+The system is composed of both a point particle and a rigid body. Care must be taken when formulating the angular momentum before and after the collision. Just before impact the angular momentum of the bullet is taken about the rotational axis of the disk.</para>
+</example>
+<section id="fs-id1165038276797" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1165037936868" list-type="bulleted" bullet-style="bullet">
+<item>In the absence of external torques, a system’s total angular momentum is conserved. This is the rotational counterpart to linear momentum being conserved when the external force on a system is zero.</item>
+<item>For a rigid body that changes its angular momentum in the absence of a net external torque, conservation of angular momentum gives <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mi>f</m:mi></m:msub><m:msub><m:mi>ω</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mi>i</m:mi></m:msub><m:msub><m:mi>ω</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math>. This equation says that the angular velocity is inversely proportional to the moment of inertia. Thus, if the moment of inertia decreases, the angular velocity must increase to conserve angular momentum.</item>
+<item>Systems containing both point particles and rigid bodies can be analyzed using conservation of angular momentum. The angular momentum of all bodies in the system must be taken about a common axis.</item>
+</list>
+</section>
+<section id="fs-id1165038045043" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1165038018030">
+<problem id="fs-id1165037912246">
+<para id="fs-id1165037899847">What is the purpose of the small propeller at the back of a helicopter that rotates in the plane perpendicular to the large propeller?</para>
+</problem>
+<solution id="fs-id1165038199297">
+<para id="fs-id1165038043021">Without the small propeller, the body of the helicopter would rotate in the opposite sense to the large propeller in order to conserve angular momentum. The small propeller exerts a thrust at a distance <emphasis effect="italics">R</emphasis> from the center of mass of the aircraft to prevent this from happening.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036866852">
+<problem id="fs-id1165037860971">
+<para id="fs-id1165037975376">Suppose a child walks from the outer edge of a rotating merry-go-round to the inside. Does the angular velocity of the merry-go-round increase, decrease, or remain the same? Explain your answer. Assume the merry-go-round is spinning without friction.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038341490">
+<problem id="fs-id1165037938725">
+<para id="fs-id1165038303245">As the rope of a tethered ball winds around a pole, what happens to the angular velocity of the ball?</para>
+</problem>
+<solution id="fs-id1165038356984">
+<para id="fs-id1165037972363">The angular velocity increases because the moment of inertia is decreasing.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037923489">
+<problem id="fs-id1165037998459">
+<para id="fs-id1165037906828">Suppose the polar ice sheets broke free and floated toward Earth’s equator without melting. What would happen to Earth’s angular velocity?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038201672">
+<problem id="fs-id1165037893816">
+<para id="fs-id1165036789219">Explain why stars spin faster when they collapse.</para>
+</problem>
+<solution id="fs-id1165038055747">
+<para id="fs-id1165038200727">More mass is concentrated near the rotational axis, which decreases the moment of inertia causing the star to increase its angular velocity.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038377983">
+<problem id="fs-id1165038191332">
+<para id="fs-id1165038002717">Competitive divers pull their limbs in and curl up their bodies when they do flips. Just before entering the water, they fully extend their limbs to enter straight down (see below). Explain the effect of both actions on their angular velocities. Also explain the effect on their angular momentum.<newline/>
+<media id="fs-id1165037046601" alt="A drawing of a diver at several points in a dive, from just after leaving the diving board to just before entering the water. After leaving the board, the diver is in a pike position, with her legs pulled close to her body and omega is large. As she nears the water, she extends her body. She arrives at the water fully extended and vertical, and omega prime is small.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_03_Diver_img.jpg"/>
+</media>
+</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165038018598" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1165037987153">
+<problem id="fs-id1165036881970">
+<para id="fs-id1165037907086">A disk of mass 2.0 kg and radius 60 cm with a small mass of 0.05 kg attached at the edge is rotating at 2.0 rev/s. The small mass, while attached to the disk, slides gradually to the center of the disk. What is the disk’s final rotation rate?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036984798">
+<problem id="fs-id1165038359867">
+<para id="fs-id1165036762471">The Sun’s mass is <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mtext>kg,</m:mtext></m:mrow></m:math> its radius is <m:math><m:mrow><m:mn>7.0</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>km,</m:mtext></m:mrow></m:math> and it has a rotational period of approximately 28 days. If the Sun should collapse into a white dwarf of radius <m:math><m:mrow><m:mn>3.5</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>km,</m:mtext></m:mrow></m:math> what would its period be if no mass were ejected and a sphere of uniform density can model the Sun both before and after?</para>
+</problem>
+<solution id="fs-id1165037231632">
+<para id="fs-id1165036965322"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:msub><m:mi>M</m:mi><m:mi>S</m:mi></m:msub><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.5</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>km</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:math>,<newline/>
+<m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7.0</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>28</m:mn><m:mspace width="0.2em"/><m:mtext>days</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.5</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>km</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:mfrac><m:mo>⇒</m:mo><m:msub><m:mi>T</m:mi><m:mi>f</m:mi></m:msub></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd><m:mo>=</m:mo><m:mn>28</m:mn><m:mspace width="0.2em"/><m:mtext>days</m:mtext><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.5</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup> <m:mrow>  <m:mn>10</m:mn></m:mrow> <m:mn>3</m:mn></m:msup><m:mtext>km</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7.0</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup> <m:mrow>  <m:mn>10</m:mn></m:mrow> <m:mn>5</m:mn></m:msup><m:mtext>km</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7.0</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:msup><m:mtext>day</m:mtext><m:mo>=</m:mo><m:mn>60.5</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038040077">
+<problem id="fs-id1165038040079">
+<para id="fs-id1165038360911">A cylinder with rotational inertia <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math> rotates clockwise about a vertical axis through its center with angular speed <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:math> A second cylinder with rotational inertia <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math> rotates counterclockwise about the same axis with angular speed <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:math>. If the cylinders couple so they have the same rotational axis what is the angular speed of the combination? What percentage of the original kinetic energy is lost to friction?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036872924">
+<problem id="fs-id1165038182647">
+<para id="fs-id1165038182649">A diver off the high board imparts an initial rotation with his body fully extended before going into a tuck and executing three back somersaults before hitting the water. If his moment of inertia before the tuck is <m:math><m:mrow><m:mn>16.9</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math> and after the tuck during the somersaults is <m:math><m:mrow><m:mn>4.2</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>, what rotation rate must he impart to his body directly off the board and before the tuck if he takes 1.4 s to execute the somersaults before hitting the water?</para>
+</problem>
+<solution id="fs-id1165038396970">
+<para id="fs-id1165038396972"><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>2.1</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>f</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037894394">
+<problem id="fs-id1165037894396">
+<para id="fs-id1165036784445">An Earth satellite has its apogee at 2500 km above the surface of Earth and perigee at 500 km above the surface of Earth. At apogee its speed is 6260 m/s. What is its speed at perigee? Earth’s radius is 6370 km (see below).</para>
+<media id="fs-id1165036792780" alt="An illustration of an elliptical counterclockwise orbit. The major axis is horizontal and mass M is at the left side focal point, left of center. Position A is at the rightmost edge of the ellipse, a distance r sub A to the right of mass M. The velocity at point A is vector v sub A and is up. Position P is at the leftmost edge of the ellipse, a distance r sub p to the left mass M. The velocity at point P is vector v sub P and is down.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_03_Prob13_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165038328735">
+<problem id="fs-id1165038328737">
+<para id="fs-id1165037216770">A <term class="no-emphasis">Molniya orbit</term> is a highly eccentric orbit of a communication satellite so as to provide continuous communications coverage for Scandinavian countries and adjacent Russia. The orbit is positioned so that these countries have the satellite in view for extended periods in time (see below). If a satellite in such an orbit has an apogee at 40,000.0 km as measured from the center of Earth and a velocity of 3.0 km/s, what would be its velocity at perigee measured at 200.0 km altitude?</para>
+<media id="fs-id1165037004575" alt="An highly eccentric elliptic orbit around the Earth is shown. The Earth is at one focal point of the ellipse. 11 points corresponding to time in hours are marked on the orbit. Time 0 is at the perigee (the point on the orbit that is closest to the earth, and point 6 is at the apogee, the point on the orbit farthest from the earth. The spacing of the points 0 through 6 along the orbit decreases with time, and the spacing from 6 to 11 and back to 0 increases.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_03_Molniya_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165037170916">
+<para id="fs-id1165037011251"><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>P</m:mi></m:msub><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mi>A</m:mi></m:msub><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>A</m:mi></m:msub><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>v</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mn>18.3</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038398282">
+<problem id="fs-id1165038398284">
+<para id="fs-id1165038398286">Shown below is a small particle of mass 20 g that is moving at a speed of 10.0 m/s when it collides and sticks to the edge of a uniform solid cylinder. The cylinder is free to rotate about its axis through its center and is perpendicular to the page. The cylinder has a mass of 0.5 kg and a radius of 10 cm, and is initially at rest. (a) What is the angular velocity of the system after the collision? (b) How much kinetic energy is lost in the collision?</para>
+<media id="fs-id1165037267791" alt="Views of a particle colliding with a cylinder are shown before and after the collision. The cylinder’s face is in the plane of the page. Before, the particle is moving horizontally toward the top edge of the cylinder at 10 meters per second. The cylinder is at rest. After, the particle is stuck to the cylinder, which is rotating clockwise.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_03_Prob15_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165037968960">
+<problem id="fs-id1165037968962">
+<para id="fs-id1165037968964">A bug of mass 0.020 kg is at rest on the edge of a solid cylindrical disk <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext><m:mspace width="0.2em"/><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>0.10</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> rotating in a horizontal plane around the vertical axis through its center. The disk is rotating at 10.0 rad/s. The bug crawls to the center of the disk. (a) What is the new angular velocity of the disk? (b) What is the change in the kinetic energy of the system? (c) If the bug crawls back to the outer edge of the disk, what is the angular velocity of the disk then? (d) What is the new kinetic energy of the system? (e) What is the cause of the increase and decrease of kinetic energy?</para>
+</problem>
+<solution id="fs-id1165037028438">
+<para id="fs-id1165036766238">a. <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>disk</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>bug</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>disk</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>bug</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:msub><m:mi>ω</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>disk</m:mtext></m:mrow></m:msub><m:msub><m:mi>ω</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>ω</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>14.0</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mtd></m:mtr></m:mtable></m:math><newline/>
+b. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>0.014</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>;<newline/>
+c. <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>10.0</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math> back to the original value;<newline/>
+d. <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>disk</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>bug</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:msubsup><m:mi>ω</m:mi><m:mn>3</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mn>0.035</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> back to the original value;<newline/>
+e. work of the bug crawling on the disk</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036760276">
+<problem id="fs-id1165036760278">
+<para id="fs-id1165036760280">A uniform rod of mass 200 g and length 100 cm is free to rotate in a horizontal plane around a fixed vertical axis through its center, perpendicular to its length. Two small beads, each of mass 20 g, are mounted in grooves along the rod. Initially, the two beads are held by catches on opposite sides of the rod’s center, 10 cm from the axis of rotation. With the beads in this position, the rod is rotating with an angular velocity of 10.0 rad/s. When the catches are released, the beads slide outward along the rod. (a) What is the rod’s angular velocity when the beads reach the ends of the rod? (b) What is the rod’s angular velocity if the beads fly off the rod?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037268381">
+<problem id="fs-id1165037268384">
+<para id="fs-id1165037268386">A merry-go-round has a radius of 2.0 m and a moment of inertia <m:math><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> A boy of mass 50 kg runs tangent to the rim at a speed of 4.0 m/s and jumps on. If the merry-go-round is initially at rest, what is the angular velocity after the boy jumps on?</para>
+</problem>
+<solution id="fs-id1165038006378">
+<para id="fs-id1165038225043"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>400.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>500.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mi>ω</m:mi></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>0.80</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036756428">
+<problem id="fs-id1165036756430">
+<para id="fs-id1165036756432">A playground merry-go-round has a mass of 120 kg and a radius of 1.80 m and it is rotating with an angular velocity of 0.500 rev/s. What is its angular velocity after a 22.0-kg child gets onto it by grabbing its outer edge? The child is initially at rest.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038018538">
+<problem id="fs-id1165038018540">
+<para id="fs-id1165037888091">Three children are riding on the edge of a merry-go-round that is 100 kg, has a 1.60-m radius, and is spinning at 20.0 rpm. The children have masses of 22.0, 28.0, and 33.0 kg. If the child who has a mass of 28.0 kg moves to the center of the merry-go-round, what is the new angular velocity in rpm?</para>
+</problem>
+<solution id="fs-id1165038275903">
+<para id="fs-id1165038275905"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>340.48</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>268.8</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>25.33</m:mn><m:mspace width="0.2em"/><m:mtext>rpm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038058532">
+<problem id="fs-id1165038058534">
+<para id="fs-id1165038058536">(a) Calculate the angular momentum of an ice skater spinning at 6.00 rev/s given his moment of inertia is <m:math><m:mrow><m:mn>0.400</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>. (b) He reduces his rate of spin (his angular velocity) by extending his arms and increasing his moment of inertia. Find the value of his moment of inertia if his angular velocity decreases to 1.25 rev/s. (c) Suppose instead he keeps his arms in and allows friction of the ice to slow him to 3.00 rev/s. What average torque was exerted if this takes 15.0 s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038040697">
+<problem id="fs-id1165038040699">
+<para id="fs-id1165038375846">Twin skaters approach one another as shown below and lock hands. (a) Calculate their final angular velocity, given each had an initial speed of 2.50 m/s relative to the ice. Each has a mass of 70.0 kg, and each has a center of mass located 0.800 m from their locked hands. You may approximate their moments of inertia to be that of point masses at this radius. (b) Compare the initial kinetic energy and final kinetic energy.</para>
+<media id="fs-id1165036763176" alt="Figure a, on the left, is a drawing of two ice skaters viewed from above moving with speed v toward each other along parallel lines. The upper one is skating to the right and the lower one to the left, and they are separated so that their hands will meet as they cross. Figure b, on the right, shows the skaters holding hands and moving together in a circle with angular velocity omega. Their motion is clockwise as viewed from above.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_03_Prob24_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165036782101">
+<para id="fs-id1165036782103">a. <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>280</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>89.6</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>3.125</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>437.5</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>437.5</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037935338">
+<problem id="fs-id1165037935340">
+<para id="fs-id1165037935342">A baseball catcher extends his arm straight up to catch a fast ball with a speed of 40 m/s. The baseball is 0.145 kg and the catcher’s arm length is 0.5 m and mass 4.0 kg. (a) What is the angular velocity of the arm immediately after catching the ball as measured from the arm socket? (b) What is the torque applied if the catcher stops the rotation of his arm 0.3 s after catching the ball?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038150365">
+<problem id="fs-id1165038150367">
+<para id="fs-id1165038150370">In 2015, in Warsaw, Poland, Olivia Oliver of Nova Scotia broke the world record for being the fastest spinner on ice skates. She achieved a record 342 rev/min, beating the existing Guinness World Record by 34 rotations. If an ice skater extends her arms at that rotation rate, what would be her new rotation rate? Assume she can be approximated by a 45-kg rod that is 1.7 m tall with a radius of 15 cm in the record spin. With her arms stretched take the approximation of a rod of length 130 cm with <m:math><m:mrow><m:mn>10</m:mn><m:mi>%</m:mi></m:mrow></m:math> of her body mass aligned perpendicular to the spin axis. Neglect frictional forces.</para>
+</problem>
+<solution id="fs-id1165036749425">
+<para id="fs-id1165036749427">Moment of inertia in the record spin: <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>f</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>155.5</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038304942">
+<problem id="fs-id1165038304944">
+<para id="fs-id1165038304946">A satellite in a geosynchronous circular orbit is 42,164.0 km from the center of Earth. A small asteroid collides with the satellite sending it into an elliptical orbit of apogee 45,000.0 km. What is the speed of the satellite at apogee? Assume its angular momentum is conserved.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038305430">
+<problem id="fs-id1165038305433">
+<para id="fs-id1165038305435">A gymnast does cartwheels along the floor and then launches herself into the air and executes several flips in a tuck while she is airborne. If her moment of inertia when executing the cartwheels is <m:math><m:mrow><m:mn>13.5</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math> and her spin rate is 0.5 rev/s, how many revolutions does she do in the air if her moment of inertia in the tuck is <m:math><m:mrow><m:mn>3.4</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math> and she has 2.0 s to do the flips in the air?</para>
+</problem>
+<solution id="fs-id1165036756449">
+<para id="fs-id1165036756451">Her spin rate in the air is: <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>;<newline/>
+She can do four flips in the air.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037975810">
+<problem id="fs-id1165037272793">
+<para id="fs-id1165037272796">The centrifuge at NASA Ames Research Center has a radius of 8.8 m and can produce forces on its payload of 20 <emphasis effect="italics">g</emphasis>s or 20 times the force of gravity on Earth. (a) What is the angular momentum of a 20-kg payload that experiences 10 <emphasis effect="italics">g</emphasis>s in the centrifuge? (b) If the driver motor was turned off in (a) and the payload lost 10 kg, what would be its new spin rate, taking into account there are no frictional forces present?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036771599">
+<problem id="fs-id1165037018438">
+<para id="fs-id1165037018440">A ride at a carnival has four spokes to which pods are attached that can hold two people. The spokes are each 15 m long and are attached to a central axis. Each spoke has mass 200.0 kg, and the pods each have mass 100.0 kg. If the ride spins at 0.2 rev/s with each pod containing two 50.0-kg children, what is the new spin rate if all the children jump off the ride?</para>
+</problem>
+<solution id="fs-id1165036843604">
+<para id="fs-id1165036843607">Moment of inertia with all children aboard:<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.4</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/>
+<m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0.3</m:mn></m:mrow><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038052093">
+<problem id="fs-id1165036766168">
+<para id="fs-id1165036766170">An ice skater is preparing for a jump with turns and has his arms extended. His moment of inertia is <m:math><m:mrow><m:mn>1.8</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math> while his arms are extended, and he is spinning at 0.5 rev/s. If he launches himself into the air at 9.0 m/s at an angle of <m:math><m:mrow><m:mn>45</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with respect to the ice, how many revolutions can he execute while airborne if his moment of inertia in the air is <m:math><m:mrow><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037213334">
+<problem id="fs-id1165037213336">
+<para id="fs-id1165036994014">A space station consists of a giant rotating hollow cylinder of mass <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> including people on the station and a radius of 100.00 m. It is rotating in space at 3.30 rev/min in order to produce artificial gravity. If 100 people of an average mass of 65.00 kg spacewalk to an awaiting spaceship, what is the new rotation rate when all the people are off the station?</para>
+</problem>
+<solution id="fs-id1165037180592">
+<para id="fs-id1165036892579"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>9.94</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>3.32</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036735245">
+<problem id="fs-id1165036735248">
+<para id="fs-id1165036735250">Neptune has a mass of <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>26</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and is <m:math><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mtext>km</m:mtext></m:mrow></m:math> from the Sun with an orbital period of 165 years. Planetesimals in the outer primordial solar system 4.5 billion years ago coalesced into Neptune over hundreds of millions of years. If the primordial disk that evolved into our present day solar system had a radius of <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow></m:math> km and if the matter that made up these planetesimals that later became Neptune was spread out evenly on the edges of it, what was the orbital period of the outer edges of the primordial disk?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165037004448">
+<term>law of conservation of angular momentum</term>
+<meaning id="fs-id1165037075507">angular momentum is conserved, that is, the initial angular momentum is equal to the final angular momentum when no external torque is applied to the system</meaning>
+</definition>
+</glossary>
+</document>

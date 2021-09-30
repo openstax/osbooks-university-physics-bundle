@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58658</md:content-id>
   <md:title>RLC Series Circuits with AC</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para><list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para><list>
 <item>Describe how the current varies in a resistor, a capacitor, and an inductor while in series with an ac power source</item>
 <item>Use phasors to understand the phase angle of a resistor, capacitor, and inductor ac circuit and to understand what that phase angle means</item>
 <item>Calculate the impedance of a circuit</item></list></md:abstract>
@@ -12,7 +12,7 @@
 </metadata>
 
 <content>
-<para id="fs-id1172101802132">The ac circuit shown in <link target-id="CNX_UPhysics_32_03_acrlc"/>, called an <term class="no-emphasis" id="term-00001"><emphasis effect="italics">RLC</emphasis> series circuit</term>, is a series combination of a resistor, capacitor, and inductor connected across an ac source. It produces an emf of</para>
+<para id="fs-id1172101802132">The ac circuit shown in <link target-id="CNX_UPhysics_32_03_acrlc"/>, called an <term class="no-emphasis"><emphasis effect="italics">RLC</emphasis> series circuit</term>, is a series combination of a resistor, capacitor, and inductor connected across an ac source. It produces an emf of</para>
 <equation id="fs-id1172101922707" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
 <figure id="CNX_UPhysics_32_03_acrlc">
 <media id="fs-id1172101929030" alt="Figure a shows a circuit with an AC voltage source connected to a resistor, a capacitor and an inductor in series. The source is labeled V0 sine omega t. Figure b shows sine waves of AC voltage and current on the same graph. Voltage has a greater amplitude than current and its maximum value is marked V0 on the y axis. The maximum value of current is marked I0. The two curves have the same wavelength but are out of phase. The voltage curve is labeled V parentheses t parentheses equal to V0 sine omega t. The current curve is labeled I parentheses t parentheses equal to I0 sine parentheses omega t minus phi parentheses.">
@@ -22,7 +22,7 @@
 </figure>
 <para id="fs-id1172101922646">Since the elements are in series, the same current flows through each element at all points in time. The relative phase between the current and the emf is not obvious when all three elements are present. Consequently, we represent the current by the general expression</para>
 <equation id="fs-id1172101672875" class="unnumbered"><label/><m:math><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
-<para id="fs-id1172101777629">where <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the current amplitude and <m:math><m:mi>ϕ</m:mi></m:math> is the <term id="term-00002">phase angle</term> between the current and the applied voltage. The phase angle is thus the amount by which the voltage and current are out of phase with each other in a circuit. Our task is to find <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172101777629">where <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the current amplitude and <m:math><m:mi>ϕ</m:mi></m:math> is the <term>phase angle</term> between the current and the applied voltage. The phase angle is thus the amount by which the voltage and current are out of phase with each other in a circuit. Our task is to find <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
 <para id="fs-id1172101766503">A phasor diagram involving <m:math><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:msub><m:mi>v</m:mi><m:mi>R</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:msub><m:mi>v</m:mi><m:mi>C</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>v</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is helpful for analyzing the circuit. As shown in <link target-id="CNX_UPhysics_32_03_phasorrlc"/>, the phasor representing <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>R</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> points in the same direction as the phasor for <m:math><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>;</m:mo></m:mrow></m:math> its amplitude is <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math> The <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>C</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> phasor lags the <emphasis effect="italics">i</emphasis>(<emphasis effect="italics">t</emphasis>) phasor by <m:math><m:mrow><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math> rad and has the amplitude <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>X</m:mi><m:mi>C</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> The phasor for <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> leads the <emphasis effect="italics">i</emphasis>(<emphasis effect="italics">t</emphasis>) phasor by <m:math><m:mrow><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math> rad and has the amplitude <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>X</m:mi><m:mi>L</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
 <figure id="CNX_UPhysics_32_03_phasorrlc">
 <media id="fs-id1172101685495" alt="Figure shows the coordinate axes, with four arrows starting from the origin. Arrow V subscripts R points up and right, making an angle omega t minus phi with the x axis. Its y intercept is V subscript R parentheses t parentheses. Arrow I0 is along arrow V subscript R, but shorter than it. Arrow V subscript L points up and left and is perpendicular to V subscript R. It makes a y intercept V subscript L parentheses t parentheses. Arrow V subscript C points down and right. It is perpendicular to V subscript R. It makes a y intercept V subscript C parentheses t parentheses. Three arrows labeled omega are each perpendicular to V subscript R, V subscript L and V subscript C, shown near their tips.">
@@ -54,7 +54,7 @@
 <note id="fs-id1172101760119" class="equation-callout">
 <equation id="fs-id1172101939380"><label/><m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>X</m:mi><m:mi>L</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>X</m:mi><m:mi>C</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></equation>
 </note>
-<para id="fs-id1172101775838">is known as the <term id="term-00003">impedance</term> of the circuit. Its unit is the ohm, and it is the ac analog to resistance in a dc circuit, which measures the combined effect of resistance, capacitive reactance, and inductive reactance (<link target-id="CNX_UPhysics_32_03_powerlines"/>).</para>
+<para id="fs-id1172101775838">is known as the <term>impedance</term> of the circuit. Its unit is the ohm, and it is the ac analog to resistance in a dc circuit, which measures the combined effect of resistance, capacitive reactance, and inductive reactance (<link target-id="CNX_UPhysics_32_03_powerlines"/>).</para>
 <figure id="CNX_UPhysics_32_03_powerlines"><media id="fs-id1172101762878" alt="Photograph of power capacitors at a power station.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_03_powerlines.jpg"/>
 </media>
@@ -130,4 +130,59 @@ The phase angle is positive because the reactance of the inductor is larger than
 <title>Problems</title>
 <exercise id="fs-id1172101903313">
 <problem id="fs-id1172101903315">
-<para id="fs-id1172101918773">What is the impedance of a series combination of a <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-Ω</m:mtext></m:mrow></m:math> resistor, a <m:math><m:mrow><m:mn>5.0</
+<para id="fs-id1172101918773">What is the impedance of a series combination of a <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-Ω</m:mtext></m:mrow></m:math> resistor, a <m:math><m:mrow><m:mn>5.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor, and a <m:math><m:mrow><m:mn>10</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor at a frequency of 2.0 kHz?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101922576">
+<problem id="fs-id1172101922578">
+<para id="fs-id1172101922581">A resistor and capacitor are connected in series across an ac generator. The emf of the generator is given by <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V,</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, and <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>. (a) What is the impedance of the circuit? (b) What is the amplitude of the current through the resistor? (c) Write an expression for the current through the resistor. (d) Write expressions representing the voltages across the resistor and across the capacitor.</para>
+</problem>
+<solution id="fs-id1172101988433">
+<para id="fs-id1172101904987">a. <m:math><m:mrow><m:mn>770</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>;
+b. 0.16 A;
+c. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.16</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>120</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mspace width="0.2em"/><m:mo>–</m:mo><m:mspace width="0.2em"/><m:mn>0.33</m:mn><m:mi>π</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>;
+
+d. <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mn>62</m:mn><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>120</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mspace width="0.2em"/><m:mo>–</m:mo><m:mspace width="0.2em"/><m:mn>0.33</m:mn><m:mi>π</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>;
+<m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mn>103</m:mn><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>120</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mrow><m:mn>0.83</m:mn><m:mi>π</m:mi></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172101928810">
+<problem id="fs-id1172101899678">
+<para id="fs-id1172101899680">A resistor and inductor are connected in series across an ac generator. The emf of the generator is given by <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s;</m:mtext></m:mrow></m:math> also, <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> (a) What is the impedance of the circuit? (b) What is the amplitude of the current through the resistor? (c) Write an expression for the current through the resistor. (d) Write expressions representing the voltages across the resistor and across the inductor.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101920108">
+<problem id="fs-id1172101759180">
+<para id="fs-id1172101759183">In an <emphasis effect="italics">RLC</emphasis> series circuit, the voltage amplitude and frequency of the source are 100 V and 500 Hz, respectively, an <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mtext>,</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:mtext>H,</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> (a) What is the impedance of the circuit? (b) What is the amplitude of the current from the source? (c) If the emf of the source is given by <m:math><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>1000</m:mn><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow></m:math>, how does the current vary with time? (d) Repeat the calculations with <emphasis effect="italics">C</emphasis> changed to <m:math><m:mrow><m:mn>0.20</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1172101911214">
+<para id="fs-id1172101889704">a. <m:math><m:mrow><m:mn>690</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; b. 0.15 A; c. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.15</m:mn><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1000</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>0.753</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>; d. <m:math><m:mrow><m:mn>1100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, 0.092 A, <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.092</m:mn><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1000</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>1.09</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101796153">
+<problem id="fs-id1172101715571">
+<para id="fs-id1172101715573">An <emphasis effect="italics">RLC</emphasis> series circuit with <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>mH,</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0.050</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> is driven by an ac source whose frequency and voltage amplitude are 500 Hz and 50 V, respectively. (a) What is the impedance of the circuit? (b) What is the amplitude of the current in the circuit? (c) What is the phase angle between the emf of the source and the current?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101625126">
+<problem id="fs-id1172101804994">
+<para id="fs-id1172101804997">For the circuit shown below, what are (a) the total impedance and (b) the phase angle between the current and the emf? (c) Write an expression for <m:math><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172101807082" alt="Figure shows a circuit with a voltage source 170 V, sine 120 pi t, a resistor of 5 ohm, a capacitor of 400 microfarad and an inductor of 25 milihenry all connected in series.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_03_Problem26_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101913197">
+<para id="fs-id1172101913199">a. <m:math><m:mrow><m:mn>5.7</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>29</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mi>I</m:mi><m:mtext>​</m:mtext><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>30.</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>120</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>0.51</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para></solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172101751224">
+<term>impedance</term>
+<meaning id="fs-id1172101777183">ac analog to resistance in a dc circuit, which measures the combined effect of resistance, capacitive reactance, and inductive reactance</meaning>
+</definition>
+<definition id="fs-id1172101912619">
+<term>phase angle</term>
+<meaning id="fs-id1172101912624">amount by which the voltage and current are out of phase with each other in a circuit</meaning>
+</definition>
+</glossary>
+</document>

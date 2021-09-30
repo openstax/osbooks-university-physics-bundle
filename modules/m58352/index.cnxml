@@ -1,0 +1,460 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Einstein's Theory of Gravity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58352</md:content-id>
+  <md:title>Einstein's Theory of Gravity</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe how the theory of general relativity approaches gravitation</item>
+<item>Explain the principle of equivalence</item>
+<item>Calculate the Schwarzschild radius of an object</item>
+<item>Summarize the evidence for black holes</item>
+</list></md:abstract>
+  <md:uuid>c71ce88c-b114-402c-aabe-c8b49e01d6e4</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168325908946">Newton’s law of universal gravitation accurately predicts much of what we see within our solar system. Indeed, only Newton’s laws have been needed to accurately send every space vehicle on its journey. The paths of Earth-crossing asteroids, and most other celestial objects, can be accurately determined solely with Newton’s laws. Nevertheless, many phenomena have shown a discrepancy from what Newton’s laws predict, including the orbit of Mercury and the effect that gravity has on light. In this section, we examine a different way of envisioning gravitation.</para>
+<section id="fs-id1168325781113">
+<title>A Revolution in Perspective</title>
+<para id="fs-id1168328221692">In 1905, Albert <term class="no-emphasis">Einstein</term> published his theory of special relativity. This theory is discussed in great detail in <link document="m58555">Relativity</link>, so we say only a few words here. In this theory, no motion can exceed the speed of light—it is the speed limit of the Universe. This simple fact has been verified in countless experiments. However, it has incredible consequences—space and time are no longer absolute. Two people moving relative to one another do not agree on the length of objects or the passage of time. Almost all of the mechanics you learned in previous chapters, while remarkably accurate even for speeds of many thousands of miles per second, begin to fail when approaching the speed of light.</para>
+<para id="fs-id1168328300577">This speed limit on the Universe was also a challenge to the inherent assumption in Newton’s law of gravitation that gravity is an <term>action-at-a-distance force</term>. That is, without physical contact, any change in the position of one mass is instantly communicated to all other masses. This assumption does not come from any first principle, as Newton’s theory simply does not address the question. (The same was believed of electromagnetic forces, as well. It is fair to say that most scientists were not completely comfortable with the action-at-a-distance concept.)</para>
+<para id="fs-id1168327893219">A second assumption also appears in Newton’s law of gravitation <link document="m58345" target-id="fs-id1168327894017"/>. The masses are assumed to be exactly the same as those used in Newton’s second law, <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. We made that assumption in many of our derivations in this chapter. Again, there is no underlying principle that this must be, but experimental results are consistent with this assumption. In Einstein’s subsequent <term>theory of general relativity</term> (1916), both of these issues were addressed. His theory was a theory of <term>space-time</term> geometry and how mass (and acceleration) distort and interact with that space-time. It was not a theory of gravitational forces. The mathematics of the general theory is beyond the scope of this text, but we can look at some underlying principles and their consequences.</para>
+</section>
+<section id="fs-id1168327955402">
+<title>The Principle of Equivalence</title>
+<para id="fs-id1168328170601">Einstein came to his general theory in part by wondering why someone who was free falling did not feel his or her weight. Indeed, it is common to speak of astronauts orbiting Earth as being weightless, despite the fact that Earth’s gravity is still quite strong there. In Einstein’s general theory, there is no difference between free fall and being weightless. This is called the <term>principle of equivalence</term>. The equally surprising corollary to this is that there is no difference between a uniform gravitational field and a uniform acceleration in the absence of gravity. Let’s focus on this last statement. Although a perfectly uniform gravitational field is not feasible, we can approximate it very well.</para>
+<para id="fs-id1168327922378">Within a reasonably sized laboratory on Earth, the gravitational field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is essentially uniform. The corollary states that any physical experiments performed there have the identical results as those done in a laboratory accelerating at <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> in deep space, well away from all other masses. <link target-id="CNX_UPhysics_13_07_accframe"/> illustrates the concept.</para>
+<figure id="CNX_UPhysics_13_07_accframe">
+<media id="fs-id1168325681309" alt="On the left is a drawing of a rocket moving upward. An arrow pointing up is labeled a (=g). A view into the rocket shows a chemistry experiment and a clock indicating an interval of 10 minutes. On the right is a drawing of the earth with the same chemistry experiment and clock indicating an interval of 10 minutes at the surface of the earth. A downward arrow is labeled g.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_07_accframe.jpg"/>
+</media>
+<caption>According to the principle of equivalence, the results of all experiments performed in a laboratory in a uniform gravitational field are identical to the results of the same experiments performed in a uniformly accelerating laboratory.</caption>
+</figure>
+<para id="fs-id1168328221991">How can these two apparently fundamentally different situations be the same? The answer is that gravitation is not a force between two objects but is the result of each object responding to the effect that the other has on the space-time surrounding it. A uniform gravitational field and a uniform acceleration have exactly the same effect on space-time.</para>
+</section>
+<section id="fs-id1168325781782">
+<title>A Geometric Theory of Gravity</title>
+<para id="fs-id1168327948954">Euclidian geometry assumes a “flat” space in which, among the most commonly known attributes, a straight line is the shortest distance between two points, the sum of the angles of all triangles must be 180 degrees, and parallel lines never intersect. <term>Non-Euclidean geometry</term> was not seriously investigated until the nineteenth century, so it is not surprising that Euclidean space is inherently assumed in all of Newton’s laws.</para>
+<para id="fs-id1168328070732">The general theory of relativity challenges this long-held assumption. Only empty space is flat. The presence of mass—or energy, since relativity does not distinguish between the two—distorts or curves space and time, or space-time, around it. The motion of any other mass is simply a response to this curved space-time. <link target-id="CNX_UPhysics_13_07_spacecurve"/> is a two-dimensional representation of a smaller mass orbiting in response to the distorted space created by the presence of a larger mass. In a more precise but confusing picture, we would also see space distorted by the orbiting mass, and both masses would be in motion in response to the total distortion of space. Note that the figure is a representation to help visualize the concept. These are distortions in our three-dimensional space and time. We do not see them as we would a dimple on a ball. We see the distortion only by careful measurements of the motion of objects and light as they move through space.</para>
+<figure id="CNX_UPhysics_13_07_spacecurve">
+<media id="fs-id1168327903433" alt="An illustration of space time, shown as a grid. A large mass at the center of the grid distorts space time, forming a dimple and bending the grid lines. A small mass is shown orbiting the large mass at the rim of the dimple.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_07_spacecurve.jpg"/>
+</media>
+<caption>A smaller mass orbiting in the distorted space-time of a larger mass. In fact, all mass or energy distorts space-time.</caption>
+</figure>
+<para id="fs-id1168328368815">For weak gravitational fields, the results of general relativity do not differ significantly from Newton’s law of gravitation. But for intense gravitational fields, the results diverge, and general relativity has been shown to predict the correct results. Even in our Sun’s relatively weak gravitational field at the distance of Mercury’s orbit, we can observe the effect. Starting in the mid-1800s, Mercury’s elliptical orbit has been carefully measured. However, although it is elliptical, its motion is complicated by the fact that the perihelion position of the ellipse slowly advances. Most of the advance is due to the gravitational pull of other planets, but a small portion of that advancement could not be accounted for by Newton’s law. At one time, there was even a search for a “companion” planet that would explain the discrepancy. But general relativity correctly predicts the measurements. Since then, many measurements, such as the deflection of light of distant objects by the Sun, have verified that general relativity correctly predicts the observations.</para>
+<para id="fs-id1168327871954">We close this discussion with one final comment. We have often referred to distortions of space-time or distortions in both space and time. In both special and general relativity, the dimension of time has equal footing with each spatial dimension (differing in its place in both theories only by an ultimately unimportant scaling factor). Near a very large mass, not only is the nearby space “stretched out,” but time is dilated or “slowed.” We discuss these effects more in the next section.</para>
+</section>
+<section id="fs-id1168325876897">
+<title>Black Holes</title>
+<para id="fs-id1168327855303">Einstein’s theory of gravitation is expressed in one deceptively simple-looking tensor equation (tensors are a generalization of scalars and vectors), which expresses how a mass determines the curvature of space-time around it. The solutions to that equation yield one of the most fascinating predictions: the <term>black hole</term>. The prediction is that if an object is sufficiently dense, it will collapse in upon itself and be surrounded by an <term>event horizon</term> from which nothing can escape. The name “black hole,” which was coined by astronomer John <term class="no-emphasis">Wheeler</term> in 1969, refers to the fact that light cannot escape such an object. Karl <term class="no-emphasis">Schwarzschild</term> was the first person to note this phenomenon in 1916, but at that time, it was considered mostly to be a mathematical curiosity.</para>
+<para id="fs-id1168327963846">Surprisingly, the idea of a massive body from which light cannot escape dates back to the late 1700s. Independently, John Michell and Pierre-Simon Laplace used Newton’s law of gravitation to show that light leaving the surface of a star with enough mass could not escape. Their work was based on the fact that the speed of light had been measured by Ole Rømer in 1676. He noted discrepancies in the data for the orbital period of the moon Io about Jupiter. Rømer realized that the difference arose from the relative positions of Earth and Jupiter at different times and that he could find the speed of light from that difference. Michell and Laplace both realized that since light had a finite speed, there could be a star massive enough that the escape speed from its surface could exceed that speed. Hence, light always would fall back to the star. Oddly, observers far enough away from the very largest stars would not be able to see them, yet they could see a smaller star from the same distance.</para><para id="fs-id1168328224851">Recall that in <link document="m58347">Gravitational Potential Energy and Total Energy</link>, we found that the escape speed, given by <link document="m58347" target-id="fs-id1168326928051"/>, is independent of the mass of the object escaping. Even though the nature of light was not fully understood at the time, the mass of light, if it had any, was not relevant. Hence, <link document="m58347" target-id="fs-id1168326928051"/> should be valid for light. Substituting <emphasis effect="italics">c</emphasis>, the speed of light, for the escape velocity, we have</para>
+<equation id="fs-id1168057478020" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>esc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168328366419">Thus, we only need values for <emphasis effect="italics">R</emphasis> and <emphasis effect="italics">M</emphasis> such that the escape velocity exceeds <emphasis effect="italics">c</emphasis>, and then light will not be able to escape. Michell posited that if a star had the density of our Sun and a radius that extended just beyond the orbit of Mars, then light would not be able to escape from its surface. He also conjectured that we would still be able to detect such a star from the gravitational effect it would have on objects around it. This was an insightful conclusion, as this is precisely how we infer the existence of such objects today. While we have yet to, and may never, visit a black hole, the circumstantial evidence for them has become so compelling that few astronomers doubt their existence.</para>
+<para id="fs-id1168328366077">Before we examine some of that evidence, we turn our attention back to Schwarzschild’s solution to the tensor equation from general relativity. In that solution arises a critical radius, now called the <term>Schwarzschild radius</term> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. For any mass <emphasis effect="italics">M</emphasis>, if that mass were compressed to the extent that its radius becomes less than the Schwarzschild radius, then the mass will collapse to a singularity, and anything that passes inside that radius cannot escape. Once inside <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math>, the arrow of time takes all things to the singularity. (In a broad mathematical sense, a singularity is where the value of a function goes to infinity. In this case, it is a point in space of zero volume with a finite mass. Hence, the mass density and gravitational energy become infinite.) The Schwarzschild radius is given by</para>
+<note id="fs-id1168328355394" class="equation-callout">
+<equation id="fs-id1168327872094"><label/><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1168328065070">If you look at our escape velocity equation with <m:math><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>esc</m:mtext></m:mrow><m:mrow/></m:msubsup><m:mo>=</m:mo><m:mi>c</m:mi></m:mrow></m:math>, you will notice that it gives precisely this result. But that is merely a fortuitous accident caused by several incorrect assumptions. One of these assumptions is the use of the <emphasis effect="italics">incorrect</emphasis> classical expression for the kinetic energy for light. Just how dense does an object have to be in order to turn into a black hole?</para>
+<example id="fs-id1168327991566">
+<para id="fs-id1168328317582"><title>Calculating the Schwarzschild Radius</title>
+Calculate the Schwarzschild radius for both the Sun and Earth. Compare the density of the nucleus of an atom to the density required to compress Earth’s mass uniformly to its Schwarzschild radius. The density of a nucleus is about <m:math><m:mrow><m:mn>2.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>.</para>
+<para id="fs-id1168328204601"><title>Strategy</title>
+We use <link target-id="fs-id1168327872094"/> for this calculation. We need only the masses of Earth and the Sun, which we obtain from the astronomical data given in <link document="m58617">Appendix D</link>.</para>
+<para id="fs-id1168327872260"><title>Solution</title>
+Substituting the mass of the Sun, we have</para>
+<equation id="fs-id1168057480398" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/kg</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168328184092">This is a diameter of only about 6 km. If we use the mass of Earth, we get <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. This is a diameter of less than 2 cm! If we pack Earth’s mass into a sphere with the radius <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, we get a density of</para>
+<equation id="fs-id1168057271946" class="unnumbered"><label/><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>mass</m:mtext></m:mrow><m:mrow><m:mtext>volume</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5.97</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mfrac bevelled="true"><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.06</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168327982966"><title>Significance</title>
+A <term>neutron star</term> is the most compact object known—outside of a black hole itself. The neutron star is composed of neutrons, with the density of an atomic nucleus, and, like many black holes, is believed to be the remnant of a supernova—a star that explodes at the end of its lifetime. To create a black hole from Earth, we would have to compress it to a density thirteen orders of magnitude greater than that of a neutron star. This process would require unimaginable force. There is no known mechanism that could cause an Earth-sized object to become a black hole. For the Sun, you should be able to show that it would have to be compressed to a density only about 80 times that of a nucleus. (Note: Once the mass is compressed within its Schwarzschild radius, general relativity dictates that it will collapse to a singularity. These calculations merely show the density we must achieve to initiate that collapse.)</para>
+</example>
+<note id="fs-id1168328185118" class="check-understanding">
+<exercise id="fs-id1168325667458">
+<problem id="fs-id1168328193936">
+<para id="fs-id1168327912181"> Consider the density required to make Earth a black hole compared to that required for the Sun. What conclusion can you draw from this comparison about what would be required to create a black hole? Would you expect the Universe to have many black holes with small mass?</para>
+</problem>
+<solution id="fs-id1168328273048">
+<para id="fs-id1168328279676">Given the incredible density required to force an Earth-sized body to become a black hole, we do not expect to see such small black holes. Even a body with the mass of our Sun would have to be compressed by a factor of 80 beyond that of a neutron star. It is believed that stars of this size cannot become black holes. However, for stars with a few solar masses, it is believed that gravitational collapse at the end of a star’s life could form a black hole. As we will discuss later, it is now believed that black holes are common at the center of galaxies. These galactic black holes typically contain the mass of many millions of stars.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1168327921175">
+<title>The event horizon</title>
+<para id="fs-id1168327930379">The Schwarzschild radius is also called the event horizon of a black hole. We noted that both space and time are stretched near massive objects, such as black holes. <link target-id="CNX_UPhysics_13_07_spacetime"/> illustrates that effect on space. The distortion caused by our Sun is actually quite small, and the diagram is exaggerated for clarity. Consider the neutron star, described in <link target-id="fs-id1168327991566"/>. Although the distortion of space-time at the surface of a neutron star is very high, the radius is still larger than its Schwarzschild radius. Objects could still escape from its surface.</para>
+<para id="fs-id1168327925160">However, if a neutron star gains additional mass, it would eventually collapse, shrinking beyond the Schwarzschild radius. Once that happens, the entire mass would be pulled, inevitably, to a singularity. In the diagram, space is stretched to infinity. Time is also stretched to infinity. As objects fall toward the event horizon, we see them approaching ever more slowly, but never reaching the event horizon. As outside observers, we never see objects pass through the event horizon—effectively, time is stretched to a stop.</para>
+<note id="fs-id1168328268082" class="media-2">
+<para id="fs-id1168328291231">Visit this <link url="https://openstax.org/l/21spacetelescop">site</link> to view an animated example of these spatial distortions.</para>
+</note>
+<figure id="CNX_UPhysics_13_07_spacetime"><media id="fs-id1168328298882" alt="On the left are three illustrations of space time as a grid with increasingly deep dimples with an object at the bottom of the dimple. The top drawing is labeled sun, and has a shallow dimple. The middle figure is labeled white dwarf and has a deeper dimple and more distorted grid lines. The third figure is labeled neutron star. The dimple is very deep and its sides are nearly vertical. The region above the star is labeled distorted space time. On the right is a larger illustration of the effects of a black hole. The dimple is now a bend that becomes a flared tube that becomes vertical and is open at the bottom. The bottom of the tube is labeled singularity. The grid lines in the tube form vertical lines and a spiral. A circular cross section of the tube is labeled event horizon. A circle where the space time grid bends to form the top of the tube is labeled last stable orbit.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_07_spacetime.jpg"/>
+</media>
+
+<caption>The space distortion becomes more noticeable around increasingly larger masses. Once the mass density reaches a critical level, a black hole forms and the fabric of space-time is torn. The curvature of space is greatest at the surface of each of the first three objects shown and is finite. The curvature then decreases (not shown) to zero as you move to the center of the object. But the black hole is different. The curvature becomes infinite: The surface has collapsed to a singularity, and the cone extends to infinity. (Note: These diagrams are not to any scale.) (credit: modification of work by NASA)</caption></figure></section>
+<section id="fs-id1168328288499">
+<title>The evidence for black holes</title>
+<para id="fs-id1168328199980">Not until the 1960s, when the first neutron star was discovered, did interest in the existence of black holes become renewed. Evidence for black holes is based upon several types of observations, such as radiation analysis of X-ray binaries, gravitational lensing of the light from distant galaxies, and the motion of visible objects around invisible partners. We will focus on these later observations as they relate to what we have learned in this chapter. Although light cannot escape from a black hole for us to see, we can nevertheless see the gravitational effect of the black hole on surrounding masses.</para>
+<para id="fs-id1168328191059">The closest, and perhaps most dramatic, evidence for a black hole is at the center of our Milky Way galaxy. The UCLA Galactic Group, using data obtained by the W. M. Keck telescopes, has determined the orbits of several stars near the center of our galaxy. Some of that data is shown in <link target-id="CNX_UPhysics_13_07_KeckUCLA"/>. The orbits of two stars are highlighted. From measurements of the periods and sizes of their orbits, it is estimated that they are orbiting a mass of approximately 4 million solar masses. Note that the mass must reside in the region created by the intersection of the ellipses of the stars. The region in which that mass must reside would fit inside the orbit of Mercury—yet nothing is seen there in the visible spectrum.</para>
+<figure id="CNX_UPhysics_13_07_KeckUCLA"><media id="fs-id1168325743081" alt="An infrared image of stars near the center of the Milky way. Eight orbits are shown with several data points on each. The orbits differ in eccentricity, orientation, and size, but all overlap near the center of the image.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_07_KeckUCLA.jpg"/>
+</media>
+
+<caption>Paths of stars orbiting about a mass at the center of our Milky Way galaxy. From their motion, it is estimated that a black hole of about 4 million solar masses resides at the center. (credit: modification of work by  UCLA Galactic Center Group – W.M. Keck Observatory Laser Team)</caption></figure><para id="fs-id1168325743042">The physics of stellar creation and evolution is well established. The ultimate source of energy that makes stars shine is the self-gravitational energy that triggers fusion. The general behavior is that the more massive a star, the brighter it shines and the shorter it lives. The logical inference is that a mass that is 4 million times the mass of our Sun, confined to a very small region, and that cannot be seen, has no viable interpretation other than a black hole. Extragalactic observations strongly suggest that black holes are common at the center of galaxies.</para>
+<note id="fs-id1168328195675" class="media-2">
+<para id="fs-id1168328230094">Visit the <link url="https://openstax.org/l/21galacenter01">UCLA Galactic Center Group main page</link> for information on X-ray binaries and gravitational lensing. Visit this <link url="https://openstax.org/l/21galacenter02">page</link> to view a three-dimensional visualization of the stars orbiting near the center of our galaxy, where the animation is near the bottom of the page.</para>
+</note>
+</section>
+<section id="fs-id1168328299653">
+<title>Dark matter</title>
+<para id="fs-id1168328379305">Stars orbiting near the very heart of our galaxy provide strong evidence for a black hole there, but the orbits of stars far from the center suggest another intriguing phenomenon that is observed indirectly as well. Recall from <link document="m58346">Gravitation Near Earth’s Surface</link> that we can consider the mass for spherical objects to be located at a point at the center for calculating their gravitational effects on other masses. Similarly, we can treat the total mass that lies within the orbit of any star in our galaxy as being located at the center of the Milky Way disc. We can estimate that mass from counting the visible stars and include in our estimate the mass of the black hole at the center as well.</para>
+<para id="fs-id1168325927675">But when we do that, we find the orbital speed of the stars is far too fast to be caused by that amount of matter. <link target-id="CNX_UPhysics_13_07_darkmat"/> shows the orbital velocities of stars as a function of their distance from the center of the Milky Way. The blue line represents the velocities we would expect from our estimates of the mass, whereas the green curve is what we get from direct measurements. Apparently, there is a lot of matter we don’t see, estimated to be about five times as much as what we do see, so it has been dubbed <term class="no-emphasis">dark matter</term>. Furthermore, the velocity profile does not follow what we expect from the observed distribution of visible stars. Not only is the estimate of the total mass inconsistent with the data, but the expected distribution is inconsistent as well. And this phenomenon is not restricted to our galaxy, but seems to be a feature of all galaxies. In fact, the issue was first noted in the 1930s when galaxies within clusters were measured to be orbiting about the center of mass of those clusters faster than they should based upon visible mass estimates.</para>
+<figure id="CNX_UPhysics_13_07_darkmat">
+<media id="fs-id1168328366945" alt="Graph of Galaxy rotation curve plotting orbital velocity in arbitrary units as a function of radius, r, in kiloparsecs. The horizontal axis scale is 0 to 14 kiloparsecs, in increments of 2. The vertical axis scale is 0 to 1.6 in increments of 0.2. A green curve is labeled Observed. The curve starts at r=0, v=0.9, rises to almost v=1.4 at r a little less than 2, then decreases to about v = 1.3 at about r = 4, then more slowly to about v = 1.2 at r = 14. A blue curve is labeled Expected. The curve starts at r=0, v=1.0 ad rises to a maximum value that is smaller than the green curve’s and at a smaller value of r. The curve then decreases smoothly with steadily decreasing slope to v approximately 0.5 at r = 14.Three additional gray curves are also shown. A dotted curve labeled dark matter starts at r=0, v=0 and rises smoothly with steadily decreasing slope to v approximately 0.9 at r = 14. A dot-dashed curve labeled Bulge (light) also starts at r=0, v=0 and rises to a maximum value of about v = 0.5 at an r between 1 and 2, then decreases smoothly with steadily decreasing slope to v approximately 0.2 at r = 14. A dashed curve labeled Disk (light) starts at r=0, v=1 and decreases smoothly with steadily decreasing slope to v approximately 0.3 at r = 14.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_07_darkmat.jpg"/>
+</media>
+<caption>The blue curve shows the expected orbital velocity of stars in the Milky Way based upon the visible stars we can see. The green curve shows that the actually velocities are higher, suggesting additional matter that cannot be seen. (credit: modification of work by Matthew Newby)</caption>
+</figure>
+<para id="fs-id1168325647325">There are two prevailing ideas of what this matter could be—WIMPs and MACHOs. WIMPs stands for weakly interacting massive particles. These particles (neutrinos are one example) interact very weakly with ordinary matter and, hence, are very difficult to detect directly. MACHOs stands for massive compact halo objects, which are composed of ordinary baryonic matter, such as neutrons and protons. There are unresolved issues with both of these ideas, and far more research will be needed to solve the mystery.</para>
+</section>
+</section>
+<section id="fs-id1168325680758" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1168328356979" list-type="bulleted" bullet-style="bullet">
+<item>According to the theory of general relativity, gravity is the result of distortions in space-time created by mass and energy.</item>
+<item>The principle of equivalence states that that both mass and acceleration distort space-time and are indistinguishable in comparable circumstances.</item>
+<item>Black holes, the result of gravitational collapse, are singularities with an event horizon that is proportional to their mass.</item>
+<item>Evidence for the existence of black holes is still circumstantial, but the amount of that evidence is overwhelming.</item>
+</list>
+</section>
+<section id="fs-id1168325780881" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1170904183507" class="unnumbered unstyled" summary="This table gives the following formulae: Newton’s law of gravitation, F subscript 12 equal to G m1 m2 by r squared into r hat subscript 12; Acceleration due to gravity at the surface of Earth, g equal to G M subscript E by r squared; Gravitational potential energy beyond Earth, U equal to minus G M subscript E m by r; Conservation of energy, half m v1 squared minus G Mm by r1 equal to half m v2 squared minus G Mm by r2; Escape velocity, v subscript esc equal to square root of 2 GM by R end of root; Orbital speed, v subscript orbit equal to square root of GM subscript E by r end of root; Orbital period, T equal to 2 pi square root of r cubed by G M subscript E end of root; Energy in circular orbit, E equal to K plus U equal to minus GmM subscript E by 2 r; Conic sections, alpha by r equal to 1 plus e cos theta; Kepler’s third law, T squared equal to 4 pi squared GM into a cubed; Schwarzschild radius, R subscript S equal to 2 GM by c squared.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Newton’s law of gravitation</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Acceleration due to gravity<newline/>at the surface of Earth</entry>
+<entry align="left"><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mrow/><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Gravitational potential energy beyond Earth</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Conservation of energy</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Escape velocity</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>esc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Orbital speed</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msub><m:mrow><m:mtext>GM</m:mtext></m:mrow><m:mtext>E</m:mtext></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Orbital period</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mi>Τ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mrow><m:mtext>GM</m:mtext></m:mrow><m:mtext>E</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Energy in circular orbit</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>U</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>m</m:mi><m:msub><m:mtext>M</m:mtext><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Conic sections</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mfrac><m:mi>α</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>e</m:mi><m:mtext>cos</m:mtext><m:mi>θ</m:mi></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Kepler’s third law</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:msup><m:mi>Τ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow></m:mfrac><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Schwarzschild radius</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1168328253442" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1168328199356">
+<problem id="fs-id1168328199358">
+<para id="fs-id1168328298303">The principle of equivalence states that all experiments done in a lab in a uniform gravitational field cannot be distinguished from those done in a lab that is not in a gravitational field but is uniformly accelerating. For the latter case, consider what happens to a laser beam at some height shot perfectly horizontally to the floor, across the accelerating lab. (View this from a nonaccelerating frame outside the lab.) Relative to the height of the laser, where will the laser beam hit the far wall? What does this say about the effect of a gravitational field on light? Does the fact that light has no mass make any difference to the argument?</para>
+</problem>
+<solution id="fs-id1168328298308">
+<para id="fs-id1168328293168">The laser beam will hit the far wall at a lower elevation than it left, as the floor is accelerating upward. Relative to the lab, the laser beam “falls.” So we would expect this to happen in a gravitational field. The mass of light, or even an object with mass, is not relevant.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327963958">
+<problem id="fs-id1168327963961">
+<para id="fs-id1168328193984">As a person approaches the Schwarzschild radius of a black hole, outside observers see all the processes of that person (their clocks, their heart rate, etc.) slowing down, and coming to a halt as they reach the Schwarzschild radius. (The person falling into the black hole sees their own processes unaffected.) But the speed of light is the same everywhere for all observers. What does this say about space as you approach the black hole?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168328370140" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1168328059444">
+<problem id="fs-id1168328059446">
+<para id="fs-id1168328059449">What is the Schwarzschild radius for the black hole at the center of our galaxy if it has the mass of 4 million solar masses?</para>
+</problem>
+<solution id="fs-id1168328331753">
+<para id="fs-id1168328331755"><m:math><m:mrow><m:mn>1.19</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>km</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325680830">
+<problem id="fs-id1168325626556">
+<para id="fs-id1168325626559">What would be the Schwarzschild radius, in light years, if our Milky Way galaxy of 100 billion stars collapsed into a black hole? Compare this to our distance from the center, about 13,000 light years.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168327891194" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1168325680813">
+<problem id="fs-id1168325680815">
+<para id="fs-id1168328237906">A neutron star is a cold, collapsed star with nuclear density. A particular neutron star has a mass twice that of our Sun with a radius of 12.0 km. (a) What would be the weight of a 100-kg astronaut on standing on its surface? (b) What does this tell us about landing on a neutron star?</para>
+</problem>
+<solution id="fs-id1168328357765">
+<para id="fs-id1168328357767">a. <m:math><m:mrow><m:mn>1.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>; b. Don’t do it!</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327875643">
+<problem id="fs-id1168327875646">
+<para id="fs-id1168327875648">(a) How far from the center of Earth would the net gravitational force of Earth and the Moon on an object be zero? (b) Setting the <emphasis effect="italics">magnitudes</emphasis> of the forces equal should result in two answers from the quadratic. Do you understand why there are two positions, but only one where the net force is zero?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328025325">
+<problem id="fs-id1168328025327">
+<para id="fs-id1168328025330">How far from the center of the Sun would the net gravitational force of Earth and the Sun on a spaceship be zero?</para>
+</problem>
+<solution id="fs-id1168325665764">
+<para id="fs-id1168325665766"><m:math><m:mrow><m:mn>1.49</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mtext>km</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327864481">
+<problem id="fs-id1168327946561">
+<para id="fs-id1168327946563">Calculate the values of <emphasis effect="italics">g</emphasis> at Earth’s surface for the following changes in Earth’s properties: (a) its mass is doubled and its radius is halved; (b) its mass density is doubled and its radius is unchanged; (c) its mass density is halved and its mass is unchanged.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328280367">
+<problem id="fs-id1168328280369">
+<para id="fs-id1168325664091">Suppose you can communicate with the inhabitants of a planet in another solar system. They tell you that on their planet, whose diameter and mass are <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mn>3.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>, respectively, the record for the high jump is 2.0 m. Given that this record is close to 2.4 m on Earth, what would you conclude about your extraterrestrial friends’ jumping ability?</para>
+</problem>
+<solution id="fs-id1168328321319">
+<para id="fs-id1168328321321">The value of <emphasis effect="italics">g</emphasis> for this planet is 3.8 m/s<sup>2</sup>, which is about one-fourth that of Earth. So they are weak high jumpers.</para></solution>
+</exercise>
+<exercise id="fs-id1168328195603">
+<problem id="fs-id1168328195605">
+<para id="fs-id1168327963974">(a) Suppose that your measured weight at the equator is one-half your measured weight at the pole on a planet whose mass and diameter are equal to those of Earth. What is the rotational period of the planet? (b) Would you need to take the shape of this planet into account?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328297525">
+<problem id="fs-id1168328297527">
+<para id="fs-id1168328297529">A body of mass 100 kg is weighed at the North Pole and at the equator with a spring scale. What is the scale reading at these two points? Assume that <m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9.83</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> at the pole.</para>
+</problem>
+<solution id="fs-id1168325789313">
+<para id="fs-id1168325789315">At the North Pole, 983 N; at the equator, 980 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327965813">
+<problem id="fs-id1168327965815">
+<para id="fs-id1168327965817">Find the speed needed to escape from the solar system starting from the surface of Earth. Assume there are no other bodies involved and do not account for the fact that Earth is moving in its orbit. [<emphasis effect="italics">Hint:</emphasis> <link document="m58347" target-id="fs-id1168326928051"/> does not apply. Use <link document="m58347" target-id="fs-id1168326928404"/> and include the potential energy of both Earth and the Sun.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328297557">
+<problem id="fs-id1168328279716">
+<para id="fs-id1168328279718">Consider the previous problem and include the fact that Earth has an orbital speed about the Sun of 29.8 km/s. (a) What speed relative to Earth would be needed and in what direction should you leave Earth? (b) What will be the shape of the trajectory?</para>
+</problem>
+<solution id="fs-id1168328049782">
+<para id="fs-id1168328049784">a. The escape velocity is still 43.6 km/s. By launching from Earth in the direction of Earth’s tangential velocity, you need <m:math><m:mrow><m:mn>43.4</m:mn><m:mo>−</m:mo><m:mn>29.8</m:mn><m:mo>=</m:mo><m:mn>13.8</m:mn><m:mspace width="0.2em"/><m:mtext>km/s</m:mtext></m:mrow></m:math> relative to Earth. b. The total energy is zero and the trajectory is a parabola.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328281719">
+<problem id="fs-id1168325837492">
+<para id="fs-id1168325837494">A comet is observed 1.50 AU from the Sun with a speed of 24.3 km/s. Is this comet in a bound or unbound orbit?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328277302">
+<problem id="fs-id1168328277304">
+<para id="fs-id1168328277306">An asteroid has speed 15.5 km/s when it is located 2.00 AU from the sun. At its closest approach, it is 0.400 AU from the Sun. What is its speed at that point?</para>
+</problem>
+<solution id="fs-id1168328193731">
+<para id="fs-id1168328193733">61.5 km/s</para></solution>
+</exercise>
+<exercise id="fs-id1168326002659">
+<problem id="fs-id1168326002662">
+<para id="fs-id1168326002664">Space debris left from old satellites and their launchers is becoming a hazard to other satellites. (a) Calculate the speed of a satellite in an orbit 900 km above Earth’s surface. (b) Suppose a loose rivet is in an orbit of the same radius that intersects the satellite’s orbit at an angle of <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. What is the velocity of the rivet relative to the satellite just before striking it? (c) If its mass is 0.500 g, and it comes to rest inside the satellite, how much energy in joules is generated by the collision? (Assume the satellite’s velocity does not change appreciably, because its mass is much greater than the rivet’s.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325860673">
+<problem id="fs-id1168325860676">
+<para id="fs-id1168325860678">A satellite of mass 1000 kg is in circular orbit about Earth. The radius of the orbit of the satellite is equal to two times the radius of Earth. (a) How far away is the satellite? (b) Find the kinetic, potential, and total energies of the satellite.</para>
+</problem>
+<solution id="fs-id1168328330913">
+<para id="fs-id1168328330915">a. <m:math><m:mrow><m:mn>1.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>1.56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>1</m:mn><m:mn>0</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mtext>−</m:mtext><m:mn>3.12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>1</m:mn><m:mn>0</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mn>−1.56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>1</m:mn><m:mn>0</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325702205">
+<problem id="fs-id1168325702207">
+<para id="fs-id1168325702209">After Ceres was promoted to a dwarf planet, we now recognize the largest known asteroid to be Vesta, with a mass of <m:math><m:mrow><m:mn>2.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and a diameter ranging from 578 km to 458 km. Assuming that Vesta is spherical with radius 520 km, find the approximate escape velocity from its surface.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325985894">
+<problem id="fs-id1168325985896">
+<para id="fs-id1168325985898">(a) Given the asteroid Vesta which has a diameter of 520 km and mass of  <m:math><m:mrow><m:mn>2.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>20</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>, what would be the orbital period for a space probe in a circular orbit of 10.0 km from its surface? (b) Why is this calculation marginally useful at best?</para></problem>
+<solution id="fs-id1168327935228">
+<para id="fs-id1168327935230">a. <m:math><m:mrow><m:mn>6.24</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> or about 1.8 hours. This was using the 520 km average diameter. b. Vesta is clearly not very spherical, so you would need to be above the largest dimension, nearly 580 km. More importantly, the nonspherical nature would disturb the orbit very quickly, so this calculation would not be very accurate even for one orbit.</para></solution>
+</exercise>
+<exercise id="fs-id1168327962924">
+<problem id="fs-id1168328357770">
+<para id="fs-id1168328357772">What is the orbital velocity of our solar system about the center of the Milky Way? Assume that the mass within a sphere of radius equal to our distance away from the center is about a 100 billion solar masses. Our distance from the center is 27,000 light years.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328301379">
+<problem id="fs-id1168328301381">
+<para id="fs-id1168328301383">(a) Using the information in the previous problem, what velocity do you need to escape the Milky Way galaxy from our present position? (b) Would you need to accelerate a spaceship to this speed relative to Earth?</para>
+</problem>
+<solution id="fs-id1168328299625">
+<para id="fs-id1168328299627">a. 323 km/s; b. No, you need only the difference between the solar system’s orbital speed and escape speed, so about <m:math><m:mrow><m:mn>323</m:mn><m:mo>−</m:mo><m:mn>228</m:mn><m:mo>=</m:mo><m:mn>95</m:mn><m:mspace width="0.2em"/><m:mtext>km/s</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325756452">
+<problem id="fs-id1168325756454">
+<para id="fs-id1168325756456">Circular orbits in <link document="m58350" target-id="fs-id1168329150881"/> for conic sections must have eccentricity zero. From this, and using Newton’s second law applied to centripetal acceleration, show that the value of <m:math><m:mi>α</m:mi></m:math> in <link document="m58350" target-id="fs-id1168329150881"/> is given by <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mtext>G</m:mtext><m:mi>M</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> where <emphasis effect="italics">L</emphasis> is the angular momentum of the orbiting body. The value of <m:math><m:mi>α</m:mi></m:math> is constant and given by this expression regardless of the type of orbit.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328286374">
+<problem id="fs-id1168328286376">
+<para id="fs-id1168328193746">Show that for eccentricity equal to one in <link document="m58350" target-id="fs-id1168329150881"/> for conic sections, the path is a parabola. Do this by substituting Cartesian coordinates, <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>, for the polar coordinates, <emphasis effect="italics">r</emphasis> and <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math>, and showing that it has the general form for a parabola, <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168325781635">
+<para id="fs-id1168325781637">Setting <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, we have <m:math><m:mrow><m:mfrac><m:mi>α</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mtext>cos</m:mtext><m:mi>θ</m:mi><m:mo stretchy="false">→</m:mo><m:mi>α</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>r</m:mi><m:mtext>cos</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>x</m:mi></m:mrow></m:math>; hence, <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Expand and collect to show <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>−2</m:mn><m:mi>α</m:mi></m:mrow></m:mfrac><m:mspace width="0.1em"/><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mi>α</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325780805">
+<problem id="fs-id1168325780808">
+<para id="fs-id1168325780810">Using the technique shown in <link document="m58348">Satellite Orbits and Energy</link>, show that two masses <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> in circular orbits about their common center of mass, will have total energy <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>K</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow/></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>r</m:mi><m:mrow/></m:msup></m:mrow></m:mfrac></m:mrow></m:math>. We have shown the kinetic energy of both masses explicitly. (<emphasis effect="italics">Hint:</emphasis> The masses orbit at radii <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, respectively, where <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Be sure not to confuse the radius needed for centripetal acceleration with that for the gravitational force.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328241487">
+<problem id="fs-id1168328241489">
+<para id="fs-id1168328241492">Given the perihelion distance, <emphasis effect="italics">p</emphasis>, and aphelion distance, <emphasis effect="italics">q</emphasis>, for an elliptical orbit, show that the velocity at perihelion, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math>, is given by <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mrow><m:mtext>Sun</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>q</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mi>p</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>. (<emphasis effect="italics">Hint:</emphasis> Use conservation of angular momentum to relate <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>q</m:mi></m:msub></m:mrow></m:math>, and then substitute into the conservation of energy equation.)</para>
+</problem>
+<solution id="fs-id1168325695452">
+<para id="fs-id1168325695454">Substitute directly into the energy equation using <m:math><m:mrow><m:mi>p</m:mi><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:mi>q</m:mi><m:msub><m:mi>v</m:mi><m:mi>q</m:mi></m:msub></m:mrow></m:math> from conservation of angular momentum, and solve for <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325737371">
+<problem id="fs-id1168325630055">
+<para id="fs-id1168325630057">Comet P/1999 R1 has a perihelion of 0.0570 AU and aphelion of 4.99 AU. Using the results of the previous problem, find its speed at aphelion. (<emphasis effect="italics">Hint:</emphasis> The expression is for the perihelion. Use symmetry to rewrite the expression for aphelion.)</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168326030676" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1168326030683">
+<problem id="fs-id1168326030685">
+<para id="fs-id1168326030687">A tunnel is dug through the center of a perfectly spherical and airless planet of radius <emphasis effect="italics">R</emphasis>. Using the expression for <emphasis effect="italics">g</emphasis> derived in <link document="m58346">Gravitation Near Earth’s Surface</link> for a uniform density, show that a particle of mass <emphasis effect="italics">m</emphasis> dropped in the tunnel will execute simple harmonic motion. Deduce the period of oscillation of <emphasis effect="italics">m</emphasis> and show that it has the same period as an orbit at the surface.</para>
+</problem>
+<solution id="fs-id1168328357732">
+<para id="fs-id1168328357735"><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>G</m:mi><m:mi>ρ</m:mi><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>G</m:mi><m:mi>m</m:mi><m:mi>ρ</m:mi><m:mi>π</m:mi></m:mrow><m:mo>]</m:mo></m:mrow><m:mspace width="0.1em"/><m:mi>r</m:mi></m:mrow></m:math>, and from <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mspace width="0.1em"/><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>r</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>, we get <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>r</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>G</m:mi><m:mi>ρ</m:mi><m:mi>π</m:mi></m:mrow><m:mo>]</m:mo></m:mrow><m:mspace width="0.1em"/><m:mi>r</m:mi></m:mrow></m:math> where the first term is <m:math><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Then <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>ω</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>4</m:mn><m:mi>G</m:mi><m:mi>ρ</m:mi><m:mi>π</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> and if we substitute <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>M</m:mi><m:mrow><m:mn>4</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>, we get the same expression as for the period of orbit <emphasis effect="italics">R</emphasis>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325911031">
+<problem id="fs-id1168325911033">
+<para id="fs-id1168325911035">Following the technique used in <link document="m58346">Gravitation Near Earth’s Surface</link>, find the value of <emphasis effect="italics">g</emphasis> as a function of the radius <emphasis effect="italics">r</emphasis> from the center of a spherical shell planet of constant density <m:math><m:mi>ρ</m:mi></m:math> with inner and outer radii <sub><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:math>
+</sub> and <sub><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow></m:math>
+</sub>. Find <emphasis effect="italics">g</emphasis> for both <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow></m:math> and for <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:math>. Assuming the inside of the shell is kept airless, describe travel inside the spherical shell planet.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328319422">
+<problem id="fs-id1168328319425">
+<para id="fs-id1168328319427">Show that the areal velocity for a circular orbit of radius <emphasis effect="italics">r</emphasis> about a mass <emphasis effect="italics">M</emphasis> is <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msqrt><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi><m:mi>r</m:mi></m:mrow></m:msqrt></m:mrow></m:math>. Does your expression give the correct value for Earth’s areal velocity about the Sun?</para>
+</problem>
+<solution id="fs-id1168328330940">
+<para id="fs-id1168328330942">Using the mass of the Sun and Earth’s orbital radius, the equation gives <m:math><m:mrow><m:mn>2.24</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>. The value of <m:math><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mrow><m:mtext>ES</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>year</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> gives the same value.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328253626">
+<problem id="fs-id1168328253628">
+<para id="fs-id1168328253631">Show that the period of orbit for two masses, <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, in circular orbits of radii <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, respectively, about their common center-of-mass, is given by <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mspace width="0.2em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. (<emphasis effect="italics">Hint:</emphasis> The masses orbit at radii <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, respectively where <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Use the expression for the center-of-mass to relate the two radii and note that the two masses must have equal but opposite momenta. Start with the relationship of the period to the circumference and speed of orbit for one of the masses. Use the result of the previous problem using momenta in the expressions for the kinetic energy.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325718577">
+<problem id="fs-id1168325718579">
+<para id="fs-id1168325718581">Show that for small changes in height <emphasis effect="italics">h</emphasis>, such that <m:math><m:mrow><m:mi>h</m:mi><m:mtext>&lt;</m:mtext><m:mspace width="0.2em"/><m:mtext>&lt;</m:mtext><m:msub><m:mtext>R</m:mtext><m:mtext>E</m:mtext></m:msub></m:mrow></m:math>, <link document="m58347" target-id="fs-id1168329108070"/> reduces to the expression <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mtext>g</m:mtext><m:mi>h</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168325911588">
+<para id="fs-id1168325911590"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:msub><m:mi>U</m:mi><m:mi>f</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>U</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>r</m:mi><m:mi>f</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>f</m:mi></m:msub><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mi>f</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math>. If <m:math><m:mrow><m:mi>h</m:mi><m:mtext>&lt;</m:mtext><m:mspace width="0.2em"/><m:mtext>&lt;</m:mtext><m:msub><m:mtext>R</m:mtext><m:mtext>E</m:mtext></m:msub></m:mrow></m:math>, then <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>f</m:mi></m:msub><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub><m:mo>≈</m:mo><m:msubsup><m:mi>R</m:mi><m:mtext>E</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:math>, and upon substitution, we have</para>
+<para id="fs-id1168325718629"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>h</m:mi><m:mrow><m:msubsup><m:mi>R</m:mi><m:mtext>E</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>R</m:mi><m:mtext>E</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>h</m:mi></m:mrow></m:math> where we recognize the expression with the parenthesis as the definition of <emphasis effect="italics">g</emphasis>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325789361">
+<problem id="fs-id1168325789363">
+<para id="fs-id1168325780823">Using <link document="m58346" target-id="CNX_UPhysics_13_02_ApparentW"/>, carefully sketch a free body diagram for the case of a simple pendulum hanging at latitude lambda, labeling all forces acting on the point mass, <emphasis effect="italics">m</emphasis>. Set up the equations of motion for equilibrium, setting one coordinate in the direction of the centripetal acceleration (toward <emphasis effect="italics">P</emphasis> in the diagram), the other perpendicular to that. Show that the deflection angle <m:math><m:mrow><m:mi>ε</m:mi></m:mrow></m:math>, defined as the angle between the pendulum string and the radial direction toward the center of Earth, is given by the expression below. What is the deflection angle at latitude 45 degrees? Assume that Earth is a perfect sphere. <m:math><m:mrow><m:mtext>tan</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>+</m:mo><m:mi>ε</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>g</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo>−</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mtext>tan</m:mtext><m:mi>λ</m:mi></m:mrow></m:math>, where <m:math><m:mi>ω</m:mi></m:math> is the angular velocity of Earth.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328321280">
+<problem id="fs-id1168328321282">
+<para id="fs-id1168328321284">(a) Show that tidal force on a small object of mass <emphasis effect="italics">m</emphasis>, defined as the <emphasis effect="italics">difference</emphasis> in the gravitational force that would be exerted on <emphasis effect="italics">m</emphasis> at a distance at the near and the far side of the object, due to the gravitation at a distance <emphasis effect="italics">R</emphasis> from <emphasis effect="italics">M</emphasis>, is given by <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>tidal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mtext>Δ</m:mtext><m:mi>r</m:mi></m:mrow></m:math> where <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi></m:mrow></m:math> is the distance between the near and far side and <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mtext>&lt;</m:mtext><m:mspace width="0.2em"/><m:mtext>&lt;</m:mtext><m:mi>R</m:mi></m:mrow></m:math>. (b) Assume you are falling feet first into the black hole at the center of our galaxy. It has mass of 4 million solar masses. What would be the difference between the force at your head and your feet at the Schwarzschild radius (event horizon)? Assume your feet and head each have mass 5.0 kg and are 2.0 m apart. Would you survive passing through the event horizon?</para>
+</problem>
+<solution id="fs-id1168325695499">
+<para id="fs-id1168325695501">a. Find the difference in force,<newline/><m:math><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>tidal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mtext>Δ</m:mtext><m:mi>r</m:mi></m:math>;<newline/>
+b. For the case given, using the Schwarzschild radius from a previous problem, we have a tidal force of <m:math><m:mrow><m:mn>9.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>. This won’t even be noticed!</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328301267">
+<problem id="fs-id1168328301269">
+<para id="fs-id1168328301272">Find the Hohmann transfer velocities, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>EllipseEarth</m:mtext></m:mrow><m:mrow/></m:msubsup></m:mrow></m:math> and <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>EllipseMars</m:mtext></m:mrow><m:mrow/></m:msubsup></m:mrow></m:math>, needed for a trip to Mars. Use <link document="m58348" target-id="fs-id1168328256234"/> to find the circular orbital velocities for Earth and Mars. Using <link document="m58347" target-id="fs-id1168329108070"/> and the total energy of the ellipse (with semi-major axis <emphasis effect="italics">a</emphasis>), given by <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>m</m:mi><m:msub><m:mi>M</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mrow/></m:msup></m:mrow></m:mfrac></m:mrow></m:math>, find the velocities at Earth (perihelion) and at Mars (aphelion) required to be on the transfer ellipse. The difference, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow></m:math>, at each point is the velocity boost or transfer velocity needed.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168326002720">
+<term>action-at-a-distance force</term>
+<meaning id="fs-id1168326002726">type of force exerted without physical contact</meaning>
+</definition>
+<definition id="fs-id1168326002730">
+<term>black hole</term>
+<meaning id="fs-id1168326002735">mass that becomes so dense, that it collapses in on itself, creating a singularity at the center surround by an event horizon</meaning>
+</definition>
+<definition id="fs-id1168325659928">
+<term>event horizon</term>
+<meaning id="fs-id1168325659933">location of the Schwarzschild radius and is the location near a black hole from within which no object, even light, can escape</meaning>
+</definition>
+<definition id="fs-id1168325659938">
+<term>neutron star</term>
+<meaning id="fs-id1168325659944">most compact object known—outside of a black hole itself</meaning>
+</definition>
+<definition id="fs-id1168325659950">
+<term>non-Euclidean geometry</term>
+<meaning id="fs-id1168325659955">geometry of curved space, describing the relationships among angles and lines on the surface of a sphere, hyperboloid, etc.</meaning>
+</definition>
+<definition id="fs-id1168325659960">
+<term>principle of equivalence</term>
+<meaning id="fs-id1168325659966">part of the general theory of relativity, it states that there no difference between free fall and being weightless, or a uniform gravitational field and uniform acceleration</meaning>
+</definition>
+<definition id="fs-id1168325659972">
+<term>Schwarzschild radius</term>
+<meaning id="fs-id1168325659977">critical radius (<m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math>) such that if a mass were compressed to the extent that its radius becomes less than the Schwarzschild radius, then the mass will collapse to a singularity, and anything that passes inside that radius cannot escape</meaning>
+</definition>
+<definition id="fs-id1168328120381">
+<term>space-time</term>
+<meaning id="fs-id1168328120386">concept of space-time is that time is essentially another coordinate that is treated the same way as any individual spatial coordinate; in the equations that represent both special and general relativity, time appears in the same context as do the spatial coordinates</meaning>
+</definition>
+<definition id="fs-id1168328120393">
+<term>theory of general relativity</term>
+<meaning id="fs-id1168328120398">Einstein’s theory for gravitation and accelerated reference frames; in this theory, gravitation is the result of mass and energy distorting the space-time around it; it is also often referred to as Einstein’s theory of gravity</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,387 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Calculations of Electric Potential</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58431</md:content-id>
+  <md:title>Calculations of Electric Potential</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para><list>
+<item>Calculate the potential due to a point charge</item>
+<item>Calculate the potential of a system of multiple point charges</item>
+<item>Describe an electric dipole</item>
+<item>Define dipole moment</item>
+<item>Calculate the potential of a continuous charge distribution</item></list></md:abstract>
+  <md:uuid>fcfcd791-2356-4eb8-bf78-71790f08dd61</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167584932103">Point charges, such as electrons, are among the fundamental building blocks of matter. Furthermore, spherical charge distributions (such as charge on a metal sphere) create external electric fields exactly like a point charge. The electric potential due to a point charge is, thus, a case we need to consider.</para>
+<para id="fs-id1167585133522">We can use calculus to find the work needed to move a test charge <emphasis effect="italics">q</emphasis> from a large distance away to a distance of <emphasis effect="italics">r</emphasis> from a point charge <emphasis effect="italics">q</emphasis>. Noting the connection between work and potential <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>q</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>,</m:mo></m:mrow></m:math> as in the last section, we can obtain the following result.</para>
+<note id="fs-id1167585156214">
+<title>Electric Potential <emphasis effect="italics">V</emphasis> of a Point Charge</title>
+<para id="fs-id1167585079315">The electric potential <emphasis effect="italics">V</emphasis> of a point charge is given by</para>
+<equation id="fs-id1167585126348"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>q</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mtext>point charge</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585068755">where <emphasis effect="italics">k</emphasis> is a constant equal to <m:math><m:mrow><m:mn>8.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para></note>
+<para id="fs-id1167585005863">The potential at infinity is chosen to be zero. Thus, <emphasis effect="italics">V</emphasis> for a point charge decreases with distance, whereas <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> for a point charge decreases with distance squared:</para>
+<equation id="fs-id1167584732949" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mrow><m:msub><m:mi>q</m:mi><m:mi>t</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>q</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584917273">Recall that the electric potential difference <emphasis effect="italics">V</emphasis> is a scalar and has no direction, whereas the electric field <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> is a vector. To find the voltage due to a combination of point charges, given zero voltage at infinitely far away, you add the individual voltages as numbers. We will assume for the rest of this chapter that there is zero voltage measured infinitely far away. To find the total electric field, you must add the individual fields as vectors, taking magnitude and direction into account. This is consistent with the fact that <emphasis effect="italics">V</emphasis> is closely associated with energy, a scalar, whereas <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> is closely associated with force, a vector.</para><example id="fs-id1167585020408">
+<para id="fs-id1167584760973"><title>What Voltage Is Produced by a Small Charge on a Metal Sphere?</title>
+Charges in static electricity are typically in the nanocoulomb (nC) to microcoulomb <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> range. What is the voltage 5.00 cm away from the center of a 1-cm-diameter solid metal sphere that has a –3.00-nC static charge?</para>
+<para id="fs-id1167584683891"><title>Strategy</title>
+As we discussed in <link document="m58410">Electric Charges and Fields</link>, charge on a metal sphere spreads out uniformly and produces a field like that of a point charge located at its center. Thus, we can find the voltage using the equation <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>q</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167584895784"><title>Solution</title>
+Entering known values into the expression for the potential of a point charge, we obtain</para>
+<equation id="fs-id1167584754153" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>−3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−539</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167584667602"><title>Significance</title>
+The negative value for voltage means a positive charge would be attracted from a larger distance, since the potential is lower (more negative) than at larger distances. Conversely, a negative charge would be repelled, as expected.</para>
+</example>
+<example id="fs-id1167584979749">
+<para id="fs-id1167584987242"><title>What Is the Excess Charge on a Van de Graaff Generator?</title>
+A demonstration <term class="no-emphasis">Van de Graaff generator</term> has a 25.0-cm-diameter metal sphere that produces a voltage of 100 kV near its surface (<link target-id="CNX_UPhysics_24_03_VanGraaf"/>). What excess charge resides on the sphere? (Assume that each numerical value here is shown with three significant figures.)</para>
+<figure id="CNX_UPhysics_24_03_VanGraaf">
+<media id="fs-id1167585006420" alt="The figure shows the parts of Van de Graaff generator.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_03_VanGraaf.jpg"/>
+</media>
+<caption>The voltage of this demonstration Van de Graaff generator is measured between the charged sphere and ground. Earth’s potential is taken to be zero as a reference. The potential of the charged conducting sphere is the same as that of an equal point charge at its center.</caption>
+</figure>
+<para id="fs-id1167585007479"><title>Strategy</title>
+The potential on the surface is the same as that of a point charge at the center of the sphere, 12.5 cm away. (The radius of the sphere is 12.5 cm.) We can thus determine the excess charge using the equation</para>
+<equation id="fs-id1167585014520" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>q</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584716463"><title>Solution</title>
+Solving for <emphasis effect="italics">q</emphasis> and entering known values gives</para>
+<equation id="fs-id1167584726864" class="unnumbered"><label/><m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>r</m:mi><m:mi>V</m:mi></m:mrow><m:mi>k</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.125</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>8.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.39</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mn>1.39</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584979592"><title>Significance</title>
+This is a relatively small charge, but it produces a rather large voltage. We have another indication here that it is difficult to store isolated charges.</para>
+</example>
+<note id="fs-id1167584705534" class="check-understanding">
+<exercise id="fs-id1167584754542">
+<problem id="fs-id1167584773095">
+<para id="fs-id1167584856283"><emphasis effect="bold">Check Your Understanding</emphasis> What is the potential inside the metal sphere in <link target-id="fs-id1167585020408"/>?</para>
+</problem>
+<solution id="fs-id1167584777007">
+<para id="fs-id1167584697792"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>−3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−5390</m:mn><m:mspace width="0.2em"/><m:mtext>V;</m:mtext></m:mrow></m:math> recall that the electric field inside a conductor is zero. Hence, any path from a point on the surface to any point in the interior will have an integrand of zero when calculating the change in potential, and thus the potential in the interior of the sphere is identical to that on the surface.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167584765654">The voltages in both of these examples could be measured with a meter that compares the measured potential with ground potential. Ground potential is often taken to be zero (instead of taking the potential at infinity to be zero). It is the potential difference between two points that is of importance, and very often there is a tacit assumption that some reference point, such as Earth or a very distant point, is at zero potential. As noted earlier, this is analogous to taking sea level as <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> when considering gravitational potential energy <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>g</m:mi></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>h</m:mi></m:mrow></m:math>.</para>
+<section id="fs-id1167584739399">
+<title>Systems of Multiple Point Charges</title>
+<para id="fs-id1167584926667">Just as the electric field obeys a superposition principle, so does the electric potential. Consider a system consisting of <emphasis effect="italics">N</emphasis> charges <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo><m:msub><m:mi>q</m:mi><m:mi>N</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> What is the net electric potential <emphasis effect="italics">V</emphasis> at a space point <emphasis effect="italics">P</emphasis> from these charges? Each of these charges is a source charge that produces its own electric potential at point <emphasis effect="italics">P</emphasis>, independent of whatever other changes may be doing. Let <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mi>N</m:mi></m:msub></m:mrow></m:math> be the electric potentials at <emphasis effect="italics">P</emphasis> produced by the charges <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo><m:msub><m:mi>q</m:mi><m:mi>N</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectively. Then, the net electric potential <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow></m:math> at that point is equal to the sum of these individual electric potentials. You can easily show this by calculating the potential energy of a test charge when you bring the test charge from the reference point at infinity to point <emphasis effect="italics">P</emphasis>:</para>
+<equation id="fs-id1167584937839" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mtext>⋯</m:mtext><m:mo>+</m:mo><m:msub><m:mi>V</m:mi><m:mi>N</m:mi></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mn>1</m:mn><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>V</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584997407">Note that electric potential follows the same principle of superposition as electric field and electric potential energy. To show this more explicitly, note that a test charge <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mi>t</m:mi></m:msub></m:mrow></m:math> at the point <emphasis effect="italics">P</emphasis> in space has distances of <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo><m:msub><m:mi>r</m:mi><m:mi>N</m:mi></m:msub></m:mrow></m:math> from the <emphasis effect="italics">N</emphasis> charges fixed in space above, as shown in <link target-id="CNX_UPhysics_24_03_SuperPoten"/>. Using our formula for the potential of a point charge for each of these (assumed to be point) charges, we find that</para>
+<note id="fs-id1167584702775" class="equation-callout">
+<equation id="fs-id1167584937698"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mn>1</m:mn><m:mi>N</m:mi></m:munderover><m:mrow><m:mi>k</m:mi><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mn>1</m:mn><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167585000983">Therefore, the electric potential energy of the test charge is</para>
+<equation id="fs-id1167584689472" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mi>t</m:mi></m:msub><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mi>t</m:mi></m:msub><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mn>1</m:mn><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584734504">which is the same as the work to bring the test charge into the system, as found in the first section of the chapter.</para>
+<figure id="CNX_UPhysics_24_03_SuperPoten">
+<media id="fs-id1167584701842" alt="The figure shows N charges located at different distances from a fixed point P.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_03_SuperPoten.jpg"/>
+</media>
+<caption>Notation for direct distances from charges to a space point <emphasis effect="italics">P</emphasis>.</caption>
+</figure>
+</section>
+<section id="fs-id1167584998529">
+<title>The Electric Dipole</title>
+<para id="fs-id1167584761380">An <term>electric dipole</term> is a system of two equal but opposite charges a fixed distance apart. This system is used to model many real-world systems, including atomic and molecular interactions. One of these systems is the water molecule, under certain circumstances. These circumstances are met inside a microwave oven, where electric fields with alternating directions make the water molecules change orientation. This vibration is the same as heat at the molecular level.</para>
+<example id="fs-id1167584746091">
+<para id="fs-id1167584721031"><title>Electric Potential of a Dipole</title>
+Consider the dipole in <link target-id="CNX_UPhysics_24_03_ElecDipOne"/> with the charge magnitude of <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow></m:math> and separation distance <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> What is the potential at the following locations in space? (a) (0, 0, 1.0 cm); (b) (0, 0, –5.0 cm); (c) (3.0 cm, 0, 2.0 cm).</para>
+<figure id="CNX_UPhysics_24_03_ElecDipOne">
+<media id="fs-id1167584980214" alt="The figure shows an electric dipole with two charges (3.0nC and -3.0nC) located 4.0cm apart on the z axis. The center of the dipole is at the origin and three other points are marked at (0, 0, 1.0 cm), (0, 0, –5.0 cm) and (3.0 cm, 0, 2.0 cm).">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_03_ElecDipOne.jpg"/>
+</media>
+<caption>A general diagram of an electric dipole, and the notation for the distances from the individual charges to a point <emphasis effect="italics">P</emphasis> in space.</caption>
+</figure>
+<para id="fs-id1167585106097"><title>Strategy</title>
+Apply <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mn>1</m:mn><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math> to each of these three points.</para>
+<para id="fs-id1167584756056"><title>Solution</title></para>
+<list id="fs-id1167585135670" list-type="enumerated" number-style="lower-alpha">
+<item><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mn>1</m:mn><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow><m:mrow><m:mn>0.010</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow><m:mrow><m:mn>0.030</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mn>1</m:mn><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow><m:mrow><m:mn>0.070</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow><m:mrow><m:mn>0.030</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−5.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mn>1</m:mn><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow><m:mrow><m:mn>0.030</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow><m:mrow><m:mn>0.050</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></item>
+</list>
+<para id="fs-id1167585106737"><title>Significance</title>
+Note that evaluating potential is significantly simpler than electric field, due to potential being a scalar instead of a vector.</para>
+</example>
+<note id="fs-id1167585160079" class="check-understanding">
+<exercise id="fs-id1167585158920">
+<problem id="fs-id1167584956016">
+<para id="fs-id1167584956018"><emphasis effect="bold">Check Your Understanding</emphasis> What is the potential on the <emphasis effect="italics">x</emphasis>-axis? The <emphasis effect="italics">z</emphasis>-axis?</para>
+</problem>
+<solution id="fs-id1167585029337">
+<para id="fs-id1167585172795">The <emphasis effect="italics">x</emphasis>-axis the potential is zero, due to the equal and opposite charges the same distance from it. On the <emphasis effect="italics">z</emphasis>-axis, we may superimpose the two potentials; we will find that for <m:math><m:mrow><m:mi>z</m:mi><m:mspace width="0.2em"/><m:mo>&gt;</m:mo><m:mo>&gt;</m:mo><m:mspace width="0.2em"/><m:mi>d</m:mi></m:mrow></m:math>, again the potential goes to zero due to cancellation.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167585164383">Now let us consider the special case when the distance of the point <emphasis effect="italics">P</emphasis> from the dipole is much greater than the distance between the charges in the dipole, <m:math><m:mrow><m:mi>r</m:mi><m:mo>≫</m:mo><m:mi>d</m:mi><m:mo>;</m:mo></m:mrow></m:math> for example, when we are interested in the electric potential due to a polarized molecule such as a water molecule. This is not so far (infinity) that we can simply treat the potential as zero, but the distance is great enough that we can simplify our calculations relative to the previous example.</para>
+<para id="fs-id1167585057538">We start by noting that in <link target-id="CNX_UPhysics_24_03_ElecDipole"/> the potential is given by</para>
+<equation id="fs-id1167584986531" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mtext>+</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>V</m:mi><m:mtext>−</m:mtext></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>q</m:mi><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>+</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mi>q</m:mi><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>−</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1167585157952">where</para>
+<equation id="fs-id1167585105155" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>±</m:mtext></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>z</m:mi><m:mo>∓</m:mo><m:mfrac><m:mi>d</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_24_03_ElecDipole">
+<media id="fs-id1167585180460" alt="The figure shows an electric dipole located on the z axis with center at the origin. Point P, located at (x, 0, z) is distance r away from the origin.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_03_ElecDipole.jpg"/>
+</media>
+<caption>A general diagram of an electric dipole, and the notation for the distances from the individual charges to a point <emphasis effect="italics">P</emphasis> in space.</caption>
+</figure>
+<para id="fs-id1167584741964">This is still the exact formula. To take advantage of the fact that <m:math><m:mrow><m:mi>r</m:mi><m:mo>≫</m:mo><m:mi>d</m:mi><m:mo>,</m:mo></m:mrow></m:math> we rewrite the radii in terms of polar coordinates, with <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>. This gives us</para>
+<equation id="fs-id1167585013150" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>±</m:mtext></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>∓</m:mo><m:mfrac><m:mi>d</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584936873">We can simplify this expression by pulling <emphasis effect="italics">r</emphasis> out of the root,</para>
+<equation id="fs-id1167585091692" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>±</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:msqrt><m:mrow><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>∓</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></equation>
+<para id="fs-id1167585000846">and then multiplying out the parentheses</para>
+<equation id="fs-id1167585114395" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>±</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:msqrt><m:mrow><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>+</m:mo><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>∓</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mfrac><m:mi>d</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mi>r</m:mi><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>∓</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mfrac><m:mi>d</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584765442">The last term in the root is small enough to be negligible (remember <m:math><m:mrow><m:mi>r</m:mi><m:mo>≫</m:mo><m:mi>d</m:mi><m:mo>,</m:mo></m:mrow></m:math> and hence <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>d</m:mi><m:mtext>/</m:mtext><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> is extremely small, effectively zero to the level we will probably be measuring), leaving us with</para>
+<equation id="fs-id1167584959817" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>±</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>∓</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mfrac><m:mi>d</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584953353">Using the binomial approximation (a standard result from the mathematics of series, when <m:math><m:mrow><m:mi>α</m:mi></m:mrow></m:math> is small)</para>
+<equation id="fs-id1167585076101" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>∓</m:mo><m:mi>α</m:mi></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>1</m:mn><m:mo>±</m:mo><m:mfrac><m:mi>α</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167585024108">and substituting this into our formula for <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow></m:math> , we get</para>
+<equation id="fs-id1167584997391" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:mi>q</m:mi><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585122338">This may be written more conveniently if we define a new quantity, the <term>electric dipole moment</term>,</para>
+<note id="fs-id1167585166102" class="equation-callout">
+<equation id="fs-id1167585022076"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>p</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>q</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>d</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167585106034">where these vectors point from the negative to the positive charge. Note that this has magnitude <emphasis effect="italics">qd</emphasis>. This quantity allows us to write the potential at point <emphasis effect="italics">P</emphasis> due to a dipole at the origin as</para>
+<note id="fs-id1167585066421" class="equation-callout">
+<equation id="fs-id1167585066424"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>p</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167585046214">A diagram of the application of this formula is shown in <link target-id="CNX_UPhysics_24_03_DiPoten"/>.</para>
+<figure id="CNX_UPhysics_24_03_DiPoten">
+<media id="fs-id1167585015323" alt="The figure shows two vectors r and p with an angle theta between them.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_03_DiPoten.jpg"/>
+</media>
+<caption>The geometry for the application of the potential of a dipole.</caption>
+</figure>
+<para id="fs-id1167584956248">There are also higher-order moments, for quadrupoles, octupoles, and so on. You will see these in future classes.</para>
+</section>
+<section id="fs-id1167584956254">
+<title>Potential of Continuous Charge Distributions</title>
+<para id="fs-id1167584955817">We have been working with point charges a great deal, but what about continuous charge distributions? Recall from <link target-id="fs-id1167584937698"/> that</para>
+<equation id="fs-id1167585149475" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:mo>∑</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585156899">We may treat a continuous charge distribution as a collection of infinitesimally separated individual points. This yields the integral</para>
+<note id="fs-id1167585133345" class="equation-callout">
+<equation id="fs-id1167585133348"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167585124770">for the potential at a point <emphasis effect="italics">P</emphasis>. Note that <emphasis effect="italics">r</emphasis> is the distance from each individual point in the charge distribution to the point <emphasis effect="italics">P</emphasis>. As we saw in <link document="m58410">Electric Charges and Fields</link>, the infinitesimal charges are given by</para>
+<equation id="fs-id1167585157936" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi><m:mo>=</m:mo><m:mrow><m:mo>{</m:mo><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mi>λ</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mtext>one dimension</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>σ</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mtext>two dimensions</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>ρ</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>V</m:mi></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mtext>three dimensions</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1167584797004">where <m:math><m:mrow><m:mi>λ</m:mi></m:mrow></m:math> is linear charge density, <m:math><m:mrow><m:mi>σ</m:mi></m:mrow></m:math> is the charge per unit area, and <m:math><m:mrow><m:mi>ρ</m:mi></m:mrow></m:math> is the charge per unit volume.</para>
+<example id="fs-id1167585180436">
+<para id="fs-id1167584855155"><title>Potential of a Line of Charge</title>
+Find the electric potential of a uniformly charged, nonconducting wire with linear density <m:math><m:mrow><m:mi>λ</m:mi></m:mrow></m:math> (coulomb/meter) and length <emphasis effect="italics">L</emphasis> at a point that lies on a line that divides the wire into two equal parts.</para>
+<para id="fs-id1167584953388"><title>Strategy</title>
+To set up the problem, we choose Cartesian coordinates in such a way as to exploit the symmetry in the problem as much as possible. We place the origin at the center of the wire and orient the <emphasis effect="italics">y</emphasis>-axis along the wire so that the ends of the wire are at <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>. The field point <emphasis effect="italics">P</emphasis> is in the <emphasis effect="italics">xy</emphasis>-plane and since the choice of axes is up to us, we choose the <emphasis effect="italics">x</emphasis>-axis to pass through the field point <emphasis effect="italics">P</emphasis>, as shown in <link target-id="CNX_UPhysics_24_03_LineChg"/>.</para>
+<figure id="CNX_UPhysics_24_03_LineChg">
+<media id="fs-id1167585006353" alt="The figure shows a line charge on the y-axis with its center at the origin. Point P is located on the x-axis at distance x away from the origin.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_03_LineChg.jpg"/>
+</media>
+<caption>We want to calculate the electric potential due to a line of charge.</caption>
+</figure>
+<para id="fs-id1167585004552"><title>Solution</title>
+Consider a small element of the charge distribution between <emphasis effect="italics">y</emphasis> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow></m:math>. The charge in this cell is <m:math><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi><m:mo>=</m:mo><m:mi>λ</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow></m:math> and the distance from the cell to the field point <emphasis effect="italics">P</emphasis> is <m:math><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> Therefore, the potential becomes</para>
+<equation id="fs-id1167585111300" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:mrow><m:mo stretchy="true">∫</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>λ</m:mi><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>λ</m:mi><m:msubsup><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:msqrt><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>λ</m:mi><m:mrow><m:mo>[</m:mo><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>L</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>L</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>L</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>L</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>λ</m:mi><m:mtext>ln</m:mtext><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>L</m:mi><m:mo>+</m:mo><m:msqrt><m:mrow><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mo>+</m:mo><m:msqrt><m:mrow><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167585109857"><title>Significance</title>
+Note that this was simpler than the equivalent problem for electric field, due to the use of scalar quantities. Recall that we expect the zero level of the potential to be at infinity, when we have a finite charge. To examine this, we take the limit of the above potential as <emphasis effect="italics">x</emphasis> approaches infinity; in this case, the terms inside the natural log approach one, and hence the potential approaches zero in this limit. Note that we could have done this problem equivalently in cylindrical coordinates; the only effect would be to substitute <emphasis effect="italics">r</emphasis> for <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">z</emphasis> for <emphasis effect="italics">y</emphasis>.</para>
+</example>
+<example id="fs-id1167585156448">
+<para id="fs-id1167585021524"><title>Potential Due to a Ring of Charge</title>
+A ring has a uniform charge density <m:math><m:mi>λ</m:mi></m:math>, with units of coulomb per unit meter of arc. Find the electric potential at a point on the axis passing through the center of the ring.</para>
+<para id="fs-id1167585150718"><title>Strategy</title>
+We use the same procedure as for the charged wire. The difference here is that the charge is distributed on a circle. We divide the circle into infinitesimal elements shaped as arcs on the circle and use cylindrical coordinates shown in <link target-id="CNX_UPhysics_24_03_RingChg"/>.</para>
+<figure id="CNX_UPhysics_24_03_RingChg">
+<media id="fs-id1167585142135" alt="The figure shows a ring of charge located on the xy-plane with its center at the origin. Point P is located on the z-axis at distance z away from the origin.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_03_RingChg.jpg"/>
+</media>
+<caption>We want to calculate the electric potential due to a ring of charge.</caption>
+</figure>
+<para id="fs-id1167585155670"><title>Solution</title>
+A general element of the arc between <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math> is of length <m:math><m:mrow><m:mi>R</m:mi><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math> and therefore contains a charge equal to <m:math><m:mrow><m:mi>λ</m:mi><m:mi>R</m:mi><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math> The element is at a distance of <m:math><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math> from <emphasis effect="italics">P</emphasis>, and therefore the potential is</para>
+<equation id="fs-id1167585147669" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>λ</m:mi><m:mi>R</m:mi><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>λ</m:mi><m:mi>R</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:msubsup><m:mspace width="0.2em"/><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi><m:mi>λ</m:mi><m:mi>R</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585024283"><title>Significance</title>
+This result is expected because every element of the ring is at the same distance from point <emphasis effect="italics">P</emphasis>. The net potential at <emphasis effect="italics">P</emphasis> is that of the total charge placed at the common distance, <m:math><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+</example>
+<example id="fs-id1167585159918">
+<para id="fs-id1167585159921"><title>Potential Due to a Uniform Disk of Charge</title>
+A disk of radius <emphasis effect="italics">R</emphasis> has a uniform charge density <m:math><m:mi>σ</m:mi></m:math>, with units of coulomb meter squared. Find the electric potential at any point on the axis passing through the center of the disk.</para>
+<para id="fs-id1167585015224"><title>Strategy</title>
+We divide the disk into ring-shaped cells, and make use of the result for a ring worked out in the previous example, then integrate over <emphasis effect="italics">r</emphasis> in addition to <m:math><m:mi>θ</m:mi></m:math>. This is shown in <link target-id="CNX_UPhysics_24_03_DiskChg"/>.</para>
+<figure id="CNX_UPhysics_24_03_DiskChg">
+<media id="fs-id1167585167992" alt="The figure shows a disk of charge located on the xy-plane with its center at the origin. Point P is located on the z-axis at distance z away from the origin.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_03_DiskChg.jpg"/>
+</media>
+<caption>We want to calculate the electric potential due to a disk of charge.</caption>
+</figure>
+<para id="fs-id1167585125971"><title>Solution</title>
+An infinitesimal width cell between cylindrical coordinates <emphasis effect="italics">r</emphasis> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:math> shown in <link target-id="CNX_UPhysics_24_03_DiskChg"/> will be a ring of charges whose electric potential <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow></m:math> at the field point has the following expression</para>
+<equation id="fs-id1167584698997" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167585155958">where</para>
+<equation id="fs-id1167585155961" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585096930">The superposition of potential of all the infinitesimal rings that make up the disk gives the net potential at point <emphasis effect="italics">P</emphasis>. This is accomplished by integrating from <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> to <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>R</m:mi></m:mrow></m:math>:</para>
+<equation id="fs-id1167585160804" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>d</m:mi><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>k</m:mi><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>σ</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>R</m:mi></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>k</m:mi><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>σ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>−</m:mo><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167584953889"><title>Significance</title>
+The basic procedure for a disk is to first integrate around <m:math><m:mi>θ</m:mi></m:math> and then over <emphasis effect="italics">r</emphasis>. This has been demonstrated for uniform (constant) charge density. Often, the charge density will vary with <emphasis effect="italics">r</emphasis>, and then the last integral will give different results.</para>
+</example>
+<example id="fs-id1167585167084">
+<para id="fs-id1167585158432"><title>Potential Due to an Infinite Charged Wire</title>
+Find the electric potential due to an infinitely long uniformly charged wire.</para>
+<para id="fs-id1167585158438"><title>Strategy</title>
+Since we have already worked out the potential of a finite wire of length <emphasis effect="italics">L</emphasis> in <link target-id="fs-id1167585043449" document="m58430"/>, we might wonder if taking <m:math><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math> in our previous result will work:</para>
+<equation id="fs-id1167585180795" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:munder><m:mspace width="0.2em"/><m:mi>k</m:mi><m:mi>λ</m:mi><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>L</m:mi><m:mo>+</m:mo><m:msqrt><m:mrow><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mo>+</m:mo><m:msqrt><m:mrow><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585156248">However, this limit does not exist because the argument of the logarithm becomes [2/0] as <m:math><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>, so this way of finding <emphasis effect="italics">V</emphasis> of an infinite wire does not work. The reason for this problem may be traced to the fact that the charges are not localized in some space but continue to infinity in the direction of the wire. Hence, our (unspoken) assumption that zero potential must be an infinite distance from the wire is no longer valid.</para>
+<para id="fs-id1167585105432">To avoid this difficulty in calculating limits, let us use the definition of potential by integrating over the electric field from the previous section, and the value of the electric field from this charge configuration from the previous chapter.</para>
+<para id="fs-id1167585105437"><title>Solution</title>
+We use the integral</para>
+<equation id="fs-id1167585172816" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>R</m:mi><m:mi>P</m:mi></m:msubsup><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>l</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1167585158075">where <emphasis effect="italics">R</emphasis> is a finite distance from the line of charge, as shown in <link target-id="CNX_UPhysics_24_03_InfChg"/>.</para>
+<figure id="CNX_UPhysics_24_03_InfChg"><media id="fs-id1167585118502" alt="The figure shows an infinite line charge on the z-axis. Points P and R are located on the x-axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_03_InfChg.jpeg"/>
+</media>
+
+<caption>Points of interest for calculating the potential of an infinite line of charge.</caption></figure><para id="fs-id1167584953122">With this setup, we use <m:math><m:mrow><m:msub><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>k</m:mi><m:mi>λ</m:mi><m:mfrac><m:mn>1</m:mn><m:mi>s</m:mi></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>s</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>l</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>s</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> to obtain</para>
+<equation id="fs-id1167585000599" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>R</m:mi><m:mi>P</m:mi></m:msubsup><m:mspace width="0.2em"/><m:mrow><m:mn>2</m:mn><m:mi>k</m:mi><m:mi>λ</m:mi><m:mfrac><m:mn>1</m:mn><m:mi>s</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>s</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>k</m:mi><m:mi>λ</m:mi><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>s</m:mi><m:mi>P</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>s</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584856854">Now, if we define the reference potential <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> at <m:math><m:mrow><m:msub><m:mi>s</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext></m:mrow></m:math> this simplifies to</para>
+<equation id="fs-id1167585167669" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>k</m:mi><m:mi>λ</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>s</m:mi><m:mi>P</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585090208">Note that this form of the potential is quite usable; it is 0 at 1 m and is undefined at infinity, which is why we could not use the latter as a reference.</para>
+<para id="fs-id1167585156359"><title>Significance</title>
+Although calculating potential directly can be quite convenient, we just found a system for which this strategy does not work well. In such cases, going back to the definition of potential in terms of the electric field may offer a way forward.</para>
+</example>
+<note id="fs-id1167585140116" class="check-understanding">
+<exercise id="fs-id1167585109977">
+<problem id="fs-id1167585109979">
+<para id="fs-id1167585142714"><emphasis effect="bold">Check Your Understanding</emphasis> What is the potential on the axis of a nonuniform ring of charge, where the charge density is <m:math><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>λ</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>
+?</para>
+</problem>
+<solution id="fs-id1167585171910">
+<para id="fs-id1167585171912">It will be zero, as at all points on the axis, there are equal and opposite charges equidistant from the point of interest. Note that this distribution will, in fact, have a dipole moment.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167585094688" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167584992563" list-type="bulleted" bullet-style="bullet">
+<item>Electric potential is a scalar whereas electric field is a vector.</item>
+<item>Addition of voltages as numbers gives the voltage due to a combination of point charges, allowing us to use the principle of superposition: <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mn>1</m:mn><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math>.</item>
+<item>An electric dipole consists of two equal and opposite charges a fixed distance apart, with a dipole moment <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>p</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>q</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>d</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>.</item>
+<item>Continuous charge distributions may be calculated with <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle></m:mrow></m:math>.</item>
+</list>
+</section>
+<section id="fs-id1167585036525" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167585171932">
+<problem id="fs-id1167585171934">
+<para id="fs-id1167585043450">Compare the electric dipole moments of charges <m:math><m:mrow><m:mo>±</m:mo><m:mi>Q</m:mi></m:mrow></m:math> separated by a distance <emphasis effect="italics">d</emphasis> and charges <m:math><m:mrow><m:mo>±</m:mo><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math> separated by a distance <emphasis effect="italics">d</emphasis>/2.</para>
+</problem>
+<solution id="fs-id1167585044054">
+<para id="fs-id1167585044056">The second has 1/4 the dipole moment of the first.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585043866">
+<problem id="fs-id1167585045354">
+<para id="fs-id1167585045356">Would Gauss’s law be helpful for determining the electric field of a dipole? Why?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585043459">
+<problem id="fs-id1167585043461">
+<para id="fs-id1167585013485">In what region of space is the potential due to a uniformly charged sphere the same as that of a point charge? In what region does it differ from that of a point charge?</para>
+</problem>
+<solution id="fs-id1167585013491">
+<para id="fs-id1167585167847">The region outside of the sphere will have a potential indistinguishable from a point charge; the interior of the sphere will have a different potential.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167584981900">
+<problem id="fs-id1167584981902">
+<para id="fs-id1167584981904">Can the potential of a nonuniformly charged sphere be the same as that of a point charge? Explain.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167585005668" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167585045650">
+<problem id="fs-id1167585045652">
+<para id="fs-id1167585045655">A 0.500-cm-diameter plastic sphere, used in a static electricity demonstration, has a uniformly distributed 40.0-pC charge on its surface. What is the potential near its surface?</para>
+</problem>
+<solution id="fs-id1167585043042">
+<para id="fs-id1167585179901"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>144</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585176406">
+<problem id="fs-id1167585176408">
+<para id="fs-id1167585176410">How far from a <m:math><m:mrow><m:mn>1.00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> point charge is the potential 100 V? At what distance is it <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V?</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585037489">
+<problem id="fs-id1167585002071">
+<para id="fs-id1167585002073">If the potential due to a point charge is <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> at a distance of 15.0 m, what are the sign and magnitude of the charge?</para>
+</problem>
+<solution id="fs-id1167585038964">
+<para id="fs-id1167585038967"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>Q</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo stretchy="false">→</m:mo><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>8.33</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math>;<newline/>
+The charge is positive because the potential is positive.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585179868">
+<problem id="fs-id1167585179870">
+<para id="fs-id1167585179873">In nuclear fission, a nucleus splits roughly in half. (a) What is the potential <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> from a fragment that has 46 protons in it? (b) What is the potential energy in MeV of a similarly charged fragment at this distance?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167584724599">
+<problem id="fs-id1167584724601">
+<para id="fs-id1167584724603">A research Van de Graaff generator has a 2.00-m-diameter metal sphere with a charge of 5.00 mC on it. Assume the potential energy is zero at a reference point infinitely far away from the Van de Graaff. (a) What is the potential near its surface? (b) At what distance from its center is the potential 1.00 MV? (c) An oxygen atom with three missing electrons is released near the Van de Graaff generator. What is its kinetic energy in MeV when the atom is at the distance found in part b?</para></problem>
+<solution id="fs-id1167584724610">
+<para id="fs-id1167584724613">a. <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>45.0</m:mn><m:mspace width="0.2em"/><m:mtext>MV</m:mtext></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>Q</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo stretchy="false">→</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>45.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;<newline/>
+c. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mn>132</m:mn><m:mspace width="0.2em"/><m:mtext>MeV</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585043327">
+<problem id="fs-id1167585043329">
+<para id="fs-id1167585043332">An electrostatic paint sprayer has a 0.200-m-diameter metal sphere at a potential of 25.0 kV that repels paint droplets onto a grounded object.</para>
+<para id="fs-id1167585043336">(a) What charge is on the sphere? (b) What charge must a 0.100-mg drop of paint have to arrive at the object with a speed of 10.0 m/s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167583513667">
+<problem id="fs-id1167583513669">
+<para id="fs-id1167583513671">(a) What is the potential between two points situated 10 cm and 20 cm from a <m:math><m:mrow><m:mn>3.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> point charge? (b) To what location should the point at 20 cm be moved to increase this potential difference by a factor of two?</para>
+</problem>
+<solution id="fs-id1167583513688">
+<para id="fs-id1167583513690"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>Q</m:mi><m:mo>/</m:mo><m:mi>r</m:mi></m:mrow></m:math>; a. Relative to origin, find the potential at each point and then calculate the difference.<newline/>
+<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>135</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>;<newline/>
+b. To double the potential difference, move the point from 20 cm to infinity; the potential at 20 cm is halfway between zero and that at 10 cm.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585038295">
+<problem id="fs-id1167585038298">
+<para id="fs-id1167585038300">Find the potential at points <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>3</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>P</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math> in the diagram due to the two given charges.</para>
+<media id="fs-id1167585038342" alt="The figure shows two charges, 5mC (located 4cm left from the center) and -10mC (located 4cm right from the center). Four Point P subscript 1, P subscript 2, P subscript 3 and P subscript 4 are located 2cm left, 2cm right, 3cm below and 3cm above the center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_03_Prob14_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167583511289">
+<problem id="fs-id1167583511291">
+<para id="fs-id1167583511293">Two charges <m:math><m:mrow><m:mn>–2.0</m:mn><m:mspace width="0.2em"/><m:mi>µ</m:mi><m:mtext>C</m:mtext><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mtext>+</m:mtext><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mi>µ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> are separated by 4.0 cm on the <emphasis effect="italics">z</emphasis>-axis symmetrically about origin, with the positive one uppermost. Two space points of interest <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are located 3.0 cm and 30 cm from origin at an angle <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with respect to the <emphasis effect="italics">z</emphasis>-axis. Evaluate electric potentials at <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> in two ways: (a) Using the exact formula for point charges, and (b) using the approximate dipole potential formula.</para>
+</problem>
+<solution id="fs-id1167583514516">
+<para id="fs-id1167583514519">a. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>P</m:mi><m:mn>1</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>7.4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math><newline/>
+and <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>P</m:mi><m:mn>2</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>6.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>P</m:mi><m:mn>1</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>6.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>P</m:mi><m:mn>2</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>6.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167583525286">
+<problem id="fs-id1167583525288">
+<para id="fs-id1167583525290">(a) Plot the potential of a uniformly charged 1-m rod with 1 C/m charge as a function of the perpendicular distance from the center. Draw your graph from <m:math><m:mrow><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mn>0.1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. (b) On the same graph, plot the potential of a point charge with a 1-C charge at the origin. (c) Which potential is stronger near the rod? (d) What happens to the difference as the distance increases? Interpret your result.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167583525361">
+<term>electric dipole</term>
+<meaning id="fs-id1167583525366">system of two equal but opposite charges a fixed distance apart</meaning>
+</definition>
+<definition id="fs-id1167583525371">
+<term>electric dipole moment</term>
+<meaning id="fs-id1167583525376">quantity defined as <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>p</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>q</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>d</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> for all dipoles, where the vector points from the negative to positive charge</meaning>
+</definition>
+</glossary>
+
+</document>

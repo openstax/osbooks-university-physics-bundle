@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58500</md:content-id>
   <md:title>Energy Carried by Electromagnetic Waves</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para><list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para><list>
 <item>Express the time-averaged energy density of electromagnetic waves in terms of their electric and magnetic field amplitudes</item>
 <item>Calculate the Poynting vector and the energy intensity of electromagnetic waves</item>
 <item>Explain how the energy of an electromagnetic wave depends on its amplitude, whereas the energy of a photon is proportional to its frequency</item>
@@ -24,7 +24,7 @@
 </figure>
 <para id="fs-id1171242528655">For a plane wave traveling in the direction of the positive <emphasis effect="italics">x</emphasis>-axis with the phase of the wave chosen so that the wave maximum is at the origin at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the electric and magnetic fields obey the equations</para>
 <equation id="fs-id1171242478964" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>E</m:mi><m:mi>y</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>B</m:mi><m:mi>z</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
-<para id="fs-id1171242138106">The energy in any part of the electromagnetic wave is the sum of the energies of the electric and magnetic fields. This energy per unit volume, or <term class="no-emphasis" id="term-00001">energy density</term> <emphasis effect="italics">u</emphasis>, is the sum of the energy density from the electric field and the energy density from the magnetic field. Expressions for both field energy densities were discussed earlier (<m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub></m:mrow></m:math> in <link document="m58447">Capacitance</link> and <m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:math> in <link document="m58746">Inductance</link>). Combining these the contributions, we obtain</para>
+<para id="fs-id1171242138106">The energy in any part of the electromagnetic wave is the sum of the energies of the electric and magnetic fields. This energy per unit volume, or <term class="no-emphasis">energy density</term> <emphasis effect="italics">u</emphasis>, is the sum of the energy density from the electric field and the energy density from the magnetic field. Expressions for both field energy densities were discussed earlier (<m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub></m:mrow></m:math> in <link document="m58447">Capacitance</link> and <m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:math> in <link document="m58746">Inductance</link>). Combining these the contributions, we obtain</para>
 <equation id="fs-id1171242524070" class="unnumbered"><label/><m:math><m:mrow><m:mi>u</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>u</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1171242316546">The expression <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mi>B</m:mi></m:mrow></m:math> then shows that the magnetic energy density <m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:math> and electric energy density <m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub></m:mrow></m:math> are equal, despite the fact that changing electric fields generally produce only small magnetic fields. The equality of the electric and magnetic energy densities leads to</para>
 <equation id="fs-id1171242562347"><m:math><m:mrow><m:mi>u</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
@@ -38,15 +38,242 @@
 </figure>
 <para id="fs-id1171242566489">The energy passing through area <emphasis effect="italics">A</emphasis> in time <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> is</para>
 <equation id="fs-id1171242551205" class="unnumbered"><label/><m:math><m:mrow><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>volume</m:mtext><m:mo>=</m:mo><m:mi>u</m:mi><m:mi>A</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
-<para id="fs-id1171242064677">The energy per unit area per unit time passing through a plane perpendicular to the wave, called the <term class="no-emphasis" id="term-00002">energy flux</term> and denoted by <emphasis effect="italics">S</emphasis>, can be calculated by dividing the energy by the area <emphasis effect="italics">A</emphasis> and the time interval <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1171242064677">The energy per unit area per unit time passing through a plane perpendicular to the wave, called the <term class="no-emphasis">energy flux</term> and denoted by <emphasis effect="italics">S</emphasis>, can be calculated by dividing the energy by the area <emphasis effect="italics">A</emphasis> and the time interval <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>.</para>
 <equation id="fs-id1171239841131" class="unnumbered"><label/><m:math><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Energy passing area</m:mtext><m:mspace width="0.2em"/><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>in time</m:mtext><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow><m:mrow><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>u</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>c</m:mi><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
-<para id="fs-id1171242576327">More generally, the flux of energy through any surface also depends on the orientation of the surface. To take the direction into account, we introduce a vector <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>S</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>, called the <term id="term-00003">Poynting vector</term>, with the following definition:</para>
+<para id="fs-id1171242576327">More generally, the flux of energy through any surface also depends on the orientation of the surface. To take the direction into account, we introduce a vector <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>S</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>, called the <term>Poynting vector</term>, with the following definition:</para>
 <note id="fs-id1171242373735" class="equation-callout">
 <equation id="fs-id1171242344911"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>S</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
 </note>
 <para id="fs-id1171242567316">The cross-product of <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> and <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> points in the direction perpendicular to both vectors. To confirm that the direction of <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>S</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is that of wave propagation, and not its negative, return to <link target-id="CNX_UPhysics_33_02_GaussBox2" document="m58498"/>. Note that Lenz’s and Faraday’s laws imply that when the magnetic field shown is increasing in time, the electric field is greater at <emphasis effect="italics">x</emphasis> than at <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math>. The electric field is decreasing with increasing <emphasis effect="italics">x</emphasis> at the given time and location. The proportionality between electric and magnetic fields requires the electric field to increase in time along with the magnetic field. This is possible only if the wave is propagating to the right in the diagram, in which case, the relative orientations show that <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>S</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is specifically in the direction of propagation of the electromagnetic wave.</para>
 <para id="fs-id1171242505237">The energy flux at any place also varies in time, as can be seen by substituting <emphasis effect="italics">u</emphasis> from <link document="m58498" target-id="fs-id1171241058834"/> into <link target-id="fs-id1171242562347"/>.</para>
 <equation id="fs-id1171242360612"><m:math><m:mrow><m:mi>S</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation>
-<para id="fs-id1171242062174">Because the frequency of visible light is very high, of the order of <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz,</m:mtext></m:mrow></m:math> the energy flux for visible light through any area is an extremely rapidly varying quantity. Most measuring devices, including our eyes, detect only an average over many cycles. The time average of the energy flux is the <term class="no-emphasis" id="term-00004">intensity</term> <emphasis effect="italics">I</emphasis> of the electromagnetic wave and is the power per unit area. It can be expressed by averaging the cosine function in <link target-id="fs-id1171242360612"/> over one complete cycle, which is the same as time-averaging over many cycles (here, <emphasis effect="italics">T</emphasis> is one period):</para>
+<para id="fs-id1171242062174">Because the frequency of visible light is very high, of the order of <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz,</m:mtext></m:mrow></m:math> the energy flux for visible light through any area is an extremely rapidly varying quantity. Most measuring devices, including our eyes, detect only an average over many cycles. The time average of the energy flux is the <term class="no-emphasis">intensity</term> <emphasis effect="italics">I</emphasis> of the electromagnetic wave and is the power per unit area. It can be expressed by averaging the cosine function in <link target-id="fs-id1171242360612"/> over one complete cycle, which is the same as time-averaging over many cycles (here, <emphasis effect="italics">T</emphasis> is one period):</para>
 <equation id="fs-id1171242538156"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>avg</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mfrac><m:mn>1</m:mn><m:mi>T</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>T</m:mi></m:munderover><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mfrac><m:mi>t</m:mi><m:mi>T</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
-<para id="fs-id1171242140509">We can either evaluate the integral, or else note that because the sine and cosine differ merely in phase, the average over a complete cycle for <m:math><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mi>ξ</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is the same as for <m:math><m:mrow><m:msup><m
+<para id="fs-id1171242140509">We can either evaluate the integral, or else note that because the sine and cosine differ merely in phase, the average over a complete cycle for <m:math><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mi>ξ</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is the same as for <m:math><m:mrow><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mi>ξ</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, to obtain</para>
+<equation id="fs-id1167586002515" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>〈</m:mo><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mi>ξ</m:mi></m:mrow><m:mo>〉</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>〈</m:mo><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mi>ξ</m:mi></m:mrow><m:mo>〉</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mi>ξ</m:mi></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>〈</m:mo><m:mn>1</m:mn><m:mo>〉</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242488778">where the angle brackets <m:math><m:mrow><m:mrow><m:mo>〈</m:mo><m:mtext>⋯</m:mtext><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> stand for the time-averaging operation. The intensity of light moving at speed <emphasis effect="italics">c</emphasis> in vacuum is then found to be</para>
+<note id="fs-id1171242499648" class="equation-callout">
+<equation id="fs-id1171242360811"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>avg</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171242414188">in terms of the maximum electric field strength <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> which is also the electric field amplitude. Algebraic manipulation produces the relationship</para>
+<note id="fs-id1171242515090" class="equation-callout">
+<equation id="fs-id1171242568244"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:msubsup><m:mi>B</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171242105521">where <sub><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>
+</sub> is the magnetic field amplitude, which is the same as the maximum magnetic field strength. One more expression for <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>avg</m:mtext></m:mrow></m:msub></m:mrow></m:math> in terms of both electric and magnetic field strengths is useful. Substituting the fact that <m:math><m:mrow><m:mi>c</m:mi><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> the previous expression becomes</para>
+<note id="fs-id1171242166069" class="equation-callout">
+<equation id="fs-id1171242374771"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171242354546">We can use whichever of the three preceding equations is most convenient, because the three equations are really just different versions of the same result: The energy in a wave is related to amplitude squared. Furthermore, because these equations are based on the assumption that the electromagnetic waves are sinusoidal, the peak intensity is twice the average intensity; that is, <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1171242455314">
+<para id="fs-id1171242431424"><title>A Laser Beam</title>
+The beam from a small laboratory laser typically has an intensity of about <m:math><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Assuming that the beam is composed of plane waves, calculate the amplitudes of the electric and magnetic fields in the beam.</para>
+<para id="fs-id1171242439140"><title>Strategy</title>
+Use the equation expressing intensity in terms of electric field to calculate the electric field from the intensity.</para>
+<para id="fs-id1171242348569"><title>Solution</title>
+From <link target-id="fs-id1171242360811"/>, the intensity of the laser beam is</para>
+<equation id="fs-id1171242506434" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242435205">The amplitude of the electric field is therefore</para>
+<equation id="fs-id1167582483527" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mi>I</m:mi></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F/m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>0.87</m:mn><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242568379">The amplitude of the magnetic field can be obtained from <link document="m58498" target-id="fs-id1171241429995"/>:</para>
+<equation id="fs-id1171242611644" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>2.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</example>
+<example id="fs-id1171239838901">
+<para id="fs-id1171242408743"><title>Light Bulb Fields</title>
+A light bulb emits 5.00 W of power as visible light. What are the average electric and magnetic fields from the light at a distance of 3.0 m?</para>
+<para id="fs-id1171242105224"><title>Strategy</title>
+Assume the bulb’s power output <emphasis effect="italics">P</emphasis> is distributed uniformly over a sphere of radius 3.0 m to calculate the intensity, and from it, the electric field.</para>
+<media id="fs-id1171242172415" alt="Figure shows a light bulb in the centre illuminating a circular area around it. This area has a radius of 3 m.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_33_03_Lightbulb_img.jpg"/>
+</media>
+<para id="fs-id1171240153273"><title>Solution</title>
+The power radiated as visible light is then</para>
+<equation id="fs-id1171239846457" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>P</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>2</m:mn><m:mfrac><m:mi>P</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mfrac><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>/N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>5.77</m:mn><m:mspace width="0.2em"/><m:mtext>N/C,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mtext>/</m:mtext><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>1.92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171242479138"><title>Significance</title>
+The intensity <emphasis effect="italics">I</emphasis> falls off as the distance squared if the radiation is dispersed uniformly in all directions.</para>
+</example>
+<example id="fs-id1171240283503">
+<para id="fs-id1171242228461"><title>Radio Range</title>
+A 60-kW radio transmitter on Earth sends its signal to a satellite 100 km away (<link target-id="CNX_UPhysics_33_03_SolidAngle"/>). At what distance in the same direction would the signal have the same maximum field strength if the transmitter’s output power were increased to 90 kW?</para>
+<figure id="CNX_UPhysics_33_03_SolidAngle">
+<media id="fs-id1171242359289" alt="A point is labeled radio source. A small square labeled A1 is in the path of the lines radiating from the radio source. The lines continue from the corners of A1 and reach A2, a slightly bigger square. A1 is at a distance r1 from the source and A2 is at a distance R2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_33_03_SolidAngle.jpg"/>
+</media>
+<caption>In three dimensions, a signal spreads over a solid angle as it travels outward from its source.</caption>
+</figure>
+<para id="fs-id1171242155523"><title>Strategy</title>
+The area over which the power in a particular direction is dispersed increases as distance squared, as illustrated in the figure. Change the power output <emphasis effect="italics">P</emphasis> by a factor of (90 kW/60 kW) and change the area by the same factor to keep <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>P</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> the same. Then use the proportion of area <emphasis effect="italics">A</emphasis> in the diagram to distance squared to find the distance that produces the calculated change in area.</para>
+<para id="fs-id1171242413699"><title>Solution</title>
+Using the proportionality of the areas to the squares of the distances, and solving, we obtain from the diagram</para>
+<equation id="fs-id1170901629480" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>90</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:mfrac><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>90</m:mn></m:mrow><m:mrow><m:mn>60</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>122</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171242340458"><title>Significance</title>
+The range of a radio signal is the maximum distance between the transmitter and receiver that allows for normal operation. In the absence of complications such as reflections from obstacles, the intensity follows an inverse square law, and doubling the range would require multiplying the power by four.</para>
+</example>
+<section id="fs-id1171242456256" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1171242517585" list-type="bulleted" bullet-style="bullet">
+<item>The energy carried by any wave is proportional to its amplitude squared. For electromagnetic waves, this means intensity can be expressed as</item>
+</list>
+<equation id="fs-id1171242432986" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1171242416248">where <emphasis effect="italics">I</emphasis> is the average intensity in <m:math><m:mrow><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> is the maximum electric field strength of a continuous sinusoidal wave. This can also be expressed in terms of the maximum magnetic field strength <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> as</para>
+<equation id="fs-id1171240332761" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:msubsup><m:mi>B</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1171242410795">and in terms of both electric and magnetic fields as</para>
+<equation id="fs-id1171242188234" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171240173894">The three expressions for <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>avg</m:mtext></m:mrow></m:msub></m:mrow></m:math> are all equivalent.</para>
+</section>
+<section id="fs-id1171240053962" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1171242355872">
+<problem id="fs-id1171242469779">
+<para id="fs-id1171242502683">When you stand outdoors in the sunlight, why can you feel the energy that the sunlight carries, but not the momentum it carries?</para>
+</problem>
+<solution id="fs-id1171242448224">
+<para id="fs-id1171242366683">The amount of energy (about <m:math><m:mrow><m:msup><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) is can quickly produce a considerable change in temperature, but the light pressure (about <m:math><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) is much too small to notice.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242169995">
+<problem id="fs-id1171242156968">
+<para id="fs-id1171242528032">How does the intensity of an electromagnetic wave depend on its electric field? How does it depend on its magnetic field?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242366776">
+<problem id="fs-id1171242557970">
+<para id="fs-id1171242557973">What is the physical significance of the Poynting vector?</para>
+</problem>
+<solution id="fs-id1171242522614">
+<para id="fs-id1171242522616">It has the magnitude of the energy flux and points in the direction of wave propagation. It gives the direction of energy flow and the amount of energy per area transported per second.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242367061">
+<problem id="fs-id1171239828028">
+<para id="fs-id1171242574803">A 2.0-mW helium-neon laser transmits a continuous beam of red light of cross-sectional area <m:math><m:mrow><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. If the beam does not diverge appreciably, how would its rms electric field vary with distance from the laser? Explain.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1171242092483" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1171240157941">
+<problem id="fs-id1171240157943">
+<para id="fs-id1171242428917">While outdoors on a sunny day, a student holds a large convex lens of radius 4.0 cm above a sheet of paper to produce a bright spot on the paper that is 1.0 cm in radius, rather than a sharp focus. By what factor is the electric field in the bright spot of light related to the electric field of sunlight leaving the side of the lens facing the paper?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242539584">
+<problem id="fs-id1171242539587">
+<para id="fs-id1171242344124">A plane electromagnetic wave travels northward. At one instant, its electric field has a magnitude of 6.0 V/m and points eastward. What are the magnitude and direction of the magnetic field at this instant?</para>
+</problem>
+<solution id="fs-id1171242344127">
+<para id="fs-id1171242137715">The magnetic field is downward, and it has magnitude <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242551529">
+<problem id="fs-id1171240174140">
+<para id="fs-id1171240174142">The electric field of an electromagnetic wave is given by <emphasis effect="italics">E</emphasis> =<newline/>
+<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math><newline/>
+Write the equations for the associated magnetic field and Poynting vector.</para></problem>
+</exercise>
+<exercise id="fs-id1171242431518">
+<problem id="fs-id1171242431520">
+<para id="fs-id1171242431522">A radio station broadcasts at a frequency of 760 kHz. At a receiver some distance from the antenna, the maximum magnetic field of the electromagnetic wave detected is <m:math><m:mrow><m:mn>2.15</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math>.<newline/>
+(a) What is the maximum electric field? (b) What is the wavelength of the electromagnetic wave?</para>
+</problem>
+<solution id="fs-id1171242114360">
+<para id="fs-id1171242114362">a. <m:math><m:mrow><m:mn>6.45</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V/m;</m:mtext></m:mrow></m:math> b. 394 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242164209">
+<problem id="fs-id1171242164211">
+<para id="fs-id1171242525673">The filament in a clear incandescent light bulb radiates visible light at a power of 5.00 W. Model the glass part of the bulb as a sphere of radius <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> and calculate the amount of electromagnetic energy from visible light inside the bulb.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242361457">
+<problem id="fs-id1171239825179">
+<para id="fs-id1171239825181">At what distance does a 100-W lightbulb produce the same intensity of light as a 75-W lightbulb produces 10 m away? (Assume both have the same efficiency for converting electrical energy in the circuit into emitted electromagnetic energy.)</para>
+</problem>
+<solution id="fs-id1171242528002">
+<para id="fs-id1171242528004">11.5 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242532548">
+<problem id="fs-id1171242532550">
+<para id="fs-id1171242576251">An incandescent light bulb emits only 2.6 W of its power as visible light. What is the rms electric field of the emitted light at a distance of 3.0 m from the bulb?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242411876">
+<problem id="fs-id1171242411878">
+<para id="fs-id1171242347677">A 150-W lightbulb emits 5% of its energy as electromagnetic radiation. What is the magnitude of the average Poynting vector 10 m from the bulb?</para>
+</problem>
+<solution id="fs-id1171242375717">
+<para id="fs-id1171242375719"><m:math><m:mrow><m:mn>5.97</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242466690">
+<problem id="fs-id1171242466692">
+<para id="fs-id1171242483096">A small helium-neon laser has a power output of 2.5 mW. What is the electromagnetic energy in a 1.0-m length of the beam?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242092064">
+<problem id="fs-id1171242502572">
+<para id="fs-id1171242502574">At the top of Earth’s atmosphere, the time-averaged Poynting vector associated with sunlight has a magnitude of about <m:math><m:mrow><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kW/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math><newline/>
+(a) What are the maximum values of the electric and magnetic fields for a wave of this intensity? (b) What is the total power radiated by the sun? Assume that the Earth is <m:math><m:mrow><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> from the Sun and that sunlight is composed of electromagnetic plane waves.</para>
+</problem>
+<solution id="fs-id1171242346093">
+<para id="fs-id1171242346095"><m:math><m:mrow><m:mtext>a.</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>1027</m:mn><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo>,</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>3.42</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>b.</m:mtext><m:mspace width="0.2em"/><m:mn>3.96</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>26</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242448084">
+<problem id="fs-id1171242448086">
+<para id="fs-id1171242443597">The magnetic field of a plane electromagnetic wave moving along the <emphasis effect="italics">z</emphasis> axis is given by <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>k</m:mi><m:mi>z</m:mi><m:mo>+</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, where <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>3.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math><newline/>
+(a) Write an expression for the electric field associated with the wave. (b) What are the frequency and the wavelength of the wave? (c) What is its average Poynting vector?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242352995">
+<problem id="fs-id1171240241267">
+<para id="fs-id1171240241269">What is the intensity of an electromagnetic wave with a peak electric field strength of 125 V/m?</para>
+</problem>
+<solution id="fs-id1171240241273">
+<para id="fs-id1171242438862"><m:math><m:mrow><m:mn>20.8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171240245064">
+<problem id="fs-id1171240245067">
+<para id="fs-id1171240245069">Assume the helium-neon lasers commonly used in student physics laboratories have power outputs of 0.500 mW. (a) If such a laser beam is projected onto a circular spot 1.00 mm in diameter, what is its intensity? (b) Find the peak magnetic field strength. (c) Find the peak electric field strength.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171240174365">
+<problem id="fs-id1171240174367">
+<para id="fs-id1171240174370">An AM radio transmitter broadcasts 50.0 kW of power uniformly in all directions. (a) Assuming all of the radio waves that strike the ground are completely absorbed, and that there is no absorption by the atmosphere or other objects, what is the intensity 30.0 km away? (<emphasis effect="italics">Hint:</emphasis> Half the power will be spread over the area of a hemisphere.) (b) What is the maximum electric field strength at this distance?</para>
+</problem>
+<solution id="fs-id1171240157845">
+<para id="fs-id1171240056679">a. <m:math><m:mrow><m:mn>4.42</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>‒6</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>5.77</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>‒2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242430038">
+<problem id="fs-id1171242430040">
+<para id="fs-id1171240035278">Suppose the maximum safe intensity of microwaves for human exposure is taken to be <m:math><m:mrow><m:mn>1.00</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. (a) If a radar unit leaks 10.0 W of microwaves (other than those sent by its antenna) uniformly in all directions, how far away must you be to be exposed to an intensity considered to be safe? Assume that the power spreads uniformly over the area of a sphere with no complications from absorption or reflection. (b) What is the maximum electric field strength at the safe intensity? (Note that early radar units leaked more than modern ones do. This caused identifiable health problems, such as cataracts, for people who worked near them.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242357814">
+<problem id="fs-id1171242357816">
+<para id="fs-id1171242357818">A 2.50-m-diameter university communications satellite dish receives TV signals that have a maximum electric field strength (for one channel) of <m:math><m:mrow><m:mn>7.50</m:mn><m:mspace width="0.2em"/><m:mtext>μV/m</m:mtext></m:mrow></m:math> (see below). (a) What is the intensity of this wave? (b) What is the power received by the antenna? (c) If the orbiting satellite broadcasts uniformly over an area of <m:math><m:mrow><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> (a large fraction of North America), how much power does it radiate?</para>
+<media id="fs-id1171242485223" alt="Figure shows waves incident on a dish antenna.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_33_03_Dish_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171240219486">
+<para id="fs-id1171240219488">a. <m:math><m:mrow><m:mn>7.47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>3.66</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; c. 1.12 W</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242407498">
+<problem id="fs-id1171242407500">
+<para id="fs-id1171242407502">Lasers can be constructed that produce an extremely high intensity electromagnetic wave for a brief time—called pulsed lasers. They are used to initiate nuclear fusion, for example. Such a laser may produce an electromagnetic wave with a maximum electric field strength of <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:math> for a time of 1.00 ns. (a) What is the maximum magnetic field strength in the wave? (b) What is the intensity of the beam? (c) What energy does it deliver on an <m:math><m:mrow><m:mn>1.00</m:mn><m:msup><m:mrow><m:mtext>-mm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> area?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171240142790">
+<term>Poynting vector</term>
+<meaning id="fs-id1171242454673">vector equal to the cross product of the electric-and magnetic fields, that describes the flow of electromagnetic energy through a surface</meaning>
+</definition>
+</glossary>
+</document>

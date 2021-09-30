@@ -4,8 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58366</md:content-id>
   <md:title>Forced Oscillations</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para>
-<list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
 <item>Define forced oscillations</item>
 <item>List the equations of motion associated with forced oscillations</item>
 <item>Explain the concept of resonance and its impact on the amplitude of an oscillator</item>
@@ -15,12 +15,12 @@
 </metadata>
 
 <content>
-<para id="fs-id1167134821372">Sit in front of a piano sometime and sing a loud brief note at it with the dampers off its strings (<link target-id="CNX_UPhysics_15_06_PianoStr"/>). It will sing the same note back at you—the strings, having the same frequencies as your voice, are resonating in response to the forces from the sound waves that you sent to them. This is a good example of the fact that objects—in this case, piano strings—can be forced to oscillate, and oscillate most easily at their natural frequency. In this section, we briefly explore applying a <term class="no-emphasis" id="term-00001">periodic driving force</term> acting on a simple harmonic oscillator. The driving force puts energy into the system at a certain frequency, not necessarily the same as the natural frequency of the system. Recall that the natural frequency is the frequency at which a system would oscillate if there were no driving and no damping force.</para>
+<para id="fs-id1167134821372">Sit in front of a piano sometime and sing a loud brief note at it with the dampers off its strings (<link target-id="CNX_UPhysics_15_06_PianoStr"/>). It will sing the same note back at you—the strings, having the same frequencies as your voice, are resonating in response to the forces from the sound waves that you sent to them. This is a good example of the fact that objects—in this case, piano strings—can be forced to oscillate, and oscillate most easily at their natural frequency. In this section, we briefly explore applying a <term class="no-emphasis">periodic driving force</term> acting on a simple harmonic oscillator. The driving force puts energy into the system at a certain frequency, not necessarily the same as the natural frequency of the system. Recall that the natural frequency is the frequency at which a system would oscillate if there were no driving and no damping force.</para>
 <figure id="CNX_UPhysics_15_06_PianoStr"><media id="fs-id1167131204890" alt="A close up photo of the strings in a piano">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_06_PianoStr.jpg"/>
 </media>
 
-<caption>You can cause the strings in a piano to vibrate simply by producing sound waves from your voice. (credit: Matt Billings)</caption></figure><para id="fs-id1167131190697">Most of us have played with toys involving an object supported on an elastic band, something like the paddle ball suspended from a finger in <link target-id="CNX_UPhysics_15_07_PaddleBall"/>. Imagine the finger in the figure is your finger. At first, you hold your finger steady, and the ball bounces up and down with a small amount of damping. If you move your finger up and down slowly, the ball follows along without bouncing much on its own. As you increase the frequency at which you move your finger up and down, the ball responds by oscillating with increasing amplitude. When you drive the ball at its natural frequency, the ball’s oscillations increase in amplitude with each oscillation for as long as you drive it. The phenomenon of driving a system with a frequency equal to its natural frequency is called <term id="term-00002">resonance</term>. A system being driven at its natural frequency is said to <emphasis effect="italics">resonate</emphasis>. As the driving frequency gets progressively higher than the resonant or natural frequency, the amplitude of the oscillations becomes smaller until the oscillations nearly disappear, and your finger simply moves up and down with little effect on the ball.</para>
+<caption>You can cause the strings in a piano to vibrate simply by producing sound waves from your voice. (credit: Matt Billings)</caption></figure><para id="fs-id1167131190697">Most of us have played with toys involving an object supported on an elastic band, something like the paddle ball suspended from a finger in <link target-id="CNX_UPhysics_15_07_PaddleBall"/>. Imagine the finger in the figure is your finger. At first, you hold your finger steady, and the ball bounces up and down with a small amount of damping. If you move your finger up and down slowly, the ball follows along without bouncing much on its own. As you increase the frequency at which you move your finger up and down, the ball responds by oscillating with increasing amplitude. When you drive the ball at its natural frequency, the ball’s oscillations increase in amplitude with each oscillation for as long as you drive it. The phenomenon of driving a system with a frequency equal to its natural frequency is called <term>resonance</term>. A system being driven at its natural frequency is said to <emphasis effect="italics">resonate</emphasis>. As the driving frequency gets progressively higher than the resonant or natural frequency, the amplitude of the oscillations becomes smaller until the oscillations nearly disappear, and your finger simply moves up and down with little effect on the ball.</para>
 <figure id="CNX_UPhysics_15_07_PaddleBall">
 <media id="fs-id1167131182754" alt="The figure shows three pictures of a horizontal viewed a string suspended from a finger, with a ball tied to its lower end. In the first figure, the finger moves up and down with low frequency f, and the ball moves up and down some distance away from its equilibrium height, the displacement shown in the figures as faded shades of the ball and the equilibrium position as a darker image. In the second figure the finger moves up and down with frequency f sub zero and the movement of the ball is much larger than in the first. In the third figure the finger moves up and down with a high frequency f, and the movement of the ball is smaller than in the first figure. In all the three figures the total distance from the lowest to highest position of the ball is indicated as 2 A.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_07_PaddleBall.jpg"/>
@@ -59,4 +59,338 @@
 </media>
 <caption>The quality of a system is defined as the spread in the frequencies at half the amplitude divided by the natural frequency.</caption>
 </figure>
-<para id="fs-id1167131150474">These features of driven harmonic oscillators apply to a huge variety of systems. For instance, magnetic resonance imaging (MRI) is a widely used medical diagnostic tool in which atomic nuclei (mostly hydrogen nuclei or protons) are made to reso
+<para id="fs-id1167131150474">These features of driven harmonic oscillators apply to a huge variety of systems. For instance, magnetic resonance imaging (MRI) is a widely used medical diagnostic tool in which atomic nuclei (mostly hydrogen nuclei or protons) are made to resonate by incoming radio waves (on the order of 100 MHz). In all of these cases, the efficiency of energy transfer from the driving force into the oscillator is best at resonance. <link target-id="CNX_UPhysics_15_07_TacomaNarr"/> shows the London Millennium Footbridge that allows pedestrians to cross the River Thames in London. This bridge was nicknamed “Wobbly Bridge” when pedestrians experienced swaying motion while crossing it. The bridge was closed for roughly two years to get rid of this motion.</para><figure id="CNX_UPhysics_15_07_TacomaNarr"><media id="fs-id1167131360872" alt="An image shows the London Millennium Footbridge.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_07_TacomaNarr.jpg"/>
+</media>
+
+<caption>Initially when people crossed the London Millennium Footbridge, they experienced a swaying motion. People continuing to cross reinforced the oscillation’s amplitude, thereby increasing the problematic swaying. (credit: Adrian Pingstone/Wikimedia Commons)</caption></figure><note id="fs-id1167131149112" class="check-understanding">
+<exercise id="fs-id1167129967545">
+<problem id="fs-id1167130264731">
+<para id="fs-id1167131451901"> A famous magic trick involves a performer singing a note toward a crystal glass until the glass shatters. Explain why the trick works in terms of resonance and natural frequency.</para>
+</problem>
+<solution id="fs-id1167131436929">
+<para id="fs-id1167131444820">The performer must be singing a note that corresponds to the natural frequency of the glass. As the sound wave is directed at the glass, the glass responds by resonating at the same frequency as the sound wave. With enough energy introduced into the system, the glass begins to vibrate and eventually shatters.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131606284" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167131430391" list-type="bulleted" bullet-style="bullet">
+<item>A system’s natural frequency is the frequency at which the system oscillates if not affected by driving or damping forces.</item>
+<item>A periodic force driving a harmonic oscillator at its natural frequency produces resonance. The system is said to resonate.</item>
+<item>The less damping a system has, the higher the amplitude of the forced oscillations near resonance. The more damping a system has, the broader response it has to varying driving frequencies.</item>
+</list>
+</section>
+<section id="fs-id1167131448950" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1170902871265" class="unnumbered unstyled" summary="This table gives the following formulae: Relationship between frequency and period, f equal to 1 by T; Position in SHM with phi equal to 0.00, xt equal to A cos open parentheses omega t close parentheses; General position in SHM, xt equal to A cos open parentheses omega t plus phi close parentheses; General velocity in SHM, vt equal to minus A omega sine open parentheses omega t plus phi close parentheses; General acceleration in SHM, a t equal to minus A omega squared cos open parentheses omega t plus phi close parentheses; Maximum displacement (amplitude) of SHM, x subscript max equal to A; Maximum velocity of SHM, mod v subscript max equal to A omega; Maximum acceleration of SHM, mod a subscript max equal to A omega squared; Angular frequency of a mass-spring system in SHM, omega equal to root of k by m end of root; Period of a mass-spring system in SHM, T equal to 2 pi root of m by k end of root; Frequency of a mass-spring system in SHM, f equal to 1 by 2 pi root of m by k end of root; Energy in a mass-spring system in SHM, E subscript total equal to half kx squared plus half mv squared equal to half kA squared; The velocity of the mass in a spring-mass system in SHM, v equal to plus or minus root of k by m into open parentheses A squared minus x squared close parentheses end of root; The x-component of the radius of a rotating disk, x t equal to A cos open parentheses omga t plus phi close parentheses; The x-component of the velocity of the edge of a rotating disk, v t equal to minus v subscript max sine open parentheses omega t plus phi close parentheses; The x-component of the acceleration of the edge of a rotating disk, a t equal to minus a subscript max cos open parentheses omega t plus phi close parentheses; Force equation for a simple pendulum, d squared theta by dt squared equal to minus g theta by L; Angular frequency for a simple pendulum, omega equal to root of g by L end of root; Period of a simple pendulum, T equal to 2 pi root of L by g end of root; Angular frequency of a physical pendulum, omega equal to root of mgL by I end of root; Period of a physical pendulum, T equal to 2 pi root of I upon mgL end of root; Period of a torsional pendulum, T equal to 2 pi root of I by kappa end of root; Newton’s second law for harmonic motion, m d squared x by dt squared plus b dx by dt plus kx equal to zero; Solution for underdamped harmonic motion, x t equal to A subscript 0 e to the power open parentheses minus bt by 2m close parentheses into cos open parentheses omega t plus phi close parentheses; Natural angular frequency of a mass-spring system, omega 0 equal to root of k by m end of root; Angular frequency of underdamped harmonic motion, omega equal to root of open parentheses omega zero squared minus open parentheses b by 2m close parentheses squared close parentheses; Newton’s second law for forced, damped oscillation, minus kx minus b dx by dt plus F subscript 0 sine omega t equal to m d squared x by dt squared; Solution to Newton’s second law for forced, damped oscillations, x t equal to A cos open parentheses omega t plus phi close parentheses; Amplitude of system undergoing forced, damped oscillations A equal to F0 upon under root m open parentheses omega squared minus omega 0 squared close parentheses whole squared plus b squared omega squared end of root."><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Relationship between frequency and period</entry>
+<entry align="left"><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>T</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left"><m:math><m:mrow><m:mtext>Position in SHM with</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mn>0.00</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">General position in SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">General velocity in SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>A</m:mi><m:mi>ω</m:mi><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">General acceleration in SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>A</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Maximum displacement (amplitude) of SHM</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>A</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Maximum velocity of SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>ω</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Maximum acceleration of SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Angular frequency of a mass-spring system in SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Period of a mass-spring system in SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>k</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Frequency of a mass-spring system in SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Energy in a mass-spring system in SHM</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:msup><m:mi>A</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">The velocity of the mass in a spring-mass<newline/>system in SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>A</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">The <emphasis effect="italics">x</emphasis>-component of the radius of a rotating disk</entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">The <emphasis effect="italics">x</emphasis>-component of the velocity of the edge of a rotating disk</entry>
+<entry align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">The <emphasis effect="italics">x</emphasis>-component of the acceleration of the<newline/>edge of a rotating disk</entry>
+<entry align="left"><m:math><m:mrow><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Force equation for a simple pendulum</entry>
+<entry align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>g</m:mi><m:mi>L</m:mi></m:mfrac><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Angular frequency for a simple pendulum</entry>
+<entry align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>g</m:mi><m:mi>L</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Period of a simple pendulum</entry>
+<entry align="left"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Angular frequency of a physical pendulum</entry>
+<entry align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow><m:mi>I</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Period of a physical pendulum</entry>
+<entry align="left"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Period of a torsional pendulum</entry>
+<entry align="left"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mi>κ</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Newton’s second law for harmonic motion</entry>
+<entry align="left"><m:math><m:mrow><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>b</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Solution for underdamped harmonic motion</entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mi>t</m:mi></m:mrow></m:msup><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Natural angular frequency of a<newline/>mass-spring system</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Angular frequency of underdamped<newline/>harmonic motion</entry>
+<entry align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Newton’s second law for forced,<newline/>damped oscillation</entry>
+<entry align="left"><m:math><m:mrow><m:mtext>−</m:mtext><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:msub><m:mi>F</m:mi><m:mi>o</m:mi></m:msub><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Solution to Newton’s second law for forced,<newline/>damped oscillations</entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Amplitude of system undergoing forced,<newline/>damped oscillations</entry>
+<entry align="left"><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mi>o</m:mi></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msubsup><m:mi>ω</m:mi><m:mi>o</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+<section id="fs-id1167130140737" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167131477718">
+<problem id="fs-id1167131236971">
+<para id="fs-id1167134790961">Why are soldiers in general ordered to “route step” (walk out of step) across a bridge?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134716949">
+<problem id="fs-id1167129994753">
+<para id="fs-id1167134929480">Do you think there is any harmonic motion in the physical world that is not damped harmonic motion? Try to make a list of five examples of undamped harmonic motion and damped harmonic motion. Which list was easier to make?</para>
+</problem>
+<solution id="fs-id1167134870890">
+<para id="fs-id1167130035194">All harmonic motion is damped harmonic motion, but the damping may be negligible. This is due to friction and drag forces. It is easy to come up with five examples of damped motion: (1) A mass oscillating on a hanging on a spring (it eventually comes to rest). (2) Shock absorbers in a car (thankfully they also come to rest). (3) A pendulum is a grandfather clock (weights are added to add energy to the oscillations). (4) A child on a swing (eventually comes to rest unless energy is added by pushing the child). (5) A marble rolling in a bowl (eventually comes to rest). As for the undamped motion, even a mass on a spring in a vacuum will eventually come to rest due to internal forces in the spring. Damping may be negligible, but cannot be eliminated.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131483624">
+<problem id="fs-id1167129966482">
+<para id="fs-id1167131266737">Some engineers use sound to diagnose performance problems with car engines. Occasionally, a part of the engine is designed that resonates at the frequency of the engine. The unwanted oscillations can cause noise that irritates the driver or could lead to the part failing prematurely. In one case, a part was located that had a length <emphasis effect="italics">L</emphasis> made of a material with a mass <emphasis effect="italics">M</emphasis>. What can be done to correct this problem?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167131552073" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167131262688">
+<problem id="fs-id1167134723517">
+<para id="fs-id1167131262972">How much energy must the shock absorbers of a 1200-kg car dissipate in order to damp a bounce that initially has a velocity of 0.800 m/s at the equilibrium position? Assume the car returns to its original vertical position.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167130203838">
+<problem id="fs-id1167134958410">
+<para id="fs-id1167129970058">If a car has a suspension system with a force constant of <m:math><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow></m:math>, how much energy must the car’s shocks remove to dampen an oscillation starting with a maximum displacement of 0.0750 m?</para>
+</problem>
+<solution id="fs-id1167131550352">
+<para id="fs-id1167131524754">141 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131471659">
+<problem id="fs-id1167131547567">
+<para id="fs-id1167130051867">(a) How much will a spring that has a force constant of 40.0 N/m be stretched by an object with a mass of 0.500 kg when hung motionless from the spring? (b) Calculate the decrease in gravitational potential energy of the 0.500-kg object when it descends this distance. (c) Part of this gravitational energy goes into the spring. Calculate the energy stored in the spring by this stretch, and compare it with the gravitational potential energy. Explain where the rest of the energy might go.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131096562">
+<problem id="fs-id1167131401283">
+<para id="fs-id1167131388068">Suppose you have a 0.750-kg object on a horizontal surface connected to a spring that has a force constant of 150 N/m. There is simple friction between the object and surface with a static coefficient of friction <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0.100</m:mn></m:mrow></m:math>. (a) How far can the spring be stretched without moving the mass? (b) If the object is set into oscillation with an amplitude twice the distance found in part (a), and the kinetic coefficient of friction is <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0.0850</m:mn></m:mrow></m:math>, what total distance does it travel before stopping? Assume it starts at the maximum amplitude.</para>
+</problem>
+<solution id="fs-id1167131426181">
+<para id="fs-id1167131556362">a. <m:math><m:mrow><m:mn>4.90</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>1.15</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131615614" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1167134831739">
+<problem id="fs-id1167134889056">
+<para id="fs-id1167129962581">Suppose you attach an object with mass <emphasis effect="italics">m</emphasis> to a vertical spring originally at rest, and let it bounce up and down. You release the object from rest at the spring’s original rest length, the length of the spring in equilibrium, without the mass attached. The amplitude of the motion is the distance between the equilibrium position of the spring without the mass attached and the equilibrium position of the spring with the mass attached. (a) Show that the spring exerts an upward force of 2.00<emphasis effect="italics">mg</emphasis> on the object at its lowest point. (b) If the spring has a force constant of 10.0 N/m, is hung horizontally, and the position of the free end of the spring is marked as <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0.0</m:mn><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, where is the new equilibrium position if a 0.25-kg-mass object is hung from the spring? (c) If the spring has a force constant of 10.0 N/m and a 0.25-kg-mass object is set in motion as described, find the amplitude of the oscillations. (d) Find the maximum velocity.</para></problem>
+</exercise>
+<exercise id="fs-id1167131414095">
+<problem id="fs-id1167131456481">
+<para id="fs-id1167134990591">A diver on a diving board is undergoing SHM. Her mass is 55.0 kg and the period of her motion is 0.800 s. The next diver is a male whose period of simple harmonic oscillation is 1.05 s. What is his mass if the mass of the board is negligible?</para>
+</problem>
+<solution id="fs-id1167131407689">
+<para id="fs-id1167131360268">94.7 kg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131182847">
+<problem id="fs-id1167131138184">
+<para id="fs-id1167134888545">Suppose a diving board with no one on it bounces up and down in a SHM with a frequency of 4.00 Hz. The board has an effective mass of 10.0 kg. What is the frequency of the SHM of a 75.0-kg diver on the board?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131621754">
+<problem id="fs-id1167131633716">
+<para id="fs-id1167134723709">The device pictured in the following figure entertains infants while keeping them from wandering. The child bounces in a harness suspended from a door frame by a spring. (a) If the spring stretches 0.250 m while supporting an 8.0-kg child, what is its force constant? (b) What is the time for one complete bounce of this child? (c) What is the child’s maximum velocity if the amplitude of her bounce is 0.200 m?</para>
+<figure id="CNX_UPhysics_15_02_JollyJump">
+<media id="fs-id1167131182615" alt="A photo of a baby in a hanging bouncer.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_02_JollyJump.jpg"/>
+</media>
+<caption>(credit: Lisa Doehnert)</caption>
+</figure>
+</problem>
+<solution id="fs-id1167134724774">
+<para id="fs-id1167131531197">a. 314 N/m; b. 1.00 s; c. 1.25 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131549180">
+<problem id="fs-id1167131263521">
+<para id="fs-id1167131609076">A mass is placed on a frictionless, horizontal table. A spring <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, which can be stretched or compressed, is placed on the table. A 5.00-kg mass is attached to one end of the spring, the other end is anchored to the wall. The equilibrium position is marked at zero. A student moves the mass out to <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4.00</m:mn><m:mtext>cm</m:mtext></m:mrow></m:math> and releases it from rest. The mass oscillates in SHM. (a) Determine the equations of motion. (b) Find the position, velocity, and acceleration of the mass at time <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para></problem>
+</exercise>
+<exercise id="fs-id1167131151532">
+<problem id="fs-id1167131313379">
+<para id="fs-id1167134576125">Find the ratio of the new/old periods of a pendulum if the pendulum were transported from Earth to the Moon, where the acceleration due to gravity is <m:math><m:mrow><m:mn>1.63</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mtext>2</m:mtext></m:msup></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167134858445">
+<para id="fs-id1167129995466">ratio of 2.45</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131482411">
+<problem id="fs-id1167134671736">
+<para id="fs-id1167130145635">At what rate will a pendulum clock run on the Moon, where the acceleration due to gravity is <m:math><m:mrow><m:mn>1.63</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mtext>2</m:mtext></m:msup></m:mrow></m:math>, if it keeps time accurately on Earth? That is, find the time (in hours) it takes the clock’s hour hand to make one revolution on the Moon.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131554892">
+<problem id="fs-id1167131515416">
+<para id="fs-id1167134672596">If a pendulum-driven clock gains 5.00 s/day, what fractional change in pendulum length must be made for it to keep perfect time?</para>
+</problem>
+<solution id="fs-id1167131496710">
+<para id="fs-id1167131516259">The length must increase by 0.0116%.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134958577">
+<problem id="fs-id1167131114440">
+<para id="fs-id1167131617315">A 2.00-kg object hangs, at rest, on a 1.00-m-long string attached to the ceiling. A 100-g mass is fired with a speed of 20 m/s at the 2.00-kg mass, and the 100.00-g mass collides perfectly elastically with the 2.00-kg mass. Write an equation for the motion of the hanging mass after the collision. Assume air resistance is negligible.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131621011">
+<problem id="fs-id1167131090312">
+<para id="fs-id1167131511804">A 2.00-kg object hangs, at rest, on a 1.00-m-long string attached to the ceiling. A 100-g object is fired with a speed of 20 m/s at the 2.00-kg object, and the two objects collide and stick together in a totally inelastic collision. Write an equation for the motion of the system after the collision. Assume air resistance is negligible.</para>
+</problem>
+<solution id="fs-id1167134951444">
+<para id="fs-id1167131537511"><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.31</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.13</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131248680">
+<problem id="fs-id1167131512341">
+<para id="fs-id1167131387612">Assume that a pendulum used to drive a grandfather clock has a length <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> and a mass <emphasis effect="italics">M</emphasis> at temperature <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20.00</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> It can be modeled as a physical pendulum as a rod oscillating around one end. By what percentage will the period change if the temperature increases by <m:math><m:mrow><m:mn>10</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>?</m:mo></m:mrow></m:math> Assume the length of the rod changes linearly with temperature, where <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the rod is made of brass <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>°</m:mtext><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131473203">
+<problem id="fs-id1167131173143">
+<para id="fs-id1167131497464">A 2.00-kg block lies at rest on a frictionless table. A spring, with a spring constant of 100 N/m is attached to the wall and to the block. A second block of 0.50 kg is placed on top of the first block. The 2.00-kg block is gently pulled to a position <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>A</m:mi></m:mrow></m:math> and released from rest. There is a coefficient of friction of 0.45 between the two blocks. (a) What is the period of the oscillations? (b) What is the largest amplitude of motion that will allow the blocks to oscillate without the 0.50-kg block sliding off?</para>
+</problem>
+<solution id="fs-id1167131627144">
+<para id="fs-id1167131492529">a. 0.99 s; b. 0.11 m</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131394997" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1167131129740">
+<problem id="fs-id1167131142234">
+<para id="fs-id1167131605843">A suspension bridge oscillates with an effective force constant of <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow></m:math>. (a) How much energy is needed to make it oscillate with an amplitude of 0.100 m? (b) If soldiers march across the bridge with a cadence equal to the bridge’s natural frequency and impart <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> of energy each second, how long does it take for the bridge’s oscillations to go from 0.100 m to 0.500 m amplitude.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167130004589">
+<problem id="fs-id1167130228135">
+<para id="fs-id1167131237006">Near the top of the Citigroup Center building in New York City, there is an object with mass of <m:math><m:mrow><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> on springs that have adjustable force constants. Its function is to dampen wind-driven oscillations of the building by oscillating at the same frequency as the building is being driven—the driving force is transferred to the object, which oscillates instead of the entire building. (a) What effective force constant should the springs have to make the object oscillate with a period of 2.00 s? (b) What energy is stored in the springs for a 2.00-m displacement from equilibrium?</para>
+</problem>
+<solution id="fs-id1167131363225">
+<para id="fs-id1167131497541">a. <m:math><m:mrow><m:mn>3.95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>7.90</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131360805">
+<problem id="fs-id1167131343177">
+<para id="fs-id1167134578430">Parcels of air (small volumes of air) in a stable atmosphere (where the temperature increases with height) can oscillate up and down, due to the restoring force provided by the buoyancy of the air parcel. The frequency of the oscillations are a measure of the stability of the atmosphere. Assuming that the acceleration of an air parcel can be modeled as <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mo>′</m:mo></m:msup></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>g</m:mi><m:mrow><m:msub><m:mi>ρ</m:mi><m:mi>o</m:mi></m:msub></m:mrow></m:mfrac><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>ρ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>z</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>z</m:mi></m:mrow></m:mfrac><m:msup><m:mi>z</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>, prove that <m:math><m:mrow><m:msup><m:mi>z</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:msub><m:mi>z</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mo>′</m:mo></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mi>t</m:mi><m:msqrt><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:msup></m:mrow></m:math> is a solution, where <emphasis effect="italics">N</emphasis> is known as the Brunt-Väisälä frequency. Note that in a stable atmosphere, the density decreases with height and parcel oscillates up and down.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134881674">
+<problem id="fs-id1167134722587">
+<para id="fs-id1167134488043">Consider the van der Waals potential <m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>r</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>U</m:mi><m:mi>o</m:mi></m:msub><m:mrow><m:mo>[</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mi>o</m:mi></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mi>o</m:mi></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math>, used to model the potential energy function of two molecules, where the minimum potential is at <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mi>o</m:mi></m:msub></m:mrow></m:math>. Find the force as a function of <emphasis effect="italics">r</emphasis>. Consider a small displacement <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mi>o</m:mi></m:msub><m:mo>+</m:mo><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math> and use the binomial theorem:</para>
+<para id="fs-id1167129992133"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>n</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mo>⋯</m:mo></m:mrow></m:math>,</para>
+<para id="fs-id1167134928515">to show that the force does approximate a Hooke’s law force.</para>
+</problem>
+<solution id="fs-id1167131452068">
+<para id="fs-id1167134885908"><m:math><m:mrow><m:mi>F</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mtext>constant</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131435260">
+<problem id="fs-id1167129994169">
+<para id="fs-id1167134722908">Suppose the length of a clock’s pendulum is changed by 1.000%, exactly at noon one day. What time will the clock read 24.00 hours later, assuming it the pendulum has kept perfect time before the change? Note that there are two answers, and perform the calculation to four-digit precision.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131482475">
+<problem id="fs-id1167131554264">
+<para id="fs-id1167134896880">(a) The springs of a pickup truck act like a single spring with a force constant of <m:math><m:mrow><m:mn>1.30</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow></m:math>. By how much will the truck be depressed by its maximum load of 1000 kg? (b) If the pickup truck has four identical springs, what is the force constant of each?</para>
+</problem>
+<solution id="fs-id1167134531839">
+<para id="fs-id1167131413088">a. 7.54 cm; b. <m:math><m:mrow><m:mn>3.25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131294649">
+<term>resonance</term>
+<meaning id="fs-id1167131084781">large amplitude oscillations in a system produced by a small amplitude driving force, which has a frequency equal to the natural frequency</meaning>
+</definition>
+</glossary>
+</document>

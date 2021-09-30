@@ -1,0 +1,387 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Precession of a Gyroscope</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58338</md:content-id>
+  <md:title>Precession of a Gyroscope</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para><list>
+<item>Describe the physical processes underlying the phenomenon of precession</item>
+<item>Calculate the precessional angular velocity of a gyroscope</item>
+</list></md:abstract>
+  <md:uuid>28670712-d1d4-48ef-9b16-b2bfa27d4a5a</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165036830130"><link target-id="CNX_UPhysics_11_04_Gyroscope"/> shows a <term class="no-emphasis">gyroscope</term>, defined as a spinning disk in which the axis of rotation is free to assume any orientation. When spinning, the orientation of the spin axis is unaffected by the orientation of the body that encloses it. The body or vehicle enclosing the gyroscope can be moved from place to place and the orientation of the spin axis will remain the same. This makes gyroscopes very useful in navigation, especially where magnetic compasses can’t be used, such as in piloted and unpiloted spacecrafts, intercontinental ballistic missiles, unmanned aerial vehicles, and satellites like the Hubble Space Telescope.</para><figure id="CNX_UPhysics_11_04_Gyroscope">
+<media id="fs-id1165036900957" alt="A drawing of a gyroscope, consisting of a disk that can spin on an shaft, perpendicular to the plane of the disk and through its center. Two rings surround the gyroscope. One is attached to the shaft above and below the disk, and the other is attached to the first ring and is in the plane of the disk so that this second ring is concentric with the disk.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_04_Gyroscope.jpg"/>
+</media>
+<caption>A gyroscope consists of a spinning disk about an axis that is free to assume any orientation.</caption>
+</figure>
+<para id="fs-id1165038331707">We illustrate the <term>precession</term> of a gyroscope with an example of a top in the next two figures. If the top is placed on a flat surface near the surface of Earth at an angle to the vertical and is not spinning, it will fall over, due to the force of gravity producing a torque acting on its center of mass. This is shown in <link target-id="CNX_UPhysics_11_04_Top"/>(a). However, if the top is spinning on its axis, rather than topple over due to this torque, it precesses about the vertical, shown in part (b) of the figure. This is due to the torque on the center of mass, which provides the change in angular momentum.</para>
+<figure id="CNX_UPhysics_11_04_Top">
+<media id="fs-id1165038058020" alt="Figure a: An x y z coordinate system is show, with x out of the page, y to the right, and z up. The origin is point O. A top is shown with its point at the origin and its axis tilted away from the vertical z axis. The axis of the top is the line O O prime. The vector r extends from the origin to the center of the mass, labeled as C M, of the top. The force M g acts downward at the center of mass. The torque about the origin is equal to vector r crossed with M vector g. This torque is a vector in the x y plane, perpendicular to the r vector. Figure b: The x y z coordinate and the top are shown. The top is again tilted away from the z axis and is spinning rapidly counterclockwise about the O O prime axis as viewed from above. The precession of the top traces a counterclockwise circle as viewed from above, centered on the z axis. The cone swept by the precession of the top is indicated using dashed lines.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_04_Top.jpg"/>
+</media>
+<caption>(a) If the top is not spinning, there is a torque <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>M</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> about the origin, and the top falls over. (b) If the top is spinning about its axis <m:math><m:mrow><m:mi>O</m:mi><m:msup><m:mi>O</m:mi><m:mo>′</m:mo></m:msup><m:mo>,</m:mo></m:mrow></m:math> it doesn’t fall over but precesses about the <emphasis effect="italics">z-</emphasis>axis.</caption>
+</figure>
+<para id="fs-id1165038198551"><link target-id="CNX_UPhysics_11_04_Precess"/> shows the forces acting on a spinning top. The torque produced is perpendicular to the angular momentum vector. This changes the direction of the angular momentum vector <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> according to <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> but not its magnitude. The top <emphasis effect="italics">precesses</emphasis> around a vertical axis, since the torque is always horizontal and perpendicular to <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>. If the top is <emphasis effect="italics">not</emphasis> spinning, it acquires angular momentum in the direction of the torque, and it rotates around a horizontal axis, falling over just as we would expect.</para>
+<figure id="CNX_UPhysics_11_04_Precess"><media id="fs-id1165038056074" alt="An x y z coordinate system is show, with x out of the page, y to the right, and z up. The origin is point O. A top is shown with its point at the origin and its axis tilted by an angle theta away from the vertical z axis, clockwise as we view it. The vector r extends from the origin to the center of the mass, labeled as C M, of the top. The force M g acts downward at the center of mass. The torque, tau, about the origin is equal to vector r crossed with M vector g. This torque is a vector in the x y plane, perpendicular to the r vector, into the page. The angular velocity, omega, of the top is counterclockwise as viewed from above. The angular momentum, L, is in the same direction as the r vector, tilted up along the axis of the top. The circle traced by the precession of the top is shown as a horizontal circle above the top. The precession angular velocity omega sub p is counterclockwise as viewed from above. The radius of the precession circle is L sine theta. The vector d L is tangent to the circle, pointing into the page, and is equal to vector tau d t. The triangle formed L sine theta and d L is shown, and the angle across from d L is labeled as d phi.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_04_Precess.jpeg"/>
+</media>
+
+<caption>The force of gravity acting on the center of mass produces a torque <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> in the direction perpendicular to <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> The magnitude of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> doesn’t change but its direction does, and the top precesses about the <emphasis effect="italics">z</emphasis>-axis.</caption></figure><para id="fs-id1165036995141">We can experience this phenomenon first hand by holding a spinning bicycle wheel and trying to rotate it about an axis perpendicular to the spin axis. As shown in <link target-id="CNX_UPhysics_11_04_Bicycle"/>, the person applies forces perpendicular to the spin axis in an attempt to rotate the wheel, but instead, the wheel axis starts to change direction to her left due to the applied torque.</para>
+<figure id="CNX_UPhysics_11_04_Bicycle">
+<media id="fs-id1165037984605" alt="In figure a, a woman, facing the viewer, is holding a spinning bike wheel of radius r by the axle. The wheel is so that the angular velocity omega and angular momentum L are along the axis of rotation of the wheel, to her left (the viewer’s right.) That is, the motion of the wheel is such that the bottom of the wheel is moving toward her (into the page.) The direction of the force F applied by her left hand is shown downward and that by her right hand in upward direction. The torque tau is toward her (into the page.) In figure b, addition of two vectors L and delta-L, which is parallel to torque tau, is shown. The resultant of the two vectors is labeled as L plus delta L. The direction of rotation, omega sub p, is counterclockwise as viewed from above.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_04_Bicycle.jpg"/>
+</media>
+<caption>(a) A person holding the spinning bike wheel lifts it with her right hand and pushes down with her left hand in an attempt to rotate the wheel. This action creates a torque directly toward her. This torque causes a change in angular momentum <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> in exactly the same direction. (b) A vector diagram depicting how <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> add, producing a new angular momentum pointing more toward the person. The wheel moves toward the person, perpendicular to the forces she exerts on it.</caption>
+</figure>
+<para id="fs-id1165038173514">We all know how easy it is for a bicycle to tip over when sitting on it at rest. But when riding the bicycle at a good pace, tipping it over involves changing the angular momentum vector of the spinning wheels.</para><note id="fs-id1165038229883" class="media-2">
+<para id="fs-id1165037000048">View the video on <link url="https://openstax.org/l/21gyrovideo">gyroscope precession</link> for a complete demonstration of precession of the bicycle wheel.</para>
+</note>
+<para id="fs-id1165038310722">Also, when a spinning disk is put in a box such as a Blu-Ray player, try to move it. It is easy to translate the box in a given direction but difficult to rotate it about an axis perpendicular to the axis of the spinning disk, since we are putting a torque on the box that will cause the angular momentum vector of the spinning disk to precess.</para>
+<para id="fs-id1165038356976">We can calculate the precession rate of the top in <link target-id="CNX_UPhysics_11_04_Precess"/>. From <link target-id="CNX_UPhysics_11_04_Precess"/>, we see that the magnitude of the torque is</para>
+<equation id="fs-id1165038010430" class="unnumbered"><label/><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>M</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165037848462">Thus,</para>
+<equation id="fs-id1165038383738" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>M</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038379266">The angle the top precesses through in time <emphasis effect="italics">dt</emphasis> is</para>
+<equation id="fs-id1165038192661" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>L</m:mi></m:mrow><m:mrow><m:mi>L</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>r</m:mi><m:mi>M</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>L</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>r</m:mi><m:mi>M</m:mi><m:mi>g</m:mi></m:mrow><m:mi>L</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165036995012">The precession angular velocity is <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>ϕ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> and from this equation we see that</para>
+<equation id="fs-id1165038334175" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>r</m:mi><m:mi>M</m:mi><m:mi>g</m:mi></m:mrow><m:mi>L</m:mi></m:mfrac><m:mo>.</m:mo><m:mspace width="0.2em"/><m:mtext>or, since</m:mtext><m:mspace width="0.2em"/><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ω</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<note id="fs-id1165038184162" class="equation-callout">
+<equation id="fs-id1165036990079"><label/><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>r</m:mi><m:mi>M</m:mi><m:mi>g</m:mi></m:mrow><m:mrow><m:mi>I</m:mi><m:mi>ω</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165037997345">In this derivation, we assumed that <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>P</m:mi></m:msub><m:mo>≪</m:mo><m:mi>ω</m:mi><m:mo>,</m:mo></m:mrow></m:math> that is, that the precession angular velocity is much less than the angular velocity of the gyroscope disk. The precession angular velocity adds a small component to the angular momentum along the <emphasis effect="italics">z</emphasis>-axis. This is seen in a slight bob up and down as the gyroscope precesses, referred to as nutation.</para>
+<para id="fs-id1165038037226">Earth itself acts like a gigantic gyroscope. Its angular momentum is along its axis and currently points at Polaris, the North Star. But Earth is slowly precessing (once in about 26,000 years) due to the torque of the Sun and the Moon on its nonspherical shape.</para>
+<example id="fs-id1165037982225">
+<para id="fs-id1165038046435"><title>Period of Precession</title>
+A gyroscope spins with its tip on the ground and is spinning with negligible frictional resistance. The disk of the gyroscope has mass 0.3 kg and is spinning at 20 rev/s. Its center of mass is 5.0 cm from the pivot and the radius of the disk is 5.0 cm. What is the precessional period of the gyroscope?</para>
+<para id="fs-id1165038054751"><title>Strategy</title>
+We use <link target-id="fs-id1165036990079"/> to find the precessional angular velocity of the gyroscope. This allows us to find the period of precession.</para>
+<para id="fs-id1165037967653"><title>Solution</title>
+The moment of inertia of the disk is</para>
+<equation id="fs-id1165038364104" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>0.30</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.05</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>3.75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038249568">The angular velocity of the disk is</para>
+<equation id="fs-id1165037936500" class="unnumbered"><label/><m:math><m:mrow><m:mn>20.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>=</m:mo><m:mn>20.0</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>=</m:mo><m:mn>125.66</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038376026">We can now substitute in <link target-id="fs-id1165036990079"/>. The precessional angular velocity is</para>
+<equation id="fs-id1165038183843" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>r</m:mi><m:mi>M</m:mi><m:mi>g</m:mi></m:mrow><m:mrow><m:mi>I</m:mi><m:mi>ω</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.05</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.3</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>125.66</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3.12</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165037078744">The precessional period of the gyroscope is</para>
+<equation id="fs-id1165038021514" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>3.12</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165037026304"><title>Significance</title>
+The precessional angular frequency of the gyroscope, 3.12 rad/s, or about 0.5 rev/s, is much less than the angular velocity 20 rev/s of the gyroscope disk. Therefore, we don’t expect a large component of the angular momentum to arise due to precession, and <link target-id="fs-id1165036990079"/> is a good approximation of the precessional angular velocity.</para>
+</example>
+<note id="fs-id1165037948134" class="check-understanding">
+<exercise id="fs-id1165038053442">
+<problem id="fs-id1165036846942">
+<para id="fs-id1165038202555"> A top has a precession frequency of 5.0 rad/s on Earth. What is its precession frequency on the Moon?</para>
+</problem>
+<solution id="fs-id1165037850054">
+<para id="fs-id1165037271048">The Moon’s gravity is 1/6 that of Earth’s. By examining <link target-id="fs-id1165036990079"/>, we see that the top’s precession frequency is linearly proportional to the acceleration of gravity. All other quantities, mass, moment of inertia, and spin rate are the same on the Moon. Thus, the precession frequency on the Moon is<newline/><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>P</m:mi></m:msub><m:mtext>(Moon)</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:msub><m:mi>ω</m:mi><m:mi>P</m:mi></m:msub><m:mtext>(Earth)</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>0.83</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1165038298264" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1165038041222" list-type="bulleted" bullet-style="bullet">
+<item>When a gyroscope is set on a pivot near the surface of Earth, it precesses around a vertical axis, since the torque is always horizontal and perpendicular to <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> If the gyroscope is not spinning, it acquires angular momentum in the direction of the torque, and it rotates about a horizontal axis, falling over just as we would expect.</item>
+<item>The precessional angular velocity is given by <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>r</m:mi><m:mi>M</m:mi><m:mi>g</m:mi></m:mrow><m:mrow><m:mi>I</m:mi><m:mi>ω</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, where <emphasis effect="italics">r</emphasis> is the distance from the pivot to the center of mass of the gyroscope, <emphasis effect="italics">I</emphasis> is the moment of inertia of the gyroscope’s spinning disk, <emphasis effect="italics">M</emphasis> is its mass, and <m:math><m:mrow><m:mi>ω</m:mi></m:mrow></m:math> is the angular frequency of the gyroscope disk.</item>
+</list>
+</section>
+<section id="fs-id1165037979908" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1170901754929" class="unnumbered unstyled" summary="This table gives the following formulae: Velocity of center of mass of rolling object, V subscript CM equal to R omega; Acceleration of center of mass of rolling object, a subscript CM equal to R alpha; Displacement of center of mass of rolling object, d subscript CM equal to R theta; Acceleration of an object rolling without slipping, a subscript CM equal to mg sine theta upon in denominator m plus open parentheses I subscript CM by r squared close parentheses end of denominator; Angular momentum, vector l equal to vector r cross vector p; Derivative of angular momentum equals torque, d by dt vector l equal to summation tau; Angular momentum of a system of particles, vector L equal to vector l1 plus vector l2 plus plus vector lN; For a system of particles, derivative of angular momentum equals torque, , d by dt vector L equal to summation tau; Angular momentum of a rotating rigid body, L equal to I omega; Conservation of angular momentum, d by dt vector L equal to zero; Conservation of angular momentum, vector L equal to vector l1 plus vector l2 plus plus vector lN  equal to constant; Precessional angular velocity, omega subscript P equal to r M g by I omega.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Velocity of center of mass of rolling object</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>ω</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Acceleration of center of mass of rolling object</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>α</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Displacement of center of mass of rolling object</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Acceleration of an object rolling without slipping</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Angular momentum</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Derivative of angular momentum equals torque</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mo>∑</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Angular momentum of a system of particles</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mo>⋯</m:mo><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>N</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">For a system of particles, derivative of angular<newline/>momentum equals torque</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mo>∑</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Angular momentum of a rotating rigid body</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ω</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Conservation of angular momentum</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Conservation of angular momentum</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mo>⋯</m:mo><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>N</m:mi></m:msub><m:mo>=</m:mo><m:mtext>constant</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Precessional angular velocity</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>r</m:mi><m:mi>M</m:mi><m:mi>g</m:mi></m:mrow><m:mrow><m:mi>I</m:mi><m:mi>ω</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1165037038127" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1165038023965">
+<problem id="fs-id1165038349302">
+<para id="fs-id1165037151815">Gyroscopes used in guidance systems to indicate directions in space must have an angular momentum that does not change in direction. When placed in the vehicle, they are put in a compartment that is separated from the main fuselage, such that changes in the orientation of the fuselage does not affect the orientation of the gyroscope. If the space vehicle is subjected to large forces and accelerations how can the direction of the gyroscopes angular momentum be constant at all times?</para>
+</problem>
+<solution id="fs-id1165038015942">
+<para id="fs-id1165038002450">A torque is needed in the direction perpendicular to the angular momentum vector in order to change its direction. These forces on the space vehicle are external to the container in which the gyroscope is mounted and do not impart torques to the gyroscope’s rotating disk.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038039328">
+<problem id="fs-id1165038353938">
+<para id="fs-id1165038385433">Earth precesses about its vertical axis with a period of 26,000 years. Discuss whether <link target-id="fs-id1165036990079"/> can be used to calculate the precessional angular velocity of Earth.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165036730065" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1165038011972">
+<problem id="fs-id1165036756335">
+<para id="fs-id1165037092873">A gyroscope has a 0.5-kg disk that spins at 40 rev/s. The center of mass of the disk is 5 cm from a pivot with a radius of the disk of 10 cm. What is the precession angular velocity?</para>
+</problem>
+<solution id="fs-id1165037847376">
+<para id="fs-id1165036846832"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mn>1.17</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038052721">
+<problem id="fs-id1165037846735">
+<para id="fs-id1165037861675">The precession angular velocity of a gyroscope is 1.0 rad/s. If the mass of the rotating disk is 0.4 kg and its radius is 30 cm, and the distance from the center of mass to the pivot is 40 cm, what is the rotation rate in rev/s of the disk?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038048019">
+<problem id="fs-id1165037927895">
+<para id="fs-id1165036782973">The axis of Earth makes a <m:math><m:mrow><m:mn>23.5</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> angle with a direction perpendicular to the plane of Earth’s orbit. As shown below, this axis precesses, making one complete rotation in 25,780 y.</para>
+<para id="fs-id1165036741332">(a) Calculate the change in angular momentum in half this time.</para>
+<para id="fs-id1165037980941">(b) What is the average torque producing this change in angular momentum?</para>
+<para id="fs-id1165037029545">(c) If this torque were created by a pair of forces acting at the most effective point on the equator, what would the magnitude of each force be?</para>
+<media id="fs-id1165038349493" alt="In the figure, the Earth’s image is shown. The plane of the Earth’s orbit is shown as a horizontal line at the equator. The Earth’s north south axis is inclined at an angle of 23.5 degrees from the vertical. There are two vectors, L and L prime, inclined at an angle of twenty three point five degree to the vertical, starting from the center of the Earth. Vector L goes through the Earth’s north pole. At the heads of the two vectors there is a circle, directed in counter clockwise direction as viewed from above. An angular momentum vector, Delta L, directed toward left, along its diameter, is shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_04_Prob7_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165038051884">
+<para id="fs-id1165036786085">a. <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>Earth</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>7.06</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>33</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>5.63</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>33</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>1.4</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>;<newline/>
+c. The two forces at the equator would have the same magnitude but different directions, one in the north direction and the other in the south direction on the opposite side of Earth. The angle between the forces and the lever arms to the center of Earth is <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, so a given torque would have magnitude <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>=</m:mo><m:mi>F</m:mi><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math>. Both would provide a torque in the same direction:<newline/>
+<m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>F</m:mi><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub><m:mo stretchy="false">⇒</m:mo><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>1.3</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+</section>
+<section id="fs-id1165037846368" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1165036993455">
+<problem id="fs-id1165038363946">
+<para id="fs-id1165038298753">A marble is rolling across the floor at a speed of 7.0 m/s when it starts up a plane inclined at <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to the horizontal. (a) How far along the plane does the marble travel before coming to a rest? (b) How much time elapses while the marble moves up the plane?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036834113">
+<problem id="fs-id1165038023085">
+<para id="fs-id1165036886627">Repeat the preceding problem replacing the marble with a hollow sphere. Explain the new results.</para>
+</problem>
+<solution id="fs-id1165036847469">
+<para id="fs-id1165038017243"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:mi>g</m:mi></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mi>x</m:mi><m:mo stretchy="false">⇒</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">⇒</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8.34</m:mn><m:mspace width="0.2em"/><m:mtext>m;</m:mtext></m:mrow></m:math><newline/>
+b. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.5em"/></m:mrow></m:math> <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mi>t</m:mi><m:mo stretchy="false">⇒</m:mo><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2.38</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>;<newline/>
+The hollow sphere has a larger moment of inertia, and therefore is harder to bring to a rest than the marble, or solid sphere. The distance travelled is larger and the time elapsed is longer.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038009026">
+<problem id="fs-id1165037983074">
+<para id="fs-id1165037026530">The mass of a hoop of radius 1.0 m is 6.0 kg. It rolls across a horizontal surface with a speed of 10.0 m/s. (a) How much work is required to stop the hoop? (b) If the hoop starts up a surface at <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to the horizontal with a speed of 10.0 m/s, how far along the incline will it travel before stopping and rolling back down?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038249122">
+<problem id="fs-id1165038305352">
+<para id="fs-id1165036883382">Repeat the preceding problem for a hollow sphere of the same radius and mass and initial speed. Explain the differences in the results.</para>
+</problem>
+<solution id="fs-id1165037967947">
+<para id="fs-id1165038024254">a. <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>−500.0</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:mi>K</m:mi><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>grav</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>constant</m:mtext></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mspace width="0.2em"/><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>h</m:mi></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>8.5</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.5em"/><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>17.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;<newline/>
+The moment of inertia is less for the hollow sphere, therefore less work is required to stop it. Likewise it rolls up the incline a shorter distance than the hoop.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037168860">
+<problem id="fs-id1165036779762">
+<para id="fs-id1165036779764">A particle has mass 0.5 kg and is traveling along the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> at 2.0 m/s in the positive <emphasis effect="italics">y</emphasis>-direction. What is the particle’s angular momentum about the origin?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037914410">
+<problem id="fs-id1165038326873">
+<para id="fs-id1165038326875">A 4.0-kg particle moves in a circle of radius 2.0 m. The angular momentum of the particle varies in time according to <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (a) What is the torque on the particle about the center of the circle at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3.4</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>? (b) What is the angular velocity of the particle at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3.4</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1165037176278">
+<para id="fs-id1165038327648">a. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>34.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>ω</m:mi><m:mo stretchy="false">⇒</m:mo><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>3.6</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038191690">
+<problem id="fs-id1165038025152">
+<para id="fs-id1165038025154">A proton is accelerated in a cyclotron to <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math> in 0.01 s. The proton follows a circular path. If the radius of the cyclotron is 0.5 km, (a) What is the angular momentum of the proton about the center at its maximum speed? (b) What is the torque on the proton about the center as it accelerates to maximum speed?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038006851">
+<problem id="fs-id1165038006853">
+<para id="fs-id1165037912236">(a) What is the angular momentum of the Moon in its orbit around Earth? (b) How does this angular momentum compare with the angular momentum of the Moon on its axis? Remember that the Moon keeps one side toward Earth at all times.</para>
+</problem>
+<solution id="fs-id1165037912238">
+<para id="fs-id1165037984809">a. <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>M</m:mtext></m:msub><m:mo>=</m:mo><m:mn>3.85</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> average distance to the Moon; orbital period <m:math><m:mrow><m:mn>27.32</m:mn><m:mtext>d</m:mtext><m:mo>=</m:mo><m:mn>2.36</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>s</m:mtext></m:mrow></m:math>; speed of the Moon <m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mn>3.85</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>2.36</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:math>; mass of the Moon <m:math><m:mrow><m:mn>7.35</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>2.90</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>34</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:math>;<newline/>
+b. radius of the Moon <m:math><m:mrow><m:mn>1.74</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>; the orbital period is the same as (a): <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>2.66</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>2.37</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>29</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mrow><m:mrow><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:math>;<newline/>
+The orbital angular momentum is <m:math><m:mrow><m:mn>1.22</m:mn></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup></m:math> times larger than the rotational angular momentum for the Moon.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037914398">
+<problem id="fs-id1165037914400">
+<para id="fs-id1165036862177">A DVD is rotating at 500 rpm. What is the angular momentum of the DVD if has a radius of 6.0 cm and mass 20.0 g?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036735533">
+<problem id="fs-id1165037874001">
+<para id="fs-id1165037874003">A potter’s disk spins from rest up to 10 rev/s in 15 s. The disk has a mass 3.0 kg and radius 30.0 cm. What is the angular momentum of the disk at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>s,</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext>0 s</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1165036843544">
+<para id="fs-id1165036990154"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>0.135</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>4.19</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>21.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>2.84</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>41.9</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>5.66</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mrow><m:mrow><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037974226">
+<problem id="fs-id1165037974228">
+<para id="fs-id1165037159243">Suppose you start an antique car by exerting a force of 300 N on its crank for 0.250 s. What is the angular momentum given to the engine if the handle of the crank is 0.300 m from the pivot and the force is exerted to create maximum torque the entire time?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036854532">
+<problem id="fs-id1165036854534">
+<para id="fs-id1165036966348">A solid cylinder of mass 2.0 kg and radius 20 cm is rotating counterclockwise around a vertical axis through its center at 600 rev/min. A second solid cylinder of the same mass and radius is rotating clockwise around the same vertical axis at 900 rev/min. If the cylinders couple so that they rotate about the same vertical axis, what is the angular velocity of the combination?</para></problem>
+<solution id="fs-id1165036784851">
+<para id="fs-id1165036784853">In the conservation of angular momentum equation, the rotation rate appears on both sides so we keep the (rev/min) notation as the angular velocity can be multiplied by a constant to get (rev/min):<newline/>
+<m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>L</m:mi><m:mtext>i</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−0.04</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>300.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min),</m:mtext></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0.08</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msub><m:mi>f</m:mi><m:mtext>f</m:mtext></m:msub><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>f</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−150.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min clockwise</m:mtext></m:mrow></m:mrow></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037903736">
+<problem id="fs-id1165037903738">
+<para id="fs-id1165037903740">A boy stands at the center of a platform that is rotating without friction at 1.0 rev/s. The boy holds weights as far from his body as possible. At this position the total moment of inertia of the boy, platform, and weights is <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> The boy draws the weights in close to his body, thereby decreasing the total moment of inertia to <m:math><m:mrow><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (a) What is the final angular velocity of the platform? (b) By how much does the rotational kinetic energy increase?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038013887">
+<problem id="fs-id1165038013889">
+<para id="fs-id1165036984318">Eight children, each of mass 40 kg, climb on a small merry-go-round. They position themselves evenly on the outer edge and join hands. The merry-go-round has a radius of 4.0 m and a moment of inertia <m:math><m:mrow><m:mn>1000.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>. After the merry-go-round is given an angular velocity of 6.0 rev/min, the children walk inward and stop when they are 0.75 m from the axis of rotation. What is the new angular velocity of the merry-go-round? Assume there is negligible frictional torque on the structure.</para>
+</problem>
+<solution id="fs-id1165037887956">
+<para id="fs-id1165036763770"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>6120.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1180.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>31.1</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037882259">
+<problem id="fs-id1165037882261">
+<para id="fs-id1165038308409">A thin meter stick of mass 150 g rotates around an axis perpendicular to the stick’s long axis at an angular velocity of 240 rev/min. What is the angular momentum of the stick if the rotation axis (a) passes through the center of the stick? (b) Passes through one end of the stick?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036885789">
+<problem id="fs-id1165036885791">
+<para id="fs-id1165038356709">A satellite in the shape of a sphere of mass 20,000 kg and radius 5.0 m is spinning about an axis through its center of mass. It has a rotation rate of 8.0 rev/s. Two antennas deploy in the plane of rotation extending from the center of mass of the satellite. Each antenna can be approximated as a rod has mass 200.0 kg and length 7.0 m. What is the new rotation rate of the satellite?</para>
+</problem>
+<solution id="fs-id1165038369521">
+<para id="fs-id1165038369523"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>2.025</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>7.86</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037150252">
+<problem id="fs-id1165036884256">
+<para id="fs-id1165036884258">A top has moment of inertia <m:math><m:mrow><m:mn>3.2</m:mn><m:mspace width="0.2em"/><m:mtext>×</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math> and radius 4.0 cm from the center of mass to the pivot point. If it spins at 20.0 rev/s and is precessing, how many revolutions does it precess in 10.0 s?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165038034234" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1165038334845">
+<problem id="fs-id1165038334847">
+<para id="fs-id1165038364566">The truck shown below is initially at rest with solid cylindrical roll of paper sitting on its bed. If the truck moves forward with a uniform acceleration <emphasis effect="italics">a</emphasis>, what distance <emphasis effect="italics">s</emphasis> does it move before the paper rolls off its back end? (<emphasis effect="italics">Hint</emphasis>: If the roll accelerates forward with <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>, then is accelerates backward relative to the truck with an acceleration <m:math><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>. Also, <m:math><m:mrow><m:mi>R</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>.)</para>
+<media id="fs-id1165036892204" alt="A drawing of a flatbed truck on a horizontal road. The truck is accelerating forward with acceleration a. The bed of the truck has a cylinder on it, a distance d from the back end of the bed.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_01_Prob16_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165038014111">
+<para id="fs-id1165038014113">Assume the roll accelerates forward with respect to the ground with an acceleration <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>. Then it accelerates backwards relative to the truck with an acceleration <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.<newline/>
+<media id="fs-id1165036758482" alt="The forces on a cylinder on a horizontal surface are shown. The cylinder has radius R and moment of inertia one half m R squared and is centered on an x y coordinate system that has positive x to the right and positive y up. Force m g acts on the center of the cylinder and points down. Force N points up and acts at the contact point where the cylinder touches the surface. Force f sub s points to the right and acts at the contact point where the cylinder touches the surface.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_01_Prob24_img.jpg"/>
+</media><newline/>
+Also, <m:math><m:mrow><m:mi>R</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup><m:mspace width="0.2em"/><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>f</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:mstyle></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mi>τ</m:mi></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>f</m:mi><m:mi>s</m:mi></m:msub><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mspace width="0.5em"/><m:msub><m:mi>f</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>I</m:mi><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math>,<newline/>
+Solving for <m:math><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup></m:math>: <m:math><m:mrow><m:mspace width="0.5em"/><m:msub><m:mi>f</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math>; <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>;</m:mo><m:mspace width="0.5em"/><m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>;</m:mo><m:mspace width="0.5em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>d</m:mi></m:mrow><m:mi>a</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>;</m:mo></m:mrow></m:math><newline/>
+therefore, <m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>1.5</m:mn><m:mi>d</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036758699">
+<problem id="fs-id1165038334807">
+<para id="fs-id1165038334809">A bowling ball of radius 8.5 cm is tossed onto a bowling lane with speed 9.0 m/s. The direction of the toss is to the left, as viewed by the observer, so the bowling ball starts to rotate counterclockwise when in contact with the floor. The coefficient of kinetic friction on the lane is 0.3. (a) What is the time required for the ball to come to the point where it is not slipping? What is the distance d to the point where the ball is rolling without slipping?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038041066">
+<problem id="fs-id1165038041068">
+<para id="fs-id1165038041070">A small ball of mass 0.50 kg is attached by a massless string to a vertical rod that is spinning as shown below. When the rod has an angular velocity of 6.0 rad/s, the string makes an angle of <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with respect to the vertical. (a) If the angular velocity is increased to 10.0 rad/s, what is the new angle of the string? (b) Calculate the initial and final angular momenta of the ball. (c) Can the rod spin fast enough so that the ball is horizontal?</para>
+<media id="fs-id1165038046374" alt="A vertical rod is spinning on its axis. A string is attached to the top of the rod at one end and a ball at the other end. The string hangs down at an angle from the rod.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_11_02_Prob16_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165038369443">
+<para id="fs-id1165038369445">a. The tension in the string provides the centripetal force such that <m:math><m:mrow><m:mi>T</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. The component of the tension that is vertical opposes the gravitational force such that <m:math><m:mrow><m:mi>T</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow></m:math>. This gives <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>5.7</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>. We solve for <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub><m:mo>=</m:mo><m:mn>0.16</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. This gives the length of the string as <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.32</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.<newline/>
+At <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>10.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>, there is a new angle, tension, and perpendicular radius to the rod. Dividing the two equations involving the tension to eliminate it, we have <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.32</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>g</m:mi></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.32</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>g</m:mi></m:mfrac></m:mrow></m:math>;<newline/>
+<m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0.31</m:mn><m:mo stretchy="false">⇒</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>72.2</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>l</m:mi><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0.08</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:math>,<newline/>
+<m:math><m:mrow><m:msub><m:mi>l</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0.46</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:math>; c. No, the cosine of the angle is inversely proportional to the square of the angular velocity, therefore in order for <m:math><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">→</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>ω</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>. The rod would have to spin infinitely fast.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036833826">
+<problem id="fs-id1165036833829">
+<para id="fs-id1165037967907">A bug flying horizontally at 1.0 m/s collides and sticks to the end of a uniform stick hanging vertically. After the impact, the stick swings out to a maximum angle of <m:math><m:mrow><m:mn>5.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> from the vertical before rotating back. If the mass of the stick is 10 times that of the bug, calculate the length of the stick.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165036763778">
+<term>precession</term>
+<meaning id="fs-id1165038052965">circular motion of the pole of the axis of a spinning object around another axis due to a torque</meaning>
+</definition>
+</glossary>
+</document>

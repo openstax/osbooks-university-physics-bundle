@@ -4,8 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58283</md:content-id>
   <md:title>Instantaneous Velocity and Speed</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para>
-<list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
 <item>Explain the difference between average velocity and instantaneous velocity.</item>
 <item>Describe the difference between velocity and speed.</item>
 <item>Calculate the instantaneous velocity given the mathematical equation for the velocity.</item>
@@ -18,7 +18,7 @@
 <para id="fs-id1168326781535">We have now seen how to calculate the average velocity between two positions. However, since objects in the real world move continuously through space and time, we would like to find the velocity of an object at any single point. We can find the velocity of the object anywhere along its path by using some fundamental principles of calculus. This section gives us better insight into the physics of motion and will be useful in later chapters.</para>
 <section id="fs-id1168329168511">
 <title>Instantaneous Velocity</title>
-<para id="fs-id1168329339669">The quantity that tells us how fast an object is moving anywhere along its path is the <term id="term-00001">instantaneous velocity</term>, usually called simply <emphasis effect="italics">velocity</emphasis>. It is the average velocity between two points on the path in the limit that the time (and therefore the displacement) between the two points approaches zero. To illustrate this idea mathematically, we need to express position <emphasis effect="italics">x</emphasis> as a continuous function of <emphasis effect="italics">t</emphasis> denoted by <emphasis effect="italics">x</emphasis>(<emphasis effect="italics">t</emphasis>). The expression for the average velocity between two points using this notation is <m:math><m:mrow><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>. To find the instantaneous velocity at any position, we let <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>t</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mi>t</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>. After inserting these expressions into the equation for the average velocity and taking the limit as <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:math>, we find the expression for the instantaneous velocity:</para>
+<para id="fs-id1168329339669">The quantity that tells us how fast an object is moving anywhere along its path is the <term>instantaneous velocity</term>, usually called simply <emphasis effect="italics">velocity</emphasis>. It is the average velocity between two points on the path in the limit that the time (and therefore the displacement) between the two points approaches zero. To illustrate this idea mathematically, we need to express position <emphasis effect="italics">x</emphasis> as a continuous function of <emphasis effect="italics">t</emphasis> denoted by <emphasis effect="italics">x</emphasis>(<emphasis effect="italics">t</emphasis>). The expression for the average velocity between two points using this notation is <m:math><m:mrow><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>. To find the instantaneous velocity at any position, we let <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>t</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mi>t</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>. After inserting these expressions into the equation for the average velocity and taking the limit as <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:math>, we find the expression for the instantaneous velocity:</para>
 <equation id="fs-id1168329127174" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:munder><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 <note id="fs-id1168329192792">
 <title>Instantaneous Velocity</title>
@@ -60,12 +60,12 @@ During the time interval between 0 s and 0.5 s, the object’s position is movin
 <section id="fs-id1168327049595">
 <title>Speed</title>
 <para id="fs-id1168329146483">In everyday language, most people use the terms <emphasis effect="italics">speed</emphasis> and <emphasis effect="italics">velocity</emphasis> interchangeably. In physics, however, they do not have the same meaning and are distinct concepts. One major difference is that speed has no direction; that is, speed is a scalar.</para>
-<para id="fs-id1168326794515">We can calculate the <term id="term-00002">average speed</term> by finding the total distance traveled divided by the elapsed time:</para>
+<para id="fs-id1168326794515">We can calculate the <term>average speed</term> by finding the total distance traveled divided by the elapsed time:</para>
 <note id="fs-id1168329177306" class="equation-callout">
 <equation id="fs-id1168329030544"><label/><m:math><m:mrow><m:mtext>Average speed</m:mtext><m:mo>=</m:mo><m:mover accent="true"><m:mi>s</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Total distance</m:mtext></m:mrow><m:mrow><m:mtext>Elapsed time</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 </note>
 <para id="fs-id1168329155451">Average speed is not necessarily the same as the magnitude of the average velocity, which is found by dividing the magnitude of the total displacement by the elapsed time. For example, if a trip starts and ends at the same location, the total displacement is zero, and therefore the average velocity is zero. The average speed, however, is not zero, because the total distance traveled is greater than zero. If we take a road trip of 300 km and need to be at our destination at a certain time, then we would be interested in our average speed.</para>
-<para id="fs-id1168329265923">However, we can calculate the <term id="term-00003">instantaneous speed</term> from the magnitude of the instantaneous velocity:</para>
+<para id="fs-id1168329265923">However, we can calculate the <term>instantaneous speed</term> from the magnitude of the instantaneous velocity:</para>
 <note id="fs-id1168326820899" class="equation-callout">
 <equation id="fs-id1168329020268"><label/><m:math><m:mrow><m:mtext>Instantaneous speed</m:mtext><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
 </note>
@@ -188,4 +188,131 @@ The velocity of the particle gives us direction information, indicating the part
 <media id="fs-id1168326856378" alt="Graph A shows position in meters plotted versus time in seconds. It starts at the origin, reaches maximum at 0.5 seconds, and then start to decrease crossing x axis at 1 second. Graph B shows velocity in meters per second plotted as a function of time at seconds. Velocity linearly decreases from the left to the right. Graph C shows absolute velocity in meters per second plotted as a function of time at seconds. Graph has a V-leeter shape. Velocity decreases till 0.5 seconds; then it starts to increase.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_02_PosVelSp.jpg"/>
 </media>
-<caption>(a) Position: <emphasis effect="italics">x</emphasis>(<emphasis effect="italics">t</emphasis>) versus time. (b) Velocity: <emphasis effect="italics">v</emphasis>(<emphasis effect="italics">t</emphasis>) versus time. The slope of the position graph is the velocity. A rough comparison of the slopes of the tangent lines in (a) at 0.25 s, 0.5 s, and 1.0 s with the values for velocity at the corresponding times indicates they are the same values. (c) Speed: <m:math><m:mrow><m:mrow><m:mo
+<caption>(a) Position: <emphasis effect="italics">x</emphasis>(<emphasis effect="italics">t</emphasis>) versus time. (b) Velocity: <emphasis effect="italics">v</emphasis>(<emphasis effect="italics">t</emphasis>) versus time. The slope of the position graph is the velocity. A rough comparison of the slopes of the tangent lines in (a) at 0.25 s, 0.5 s, and 1.0 s with the values for velocity at the corresponding times indicates they are the same values. (c) Speed: <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> versus time. Speed is always a positive number.</caption>
+</figure>
+</example>
+<note id="fs-id1168326919242" class="check-understanding">
+<exercise id="fs-id1168329179170">
+<problem id="fs-id1168326791759">
+<para id="fs-id1168329124574"> The position of an object as a function of time is <m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−3</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. (a) What is the velocity of the object as a function of time? (b) Is the velocity ever positive? (c) What are the velocity and speed at <emphasis effect="italics">t</emphasis> = 1.0 s?</para>
+</problem>
+<solution id="fs-id1168326791024">
+<para id="fs-id1168329105566">(a) Taking the derivative of <emphasis effect="italics">x</emphasis>(<emphasis effect="italics">t</emphasis>) gives <emphasis effect="italics">v</emphasis>(<emphasis effect="italics">t</emphasis>) = −6<emphasis effect="italics">t</emphasis> m/s. (b) No, because time can never be negative. (c) The velocity is <emphasis effect="italics">v</emphasis>(1.0 s) = −6 m/s and the speed is <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168329151013" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1168326904770" list-type="bulleted" bullet-style="bullet">
+<item>Instantaneous velocity is a continuous function of time and gives the velocity at any point in time during a particle’s motion. We can calculate the instantaneous velocity at a specific time by taking the derivative of the position function, which gives us the functional form of instantaneous velocity <emphasis effect="italics">v</emphasis>(<emphasis effect="italics">t</emphasis>).</item>
+<item>Instantaneous velocity is a vector and can be negative.</item>
+<item>Instantaneous speed is found by taking the absolute value of instantaneous velocity, and it is always positive.</item>
+<item>Average speed is total distance traveled divided by elapsed time.</item>
+<item>The slope of a position-versus-time graph at a specific time gives instantaneous velocity at that time.</item>
+</list>
+</section>
+<section id="fs-id1168326822676" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1168326759364">
+<problem id="fs-id1168329072226">
+<para id="fs-id1168326840996">There is a distinction between average speed and the magnitude of average velocity. Give an example that illustrates the difference between these two quantities.</para>
+</problem>
+<solution id="fs-id1168329402518">
+<para id="fs-id1168326767452">Average speed is the total distance traveled divided by the elapsed time. If you go for a walk, leaving and returning to your home, your average speed is a positive number. Since Average velocity = Displacement/Elapsed time, your average velocity is zero.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327094731">
+<problem id="fs-id1168326926896">
+<para id="fs-id1168326926898">Does the speedometer of a car measure speed or velocity?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168326896853">
+<problem id="fs-id1168326896855">
+<para id="fs-id1168326927106">If you divide the total distance traveled on a car trip (as determined by the odometer) by the elapsed time of the trip, are you calculating average speed or magnitude of average velocity? Under what circumstances are these two quantities the same?</para>
+</problem>
+<solution id="fs-id1168326927108">
+<para id="fs-id1168329151650">Average speed. They are the same if the car doesn’t reverse direction.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329340393">
+<problem id="fs-id1168329340395">
+<para id="fs-id1168327052762">How are instantaneous velocity and instantaneous speed related to one another? How do they differ?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168326857991" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1168326798408">
+<problem id="fs-id1168326798410">
+<para id="fs-id1168329466670">A woodchuck runs 20 m to the right in 5 s, then turns and runs 10 m to the left in 3 s. (a) What is the average velocity of the woodchuck? (b) What is its average speed?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168326790679">
+<problem id="fs-id1168326801116">
+<para id="fs-id1168326801118">Sketch the velocity-versus-time graph from the following position-versus-time graph.</para>
+<media id="fs-id1168326859739" alt="Graph shows position in meters plotted versus time in seconds. It starts at the origin, reaches 4 meters at 0.4 seconds; decreases to -2 meters at 0.6 seconds, reaches minimum of -6 meters at 1 second, increases to -4 meters at 1.6 seconds, and reaches 2 meters at 2 seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_02_Prob6_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1168326752308">
+<para id="fs-id1168326752310"><media id="fs-id1168326752311" alt="Graph shows velocity in meters per second plotted as a function of time at seconds. Velocity starts as 10 meters per second, decreases to -30 at 0.4 seconds; increases to -10 meters at 0.6 seconds, increases to 5 at 1 second, increases to 15 at 1.6 seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_02_Prob6ans_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328977772">
+<problem id="fs-id1168326777148">
+<para id="fs-id1168326777150">Sketch the velocity-versus-time graph from the following position-versus-time graph.</para>
+<media id="fs-id1168329282325" alt="Graph shows position plotted versus time in seconds. Graph has a sinusoidal shape. It starts with the positive value at zero time, changes to negative, and then starts to increase.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_02_Prob7_img.jpg"/>
+</media></problem>
+</exercise>
+<exercise id="fs-id1168329191384">
+<problem id="fs-id1168326791352">
+<para id="fs-id1168326791354">Given the following velocity-versus-time graph, sketch the position-versus-time graph.</para>
+<media id="fs-id1168329503346" alt="Graph shows velocity plotted versus time. It starts with the positive value at zero time, decreases to the negative value and remains constant.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_02_Prob8_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1168329187573">
+<para id="fs-id1168329186638"><media id="fs-id1168329186639" alt="Graph shows position plotted versus time. It starts at the origin, increases reaching maximum, and then decreases close to zero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_02_Prob8ans_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168326762812">
+<problem id="fs-id1168326762814">
+<para id="fs-id1168326777140">An object has a position function <emphasis effect="italics">x</emphasis>(<emphasis effect="italics">t</emphasis>) = 5<emphasis effect="italics">t</emphasis> m. (a) What is the velocity as a function of time? (b) Graph the position function and the velocity function.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168326809070">
+<problem id="fs-id1168326809072">
+<para id="fs-id1168326766071">A particle moves along the <emphasis effect="italics">x-</emphasis>axis according to <m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>10</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. (a) What is the instantaneous velocity at <emphasis effect="italics">t</emphasis> = 2 s and <emphasis effect="italics">t</emphasis> = 3 s? (b) What is the instantaneous speed at these times? (c) What is the average velocity between <emphasis effect="italics">t</emphasis> = 2 s and <emphasis effect="italics">t</emphasis> = 3 s?</para>
+</problem>
+<solution id="fs-id1168326792665">
+<para id="fs-id1168329445296">a. <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:math>; <emphasis effect="italics">v</emphasis>(2 s) = 2 m/s, <emphasis effect="italics">v</emphasis>(3 s) = −2 m/s; b. <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>,</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>; (c) <m:math><m:mrow><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329265497">
+<problem id="fs-id1168329265499">
+<para id="fs-id1168329439612"><emphasis effect="bold">Unreasonable results.</emphasis> A particle moves along the <emphasis effect="italics">x</emphasis>-axis according to <m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>t</m:mi><m:mtext>​</m:mtext></m:mrow></m:math>. At what time is the velocity of the particle equal to zero? Is this reasonable?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168329197758">
+<term>instantaneous velocity</term>
+<meaning id="fs-id1168326822697">the velocity at a specific instant or time point</meaning>
+</definition>
+<definition id="fs-id1168329418230">
+<term>instantaneous speed</term>
+<meaning id="fs-id1168326764878">the absolute value of the instantaneous velocity</meaning>
+</definition>
+<definition id="fs-id1168329478735">
+<term>average speed</term>
+<meaning id="fs-id1168326838470">the total distance traveled divided by elapsed time</meaning>
+</definition>
+</glossary>
+</document>

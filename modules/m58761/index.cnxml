@@ -1,28 +1,28 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML"/>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Blackbody Radiation</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58761</md:content-id>
   <md:title>Blackbody Radiation</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para>
-<list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
 <item>Apply Wien’s and Stefan’s laws to analyze radiation emitted by a blackbody</item>
 <item>Explain Planck’s hypothesis of energy quanta</item>
 </list></md:abstract>
   <md:uuid>3a3a00d6-8dfb-4b82-b90f-dd2132167310</md:uuid>
 </metadata>
 
-<content/>
-<para id="fs-id1163713100225">All bodies emit electromagnetic radiation over a range of wavelengths. In an earlier chapter, we learned that a cooler body radiates less energy than a warmer body. We also know by observation that when a body is heated and its temperature rises, the perceived wavelength of its emitted radiation changes from infrared to red, and then from red to orange, and so forth. As its temperature rises, the body glows with the colors corresponding to ever-smaller wavelengths of the electromagnetic spectrum. This is the underlying principle of the incandescent light bulb: A hot metal filament glows red, and when heating continues, its glow eventually covers the entire visible portion of the electromagnetic spectrum. The temperature (<emphasis effect="italics">T</emphasis>) of the object that emits radiation, or the <term id="term-00001">emitter</term>, determines the wavelength at which the radiated energy is at its maximum. For example, the Sun, whose surface temperature is in the range between 5000 K and 6000 K, radiates most strongly in a range of wavelengths about 560 nm in the visible part of the electromagnetic spectrum. Your body, when at its normal temperature of about 300 K, radiates most strongly in the infrared part of the spectrum.</para>
-<para id="fs-id1163713196421">Radiation that is incident on an object is partially absorbed and partially reflected. At thermodynamic equilibrium, the rate at which an object absorbs radiation is the same as the rate at which it emits it. Therefore, a good <term id="term-00002">absorber</term> of radiation (any object that absorbs radiation) is also a good emitter. A perfect absorber absorbs all electromagnetic radiation incident on it; such an object is called a <term id="term-00003">blackbody</term>.</para>
-<para id="fs-id1163713254478">Although the blackbody is an idealization, because no physical object absorbs 100% of incident radiation, we can construct a close realization of a blackbody in the form of a small hole in the wall of a sealed enclosure known as a cavity radiator, as shown in <link target-id="CNX_UPhysics_39_01_blackbody"/>. The inside walls of a cavity radiator are rough and blackened so that any radiation that enters through a tiny hole in the cavity wall becomes trapped inside the cavity. At thermodynamic equilibrium (at temperature <emphasis effect="italics">T</emphasis>), the cavity walls absorb exactly as much radiation as they emit. Furthermore, inside the cavity, the radiation entering the hole is balanced by the radiation leaving it. The emission spectrum of a blackbody can be obtained by analyzing the light radiating from the hole. Electromagnetic waves emitted by a blackbody are called <term id="term-00004">blackbody radiation</term>.</para>
+<content>
+<para id="fs-id1163713100225">All bodies emit electromagnetic radiation over a range of wavelengths. In an earlier chapter, we learned that a cooler body radiates less energy than a warmer body. We also know by observation that when a body is heated and its temperature rises, the perceived wavelength of its emitted radiation changes from infrared to red, and then from red to orange, and so forth. As its temperature rises, the body glows with the colors corresponding to ever-smaller wavelengths of the electromagnetic spectrum. This is the underlying principle of the incandescent light bulb: A hot metal filament glows red, and when heating continues, its glow eventually covers the entire visible portion of the electromagnetic spectrum. The temperature (<emphasis effect="italics">T</emphasis>) of the object that emits radiation, or the <term>emitter</term>, determines the wavelength at which the radiated energy is at its maximum. For example, the Sun, whose surface temperature is in the range between 5000 K and 6000 K, radiates most strongly in a range of wavelengths about 560 nm in the visible part of the electromagnetic spectrum. Your body, when at its normal temperature of about 300 K, radiates most strongly in the infrared part of the spectrum.</para>
+<para id="fs-id1163713196421">Radiation that is incident on an object is partially absorbed and partially reflected. At thermodynamic equilibrium, the rate at which an object absorbs radiation is the same as the rate at which it emits it. Therefore, a good <term>absorber</term> of radiation (any object that absorbs radiation) is also a good emitter. A perfect absorber absorbs all electromagnetic radiation incident on it; such an object is called a <term>blackbody</term>.</para>
+<para id="fs-id1163713254478">Although the blackbody is an idealization, because no physical object absorbs 100% of incident radiation, we can construct a close realization of a blackbody in the form of a small hole in the wall of a sealed enclosure known as a cavity radiator, as shown in <link target-id="CNX_UPhysics_39_01_blackbody"/>. The inside walls of a cavity radiator are rough and blackened so that any radiation that enters through a tiny hole in the cavity wall becomes trapped inside the cavity. At thermodynamic equilibrium (at temperature <emphasis effect="italics">T</emphasis>), the cavity walls absorb exactly as much radiation as they emit. Furthermore, inside the cavity, the radiation entering the hole is balanced by the radiation leaving it. The emission spectrum of a blackbody can be obtained by analyzing the light radiating from the hole. Electromagnetic waves emitted by a blackbody are called <term>blackbody radiation</term>.</para>
 <figure id="CNX_UPhysics_39_01_blackbody">
 <media id="fs-id1163713250222" alt="Picture shows physical realization of a blackbody. An electromagnetic wave enters a cavity through a small hole in a wall and is reflected numerous times off the wall.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_01_blackbody.jpg"/>
 </media>
 <caption>A blackbody is physically realized by a small hole in the wall of a cavity radiator.</caption>
 </figure>
-<para id="fs-id1163713556646">The intensity <m:math xmlns:m=""><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> of blackbody radiation depends on the wavelength <m:math xmlns:m=""><m:mi>λ</m:mi></m:math> of the emitted radiation and on the temperature <emphasis effect="italics">T</emphasis> of the blackbody (<link target-id="CNX_UPhysics_39_01_BBradcurve"/>). The function <m:math xmlns:m=""><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is the <term id="term-00005">power intensity</term> that is radiated per unit wavelength; in other words, it is the power radiated per unit area of the hole in a cavity radiator per unit wavelength. According to this definition, <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>λ</m:mi></m:mrow></m:math> is the power per unit area that is emitted in the wavelength interval from <m:math><m:mi>λ</m:mi></m:math> to <m:math><m:mrow><m:mi>λ</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>λ</m:mi><m:mo>.</m:mo></m:mrow></m:math> The intensity distribution among wavelengths of radiation emitted by cavities was studied experimentally at the end of the nineteenth century. Generally, radiation emitted by materials only approximately follows the blackbody radiation curve (<link target-id="CNX_UPhysics_39_01_quartz"/>); however, spectra of common stars do follow the blackbody radiation curve very closely.</para>
+<para id="fs-id1163713556646">The intensity <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> of blackbody radiation depends on the wavelength <m:math><m:mi>λ</m:mi></m:math> of the emitted radiation and on the temperature <emphasis effect="italics">T</emphasis> of the blackbody (<link target-id="CNX_UPhysics_39_01_BBradcurve"/>). The function <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is the <term>power intensity</term> that is radiated per unit wavelength; in other words, it is the power radiated per unit area of the hole in a cavity radiator per unit wavelength. According to this definition, <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>λ</m:mi></m:mrow></m:math> is the power per unit area that is emitted in the wavelength interval from <m:math><m:mi>λ</m:mi></m:math> to <m:math><m:mrow><m:mi>λ</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>λ</m:mi><m:mo>.</m:mo></m:mrow></m:math> The intensity distribution among wavelengths of radiation emitted by cavities was studied experimentally at the end of the nineteenth century. Generally, radiation emitted by materials only approximately follows the blackbody radiation curve (<link target-id="CNX_UPhysics_39_01_quartz"/>); however, spectra of common stars do follow the blackbody radiation curve very closely.</para>
 <figure id="CNX_UPhysics_39_01_BBradcurve">
 <media id="fs-id1163713331185" alt="This graph shows the variation of blackbody Radiation intensity with wavelengths expressed in micrometers. Five curves that correspond to 2000 K, 3000 K, 4000 K, and 5000 K are drawn. The maximum of the radiation intensity shifts to the short-wavelength side with increase in temperature. It is in in the far-infrared for 2000 K, near infrared for 3000 K, red part of the visible spectrum for 4000 K, and green part of the visible spectrum for 5000 K.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_01_BBradcurve.jpg"/>
@@ -35,19 +35,19 @@
 </media>
 <caption>The spectrum of radiation emitted from a quartz surface (blue curve) and the blackbody radiation curve (black curve) at 600 K.</caption>
 </figure>
-<para id="fs-id1163713275775">Two important laws summarize the experimental findings of blackbody radiation: <emphasis effect="italics">Wien’s displacement law</emphasis> and <emphasis effect="italics">Stefan’s law</emphasis>. <term class="no-emphasis" id="term-00006">Wien’s displacement law</term> is illustrated in <link target-id="CNX_UPhysics_39_01_BBradcurve"/> by the curve connecting the maxima on the intensity curves. In these curves, we see that the hotter the body, the shorter the wavelength corresponding to the emission peak in the radiation curve. Quantitatively, Wien’s law reads</para>
+<para id="fs-id1163713275775">Two important laws summarize the experimental findings of blackbody radiation: <emphasis effect="italics">Wien’s displacement law</emphasis> and <emphasis effect="italics">Stefan’s law</emphasis>. <term class="no-emphasis">Wien’s displacement law</term> is illustrated in <link target-id="CNX_UPhysics_39_01_BBradcurve"/> by the curve connecting the maxima on the intensity curves. In these curves, we see that the hotter the body, the shorter the wavelength corresponding to the emission peak in the radiation curve. Quantitatively, Wien’s law reads</para>
 <note id="fs-id1163713411306" class="equation-callout">
-<equation id="fs-id1163713051452"><m:math xmlns:m=""><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2.898</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:math></equation>
+<equation id="fs-id1163713051452"><m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2.898</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:math></equation>
 </note>
-<para id="fs-id1163709821464">where <m:math xmlns:m=""><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the position of the maximum in the radiation curve. In other words, <m:math xmlns:m=""><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the wavelength at which a blackbody radiates most strongly at a given temperature <emphasis effect="italics">T</emphasis>. Note that in <link target-id="fs-id1163713051452"/>, the temperature is in kelvins. Wien’s displacement law allows us to estimate the temperatures of distant stars by measuring the wavelength of radiation they emit.</para>
+<para id="fs-id1163709821464">where <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the position of the maximum in the radiation curve. In other words, <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the wavelength at which a blackbody radiates most strongly at a given temperature <emphasis effect="italics">T</emphasis>. Note that in <link target-id="fs-id1163713051452"/>, the temperature is in kelvins. Wien’s displacement law allows us to estimate the temperatures of distant stars by measuring the wavelength of radiation they emit.</para>
 <example id="fs-id1163709709073">
 <para id="fs-id1172102104529"><title>Temperatures of Distant Stars</title>
-On a clear evening during the winter months, if you happen to be in the Northern Hemisphere and look up at the sky, you can see the constellation Orion (The Hunter). One star in this constellation, <term class="no-emphasis" id="term-00007">Rigel</term>, flickers in a blue color and another star, <term class="no-emphasis" id="term-00008">Betelgeuse</term>, has a reddish color, as shown in <link target-id="CNX_UPhysics_39_01_orion"/>. Which of these two stars is cooler, Betelgeuse or Rigel?</para>
+On a clear evening during the winter months, if you happen to be in the Northern Hemisphere and look up at the sky, you can see the constellation Orion (The Hunter). One star in this constellation, <term class="no-emphasis">Rigel</term>, flickers in a blue color and another star, <term class="no-emphasis">Betelgeuse</term>, has a reddish color, as shown in <link target-id="CNX_UPhysics_39_01_orion"/>. Which of these two stars is cooler, Betelgeuse or Rigel?</para>
 <para id="fs-id1172099902931"><title>Strategy</title>
-We treat each star as a blackbody. Then according to Wien’s law, its temperature is inversely proportional to the wavelength of its peak intensity. The wavelength <m:math xmlns:m=""><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(blue)</m:mtext></m:mrow></m:msubsup></m:mrow></m:math> of blue light is shorter than the wavelength <m:math xmlns:m=""><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(red)</m:mtext></m:mrow></m:msubsup></m:mrow></m:math> of red light. Even if we do not know the precise wavelengths, we can still set up a proportion.</para>
+We treat each star as a blackbody. Then according to Wien’s law, its temperature is inversely proportional to the wavelength of its peak intensity. The wavelength <m:math><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(blue)</m:mtext></m:mrow></m:msubsup></m:mrow></m:math> of blue light is shorter than the wavelength <m:math><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(red)</m:mtext></m:mrow></m:msubsup></m:mrow></m:math> of red light. Even if we do not know the precise wavelengths, we can still set up a proportion.</para>
 <para id="fs-id1172101729316"><title>Solution</title>
 Writing Wien’s law for the blue star and for the red star, we have</para>
-<equation id="fs-id1163713052063"><m:math xmlns:m=""><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(red)</m:mtext></m:mrow></m:msubsup><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(red)</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.898</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext><m:mo>=</m:mo><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(blue)</m:mtext></m:mrow></m:msubsup><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(blue)</m:mtext></m:mrow></m:msub></m:mrow></m:math></equation>
+<equation id="fs-id1163713052063"><m:math><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(red)</m:mtext></m:mrow></m:msubsup><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(red)</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.898</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext><m:mo>=</m:mo><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(blue)</m:mtext></m:mrow></m:msubsup><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(blue)</m:mtext></m:mrow></m:msub></m:mrow></m:math></equation>
 <para id="fs-id1163713060017">When simplified, <link target-id="fs-id1163713052063"/> gives</para>
 <equation id="fs-id1163713204864"><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(red)</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(blue)</m:mtext></m:mrow></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(red)</m:mtext></m:mrow></m:msubsup></m:mrow></m:mfrac><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(blue)</m:mtext></m:mrow></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(blue)</m:mtext></m:mrow></m:msub></m:mrow></m:math></equation>
 <para id="fs-id1163713277251">Therefore, Betelgeuse is cooler than Rigel.</para>
@@ -68,13 +68,270 @@ Note that Wien’s displacement law tells us that the higher the temperature of 
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_01_orion.jpg"/>
 </media>
 
-<caption>In the Orion constellation, the red star Betelgeuse, which usually takes on a yellowish tint, appears as the figure’s right shoulder (in the upper left). The giant blue star on the bottom right is Rigel, which appears as the hunter’s left foot. (credit left: modification of work by Matthew Spinelli, NASA APOD)</caption></figure><para id="fs-id1163713056682">The second experimental relation is <term class="no-emphasis" id="term-00009">Stefan’s law</term><emphasis effect="bold">,</emphasis> which concerns the total power of blackbody radiation emitted across the entire spectrum of wavelengths at a given temperature. In <link target-id="CNX_UPhysics_39_01_BBradcurve"/>, this total power is represented by the area under the blackbody radiation curve for a given <emphasis effect="italics">T</emphasis>. As the temperature of a blackbody increases, the total emitted power also increases. Quantitatively, Stefan’s law expresses this relation as</para>
+<caption>In the Orion constellation, the red star Betelgeuse, which usually takes on a yellowish tint, appears as the figure’s right shoulder (in the upper left). The giant blue star on the bottom right is Rigel, which appears as the hunter’s left foot. (credit left: modification of work by Matthew Spinelli, NASA APOD)</caption></figure><para id="fs-id1163713056682">The second experimental relation is <term class="no-emphasis">Stefan’s law</term><emphasis effect="bold">,</emphasis> which concerns the total power of blackbody radiation emitted across the entire spectrum of wavelengths at a given temperature. In <link target-id="CNX_UPhysics_39_01_BBradcurve"/>, this total power is represented by the area under the blackbody radiation curve for a given <emphasis effect="italics">T</emphasis>. As the temperature of a blackbody increases, the total emitted power also increases. Quantitatively, Stefan’s law expresses this relation as</para>
 <note id="fs-id1163713135300" class="equation-callout">
-<equation id="fs-id1163713140501"><m:math xmlns:m=""><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>A</m:mi><m:msup><m:mi>T</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math></equation>
+<equation id="fs-id1163713140501"><m:math><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>A</m:mi><m:msup><m:mi>T</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math></equation>
 </note>
-<para id="fs-id1163713036273">where <m:math xmlns:m=""><m:mi>A</m:mi></m:math> is the surface area of a blackbody, <emphasis effect="italics">T</emphasis> is its temperature (in kelvins), and <m:math xmlns:m=""><m:mi>σ</m:mi></m:math> is the <term id="term-00010">Stefan–Boltzmann constant</term>, <m:math xmlns:m=""><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>5.670</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>W</m:mtext><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Stefan’s law enables us to estimate how much energy a star is radiating by remotely measuring its temperature.</para>
-<example id="fs-id1163713353659"/>
+<para id="fs-id1163713036273">where <m:math><m:mi>A</m:mi></m:math> is the surface area of a blackbody, <emphasis effect="italics">T</emphasis> is its temperature (in kelvins), and <m:math><m:mi>σ</m:mi></m:math> is the <term>Stefan–Boltzmann constant</term>, <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>5.670</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>W</m:mtext><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Stefan’s law enables us to estimate how much energy a star is radiating by remotely measuring its temperature.</para>
+<example id="fs-id1163713353659">
 <para id="fs-id1172099883886"><title>Power Radiated by Stars</title>
-A star such as our Sun will eventually evolve to a “red giant” star and then to a “white dwarf” star. A typical white dwarf is approximately the size of Earth, and its surface temperature is about <m:math xmlns:m=""><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>K</m:mtext><m:mo>.</m:mo></m:mrow></m:math> A typical red giant has a surface temperature of <m:math xmlns:m=""><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>K</m:mtext></m:mrow></m:math> and a radius ~100,000 times larger than that of a white dwarf. What is the average radiated power per unit area and the total power radiated by each of these types of stars? How do they compare?</para>
-<para id="fs-id1172102137157"/><title>Strategy</title>
-If we treat the star as a blackbody, then according to Stefan’s law, the total power that th
+A star such as our Sun will eventually evolve to a “red giant” star and then to a “white dwarf” star. A typical white dwarf is approximately the size of Earth, and its surface temperature is about <m:math><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>K</m:mtext><m:mo>.</m:mo></m:mrow></m:math> A typical red giant has a surface temperature of <m:math><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>K</m:mtext></m:mrow></m:math> and a radius ~100,000 times larger than that of a white dwarf. What is the average radiated power per unit area and the total power radiated by each of these types of stars? How do they compare?</para>
+<para id="fs-id1172102137157"><title>Strategy</title>
+If we treat the star as a blackbody, then according to Stefan’s law, the total power that the star radiates is proportional to the fourth power of its temperature. To find the power radiated per unit area of the surface, we do not need to make any assumptions about the shape of the star because <emphasis effect="italics">P</emphasis>/<emphasis effect="italics">A</emphasis> depends only on temperature. However, to compute the total power, we need to make an assumption that the energy radiates through a spherical surface enclosing the star, so that the surface area is <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">R</emphasis> is its radius.</para>
+<para id="fs-id1172101880812"><title>Solution</title>
+A simple proportion based on Stefan’s law gives</para>
+<equation id="fs-id1163713194787"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow></m:msub><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>giant</m:mtext></m:mrow></m:msub><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>giant</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi><m:msubsup><m:mi>T</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow><m:mn>4</m:mn></m:msubsup></m:mrow><m:mrow><m:mi>σ</m:mi><m:msubsup><m:mi>T</m:mi><m:mrow><m:mtext>giant</m:mtext></m:mrow><m:mn>4</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>giant</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>4820</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1163709673998">The power emitted per unit area by a white dwarf is about 5000 times that the power emitted by a red giant. Denoting this ratio by <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>4.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> <link target-id="fs-id1163713194787"/> gives</para>
+<equation id="fs-id1163713190509"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>giant</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>a</m:mi><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>giant</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>a</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mrow><m:mtext>giant</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>giant</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1163713147054">We see that the total power emitted by a white dwarf is a tiny fraction of the total power emitted by a red giant. Despite its relatively lower temperature, the overall power radiated by a red giant far exceeds that of the white dwarf because the red giant has a much larger surface area. To estimate the absolute value of the emitted power per unit area, we again use Stefan’s law. For the white dwarf, we obtain</para>
+<equation id="fs-id1163713129478"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>σ</m:mi><m:msubsup><m:mi>T</m:mi><m:mrow><m:mtext>dwarf</m:mtext></m:mrow><m:mn>4</m:mn></m:msubsup><m:mo>=</m:mo><m:mn>5.670</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>2.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1163713130269">The analogous result for the red giant is obtained by scaling the result for a white dwarf:</para>
+<equation id="fs-id1163713061316"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>giant</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>giant</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>4.82</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4.56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>≅</m:mo><m:mn>4.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1172101906453"><title>Significance</title>
+To estimate the total power emitted by a white dwarf, in principle, we could use <link target-id="fs-id1163713129478"/>. However, to find its surface area, we need to know the average radius, which is not given in this example. Therefore, the solution stops here. The same is also true for the red giant star.</para>
+</example>
+<note id="fs-id1163713487777" class="check-understanding">
+<exercise id="fs-id1163713099323">
+<problem id="fs-id1163713190150">
+<para id="fs-id1163713131185">An iron poker is being heated. As its temperature rises, the poker begins to glow—first dull red, then bright red, then orange, and then yellow. Use either the blackbody radiation curve or Wien’s law to explain these changes in the color of the glow.</para>
+</problem>
+<solution id="fs-id1163713084393">
+<para id="fs-id1163713061559">The wavelength of the radiation maximum decreases with increasing temperature.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1163713197204" class="check-understanding">
+<exercise id="fs-id1163713289100">
+<problem id="fs-id1163713059258">
+<para id="fs-id1163713035941">Suppose that two stars, <m:math><m:mi>α</m:mi></m:math> and <m:math><m:mi>β</m:mi><m:mo>,</m:mo></m:math> radiate exactly the same total power. If the radius of star <m:math><m:mi>α</m:mi></m:math> is three times that of star <m:math><m:mi>β</m:mi><m:mo>,</m:mo></m:math> what is the ratio of the surface temperatures of these stars? Which one is hotter?</para>
+</problem>
+<solution id="fs-id1163713019593">
+<para id="fs-id1163709680514"><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>α</m:mi></m:msub><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>T</m:mi><m:mi>β</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mrow><m:mo>≅</m:mo><m:mn>0.58</m:mn><m:mo>,</m:mo></m:mrow></m:math> so the star <m:math><m:mi>β</m:mi></m:math> is hotter.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163709735939">The term “blackbody” was coined by Gustav R. Kirchhoff in 1862. The blackbody radiation curve was known experimentally, but its shape eluded physical explanation until the year 1900. The physical model of a blackbody at temperature <emphasis effect="italics">T</emphasis> is that of the electromagnetic waves enclosed in a cavity (see <link target-id="CNX_UPhysics_39_01_blackbody"/>) and at thermodynamic equilibrium with the cavity walls. The waves can exchange energy with the walls. The objective here is to find the energy density distribution among various modes of vibration at various wavelengths (or frequencies). In other words, we want to know how much energy is carried by a single wavelength or a band of wavelengths. Once we know the energy distribution, we can use standard statistical methods (similar to those studied in a previous chapter) to obtain the blackbody radiation curve, Stefan’s law, and Wien’s displacement law. When the physical model is correct, the theoretical predictions should be the same as the experimental curves.</para>
+<para id="fs-id1163709714275">In a classical approach to the blackbody radiation problem, in which radiation is treated as waves (as you have studied in previous chapters), the modes of electromagnetic waves trapped in the cavity are in equilibrium and continually exchange their energies with the cavity walls. There is no physical reason why a wave should do otherwise: Any amount of energy can be exchanged, either by being transferred from the wave to the material in the wall or by being received by the wave from the material in the wall. This classical picture is the basis of the model developed by Lord Rayleigh and, independently, by Sir James Jeans. The result of this classical model for blackbody radiation curves is known as the <emphasis effect="italics">Rayleigh–Jeans law</emphasis>. However, as shown in <link target-id="CNX_UPhysics_39_01_rayleigh"/>, the <term class="no-emphasis">Rayleigh–Jeans law</term> fails to correctly reproduce experimental results. In the limit of short wavelengths, the Rayleigh–Jeans law predicts infinite radiation intensity, which is inconsistent with the experimental results in which radiation intensity has finite values in the ultraviolet region of the spectrum. This divergence between the results of classical theory and experiments, which came to be called the <term class="no-emphasis"><emphasis effect="italics">ultraviolet catastrophe</emphasis></term>, shows how classical physics fails to explain the mechanism of blackbody radiation.</para>
+<figure id="CNX_UPhysics_39_01_rayleigh">
+<media id="fs-id1163713100463" alt="Graph shows the variation of radiation intensity with wavelength. Experimental data depicted as red dots shoots upwards at a wavelength of just under 1 micrometer, climbing to a maximum intensity of around 2 – 3 micrometers, then declining in a curve until almost reaching a baseline at 10. The Rayleigh—Jeans line is shown next to the experimental data line, and is first depicted coming onto the graph at a wavelength of 5 and curving down to almost meet the experimental line around 10.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_01_rayleigh.jpg"/>
+</media>
+<caption>The ultraviolet catastrophe: The Rayleigh–Jeans law does not explain the observed blackbody emission spectrum.</caption>
+</figure>
+<para id="fs-id1163713149978">The blackbody radiation problem was solved in 1900 by Max <term class="no-emphasis">Planck</term>. Planck used the same idea as the Rayleigh–Jeans model in the sense that he treated the electromagnetic waves between the walls inside the cavity classically, and assumed that the radiation is in equilibrium with the cavity walls. The innovative idea that Planck introduced in his model is the assumption that the cavity radiation originates from atomic oscillations inside the cavity walls, and that these oscillations can have only <emphasis effect="italics">discrete</emphasis> values of energy. Therefore, the radiation trapped inside the cavity walls can exchange energy with the walls only in discrete amounts. Planck’s hypothesis of discrete energy values, which he called <emphasis effect="italics">quanta</emphasis>, assumes that the oscillators inside the cavity walls have <term>quantized energies</term>. This was a brand new idea that went beyond the classical physics of the nineteenth century because, as you learned in a previous chapter, in the classical picture, the energy of an oscillator can take on any continuous value. Planck assumed that the energy of an oscillator (<m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math>) can have only discrete, or quantized, values:</para>
+<note id="fs-id1163713413704" class="equation-callout">
+<equation id="fs-id1163713090546"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713188255">In <link target-id="fs-id1163713090546"/>, <emphasis effect="italics">f</emphasis> is the frequency of Planck’s oscillator. The natural number <emphasis effect="italics">n</emphasis> that enumerates these discrete energies is called a <term>quantum number</term>. The physical constant <emphasis effect="italics">h</emphasis> is called <term class="no-emphasis"><emphasis effect="italics">Planck’s constant</emphasis></term>:</para>
+<note id="fs-id1163713284226" class="equation-callout">
+<equation id="fs-id1163713130653"><m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>6.626</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>4.136</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mtext>eV</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713098779">Each discrete energy value corresponds to a <term>quantum state of a Planck oscillator</term>. Quantum states are enumerated by quantum numbers. For example, when Planck’s oscillator is in its first <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> quantum state, its energy is <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>;</m:mo></m:mrow></m:math> when it is in the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> quantum state, its energy is <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>;</m:mo></m:mrow></m:math> when it is in the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> quantum state, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>;</m:mo></m:mrow></m:math> and so on.</para>
+<para id="fs-id1163713265480">Note that <link target-id="fs-id1163713090546"/> shows that there are infinitely many quantum states, which can be represented as a sequence {<emphasis effect="italics">hf</emphasis>, 2<emphasis effect="italics">hf</emphasis>, 3<emphasis effect="italics">hf</emphasis>,…, (<emphasis effect="italics">n</emphasis> – 1)<emphasis effect="italics">hf</emphasis>, <emphasis effect="italics">nhf</emphasis>, (<emphasis effect="italics">n</emphasis> + 1)<emphasis effect="italics">hf</emphasis>,…}. Each two consecutive quantum states in this sequence are separated by an energy jump, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow></m:math> An oscillator in the wall can receive energy from the radiation in the cavity (absorption), or it can give away energy to the radiation in the cavity (emission). The absorption process sends the oscillator to a higher quantum state, and the emission process sends the oscillator to a lower quantum state. Whichever way this exchange of energy goes, the smallest amount of energy that can be exchanged is <emphasis effect="italics">hf</emphasis>. There is no upper limit to how much energy can be exchanged, but whatever is exchanged must be an integer multiple of <emphasis effect="italics">hf</emphasis>. If the energy packet does not have this exact amount, it is neither absorbed nor emitted at the wall of the blackbody.</para>
+<note id="fs-id1163709716872">
+<title>Planck’s Quantum Hypothesis</title>
+<para id="fs-id1163713258401"><term>Planck’s hypothesis of energy quanta</term> states that the amount of energy emitted by the oscillator is carried by the quantum of radiation, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1163713050889" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713195260">Recall that the frequency of electromagnetic radiation is related to its wavelength and to the speed of light by the fundamental relation <m:math><m:mrow><m:mi>f</m:mi><m:mi>λ</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math> This means that we can express <link target-id="fs-id1163713050889"/> equivalently in terms of wavelength <m:math><m:mi>λ</m:mi><m:mo>.</m:mo></m:math> When included in the computation of the energy density of a blackbody, Planck’s hypothesis gives the following theoretical expression for the power intensity of emitted radiation per unit wavelength:</para>
+<note id="fs-id1163713268422" class="equation-callout">
+<equation id="fs-id1163713084913"><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>h</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>λ</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>λ</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713270095">where <emphasis effect="italics">c</emphasis> is the speed of light in vacuum and <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> is Boltzmann’s constant, <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.380</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mtext>J/K</m:mtext><m:mo>.</m:mo></m:mrow></m:math> The theoretical formula expressed in <link target-id="fs-id1163713084913"/> is called <emphasis effect="italics">Planck’s blackbody radiation law</emphasis>. This law is in agreement with the experimental blackbody radiation curve (see <link target-id="CNX_UPhysics_39_01_planck"/>). In addition, Wien’s displacement law and Stefan’s law can both be derived from <link target-id="fs-id1163713084913"/>. To derive Wien’s displacement law, we use differential calculus to find the maximum of the radiation intensity curve <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> To derive Stefan’s law and find the value of the Stefan–Boltzmann constant, we use integral calculus and integrate <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to find the total power radiated by a blackbody at one temperature in the entire spectrum of wavelengths from <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> to <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mi>∞</m:mi><m:mo>.</m:mo></m:mrow></m:math> This derivation is left as an exercise later in this chapter.</para>
+<figure id="CNX_UPhysics_39_01_planck">
+<media id="fs-id1163713263072" alt="Graph shows the variation of radiation intensity with wavelength. Experimental data, red dots, show the maximum around 2 – 3 micrometers. Planck fit, line, perfectly matches experimental data.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_01_planck.jpg"/>
+</media>
+<caption>Planck’s theoretical result (continuous curve) and the experimental blackbody radiation curve (dots).</caption>
+</figure>
+<example id="fs-id1163709711887">
+<para id="fs-id1172102021510"><title>Planck’s Quantum Oscillator</title>
+A quantum oscillator in the cavity wall in <link target-id="CNX_UPhysics_39_01_blackbody"/> is vibrating at a frequency of <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>Hz</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Calculate the spacing between its energy levels.</para>
+<para id="fs-id1172099505887"><title>Strategy</title>
+Energy states of a quantum oscillator are given by <link target-id="fs-id1163713090546"/>. The energy spacing <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> is obtained by finding the energy difference between two adjacent quantum states for quantum numbers <emphasis effect="italics">n</emphasis> + 1 and <emphasis effect="italics">n</emphasis>.</para>
+<para id="fs-id1172099764737"><title>Solution</title>
+We can substitute the given frequency and Planck’s constant directly into the equation:</para>
+<equation id="fs-id1163709757530" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>n</m:mi><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6.626</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>Hz</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172101911712"><title>Significance</title>
+Note that we do not specify what kind of material was used to build the cavity. Here, a quantum oscillator is a theoretical model of an atom or molecule of material in the wall.</para>
+</example>
+<note id="fs-id1163713053706" class="check-understanding">
+<exercise id="fs-id1163713185506">
+<problem id="fs-id1163713430962">
+<para id="fs-id1163713321604">A molecule is vibrating at a frequency of <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>Hz</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What is the smallest spacing between its vibrational energy levels?</para>
+</problem>
+<solution id="fs-id1163713010181">
+<para id="fs-id1163713204771"><m:math><m:mrow><m:mn>3.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1163713010543">
+<para id="fs-id1172099541262"><title>Quantum Theory Applied to a Classical Oscillator</title>
+A 1.0-kg mass oscillates at the end of a spring with a spring constant of 1000 N/m. The amplitude of these oscillations is 0.10 m. Use the concept of quantization to find the energy spacing for this classical oscillator. Is the energy quantization significant for macroscopic systems, such as this oscillator?</para>
+<para id="fs-id1172101919524"><title>Strategy</title>
+We use <link target-id="fs-id1163713050889"/> as though the system were a quantum oscillator, but with the frequency <emphasis effect="italics">f</emphasis> of the mass vibrating on a spring. To evaluate whether or not quantization has a significant effect, we compare the quantum energy spacing with the macroscopic total energy of this classical oscillator.</para>
+<para id="fs-id1172101882454"><title>Solution</title>
+For the spring constant, <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>N/m</m:mtext><m:mo>,</m:mo></m:mrow></m:math> the frequency <emphasis effect="italics">f</emphasis> of the mass, <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mtext>kg</m:mtext><m:mo>,</m:mo></m:mrow></m:math> is</para>
+<equation id="fs-id1163709660207" class="unnumbered"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>N/m</m:mtext></m:mrow><m:mrow><m:mn>1.0</m:mn><m:mtext>kg</m:mtext></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>≃</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1163709646762">The energy quantum that corresponds to this frequency is</para>
+<equation id="fs-id1163709646765" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6.626</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mtext>Hz</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−33</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1163713458582">When vibrations have amplitude <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0.10</m:mn><m:mtext>m</m:mtext><m:mo>,</m:mo></m:mrow></m:math> the energy of oscillations is</para>
+<equation id="fs-id1163713458597" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:msup><m:mi>A</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1000</m:mn><m:mtext>N/m</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.1</m:mn><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mtext>J</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172099626494"><title>Significance</title>
+Thus, for a classical oscillator, we have <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>E</m:mi><m:mo>≈</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> We see that the separation of the energy levels is immeasurably small. Therefore, for all practical purposes, the energy of a classical oscillator takes on continuous values. This is why classical principles may be applied to macroscopic systems encountered in everyday life without loss of accuracy.</para>
+</example>
+<note id="fs-id1163709828314" class="check-understanding">
+<exercise id="fs-id1163709828317">
+<problem id="fs-id1163709828319">
+<para id="fs-id1163709676662">Would the result in <link target-id="fs-id1163713010543"/> be different if the mass were not 1.0 kg but a tiny mass of 1.0 <emphasis effect="italics">µ</emphasis>g, and the amplitude of vibrations were 0.10 <emphasis effect="italics">µ</emphasis>m?</para>
+</problem>
+<solution id="fs-id1163709676682">
+<para id="fs-id1163709676684">No, because then <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>E</m:mi><m:mo>≈</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163709676710">When Planck first published his result, the hypothesis of energy quanta was not taken seriously by the physics community because it did not follow from any established physics theory at that time. It was perceived, even by Planck himself, as a useful mathematical trick that led to a good theoretical “fit” to the experimental curve. This perception was changed in 1905 when Einstein published his explanation of the photoelectric effect, in which he gave Planck’s energy quantum a new meaning: that of a particle of light.</para>
+<section id="fs-id1163709676722" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1163709676729" list-type="bulleted" bullet-style="bullet">
+<item>All bodies radiate energy. The amount of radiation a body emits depends on its temperature. The experimental Wien’s displacement law states that the hotter the body, the shorter the wavelength corresponding to the emission peak in the radiation curve. The experimental Stefan’s law states that the total power of radiation emitted across the entire spectrum of wavelengths at a given temperature is proportional to the fourth power of the Kelvin temperature of the radiating body.</item>
+<item>Absorption and emission of radiation are studied within the model of a blackbody. In the classical approach, the exchange of energy between radiation and cavity walls is continuous. The classical approach does not explain the blackbody radiation curve.</item>
+<item>To explain the blackbody radiation curve, Planck assumed that the exchange of energy between radiation and cavity walls takes place only in discrete quanta of energy. Planck’s hypothesis of energy quanta led to the theoretical Planck’s radiation law, which agrees with the experimental blackbody radiation curve; it also explains Wien’s and Stefan’s laws.</item>
+</list>
+</section>
+<section id="fs-id1163709819728" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1163709819734">
+<problem id="fs-id1163709819736">
+<para id="fs-id1163709819738">Which surface has a higher temperature – the surface of a yellow star or that of a red star?</para>
+</problem>
+<solution id="fs-id1163709819744">
+<para id="fs-id1163709819746">yellow</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709819752">
+<problem id="fs-id1163709819754">
+<para id="fs-id1163709819756">Describe what you would see when looking at a body whose temperature is increased from 1000 K to 1,000,000 K.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709819769">
+<problem id="fs-id1163709819771">
+<para id="fs-id1163709819773">Explain the color changes in a hot body as its temperature is increased.</para>
+</problem>
+<solution id="fs-id1163709819777">
+<para id="fs-id1163709819780">goes from red to violet through the rainbow of colors</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709819785">
+<problem id="fs-id1163709819787">
+<para id="fs-id1163709819789">Speculate as to why UV light causes sunburn, whereas visible light does not.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709819801">
+<problem id="fs-id1163709819803">
+<para id="fs-id1163709819805">Two cavity radiators are constructed with walls made of different metals. At the same temperature, how would their radiation spectra differ?</para>
+</problem>
+<solution id="fs-id1163709819811">
+<para id="fs-id1163709819813">would not differ</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709819818">
+<problem id="fs-id1163709819820">
+<para id="fs-id1163709819822">Discuss why some bodies appear black, other bodies appear red, and still other bodies appear white.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709827902">
+<problem id="fs-id1163709827904">
+<para id="fs-id1163709827907">If everything radiates electromagnetic energy, why can we not see objects at room temperature in a dark room?</para>
+</problem>
+<solution id="fs-id1163709827912">
+<para id="fs-id1163709827914">human eye does not see IR radiation</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709827919">
+<problem id="fs-id1163709827922">
+<para id="fs-id1163709827924">How much does the power radiated by a blackbody increase when its temperature (in K) is tripled?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1163709827936" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1163709827943">
+<problem id="fs-id1163709827945">
+<para id="fs-id1163709827947">A 200-W heater emits a 1.5-µm radiation. (a) What value of the energy quantum does it emit? (b) Assuming that the specific heat of a 4.0-kg body is <m:math><m:mrow><m:mn>0.83</m:mn><m:mrow><m:mrow><m:mtext>kcal</m:mtext></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> how many of these photons must be absorbed by the body to increase its temperature by 2 K? (c) How long does the heating process in (b) take, assuming that all radiation emitted by the heater gets absorbed by the body?</para>
+</problem>
+<solution id="fs-id1163709827977">
+<para id="fs-id1163709827980">a. 0.81 eV; b. <m:math><m:mrow><m:mn>2.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mo>;</m:mo></m:mrow></m:math> c. 2 min 20 sec</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709830086">
+<problem id="fs-id1163709830088">
+<para id="fs-id1163709830090">A 900-W microwave generator in an oven generates energy quanta of frequency 2560 MHz. (a) How many energy quanta does it emit per second? (b) How many energy quanta must be absorbed by a pasta dish placed in the radiation cavity to increase its temperature by 45.0 K? Assume that the dish has a mass of 0.5 kg and that its specific heat is <m:math><m:mrow><m:mn>0.9</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>kcal</m:mtext></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math> (c) Assume that all energy quanta emitted by the generator are absorbed by the pasta dish. How long must we wait until the dish in (b) is ready?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709830155">
+<problem id="fs-id1163709830157">
+<para id="fs-id1163709830160">(a) For what temperature is the peak of blackbody radiation spectrum at 400 nm? (b) If the temperature of a blackbody is 800 K, at what wavelength does it radiate the most energy?</para>
+</problem>
+<solution id="fs-id1163709830165">
+<para id="fs-id1163709830168">a. 7245 K; b. 3.62 μm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709830177">
+<problem id="fs-id1163709830179">
+<para id="fs-id1163709830181">The tungsten elements of incandescent light bulbs operate at 3200 K. At what wavelength does the filament radiate maximum energy?</para></problem>
+</exercise>
+<exercise id="fs-id1163713537702">
+<problem id="fs-id1163713537704">
+<para id="fs-id1163713537706">Interstellar space is filled with radiation of wavelength <m:math><m:mrow><m:mn>970</m:mn><m:mtext>μ</m:mtext><m:mtext>m.</m:mtext></m:mrow></m:math> This radiation is considered to be a remnant of the “big bang.” What is the corresponding blackbody temperature of this radiation?</para>
+</problem>
+<solution id="fs-id1163713537717">
+<para id="fs-id1163713537720">about 3 K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713537725">
+<problem id="fs-id1163713537727">
+<para id="fs-id1163713537729">The radiant energy from the sun reaches its maximum at a wavelength of about 500.0 nm. What is the approximate temperature of the sun’s surface?</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1163709700583">
+<term>absorber</term>
+<meaning id="fs-id1163713194408">any object that absorbs radiation</meaning>
+</definition>
+<definition id="fs-id1163713181127">
+<term>blackbody</term>
+<meaning id="fs-id1163713162382">perfect absorber/emitter</meaning>
+</definition>
+<definition id="fs-id1163713260316">
+<term>blackbody radiation</term>
+<meaning id="fs-id1163709827773">radiation emitted by a blackbody</meaning>
+</definition>
+<definition id="fs-id1163713244844">
+<term>emitter</term>
+<meaning id="fs-id1163713254613">any object that emits radiation</meaning>
+</definition>
+<definition id="fs-id1163713284371">
+<term>Planck’s hypothesis of energy quanta</term>
+<meaning id="fs-id1163709749887">energy exchanges between the radiation and the walls take place only in the form of discrete energy quanta</meaning>
+</definition>
+<definition id="fs-id1163713195295">
+<term>power intensity</term>
+<meaning id="fs-id1163713087536">energy that passes through a unit surface per unit time</meaning>
+</definition>
+<definition id="fs-id1163713071482">
+<term>quantized energies</term>
+<meaning id="fs-id1163713310319">discrete energies; not continuous</meaning>
+</definition>
+<definition id="fs-id1163713275667">
+<term>quantum state of a Planck’s oscillator</term>
+<meaning id="fs-id1163713053248">any mode of vibration of Planck’s oscillator, enumerated by quantum number</meaning>
+</definition>
+<definition id="fs-id1163709682154">
+<term>Stefan–Boltzmann constant</term>
+<meaning id="fs-id1163709827755">physical constant in Stefan’s law</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,412 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Spherical Mirrors</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58528</md:content-id>
+  <md:title>Spherical Mirrors</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para><list>
+<item>Describe image formation by spherical mirrors.</item>
+<item>Use ray diagrams and the mirror equation to calculate the properties of an image in a spherical mirror.</item>
+</list></md:abstract>
+  <md:uuid>5a7e1e39-5107-43cd-a446-23a1ad7ebcc8</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134642963">The image in a plane mirror has the same size as the object, is upright, and is the same distance behind the mirror as the object is in front of the mirror. A <term>curved mirror</term>, on the other hand, can form images that may be larger or smaller than the object and may form either in front of the mirror or behind it. In general, any curved surface will form an image, although some images make be so distorted as to be unrecognizable (think of fun house mirrors).</para>
+<para id="fs-id1167134717884">Because curved mirrors can create such a rich variety of images, they are used in many optical devices that find many uses. We will concentrate on spherical mirrors for the most part, because they are easier to manufacture than mirrors such as parabolic mirrors and so are more common.</para>
+<section id="fs-id1167131169483">
+<title>Curved Mirrors</title>
+<para id="fs-id1167131215665">We can define two general types of spherical mirrors. If the reflecting surface is the outer side of the sphere, the mirror is called a <term>convex mirror</term>. If the inside surface is the reflecting surface, it is called a <term>concave mirror</term>.</para>
+<para id="fs-id1167134566738">Symmetry is one of the major hallmarks of many optical devices, including mirrors and lenses. The symmetry axis of such optical elements is often called the principal axis or <term>optical axis</term>. For a spherical mirror, the optical axis passes through the mirror’s center of curvature and the mirror’s <term>vertex</term>, as shown in <link target-id="CNX_UPhysics_35_02_ConvexCave"/>.</para>
+<figure id="CNX_UPhysics_35_02_ConvexCave">
+<media id="fs-id1167134503852" alt="Figure a shows a circle, divided by two parallel lines, forming two arcs, orange and blue. A line labeled optical axis runs through the center of the circle, intersecting it at the mid-points of both arcs. Each mid-point is labeled vertex. Figure b shows the orange arc, labeled concave mirror, with the reflective surface shown on the inside. Figure c shows the blue arc, labeled convex mirror, with the reflective surface shown on the outside.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_ConvexCave.jpg"/>
+</media>
+<caption>A spherical mirror is formed by cutting out a piece of a sphere and silvering either the inside or outside surface. A concave mirror has silvering on the interior surface (think “cave”), and a convex mirror has silvering on the exterior surface.</caption>
+</figure>
+<para id="fs-id1167134891565">Consider rays that are parallel to the optical axis of a parabolic mirror, as shown in part (a) of <link target-id="CNX_UPhysics_35_02_ConcFocus"/>. Following the law of reflection, these rays are reflected so that they converge at a point, called the <term>focal point</term>. Part (b) of this figure shows a spherical mirror that is large compared with its radius of curvature. For this mirror, the reflected rays do not cross at the same point, so the mirror does not have a well-defined focal point. This is called spherical aberration and results in a blurred image of an extended object. Part (c) shows a spherical mirror that is small compared to its radius of curvature. This mirror is a good approximation of a parabolic mirror, so rays that arrive parallel to the optical axis are reflected to a well-defined focal point. The distance along the optical axis from the mirror to the focal point is called the <term>focal length</term> of the mirror.</para>
+<figure id="CNX_UPhysics_35_02_ConcFocus">
+<media id="fs-id1167134641006" alt="Figure a shows the cross section of a parabolic mirror. Parallel rays reflect from it and converge at a point labeled F, within the parabola. Figure b shows parallel rays reflected from an arc. They are reflected towards various different points close to each other. Figure c shows an arc whose radius of curvature is much bigger compared to that of the arc in figure b. Parallel rays reflect from it and converge at a point labeled F. The distance from point F to the mirror is labeled f.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_ConcFocus.jpg"/>
+</media>
+<caption>(a) Parallel rays reflected from a parabolic mirror cross at a single point called the focal point <emphasis effect="italics">F</emphasis>. (b) Parallel rays reflected from a large spherical mirror do not cross at a common point. (c) If a spherical mirror is small compared with its radius of curvature, it better approximates the central part of a parabolic mirror, so parallel rays essentially cross at a common point. The distance along the optical axis from the mirror to the focal point is the focal length <emphasis effect="italics">f</emphasis> of the mirror.</caption>
+</figure>
+<para id="fs-id1167134648994">A convex spherical mirror also has a focal point, as shown in <link target-id="CNX_UPhysics_35_02_FocConvmir"/>. Incident rays parallel to the optical axis are reflected from the mirror and seem to originate from point <emphasis effect="italics">F</emphasis> at focal length <emphasis effect="italics">f</emphasis> behind the mirror. Thus, the focal point is virtual because no real rays actually pass through it; they only appear to originate from it.</para>
+<figure id="CNX_UPhysics_35_02_FocConvmir">
+<media id="fs-id1167134858739" alt="Figure a shows the cross section of a convex mirror. Parallel rays reflect from it and diverge in different directions. The reflected rays are extended at the back by dotted lines and seem to originate from a single point behind the mirror. This point is labeled F. The distance from this point to the mirror is labeled f. Figure b shows the photograph of a convex mirror reflecting the image of a building. The image is curved and distorted. ">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_FocConvmir.jpg"/>
+</media>
+<caption>(a) Rays reflected by a convex spherical mirror: Incident rays of light parallel to the optical axis are reflected from a convex spherical mirror and seem to originate from a well-defined focal point at focal distance <emphasis effect="italics">f</emphasis> on the opposite side of the mirror. The focal point is virtual because no real rays pass through it. (b) Photograph of a virtual image formed by a convex mirror. (credit b: modification of work by Jenny Downing)</caption>
+</figure>
+<para id="fs-id1167134512410">How does the focal length of a mirror relate to the mirror’s radius of curvature? <link target-id="CNX_UPhysics_35_02_FandR"/> shows a single ray that is reflected by a spherical concave mirror. The incident ray is parallel to the optical axis. The point at which the reflected ray crosses the optical axis is the focal point. Note that all incident rays that are parallel to the optical axis are reflected through the focal point—we only show one ray for simplicity. We want to find how the focal length <emphasis effect="italics">FP</emphasis> (denoted by <emphasis effect="italics">f</emphasis>) relates to the radius of curvature of the mirror, <emphasis effect="italics">R</emphasis>, whose length is <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>F</m:mi><m:mo>+</m:mo><m:mi>F</m:mi><m:mi>P</m:mi></m:mrow></m:math>. The law of reflection tells us that angles <emphasis effect="italics">OXC</emphasis> and <emphasis effect="italics">CXF</emphasis> are the same, and because the incident ray is parallel to the optical axis, angles <emphasis effect="italics">OXC</emphasis> and <emphasis effect="italics">XCP</emphasis> are also the same. Thus, triangle <emphasis effect="italics">CXF</emphasis> is an isosceles triangle with <m:math><m:mrow><m:mi>C</m:mi><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>X</m:mi></m:mrow></m:math>. If the angle <m:math><m:mi>θ</m:mi></m:math> is small (so that <m:math><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math>; this is called the “small-angle approximation”), then <m:math><m:mrow><m:mi>F</m:mi><m:mi>X</m:mi><m:mo>≈</m:mo><m:mi>F</m:mi><m:mi>P</m:mi></m:mrow></m:math> or <m:math><m:mrow><m:mi>C</m:mi><m:mi>F</m:mi><m:mo>≈</m:mo><m:mi>F</m:mi><m:mi>P</m:mi></m:mrow></m:math>. Inserting this into the equation for the radius <emphasis effect="italics">R</emphasis>, we get</para>
+<equation id="fs-id1167131181005" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>F</m:mi><m:mo>+</m:mo><m:mi>F</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>P</m:mi><m:mo>+</m:mo><m:mi>F</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>F</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>f</m:mi></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_35_02_FandR">
+<media id="fs-id1167134920938" alt="Figure shows the diagram of a concave mirror. An incident ray starting from point O hits the mirror at point X. The reflected ray passes through point F. A line CX bisects the angle formed by the incident and reflected rays. This line is labeled R. A line parallel to the incident ray passes through points C and F and hits the mirror at point P. The distance between points F and P is labeled f. Angle OXC, angle CXF and angle XCF are all labeled theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_FandR.jpg"/>
+</media>
+<caption>Reflection in a concave mirror. In the small-angle approximation, a ray that is parallel to the optical axis <emphasis effect="italics">CP</emphasis> is reflected through the focal point <emphasis effect="italics">F</emphasis> of the mirror.</caption>
+</figure>
+<para id="fs-id1167134886257">In other words, in the small-angle approximation, the focal length <emphasis effect="italics">f</emphasis> of a concave spherical mirror is half of its radius of curvature, <emphasis effect="italics">R</emphasis>:</para>
+<note id="fs-id1167131181004" class="equation-callout">
+<equation id="fs-id1167134653456"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>R</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134513215">In this chapter, we assume that the <term>small-angle approximation</term> (also called the paraxial approximation) is always valid. In this approximation, all rays are paraxial rays, which means that they make a small angle with the optical axis and are at a distance much less than the radius of curvature from the optical axis. In this case, their angles <m:math><m:mi>θ</m:mi></m:math> of reflection are small angles, so <m:math><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math>.</para>
+</section>
+<section id="fs-id1167131232010">
+<title>Using Ray Tracing to Locate Images</title>
+<para id="fs-id1167134947600">To find the location of an image formed by a spherical mirror, we first use <term class="no-emphasis">ray tracing</term>, which is the technique of drawing rays and using the law of reflection to determine the reflected rays (later, for lenses, we use the law of refraction to determine refracted rays). Combined with some basic geometry, we can use ray tracing to find the focal point, the image location, and other information about how a mirror manipulates light. In fact, we already used ray tracing above to locate the focal point of spherical mirrors, or the image distance of flat mirrors. To locate the image of an object, you must locate at least two points of the image. Locating each point requires drawing at least two rays from a point on the object and constructing their reflected rays. The point at which the reflected rays intersect, either in real space or in virtual space, is where the corresponding point of the image is located. To make ray tracing easier, we concentrate on four “principal” rays whose reflections are easy to construct.</para>
+<para id="fs-id1167134682218"><link target-id="CNX_UPhysics_35_02_rayTracing"/> shows a concave mirror and a convex mirror, each with an arrow-shaped object in front of it. These are the objects whose images we want to locate by ray tracing. To do so, we draw rays from point <emphasis effect="italics">Q</emphasis> that is on the object but not on the optical axis. We choose to draw our ray from the tip of the object. Principal ray 1 goes from point <emphasis effect="italics">Q</emphasis> and travels parallel to the optical axis. The reflection of this ray must pass through the focal point, as discussed above. Thus, for the concave mirror, the reflection of principal ray 1 goes through focal point <emphasis effect="italics">F</emphasis>, as shown in part (b) of the figure. For the convex mirror, the backward extension of the reflection of principal ray 1 goes through the focal point (i.e., a virtual focus). Principal ray 2 travels first on the line going through the focal point and then is reflected back along a line parallel to the optical axis. Principal ray 3 travels toward the center of curvature of the mirror, so it strikes the mirror at normal incidence and is reflected back along the line from which it came. Finally, principal ray 4 strikes the vertex of the mirror and is reflected symmetrically about the optical axis.</para>
+<figure id="CNX_UPhysics_35_02_rayTracing">
+<media id="fs-id1167131149057" alt="Figure a shows the cross section of a concave mirror. An upward arrow, labeled object, with base P and tip Q is in front of the mirror. A line connects points P, C, F and V, which is on the mirror. A downward arrow with base P prime and tip Q prime is labeled image. It is smaller than the object. P prime lies on the optical axis between points C and F. Four incident rays, labeled 1 through 4 originate from point Q. All four reflected rays intersect at point Q prime. Figure b shows the cross section of a convex mirror. An upward arrow, labeled object with base P and tip Q is in front of the mirror. A line from point P passes through point V on the mirror and point F behind the mirror before connecting to point C. A smaller, upward arrow, labeled image, with base P prime and tip Q prime is shown behind the mirror. P prime lies on the optical axis between points V and F. Four incident rays originate from point Q. The reflected rays are extended at the back with dotted lines and all seem to originate from point Q prime.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_rayTracing.jpg"/>
+</media>
+<caption>The four principal rays shown for both (a) a concave mirror and (b) a convex mirror. The image forms where the rays intersect (for real images) or where their backward extensions intersect (for virtual images).</caption>
+</figure>
+<para id="fs-id1167134512465">The four <term class="no-emphasis">principal rays</term> intersect at point <m:math><m:mrow><m:msup><m:mi>Q</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>, which is where the image of point <emphasis effect="italics">Q</emphasis> is located. To locate point <m:math><m:mrow><m:msup><m:mi>Q</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>, drawing any two of these principle rays would suffice. We are thus free to choose whichever of the principal rays we desire to locate the image. Drawing more than two principal rays is sometimes useful to verify that the ray tracing is correct.</para>
+<para id="fs-id1167134716594">To completely locate the extended image, we need to locate a second point in the image, so that we know how the image is oriented. To do this, we trace the principal rays from the base of the object. In this case, all four principal rays run along the optical axis, reflect from the mirror, and then run back along the optical axis. The difficulty is that, because these rays are collinear, we cannot determine a unique point where they intersect. All we know is that the base of the image is on the optical axis. However, because the mirror is symmetrical from top to bottom, it does not change the vertical orientation of the object. Thus, because the object is vertical, the image must be vertical. Therefore, the image of the base of the object is on the optical axis directly above the image of the tip, as drawn in the figure.</para>
+<para id="fs-id1167134563908">For the concave mirror, the extended image in this case forms between the focal point and the center of curvature of the mirror. It is inverted with respect to the object, is a real image, and is smaller than the object. Were we to move the object closer to or farther from the mirror, the characteristics of the image would change. For example, we show, as a later exercise, that an object placed between a concave mirror and its focal point leads to a virtual image that is upright and larger than the object. For the convex mirror, the extended image forms between the focal point and the mirror. It is upright with respect to the object, is a virtual image, and is smaller than the object.</para>
+</section>
+<section id="fs-id1167134688716">
+<title>Summary of Ray-Tracing Rules</title>
+<para id="fs-id1167134712088">Ray tracing is very useful for mirrors. The rules for ray tracing are summarized here for reference:</para>
+<list id="fs-id1167131152918">
+<item>A ray travelling parallel to the optical axis of a spherical mirror is reflected along a line that goes through the focal point of the mirror (ray 1 in <link target-id="CNX_UPhysics_35_02_rayTracing"/>).</item>
+<item>A ray travelling along a line that goes through the focal point of a spherical mirror is reflected along a line parallel to the optical axis of the mirror (ray 2 in <link target-id="CNX_UPhysics_35_02_rayTracing"/>).</item>
+<item>A ray travelling along a line that goes through the center of curvature of a spherical mirror is reflected back along the same line (ray 3 in <link target-id="CNX_UPhysics_35_02_rayTracing"/>).</item>
+<item>A ray that strikes the vertex of a spherical mirror is reflected symmetrically about the optical axis of the mirror (ray 4 in <link target-id="CNX_UPhysics_35_02_rayTracing"/>).</item>
+</list>
+<para id="fs-id1167131171935">We use ray tracing to illustrate how images are formed by mirrors and to obtain numerical information about optical properties of the mirror. If we assume that a mirror is small compared with its radius of curvature, we can also use algebra and geometry to derive a mirror equation, which we do in the next section. Combining ray tracing with the mirror equation is a good way to analyze mirror systems.</para>
+</section>
+<section id="fs-id1167134895609">
+<title>Image Formation by Reflection—The Mirror Equation</title>
+<para id="fs-id1167134562720">For a plane mirror, we showed that the image formed has the same height and orientation as the object, and it is located at the same distance behind the mirror as the object is in front of the mirror. Although the situation is a bit more complicated for curved mirrors, using geometry leads to simple formulas relating the object and image distances to the focal lengths of concave and convex mirrors.</para>
+<para id="fs-id1167134665963">Consider the object <emphasis effect="italics">OP</emphasis> shown in <link target-id="CNX_UPhysics_35_02_Mathimgcon"/>. The center of curvature of the mirror is labeled <emphasis effect="italics">C</emphasis> and is a distance <emphasis effect="italics">R</emphasis> from the vertex of the mirror, as marked in the figure. The object and image distances are labeled <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>, and the object and image heights are labeled <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>, respectively. Because the angles <m:math><m:mi>ϕ</m:mi></m:math> and <m:math><m:msup><m:mi>ϕ</m:mi><m:mo>′</m:mo></m:msup></m:math> are alternate interior angles, we know that they have the same magnitude. However, they must differ in sign if we measure angles from the optical axis, so <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>ϕ</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>. An analogous scenario holds for the angles <m:math><m:mi>θ</m:mi></m:math> and <m:math><m:msup><m:mi>θ</m:mi><m:mo>′</m:mo></m:msup></m:math>. The law of reflection tells us that they have the same magnitude, but their signs must differ if we measure angles from the optical axis. Thus, <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>θ</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>. Taking the tangent of the angles <m:math><m:mi>θ</m:mi></m:math> and <m:math><m:msup><m:mi>θ</m:mi><m:mo>′</m:mo></m:msup></m:math>, and using the property that <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mo>−</m:mo><m:mi>θ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>, gives us</para>
+<equation id="fs-id1167134519055"><m:math><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>θ</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mtext>−tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable><m:mo stretchy="true">}</m:mo></m:mrow><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_35_02_Mathimgcon">
+<media id="fs-id1167134541425" alt="Figure shows a concave mirror, an object, its inverted image and the optical axis. The height of the object is h subscript o and that of the image is h subscript i. The distances of the object and image from the mirror are d subscript o and d subscript i respectively. Two rays originate from the tip of the object. Ray 1 hits the mirror at the optical axis, forming an angle theta with the axis. The reflected ray forms angle theta prime with the axis and passes through the tip of the image. Ray 2 intersects the axis at point C, forming opposite angles phi and phi prime. It passes through the tip of the image before hitting the mirror.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_Mathimgcon.jpg"/>
+</media>
+<caption>Image formed by a concave mirror.</caption>
+</figure>
+<para id="fs-id1167134909753">Similarly, taking the tangent of <m:math><m:mi>ϕ</m:mi></m:math> and <m:math><m:msup><m:mi>ϕ</m:mi><m:mo>′</m:mo></m:msup></m:math> gives</para>
+<equation id="fs-id1167134509619" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>−</m:mo><m:mi>R</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>ϕ</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mtext>−tan</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:mi>R</m:mi><m:mo>−</m:mo><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable><m:mo stretchy="true">}</m:mo></m:mrow><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>−</m:mo><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:mi>R</m:mi><m:mo>−</m:mo><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>−</m:mo><m:mi>R</m:mi></m:mrow><m:mrow><m:mi>R</m:mi><m:mo>−</m:mo><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134456373">Combining these two results gives</para>
+<equation id="fs-id1167134667380" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>−</m:mo><m:mi>R</m:mi></m:mrow><m:mrow><m:mi>R</m:mi><m:mo>−</m:mo><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134563132">After a little algebra, this becomes</para>
+<equation id="fs-id1167131104972"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131204104">No approximation is required for this result, so it is exact. However, as discussed above, in the small-angle approximation, the focal length of a spherical mirror is one-half the radius of curvature of the mirror, or <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mrow><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math>. Inserting this into <link target-id="fs-id1167134519055"/> gives the <term class="no-emphasis"><emphasis effect="italics">mirror equation</emphasis></term>:</para>
+<note id="fs-id1167134562964" class="equation-callout">
+<equation id="fs-id1167134562965"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134442354">The mirror equation relates the image and object distances to the focal distance and is valid only in the small-angle approximation. Although it was derived for a concave mirror, it also holds for convex mirrors (proving this is left as an exercise). We can extend the mirror equation to the case of a plane mirror by noting that a plane mirror has an infinite radius of curvature. This means the focal point is at infinity, so the mirror equation simplifies to</para>
+<equation id="fs-id1167131256001"><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math></equation>
+<para id="fs-id1167134451072">which is the same as <link target-id="fs-id1167131222406" document="m58527"/> obtained earlier.</para>
+<para id="fs-id1167134885940">Notice that we have been very careful with the signs in deriving the mirror equation. For a plane mirror, the image distance has the opposite sign of the object distance. Also, the real image formed by the concave mirror in <link target-id="CNX_UPhysics_35_02_Mathimgcon"/> is on the opposite side of the optical axis with respect to the object. In this case, the image height should have the opposite sign of the object height. To keep track of the signs of the various quantities in the mirror equation, we now introduce a sign convention.</para>
+<section id="fs-id1167131216794">
+<title>Sign convention for spherical mirrors</title>
+<para id="fs-id1167134890782">Using a consistent sign convention is very important in geometric optics. It assigns positive or negative values for the quantities that characterize an optical system. Understanding the sign convention allows you to describe an image without constructing a ray diagram. This text uses the following sign convention:</para>
+<list id="fs-id1167134519562" list-type="enumerated" number-style="arabic">
+<item>The focal length <emphasis effect="italics">f</emphasis> is positive for concave mirrors and negative for convex mirrors.</item>
+<item>The image distance <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> is positive for real images and negative for virtual images.</item>
+</list>
+<para id="fs-id1167131131437">Notice that rule 1 means that the radius of curvature of a spherical mirror can be positive or negative. What does it mean to have a negative radius of curvature? This means simply that the radius of curvature for a convex mirror is defined to be negative.</para>
+</section>
+<section id="fs-id1167134644895">
+<title>Image magnification</title>
+<para id="fs-id1167134563530">Let’s use the sign convention to further interpret the derivation of the mirror equation. In deriving this equation, we found that the object and image heights are related by</para>
+<equation id="fs-id1167131227749"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134673420">See <link target-id="fs-id1167134519055"/>. Both the object and the image formed by the mirror in <link target-id="CNX_UPhysics_35_02_Mathimgcon"/> are real, so the object and image distances are both positive. The highest point of the object is above the optical axis, so the object height is positive. The image, however, is below the optical axis, so the image height is negative. Thus, this sign convention is consistent with our derivation of the mirror equation.</para>
+<para id="fs-id1167131227676"><link target-id="fs-id1167131227749"/> in fact describes the <term>linear magnification</term> (often simply called “<term>magnification</term>”) of the image in terms of the object and image distances. We thus define the dimensionless magnification <emphasis effect="italics">m</emphasis> as follows:</para><equation id="fs-id1167131254763"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134451842">If <emphasis effect="italics">m</emphasis> is positive, the image is upright, and if <emphasis effect="italics">m</emphasis> is negative, the image is inverted. If <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>m</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the image is larger than the object, and if <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>m</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the image is smaller than the object. With this definition of magnification, we get the following relation between the vertical and horizontal object and image distances:</para>
+<note id="fs-id1167134815876" class="equation-callout">
+<equation id="fs-id1167134815877"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></note>
+<para id="fs-id1167131135132">This is a very useful relation because it lets you obtain the magnification of the image from the object and image distances, which you can obtain from the mirror equation.</para>
+<example id="fs-id1167134760428">
+<para id="fs-id1167131187077"><title>Solar Electric Generating System</title>
+One of the solar technologies used today for generating electricity involves a device (called a parabolic trough or concentrating collector) that concentrates sunlight onto a blackened pipe that contains a fluid. This heated fluid is pumped to a heat exchanger, where the thermal energy is transferred to another system that is used to generate steam and eventually generates electricity through a conventional steam cycle. <link target-id="CNX_UPhysics_35_02_solarRefl"/> shows such a working system in southern California. The real mirror is a parabolic cylinder with its focus located at the pipe; however, we can approximate the mirror as exactly one-quarter of a circular cylinder.</para>
+<figure id="CNX_UPhysics_35_02_solarRefl">
+<media id="fs-id1167131138184" alt="Photograph of several parabolic trough collectors set in a row in an open area.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_solarRefl.jpg"/>
+</media>
+<caption>Parabolic trough collectors are used to generate electricity in southern California. (credit: “kjkolb”/Wikimedia Commons)</caption>
+</figure>
+<list id="fs-id1167131232492" list-type="enumerated" number-style="lower-alpha">
+<item>If we want the rays from the sun to focus at 40.0 cm from the mirror, what is the radius of the mirror?</item>
+<item>What is the amount of sunlight concentrated onto the pipe, per meter of pipe length, assuming the insolation (incident solar radiation) is 900 <m:math><m:mrow><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</item>
+<item>If the fluid-carrying pipe has a 2.00-cm diameter, what is the temperature increase of the fluid per meter of pipe over a period of 1 minute? Assume that all solar radiation incident on the reflector is absorbed by the pipe, and that the fluid is mineral oil.</item>
+</list>
+<para id="fs-id1167131232493"><title>Strategy</title>
+First identify the physical principles involved. Part (a) is related to the optics of spherical mirrors. Part (b) involves a little math, primarily geometry. Part (c) requires an understanding of heat and density.</para>
+<para id="fs-id1167134512930"><title>Solution</title></para>
+<list id="fs-id1167134512931" list-type="enumerated" number-style="lower-alpha"><item>The sun is the object, so the object distance is essentially infinity: <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>∞</m:mtext></m:mrow></m:math>. The desired image distance is <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>40.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>. We use the mirror equation to find the focal length of the mirror:
+<equation id="fs-id1167134458257" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mtext>∞</m:mtext></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>40.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>40.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+Thus, the radius of the mirror is <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>80.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>.</item>
+<item>The insolation is 900 <m:math><m:mrow><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. You must find the cross-sectional area <emphasis effect="italics">A</emphasis> of the concave mirror, since the power delivered is 900 <m:math><m:mrow><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>A</m:mi></m:mrow></m:math>. The mirror in this case is estimated as a quarter-section of a cylinder, so the area for a length <emphasis effect="italics">L</emphasis> of the mirror is <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>L</m:mi></m:mrow></m:math>. The area for a length of 1.00 m is then
+<equation id="fs-id1167131119291" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>π</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>3.14</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>0.800</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.26</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+The insolation on the 1.00-m length of pipe is then
+<equation id="fs-id1167134567228" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>1.26</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1130</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>The increase in temperature is given by <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>. The mass <emphasis effect="italics">m</emphasis> of the mineral oil in the one-meter section of pipe is
+<equation id="fs-id1167131113937" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>8.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.14</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.0100</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0.251</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+Therefore, the increase in temperature in one minute is 
+<equation id="fs-id1167134565394" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>1130</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>60.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>0.251</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>1670</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>kg/°C</m:mtext></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>162</m:mn><m:mtext>°C</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list><para id="fs-id1167134528565"><title>Significance</title>
+An array of such pipes in the California desert can provide a thermal output of 250 MW on a sunny day, with fluids reaching temperatures as high as <m:math><m:mrow><m:mn>400</m:mn><m:mtext>°C</m:mtext></m:mrow></m:math>. We are considering only one meter of pipe here and ignoring heat losses along the pipe.</para>
+</example>
+<example id="fs-id1167134886540">
+<para id="fs-id1167134992657"><title>Image in a Convex Mirror</title>
+A keratometer is a device used to measure the curvature of the cornea of the eye, particularly for fitting contact lenses. Light is reflected from the cornea, which acts like a convex mirror, and the keratometer measures the magnification of the image. The smaller the magnification, the smaller the radius of curvature of the cornea. If the light source is 12 cm from the cornea and the image magnification is 0.032, what is the radius of curvature of the cornea?</para>
+<para id="fs-id1167134956406"><title>Strategy</title>
+If you find the focal length of the convex mirror formed by the cornea, then you know its radius of curvature (it’s twice the focal length). The object distance is <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> and the magnification is <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0.032</m:mn></m:mrow></m:math>. First find the image distance <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> and then solve for the focal length <emphasis effect="italics">f</emphasis>.</para>
+<para id="fs-id1167134507580"><title>Solution</title>
+Start with the equation for magnification, <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mrow></m:mrow></m:math>. Solving for <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> and inserting the given values yields</para>
+<equation id="fs-id1167134759652" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>0.032</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−0.384</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167134885825">where we retained an extra significant figure because this is an intermediate step in the calculation. Solve the mirror equation for the focal length <emphasis effect="italics">f</emphasis> and insert the known values for the object and image distances. The result is</para>
+<equation id="fs-id1167134681574" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>−0.384</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>−0.40</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167131184581">The radius of curvature is twice the focal length, so</para>
+<equation id="fs-id1167134822524" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>−0.80</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167134946506"><title>Significance</title>
+The focal length is negative, so the focus is virtual, as expected for a concave mirror and a real object. The radius of curvature found here is reasonable for a cornea. The distance from cornea to retina in an adult eye is about 2.0 cm. In practice, corneas may not be spherical, which complicates the job of fitting contact lenses. Note that the image distance here is negative, consistent with the fact that the image is behind the mirror. Thus, the image is virtual because no rays actually pass through it. In the problems and exercises, you will show that, for a fixed object distance, a smaller radius of curvature corresponds to a smaller the magnification.</para>
+</example>
+<note id="fs-id1167131180121" class="problem-solving">
+<title>Spherical Mirrors</title>
+<para id="fs-id1167131121234">Step 1. First make sure that image formation by a spherical mirror is involved.</para>
+<para id="fs-id1167131217365">Step 2. Determine whether ray tracing, the mirror equation, or both are required. A sketch is very useful even if ray tracing is not specifically required by the problem. Write symbols and known values on the sketch.</para>
+<para id="fs-id1167131135117">Step 3. Identify exactly what needs to be determined in the problem (identify the unknowns).</para>
+<para id="fs-id1167131255919">Step 4. Make a list of what is given or can be inferred from the problem as stated (identify the knowns).</para>
+<para id="fs-id1167134651957">Step 5. If ray tracing is required, use the ray-tracing rules listed near the beginning of this section.</para>
+<para id="fs-id1167131086069">Step 6. Most quantitative problems require using the mirror equation. Use the examples as guides for using the mirror equation.</para>
+<para id="fs-id1167131255733">Step 7. Check to see whether the answer makes sense. Do the signs of object distance, image distance, and focal length correspond with what is expected from ray tracing? Is the sign of the magnification correct? Are the object and image distances reasonable?</para>
+</note>
+</section>
+</section>
+<section id="fs-id1167134507752">
+<title>Departure from the Small-Angle Approximation</title>
+<para id="fs-id1167134666147">The small-angle approximation is a cornerstone of the above discussion of image formation by a spherical mirror. When this approximation is violated, then the image created by a spherical mirror becomes distorted. Such distortion is called <term>aberration</term>. Here we briefly discuss two specific types of aberrations: spherical aberration and coma.</para>
+<section id="fs-id1167134678379">
+<title>Spherical aberration</title>
+<para id="fs-id1167134645135">Consider a broad beam of parallel rays impinging on a spherical mirror, as shown in <link target-id="CNX_UPhysics_35_02_SphAber"/>.</para>
+<figure id="CNX_UPhysics_35_02_SphAber">
+<media id="fs-id1167134661258" alt="Figure a shows the cross section of a concave mirror with several rays parallel to the optical axis incident on it. The reflected rays converge at different points on the optical axis. The rays reflected from points further away from the axis converge closer to the mirror. Figure b shows the cross section of a concave mirror with several rays incident on it. These rays are parallel to each other but angled to the axis. A line labeled focal plane is perpendicular to the optical axis and a slight distance in front of the mirror. Reflected rays hit this line at different points. The front view of the focal plane is shown as a circle, with the label blurred focus.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_SphAber.jpg"/>
+</media>
+<caption>(a) With spherical aberration, the rays that are farther from the optical axis and the rays that are closer to the optical axis are focused at different points. Notice that the aberration gets worse for rays farther from the optical axis. (b) For comatic aberration, parallel rays that are not parallel to the optical axis are focused at different heights and at different focal lengths, so the image contains a “tail” like a comet (which is “coma” in Latin). Note that the colored rays are only to facilitate viewing; the colors do not indicate the color of the light.</caption>
+</figure>
+<para id="fs-id1167134884716">The farther from the optical axis the rays strike, the worse the spherical mirror approximates a parabolic mirror. Thus, these rays are not focused at the same point as rays that are near the optical axis, as shown in the figure. Because of <term>spherical aberration</term>, the image of an extended object in a spherical mirror will be blurred. Spherical aberrations are characteristic of the mirrors and lenses that we consider in the following section of this chapter (more sophisticated mirrors and lenses are needed to eliminate spherical aberrations).</para>
+</section>
+<section id="fs-id1167134950782">
+<title>Coma or comatic aberration</title>
+<para id="fs-id1167134638220"><emphasis effect="bold">Coma</emphasis> is similar to spherical aberration, but arises when the incoming rays are not parallel to the optical axis, as shown in part (b) of <link target-id="CNX_UPhysics_35_02_SphAber"/>. Recall that the small-angle approximation holds for spherical mirrors that are small compared to their radius. In this case, spherical mirrors are good approximations of parabolic mirrors. Parabolic mirrors focus all rays that are parallel to the optical axis at the focal point. However, parallel rays that are <emphasis effect="italics">not</emphasis> parallel to the optical axis are focused at different heights and at different focal lengths, as show in part (b) of <link target-id="CNX_UPhysics_35_02_SphAber"/>. Because a spherical mirror is symmetric about the optical axis, the various colored rays in this figure create circles of the corresponding color on the focal plane.</para>
+<para id="fs-id1167134966743">Although a spherical mirror is shown in part (b) of <link target-id="CNX_UPhysics_35_02_SphAber"/>, comatic aberration occurs also for parabolic mirrors—it does not result from a breakdown in the small-angle approximation. Spherical aberration, however, occurs only for spherical mirrors and is a result of a breakdown in the small-angle approximation. We will discuss both <term class="no-emphasis">coma</term> and spherical aberration later in this chapter, in connection with telescopes.</para>
+</section>
+</section>
+<section id="fs-id1167134655981" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167131152982" list-type="bulleted" bullet-style="bullet">
+<item>Spherical mirrors may be concave (converging) or convex (diverging).</item>
+<item>The focal length of a spherical mirror is one-half of its radius of curvature: <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>.</item>
+<item>The mirror equation and ray tracing allow you to give a complete description of an image formed by a spherical mirror.</item>
+<item>Spherical aberration occurs for spherical mirrors but not parabolic mirrors; comatic aberration occurs for both types of mirrors.</item>
+</list>
+</section>
+<section id="fs-id1167134873522" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167131105257">
+<problem id="fs-id1167134653213">
+<para id="fs-id1167134568622">At what distance is an image always located: at <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>,</m:mo><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> or <emphasis effect="italics">f</emphasis> ?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131187794">
+<problem id="fs-id1167134649910">
+<para id="fs-id1167134648123">Under what circumstances will an image be located at the focal point of a spherical lens or mirror?</para>
+</problem>
+<solution id="fs-id1167131216135">
+<para id="fs-id1167134542354">when the object is at infinity; see the mirror equation</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134816269">
+<problem id="fs-id1167134960281">
+<para id="fs-id1167134716414">What is meant by a negative magnification? What is meant by a magnification whose absolute value is less than one?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134451404">
+<problem id="fs-id1167131112162">
+<para id="fs-id1167131131740">Can an image be larger than the object even though its magnification is negative? Explain.</para>
+</problem>
+<solution id="fs-id1167134651996">
+<para id="fs-id1167131131471">Yes, negative magnification simply means that the image is upside down; this does not prevent the image from being larger than the object. For instance, for a concave mirror, if distance to the object is larger than one focal distance but smaller than two focal distances the image will be inverted and magnified.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167134682344" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167134872383">
+<problem id="fs-id1167134513679">
+<para id="fs-id1167134716682">The following figure shows a light bulb between two spherical mirrors. One mirror produces a beam of light with parallel rays; the other keeps light from escaping without being put into the beam. Where is the filament of the light in relation to the focal point or radius of curvature of each mirror?</para>
+<media id="fs-id1167131273515" alt="A light bulb is shown in the centre, with a small concave mirror to its left and a bigger one to its right. The light rays originating from the bulb that hit the smaller mirror are reflected back to the bulb. Light rays from the bulb that hit the bigger mirror are reflected. These reflected rays are parallel and travel towards the left.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_illum.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131114436">
+<para id="fs-id1167134674757">It is in the focal point of the big mirror and at the center of curvature of the small mirror.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134654496">
+<problem id="fs-id1167134759725">
+<para id="fs-id1167134634426">Why are diverging mirrors often used for rearview mirrors in vehicles? What is the main disadvantage of using such a mirror compared with a flat one?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134960648">
+<problem id="fs-id1167134648068">
+<para id="fs-id1167134508408">Some telephoto cameras use a mirror rather than a lens. What radius of curvature mirror is needed to replace a 800 mm-focal length telephoto lens?</para>
+</problem>
+<solution id="fs-id1167131143574">
+<para id="fs-id1167131182377"><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>R</m:mi><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>R</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>1.60</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134627352">
+<problem id="fs-id1167134860233">
+<para id="fs-id1167134937240">Calculate the focal length of a mirror formed by the shiny back of a spoon that has a 3.00 cm radius of curvature.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131272091">
+<problem id="fs-id1167131233923">
+<para id="fs-id1167131233925">Electric room heaters use a concave mirror to reflect infrared (IR) radiation from hot coils. Note that IR radiation follows the same law of reflection as visible light. Given that the mirror has a radius of curvature of 50.0 cm and produces an image of the coils 3.00 m away from the mirror, where are the coils?</para>
+</problem>
+<solution id="fs-id1167131233932">
+<para id="fs-id1167131233934"><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mn>27.3</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131234003">
+<problem id="fs-id1167131234005">
+<para id="fs-id1167134960417">Find the magnification of the heater element in the previous problem. Note that its large magnitude helps spread out the reflected energy.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131257414">
+<problem id="fs-id1167131257416">
+<para id="fs-id1167131257370">What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person’s face is 12.0 cm away? Explicitly show how you follow the steps in the <link target-id="fs-id1167131180121"/>.</para>
+</problem>
+<solution id="fs-id1167131257379">
+<para id="fs-id1167131257381">Step 1: Image formation by a mirror is involved.<newline/>
+Step 2: Draw the problem set up when possible.<newline/>
+Step 3: Use thin-lens equations to solve this problem.<newline/>
+Step 4: Find f.<newline/>
+Step 5: Given: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1.50</m:mn><m:mo>,</m:mo><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0.120</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.<newline/>
+Step 6: No ray tracing is needed.<newline/>
+Step 7: Using <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−0.180</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/></m:mrow></m:math>. Then, <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>0.360</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.<newline/>
+Step 8: The image is virtual because the image distance is negative. The focal length is positive, so the mirror is concave.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131222971">
+<problem id="fs-id1167131222974">
+<para id="fs-id1167131222976">A shopper standing 3.00 m from a convex security mirror sees his image with a magnification of 0.250. (a) Where is his image? (b) What is the focal length of the mirror? (c) What is its radius of curvature?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131210566">
+<problem id="fs-id1167131210569">
+<para id="fs-id1167131210571">An object 1.50 cm high is held 3.00 cm from a person’s cornea, and its reflected image is measured to be 0.167 cm high. (a) What is the magnification? (b) Where is the image? (c) Find the radius of curvature of the convex mirror formed by the cornea. (Note that this technique is used by optometrists to measure the curvature of the cornea for contact lens fitting. The instrument used is called a keratometer, or curve measurer.)</para>
+</problem>
+<solution id="fs-id1167131182075">
+<para id="fs-id1167131187843">a. for a convex mirror <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo stretchy="false">⇒</m:mo><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>0.111</m:mn></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−0.334</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> (behind the cornea);<newline/>
+c. <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>−0.376</m:mn><m:mspace width="0.2em"/><m:mtext>cm, so that</m:mtext><m:mspace width="0.2em"/><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>−0.752</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134713889">
+<problem id="fs-id1167134713891">
+<para id="fs-id1167134713893">Ray tracing for a flat mirror shows that the image is located a distance behind the mirror equal to the distance of the object from the mirror. This is stated as <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>, since this is a negative image distance (it is a virtual image). What is the focal length of a flat mirror?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131198995">
+<problem id="fs-id1167131198997">
+<para id="fs-id1167131198999">Show that, for a flat mirror, <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>, given that the image is the same distance behind the mirror as the distance of the object from the mirror.</para>
+</problem>
+<solution id="fs-id1167131246710">
+<para id="fs-id1167131246712"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mfrac><m:mrow><m:mo>−</m:mo><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131254534">
+<problem id="fs-id1167131254536">
+<para id="fs-id1167131254538">Use the law of reflection to prove that the focal length of a mirror is half its radius of curvature. That is, prove that <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mrow><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math>. Note this is true for a spherical mirror only if its diameter is small compared with its radius of curvature.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131257731">
+<problem id="fs-id1167131188170">
+<para id="fs-id1167131188172">Referring to the electric room heater considered in problem 5, calculate the intensity of IR radiation in <m:math><m:mrow><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> projected by the concave mirror on a person 3.00 m away. Assume that the heating element radiates 1500 W and has an area of <m:math><m:mrow><m:mn>100</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, and that half of the radiated power is reflected and focused by the mirror.</para>
+</problem>
+<solution id="fs-id1167131264415">
+<para id="fs-id1167131268404">
+<media id="fs-id1167131264337" alt="Figure shows the cross section of a concave mirror. Two rays originating from a point strike the mirror and are reflected. The distance of the point from the mirror is labeled d subscript o = 0.273 m and d subscript i = 3.00 m.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_Prob17ans_img.jpg"/>
+</media><newline/>
+<m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−11.0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>A</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mn>0.110</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>6.82</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>kW/m</m:mtext><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131239457">
+<problem id="fs-id1167131239460">
+<para id="fs-id1167131239462">Two mirrors are inclined at an angle of 60<m:math><m:mtext>°</m:mtext></m:math> and an object is placed at a point that is equidistant from the two mirrors. Use a protractor to draw rays accurately and locate all images. You may have to draw several figures so that that rays for different images do not clutter your drawing.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131257612">
+<problem id="fs-id1167131257614">
+<para id="fs-id1167131257616">Two parallel mirrors are facing each other and are separated by a distance of 3 cm. A point object is placed between the mirrors 1 cm from one of the mirrors. Find the coordinates of all the images.</para>
+</problem>
+<solution id="fs-id1167131188289">
+<para id="fs-id1167132235914"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mtext>(</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:msub><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mtext>(</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>with</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167131178003">
+<term>aberration</term>
+<meaning id="fs-id1167131178008">distortion in an image caused by departures from the small-angle approximation</meaning>
+</definition>
+<definition id="fs-id1167131182507">
+<term>coma</term>
+<meaning id="fs-id1167131182512">similar to spherical aberration, but arises when the incoming rays are not parallel to the optical axis</meaning>
+</definition>
+<definition id="fs-id1167131182516">
+<term>concave mirror</term>
+<meaning id="fs-id1167131122367">spherical mirror with its reflecting surface on the inner side of the sphere; the mirror forms a “cave”</meaning>
+</definition>
+<definition id="fs-id1167131122373">
+<term>convex mirror</term>
+<meaning id="fs-id1167131216325">spherical mirror with its reflecting surface on the outer side of the sphere</meaning>
+</definition>
+<definition id="fs-id1167131216329">
+<term>curved mirror</term>
+<meaning id="fs-id1167131216334">mirror formed by a curved surface, such as spherical, elliptical, or parabolic</meaning>
+</definition>
+<definition id="fs-id1167131272175">
+<term>focal length</term>
+<meaning id="fs-id1167131272180">distance along the optical axis from the focal point to the optical element that focuses the light rays</meaning>
+</definition>
+<definition id="fs-id1167131272185">
+<term>focal point</term>
+<meaning id="fs-id1167131234069">for a converging lens or mirror, the point at which converging light rays cross; for a diverging lens or mirror, the point from which diverging light rays appear to originate</meaning>
+</definition>
+<definition id="fs-id1167131234075">
+<term>linear magnification</term>
+<meaning id="fs-id1167131236221">ratio of image height to object height</meaning>
+</definition>
+<definition id="fs-id1167134947954">
+<term>magnification</term>
+<meaning id="fs-id1167134671370">ratio of image size to object size</meaning>
+</definition>
+<definition id="fs-id1167131236225">
+<term>optical axis</term>
+<meaning id="fs-id1167131122407">axis about which the mirror is rotationally symmetric; you can rotate the mirror about this axis without changing anything</meaning>
+</definition>
+<definition id="fs-id1167131122413">
+<term>small-angle approximation</term>
+<meaning id="fs-id1167131263359">approximation that is valid when the size of a spherical mirror is significantly smaller than the mirror’s radius; in this approximation, spherical aberration is negligible and the mirror has a well-defined focal point</meaning>
+</definition>
+<definition id="fs-id1167131263369">
+<term>spherical aberration</term>
+<meaning id="fs-id1167131138210">distortion in the image formed by a spherical mirror when rays are not all focused at the same point</meaning>
+</definition>
+<definition id="fs-id1167131138215">
+<term>vertex</term>
+<meaning id="fs-id1167131138220">point where the mirror’s surface intersects with the optical axis</meaning>
+</definition>
+</glossary>
+</document>

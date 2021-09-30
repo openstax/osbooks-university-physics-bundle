@@ -1,0 +1,449 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Transformers</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58494</md:content-id>
+  <md:title>Transformers</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Explain why power plants transmit electricity at high voltages and low currents and how they do this</item>
+<item>Develop relationships among current, voltage, and the number of windings in step-up and step-down transformers</item></list></md:abstract>
+  <md:uuid>cfbd18c1-599a-4186-b44b-ab3abf973de2</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101805352">Although ac electric power is produced at relatively low voltages, it is sent through <term class="no-emphasis">transmission lines</term> at very high voltages (as high as 500 kV). The same power can be transmitted at different voltages because power is the product <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> (For simplicity, we ignore the phase factor <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math> A particular power requirement can therefore be met with a low voltage and a high current or with a high voltage and a low current. The advantage of the high-voltage/low-current choice is that it results in lower <m:math><m:mrow><m:msubsup><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mi>R</m:mi></m:mrow></m:math> ohmic losses in the transmission lines, which can be significant in lines that are many kilometers long (<link target-id="CNX_UPhysics_32_06_StepUpDown"/>).</para>
+<figure id="CNX_UPhysics_32_06_StepUpDown">
+<media id="fs-id1172102128913" alt="Figure shows a power plant on the left. This is connected to a step up transformer through a 12 kV line. The transformer is connected to a high voltage transmission line of 400 kV. This is connected to a step down transformer at a substation. From here, a 13 kV line goes to a step down transformer on an electric pole. From here a 240 V line goes to a house.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_StepUpDown.jpg"/>
+</media>
+<caption>The rms voltage from a power plant eventually needs to be stepped down from 12 kV to 240 V so that it can be safely introduced into a home. A high-voltage transmission line allows a low current to be transmitted via a substation over long distances.</caption>
+</figure>
+<para id="fs-id1172101665421">Typically, the alternating emfs produced at power plants are “stepped up” to very high voltages before being transmitted through power lines; then, they must be “stepped down” to relatively safe values (110 or 220 V rms) before they are introduced into homes. The device that transforms voltages from one value to another using induction is the <term>transformer</term> (<link target-id="CNX_UPhysics_32_06_Twork"/>).</para>
+<figure id="CNX_UPhysics_32_06_Twork">
+<media id="fs-id1172101707104" alt="Photograph of transformers on an electric pole. There are three transformers, each encased in a cylindrical container.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_Twork.jpg"/>
+</media>
+<caption>Transformers are used to step down the high voltages in transmission lines to the 110 to 220 V used in homes. (credit: modification of work by “Fortyseven”/Flickr)</caption>
+</figure>
+<para id="fs-id1172101707700">As <link target-id="CNX_UPhysics_32_06_Transformr"/> illustrates, a transformer basically consists of two separated coils, or windings, wrapped around a soft iron core. The primary winding has <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math> loops, or turns, and is connected to an alternating voltage <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> The secondary winding has <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> turns and is connected to a load resistor <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> We assume the ideal case for which all magnetic field lines are confined to the core so that the same magnetic flux permeates each turn of both the primary and the secondary windings. We also neglect energy losses to magnetic hysteresis, to ohmic heating in the windings, and to ohmic heating of the induced eddy currents in the core. A good transformer can have losses as low as 1% of the transmitted power, so this is not a bad assumption.</para>
+<figure id="CNX_UPhysics_32_06_Transformr">
+<media id="fs-id1172101659335" alt="Figure shows a soft iron core in the center. This is in the form of a rectangular ring. There are windings on its left arm, connected to a voltage source. These are labeled N subscript p turns. The current through them is i subscript p parentheses t parentheses. The voltage across two ends of the windings is v subscript p parentheses t parentheses. The windings on the right arm of the core are connected to a resistor R subscript s. The windings are labeled N subscript s turns. These are more in number than the windings on the left arm. The current in the right circuit is i subscript s parentheses t parentheses. The voltage across the windings is v subscript s parentheses t parentheses. The current in the left circuit flows into the windings from the top. The current in the right circuit flows out of the winding from the top.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_Transformr.jpg"/>
+</media>
+<caption>A step-up transformer (more turns in the secondary winding than in the primary winding). The two windings are wrapped around a soft iron core.</caption>
+</figure>
+<para id="fs-id1172101971593">To analyze the transformer circuit, we first consider the primary winding. The input voltage <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is equal to the potential difference induced across the primary winding. From Faraday’s law, the induced potential difference is <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mtext>Φ</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mtext>Φ</m:mtext></m:math> is the flux through one turn of the primary winding. Thus,</para>
+<equation id="fs-id1172101643370" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub><m:mfrac><m:mrow><m:mi>d</m:mi><m:mtext>Φ</m:mtext></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101659213">Similarly, the output voltage <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> delivered to the load resistor must equal the potential difference induced across the secondary winding. Since the transformer is ideal, the flux through every turn of the secondary winding is also <m:math><m:mrow><m:mi>Φ</m:mi><m:mo>,</m:mo></m:mrow></m:math> and</para>
+<equation id="fs-id1172101688829" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub><m:mfrac><m:mrow><m:mi>d</m:mi><m:mtext>Φ</m:mtext></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101753574">Combining the last two equations, we have</para>
+<equation id="fs-id1172101611322"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101789907">Hence, with appropriate values for <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> the input voltage <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> may be “stepped up” <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> or “stepped down” (<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math>) to <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> the output voltage. This is often abbreviated as the <term>transformer equation</term>,</para>
+<note id="fs-id1172102118314" class="equation-callout">
+<equation id="fs-id1172102001994"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172102138569">which shows that the ratio of the secondary to primary voltages in a transformer equals the ratio of the number of turns in their windings. For a <term>step-up transformer</term>, which increases voltage and decreases current, this ratio is greater than one; for a <term>step-down transformer</term>, which decreases voltage and increases current, this ratio is less than one.</para>
+<para id="fs-id1172101895240">From the law of energy conservation, the power introduced at any instant by <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to the primary winding must be equal to the power dissipated in the resistor of the secondary circuit; thus,</para>
+<equation id="fs-id1172102041085" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>i</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>i</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101615513">When combined with <link target-id="fs-id1172101611322"/>, this gives</para>
+<equation id="fs-id1172101910780"><m:math><m:mrow><m:msub><m:mi>i</m:mi><m:mtext>S</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>i</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101662758">If the voltage is stepped up, the current is stepped down, and vice versa.</para>
+<para id="fs-id1172101762756">Finally, we can use <m:math><m:mrow><m:msub><m:mi>i</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mrow></m:mrow></m:math>, along with <link target-id="fs-id1172101611322"/> and <link target-id="fs-id1172101910780"/>, to obtain</para>
+<equation id="fs-id1172101759086" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>i</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>[</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101988631">which tells us that the input voltage <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> “sees” not a resistance <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> but rather a resistance</para>
+<equation id="fs-id1172101971584" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102044150">Our analysis has been based on instantaneous values of voltage and current. However, the resulting equations are not limited to instantaneous values; they hold also for maximum and rms values.</para>
+<example id="fs-id1172101793315">
+<para id="fs-id1172101695735"><title>A Step-Down Transformer</title>
+A transformer on a utility pole steps the rms voltage down from 12 kV to 240 V. (a) What is the ratio of the number of secondary turns to the number of primary turns? (b) If the input current to the transformer is 2.0 A, what is the output current? (c) Determine the power loss in the transmission line.</para>
+<para id="fs-id1172101754077"><title>Strategy</title>
+The number of turns related to the voltages is found from <link target-id="fs-id1172101611322"/>. The output current is calculated using <link target-id="fs-id1172101910780"/>.</para>
+<para id="fs-id1172101774445"><title>Solution</title></para>
+<list id="fs-id1172101663804" list-type="enumerated" number-style="lower-alpha">
+<item>Using <link target-id="fs-id1172101611322"/> with rms values <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> we have
+<equation id="fs-id1172102028016" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>240</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>50</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+so the primary winding has 50 times the number of turns in the secondary winding.</item>
+<item>From <link target-id="fs-id1172101910780"/>, the output rms current <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> is found using the transformer equation with current<newline/>
+<note id="fs-id1172101756640" class="equation-callout">
+<equation id="fs-id1172101761366"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>I</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math></equation>
+</note><newline/>
+such that
+<equation id="fs-id1172102016168" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>I</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>50</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>The power loss in the transmission line is calculated to be
+<equation id="fs-id1172101615029" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>loss</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msubsup><m:mi>I</m:mi><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msubsup><m:mi>R</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6000</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>24.000</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>If there were no transformer, the power would have to be sent at 240 V to work for these houses, and the power loss would be
+<equation id="fs-id1172101999113" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>loss</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msubsup><m:mi>I</m:mi><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msubsup><m:mi>R</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+Therefore, when power needs to be transmitted, we want to avoid power loss. Thus, lines are sent with high voltages and low currents and adjusted with a transformer before power is sent into homes.</item>
+</list>
+<para id="fs-id1172101664339"><title>Significance</title>
+This application of a step-down transformer allows a home that uses 240-V outlets to have 100 A available to draw upon. This can power many devices in the home.</para>
+</example>
+<note id="fs-id1172102052944" class="check-understanding">
+<exercise id="fs-id1172102052196">
+<problem id="fs-id1172101796866">
+<para id="fs-id1172102021662"><emphasis effect="bold">Check Your Understanding</emphasis> A transformer steps the line voltage down from 110 to 9.0 V so that a current of 0.50 A can be delivered to a doorbell. (a) What is the ratio of the number of turns in the primary and secondary windings? (b) What is the current in the primary winding? (c) What is the resistance seen by the 110-V source?</para>
+</problem>
+<solution id="fs-id1172101804653">
+<para id="fs-id1172101927755">a. 12:1; b. 0.042 A; c. <m:math><m:mrow><m:mn>2.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1172102023735" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1172101615214" list-type="bulleted" bullet-style="bullet">
+<item>Power plants transmit high voltages at low currents to achieve lower ohmic losses in their many kilometers of transmission lines.</item>
+<item>Transformers use induction to transform voltages from one value to another.</item>
+<item>For a transformer, the voltages across the primary and secondary coils, or windings, are related by the transformer equation.</item>
+<item>The currents in the primary and secondary windings are related by the number of primary and secondary loops, or turns, in the windings of the transformer.</item>
+<item>A step-up transformer increases voltage and decreases current, whereas a step-down transformer decreases voltage and increases current.</item>
+</list>
+</section>
+<section id="fs-id1172101887916" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1172102022484" summary="The table has two columns and sixteen rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “AC voltage” and “v equals V subscript 0 sine omega t”. The second row contains “AC current” and “i equals I subscript 0 sine omega t”. The third row contains “capacitive reactance” and “V subscript 0 divided by I subscript 0 equals 1 divided by omega C equals X subscript C”. The fourth row contains “rms voltage” and “V subscript rms equals V subscript 0 divided by square root 2”. The fifth row contains “rms current” and “I subscript rms equals I subscript 0 divided by square root 2”. The sixth row contains “inductive reactance” and “V subscript 0 divided by I subscript 0 equals omega L equals X subscript L”. The seventh row contains “Phase angle of an ac circuit” and “phi equals tan inverse X subscript L minus X subscript C divided by R”. The eighth row contains “AC version of Ohm’s law” and “I subscript 0 equals V subscript 0 divided by Z”. The ninth row contains “Impedance of an ac circuit” and “Z equals square root r square plus opening parenthesis X subscript L minus X subscript C closing parenthesis square”. The tenth row contains “Average power associated with a circuit element” and “P subscript ave equals half I subscript 0 V subscript 0 cosine phi”. The eleventh row contains “Average power dissipated by a resistor” and “P subscript ave equals half I subscript 0 V subscript 0 equals I subscript rms V subscript rms equals I subscript rms square R”. The twelfth row contains “Resonant angular frequency of a circuit” and “omega subscript 0 equals square root 1 divided by L C”. The thirteenth row contains “Quality factor of a circuit” and “Q equals omega subscript 0 divided by delta omega”. The fourteenth row contains “Quality factor of a circuit in terms of the circuit parameters” and “Q equals omega subscript 0 L divided by R”. The fifteenth row contains “Transformer equation with voltage” and “V subscript S divided by V subscript P equals N subscript S divided by N subscript P”. The sixteenth row contains “Transformer equation with current” and “I subscript S equals N subscript P divided by N subscript S multiplied by I subscript P”." class="unnumbered unstyled">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">AC voltage</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">AC current</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">capacitive reactance</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>ω</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>X</m:mi><m:mi>C</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">rms voltage</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">rms current</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">inductive reactance</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>ω</m:mi><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>X</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Phase angle of an RLC series circuit	</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mfrac><m:mrow><m:msub><m:mi>X</m:mi><m:mi>L</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>X</m:mi><m:mi>C</m:mi></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">AC version of Ohm’s law	</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>Z</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Impedance of an RLC series circuit</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>X</m:mi><m:mi>L</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>X</m:mi><m:mi>C</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Average power associated with a circuit element</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Average power dissipated by a resistor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msubsup><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mi>R</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Resonant angular frequency of a circuit</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Quality factor of a circuit</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>ω</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Quality factor of a circuit in terms of the circuit parameters</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mi>L</m:mi></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Transformer equation with voltage</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Transformer equation with current</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>I</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+<section id="fs-id1172101768954" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172101988907">
+<problem id="fs-id1172101988910">
+<para id="fs-id1172102136304">Why do transmission lines operate at very high voltages while household circuits operate at fairly small voltages?</para>
+</problem>
+<solution id="fs-id1172102014635">
+<para id="fs-id1172102014637">There is less thermal loss if the transmission lines operate at low currents and high voltages.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102030534">
+<problem id="fs-id1172102030536">
+<para id="fs-id1172102044234">How can you distinguish the primary winding from the secondary winding in a step-up transformer?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102135927">
+<problem id="fs-id1172102078338">
+<para id="fs-id1172102078340">Battery packs in some electronic devices are charged using an adapter connected to a wall socket. Speculate as to the purpose of the adapter.</para>
+</problem>
+<solution id="fs-id1172102131313">
+<para id="fs-id1172102131316">The adapter has a step-down transformer to have a lower voltage and possibly higher current at which the device can operate.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101979174">
+<problem id="fs-id1172101979176">
+<para id="fs-id1172102136407">Will a transformer work if the input is a dc voltage?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101758011">
+<problem id="fs-id1172101758013">
+<para id="fs-id1172101639955">Why are the primary and secondary coils of a transformer wrapped around the same closed loop of iron?</para>
+</problem>
+<solution id="fs-id1172101761871">
+<para id="fs-id1172101761873">so each loop can experience the same changing magnetic flux</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172102136794" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172102040816">
+<problem id="fs-id1172102133062">
+<para id="fs-id1172102133064">A step-up transformer is designed so that the output of its secondary winding is 2000 V (rms) when the primary winding is connected to a 110-V (rms) line voltage. (a) If there are 100 turns in the primary winding, how many turns are there in the secondary winding? (b) If a resistor connected across the secondary winding draws an rms current of 0.75 A, what is the current in the primary winding?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102131963">
+<problem id="fs-id1172102131966">
+<para id="fs-id1172102136630">A step-up transformer connected to a 110-V line is used to supply a hydrogen-gas discharge tube with 5.0 kV (rms). The tube dissipates 75 W of power. (a) What is the ratio of the number of turns in the secondary winding to the number of turns in the primary winding? (b) What are the rms currents in the primary and secondary windings? (c) What is the effective resistance seen by the 110-V source?</para>
+</problem>
+<solution id="fs-id1172102116606">
+<para id="fs-id1172102116608">a. 45:1; b. 0.68 A, 0.015 A; c. <m:math><m:mrow><m:mn>160</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102031626">
+<problem id="fs-id1172102031628">
+<para id="fs-id1172102082613">An ac source of emf delivers 5.0 mW of power at an rms current of 2.0 mA when it is connected to the primary coil of a transformer. The rms voltage across the secondary coil is 20 V. (a) What are the voltage across the primary coil and the current through the secondary coil? (b) What is the ratio of secondary to primary turns for the transformer?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102138583">
+<problem id="fs-id1172101970139">
+<para id="fs-id1172101970141">A transformer is used to step down 110 V from a wall socket to 9.0 V for a radio. (a) If the primary winding has 500 turns, how many turns does the secondary winding have? (b) If the radio operates at a current of 500 mA, what is the current through the primary winding?</para>
+</problem>
+<solution id="fs-id1172101790116">
+<para id="fs-id1172101790118">a. 41 turns; b. 40.9 mA</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101774083">
+<problem id="fs-id1172101774085">
+<para id="fs-id1172101996063">A transformer is used to supply a 12-V model train with power from a 110-V wall plug. The train operates at 50 W of power. (a) What is the rms current in the secondary coil of the transformer? (b) What is the rms current in the primary coil? (c) What is the ratio of the number of primary to secondary turns? (d) What is the resistance of the train? (e) What is the resistance seen by the 110-V source?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172102030576" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1172102104507">
+<problem id="fs-id1172102104509">
+<para id="fs-id1172102021207">The emf of an ac source is given by <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Find an expression that represents the output current of the source if it is connected across (a) a <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor, (b) a 20-mH inductor, and (c) a <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor.</para></problem>
+<solution id="fs-id1172102054931">
+<para id="fs-id1172102138247">a. <m:math><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.26</m:mn><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>200</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7.96</m:mn><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>200</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>; c. <m:math><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>200</m:mn><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172101920777">
+<problem id="fs-id1172102021064">
+<para id="fs-id1172102021067">A 700-pF capacitor is connected across an ac source with a voltage amplitude of 160 V and a frequency of 20 kHz. (a) Determine the capacitive reactance of the capacitor and the amplitude of the output current of the source. (b) If the frequency is changed to 60 Hz while keeping the voltage amplitude at 160 V, what are the capacitive reactance and the current amplitude?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102066652">
+<problem id="fs-id1172102066655">
+<para id="fs-id1172102066657">A 20-mH inductor is connected across an AC source with a variable frequency and a constant-voltage amplitude of 9.0 V. (a) Determine the reactance of the circuit and the maximum current through the inductor when the frequency is set at 20 kHz. (b) Do the same calculations for a frequency of 60 Hz.</para>
+</problem>
+<solution id="fs-id1172102133231">
+<para id="fs-id1172102133233">a. <m:math><m:mrow><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mn>3.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>7.5</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mn>1.2</m:mn><m:mtext>A</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102031707">
+<problem id="fs-id1172102031709">
+<para id="fs-id1172102135764">A <m:math><m:mrow><m:mn>30</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor is connected across a 60-Hz ac source whose voltage amplitude is 50 V. (a) What is the maximum charge on the capacitor? (b) What is the maximum current into the capacitor? (c) What is the phase relationship between the capacitor charge and the current in the circuit?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102138237">
+<problem id="fs-id1172102138239">
+<para id="fs-id1172102132910">A 7.0-mH inductor is connected across a 60-Hz ac source whose voltage amplitude is 50 V. (a) What is the maximum current through the inductor? (b) What is the phase relationship between the current through and the potential difference across the inductor?</para>
+</problem>
+<solution id="fs-id1172102138448">
+<para id="fs-id1172102138450">a. 19 A; b. inductor leads by <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102078502">
+<problem id="fs-id1172102078504">
+<para id="fs-id1172102078506">What is the impedance of an <emphasis effect="italics">RLC</emphasis> series circuit at the resonant frequency?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101996232">
+<problem id="fs-id1172102043754">
+<para id="fs-id1172102043756">What is the resistance <emphasis effect="italics">R</emphasis> in the circuit shown below if the amplitude of the ac through the inductor is 4.24 A?</para>
+<media id="fs-id1172101614366" alt="Figure shows a circuit with an AC source of 50 V, sine 120 pi t. This is connected to an inductor of 8 mH, a capacitor of 400 mu F and a resistor R. Another capacitor is connected in parallel with the first one. The value of this is 200 mu F.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_03_Problem27_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172102138024">
+<para id="fs-id1172102138026"><m:math><m:mrow><m:mn>11.7</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102038338">
+<problem id="fs-id1172102038340">
+<para id="fs-id1172102103315">An ac source of voltage amplitude 100 V and frequency 1.0 kHz drives an <emphasis effect="italics">RLC</emphasis> series circuit with <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext></m:mrow></m:math>, and <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>. (a) Determine the rms current through the circuit. (b) What are the rms voltages across the three elements? (c) What is the phase angle between the emf and the current? (d) What is the power output of the source? (e) What is the power dissipated in the resistor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102051245">
+<problem id="fs-id1172102051247">
+<para id="fs-id1172102078841">In an <emphasis effect="italics">RLC</emphasis> series circuit, <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mi>μ</m:mi><m:mtext>F,</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>, and <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math>. What is the power output of the source?</para>
+</problem>
+<solution id="fs-id1172102007551">
+<para id="fs-id1172102007553">14 W</para></solution>
+</exercise>
+<exercise id="fs-id1172102136195">
+<problem id="fs-id1172102136197">
+<para id="fs-id1172102136199">A power plant generator produces 100 A at 15 kV (rms). A transformer is used to step up the transmission line voltage to 150 kV (rms). (a) What is rms current in the transmission line? (b) If the resistance per unit length of the line is <m:math><m:mrow><m:mn>8.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mtext>/m,</m:mtext></m:mrow></m:math> what is the power loss per meter in the line? (c) What would the power loss per meter be if the line voltage were 15 kV (rms)?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102104353">
+<problem id="fs-id1172102104355">
+<para id="fs-id1172102104357">Consider a power plant located 25 km outside a town delivering 50 MW of power to the town. The transmission lines are made of aluminum cables with a <m:math><m:mrow><m:mn>7</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> cross-sectional area. Find the loss of power in the transmission lines if it is transmitted at (a) 200 kV (rms) and (b) 120 V (rms).</para>
+</problem>
+<solution id="fs-id1172102068072">
+<para id="fs-id1172102068074">a. <m:math><m:mrow><m:mn>5.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>1.64</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102077747">
+<problem id="fs-id1172102077749">
+<para id="fs-id1172102104427">Neon signs require 12-kV for their operation. A transformer is to be used to change the voltage from 220-V (rms) ac to 12-kV (rms) ac. What must the ratio be of turns in the secondary winding to the turns in the primary winding? (b) What is the maximum rms current the neon lamps can draw if the fuse in the primary winding goes off at 0.5 A? (c) How much power is used by the neon sign when it is drawing the maximum current allowed by the fuse in the primary winding?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172102135456" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1172102118012">
+<problem id="fs-id1172102118014">
+<para id="fs-id1172102118016">The 335-kV ac electricity from a power transmission line is fed into the primary winding of a transformer. The ratio of the number of turns in the secondary winding to the number in the primary winding is <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>s</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>N</m:mi><m:mtext>p</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1000</m:mn></m:mrow></m:math>. (a) What voltage is induced in the secondary winding? (b) What is unreasonable about this result? (c) Which assumption or premise is responsible?</para>
+</problem>
+<solution id="fs-id1172102029533">
+<para id="fs-id1172102029536">a. 335 MV; b. the result is way too high, well beyond the breakdown voltage of air over reasonable distances; c. the input voltage is too high</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102019561">
+<problem id="fs-id1172102019563">
+<para id="fs-id1172102019565">A <m:math><m:mrow><m:mn>1.5</m:mn><m:mtext>-k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor and 30-mH inductor are connected in series, as shown below, across a 120-V (rms) ac power source oscillating at 60-Hz frequency. (a) Find the current in the circuit. (b) Find the voltage drops across the resistor and inductor. (c) Find the impedance of the circuit. (d) Find the power dissipated in the resistor. (e) Find the power dissipated in the inductor. (f) Find the power produced by the source.</para>
+<media id="fs-id1172102103826" alt="Series circuit with voltage source V parentheses t parentheses, a 30 mH inductor and a 1.5 kilo ohm resistor">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_Problem70_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172102019988">
+<problem id="fs-id1172102043838">
+<para id="fs-id1172102043840">A <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor, <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor, and 30-mH inductor are connected in series with an ac source of amplitude 10 V and frequency 125 Hz. (a) What is the impedance of the circuit? (b) What is the amplitude of the current in the circuit? (c) What is the phase constant of the current? Is it leading or lagging the source voltage? (d) Write voltage drops across the resistor, capacitor, and inductor and the source voltage as a function of time. (e) What is the power factor of the circuit? (f) How much energy is used by the resistor in 2.5 s?</para>
+</problem>
+<solution id="fs-id1172102135350">
+<para id="fs-id1172102135353">a. <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; b. 0.5 A; c. <m:math><m:mrow><m:mn>5.4</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, lagging;<newline/>
+d. <m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>V</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9.96</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>250</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>5.4</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12.7</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>250</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>5.4</m:mn><m:mtext>°</m:mtext><m:mo>−</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>11.8</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>250</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>5.4</m:mn><m:mtext>°</m:mtext><m:mo>+</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>source</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10.0</m:mn><m:mtext>​</m:mtext><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>250</m:mn><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr></m:mtable></m:math> e. 0.995; f. 6.25 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102136289">
+<problem id="fs-id1172102136292">
+<para id="fs-id1172102136294">A <m:math><m:mrow><m:mn>200</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor, <m:math><m:mrow><m:mn>150</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor, and 2.5-H inductor are connected in series with an ac source of amplitude 10 V and variable angular frequency <m:math><m:mi>ω</m:mi></m:math>. (a) What is the value of the resonance frequency <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>? (b) What is the amplitude of the current if <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>? (c) What is the phase constant of the current when <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>? Is it leading or lagging the source voltage, or is it in phase? (d) Write an equation for the voltage drop across the resistor as a function of time when <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>. (e) What is the power factor of the circuit when <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>? (f) How much energy is used up by the resistor in 2.5 s when <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102116732">
+<problem id="fs-id1172102116734">
+<para id="fs-id1172102116736">Find the reactances of the following capacitors and inductors in ac circuits with the given frequencies in each case: (a) 2-mH inductor with a frequency 60-Hz of the ac circuit; (b) 2-mH inductor with a frequency 600-Hz of the ac circuit; (c) 20-mH inductor with a frequency 6-Hz of the ac circuit; (d) 20-mH inductor with a frequency 60-Hz of the ac circuit; (e) 2-mF capacitor with a frequency 60-Hz of the ac circuit; and (f) 2-mF capacitor with a frequency 600-Hz of the AC circuit.</para>
+</problem>
+<solution id="fs-id1172102103604">
+<para id="fs-id1172102103607">a. <m:math><m:mrow><m:mn>0.75</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>7.5</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>0.75</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; d. <m:math><m:mrow><m:mn>7.5</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; e. <m:math><m:mrow><m:mn>1.3</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; f. <m:math><m:mrow><m:mn>0.13</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102066910">
+<problem id="fs-id1172102066912">
+<para id="fs-id1172102066915">An output impedance of an audio amplifier has an impedance of <m:math><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> and has a mismatch with a low-impedance <m:math><m:mrow><m:mn>8</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> loudspeaker. You are asked to insert an appropriate transformer to match the impedances. What turns ratio will you use, and why? Use the simplified circuit shown below.</para>
+<media id="fs-id1172101986204" alt="Figure shows a transformer with more windings in the primary coil. The primary coil is connected to a voltage source through an impedance Z equal to 500 ohm. The voltage across the windings is labeled amplifier output V subscript P. The two ends of the secondary coil of the transformer are connected across a resistance of 8 ohm.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_03_Problem28_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172101970120">
+<problem id="fs-id1172101970122">
+<para id="fs-id1172102032863">Show that the SI unit for capacitive reactance is the ohm. Show that the SI unit for inductive reactance is also the ohm.</para>
+</problem>
+<solution id="fs-id1172102032869">
+<para id="fs-id1172102032871">The units as written for inductive reactance <link target-id="fs-id1172101883508" document="m58485"/> are <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac><m:mtext>H</m:mtext></m:mrow></m:math>. Radians can be ignored in unit analysis. The Henry can be defined as <m:math><m:mrow><m:mtext>H</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>V</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow><m:mtext>A</m:mtext></m:mfrac><m:mo>=</m:mo><m:mtext>Ω</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>. Combining these together results in a unit of <m:math><m:mtext>Ω</m:mtext></m:math> for reactance.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102105186">
+<problem id="fs-id1172102132842">
+<para id="fs-id1172102132844">A coil with a self-inductance of 16 mH and a resistance of <m:math><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> is connected to an ac source whose frequency can be varied. At what frequency will the voltage across the coil lead the current through the coil by <m:math><m:mrow><m:mn>45</m:mn><m:mtext>°</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101969869">
+<problem id="fs-id1172101969871">
+<para id="fs-id1172101969873">An <emphasis effect="italics">RLC</emphasis> series circuit consists of a <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor, a <m:math><m:mrow><m:mn>200</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor, and a 120-mH inductor whose coil has a resistance of <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. The source for the circuit has an rms emf of 240 V at a frequency of 60 Hz. Calculate the rms voltages across the (a) resistor, (b) capacitor, and (c) inductor.</para>
+</problem>
+<solution id="fs-id1172102138377">
+<para id="fs-id1172102117583">a. 156 V; b. 42 V; c. 154 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102117589">
+<problem id="fs-id1172102117591">
+<para id="fs-id1172102117593">An <emphasis effect="italics">RLC</emphasis> series circuit consists of a <m:math><m:mrow><m:mn>10</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor, an <m:math><m:mrow><m:mn>8.0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor, and a 50-mH inductor. A 110-V (rms) source of variable frequency is connected across the combination. What is the power output of the source when its frequency is set to one-half the resonant frequency of the circuit?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102103211">
+<problem id="fs-id1172102103213">
+<para id="fs-id1172102103215">Shown below are two circuits that act as crude high-pass filters. The input voltage to the circuits is <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:math>, and the output voltage is <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> (a) Show that for the capacitor circuit,</para>
+<para id="fs-id1172102014631"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>C</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172102127890">and for the inductor circuit,</para>
+<para id="fs-id1172102127893"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ω</m:mi><m:mi>L</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172102137752">(b) Show that for high frequencies, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> but for low frequencies, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172102134808" alt="Figure shows two circuits. The first shows a capacitor and resistor in series with a voltage source labeled V in. V out is measured across the resistor. The second circuit shows an inductor and resistor in series with a voltage source labeled V in. V out is measured across the inductor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_Problem67_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172102103913">
+<para id="fs-id1172102103915">a. <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>C</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ω</m:mi><m:mi>L</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102068506">
+<problem id="fs-id1172102068508">
+<para id="fs-id1172102068510">The two circuits shown below act as crude low-pass filters. The input voltage to the circuits is <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:math>, and the output voltage is <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> (a) Show that for the capacitor circuit,</para>
+<para id="fs-id1172101987729"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>C</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172102028470">and for the inductor circuit,</para>
+<para id="fs-id1172102017081"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>R</m:mi><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172101996328">(b) Show that for low frequencies, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> but for high frequencies, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172102131215" alt="Figure shows two circuits. The first shows a capacitor and resistor in series with a voltage source labeled V in. V out is measured across the capacitor. The second circuit shows an inductor and resistor in series with a voltage source labeled V in. V out is measured across the resistor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_Problem68_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172102078232">
+<term>step-down transformer</term>
+<meaning id="fs-id1172102078237">transformer that decreases voltage and increases current</meaning>
+</definition>
+<definition id="fs-id1172102078241">
+<term>step-up transformer</term>
+<meaning id="fs-id1172102078247">transformer that increases voltage and decreases current</meaning>
+</definition>
+<definition id="fs-id1172102078251">
+<term>transformer</term>
+<meaning id="fs-id1172102078256">device that transforms voltages from one value to another using induction</meaning>
+</definition>
+<definition id="fs-id1172102136494">
+<term>transformer equation</term>
+<meaning id="fs-id1172102136499">equation showing that the ratio of the secondary to primary voltages in a transformer equals the ratio of the number of turns in their windings</meaning>
+</definition>
+</glossary>
+</document>

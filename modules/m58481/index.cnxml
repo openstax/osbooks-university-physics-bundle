@@ -4,8 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58481</md:content-id>
   <md:title>Electric Generators and Back Emf</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para>
-<list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
 <item>Explain how an electric generator works</item>
 <item>Determine the induced emf in a loop at any time interval, rotating at a constant rate in a magnetic field</item>
 <item>Show that rotating coils have an induced emf; in motors this is called back emf because it opposes the emf input to the motor</item>
@@ -17,7 +17,7 @@
 <para id="fs-id1171241425977">A variety of important phenomena and devices can be understood with Faraday’s law. In this section, we examine two of these.</para>
 <section id="fs-id1171241165275">
 <title>Electric Generators</title>
-<para id="fs-id1171241327645"><emphasis effect="bold">Electric generators</emphasis> induce an emf by rotating a coil in a magnetic field, as briefly discussed in <link document="m58477">Motional Emf</link>. We now explore <term class="no-emphasis" id="term-00001">generators</term> in more detail. Consider the following example.</para><example id="fs-id1171241240350">
+<para id="fs-id1171241327645"><emphasis effect="bold">Electric generators</emphasis> induce an emf by rotating a coil in a magnetic field, as briefly discussed in <link document="m58477">Motional Emf</link>. We now explore <term class="no-emphasis">generators</term> in more detail. Consider the following example.</para><example id="fs-id1171241240350">
 <para id="fs-id1171241197036"><title>Calculating the Emf Induced in a Generator Coil</title>
 The generator coil shown in <link target-id="CNX_UPhysics_30_06_GenCoil"/> is rotated through one-fourth of a revolution (from <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to<m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> in 15.0 ms. The 200-turn circular coil has a 5.00-cm radius and is in a uniform 0.80-T magnetic field. What is the emf induced?</para>
 <figure id="CNX_UPhysics_30_06_GenCoil">
@@ -87,7 +87,7 @@ This is a practical average value, similar to the 120 V used in household power.
 <section id="fs-id1171241156817">
 <title>Back Emf</title>
 <para id="fs-id1171241206056">Generators convert mechanical energy into electrical energy, whereas motors convert electrical energy into mechanical energy. Thus, it is not surprising that motors and generators have the same general construction. A motor works by sending a current through a loop of wire located in a magnetic field. As a result, the magnetic field exerts torque on the loop. This rotates a shaft, thereby extracting mechanical work out of the electrical current sent in initially. (Refer to <link document="m58743">Force and Torque on a Current Loop</link> for a discussion on motors that will help you understand more about them before proceeding.)</para>
-<para id="fs-id1171241095131">When the coil of a motor is turned, magnetic flux changes through the coil, and an emf (consistent with Faraday’s law) is induced. The motor thus acts as a generator whenever its coil rotates. This happens whether the shaft is turned by an external input, like a belt drive, or by the action of the motor itself. That is, when a motor is doing work and its shaft is turning, an emf is generated. Lenz’s law tells us the emf opposes any change, so that the input emf that powers the motor is opposed by the motor’s self-generated emf, called the <term id="term-00002">back emf</term> of the motor (<link target-id="CNX_UPhysics_30_06_BackEmf"/>).</para>
+<para id="fs-id1171241095131">When the coil of a motor is turned, magnetic flux changes through the coil, and an emf (consistent with Faraday’s law) is induced. The motor thus acts as a generator whenever its coil rotates. This happens whether the shaft is turned by an external input, like a belt drive, or by the action of the motor itself. That is, when a motor is doing work and its shaft is turning, an emf is generated. Lenz’s law tells us the emf opposes any change, so that the input emf that powers the motor is opposed by the motor’s self-generated emf, called the <term>back emf</term> of the motor (<link target-id="CNX_UPhysics_30_06_BackEmf"/>).</para>
 <figure id="CNX_UPhysics_30_06_BackEmf">
 <media id="fs-id1171241246610" alt="Schematic shows the coil of a dc motor. It consists of driving emf, back emf, resistor, and a switch.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_06_BackEmf.jpg"/>
@@ -133,4 +133,80 @@ Notice that we have an energy balance in part (d): <m:math><m:mrow><m:mn>1.2</m:
 <section id="fs-id1171241280559" class="key-concepts">
 <title>Summary</title>
 <list id="fs-id1171241198216" list-type="bulleted" bullet-style="bullet">
-<item>An electric generator rotates a coil in a magnetic field, inducing an emf given as a function of time by <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>B</m:mi><m:mi>A</m:mi><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> whe
+<item>An electric generator rotates a coil in a magnetic field, inducing an emf given as a function of time by <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>B</m:mi><m:mi>A</m:mi><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> where <emphasis effect="italics">A</emphasis> is the area of an <emphasis effect="italics">N</emphasis>-turn coil rotated at a constant angular velocity <m:math><m:mi>ω</m:mi></m:math> in a uniform magnetic field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>The peak emf of a generator is <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>B</m:mi><m:mi>A</m:mi><m:mi>ω</m:mi></m:mrow></m:math>.</item>
+<item>Any rotating coil produces an induced emf. In motors, this is called back emf because it opposes the emf input to the motor.</item>
+</list>
+</section>
+<section id="fs-id1171241207222" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1171241317836">
+<problem id="fs-id1171241408282">
+<para id="fs-id1171241185978">Design a current loop that, when rotated in a uniform magnetic field of strength 0.10 T, will produce an emf <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>110</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1171241143502">
+<para id="fs-id1171241223494">three turns with an area of 1 m<sup>2</sup></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241278006">
+<problem id="fs-id1171241317862">
+<para id="fs-id1171241143449">A flat, square coil of 20 turns that has sides of length 15.0 cm is rotating in a magnetic field of strength 0.050 T. If the maximum emf produced in the coil is 30.0 mV, what is the angular velocity of the coil?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241329403">
+<problem id="fs-id1171241337670">
+<para id="fs-id1171241278194">A 50-turn rectangular coil with dimensions <m:math><m:mrow><m:mn>0.15</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>0.40</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> rotates in a uniform magnetic field of magnitude 0.75 T at 3600 rev/min. (a) Determine the emf induced in the coil as a function of time. (b) If the coil is connected to a <m:math><m:mrow><m:mn>1000</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor, what is the power as a function of time required to keep the coil turning at 3600 rpm? (c) Answer part (b) if the coil is connected to a 2000-<m:math><m:mtext>Ω</m:mtext></m:math> resistor.</para>
+</problem>
+<solution id="fs-id1171241283811">
+<para id="fs-id1171241256404">a. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>ω</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>120</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>850</m:mn><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mi>π</m:mi><m:mtext>t V;</m:mtext></m:mtd></m:mtr></m:mtable></m:math><newline/>
+b. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>720</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mi>π</m:mi><m:mi>t</m:mi><m:mspace width="0.2em"/><m:mtext>W;</m:mtext></m:mrow></m:math><newline/>
+c. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>360</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mi>π</m:mi><m:mi>t</m:mi><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241242265">
+<problem id="fs-id1171241141452">
+<para id="fs-id1171241177279">The square armature coil of an alternating current generator has 200 turns and is 20.0 cm on side. When it rotates at 3600 rpm, its peak output voltage is 120 V. (a) What is the frequency of the output voltage? (b) What is the strength of the magnetic field in which the coil is turning?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241177283">
+<problem id="fs-id1171241451122">
+<para id="fs-id1171241277437">A flip coil is a relatively simple device used to measure a magnetic field. It consists of a circular coil of <emphasis effect="italics">N</emphasis> turns wound with fine conducting wire. The coil is attached to a ballistic galvanometer, a device that measures the total charge that passes through it. The coil is placed in a magnetic field <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> such that its face is perpendicular to the field. It is then flipped through <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and the total charge <emphasis effect="italics">Q</emphasis> that flows through the galvanometer is measured. (a) If the total resistance of the coil and galvanometer is <emphasis effect="italics">R</emphasis>, what is the relationship between <emphasis effect="italics">B</emphasis> and <emphasis effect="italics">Q</emphasis>? Because the coil is very small, you can assume that <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is uniform over it. (b) How can you determine whether or not the magnetic field is perpendicular to the face of the coil?</para>
+</problem>
+<solution id="fs-id1171241071882">
+<para id="fs-id1171241342968">a. <emphasis effect="italics">B</emphasis> is proportional to <emphasis effect="italics">Q</emphasis>; b. If the coin turns easily, the magnetic field is perpendicular. If the coin is at an equilibrium position, it is parallel.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241251512">
+<problem id="fs-id1171241144536">
+<para id="fs-id1171241192667">The flip coil of the preceding problem has a radius of 3.0 cm and is wound with 40 turns of copper wire. The total resistance of the coil and ballistic galvanometer is <m:math><m:mrow><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω.</m:mtext></m:mrow></m:math> When the coil is flipped through <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> in a magnetic field <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> a change of 0.090 C flows through the ballistic galvanometer. (a) Assuming that <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> and the face of the coil are initially perpendicular, what is the magnetic field? (b) If the coil is flipped through <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math> what is the reading of the galvanometer?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241199590">
+<problem id="fs-id1171241128144">
+<para id="fs-id1171241240249">A 120-V, series-wound motor has a field resistance of 80 <m:math><m:mtext>Ω</m:mtext></m:math> and an armature resistance of 10 <m:math><m:mtext>Ω</m:mtext></m:math>. When it is operating at full speed, a back emf of 75 V is generated. (a) What is the initial current drawn by the motor? When the motor is operating at full speed, where are (b) the current drawn by the motor, (c) the power output of the source, (d) the power output of the motor, and (e) the power dissipated in the two resistances?</para>
+</problem>
+<solution id="fs-id1171241209112">
+<para id="fs-id1171241280567">a. 1.33 A; b. 0.50 A; c. 60 W; d. 37.5 W; e. 22.5W</para></solution>
+</exercise>
+<exercise id="fs-id1171241235590">
+<problem id="fs-id1171241321586">
+<para id="fs-id1171241123307">A small series-wound dc motor is operated from a 12-V car battery. Under a normal load, the motor draws 4.0 A, and when the armature is clamped so that it cannot turn, the motor draws 24 A. What is the back emf when the motor is operating normally?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171241139772">
+<term>back emf</term>
+<meaning id="fs-id1171241164178">emf generated by a running motor, because it consists of a coil turning in a magnetic field; it opposes the voltage powering the motor</meaning>
+</definition>
+<definition id="fs-id1171241200968">
+<term>peak emf</term>
+<meaning id="fs-id1171241165878">maximum emf produced by a generator</meaning>
+</definition>
+<definition id="fs-id1171241114615">
+<term>electric generator</term>
+<meaning id="fs-id1171241317856">device for converting mechanical work into electric energy; it induces an emf by rotating a coil in a magnetic field</meaning>
+</definition>
+</glossary>
+</document>

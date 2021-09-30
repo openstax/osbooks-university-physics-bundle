@@ -4,8 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58292</md:content-id>
   <md:title>Uniform Circular Motion</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para>
-<list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
 <item>Solve for the centripetal acceleration of an object moving on a circular path.</item>
 <item>Use the equations of circular motion to find the position, velocity, and acceleration of a particle executing circular motion.</item>
 <item>Explain the differences between centripetal acceleration and tangential acceleration resulting from nonuniform circular motion.</item>
@@ -31,7 +31,7 @@
 <para id="fs-id1165168893228">The direction of the acceleration can also be found by noting that as <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> and therefore <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>θ</m:mi></m:mrow></m:math> approach zero, the vector <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> approaches a direction perpendicular to <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> In the limit <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> is perpendicular to <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Since <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle></m:math> is tangent to the circle, the acceleration <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:math> points toward the center of the circle. Summarizing, a particle moving in a circle at a constant speed has an acceleration with magnitude</para>
 <note id="fs-id1165168897294" class="equation-callout">
 <equation id="fs-id1165168974380"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></note>
-<para id="fs-id1165169129270">The direction of the acceleration vector is toward the center of the circle (<link target-id="CNX_UPhysics_04_04_CenAcc"/>). This is a radial acceleration and is called the <term id="term-00001">centripetal acceleration</term>, which is why we give it the subscript c. The word <emphasis effect="italics">centripetal</emphasis> comes from the Latin words <emphasis effect="italics">centrum</emphasis> (meaning “center”) and <emphasis effect="italics">petere</emphasis> (meaning “to seek”), and thus takes the meaning “center seeking.”</para><figure id="CNX_UPhysics_04_04_CenAcc"><media id="fs-id1165168832650" alt="A circle is shown with a purple arrow labeled as vector a sub C pointing radially inward and a green arrow tangent to the circle and labeled v. The arrows are shown with their tails at the same point on the circle.">
+<para id="fs-id1165169129270">The direction of the acceleration vector is toward the center of the circle (<link target-id="CNX_UPhysics_04_04_CenAcc"/>). This is a radial acceleration and is called the <term>centripetal acceleration</term>, which is why we give it the subscript c. The word <emphasis effect="italics">centripetal</emphasis> comes from the Latin words <emphasis effect="italics">centrum</emphasis> (meaning “center”) and <emphasis effect="italics">petere</emphasis> (meaning “to seek”), and thus takes the meaning “center seeking.”</para><figure id="CNX_UPhysics_04_04_CenAcc"><media id="fs-id1165168832650" alt="A circle is shown with a purple arrow labeled as vector a sub C pointing radially inward and a green arrow tangent to the circle and labeled v. The arrows are shown with their tails at the same point on the circle.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_04_04_Cenacc.jpg"/>
 </media>
 
@@ -59,4 +59,241 @@ To create a greater acceleration than <emphasis effect="italics">g</emphasis> on
 </exercise>
 </note>
 <para id="fs-id1165168939322">Centripetal acceleration can have a wide range of values, depending on the speed and radius of curvature of the circular path. Typical centripetal accelerations are given in the following table.</para>
-<table id="fs-id1165168906966" summary="This table has two 
+<table id="fs-id1165168906966" summary="This table has two columns and eight rows. The first row is a header row and labels the columns. The first column is the object, and the second column is the centripetal acceleration (meters per second squared or factors of g). The second row has earth around the sun and 5.93 times 10 to the -3 The third row has moon around the earth and 2.73 times 10 to the -3. The fourth row has Satellite in geosynchronous orbit and 0.233. The fifth row has Outer edge of a CD when playing and 5.78. The sixth row has Jet in a barrel roll and 2 to 3 g. The seventh row has roller coaster and 5 g. The eighth row has Electron orbiting a proton in a simple Bohr model of the atom and 9.0 times 10 to the 22.">
+<title>Typical Centripetal Accelerations</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Object</entry>
+<entry valign="top" align="left">Centripetal Acceleration (m/s<sup>2</sup> or factors of <emphasis effect="italics">g</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Earth around the Sun</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>5.93</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Moon around the Earth</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2.73</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Satellite in geosynchronous orbit</entry>
+<entry valign="top" align="left">0.233</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Outer edge of a CD when playing</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>5.78</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Jet in a barrel roll</entry>
+<entry valign="top" align="left">(2–3 <emphasis effect="italics">g</emphasis>)</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Roller coaster</entry>
+<entry valign="top" align="left">(5 <emphasis effect="italics">g</emphasis>)</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Electron orbiting a proton in a simple Bohr model of the atom</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1165168839493">
+<title>Equations of Motion for Uniform Circular Motion</title>
+<para id="fs-id1165168767076">A particle executing circular motion can be described by its position vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> <link target-id="CNX_UPhysics_04_04_PosPart"/> shows a particle executing circular motion in a counterclockwise direction. As the particle moves on the circle, its position vector sweeps out the angle <m:math><m:mi>θ</m:mi></m:math> with the <emphasis effect="italics">x-</emphasis>axis. Vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> making an angle <m:math><m:mi>θ</m:mi></m:math> with the <emphasis effect="italics">x-</emphasis>axis is shown with its components along the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-axes. The magnitude of the position vector is <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> and is also the radius of the circle, so that in terms of its components,</para>
+<note id="fs-id1165168771745" class="equation-callout">
+<equation id="fs-id1165168778342"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mi>A</m:mi><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165169042337">Here, <m:math><m:mi>ω</m:mi></m:math> is a constant called the <term>angular frequency</term> of the particle. The angular frequency has units of radians (rad) per second and is simply the number of radians of angular measure through which the particle passes per second. The angle <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math> that the position vector has at any particular time is <m:math><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1165169080220">If <emphasis effect="italics">T</emphasis> is the period of motion, or the time to complete one revolution (<m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:math> rad), then</para>
+<equation id="fs-id1165168921508" class="unnumbered"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_04_04_PosPart">
+<media id="fs-id1165169060366" alt="A circle radius r, centered on the origin of an x y coordinate system is shown. Radius r of t is a vector from the origin to a point on the circle and is at an angle of theta equal to omega t to the horizontal. The x component of vector r is the magnitude of r of t times cosine of omega t. The y component of vector r is the magnitude of r of t times sine of omega t. The circulation is counterclockwise around the circle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_04_04_Pospart.jpg"/>
+</media>
+<caption>The position vector for a particle in circular motion with its components along the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-axes. The particle moves counterclockwise. Angle <m:math><m:mi>θ</m:mi></m:math> is the angular frequency <m:math><m:mi>ω</m:mi></m:math> in radians per second multiplied by <emphasis effect="italics">t</emphasis>.</caption>
+</figure>
+<para id="fs-id1165168937768">Velocity and acceleration can be obtained from the position function by differentiation:</para>
+<note id="fs-id1165169127965" class="equation-callout">
+<equation id="fs-id1165169135966"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>A</m:mi><m:mi>ω</m:mi><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mi>A</m:mi><m:mi>ω</m:mi><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165168938100">It can be shown from <link target-id="CNX_UPhysics_04_04_PosPart"/> that the velocity vector is tangential to the circle at the location of the particle, with magnitude <m:math><m:mrow><m:mi>A</m:mi><m:mi>ω</m:mi><m:mo>.</m:mo></m:mrow></m:math> Similarly, the acceleration vector is found by differentiating the velocity:</para>
+<note id="fs-id1165168767151" class="equation-callout">
+<equation id="fs-id1165169191922"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>A</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mi>A</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165168941266">From this equation we see that the acceleration vector has magnitude <m:math><m:mrow><m:mi>A</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and is directed opposite the position vector, toward the origin, because <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1165168915912">
+<para id="fs-id1165168897888"><title>Circular Motion of a Proton</title>
+A proton has speed <m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> and is moving in a circle in the <emphasis effect="italics">xy</emphasis> plane of radius <emphasis effect="italics">r</emphasis> = 0.175 m. What is its position in the <emphasis effect="italics">xy</emphasis> plane at time <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>ns?</m:mtext></m:mrow></m:math> At <emphasis effect="italics">t</emphasis> = 0, the position of the proton is <m:math><m:mrow><m:mn>0.175</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> and it circles counterclockwise. Sketch the trajectory.</para>
+<para id="fs-id1165168925357"><title>Solution</title>
+From the given data, the proton has period and angular frequency:</para>
+<equation id="fs-id1165169082012" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow><m:mi>v</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.175</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math></equation>
+<equation id="fs-id1168586422667" class="unnumbered"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>2.20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.856</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165168868466">The position of the particle at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> with <emphasis effect="italics">A</emphasis> = 0.175 m is</para>
+<equation id="fs-id1165168872579" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0.175</m:mn><m:mtext>cos</m:mtext><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.856</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="right"><m:mo>+</m:mo><m:mn>0.175</m:mn><m:mtext>sin</m:mtext><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.856</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0.175</m:mn><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5.712</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>0.175</m:mn><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5.712</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0.147</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>0.095</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1165168933846">From this result we see that the proton is located slightly below the <emphasis effect="italics">x</emphasis>-axis. This is shown in <link target-id="CNX_UPhysics_04_04_PosProton"/>.</para>
+<figure id="CNX_UPhysics_04_04_PosProton">
+<media id="fs-id1165168854206" alt="A graph of y position as a function of x position is shown. Both x and y are measured in meters and run from -0.2 to 0.2. A proton is moving in a counterclockwise circle centered on the origin is shown at 11 different times. At t = 0 s the particle is at x = 0.175 m and y = 0. At t = 200 nanoseconds, the particle is at a position given by vector 0.147 I hat minus 0.95 j hat meters.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_04_04_Posproton.jpg"/>
+</media>
+<caption>Position vector of the proton at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>ns</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> The trajectory of the proton is shown. The angle through which the proton travels along the circle is 5.712 rad, which a little less than one complete revolution.</caption>
+</figure>
+<para id="fs-id1165168943778"><title>Significance</title>
+We picked the initial position of the particle to be on the <emphasis effect="italics">x-</emphasis>axis. This was completely arbitrary. If a different starting position were given, we would have a different final position at <emphasis effect="italics">t</emphasis> = 200 ns.</para>
+</example>
+</section>
+<section id="fs-id1165169203566">
+<title>Nonuniform Circular Motion</title>
+<para id="fs-id1165168975026">Circular motion does not have to be at a constant speed. A particle can travel in a circle and speed up or slow down, showing an acceleration in the direction of the motion.</para>
+<para id="fs-id1165169142804">In uniform circular motion, the particle executing circular motion has a constant speed and the circle is at a fixed radius. If the speed of the particle is changing as well, then we introduce an additional acceleration in the direction tangential to the circle. Such accelerations occur at a point on a top that is changing its spin rate, or any accelerating rotor. In <link document="m58289">Displacement and Velocity Vectors</link> we showed that centripetal acceleration is the time rate of change of the direction of the velocity vector. If the speed of the particle is changing, then it has a <term>tangential acceleration</term> that is the time rate of change of the magnitude of the velocity:</para>
+<note id="fs-id1165169014421" class="equation-callout">
+<equation id="fs-id1165168947291"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165169156342">The direction of tangential acceleration is tangent to the circle whereas the direction of centripetal acceleration is radially inward toward the center of the circle. Thus, a particle in circular motion with a tangential acceleration has a <term>total acceleration</term> that is the vector sum of the centripetal and tangential accelerations:</para>
+<note id="fs-id1165169080521" class="equation-callout">
+<equation id="fs-id1165169071725"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>c</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>T</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation></note>
+<para id="fs-id1165168889238">The acceleration vectors are shown in <link target-id="CNX_UPhysics_04_04_CircleAcc"/>. Note that the two acceleration vectors <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>T</m:mtext></m:msub></m:mrow></m:math> are perpendicular to each other, with <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> in the radial direction and <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>T</m:mtext></m:msub></m:mrow></m:math> in the tangential direction. The total acceleration <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle></m:math> points at an angle between <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:mi> </m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>T</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para><figure id="CNX_UPhysics_04_04_CircleAcc">
+<media id="fs-id1165168963806" alt="The acceleration of a particle on a circle is shown along with its radial and tangential components. The centripetal acceleration a sub c points radially toward the center of the circle. The tangential acceleration a sub T is tangential to the circle at the particle’s position. The total acceleration is the vector sum of the tangential and centripetal accelerations, which are perpendicular.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_04_04_Circleacc.jpg"/>
+</media>
+<caption>The centripetal acceleration points toward the center of the circle. The tangential acceleration is tangential to the circle at the particle’s position. The total acceleration is the vector sum of the tangential and centripetal accelerations, which are perpendicular.</caption>
+</figure>
+<example id="fs-id1165168761438">
+<para id="fs-id1165168761440"><title>Total Acceleration during Circular Motion</title>
+A particle moves in a circle of radius <emphasis effect="italics">r</emphasis> = 2.0 m. During the time interval from <emphasis effect="italics">t</emphasis> = 1.5 s to <emphasis effect="italics">t</emphasis> = 4.0 s its speed varies with time according to</para>
+<equation id="fs-id1165168965816" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>c</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>c</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>c</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:mtext>s,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>c</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>6.0</m:mn></m:mrow></m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165169202331">What is the total acceleration of the particle at <emphasis effect="italics">t</emphasis> = 2.0 s?</para>
+<para id="fs-id1165168871788"><title>Strategy</title>
+We are given the speed of the particle and the radius of the circle, so we can calculate centripetal acceleration easily. The direction of the centripetal acceleration is toward the center of the circle. We find the magnitude of the tangential acceleration by taking the derivative with respect to time of <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> using <link target-id="fs-id1165168947291"/> and evaluating it at <emphasis effect="italics">t</emphasis> = 2.0 s. We use this and the magnitude of the centripetal acceleration to find the total acceleration.</para>
+<para id="fs-id1165168977720"><title>Solution</title>
+Centripetal acceleration is</para>
+<equation id="fs-id1165169056515" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.0</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>6.0</m:mn></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mn>2.5</m:mn></m:mrow></m:mrow><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math></equation>
+<equation id="fs-id1165169191787" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3.1</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math></equation><para id="fs-id1165169207606">directed toward the center of the circle. Tangential acceleration is</para>
+<equation id="fs-id1165168985620" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>c</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>12.0</m:mn></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1165168872560">Total acceleration is</para>
+<equation id="fs-id1165168872564" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mn>3.1</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mn>1.5</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>3.44</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1165168908305">and <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mfrac><m:mrow><m:mn>3.1</m:mn></m:mrow><m:mrow><m:mn>1.5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>64</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> from the tangent to the circle. See <link target-id="CNX_UPhysics_04_04_TotalAcc"/>.</para>
+<figure id="CNX_UPhysics_04_04_TotalAcc">
+<media id="fs-id1165168952425" alt="The acceleration of a particle on a circle is shown along with its radial and tangential components. The centripetal acceleration a sub c points radially toward the center of the circle and has magnitude 3.1 meters per second squared. The tangential acceleration a sub T is tangential to the circle at the particle’s position and has magnitude 1.5 meters per second squared. The angle between the total acceleration a and the tangential acceleration a sub T is 64 degrees.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_04_04_Totalacc.jpg"/>
+</media>
+<caption>The tangential and centripetal acceleration vectors. The net acceleration <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle></m:math> is the vector sum of the two accelerations.</caption>
+</figure>
+<para id="fs-id1165168944642"><title>Significance</title>
+The directions of centripetal and tangential accelerations can be described more conveniently in terms of a polar coordinate system, with unit vectors in the radial and tangential directions. This coordinate system, which is used for motion along curved paths, is discussed in detail later in the book.</para>
+</example>
+</section>
+<section id="fs-id1165168944653" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1165169106847" list-type="bulleted" bullet-style="bullet">
+<item>Uniform circular motion is motion in a circle at constant speed.</item>
+<item>Centripetal acceleration <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>C</m:mtext></m:msub></m:mrow></m:math> is the acceleration a particle must have to follow a circular path. Centripetal acceleration always points toward the center of rotation and has magnitude <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>C</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mi>r</m:mi></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Nonuniform circular motion occurs when there is tangential acceleration of an object executing circular motion such that the speed of the object is changing. This acceleration is called tangential acceleration <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>T</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> The magnitude of tangential acceleration is the time rate of change of the magnitude of the velocity. The tangential acceleration vector is tangential to the circle, whereas the centripetal acceleration vector points radially inward toward the center of the circle. The total acceleration is the vector sum of tangential and centripetal accelerations.</item>
+<item>An object executing uniform circular motion can be described with equations of motion. The position vector of the object is <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">A</emphasis> is the magnitude <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> which is also the radius of the circle, and <m:math><m:mrow><m:mi>ω</m:mi></m:mrow></m:math> is the angular frequency.</item>
+</list>
+</section>
+<section id="fs-id1165169120450" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1165169120458">
+<problem id="fs-id1165169120460">
+<para id="fs-id1165169017220">Can centripetal acceleration change the speed of a particle undergoing circular motion?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165169017232">
+<problem id="fs-id1165169017234">
+<para id="fs-id1165169017236">Can tangential acceleration change the speed of a particle undergoing circular motion?</para>
+</problem>
+<solution id="fs-id1165169156423">
+<para id="fs-id1165169156425">yes</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1165169156431" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1165169173260">
+<problem id="fs-id1165169173263">
+<para id="fs-id1165169173265">A flywheel is rotating at 30 rev/s. What is the total angle, in radians, through which a point on the flywheel rotates in 40 s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165169014380">
+<problem id="fs-id1165169014382">
+<para id="fs-id1165169014384">A particle travels in a circle of radius 10 m at a constant speed of 20 m/s. What is the magnitude of the acceleration?</para>
+</problem>
+<solution id="fs-id1165168902575">
+<para id="fs-id1165168902577"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>C</m:mtext></m:msub><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165169262577">
+<problem id="fs-id1165169262579">
+<para id="fs-id1165169262582">Cam Newton of the Carolina Panthers throws a perfect football spiral at 8.0 rev/s. The radius of a pro football is 8.5 cm at the middle of the short side. What is the centripetal acceleration of the laces on the football?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165168975022">
+<problem id="fs-id1165169035452">
+<para id="fs-id1165169035454">A fairground ride spins its occupants inside a flying saucer-shaped container. If the horizontal circular path the riders follow has an 8.00-m radius, at how many revolutions per minute are the riders subjected to a centripetal acceleration equal to that of gravity?</para>
+</problem>
+<solution id="fs-id1165169035461">
+<para id="fs-id1165169035463"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>C</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>r</m:mi><m:mspace width="0.5em"/><m:msub><m:mi>a</m:mi><m:mtext>C</m:mtext></m:msub><m:mo>=</m:mo><m:mn>78.4</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>8.85</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>5.68</m:mn><m:mspace width="0.2em"/><m:mtext>s,</m:mtext></m:mrow></m:math> which is <m:math><m:mrow><m:mn>0.176</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mn>10.6</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165168945040">
+<problem id="fs-id1165168945042">
+<para id="fs-id1165168945044">A runner taking part in the 200-m dash must run around the end of a track that has a circular arc with a radius of curvature of 30.0 m. The runner starts the race at a constant speed. If she completes the 200-m dash in 23.2 s and runs at constant speed throughout the race, what is her centripetal acceleration as she runs the curved portion of the track?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165169065802">
+<problem id="fs-id1165169065805">
+<para id="fs-id1165169065807">What is the acceleration of Venus toward the Sun, assuming a circular orbit?</para>
+</problem>
+<solution id="fs-id1165169065811">
+<para id="fs-id1165169065813">Venus is 108.2 million km from the Sun and has an orbital period of 0.6152 y.<newline/>
+<m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>1.082</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.5em"/><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>1.94</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>10</m:mtext></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>3.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mtext>a</m:mtext><m:mtext>C</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.135</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165168927049">
+<problem id="fs-id1165168927051">
+<para id="fs-id1165168927053">An experimental jet rocket travels around Earth along its equator just above its surface. At what speed must the jet travel if the magnitude of its acceleration is <emphasis effect="italics">g</emphasis>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165168934860">
+<problem id="fs-id1165168934863">
+<para id="fs-id1165168934865">A fan is rotating at a constant 360.0 rev/min. What is the magnitude of the acceleration of a point on one of its blades 10.0 cm from the axis of rotation?</para>
+</problem>
+<solution id="fs-id1165168934870">
+<para id="fs-id1165168934873"><m:math><m:mrow><m:mn>360</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min</m:mtext></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>3.8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>C</m:mtext></m:msub><m:mo>=</m:mo><m:mn>144.</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165169033440">
+<problem id="fs-id1165169033442">
+<para id="fs-id1165169033445">A point located on the second hand of a large clock has a radial acceleration of <m:math><m:mrow><m:mn>0.1</m:mn><m:mrow><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math> How far is the point from the axis of rotation of the second hand?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165168962444">
+<term>angular frequency</term>
+<meaning id="fs-id1165168962450"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>,</m:mo></m:mrow></m:math> rate of change of an angle with which an object that is moving on a circular path</meaning>
+</definition>
+<definition id="fs-id1165168910019">
+<term>centripetal acceleration</term>
+<meaning id="fs-id1165168910025">component of acceleration of an object moving in a circle that is directed radially inward toward the center of the circle</meaning>
+</definition>
+<definition id="fs-id1165168910030">
+<term>tangential acceleration</term>
+<meaning id="fs-id1165168910036">magnitude of which is the time rate of change of speed. Its direction is tangent to the circle.</meaning>
+</definition>
+<definition id="fs-id1165168910041">
+<term>total acceleration</term>
+<meaning id="fs-id1165168910046">vector sum of centripetal and tangential accelerations</meaning>
+</definition>
+</glossary>
+</document>

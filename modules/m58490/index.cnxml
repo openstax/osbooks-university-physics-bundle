@@ -4,8 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58490</md:content-id>
   <md:title>Power in an AC Circuit</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para>
-<list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
 <item>Describe how average power from an ac circuit can be written in terms of peak current and voltage and of rms current and voltage</item>
 <item>Determine the relationship between the phase angle of the current and voltage and the average power, known as the power factor</item></list></md:abstract>
   <md:uuid>c47bf2b0-2118-4a1d-bc94-3b0296f0828e</md:uuid>
@@ -20,7 +20,7 @@
 <caption>Graph of instantaneous power for various circuit elements. (a) For the resistor, <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>,</m:mo></m:mrow></m:math> whereas for (b) the capacitor and (c) the inductor, <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> (d) For the source, <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>,</m:mo></m:mrow></m:math> which may be positive, negative, or zero, depending on <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>.</m:mo></m:mrow></m:math>
 </caption>
 </figure>
-<para id="fs-id1172101643952">Because instantaneous power varies in both magnitude and sign over a cycle, it seldom has any practical importance. What we’re almost always concerned with is the power averaged over time, which we refer to as the <term id="term-00001">average power</term>. It is defined by the time average of the instantaneous power over one cycle:</para>
+<para id="fs-id1172101643952">Because instantaneous power varies in both magnitude and sign over a cycle, it seldom has any practical importance. What we’re almost always concerned with is the power averaged over time, which we refer to as the <term>average power</term>. It is defined by the time average of the instantaneous power over one cycle:</para>
 <equation id="fs-id1172101627320" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>T</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>T</m:mi></m:msubsup><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
 <para id="fs-id1172101634360">where <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>ω</m:mi></m:mrow></m:mrow></m:math> is the period of the oscillations. With the substitutions <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> this integral becomes</para>
 <equation id="fs-id1172101611267" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>T</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>T</m:mi></m:msubsup><m:mrow><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
@@ -32,7 +32,7 @@
 <note id="fs-id1172102013714" class="equation-callout">
 <equation id="fs-id1172101736047"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
 </note>
-<para id="fs-id1172102031785">In engineering applications, <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi></m:mrow></m:math> is known as the <term id="term-00002">power factor</term>, which is the amount by which the power delivered in the circuit is less than the theoretical maximum of the circuit due to voltage and current being out of phase. For a resistor, <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> so the average power dissipated is</para>
+<para id="fs-id1172102031785">In engineering applications, <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi></m:mrow></m:math> is known as the <term>power factor</term>, which is the amount by which the power delivered in the circuit is less than the theoretical maximum of the circuit due to voltage and current being out of phase. For a resistor, <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> so the average power dissipated is</para>
 <equation id="fs-id1172101995857" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1172101988662">A comparison of <emphasis effect="italics">p</emphasis>(<emphasis effect="italics">t</emphasis>) and <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub></m:mrow></m:math> is shown in <link target-id="CNX_UPhysics_32_04_acpower"/>(d). To make <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> look like its dc counterpart, we use the rms values <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math> of the current and the voltage. By definition, these are</para>
 <equation id="fs-id1172101763044" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>i</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math></equation>
@@ -47,7 +47,7 @@
 <para id="fs-id1172102030507">This equation further emphasizes why the rms value is chosen in discussion rather than peak values. Both equations for average power are correct for <link target-id="fs-id1172102049240"/>, but the rms values in the formula give a cleaner representation, so the extra factor of 1/2 is not necessary.</para>
 <para id="fs-id1172102050274">Alternating voltages and currents are usually described in terms of their rms values. For example, the 110 V from a household outlet is an rms value. The amplitude of this source is <m:math><m:mrow><m:mn>110</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>=</m:mo><m:mtext>156 V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Because most ac meters are calibrated in terms of rms values, a typical ac voltmeter placed across a household outlet will read 110 V.</para>
 <para id="fs-id1172101912598">For a capacitor and an inductor, <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mo>−</m:mo><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mspace width="0.2em"/><m:mtext>rad,</m:mtext></m:mrow></m:math> respectively. Since <m:math><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> we find from <link target-id="fs-id1172101736047"/> that the average power dissipated by either of these elements is <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> Capacitors and inductors absorb energy from the circuit during one half-cycle and then discharge it back to the circuit during the other half-cycle. This behavior is illustrated in the plots of <link target-id="CNX_UPhysics_32_04_acpower"/>, (b) and (c), which show <emphasis effect="italics">p(</emphasis>t) oscillating sinusoidally about zero.</para>
-<para id="fs-id1172101929388">The phase angle for an ac generator may have any value. If <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> the generator produces power; if <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> it absorbs power. In terms of rms values, the average power of an ac generator is written as</para>
+<para id="fs-id1172101929388">The phase angle for an ac generator may have any value. If <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> the generator produces power; if <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> it absorbs power. In terms of rms values, the average power of an ac generator is written as</para>
 <equation id="fs-id1172102050441" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1172101949588">For the generator in an <emphasis effect="italics">RLC</emphasis> circuit,</para>
 <equation id="fs-id1172101998891" class="unnumbered"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>X</m:mi><m:mi>L</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>X</m:mi><m:mi>C</m:mi></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math></equation>
@@ -101,4 +101,95 @@ If the resistance is much larger than the reactance of the capacitor or inductor
 <title>Summary</title>
 <list id="fs-id1172101969635" list-type="bulleted" bullet-style="bullet">
 <item>The average ac power is found by multiplying the rms values of current and voltage.</item>
-<item>Ohm’s law for the rms ac is found by dividing 
+<item>Ohm’s law for the rms ac is found by dividing the rms voltage by the impedance.</item>
+<item>In an ac circuit, there is a phase angle between the source voltage and the current, which can be found by dividing the resistance by the impedance.</item>
+<item>The average power delivered to an <emphasis effect="italics">RLC</emphasis> circuit is affected by the phase angle.</item>
+<item>The power factor ranges from –1 to 1.</item>
+</list>
+</section>
+<section id="fs-id1172102078704" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1172102066675">
+<problem id="fs-id1172102066677">
+<para id="fs-id1172102066679">For what value of the phase angle <m:math><m:mi>ϕ</m:mi></m:math> between the voltage output of an ac source and the current is the average power output of the source a maximum?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101969734">
+<problem id="fs-id1172101969737">
+<para id="fs-id1172101969739">Discuss the differences between average power and instantaneous power.</para>
+</problem>
+<solution id="fs-id1172102013757">
+<para id="fs-id1172102013759">The instantaneous power is the power at a given instant. The average power is the power averaged over a cycle or number of cycles.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101963555">
+<problem id="fs-id1172102066571">
+<para id="fs-id1172102066573">The average ac current delivered to a circuit is zero. Despite this, power is dissipated in the circuit. Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102066655">
+<problem id="fs-id1172102066657">
+<para id="fs-id1172102021389">Can the instantaneous power output of an ac source ever be negative? Can the average power output be negative?</para>
+</problem>
+<solution id="fs-id1172102049074">
+<para id="fs-id1172102049076">The instantaneous power can be negative, but the power output can’t be negative.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102067280">
+<problem id="fs-id1172102067283">
+<para id="fs-id1172101983990">The power rating of a resistor used in ac circuits refers to the maximum average power dissipated in the resistor. How does this compare with the maximum instantaneous power dissipated in the resistor?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172102067489" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1172101766965">
+<problem id="fs-id1172101766967">
+<para id="fs-id1172102066758">The emf of an ac source is given by <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Calculate the average power output of the source if it is connected across (a) a <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor, (b) a 20-mH inductor, and (c) a <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102068004">
+<problem id="fs-id1172102103567">
+<para id="fs-id1172102103569">Calculate the rms currents for an ac source is given by <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow></m:math> when connected across (a) a <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> capacitor, (b) a 20-mH inductor, and (c) a <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor.</para>
+</problem>
+<solution id="fs-id1172102020062">
+<para id="fs-id1172102020064">a. 0.89 A; b. 5.6A; c. 1.4 A</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102025770">
+<problem id="fs-id1172102025772">
+<para id="fs-id1172102031379">A 40-mH inductor is connected to a 60-Hz AC source whose voltage amplitude is 50 V. If an AC voltmeter is placed across the inductor, what does it read?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102019626">
+<problem id="fs-id1172102019628">
+<para id="fs-id1172102023899">For an <emphasis effect="italics">RLC</emphasis> series circuit, the voltage amplitude and frequency of the source are 100 V and 500 Hz, respectively; <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; and <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math>. Find the average power dissipated in the resistor for the following values for the capacitance: (a) <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> and (b) <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0.20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1172102103675">
+<para id="fs-id1172102103677">a. 5.3 W; b. 2.1 W</para></solution>
+</exercise>
+<exercise id="fs-id1172102103699">
+<problem id="fs-id1172102104721">
+<para id="fs-id1172102104723">An ac source of voltage amplitude 10 V delivers electric energy at a rate of 0.80 W when its current output is 2.5 A. What is the phase angle <m:math><m:mi>ϕ</m:mi></m:math> between the emf and the current?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102104614">
+<problem id="fs-id1172102104616">
+<para id="fs-id1172102104618">An <emphasis effect="italics">RLC</emphasis> series circuit has an impedance of <m:math><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> and a power factor of 0.50, with the voltage lagging the current. (a) Should a capacitor or an inductor be placed in series with the elements to raise the power factor of the circuit? (b) What is the value of the reactance across the inductor that will raise the power factor to unity?</para></problem>
+<solution id="fs-id1172102103465">
+<para id="fs-id1172102078825">a. inductor; b. <m:math><m:mrow><m:msub><m:mi>X</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mn>52</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172102117038">
+<term>average power</term>
+<meaning id="fs-id1172102116368">time average of the instantaneous power over one cycle</meaning>
+</definition>
+<definition id="fs-id1172102116902">
+<term>power factor</term>
+<meaning id="fs-id1172102117434">amount by which the power delivered in the circuit is less than the theoretical maximum of the circuit due to voltage and current being out of phase</meaning>
+</definition>
+</glossary>
+</document>

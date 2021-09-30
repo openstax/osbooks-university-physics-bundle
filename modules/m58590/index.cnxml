@@ -1,0 +1,382 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Atomic Spectra and X-rays</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m58590</md:content-id>
+  <md:title>Atomic Spectra and X-rays</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Describe the absorption and emission of radiation in terms of atomic energy levels and energy differences</item>
+<item>Use quantum numbers to estimate the energy, frequency, and wavelength of photons produced by atomic transitions in multi-electron atoms</item>
+<item>Explain radiation concepts in the context of atomic fluorescence and X-rays</item>
+</list></md:abstract>
+  <md:uuid>c3de52f5-df1e-486a-91c6-5754f0fdf7a8</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902894659">The study of atomic spectra provides most of our knowledge about atoms. In modern science, atomic spectra are used to identify species of atoms in a range of objects, from distant galaxies to blood samples at a crime scene.</para>
+<para id="fs-id1170901982420">The theoretical basis of atomic spectroscopy is the transition of electrons between energy levels in atoms. For example, if an electron in a hydrogen atom makes a transition from the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> to the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> shell, the atom emits a photon with a wavelength</para>
+<equation id="fs-id1170902772590"><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>f</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>h</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>h</m:mi><m:mo>·</m:mo><m:mi>f</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mn>3</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902766610">where <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>3</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is energy carried away by the photon and <m:math><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>1240</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>·</m:mo><m:mtext>nm</m:mtext></m:mrow></m:math>. After this radiation passes through a spectrometer, it appears as a sharp spectral line on a screen. The Bohr model of this process is shown in <link target-id="CNX_UPhysics_41_05_AtomicRad"/>. If the electron later absorbs a photon with energy <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math>, the electron returns to the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> shell. (We examined the Bohr model earlier, in <link document="m58757">Photons and Matter Waves</link>.)</para><figure id="CNX_UPhysics_41_05_AtomicRad">
+<media id="fs-id1170902724010" alt="The hydrogen atom is represented as a proton in the nucleus, charge plus e, and an electron in a circular orbit around the nucleus. Three orbits, labeled n =1, n = 2, and n = 3 in order of increasing radius, are shown. An arrow indicates an electron transitioning from the outer to the middle orbit, and a wave labeled delta E equals h f is shown near the transition, leaving the atom.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_AtomicRad.jpg"/>
+</media>
+<caption>An electron transition from the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> to the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> shell of a hydrogen atom.</caption>
+</figure>
+<para id="fs-id1170901785956">To understand atomic transitions in multi-electron atoms, it is necessary to consider many effects, including the Coulomb repulsion between electrons and internal magnetic interactions (spin-orbit and spin-spin couplings). Fortunately, many properties of these systems can be understood by neglecting interactions between electrons and representing each electron by its own single-particle wave function <m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow></m:msub></m:mrow></m:math>.</para>
+<para id="fs-id1170901678412">Atomic transitions must obey <term>selection rules</term>. These rules follow from principles of quantum mechanics and symmetry. Selection rules classify transitions as either allowed or forbidden. (Forbidden transitions do occur, but the probability of the typical forbidden transition is very small.) For a hydrogen-like atom, atomic transitions that involve electromagnetic interactions (the emission and absorption of photons) obey the following selection rule:</para>
+<note id="fs-id1170902686031" class="equation-callout">
+<equation id="fs-id1170902671579"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170903112016">where <emphasis effect="italics">l</emphasis> is associated with the magnitude of orbital angular momentum,</para>
+<equation id="fs-id1170902772300"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mi>ℏ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903014646">For multi-electron atoms, similar rules apply. To illustrate this rule, consider the observed atomic transitions in hydrogen (H), sodium (Na), and mercury (Hg) (<link target-id="CNX_UPhysics_41_05_Elevels"/>). The horizontal lines in this diagram correspond to atomic energy levels, and the transitions allowed by this selection rule are shown by lines drawn between these levels. The energies of these states are on the order of a few electron volts, and photons emitted in transitions are in the visible range. Technically, atomic transitions can violate the selection rule, but such transitions are uncommon.</para>
+<figure id="CNX_UPhysics_41_05_Elevels">
+<media id="fs-id1170901529359" alt="The energy level diagrams for hydrogen, sodium and mercury are shown as horizontal lines. The horizontal lines in this diagram correspond to atomic energy levels, and the transitions are shown by arrows drawn between these levels. Lines belonging to the same subshell (s, p, d, etc) are drawn in a column, and the different subshells are drawn next to each other in columns labeled by the subshell letter. The vertical direction represents the energy in e V. Figure a is the hydrogen spectrum. Columns for the s, p, d and f subshells are shown. The n=1 level has only one subshell, the 1 s state, with energy -13.6 e V. The n=2 level has states in the s and p subshells, with energy -3.4 e V. The n=3 level has states in the s, p and d subshells, with energy -1.5 e V. The n=4 level has states in the s, p, d, and f subshells, with energy -0.85 e V. An infinite number of energy exist for all n to infinity, getting closer and closer together. Several transitions are shown, from the s states at higher n to the p states at n=2, from the p states at higher n to the 1 s state, from the d states at higher n to the 2 p state, and from the f states at higher n to the 2 d state. Figure b is the sodium spectrum, with the energies of the hydrogen n=2 through n=6 states shown to the left for reference. The energy scale is from -5.0 to 0 e V. Columns for the s, p d, and f states are shown. The spacing between the levels is more complex than for hydrogen: the 3 s, 3 p, and 3 d levels have different energies: 3 s is a little below -5 e V, 3 p at about -3 e V, and 3 d at around -1.5 e V. Other states at the same subshell are likewise split. Transitions are shown as for hydrogen, going to lower n and changing subshell by one, f to d, d to p, s to p, etcetera. Figure c is the mercury spectrum. The energy scale is -10.0 to 0 e V. The s, p, d, f states are shown for the two net spin states of the 6 s electrons. As in the case of sodium, the states with different quantum numbers l (that is, different subshells) but the same quantum number n have different energies. In addition, we see the states split further. The one of the 6 p states (the so-called triplet state) splits into three lines which have energies that are close but clearly distinguishable, and the 7 p state for this net spin state also splits into three lines.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_Elevels.jpg"/>
+</media>
+<caption>Energy-level diagrams for (a) hydrogen, (b) sodium, and (c) mercury. For comparison, hydrogen energy levels are shown in the sodium diagram.</caption>
+</figure>
+<para id="fs-id1170901484702">The hydrogen atom has the simplest energy-level diagram. If we neglect electron spin, all states with the same value of <emphasis effect="italics">n</emphasis> have the same total energy. However, spin-orbit coupling splits the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> states into two angular momentum states (<emphasis effect="italics">s</emphasis> and <emphasis effect="italics">p</emphasis>) of slightly different energies. (These levels are not vertically displaced, because the energy splitting is too small to show up in this diagram.) Likewise, spin-orbit coupling splits the <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> states into three angular momentum states (<emphasis effect="italics">s</emphasis>, <emphasis effect="italics">p</emphasis>, and <emphasis effect="italics">d</emphasis>).</para>
+<para id="fs-id1170902598424">The energy-level diagram for hydrogen is similar to sodium, because both atoms have one electron in the outer shell. The valence electron of sodium moves in the electric field of a nucleus shielded by electrons in the inner shells, so it does not experience a simple 1/<emphasis effect="italics">r</emphasis> Coulomb potential and its total energy depends on both <emphasis effect="italics">n</emphasis> and <emphasis effect="italics">l</emphasis>. Interestingly, mercury has two separate energy-level diagrams; these diagrams correspond to two net spin states of its 6<emphasis effect="italics">s</emphasis> (valence) electrons.</para>
+<example id="fs-id1170902013929">
+<para id="fs-id1170903109999"><title>The Sodium Doublet</title>
+The spectrum of sodium is analyzed with a spectrometer. Two closely spaced lines with wavelengths 589.00 nm and 589.59 nm are observed. (a) If the doublet corresponds to the excited (valence) electron that transitions from some excited state down to the 3<emphasis effect="italics">s</emphasis> state, what was the original electron angular momentum? (b) What is the energy difference between these two excited states?</para>
+<para id="fs-id1170901951548"><title>Strategy</title>
+Sodium and hydrogen belong to the same column or chemical group of the periodic table, so sodium is “hydrogen-like.” The outermost electron in sodium is in the 3<emphasis effect="italics">s</emphasis> (<m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>) subshell and can be excited to higher energy levels. As for hydrogen, subsequent transitions to lower energy levels must obey the selection rule:</para>
+<equation id="fs-id1170902673379" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170899246581">We must first determine the quantum number of the initial state that satisfies the selection rule. Then, we can use this number to determine the magnitude of orbital angular momentum of the initial state.</para>
+<para id="fs-id1170902917781"><title>Solution</title></para>
+<list id="fs-id1170901779095" list-type="enumerated" number-style="lower-alpha">
+<item>Allowed transitions must obey the selection rule. If the quantum number of the initial state is <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the transition is forbidden because <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. If the quantum number of the initial state is <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow></m:math>,…the transition is forbidden because <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Therefore, the quantum of the initial state must be <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>. The orbital angular momentum of the initial state is
+<equation id="fs-id1170901568794" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mi>ℏ</m:mi><m:mo>=</m:mo><m:mn>1.41</m:mn><m:mi>ℏ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Because the final state for both transitions is the same (3<emphasis effect="italics">s</emphasis>), the difference in energies of the photons is equal to the difference in energies of the two excited states. Using the equation
+<equation id="fs-id1170903121505" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>c</m:mi><m:mi>λ</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+we have
+<equation id="fs-id1170901543587" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>c</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>λ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>λ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eVs</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>589.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>589.59</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>2.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1170901856588"><title>Significance</title>
+To understand the difficulty of measuring this energy difference, we compare this difference with the average energy of the two photons emitted in the transition. Given an average wavelength of 589.30 nm, the average energy of the photons is</para>
+<equation id="fs-id1170902930003" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eVs</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>589.30</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.11</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170903035217">The energy difference <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> is about 0.1% (1 part in 1000) of this average energy. However, a sensitive spectrometer can measure the difference.</para>
+</example>
+<section id="fs-id1170901498082">
+<title>Atomic Fluorescence</title>
+<para id="fs-id1170903134572"><term>Fluorescence</term> occurs when an electron in an atom is excited several steps above the ground state by the absorption of a high-energy ultraviolet (UV) photon. Once excited, the electron “de-excites” in two ways. The electron can drop back to the ground state, emitting a photon of the same energy that excited it, or it can drop in a series of smaller steps, emitting several low-energy photons. Some of these photons may be in the visible range. Fluorescent dye in clothes can make colors seem brighter in sunlight by converting UV radiation into visible light. Fluorescent lights are more efficient in converting electrical energy into visible light than incandescent filaments (about four times as efficient). <link target-id="CNX_UPhysics_41_05_Scorpion"/> shows a scorpion illuminated by a UV lamp. Proteins near the surface of the skin emit a characteristic blue light.</para>
+<figure id="CNX_UPhysics_41_05_Scorpion">
+<media id="fs-id1170901951855" alt="The image shows a scorpion hiding in the cracks of rocks, illuminate by a U V lamp. The skin of the scorpion glows blue when illuminated by an ultraviolet light in contrast to the rocks, which glow in violet color.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_Scorpion.jpg"/>
+</media>
+<caption>A scorpion glows blue under a UV lamp. (credit: Ken Bosma)</caption>
+</figure>
+</section>
+<section id="fs-id1170902792273">
+<title>X-rays</title>
+<para id="fs-id1170902681405">The study of atomic energy transitions enables us to understand X-rays and X-ray technology. Like all electromagnetic radiation, X-rays are made of photons. X-ray photons are produced when electrons in the outermost shells of an atom drop to the inner shells. (Hydrogen atoms do not emit X-rays, because the electron energy levels are too closely spaced together to permit the emission of high-frequency radiation.) Transitions of this kind are normally forbidden because the lower states are already filled. However, if an inner shell has a vacancy (an inner electron is missing, perhaps from being knocked away by a high-speed electron), an electron from one of the outer shells can drop in energy to fill the vacancy. The energy gap for such a transition is relatively large, so wavelength of the radiated X-ray photon is relatively short.</para>
+<para id="fs-id1170902765457">X-rays can also be produced by bombarding a metal target with high-energy electrons, as shown in <link target-id="CNX_UPhysics_41_05_XrayTube"/>. In the figure, electrons are boiled off a filament and accelerated by an electric field into a tungsten target. According to the classical theory of electromagnetism, <emphasis effect="italics">any</emphasis> charged particle that accelerates emits radiation. Thus, when the electron strikes the tungsten target, and suddenly slows down, the electron emits <term>braking radiation</term>. (Braking radiation refers to radiation produced by any charged particle that is slowed by a medium.) In this case, braking radiation contains a continuous range of frequencies, because the electrons will collide with the target atoms in slightly different ways.</para>
+<para id="fs-id1170901778267">Braking radiation is not the only type of radiation produced in this interaction. In some cases, an electron collides with another inner-shell electron of a target atom, and knocks the electron out of the atom—billiard ball style. The empty state is filled when an electron in a higher shell drops into the state (drop in energy level) and emits an X-ray photon.</para>
+<figure id="CNX_UPhysics_41_05_XrayTube">
+<media id="fs-id1170901587465" alt="A sketch of an x ray tube. A heated filament at one end acts as a cathode that emits an electron beam. The electrons accelerate in a gap toward a tungsten target mounted on an anode. X rays are emitted from the target.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_XrayTube.jpg"/>
+</media>
+<caption>A sketch of an X-ray tube. X-rays are emitted from the tungsten target.</caption>
+</figure>
+<para id="fs-id1170902893807">Historically, X-ray spectral lines were labeled with letters (<emphasis effect="italics">K</emphasis>, <emphasis effect="italics">L</emphasis>, <emphasis effect="italics">M</emphasis>, <emphasis effect="italics">N</emphasis>, …). These letters correspond to the atomic shells (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math>). X-rays produced by a transition from any higher shell to the <emphasis effect="italics">K</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>) shell are labeled as <emphasis effect="italics">K</emphasis> X-rays. X-rays produced in a transition from the <emphasis effect="italics">L</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>) shell are called <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math> X-rays; X-rays produced in a transition from the <emphasis effect="italics">M</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>) shell are called <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>β</m:mtext></m:msub></m:mrow></m:math> X-rays; X-rays produced in a transition from the <emphasis effect="italics">N</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>) shell are called <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>γ</m:mtext></m:msub></m:mrow></m:math> X-rays; and so forth. Transitions from higher shells to <emphasis effect="italics">L</emphasis> and <emphasis effect="italics">M</emphasis> shells are labeled similarly. These transitions are represented by an energy-level diagram in <link target-id="CNX_UPhysics_41_05_XrayEnergy"/>.</para>
+<figure id="CNX_UPhysics_41_05_XrayEnergy">
+<media id="fs-id1170902952615" alt="Different energy levels are shown in the form of horizontal lines. The line at the bottom is labeled as energy level n equal to one, or the K shell. Above this line, another horizontal line is labeled as energy level for n equal or the L shell. Similarly, other lines are shown for the M and N shells. As we move from bottom to the top, the distance between the lines decreases. The transitions are shown as arrows from one line down to a lower line and are labeled. Transitions from n=2, 3, 4, and 5 to the n=1 level form the K series and are, in order, the K sub alpha, K sub beta, K sub gamma, and K sub delta lines. Transitions from n= 3, 4, and 5 to the n=2 level form the L series and are, in order, the L sub alpha, L sub beta, and L sub gamma lines. Transitions from n= 4 and 5 to the n=3 level form the M series and are, in order, the M sub alpha and L sub beta lines. The transition fro n=5 to the n=4 level is also shown and labeled as N sub alpha.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_XrayEnergy.jpg"/>
+</media>
+<caption>X-ray transitions in an atom.</caption>
+</figure>
+<para id="fs-id1170901999632">The distribution of X-ray wavelengths produced by striking metal with a beam of electrons is given in <link target-id="CNX_UPhysics_41_05_Braking"/>. X-ray transitions in the target metal appear as peaks on top of the braking radiation curve. Photon frequencies corresponding to the spikes in the X-ray distribution are called characteristic frequencies, because they can be used to identify the target metal. The sharp cutoff wavelength (just below the <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>γ</m:mtext></m:msub></m:mrow></m:math> peak) corresponds to an electron that loses all of its energy to a single photon. Radiation of shorter wavelengths is forbidden by the conservation of energy.</para>
+<figure id="CNX_UPhysics_41_05_Braking">
+<media id="fs-id1170902877872" alt="A graph of X-ray intensity versus wavelength in nanometers is shown. The wavelength scale is logarithmic and its range is 0.01 nanometers to just past 1.0 nanometers. The curve starts from a point a little more than half way between 0.01 and 0.1 n m and increases. Before the frequency attains its maximum value at approximately 0.1 n m, three sharp peaks, labeled K sub alpha, K sub gamma, and K sub alpha are formed, after which the X-ray intensity decreases gradually. Two sharp peaks are seen about half way between 0.1 and 1.0, labeled L sub beta and L sub alpha. Another peak, at a wavelength longer than 1.0 n m, is labeled M sub alpha.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_Braking.jpg"/>
+</media>
+<caption>X-ray spectrum from a silver target. The peaks correspond to characteristic frequencies of X-rays emitted by silver when struck by an electron beam.</caption>
+</figure>
+<example id="fs-id1170901912852">
+<para id="fs-id1170903081131"><title>X-Rays from Aluminum</title>
+Estimate the characteristic energy and frequency of the <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math> X-ray for aluminum (<m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math>).</para>
+<para id="fs-id1170901619916"><title>Strategy</title>
+A <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math> X-ray is produced by the transition of an electron in the <emphasis effect="italics">L</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>) shell to the <emphasis effect="italics">K</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>) shell. An electron in the <emphasis effect="italics">L</emphasis> shell “sees” a charge <m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>13</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>,</m:mo></m:mrow></m:math> because one electron in the <emphasis effect="italics">K</emphasis> shell shields the nuclear charge. (Recall, two electrons are not in the <emphasis effect="italics">K</emphasis> shell because the other electron state is vacant.) The frequency of the emitted photon can be estimated from the energy difference between the <emphasis effect="italics">L</emphasis> and <emphasis effect="italics">K</emphasis> shells.</para>
+<para id="fs-id1170902916042"><title>Solution</title>
+The energy difference between the <emphasis effect="italics">L</emphasis> and <emphasis effect="italics">K</emphasis> shells in a hydrogen atom is 10.2 eV. Assuming that other electrons in the <emphasis effect="italics">L</emphasis> shell or in higher-energy shells do not shield the nuclear charge, the energy difference between the <emphasis effect="italics">L</emphasis> and <emphasis effect="italics">K</emphasis> shells in an atom with <m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math> is approximately</para>
+<equation id="fs-id1170903806651"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi></m:mrow></m:msub><m:mo>≈</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>(10.2 eV)</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>13</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10.2</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901741512">Based on the relationship <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>/</m:mtext><m:mi>h</m:mi></m:mrow></m:math>, the frequency of the X-ray is</para>
+<equation id="fs-id1170902768172" class="unnumbered"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1.47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mrow><m:mn>4.14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3.55</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170902704526"><title>Significance</title>
+The wavelength of the typical X-ray is 0.1–10 nm. In this case, the wavelength is:</para>
+<equation id="fs-id1170901479644" class="unnumbered"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>f</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>3.55</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>0.85</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901579789">Hence, the transition <emphasis effect="italics">L</emphasis><m:math><m:mo stretchy="false">→</m:mo></m:math><emphasis effect="italics">K</emphasis> in aluminum produces X-ray radiation.</para>
+</example>
+<para id="fs-id1170902688849">X-ray production provides an important test of quantum mechanics. According to the Bohr model, the energy of a <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> X-ray depends on the nuclear charge or atomic number, <emphasis effect="italics">Z</emphasis>. If <emphasis effect="italics">Z</emphasis> is large, Coulomb forces in the atom are large, energy differences (<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math>) are large, and, therefore, the energy of radiated photons is large. To illustrate, consider a single electron in a multi-electron atom. Neglecting interactions between the electrons, the allowed energy levels are</para>
+<equation id="fs-id1170903052420"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>Z</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902842491">where <emphasis effect="italics">n</emphasis> = 1, 2, …and <emphasis effect="italics">Z</emphasis> is the atomic number of the nucleus. However, an electron in the <emphasis effect="italics">L</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>) shell “sees” a charge <m:math><m:mrow><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math>, because one electron in the <emphasis effect="italics">K</emphasis> shell shields the nuclear charge. (Recall that there is only one electron in the <emphasis effect="italics">K</emphasis> shell because the other electron was “knocked out.”) Therefore, the approximate energies of the electron in the <emphasis effect="italics">L</emphasis> and <emphasis effect="italics">K</emphasis> shells are</para>
+<equation id="fs-id1170902637031" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>E</m:mi><m:mi>L</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msub><m:mi>E</m:mi><m:mi>K</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1170901575178">The energy carried away by a photon in a transition from the <emphasis effect="italics">L</emphasis> shell to the <emphasis effect="italics">K</emphasis> shell is therefore</para>
+<equation id="fs-id1170903037647" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>10.2</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170901758722">where <emphasis effect="italics">Z</emphasis> is the atomic number. In general, the X-ray photon energy for a transition from an outer shell to the <emphasis effect="italics">K</emphasis> shell is</para>
+<equation id="fs-id1170902744334" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mtext>constant</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901541393">or</para>
+<note id="fs-id1170902659301" class="equation-callout">
+<equation id="fs-id1170903111500"><label/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>constant</m:mtext><m:msqrt><m:mi>f</m:mi></m:msqrt><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170901750253">where <emphasis effect="italics">f</emphasis> is the frequency of a <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math> X-ray. This equation is <term>Moseley’s law</term>. For large values of <emphasis effect="italics">Z</emphasis>, we have approximately</para>
+<equation id="fs-id1170902794648" class="unnumbered"><label/><m:math><m:mrow><m:mi>Z</m:mi><m:mo>≈</m:mo><m:mtext>constant</m:mtext><m:msqrt><m:mi>f</m:mi></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901619824">This prediction can be checked by measuring <emphasis effect="italics">f</emphasis> for a variety of metal targets. This model is supported if a plot of <emphasis effect="italics">Z</emphasis> versus <m:math><m:mrow><m:msqrt><m:mi>f</m:mi></m:msqrt></m:mrow></m:math> data (called a <term>Moseley plot</term>) is linear. Comparison of model predictions and experimental results, for both the <emphasis effect="italics">K</emphasis> and <emphasis effect="italics">L</emphasis> series, is shown in <link target-id="CNX_UPhysics_41_05_Moseley"/>. The data support the model that X-rays are produced when an outer shell electron drops in energy to fill a vacancy in an inner shell.</para>
+<note id="fs-id1170901922905" class="check-understanding">
+<exercise id="fs-id1170901927522">
+<problem id="fs-id1170902865916">
+<para id="fs-id1170901936336">X-rays are produced by bombarding a metal target with high-energy electrons. If the target is replaced by another with two times the atomic number, what happens to the frequency of X-rays?</para>
+</problem>
+<solution id="fs-id1170901486196">
+<para id="fs-id1170903056245">frequency quadruples</para>
+</solution>
+</exercise>
+</note>
+<figure id="CNX_UPhysics_41_05_Moseley">
+<media id="fs-id1170903077405" alt="The Moseley plot of characteristic X rays shows a plot of the atomic number as a function of the square root of the frequencies in Hertz divided by 10 to the 16. The vertical scale goes from 0 to 80 and labels the elements whose atomic number are a multiple of 5: P, C a, M n, Z n, B r, Z r, R h, S n, C s, N d, T b, Y b, and R e. The horizontal scale goes from 0 to 24. The data falls along several straight lines, corresponding to the series. The L series, in blue, lies above the K series, in red and all the L lines are steeper than the K lines. The L sub alpha series has the steepest slope of the L series. Two K series curves are shown, with the K sub alpha slope slightly steeper than the K sub beta slope.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_Moseley.jpg"/>
+</media>
+<caption>A Moseley plot. These data were adapted from Moseley’s original data (H. G. J. Moseley, <emphasis effect="italics">Philos. Mag</emphasis>. (6) 77:703, 1914).</caption>
+</figure>
+<example id="fs-id1170902682890">
+<para id="fs-id1170901633873"><title>Characteristic X-Ray Energy</title>
+Calculate the approximate energy of a <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> X-ray from a tungsten anode in an X-ray tube.</para>
+<para id="fs-id1170902941369"><title>Strategy</title>
+Two electrons occupy a filled <emphasis effect="italics">K</emphasis> shell. A vacancy in this shell would leave one electron, so the effective charge for an electron in the <emphasis effect="italics">L</emphasis> shell would be <emphasis effect="italics">Z</emphasis> − 1 rather than <emphasis effect="italics">Z</emphasis>. For tungsten, <m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>74</m:mn><m:mo>,</m:mo></m:mrow></m:math> so the effective charge is 73. This number can be used to calculate the energy-level difference between the <emphasis effect="italics">L</emphasis> and <emphasis effect="italics">K</emphasis> shells, and, therefore, the energy carried away by a photon in the transition <m:math><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1170901760434"><title>Solution</title>
+The effective <emphasis effect="italics">Z</emphasis> is 73, so the <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> X-ray energy is given by</para>
+<equation id="fs-id1170901752832" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901556587">where</para>
+<equation id="fs-id1170901586533" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>Z</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mn>73</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>1</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−72.5</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170902690632">and</para>
+<equation id="fs-id1170902885008" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>Z</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mn>73</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−18.1</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170902779863">Thus,</para>
+<equation id="fs-id1170899265589" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mn>−18.1</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−72.5</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>54.4</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170899246359"><title>Significance</title>
+This large photon energy is typical of X-rays. X-ray energies become progressively larger for heavier elements because their energy increases approximately as <m:math><m:mrow><m:msup><m:mi>Z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. An acceleration voltage of more than 50,000 volts is needed to “knock out” an inner electron from a tungsten atom.</para>
+</example>
+</section>
+<section id="fs-id1170903019983">
+<title>X-ray Technology</title>
+<para id="fs-id1170902759155">X-rays have many applications, such as in medical diagnostics (<link target-id="CNX_UPhysics_41_05_TeethChest"/>), inspection of luggage at airports (<link target-id="CNX_UPhysics_41_05_Luggage"/>), and even detection of cracks in crucial aircraft components. The most common X-ray images are due to shadows. Because X-ray photons have high energy, they penetrate materials that are opaque to visible light. The more energy an X-ray photon has, the more material it penetrates. The depth of penetration is related to the density of the material, as well as to the energy of the photon. The denser the material, the fewer X-ray photons get through and the darker the shadow. X-rays are effective at identifying bone breaks and tumors; however, overexposure to X-rays can damage cells in biological organisms.</para>
+<figure id="CNX_UPhysics_41_05_TeethChest">
+<media id="fs-id1170902615680" alt="Figure (a) shows an X-ray image of front view of the jaw, especially the teeth. Figure (b) shows a drawing of an dental x ray machine.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_TeethChest.jpg"/>
+</media>
+<caption>(a) An X-ray image of a person’s teeth. (b) A typical X-ray machine in a dentist’s office produces relatively low-energy radiation to minimize patient exposure. (credit a: modification of work by “Dmitry G”/Wikimedia Commons)</caption>
+</figure>
+<figure id="CNX_UPhysics_41_05_Luggage">
+<media id="fs-id1170899266417" alt="A colored X-ray image of a piece of luggage.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_Luggage.jpg"/>
+</media>
+<caption>An X-ray image of a piece of luggage. The denser the material, the darker the shadow. Object colors relate to material composition—metallic objects show up as blue in this image. (credit: “IDuke”/Wikimedia Commons)</caption>
+</figure>
+<para id="fs-id1170902923280">A standard X-ray image provides a two-dimensional view of the object. However, in medical applications, this view does not often provide enough information to draw firm conclusions. For example, in a two-dimensional X-ray image of the body, bones can easily hide soft tissues or organs. The CAT (computed axial tomography) scanner addresses this problem by collecting numerous X-ray images in “slices” throughout the body. Complex computer-image processing of the relative absorption of the X-rays, in different directions, can produce a highly detailed three-dimensional X-ray image of the body.</para>
+<para id="fs-id1170901501480">X-rays can also be used to probe the structures of atoms and molecules. Consider X-rays incident on the surface of a crystalline solid. Some X-ray photons reflect at the surface, and others reflect off the “plane” of atoms just below the surface. Interference between these photons, for different angles of incidence, produces a beautiful image on a screen (<link target-id="CNX_UPhysics_41_05_XrayDiff"/>). The interaction of X-rays with a solid is called X-ray diffraction. The most famous example using X-ray diffraction is the discovery of the double-helix structure of DNA.</para>
+<figure id="CNX_UPhysics_41_05_XrayDiff">
+<media id="fs-id1170901557975" alt="An x ray diffraction image of a protein. The image shows an array of small black dots, arranged in slightly curved rows, on a white background. A white arm extends from the top left to the center of the image, where there is a small white disk. This white disk is the shadow of the beam block, which blocks the part of the incident x ray beam that was not diffracted by the crystal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_XrayDiff.jpg"/>
+</media>
+<caption>X-ray diffraction from the crystal of a protein (hen egg lysozyme) produced this interference pattern. Analysis of the pattern yields information about the structure of the protein. (credit: “Del45”/Wikimedia Commons)</caption>
+</figure>
+</section>
+<section id="fs-id1170903096211" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1170901594271" list-type="bulleted" bullet-style="bullet">
+<item>Radiation is absorbed and emitted by atomic energy-level transitions.</item>
+<item>Quantum numbers can be used to estimate the energy, frequency, and wavelength of photons produced by atomic transitions.</item>
+<item>Atomic fluorescence occurs when an electron in an atom is excited several steps above the ground state by the absorption of a high-energy ultraviolet (UV) photon.</item>
+<item>X-ray photons are produced when a vacancy in an inner shell of an atom is filled by an electron from the outer shell of the atom.</item>
+<item>The frequency of X-ray radiation is related to the atomic number <emphasis effect="italics">Z</emphasis> of an atom.</item>
+</list>
+</section>
+<section id="fs-id1170902661904" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1170901599950">
+<problem id="fs-id1170903141729">
+<para id="fs-id1170901497472">Atomic and molecular spectra are discrete. What does discrete mean, and how are discrete spectra related to the quantization of energy and electron orbits in atoms and molecules?</para>
+</problem>
+<solution id="fs-id1170903110242">
+<para id="fs-id1170901674544">Atomic and molecular spectra are said to be “discrete,” because only certain spectral lines are observed. In contrast, spectra from a white light source (consisting of many photon frequencies) are continuous because a continuous “rainbow” of colors is observed.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902748537">
+<problem id="fs-id1170901773336">
+<para id="fs-id1170902683228">Discuss the process of the absorption of light by matter in terms of the atomic structure of the absorbing medium.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901597570">
+<problem id="fs-id1170901595381">
+<para id="fs-id1170902643840">NGC1763 is an emission nebula in the Large Magellanic Cloud just outside our Milky Way Galaxy. Ultraviolet light from hot stars ionize the hydrogen atoms in the nebula. As protons and electrons recombine, light in the visible range is emitted. Compare the energies of the photons involved in these two transitions.</para>
+</problem>
+<solution id="fs-id1170902928625">
+<para id="fs-id1170902747805">UV light consists of relatively high frequency (short wavelength) photons. So the energy of the absorbed photon and the energy transition (<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math>) in the atom is relatively large. In comparison, visible light consists of relatively lower-frequency photons. Therefore, the energy transition in the atom and the energy of the emitted photon is relatively small.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902909379">
+<problem id="fs-id1170903079519">
+<para id="fs-id1170903041080">Why are X-rays emitted only for electron transitions to inner shells? What type of photon is emitted for transitions between outer shells?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901640067">
+<problem id="fs-id1170901513031">
+<para id="fs-id1170901583450">How do the allowed orbits for electrons in atoms differ from the allowed orbits for planets around the sun?</para>
+</problem>
+<solution id="fs-id1170902703529">
+<para id="fs-id1170901802237">For macroscopic systems, the quantum numbers are very large, so the energy difference (<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math>) between adjacent energy levels (orbits) is very small. The energy released in transitions between these closely space energy levels is much too small to be detected.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170901650992" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1170902759714">
+<problem id="fs-id1170902637938">
+<para id="fs-id1170902877036">What is the minimum frequency of a photon required to ionize: (a) a <m:math><m:mrow><m:msup><m:mrow><m:mtext>He</m:mtext></m:mrow><m:mo>+</m:mo></m:msup></m:mrow></m:math> ion in its ground state? (b) A <m:math><m:mrow><m:msup><m:mrow><m:mtext>Li</m:mtext></m:mrow><m:mrow><m:mtext>2+</m:mtext></m:mrow></m:msup></m:mrow></m:math> ion in its first excited state?</para>
+</problem>
+<solution id="fs-id1170902872812">
+<para id="fs-id1170903111029">For <m:math><m:mrow><m:msup><m:mrow><m:mtext>He</m:mtext></m:mrow><m:mo>+</m:mo></m:msup></m:mrow></m:math>, one electron “orbits” a nucleus with two protons and two neutrons (<m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>). Ionization energy refers to the energy required to remove the electron from the atom. The energy needed to remove the electron in the ground state of <m:math><m:mrow><m:msup><m:mrow><m:mtext>He</m:mtext></m:mrow><m:mo>+</m:mo></m:msup></m:mrow></m:math> ion to infinity is negative the value of the ground state energy, written:<newline/>
+<m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>−54.4</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math><newline/>
+Thus, the energy to ionize the electron is <m:math><m:mrow><m:mtext>+54.4</m:mtext><m:mspace width="0.2em"/><m:mtext>eV.</m:mtext></m:mrow></m:math><newline/>
+Similarly, the energy needed to remove an electron in the first excited state of <m:math><m:mrow><m:msup><m:mrow><m:mtext>Li</m:mtext></m:mrow><m:mrow><m:mtext>2+</m:mtext></m:mrow></m:msup></m:mrow></m:math> ion to infinity is negative the value of the first excited state energy, written:<newline/>
+<m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>−30.6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math><newline/>
+The energy to ionize the electron is 30.6 eV.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901538281">
+<problem id="fs-id1170901748024">
+<para id="fs-id1170901534226">The ion <m:math><m:mrow><m:msup><m:mrow><m:mtext>Li</m:mtext></m:mrow><m:mrow><m:mtext>2+</m:mtext></m:mrow></m:msup></m:mrow></m:math> makes an atomic transition from an <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> state to an <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> state. (a) What is the energy of the photon emitted during the transition? (b) What is the wavelength of the photon?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901839434">
+<problem id="fs-id1170902909684">
+<para id="fs-id1170902884551">The red light emitted by a ruby laser has a wavelength of 694.3 nm. What is the difference in energy between the initial state and final state corresponding to the emission of the light?</para>
+</problem>
+<solution id="fs-id1170902601623">
+<para id="fs-id1170901521988">The wavelength of the laser is given by:<newline/>
+<m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math><newline/>
+where <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>γ</m:mi></m:msub></m:mrow></m:math> is the energy of the photon and <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> is the magnitude of the energy difference. Solving for the latter, we get:<newline/>
+<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>−2.795</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math><newline/>
+The negative sign indicates that the electron lost energy in the transition.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903090688">
+<problem id="fs-id1170901651040">
+<para id="fs-id1170903099050">The yellow light from a sodium-vapor street lamp is produced by a transition of sodium atoms from a 3<emphasis effect="italics">p</emphasis> state to a <emphasis effect="italics">3s</emphasis> state. If the difference in energies of those two states is 2.10 eV, what is the wavelength of the yellow light?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903027696">
+<problem id="fs-id1170902034975">
+<para id="fs-id1170901634203">Estimate the wavelength of the <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math> X-ray from calcium.</para>
+</problem>
+<solution id="fs-id1170902865387">
+<para id="fs-id1170901763549"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi></m:mrow></m:msub><m:mo>≈</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>(</m:mo><m:mn>10.2</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>3.68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170899265579">
+<problem id="fs-id1170903032813">
+<para id="fs-id1170901800234">Estimate the frequency of the <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math> X-ray from cesium.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902958119">
+<problem id="fs-id1170903112201">
+<para id="fs-id1170903049375">X-rays are produced by striking a target with a beam of electrons. Prior to striking the target, the electrons are accelerated by an electric field through a potential energy difference:</para>
+<para id="fs-id1170902600752"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>e</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1170902724064">where <emphasis effect="italics">e</emphasis> is the charge of an electron and <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> is the voltage difference. If <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>15,000</m:mn></m:mrow></m:math> volts, what is the minimum wavelength of the emitted radiation?</para>
+</problem>
+<solution id="fs-id1170903077859">
+<para id="fs-id1170899367741">According to the conservation of the energy, the potential energy of the electron is converted completely into kinetic energy. The initial kinetic energy of the electron is zero (the electron begins at rest). So, the kinetic energy of the electron just before it strikes the target is:<newline/>
+<m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mi>e</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If <emphasis effect="italics">all</emphasis> of this energy is converted into braking radiation, the frequency of the emitted radiation is a maximum, therefore:<newline/>
+<m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>e</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow><m:mi>h</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+When the emitted frequency is a maximum, then the emitted wavelength is a minimum, so:<newline/>
+<m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>min</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0.1293</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901856794">
+<problem id="fs-id1170902860005">
+<para id="fs-id1170902751112">For the preceding problem, what happens to the minimum wavelength if the voltage across the X-ray tube is doubled?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901534546">
+<problem id="fs-id1170903051870">
+<para id="fs-id1170901551413">Suppose the experiment in the preceding problem is conducted with muons. What happens to the minimum wavelength?</para>
+</problem>
+<solution id="fs-id1170899457720">
+<para id="fs-id1170901609957">A muon is 200 times heavier than an electron, but the minimum wavelength does not depend on mass, so the result is unchanged.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901578203">
+<problem id="fs-id1170901874594">
+<para id="fs-id1170901515035">An X-ray tube accelerates an electron with an applied voltage of 50 kV toward a metal target. (a) What is the shortest-wavelength X-ray radiation generated at the target? (b) Calculate the photon energy in eV. (c) Explain the relationship of the photon energy to the applied voltage.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901980450">
+<problem id="fs-id1170899350841">
+<para id="fs-id1170901857210">A color television tube generates some X-rays when its electron beam strikes the screen. What is the shortest wavelength of these X-rays, if a 30.0-kV potential is used to accelerate the electrons? (Note that TVs have shielding to prevent these X-rays from exposing viewers.)</para>
+</problem>
+<solution id="fs-id1170901495404">
+<para id="fs-id1170899293217"><m:math><m:mrow><m:mn>4.13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902723094">
+<problem id="fs-id1170902928550">
+<para id="fs-id1170903090350">An X-ray tube has an applied voltage of 100 kV. (a) What is the most energetic X-ray photon it can produce? Express your answer in electron volts and joules. (b) Find the wavelength of such an X-ray.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902648791">
+<problem id="fs-id1170902955859">
+<para id="fs-id1170902925417">The maximum characteristic X-ray photon energy comes from the capture of a free electron into a <emphasis effect="italics">K</emphasis> shell vacancy. What is this photon energy in keV for tungsten, assuming that the free electron has no initial kinetic energy?</para>
+</problem>
+<solution id="fs-id1170901614645">
+<para id="fs-id1170903124342">72.5 keV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903084325">
+<problem id="fs-id1170902960785">
+<para id="fs-id1170902777808">What are the approximate energies of the <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>β</m:mi></m:msub></m:mrow></m:math> X-rays for copper?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902893542">
+<problem id="fs-id1170901761338">
+<para id="fs-id1170902649941">Compare the X-ray photon wavelengths for copper and gold.</para>
+</problem>
+<solution id="fs-id1170902743796">
+<para id="fs-id1170902684811">The atomic numbers for Cu and Au are <m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>29</m:mn></m:mrow></m:math> and 79, respectively. The X-ray photon frequency for gold is greater than copper by a factor:<newline/>
+<m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>Au</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>79</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>29</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>≈</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+Therefore, the X-ray wavelength of Au is about eight times shorter than for copper.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901553860">
+<problem id="fs-id1170901648451">
+<para id="fs-id1170902780773">The approximate energies of the <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>β</m:mi></m:msub></m:mrow></m:math> X-rays for copper are <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mn>8.00</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:msub><m:mi>K</m:mi><m:mi>β</m:mi></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mn>9.48</m:mn><m:mspace width="0.2em"/><m:mtext>keV,</m:mtext></m:mrow></m:math> respectively. Determine the ratio of X-ray frequencies of gold to copper, then use this value to estimate the corresponding energies of <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>β</m:mi></m:msub></m:mrow></m:math> X-rays for gold.</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170902887684">
+<term>braking radiation</term>
+<meaning id="fs-id1170902686692">radiation produced by targeting metal with a high-energy electron beam (or radiation produced by the acceleration of any charged particle in a material)</meaning>
+</definition>
+<definition id="fs-id1170902851307">
+<term>fluorescence</term>
+<meaning id="fs-id1170901867903">radiation produced by the excitation and subsequent, gradual de-excitation of an electron in an atom</meaning>
+</definition>
+<definition id="fs-id1170902772283">
+<term>Moseley’s law</term>
+<meaning id="fs-id1170903077586">relationship between the atomic number and X-ray photon frequency for X-ray production</meaning>
+</definition>
+<definition id="fs-id1170901478171">
+<term>Moseley plot</term>
+<meaning id="fs-id1170902759776">plot of the atomic number versus the square root of X-ray frequency</meaning>
+</definition>
+<definition id="fs-id1170901626575">
+<term>selection rules</term>
+<meaning id="fs-id1170901635157">rules that determine whether atomic transitions are allowed or forbidden (rare)</meaning>
+</definition>
+</glossary>
+</document>

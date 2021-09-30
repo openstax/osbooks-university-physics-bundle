@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m58309</md:content-id>
   <md:title>Work-Energy Theorem</md:title>
-  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para><list id="list-00001">
+  <md:abstract><para>By the end of this section, you will be able to:</para><list>
 <item>Apply the work-energy theorem to find information about the motion of a particle, given the forces acting on it</item>
 <item>Use the work-energy theorem to find information about the forces acting on a particle, given information about its motion</item>
 </list></md:abstract>
@@ -12,12 +12,12 @@
 </metadata>
 
 <content>
-<para id="fs-id1165036745203">We have discussed how to find the work done on a particle by the forces that act on it, but how is that work manifested in the motion of the particle? According to Newton’s second law of motion, the sum of all the forces acting on a particle, or the net force, determines the rate of change in the momentum of the particle, or its motion. Therefore, we should consider the work done by all the forces acting on a particle, or the <term id="term-00001">net work</term>, to see what effect it has on the particle’s motion.</para>
+<para id="fs-id1165036745203">We have discussed how to find the work done on a particle by the forces that act on it, but how is that work manifested in the motion of the particle? According to Newton’s second law of motion, the sum of all the forces acting on a particle, or the net force, determines the rate of change in the momentum of the particle, or its motion. Therefore, we should consider the work done by all the forces acting on a particle, or the <term>net work</term>, to see what effect it has on the particle’s motion.</para>
 <para id="fs-id1165036881803">Let’s start by looking at the net work done on a particle as it moves over an infinitesimal displacement, which is the dot product of the net force and the displacement: <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Newton’s second law tells us that <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> so <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> For the mathematical functions describing the motion of a physical particle, we can rearrange the differentials <emphasis effect="italics">dt</emphasis>, etc., as algebraic quantities in this expression, that is,</para><equation id="fs-id1165037178454" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1165038158678">where we substituted the velocity for the time derivative of the displacement and used the commutative property of the dot product [<link target-id="fs-id1167134625856" document="m58280"/>]. Since derivatives and integrals of scalars are probably more familiar to you at this point, we express the dot product in terms of Cartesian coordinates before we integrate between any two points <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> on the particle’s trajectory. This gives us the net work done on the particle:</para>
 <equation id="fs-id1165037271104"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext><m:mo>,</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:mi>d</m:mi><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>y</m:mi></m:msub><m:mi>d</m:mi><m:msub><m:mi>v</m:mi><m:mi>y</m:mi></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>z</m:mi></m:msub><m:mi>d</m:mi><m:msub><m:mi>v</m:mi><m:mi>z</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mrow><m:mo>|</m:mo><m:mrow><m:mrow><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>v</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>v</m:mi><m:mi>z</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mrow><m:mo>|</m:mo><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>K</m:mi><m:mi>A</m:mi></m:msub><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math>
 </equation>
-<para id="fs-id1165038335952">In the middle step, we used the fact that the square of the velocity is the sum of the squares of its Cartesian components, and in the last step, we used the definition of the particle’s kinetic energy. This important result is called the <term id="term-00002">work-energy theorem</term> (<link target-id="CNX_UPhysics_07_03_HorsePull"/>).</para>
+<para id="fs-id1165038335952">In the middle step, we used the fact that the square of the velocity is the sum of the squares of its Cartesian components, and in the last step, we used the definition of the particle’s kinetic energy. This important result is called the <term>work-energy theorem</term> (<link target-id="CNX_UPhysics_07_03_HorsePull"/>).</para>
 <note id="fs-id1165036884203">
 <title>Work-Energy Theorem</title>
 <para id="fs-id1165036972359">The net work done on a particle equals the change in the particle’s kinetic energy:</para>
@@ -54,7 +54,7 @@
 </note>
 <example id="fs-id1165038363881">
 <para id="fs-id1165037997616"><title>Loop-the-Loop</title>
-The frictionless track for a toy car includes a <term class="no-emphasis" id="term-00003">loop-the-loop</term> of radius <emphasis effect="italics">R</emphasis>. How high, measured from the bottom of the loop, must the car be placed to start from rest on the approaching section of track and go all the way around the loop?</para>
+The frictionless track for a toy car includes a <term class="no-emphasis">loop-the-loop</term> of radius <emphasis effect="italics">R</emphasis>. How high, measured from the bottom of the loop, must the car be placed to start from rest on the approaching section of track and go all the way around the loop?</para>
 <figure id="CNX_UPhysics_07_03_Loop">
 <media id="fs-id1165038130064" alt="A track descends to the ground, forms a circular loop of radius R, then continues horizontally at ground level. Point 1 is before the loop, near the start of the track at elevation y sub 1 above the ground. Point 2 is at the top of the loop, at elevation y sub 2 = 2 R. At point 2, there are 2 forces, N and m g. Both forces point vertically down.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_03_Loop.jpg"/>
@@ -65,10 +65,10 @@ The frictionless track for a toy car includes a <term class="no-emphasis" id="te
 The free-body diagram at the final position of the object is drawn in <link target-id="CNX_UPhysics_07_03_Loop"/>. The gravitational work is the only work done over the displacement that is not zero. Since the weight points in the same direction as the net vertical displacement, the total work done by the gravitational force is positive. From the work-energy theorem, the starting height determines the speed of the car at the top of the loop,</para>
 <equation id="fs-id1165038022495" class="unnumbered"><label/><m:math><m:mrow><m:mo>–</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1165038239026">where the notation is shown in the accompanying figure. At the top of the loop, the normal force and gravity are both down and the acceleration is centripetal, so</para>
 <equation id="fs-id1165038018853" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>top</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
-<para id="fs-id1165038034300">The condition for maintaining contact with the track is that there must be some normal force, however slight; that is, <m:math><m:mrow><m:mi>N</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow></m:math>. Substituting for <m:math><m:mrow><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:math> and <emphasis effect="italics">N</emphasis>, we can find the condition for <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>.</para>
+<para id="fs-id1165038034300">The condition for maintaining contact with the track is that there must be some normal force, however slight; that is, <m:math><m:mrow><m:mi>N</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Substituting for <m:math><m:mrow><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:math> and <emphasis effect="italics">N</emphasis>, we can find the condition for <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>.</para>
 <para id="fs-id1165038277995"><title>Solution</title>
 Implement the steps in the strategy to arrive at the desired result:</para>
-<equation id="fs-id1165037899383" class="unnumbered"><label/><m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>R</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>></m:mo><m:mn>0</m:mn><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>R</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1165038372133"><title>Significance</title>
+<equation id="fs-id1165037899383" class="unnumbered"><label/><m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>R</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>R</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1165038372133"><title>Significance</title>
 On the surface of the loop, the normal component of gravity and the normal contact force must provide the centripetal acceleration of the car going around the loop. The tangential component of gravity slows down or speeds up the car. A child would find out how high to start the car by trial and error, but now that you know the work-energy theorem, you can predict the minimum height (as well as other more useful results) from physical principles. By using the work-energy theorem, you did not have to solve a differential equation to determine the height.</para>
 </example>
 <note id="fs-id1165038305971" class="check-understanding">
@@ -178,4 +178,110 @@ We could have used Newton’s second law and kinematics in this example, but the
 </exercise>
 <exercise id="fs-id1165037867393">
 <problem id="fs-id1165037983879">
-<para id="fs-id1165038046664">Using energy considerations, ca
+<para id="fs-id1165038046664">Using energy considerations, calculate the average force a 60.0-kg sprinter exerts backward on the track to accelerate from 2.00 to 8.00 m/s in a distance of 25.0 m, if he encounters a headwind that exerts an average force of 30.0 N against him.</para>
+</problem>
+<solution id="fs-id1165038006594">
+<para id="fs-id1165037221080">102 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038132596">
+<problem id="fs-id1165037056894">
+<para id="fs-id1165038058069">A 5.0-kg box has an acceleration of <m:math><m:mrow><m:mn>2.0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> when it is pulled by a horizontal force across a surface with <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>K</m:mi></m:msub><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mo>.</m:mo></m:mrow></m:math> Find the work done over a distance of 10 cm by (a) the horizontal force, (b) the frictional force, and (c) the net force. (d) What is the change in kinetic energy of the box?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038183594">
+<problem id="fs-id1165038013856">
+<para id="fs-id1165037948977">A constant 10-N horizontal force is applied to a 20-kg cart at rest on a level floor. If friction is negligible, what is the speed of the cart when it has been pushed 8.0 m?</para>
+</problem>
+<solution id="fs-id1165037935511">
+<para id="fs-id1165036873436">2.8 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036865587">
+<problem id="fs-id1165036891664">
+<para id="fs-id1165036859402">In the preceding problem, the 10-N force is applied at an angle of <m:math><m:mrow><m:mn>45</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> below the horizontal. What is the speed of the cart when it has been pushed 8.0 m?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036754213">
+<problem id="fs-id1165038133870">
+<para id="fs-id1165038293766">Compare the work required to stop a 100-kg crate sliding at 1.0 m/s and an 8.0-g bullet traveling at 500 m/s.</para>
+</problem>
+<solution id="fs-id1165038217592">
+<para id="fs-id1165038183119"><m:math><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>bullet</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>W</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>crate</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036966322">
+<problem id="fs-id1165037161957">
+<para id="fs-id1165038154187">A wagon with its passenger sits at the top of a hill. The wagon is given a slight push and rolls 100 m down a <m:math><m:mrow><m:mn>10</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> incline to the bottom of the hill. What is the wagon’s speed when it reaches the end of the incline. Assume that the retarding force of friction is negligible.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036763209">
+<problem id="fs-id1165038036506">
+<para id="fs-id1165037949221">An 8.0-g bullet with a speed of 800 m/s is shot into a wooden block and penetrates 20 cm before stopping. What is the average force of the wood on the bullet? Assume the block does not move.</para>
+</problem>
+<solution id="fs-id1165036976729">
+<para id="fs-id1165038014121">12.8 kN</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038018269">
+<problem id="fs-id1165038313831">
+<para id="fs-id1165036754152">A 2.0-kg block starts with a speed of 10 m/s at the bottom of a plane inclined at <m:math><m:mrow><m:mn>37</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> to the horizontal. The coefficient of sliding friction between the block and plane is <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>k</m:mi></m:msub><m:mo>=</m:mo><m:mn>0.30</m:mn><m:mo>.</m:mo></m:mrow></m:math> (a) Use the work-energy principle to determine how far the block slides along the plane before momentarily coming to rest. (b) After stopping, the block slides back down the plane. What is its speed when it reaches the bottom? (<emphasis effect="italics">Hint:</emphasis> For the round trip, only the force of friction does work on the block.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036886605">
+<problem id="fs-id1165036987671">
+<para id="fs-id1165038002585">When a 3.0-kg block is pushed against a massless spring of force constant <m:math><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m,</m:mtext></m:mrow></m:math> the spring is compressed 8.0 cm. The block is released, and it slides 2.0 m (from the point at which it is released) across a horizontal surface before friction stops it. What is the coefficient of kinetic friction between the block and the surface?</para></problem>
+<solution id="fs-id1165037860818">
+<para id="fs-id1165038023232">0.25</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037207536">
+<problem id="fs-id1165037033140">
+<para id="fs-id1165038006131">A small block of mass 200 g starts at rest at A, slides to B where its speed is <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext></m:mrow></m:math> then slides along the horizontal surface a distance 10 m before coming to rest at C. (See below.) (a) What is the work of friction along the curved surface? (b) What is the coefficient of kinetic friction along the horizontal surface?</para>
+<media id="fs-id1165037046390" alt="A block slides along a track that curves down and then levels off and becomes horizontal. Point A is near the top of the track, 4.0 meters above the horizontal part of the track. Points B and C are on the horizontal section and are separated by 10 meters. The Block starts at point A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_03_BlockSlide_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165037862102">
+<problem id="fs-id1165038054438">
+<para id="fs-id1165038016034">A small object is placed at the top of an incline that is essentially frictionless. The object slides down the incline onto a rough horizontal surface, where it stops in 5.0 s after traveling 60 m. (a) What is the speed of the object at the bottom of the incline and its acceleration along the horizontal surface? (b) What is the height of the incline?</para>
+</problem>
+<solution id="fs-id1165038011958">
+<para id="fs-id1165037974322">a. 24 m/s, −4.8 m/s<sup>2</sup>; b. 29.4 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038386323">
+<problem id="fs-id1165037026354">
+<para id="fs-id1165038018335">When released, a 100-g block slides down the path shown below, reaching the bottom with a speed of 4.0 m/s. How much work does the force of friction do?</para>
+<media id="fs-id1165038046088" alt="A block slides down an irregularly curved path. The block starts near the top of the path at an elevation of 2.0 meters. At the bottom of the path it is moving horizontally at 4.0 meters per second.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_03_BlockPath_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165038017772">
+<problem id="fs-id1165036765859">
+<para id="fs-id1165037019252">A 0.22LR-caliber bullet like that mentioned in <link target-id="fs-id1165036746143"/> is fired into a door made of a single thickness of 1-inch pine boards. How fast would the bullet be traveling after it penetrated through the door?</para>
+</problem>
+<solution id="fs-id1165036783544">
+<para id="fs-id1165037998318">310 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036890190">
+<problem id="fs-id1165037089556">
+<para id="fs-id1165038230247">A sled starts from rest at the top of a snow-covered incline that makes a <m:math><m:mrow><m:mn>22</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> angle with the horizontal. After sliding 75 m down the slope, its speed is 14 m/s. Use the work-energy theorem to calculate the coefficient of kinetic friction between the runners of the sled and the snowy surface.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165037154567">
+<term>net work</term>
+<meaning id="fs-id1165038010179">work done by all the forces acting on an object</meaning>
+</definition>
+<definition id="fs-id1165038306067">
+<term>work-energy theorem</term>
+<meaning id="fs-id1165037270191">net work done on a particle is equal to the change in its kinetic energy</meaning>
+</definition>
+</glossary>
+</document>
