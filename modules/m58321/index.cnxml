@@ -94,7 +94,7 @@ Notice that after the collision, the blue puck is moving to the right; its direc
 <note id="fs-id1167131167400" class="check-understanding">
 <exercise id="fs-id1167134815837">
 <problem id="fs-id1167134518181">
-<para id="fs-id1167134925701"> There is a possible mathematical second to the system of equations solved in this example (because the energy equation is quadratic): <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,f</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>−2.5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>,</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,f</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. This solution is unacceptable on physical grounds; what’s wrong with it?</para>
+<para id="fs-id1167134925701"> There is a possible mathematical second to the system of equations solved in this example (because the energy equation is quadratic): <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,f</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,f</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>−2.5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>. This solution is unacceptable on physical grounds; what’s wrong with it?</para>
 </problem>
 <solution id="fs-id1167134509591">
 <para id="fs-id1167134644875">This solution represents the case in which no interaction takes place: the first puck misses the second puck and continues on with a velocity of 2.5 m/s to the left. This case offers no meaningful physical insights.</para>
@@ -139,7 +139,7 @@ At a stoplight, a large truck (3000 kg) collides with a motionless small car (12
 <para id="fs-id1167134660148"><title>Strategy</title>
 At first it may seem we don’t have enough information to solve this problem. Although we know the initial speed of the car, we don’t know the speed of the truck (indeed, that’s what we’re asked to find), so we don’t know the initial momentum of the system. Similarly, we know the final speed of the truck, but not the speed of the car immediately after impact. The fact that the car eventually slid to a speed of zero doesn’t help with the final momentum, since an external friction force caused that. Nor can we calculate an impulse, since we don’t know the collision time, or the amount of time the car slid before stopping. A useful strategy is to impose a restriction on the analysis.</para>
 <para id="fs-id1167134457563">Suppose we define a system consisting of just the truck and the car. The momentum of this system isn’t conserved, because of the friction between the car and the road. But if we <emphasis effect="italics">could</emphasis> find the speed of the car the instant after impact—before friction had any measurable effect on the car—then we could consider the momentum of the system to be conserved, with that restriction.</para>
-<para id="fs-id1167134633042">Can we find the final speed of the car? Yes; we invoke the work-kinetic energy theorem.</para>
+<para id="fs-id1167134633042">Can we find the final speed of the car? Yes; we invoke the work-energy theorem.</para>
 <para id="fs-id1167131151821"><title>Solution</title>
 First, define some variables. Let:</para>
 <list id="fs-id1167134653677" list-type="bulleted" bullet-style="bullet">
@@ -181,7 +181,7 @@ This is an example of the type of analysis done by investigators of major car ac
 <para id="fs-id1167134644456"> Suppose there had been no friction (the collision happened on ice); that would make <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub></m:mrow></m:math> zero, and thus <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>c,f</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub><m:mi>g</m:mi><m:mi>d</m:mi></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, which is obviously wrong. What is the mistake in this conclusion?</para>
 </problem>
 <solution id="fs-id1167134645135">
-<para id="fs-id1167134671290">If zero friction acts on the car, then it will continue to slide indefinitely (<m:math><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>), so we cannot use the work-kinetic-energy theorem as is done in the example. Thus, we could not solve the problem from the information given.</para>
+<para id="fs-id1167134671290">If zero friction acts on the car, then it will continue to slide indefinitely (<m:math><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>), so we cannot use the work-energy theorem as is done in the example. Thus, we could not solve the problem from the information given.</para>
 </solution>
 </exercise>
 </note>
